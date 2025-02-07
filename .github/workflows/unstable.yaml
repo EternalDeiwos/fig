@@ -35,4 +35,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: fig-${{ matrix.os }}-${{ matrix.version }}
-          path: cli/${{ matrix.os == 'windows-latest' && 'fig' || 'fig.exe' }}
+          path: cli/${{ matrix.os == 'windows-latest' && 'fig.exe' || 'fig' }}
