@@ -16,11 +16,17 @@ jobs:
 
     strategy:
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        os: [ubuntu-latest]
         version:
-          - ${{ startsWith(github.ref, 'refs/tags/') && github.ref_name || 'unstable' }}
+          - ${{ github.ref_name || 'unstable' }}
+        target:
+          - x86_64-pc-windows-msvc
+          - x86_64-apple-darwin
+          - aarch64-apple-darwin
+          - x86_64-unknown-linux-gnu
+          - aarch64-unknown-linux-gnu
 
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
     steps:
       - name: Clone repository
@@ -32,17 +38,19 @@ jobs:
           deno-version: v2.x
 
       - name: Build step
-        run: cd cli && deno compile --allow-read -o fig-${{ matrix.os }}-${{ matrix.version }} main.ts
+        run: |
+          cd cli
+          deno compile --allow-read -o fig-${{ matrix.target }}-${{ matrix.version }} main.ts
 
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
-          name: fig-${{ matrix.os }}-${{ matrix.version }}
-          path: cli/fig-${{ matrix.os }}-${{ matrix.version }}${{ matrix.os == 'windows-latest' && '.exe' || '' }}
+          name: fig-${{ matrix.target }}-${{ matrix.version }}
+          path: cli/fig-${{ matrix.target }}-${{ matrix.version }}${{ matrix.target == 'x86_64-pc-windows-msvc' && '.exe' || '' }}
 
       - name: Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: cli/fig-${{ matrix.os }}-${{ matrix.version }}${{ matrix.os == 'windows-latest' && '.exe' || '' }}
+          files: cli/fig-${{ matrix.target }}-${{ matrix.version }}${{ matrix.target == 'x86_64-pc-windows-msvc' && '.exe' || '' }}
           latest: true
