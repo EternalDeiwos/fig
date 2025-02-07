@@ -5,6 +5,7 @@ import { FHStructLoader } from './FHStructLoader.ts'
 
 export type RunOptions = {
   _: (string | number)[]
+  url?: string
 }
 
 export enum Command {
@@ -16,7 +17,10 @@ export async function main(options: RunOptions) {
 
   switch (command) {
     case Command.CATALOG: {
-      const builder = await FHCatalogBuilder.init(new FHStructLoader(warPath as string))
+      const builder = await FHCatalogBuilder.init(
+        new FHStructLoader(warPath as string),
+        options.url,
+      )
       await builder.load('War/Content/Blueprints/**/*.json')
       const catalog = builder.getCatalog().sort((a, b) => {
         const aName = (a?.CodeName as string)?.toLowerCase()
@@ -47,6 +51,7 @@ function printUsage() {
   console.log('  catalog')
   console.log('')
   console.log('General Options:')
+  console.log('  -u, --url        Base url')
   console.log('  -h, --help       Show this help message')
   console.log('  -v, --version    Show the version string')
 }
@@ -54,7 +59,9 @@ function printUsage() {
 if (import.meta.main) {
   const { help, version, ...args } = parseArgs(Deno.args, {
     boolean: ['help', 'version'],
+    string: ['url'],
     alias: {
+      url: 'u',
       help: 'h',
       version: 'v',
     },

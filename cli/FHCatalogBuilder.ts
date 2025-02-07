@@ -8,6 +8,7 @@ export class FHCatalogBuilder {
   constructor(
     private readonly loader: FHStructLoader,
     private readonly common: FHCommonCatalogData,
+    private readonly baseUrl: string = '',
   ) {}
 
   getLoader() {
@@ -22,8 +23,8 @@ export class FHCatalogBuilder {
     return this.catalog
   }
 
-  static async init(loader: FHStructLoader) {
-    return new FHCatalogBuilder(loader, await FHCommonCatalogData.init(loader))
+  static async init(loader: FHStructLoader, url?: string) {
+    return new FHCatalogBuilder(loader, await FHCommonCatalogData.init(loader), url)
   }
 
   async load(path: string) {
@@ -106,6 +107,19 @@ export class FHCatalogBuilder {
     ]
 
     struct.extractValues(['Properties'], coreProperties, combinedObject)
+
+    if (Object.hasOwn(combinedObject, 'Icon')) {
+      const iconPath = (combinedObject.Icon as string).replace(/(\.[0-9]+)?$/, '.png')
+      combinedObject.Icon = `${this.baseUrl}/${iconPath}`
+    }
+
+    if (Object.hasOwn(combinedObject, 'SubTypeIcon')) {
+      const iconPath = (combinedObject.SubTypeIcon as string).replace(
+        /(\.[0-9]+)?$/,
+        '.png',
+      )
+      combinedObject.SubTypeIcon = `${this.baseUrl}/${iconPath}`
+    }
 
     const ammoTypes = new Set()
     const itemComponent = await this.loader.getStructFromReference(
@@ -235,6 +249,11 @@ export class FHCatalogBuilder {
 
         const damageTypeValues = ammoValues.DamageType
 
+        if (Object.hasOwn(damageTypeValues, 'Icon')) {
+          const iconPath = (damageTypeValues.Icon as string).replace(/(\.[0-9]+)?$/, '.png')
+          damageTypeValues.Icon = `${this.baseUrl}/${iconPath}`
+        }
+
         if (damageTypeValues.DescriptionDetails) {
           damageTypeValues.DescriptionDetails = FHStruct.combineDetails(
             damageTypeValues.DescriptionDetails as JsonArray,
@@ -251,7 +270,8 @@ export class FHCatalogBuilder {
     }
 
     if (combinedObject.CodeName == 'ISGTC' && !combinedObject.SubTypeIcon) {
-      combinedObject.SubTypeIcon = 'War/Content/Textures/UI/ItemIcons/SubtypeSEIcon.0'
+      combinedObject.SubTypeIcon =
+        `${this.baseUrl}/War/Content/Textures/UI/ItemIcons/SubtypeSEIcon.png`
     }
 
     const grenadeProperties = [['MinTossSpeed'], ['MaxTossSpeed'], ['GrenadeFuseTimer'], [
