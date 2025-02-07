@@ -1,0 +1,38 @@
+name: build-unstable
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-cli:
+    name: Build catalog CLI tool
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        version: [unstable]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+
+      - name: Install Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Build step
+        run: cd cli && deno compile --allow-read -o fig
+
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: fig-${{ matrix.os }}-${{ matrix.version }}
+          path: cli/fig
