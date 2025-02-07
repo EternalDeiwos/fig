@@ -29,7 +29,7 @@ jobs:
           deno-version: v2.x
 
       - name: Build step
-        run: cd cli && deno compile --allow-read -o fig
+        run: cd cli && deno compile --allow-read -o fig main.ts
 
       - name: Upload
         uses: actions/upload-artifact@v4
