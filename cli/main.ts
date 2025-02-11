@@ -6,6 +6,7 @@ import { FHStructLoader } from './FHStructLoader.ts'
 export type RunOptions = {
   _: (string | number)[]
   url?: string
+  parallel?: string | number
 }
 
 export enum Command {
@@ -21,7 +22,10 @@ export async function main(options: RunOptions) {
         new FHStructLoader(warPath as string),
         options.url,
       )
-      await builder.load('War/Content/Blueprints/**/*.json')
+      await builder.load(
+        'War/Content/Blueprints/**/*.json',
+        parseInt(options.parallel?.toString() || '') || 8,
+      )
       const catalog = builder.getCatalog().sort((a, b) => {
         const aName = (a?.CodeName as string)?.toLowerCase()
         const bName = (b?.CodeName as string)?.toLowerCase()
@@ -51,6 +55,7 @@ function printUsage() {
   console.log('  catalog')
   console.log('')
   console.log('General Options:')
+  console.log('  -p, --parallel   Number of files to process at once. Default to 4x # cpu cores.')
   console.log('  -u, --url        Base url')
   console.log('  -h, --help       Show this help message')
   console.log('  -v, --version    Show the version string')
@@ -59,8 +64,12 @@ function printUsage() {
 if (import.meta.main) {
   const { help, version, ...args } = parseArgs(Deno.args, {
     boolean: ['help', 'version'],
-    string: ['url'],
+    string: ['url', 'parallel'],
+    default: {
+      parallel: navigator.hardwareConcurrency * 4,
+    },
     alias: {
+      parallel: 'p',
       url: 'u',
       help: 'h',
       version: 'v',

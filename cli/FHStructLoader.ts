@@ -1,5 +1,6 @@
 import { join } from '@std/path/join'
 import { expandGlob } from '@std/fs'
+import { chunk as splitChunks } from '@std/collections'
 import { FHStruct, FHStructType } from './FHStruct.ts'
 
 export type SuperStructNode = {
@@ -69,19 +70,29 @@ export class FHStructLoader {
     }
   }
 
-  async globStructs(path: string) {
+  async globStructs(path: string, chunkSize: number) {
     const globbed = await Array.fromAsync(
       expandGlob(join(this.basePath, path), { includeDirs: true, followSymlinks: true }),
     )
 
-    return Promise.all(
-      globbed
-        .filter(({ isFile, isDirectory, isSymlink }) => isFile && !isDirectory && !isSymlink)
-        .map(({ path: filePath }) => {
-          const encoder = new TextEncoder()
-          Deno.stderr.write(encoder.encode(`Processing JSON file at: ${filePath}\n`))
-          return this.getStruct(filePath).catch((err) => console.warn(err.message))
-        }),
-    )
+    return await splitChunks(globbed, chunkSize).reduce(async (promise, chunk) => {
+      const result = await promise
+      result.push(
+        ...(await Array.fromAsync(
+          chunk
+            .filter(({ isFile, isDirectory, isSymlink }) => isFile && !isDirectory && !isSymlink)
+            .map(({ path: filePath }) => {
+              const encoder = new TextEncoder()
+              Deno.stderr.write(encoder.encode(`Processing JSON file at: ${filePath}\n`))
+              return this.getStruct(filePath).catch((err) => {
+                Deno.stderr.write(encoder.encode(`${err.message}\n`))
+                return undefined
+              })
+            }),
+        )).filter((s) => s !== undefined),
+      )
+
+      return result
+    }, Promise.resolve([] as FHStruct[]))
   }
 }

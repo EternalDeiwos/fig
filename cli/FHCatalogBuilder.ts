@@ -35,8 +35,8 @@ export class FHCatalogBuilder {
     return new FHCatalogBuilder(loader, await FHCommonCatalogData.init(loader), url)
   }
 
-  async load(path: string) {
-    for (const entryStruct of await this.loader.globStructs(path)) {
+  async load(path: string, chunkSize: number) {
+    for (const entryStruct of await this.loader.globStructs(path, chunkSize)) {
       if (!entryStruct) {
         continue
       }
