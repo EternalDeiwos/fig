@@ -75,22 +75,23 @@ export class FHStructLoader {
       expandGlob(join(this.basePath, path), { includeDirs: true, followSymlinks: true }),
     )
 
+    const encoder = new TextEncoder()
     return await splitChunks(globbed, chunkSize).reduce(async (promise, chunk) => {
       const result = await promise
-      result.push(
-        ...(await Array.fromAsync(
-          chunk
-            .filter(({ isFile, isDirectory, isSymlink }) => isFile && !isDirectory && !isSymlink)
-            .map(({ path: filePath }) => {
-              const encoder = new TextEncoder()
-              Deno.stderr.write(encoder.encode(`Processing JSON file at: ${filePath}\n`))
-              return this.getStruct(filePath).catch((err) => {
-                Deno.stderr.write(encoder.encode(`${err.message}\n`))
-                return undefined
-              })
-            }),
-        )).filter((s) => s !== undefined),
-      )
+
+      for await (
+        const struct of chunk
+          .filter(({ isFile, isDirectory, isSymlink }) => isFile && !isDirectory && !isSymlink)
+          .map(({ path: filePath }) => {
+            Deno.stderr.write(encoder.encode(`Processing JSON file at: ${filePath}\n`))
+            return this.getStruct(filePath).catch((err) => {
+              Deno.stderr.write(encoder.encode(`${err.message}\n`))
+              return undefined
+            })
+          })
+      ) {
+        struct && result.push(struct)
+      }
 
       return result
     }, Promise.resolve([] as FHStruct[]))

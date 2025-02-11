@@ -66,7 +66,7 @@ if (import.meta.main) {
     boolean: ['help', 'version'],
     string: ['url', 'parallel'],
     default: {
-      parallel: navigator.hardwareConcurrency * 4,
+      parallel: navigator.hardwareConcurrency,
     },
     alias: {
       parallel: 'p',
