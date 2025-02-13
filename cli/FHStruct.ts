@@ -67,12 +67,34 @@ export class FHStruct {
       if (typeof currentValue === 'object' && currentValue !== null) {
         if (Array.isArray(currentValue)) {
           const index = parseInt(segment)
-          if (isNaN(index) || index < 0 || index >= currentValue.length) {
+          if (isNaN(index)) {
+            if (
+              currentValue.length === 0 ||
+              typeof currentValue[0] !== 'object' ||
+              Array.isArray(currentValue[0]) ||
+              !currentValue[0].Key
+            ) {
+              return undefined
+            }
+
+            const next = (currentValue as JsonObject[])
+              .find((entry) => entry.Key === segment)?.Value
+
+            if (next === undefined) {
+              return undefined
+            }
+
+            currentValue = next
+          } else if (
+            index < 0 ||
+            index >= currentValue.length
+          ) {
             return undefined
+          } else {
+            currentValue = currentValue[index]
           }
-          currentValue = currentValue[index]
         } else {
-          const next = (currentValue as JsonObject)[segment]
+          const next = currentValue[segment]
           if (next === undefined) {
             return undefined
           }
