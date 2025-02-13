@@ -64,7 +64,7 @@ function printUsage() {
 if (import.meta.main) {
   const { help, version, ...args } = parseArgs(Deno.args, {
     boolean: ['help', 'version'],
-    string: ['url', 'parallel'],
+    string: ['url', 'parallel', 'build-version'],
     default: {
       parallel: navigator.hardwareConcurrency,
     },
@@ -80,7 +80,8 @@ if (import.meta.main) {
     printUsage()
     Deno.exit(0)
   } else if (version) {
-    console.log(meta.version || 'unstable')
+    console.log(args['build-version'] || 'unstable')
+    Deno.exit(0)
   }
 
   await main(args)

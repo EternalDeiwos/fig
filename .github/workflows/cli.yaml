@@ -40,7 +40,7 @@ jobs:
       - name: Build step
         run: |
           cd cli
-          deno compile --allow-read --target ${{ matrix.target }} -o fig-${{ matrix.target }}-${{ matrix.version }} main.ts --url https://eternaldeiwos.github.io/fig
+          deno compile --allow-read --target ${{ matrix.target }} -o fig-${{ matrix.target }}-${{ matrix.version }} main.ts --url https://eternaldeiwos.github.io/fig --build-version ${{ matrix.version }}
 
       - name: Upload
         uses: actions/upload-artifact@v4
