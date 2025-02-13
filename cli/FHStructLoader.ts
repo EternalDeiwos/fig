@@ -24,7 +24,7 @@ export class FHStructLoader {
     type?: FHStructType | string,
     isBlueprint = true,
   ): Promise<FHStruct | undefined> {
-    const reference = (path.startsWith(this.basePath) ? path.slice(this.basePath.length) : path)
+    const reference = (path.startsWith(this.basePath) ? path.slice(this.basePath.length + 1) : path)
       .replace(/\.json$/, '')
     const referenceFile = reference.replace(/(\.[0-9]+)?$/, '.json')
     const filePath = referenceFile.startsWith(this.basePath)
