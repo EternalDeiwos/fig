@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftParatrooperWGunnerMountComponent_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BPAircraftBomberCFrontGunnerMountComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/BPAircraftBomberCFrontGunnerMountComponent.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BPAircraftBomberCFrontGunnerMountComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/BPAircraftBomberCFrontGunnerMountComponent.0"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftParatrooperWGunnerMountComponent_C'Default__BPAircraftParatrooperWGunnerMountComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/BPAircraftParatrooperWGunnerMountComponent.1"
+    }
+  },
+  {
+    "Type": "BPAircraftParatrooperWGunnerMountComponent_C",
+    "Name": "Default__BPAircraftParatrooperWGunnerMountComponent_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Aircraft/BPAircraftParatrooperWGunnerMountComponent.BPAircraftParatrooperWGunnerMountComponent_C'",
+    "Properties": {
+      "WeaponShotSFX": {
+        "FiringLoop": {
+          "ObjectName": "SoundCue'MGW-RFShot_Cue'",
+          "ObjectPath": "War/Content/Audio/SFX/Weapons/MGW/MGW-RFShot_Cue.0"
+        },
+        "FiringStopped": {
+          "ObjectName": "SoundCue'MGW-RFTail_Cue'",
+          "ObjectPath": "War/Content/Audio/SFX/Weapons/MGW/MGW-RFTail_Cue.0"
+        }
+      }
+    }
+  }
+]

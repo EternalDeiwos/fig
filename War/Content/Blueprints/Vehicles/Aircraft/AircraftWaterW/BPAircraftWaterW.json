@@ -1,0 +1,2320 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "EngineParticleSystem0",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPAircraftWaterW_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.68"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AirVehicle'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:EngineParticleSystem0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:EngineSlot0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:TailParticleSystem0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:TailSlot0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.32"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:WingParticleSystem1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.34"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:WingSlot1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.36"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:WingParticleSystem0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:WingSlot0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.35"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:MechanicalParticleSystem0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:MechanicalSlot1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.30"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:MechanicalSlot0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:MechanicalParticleSystem1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:Camera'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.22"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:DriverTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:DriverExit'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftWaterW_C:DriverSeat0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.24"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftWaterW_C'Default__BPAircraftWaterW_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.2"
+    }
+  },
+  {
+    "Type": "BPAircraftWaterW_C",
+    "Name": "Default__BPAircraftWaterW_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.BPAircraftWaterW_C'",
+    "Properties": {
+      "WeaponConfigs": [
+        {
+          "DisplayName": {
+            "CultureInvariantString": null
+          },
+          "AmmoCodeName": "AircraftAmmo",
+          "WeaponCodeName": "AircraftWaterW_HMG",
+          "MuzzleIndices": [
+            0,
+            1,
+            2
+          ],
+          "FiringRate": 0.2,
+          "ConvergenceDistance": 7500.0,
+          "MaxDeviation": 20.0,
+          "ImpactEffect": {
+            "ObjectName": "BlueprintGeneratedClass'RifleImpactEffect_C'",
+            "ObjectPath": "War/Content/Blueprints/Items/RifleImpactEffect.1"
+          },
+          "WeaponFireFX": {
+            "ObjectName": "BlueprintGeneratedClass'TracerFireMG_C'",
+            "ObjectPath": "War/Content/Blueprints/TracerFireMG.1"
+          },
+          "WeaponShotSFX": {
+            "FiringLoop": {
+              "ObjectName": "SoundCue'MGW-RFShot_Cue'",
+              "ObjectPath": "War/Content/Audio/SFX/Weapons/MGW/MGW-RFShot_Cue.0"
+            },
+            "FiringStopped": {
+              "ObjectName": "SoundCue'MGW-RFTail_Cue'",
+              "ObjectPath": "War/Content/Audio/SFX/Weapons/MGW/MGW-RFTail_Cue.0"
+            }
+          },
+          "ShotSoundCue": null,
+          "MuzzleFlashPS": {
+            "ObjectName": "ParticleSystem'MachinegunMF'",
+            "ObjectPath": "War/Content/FX/MachinegunMF.41"
+          },
+          "bSpawnExtraTracers": false
+        }
+      ],
+      "SimulatedHitNotifies": {
+        "DeltaFlags": "EFastArraySerializerDeltaFlags::HasBeenSerialized"
+      },
+      "bAllowReloadAsDriver": true,
+      "Collision": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftWaterW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.72"
+      },
+      "Surfaces": [
+        {
+          "SurfaceParamsRow": "AircraftWaterWWing",
+          "Params": {
+            "LiftCurveSlope": 8.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 16.0,
+            "NegativeStallAngle": -16.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.21643603,
+              "W": 0.9762968,
+              "IsNormalized": true,
+              "Size": 0.99999994,
+              "SizeSquared": 0.99999994
+            },
+            "Translation": {
+              "X": 25.0,
+              "Y": 100.0,
+              "Z": -15.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 200.0,
+            "Y": 200.0
+          },
+          "ControlSurfaceFraction": 0.2,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 4.87,
+          "bUseManualAspectRatio": true,
+          "Type": "EAirSurfaceType::Flaps"
+        },
+        {
+          "SurfaceParamsRow": "AircraftWaterWWing",
+          "Params": {
+            "LiftCurveSlope": 8.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 16.0,
+            "NegativeStallAngle": -16.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -0.0,
+              "Y": 0.0,
+              "Z": -0.2164349,
+              "W": 0.9762971,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 25.0,
+              "Y": -100.0,
+              "Z": -15.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 200.0,
+            "Y": 200.0
+          },
+          "ControlSurfaceFraction": 0.2,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 4.87,
+          "bUseManualAspectRatio": true,
+          "Type": "EAirSurfaceType::Flaps"
+        },
+        {
+          "SurfaceParamsRow": "AircraftWaterWWing",
+          "Params": {
+            "LiftCurveSlope": 8.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 16.0,
+            "NegativeStallAngle": -16.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.21641877,
+              "W": 0.9763006,
+              "IsNormalized": true,
+              "Size": 0.99999994,
+              "SizeSquared": 0.99999994
+            },
+            "Translation": {
+              "X": -59.5,
+              "Y": 281.18,
+              "Z": -15.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 200.0,
+            "Y": 200.0
+          },
+          "ControlSurfaceFraction": 0.1,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 2.47,
+          "bUseManualAspectRatio": true,
+          "Type": "EAirSurfaceType::Aileron"
+        },
+        {
+          "SurfaceParamsRow": "AircraftWaterWWing",
+          "Params": {
+            "LiftCurveSlope": 8.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 16.0,
+            "NegativeStallAngle": -16.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -0.0,
+              "Y": 0.0,
+              "Z": -0.21641836,
+              "W": 0.9763007,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -59.5,
+              "Y": -281.18,
+              "Z": -15.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 200.0,
+            "Y": 200.0
+          },
+          "ControlSurfaceFraction": 0.1,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 2.47,
+          "bUseManualAspectRatio": true,
+          "Type": "EAirSurfaceType::Aileron"
+        },
+        {
+          "SurfaceParamsRow": "AircraftWaterWControlSurface",
+          "Params": {
+            "LiftCurveSlope": 6.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 15.0,
+            "NegativeStallAngle": -15.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -460.0,
+              "Y": 0.0,
+              "Z": -25.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 120.0,
+            "Y": 340.0
+          },
+          "ControlSurfaceFraction": 0.5,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 0.0,
+          "bUseManualAspectRatio": false,
+          "Type": "EAirSurfaceType::Elevator"
+        },
+        {
+          "SurfaceParamsRow": "AircraftWaterWControlSurface",
+          "Params": {
+            "LiftCurveSlope": 6.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 15.0,
+            "NegativeStallAngle": -15.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.70710653,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.70710707,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -460.0,
+              "Y": 0.0,
+              "Z": 10.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 130.0,
+            "Y": 200.0
+          },
+          "ControlSurfaceFraction": 0.25,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 0.0,
+          "bUseManualAspectRatio": false,
+          "Type": "EAirSurfaceType::Rudder"
+        },
+        {
+          "SurfaceParamsRow": "AircraftWaterWControlSurface",
+          "Params": {
+            "LiftCurveSlope": 6.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 15.0,
+            "NegativeStallAngle": -15.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.70710653,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.70710707,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -200.0,
+              "Y": 0.0,
+              "Z": -20.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 450.0,
+            "Y": 150.0
+          },
+          "ControlSurfaceFraction": 0.0,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 0.0,
+          "bUseManualAspectRatio": false,
+          "Type": "EAirSurfaceType::Fixed"
+        }
+      ],
+      "Masses": [
+        {
+          "Offset": {
+            "X": 25.0,
+            "Y": 0.0,
+            "Z": 30.0
+          },
+          "Extents": {
+            "X": 95.0,
+            "Y": 370.0,
+            "Z": 60.0
+          },
+          "MassPercentage": 0.2
+        },
+        {
+          "Offset": {
+            "X": 125.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Extents": {
+            "X": 150.0,
+            "Y": 60.0,
+            "Z": 60.0
+          },
+          "MassPercentage": 0.5
+        },
+        {
+          "Offset": {
+            "X": -225.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Extents": {
+            "X": 200.0,
+            "Y": 50.0,
+            "Z": 52.0
+          },
+          "MassPercentage": 0.28
+        },
+        {
+          "Offset": {
+            "X": 80.0,
+            "Y": 0.0,
+            "Z": -160.0
+          },
+          "Extents": {
+            "X": 240.0,
+            "Y": 30.0,
+            "Z": 30.0
+          },
+          "MassPercentage": 0.2
+        }
+      ],
+      "CollisionCapsules": [
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 1.9726528E-08,
+              "Y": -0.70710677,
+              "Z": 1.9726485E-08,
+              "W": 0.7071067,
+              "IsNormalized": true,
+              "Size": 0.99999994,
+              "SizeSquared": 0.9999999
+            },
+            "Translation": {
+              "X": -150.0,
+              "Y": 0.0,
+              "Z": 11.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Radius": 110.0,
+          "HalfHeight": 500.0
+        },
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -0.69034564,
+              "Y": -0.1530458,
+              "Z": 0.15304577,
+              "W": 0.6903455,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0000001
+            },
+            "Translation": {
+              "X": -30.0,
+              "Y": 200.0,
+              "Z": 25.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Radius": 100.0,
+          "HalfHeight": 200.0
+        },
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -0.6903461,
+              "Y": 0.15304522,
+              "Z": -0.15304503,
+              "W": 0.6903453,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -30.0,
+              "Y": -200.0,
+              "Z": 25.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Radius": 100.0,
+          "HalfHeight": 200.0
+        }
+      ],
+      "AirTrailsLeftPS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPAircraftWaterW_C:AirTrailsLeftPS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.43"
+      },
+      "AirTrailsRightPS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPAircraftWaterW_C:AirTrailsRightPS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.44"
+      },
+      "EnginePitchCurve": {
+        "ObjectName": "CurveFloat'AircraftFighterWEnginePitchCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWEnginePitchCurve.0"
+      },
+      "EngineLoopCue": {
+        "ObjectName": "SoundCue'AircraftFighterWEngineLoop_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftFighterWEngineLoop_Cue.0"
+      },
+      "Engines": [
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 280.0,
+              "Y": 0.0,
+              "Z": -15.5
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Diameter": 210.0,
+          "DamageThrustFactor": 1.0,
+          "RPM": 0.0,
+          "EngineLoop": null
+        }
+      ],
+      "Wheels": [
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -0.0,
+              "Y": 0.3826831,
+              "Z": 0.0,
+              "W": 0.9238797,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -210.0,
+              "Y": 0.0,
+              "Z": -200.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "SuspensionLength": 50.0,
+          "Radius": 25.0,
+          "bCanBrake": false,
+          "bCanSwivel": true,
+          "bEnabled": true
+        },
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 140.0,
+              "Y": -100.0,
+              "Z": -200.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "SuspensionLength": 85.0,
+          "Radius": 35.0,
+          "bCanBrake": true,
+          "bCanSwivel": false,
+          "bEnabled": true
+        },
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -7.0459344E-17,
+              "Y": -1.6658132E-25,
+              "Z": 2.364219E-09,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 140.0,
+              "Y": 100.0,
+              "Z": -200.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "SuspensionLength": 85.0,
+          "Radius": 35.0,
+          "bCanBrake": true,
+          "bCanSwivel": false,
+          "bEnabled": true
+        }
+      ],
+      "AltitudeToPanRadiusCurve": {
+        "ObjectName": "CurveFloat'AltitudeToPanRadiusCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AltitudeToPanRadiusCurve.0"
+      },
+      "AltitudeToCameraPitchCurve": {
+        "ObjectName": "CurveFloat'AltitudeToPitchCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AltitudeToPitchCurve.0"
+      },
+      "PitchToCameraPitchCurve": {
+        "ObjectName": "CurveFloat'PitchToCameraPitchCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/PitchToCameraPitchCurve.0"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPAircraftWaterW_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.18"
+      },
+      "FuselageGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftWaterW_C:FuselageGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.11"
+      },
+      "LeftWingGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftWaterW_C:LeftWingGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.12"
+      },
+      "RightWingGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftWaterW_C:RightWingGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.13"
+      },
+      "TailGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftWaterW_C:TailGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.14"
+      },
+      "EngineGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftWaterW_C:EngineGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.10"
+      },
+      "GenericStockpileComponent": {
+        "ObjectName": "GenericStockpileComponent'Default__BPAircraftWaterW_C:GenericStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.21"
+      },
+      "DriverType": "EAirDriverType::Gunner",
+      "bCanBeRepairedByLargeShips": true,
+      "BuildOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 215.0
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D67344304BBB036728DFB3898524E62E",
+        "SourceString": "Tulka I1.9 White Raven",
+        "LocalizedString": "Tulka I1.9 White Raven"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "46D133ED45BBFAAEA73DB9A091960336",
+        "SourceString": "This unique Nevish fighter was specially designed to be launched from Mercy-class aircraft carriers, with the flexibility to operate in different environments. Fitted with several front-facing armaments, the White Raven is known to swarm enemy armadas out of nowhere. They soon find themselves careening out of the clouds. ",
+        "LocalizedString": "This unique Nevish fighter was specially designed to be launched from Mercy-class aircraft carriers, with the flexibility to operate in different environments. Fitted with several front-facing armaments, the White Raven is known to swarm enemy armadas out of nowhere. They soon find themselves careening out of the clouds. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'AircraftWaterWIcon'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/Textures/AircraftWaterWIcon.0"
+      },
+      "TechID": "ETechID::UnlockAircraftWater",
+      "ShippableInfo": {
+        "Type": "EShippableType::Large",
+        "bAllowPackagingToCrate": true
+      },
+      "FactionVariant": "EFactionId::Wardens",
+      "CodeName": "AircraftWaterW",
+      "ArmourType": "EArmourType::Tier1Aircraft",
+      "FuelTank": {
+        "FuelItemCodeName": "FacilityOil1"
+      },
+      "bIsReserveStockpiled": true,
+      "bIsUsableFromVehicle": true,
+      "DestroyedMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPAircraftWaterW_C:DestroyedMesh'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.70"
+      },
+      "MinorDamagePS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPAircraftWaterW_C:MinorDamagePS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.46"
+      },
+      "MajorDamagePS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPAircraftWaterW_C:MajorDamagePS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.45"
+      },
+      "BackUpSFXLoop": {
+        "ObjectName": "AudioComponent'Default__BPAircraftWaterW_C:BackUpSFXLoop'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.16"
+      },
+      "LockSound": {
+        "ObjectName": "SoundCue'Lock_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Lock_Cue.0"
+      },
+      "CameraRigComponent": {
+        "ObjectName": "PlayerCameraRigComponent'Default__BPAircraftWaterW_C:CameraRigVehicle'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.47"
+      },
+      "PassengerArea": {
+        "ObjectName": "BoxComponent'Default__BPAircraftWaterW_C:PassengerBaseBox'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.17"
+      },
+      "AFKTimeoutComponent": {
+        "ObjectName": "AFKTimeoutComponent'Default__BPAircraftWaterW_C:AFKTimeoutComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.3"
+      },
+      "MuzzleInfo": [
+        {
+          "GunnerIndex": 0,
+          "MuzzleIndex": 0,
+          "SocketName": "S_AircraftWaterW_Muzzle_0"
+        },
+        {
+          "GunnerIndex": 0,
+          "MuzzleIndex": 1,
+          "SocketName": "S_AircraftWaterW_Muzzle_1"
+        },
+        {
+          "GunnerIndex": 0,
+          "MuzzleIndex": 2,
+          "SocketName": "S_AircraftWaterW_Muzzle_2"
+        }
+      ],
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPAircraftWaterW_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.71"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BPAircraftWaterW_C:CharacterMesh0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.69"
+      },
+      "CharacterMovement": {
+        "ObjectName": "AirMovementComponent'Default__BPAircraftWaterW_C:CharMoveComp'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.15"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftWaterW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.20"
+      },
+      "NetUpdateFrequency": 30.0,
+      "MinNetUpdateFrequency": 5.0,
+      "RootComponent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftWaterW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.72"
+      }
+    }
+  },
+  {
+    "Type": "AFKTimeoutComponent",
+    "Name": "AFKTimeoutComponent",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'AFKTimeoutComponent'"
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "EngineSlot0_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Engine",
+      "SlotCodeName": "AircraftWaterWEngine",
+      "BasePartCodeName": "AircraftPartSmallEngineW",
+      "WreckedPartCodeName": "AircraftPartSmallEngineWreckedW",
+      "BoneName": "AircraftFighterW_Engine",
+      "StatePhysicsFactors": 0.27,
+      "StatePhysicsFactors[1]": 0.0,
+      "LinkedEngineIndex": 0,
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftWaterW_Engine'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Final/SK_AircraftWaterW_Engine.0"
+      },
+      "SkeletalWreckedMesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftWaterW_Engine_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Damage/SK_AircraftWaterW_Engine_Dam.0"
+      },
+      "StaticUnbuiltMesh": {
+        "ObjectName": "StaticMesh'AircraftWaterW_Engine_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Frame/AircraftWaterW_Engine_FR.2"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "MechanicalSlot0_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Fuselage",
+      "SlotCodeName": "AircraftWaterWFuselage",
+      "BasePartCodeName": "AircraftPartSmallMechanicalW",
+      "WreckedPartCodeName": "AircraftPartSmallMechanicalWreckedW",
+      "BoneName": "AircraftFighterW_Fuselage01",
+      "LinkedCollisionShapes": [
+        "Fuselage"
+      ],
+      "LinkedSeatIndices": [
+        0
+      ],
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftWaterW_Fuselage01'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Final/SK_AircraftWaterW_Fuselage01.0"
+      },
+      "SkeletalWreckedMesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftWaterW_Fuselage01_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Damage/SK_AircraftWaterW_Fuselage01_Dam.0"
+      },
+      "SkeletalUnbuiltMesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftWaterW_Fuselage01_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Frame/SK_AircraftWaterW_Fuselage01_FR.0"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": 86.1268,
+        "Y": 0.0,
+        "Z": -12.479233
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "MechanicalSlot1_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Fuselage",
+      "SlotCodeName": "AircraftWaterWFuselage",
+      "BasePartCodeName": "AircraftPartSmallMechanicalW",
+      "WreckedPartCodeName": "AircraftPartSmallMechanicalWreckedW",
+      "BoneName": "AircraftFighterW_Fuselage02",
+      "LinkedCollisionShapes": [
+        "Fuselage"
+      ],
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftWaterW_Fuselage02'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Final/SK_AircraftWaterW_Fuselage02.0"
+      },
+      "SkeletalWreckedMesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftWaterW_Fuselage02_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Damage/SK_AircraftWaterW_Fuselage02_Dam.0"
+      },
+      "SkeletalUnbuiltMesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftWaterW_Fuselage02_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Frame/SK_AircraftWaterW_Fuselage02_FR.0"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": -164.48643,
+        "Y": 0.0,
+        "Z": -12.479233
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "TailSlot0_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Tail",
+      "SlotCodeName": "AircraftWaterWTail",
+      "BasePartCodeName": "AircraftPartSmallMechanicalW",
+      "WreckedPartCodeName": "AircraftPartSmallMechanicalWreckedW",
+      "BoneName": "AircraftFighterW_Tail",
+      "LinkedCollisionShapes": [
+        "Tail"
+      ],
+      "StatePhysicsFactors": 0.15,
+      "StatePhysicsFactors[1]": 0.0,
+      "LinkedSurfaceIndices": 4,
+      "LinkedSurfaceIndices[1]": 6,
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftWaterW_Tail'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Final/SK_AircraftWaterW_Tail.0"
+      },
+      "SkeletalWreckedMesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftWaterW_Tail_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Damage/SK_AircraftWaterW_Tail_Dam.0"
+      },
+      "StaticUnbuiltMesh": {
+        "ObjectName": "StaticMesh'AircraftWaterW_Tail_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Frame/AircraftWaterW_Tail_FR.2"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": -413.26105,
+        "Y": -0.0010986328,
+        "Z": -23.194046
+      },
+      "ComponentTags": [
+        "TailHide"
+      ]
+    }
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "WingSlot0_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Wing",
+      "SlotCodeName": "AircraftWaterWWing",
+      "BasePartCodeName": "AircraftPartSmallMechanicalW",
+      "WreckedPartCodeName": "AircraftPartSmallMechanicalWreckedW",
+      "BoneName": "AircraftFighterW_Wing_L",
+      "LinkedCollisionShapes": [
+        "LeftWing"
+      ],
+      "StatePhysicsFactors": 0.58,
+      "StatePhysicsFactors[1]": 0.0,
+      "LinkedSurfaceIndices": 1,
+      "LinkedSurfaceIndices[1]": 3,
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftWaterW_Wing_L'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Final/SK_AircraftWaterW_Wing_L.0"
+      },
+      "StaticWreckedMesh": {
+        "ObjectName": "StaticMesh'AircraftWaterW_Wing_L_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Damage/AircraftWaterW_Wing_L_Dam.2"
+      },
+      "StaticUnbuiltMesh": {
+        "ObjectName": "StaticMesh'AircraftWaterW_Wing_L_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Frame/AircraftWaterW_Wing_L_FR.2"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": 11.143829,
+        "Y": -194.10196,
+        "Z": -23.106827
+      },
+      "ComponentTags": [
+        "LeftWingHide"
+      ]
+    }
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "WingSlot1_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Wing",
+      "SlotCodeName": "AircraftWaterWWing",
+      "BasePartCodeName": "AircraftPartSmallMechanicalW",
+      "WreckedPartCodeName": "AircraftPartSmallMechanicalWreckedW",
+      "BoneName": "AircraftFighterW_Wing_R",
+      "LinkedCollisionShapes": [
+        "RightWing"
+      ],
+      "StatePhysicsFactors": 0.58,
+      "StatePhysicsFactors[1]": 0.0,
+      "LinkedSurfaceIndices": 0,
+      "LinkedSurfaceIndices[1]": 2,
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftWaterW_Wing_R'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Final/SK_AircraftWaterW_Wing_R.0"
+      },
+      "StaticWreckedMesh": {
+        "ObjectName": "StaticMesh'AircraftWaterW_Wing_R_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Damage/AircraftWaterW_Wing_R_Dam.2"
+      },
+      "StaticUnbuiltMesh": {
+        "ObjectName": "StaticMesh'AircraftWaterW_Wing_R_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Frame/AircraftWaterW_Wing_R_FR.2"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": 11.143829,
+        "Y": 194.10196,
+        "Z": -23.106827
+      },
+      "ComponentTags": [
+        "RightWingHide"
+      ]
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "EngineGroup",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftWaterW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.72"
+      },
+      "RelativeLocation": {
+        "X": 275.7386,
+        "Y": -6.1035156E-05,
+        "Z": -15.107147
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "FuselageGroup",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftWaterW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.72"
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "LeftWingGroup",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "StumpMesh": {
+        "ObjectName": "StaticMesh'AircraftWaterW_Wing_L_Totalled'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Toatalled/AircraftWaterW_Wing_L_Totalled.2"
+      },
+      "bAutoPositionTotalledPS": true,
+      "TotalledPS": {
+        "ObjectName": "ParticleSystem'AircraftPartGroupTotaledGenericExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftPartGroupTotaledGenericExplosion.131"
+      },
+      "TotalledCue": {
+        "ObjectName": "SoundCue'AircraftPartDestroyed_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftPartDestroyed_Cue.0"
+      },
+      "RemovedCollisionShapes": [
+        "LeftWing"
+      ],
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftWaterW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.72"
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "RightWingGroup",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "StumpMesh": {
+        "ObjectName": "StaticMesh'AircraftWaterW_Wing_R_Totalled'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Toatalled/AircraftWaterW_Wing_R_Totalled.2"
+      },
+      "bAutoPositionTotalledPS": true,
+      "TotalledPS": {
+        "ObjectName": "ParticleSystem'AircraftPartGroupTotaledGenericExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftPartGroupTotaledGenericExplosion.131"
+      },
+      "TotalledCue": {
+        "ObjectName": "SoundCue'AircraftPartDestroyed_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftPartDestroyed_Cue.0"
+      },
+      "RemovedCollisionShapes": [
+        "RightWing"
+      ],
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftWaterW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.72"
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "TailGroup",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "StumpMesh": {
+        "ObjectName": "StaticMesh'AircraftWaterW_Tail_Totalled'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Toatalled/AircraftWaterW_Tail_Totalled.2"
+      },
+      "bAutoPositionTotalledPS": true,
+      "TotalledPS": {
+        "ObjectName": "ParticleSystem'AircraftPartGroupTotaledGenericExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftPartGroupTotaledGenericExplosion.131"
+      },
+      "TotalledCue": {
+        "ObjectName": "SoundCue'AircraftPartDestroyed_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftPartDestroyed_Cue.0"
+      },
+      "RemovedCollisionShapes": [
+        "Tail"
+      ],
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftWaterW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.72"
+      }
+    }
+  },
+  {
+    "Type": "AirMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'AirMovementComponent'",
+    "Properties": {
+      "AirDensityCurve": {
+        "ObjectName": "CurveFloat'AirDensityCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+      },
+      "bCanSink": false,
+      "NetworkSimulatedSmoothLocationTime": 0.3,
+      "NetworkMaxSmoothUpdateDistance": 2048.0,
+      "NetworkNoSmoothUpdateDistance": 2048.0
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "BackUpSFXLoop",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftWaterW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.20"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PassengerBaseBox",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftWaterW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.20"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 256.0,
+        "Y": 256.0,
+        "Z": 256.0
+      },
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftWaterW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.72"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -149.08484
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Camera_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Properties": {
+      "bEditableWhenInherited": false
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftWaterW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.72"
+      },
+      "bShouldUpdatePhysicsVolume": false
+    }
+  },
+  {
+    "Type": "GenericStockpileComponent",
+    "Name": "GenericStockpileComponent",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'GenericStockpileComponent'"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Camera",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'CameraComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverExit",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatExitComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverSeat0",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'VehicleSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverTrigger",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "EngineSlot0",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MechanicalParticleSystem0",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MechanicalParticleSystem1",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MechanicalSlot0",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MechanicalSlot1",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TailParticleSystem0",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TailSlot0",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WingParticleSystem0",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WingParticleSystem1",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WingSlot0",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WingSlot1",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "EngineParticleSystem0_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MechanicalParticleSystem0_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "RelativeLocation": {
+        "X": -86.1268,
+        "Y": 0.0,
+        "Z": 12.479233
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MechanicalParticleSystem1_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "TailParticleSystem0_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99995,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WingParticleSystem0_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.999985,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WingParticleSystem1_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99995,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "AirTrailsLeftPS",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftWaterW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.72"
+      },
+      "RelativeLocation": {
+        "X": -60.0,
+        "Y": -370.0,
+        "Z": -30.0
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "AirTrailsRightPS",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftWaterW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.72"
+      },
+      "RelativeLocation": {
+        "X": -60.0,
+        "Y": 370.0,
+        "Z": -30.0
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MajorDamagePS",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftWaterW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.20"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MinorDamagePS",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftWaterW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.20"
+      }
+    }
+  },
+  {
+    "Type": "PlayerCameraRigComponent",
+    "Name": "CameraRigVehicle",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'PlayerCameraRigComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftWaterW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.20"
+      },
+      "RelativeLocation": {
+        "X": 200.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": -60.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPAircraftWaterW_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.48"
+      },
+      "VariableGuid": "E8AB2031-46BD577F-13BD42AF-0F6348C1",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftWaterW_C:MechanicalSlot1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.6"
+      },
+      "ParentComponentOrVariableName": "FuselageGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.58"
+        }
+      ],
+      "VariableGuid": "1C4A7B46-44BB0735-BABAD899-7EC9AEE6",
+      "InternalVariableName": "MechanicalSlot1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPAircraftWaterW_C:DriverTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.67"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8B30A332-49F055BC-918BF19A-B12397AE",
+      "InternalVariableName": "DriverTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftWaterW_C:WingSlot1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.9"
+      },
+      "ParentComponentOrVariableName": "RightWingGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.53"
+        }
+      ],
+      "VariableGuid": "BE56A1C2-47090A23-B60ADABD-047CBDA7",
+      "InternalVariableName": "WingSlot1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftWaterW_C:WingParticleSystem1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.42"
+      },
+      "VariableGuid": "33E43575-4CF7FFCB-27C319B7-D33C852C",
+      "InternalVariableName": "WingParticleSystem1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftWaterW_C:TailSlot0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.7"
+      },
+      "ParentComponentOrVariableName": "TailGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.55"
+        }
+      ],
+      "VariableGuid": "118F9C25-4F5B3982-C6BA8F8C-E34CC31A",
+      "InternalVariableName": "TailSlot0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftWaterW_C:TailParticleSystem0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.40"
+      },
+      "VariableGuid": "B9198540-4E588B82-706C96AA-B2CF6865",
+      "InternalVariableName": "TailParticleSystem0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftWaterW_C:EngineSlot0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.4"
+      },
+      "ParentComponentOrVariableName": "EngineGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.57"
+        }
+      ],
+      "VariableGuid": "25E91CF6-48317B45-70CD60BC-1F4A5D76",
+      "InternalVariableName": "EngineSlot0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftWaterW_C:EngineParticleSystem0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.37"
+      },
+      "VariableGuid": "1A0048C1-49601F48-C51CA581-38731D99",
+      "InternalVariableName": "EngineParticleSystem0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftWaterW_C:MechanicalParticleSystem1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.39"
+      },
+      "VariableGuid": "489502C5-4B5B0E91-328DCF9C-6E01E852",
+      "InternalVariableName": "MechanicalParticleSystem1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftWaterW_C:MechanicalSlot0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.5"
+      },
+      "ParentComponentOrVariableName": "FuselageGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.61"
+        }
+      ],
+      "VariableGuid": "CF865ADC-4E517B7D-84321583-F427DE42",
+      "InternalVariableName": "MechanicalSlot0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CameraComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CameraComponent'BPAircraftWaterW_C:Camera_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.19"
+      },
+      "ParentComponentOrVariableName": "CameraRigVehicle",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6C9E0FCE-439C2C8A-1A773A95-4A5DBFDE",
+      "InternalVariableName": "Camera"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftWaterW_C:MechanicalParticleSystem0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.38"
+      },
+      "VariableGuid": "052FA90A-430BC051-1010869A-D73F323D",
+      "InternalVariableName": "MechanicalParticleSystem0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftWaterW_C:WingSlot0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.8"
+      },
+      "ParentComponentOrVariableName": "LeftWingGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.63"
+        }
+      ],
+      "VariableGuid": "2E459EC0-4C91331F-9B710D8B-26DF11D4",
+      "InternalVariableName": "WingSlot0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftWaterW_C:WingParticleSystem0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.41"
+      },
+      "VariableGuid": "9DEB1C9B-40926CE5-65BA0AAD-BC05B0E2",
+      "InternalVariableName": "WingParticleSystem0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'VehicleSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "VehicleSeatComponent'BPAircraftWaterW_C:DriverSeat0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.73"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BFB23F87-4D5C61DB-53CBD89A-674848C1",
+      "InternalVariableName": "DriverSeat0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatExitComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatExitComponent'BPAircraftWaterW_C:DriverExit_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.66"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B4A3375E-4E5E69BA-CC4776A7-496C1138",
+      "InternalVariableName": "DriverExit"
+    }
+  },
+  {
+    "Type": "SeatExitComponent",
+    "Name": "DriverExit_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'SeatExitComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -200.0,
+        "Y": -240.0,
+        "Z": 20.0
+      }
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "DriverTrigger_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 300.0,
+        "Y": 300.0,
+        "Z": 350.0
+      },
+      "RelativeLocation": {
+        "X": -4.4732666,
+        "Y": 2.8090668,
+        "Z": -270.0
+      }
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.64"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.65"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.60"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.59"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.62"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.56"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.64"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.65"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.60"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.58"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.59"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.61"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.62"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.63"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.55"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.56"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.57"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPAircraftWaterW_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.49"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_AircraftWaterW_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftWaterW'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/SK_AircraftWaterW.0"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered",
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECC_Vehicle",
+        "CollisionProfileName": "AircraftMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "IceBlocker",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftWaterW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.20"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -1.4523762E-06,
+        "Z": 0.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DestroyedMesh",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftWaterW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/BPAircraftWaterW.20"
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "VehicleCollisionComponent",
+    "Name": "Collision",
+    "Outer": "Default__BPAircraftWaterW_C",
+    "Class": "UScriptClass'VehicleCollisionComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'AircraftWaterWAirCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/AircraftWaterWAirCollision.2"
+      },
+      "bShouldUpdatePhysicsVolume": true
+    }
+  },
+  {
+    "Type": "VehicleSeatComponent",
+    "Name": "DriverSeat0_GEN_VARIABLE",
+    "Outer": "BPAircraftWaterW_C",
+    "Class": "UScriptClass'VehicleSeatComponent'",
+    "Properties": {
+      "bIsSwitchable": false,
+      "bCharacterIsAlwaysVisible": true,
+      "bRequiresPilotUniform": true,
+      "EnterSFX": {
+        "ObjectName": "SoundCue'AircraftEnter01_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftEnter01_Cue.0"
+      },
+      "TriggerName": "DriverTrigger",
+      "ExitName": "DriverExit",
+      "MountCodeName": "AircraftWaterWDriver",
+      "bIsExposed": true,
+      "MountComponent": {
+        "ObjectName": "Class'AirVehicleDriverMountComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "RelativeLocation": {
+        "X": 0.49671632,
+        "Y": 36.890705,
+        "Z": 4.444298
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0001,
+        "Roll": 0.0
+      }
+    }
+  }
+]

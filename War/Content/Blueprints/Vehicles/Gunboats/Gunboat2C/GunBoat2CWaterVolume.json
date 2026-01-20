@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "GunBoat2CWaterVolume",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "FB939324414825E8535495814893B394",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 3945,
+        "SizeOnDisk": 3945,
+        "OffsetInFile": "0x5C5F"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "GunBoat2CWaterVolume",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x6C10"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "GunBoat2CWaterVolume",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial_002",
+          "ImportedMaterialSlotName": "WorldGridMaterial_002",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 3,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 2.0378113,
+          "Y": 85.403076,
+          "Z": 0.5000168
+        },
+        "BoxExtent": {
+          "X": 278.03845,
+          "Y": 929.84906,
+          "Z": 0.50031865
+        },
+        "SphereRadius": 950.3717
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'GunBoat2CWaterVolume:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/Gunboat2C/GunBoat2CWaterVolume.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'GunBoat2CWaterVolume:NavCollision_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/Gunboat2C/GunBoat2CWaterVolume.1"
+    },
+    "LightingGuid": "97EE2820-49EBD890-665BECA7-5551D3CE",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 148,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 169,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 170
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 4,
+            "NumVertices": 170,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 2.0378113,
+          "Y": 85.403076,
+          "Z": 0.5000168
+        },
+        "BoxExtent": {
+          "X": 278.03845,
+          "Y": 929.84906,
+          "Z": 0.50031865
+        },
+        "SphereRadius": 950.3717
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

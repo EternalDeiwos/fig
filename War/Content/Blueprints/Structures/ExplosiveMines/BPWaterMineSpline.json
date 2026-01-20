@@ -1,0 +1,886 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPWaterMineSpline_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BPMineSpline_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPMineSpline.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPWaterMineSpline_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BPMineSpline_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPMineSpline.0"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPWaterMineSpline_C'Default__BPWaterMineSpline_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.1"
+    }
+  },
+  {
+    "Type": "BPWaterMineSpline_C",
+    "Name": "Default__BPWaterMineSpline_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.BPWaterMineSpline_C'",
+    "Properties": {
+      "SplineConnector": {
+        "ObjectName": "SplineConnectorComponent'Default__BPWaterMineSpline_C:Spline'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.9"
+      },
+      "BackSocket": {
+        "ObjectName": "BuildSocketComponent'Default__BPWaterMineSpline_C:BackSocket'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.4"
+      },
+      "FrontSocket": {
+        "ObjectName": "BuildSocketComponent'Default__BPWaterMineSpline_C:FrontSocket'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.5"
+      },
+      "AmmoCodeName": "WaterMine",
+      "ExplosionTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'WaterMineExplosion_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/WaterMineExplosion.1"
+      },
+      "SubmergedExplosionTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'DepthChargeExplosion_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/DepthChargeExplosion.1"
+      },
+      "BuildGhostOffsetZ": -150.0,
+      "bIsAlwaysVisible": true,
+      "bTriggeredByShips": true,
+      "NoBuildPhysicalMaterials": [],
+      "bApplyNoBuildPhysicalMaterialsToSurfaceSamples": false,
+      "bBuildOnWater": true,
+      "ConnectorMinLength": 250.0,
+      "ConnectorMaxLength": 3000.0,
+      "Description": {
+        "Namespace": "",
+        "Key": "E9B0BF06416F4C2AD267B4BE3ED05FDF",
+        "SourceString": "Designed for underwater deployment, Sea Mines detonate upon contact with enemy vessels.",
+        "LocalizedString": "Designed for underwater deployment, Sea Mines detonate upon contact with enemy vessels."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'WaterMineSplineIcon'",
+        "ObjectPath": "War/Content/Textures/UI/ItemIcons/WaterMineSplineIcon.0"
+      },
+      "MaxBuildDistance": 5000.0,
+      "ValidBuildTools": 64,
+      "ConversionCodeNames": [],
+      "CodeName": "WaterMineSpline",
+      "ChassisName": {
+        "Namespace": "",
+        "Key": "425687A14508E54673BAA08DD4167B54",
+        "SourceString": "Sea Minefield",
+        "LocalizedString": "Sea Minefield"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C8022020454D38436C9A94954217A73D",
+        "SourceString": "E680-S Rudder Lock Minefield",
+        "LocalizedString": "E680-S Rudder Lock Minefield"
+      },
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPWaterMineSpline_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.2"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPWaterMineSpline_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.3"
+      },
+      "MaxHealth": 2000,
+      "Health": 2000,
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPWaterMineSpline_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.10"
+      },
+      "NetCullDistanceSquared": 25000000.0,
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPWaterMineSpline_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.2"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPWaterMineSpline_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPWaterMineSpline_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPWaterMineSpline_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.2"
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "BackSocket",
+    "Outer": "Default__BPWaterMineSpline_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "bDoLandscapeChecks": false,
+      "bMustBeBuiltOnWater": true,
+      "MaxHeightAboveLandscape": 0.0,
+      "MaxSurfaceSamplePadding": -90.0,
+      "bContributeToIslandIntegrityBonus": false,
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPWaterMineSpline_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.2"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "ConnectorRefCentreBack",
+        "ManualConnectorOriginSocket"
+      ]
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "FrontSocket",
+    "Outer": "Default__BPWaterMineSpline_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "bDoLandscapeChecks": false,
+      "bMustBeBuiltOnWater": true,
+      "MaxHeightAboveLandscape": 0.0,
+      "MaxSurfaceSamplePadding": -90.0,
+      "bContributeToIslandIntegrityBonus": false,
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPWaterMineSpline_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.2"
+      },
+      "RelativeLocation": {
+        "X": 450.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPWaterMineSpline_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPWaterMineSpline_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.6"
+      },
+      "VariableGuid": "2EE5B1E3-4A6EA1A2-09DAB895-631FC3E9",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPWaterMineSpline_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPWaterMineSpline_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.7"
+      }
+    }
+  },
+  {
+    "Type": "SplineConnectorComponent",
+    "Name": "Spline",
+    "Outer": "Default__BPWaterMineSpline_C",
+    "Class": "UScriptClass'SplineConnectorComponent'",
+    "Properties": {
+      "SurfaceSampleResolution": 250.0,
+      "MeshConfigs": [
+        {
+          "Mesh": null,
+          "Meshes": [
+            {
+              "ObjectName": "StaticMesh'Seamines'",
+              "ObjectPath": "War/Content/Meshes/Weapons/Seamines.2"
+            }
+          ],
+          "ShadowMode": "EShadowMode::Enabled",
+          "ShadowProxyMesh": null,
+          "Decals": [],
+          "Sequence": "EIntervalSequence::Random",
+          "bReceivesDecals": false,
+          "BuildGhostMaterialOverride": null,
+          "BuildSiteMaterialOverride": null,
+          "Mode": "ESplineConnectorMeshMode::Interval",
+          "ComponentTags": [
+            "MineSplineRemoveInstances"
+          ],
+          "CollisionProfileName": "NoCollision",
+          "bCollisionOnly": false,
+          "PhysMaterialOverride": null,
+          "CollisionIgnoreFlags": 0,
+          "CanCharacterStepUpOn": "ECB_Yes",
+          "StartIndex": 2,
+          "EndIndex": 2,
+          "BoxWidth": 0.0,
+          "BoxHeight": 0.0,
+          "BoxLengthPadding": 0.0,
+          "SpawnPoints": [],
+          "SplineMeshAxis": "ESplineMeshAxis::Z",
+          "SplineStartOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "SplineEndOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "SplineBoundaryMin": 0.0,
+          "SplineBoundaryMax": 0.0,
+          "MinSplineLength": 5.0,
+          "bExtendSplineToMinLength": false,
+          "MinSplineLengthForCollision": 0.0,
+          "SplineMaterialScaling": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Interval": 250.0,
+          "IntervalDeltaPerDegree": 0.0,
+          "bEvenlySpace": false,
+          "bCenter": false,
+          "bLinearPlacement": false,
+          "bFillRemainder": false,
+          "bScaleRemainder": false,
+          "bApplySlopeOffset": false,
+          "bAlternateY": true,
+          "bFixedPitch": false,
+          "FixedPitch": 0.0,
+          "StartOffset": 0.0,
+          "EndOffset": 0.0,
+          "MaxSnapToLandscapeOffset": 60.0,
+          "MaxInstances": 10,
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 100.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "RandomRotationVariance": {
+            "Pitch": 0.0,
+            "Yaw": 100.0,
+            "Roll": 0.0
+          },
+          "RandomPositionVariance": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDisplayOnInvalidPath": false,
+          "CopyPlacementRangeFrom": -1,
+          "bIsEndCap": false,
+          "bEndCapReactsToSockets": false,
+          "bReactToSurface": false,
+          "SurfaceSettings": {
+            "bEnableSurfaceDeltaLowerBound": false,
+            "SurfaceDeltaLowerBound": 0.0,
+            "bEnableSurfaceDeltaUpperBound": false,
+            "SurfaceDeltaUpperBound": 0.0,
+            "bRequireBothSidesWithinBounds": false,
+            "PhysMatBlockList": [],
+            "bApplyWaterSurfaceDelta": false
+          },
+          "RuntimeVirtualTextures": [],
+          "VirtualTextureRenderPassType": "ERuntimeVirtualTextureMainPassType::Exclusive"
+        },
+        {
+          "Mesh": null,
+          "Meshes": [
+            {
+              "ObjectName": "StaticMesh'MineCollision'",
+              "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/MineCollision.2"
+            }
+          ],
+          "ShadowMode": "EShadowMode::Enabled",
+          "ShadowProxyMesh": null,
+          "Decals": [],
+          "Sequence": "EIntervalSequence::Random",
+          "bReceivesDecals": false,
+          "BuildGhostMaterialOverride": null,
+          "BuildSiteMaterialOverride": null,
+          "Mode": "ESplineConnectorMeshMode::Interval",
+          "ComponentTags": [
+            "PreserveProfileInBuildSite"
+          ],
+          "CollisionProfileName": "SplineMine",
+          "bCollisionOnly": true,
+          "PhysMaterialOverride": null,
+          "CollisionIgnoreFlags": 0,
+          "CanCharacterStepUpOn": "ECB_Yes",
+          "StartIndex": 2,
+          "EndIndex": 2,
+          "BoxWidth": 50.0,
+          "BoxHeight": 50.0,
+          "BoxLengthPadding": 0.0,
+          "SpawnPoints": [],
+          "SplineMeshAxis": "ESplineMeshAxis::Z",
+          "SplineStartOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "SplineEndOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "SplineBoundaryMin": 0.0,
+          "SplineBoundaryMax": 0.0,
+          "MinSplineLength": 5.0,
+          "bExtendSplineToMinLength": false,
+          "MinSplineLengthForCollision": 0.0,
+          "SplineMaterialScaling": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Interval": 250.0,
+          "IntervalDeltaPerDegree": 0.0,
+          "bEvenlySpace": false,
+          "bCenter": false,
+          "bLinearPlacement": false,
+          "bFillRemainder": false,
+          "bScaleRemainder": false,
+          "bApplySlopeOffset": false,
+          "bAlternateY": true,
+          "bFixedPitch": false,
+          "FixedPitch": 0.0,
+          "StartOffset": 0.0,
+          "EndOffset": 0.0,
+          "MaxSnapToLandscapeOffset": 0.0,
+          "MaxInstances": 10,
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 100.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "RandomRotationVariance": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RandomPositionVariance": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDisplayOnInvalidPath": false,
+          "CopyPlacementRangeFrom": -1,
+          "bIsEndCap": false,
+          "bEndCapReactsToSockets": false,
+          "bReactToSurface": false,
+          "SurfaceSettings": {
+            "bEnableSurfaceDeltaLowerBound": false,
+            "SurfaceDeltaLowerBound": 0.0,
+            "bEnableSurfaceDeltaUpperBound": false,
+            "SurfaceDeltaUpperBound": 0.0,
+            "bRequireBothSidesWithinBounds": false,
+            "PhysMatBlockList": [],
+            "bApplyWaterSurfaceDelta": false
+          },
+          "RuntimeVirtualTextures": [],
+          "VirtualTextureRenderPassType": "ERuntimeVirtualTextureMainPassType::Exclusive"
+        },
+        {
+          "Mesh": null,
+          "Meshes": [],
+          "ShadowMode": "EShadowMode::Enabled",
+          "ShadowProxyMesh": null,
+          "Decals": [
+            {
+              "DecalMaterial": {
+                "ObjectName": "MaterialInstanceConstant'FortDirtDecalBuildSite01'",
+                "ObjectPath": "War/Content/Materials/Decals/FortDirtDecalBuildSite01.0"
+              },
+              "DecalSize": {
+                "X": 50.0,
+                "Y": 200.0,
+                "Z": 200.0
+              },
+              "LifeSpan": 10.0,
+              "FadeScreenSize": 0.01
+            },
+            {
+              "DecalMaterial": {
+                "ObjectName": "MaterialInstanceConstant'FortDirtDecalBuildSite02'",
+                "ObjectPath": "War/Content/Materials/Decals/FortDirtDecalBuildSite02.0"
+              },
+              "DecalSize": {
+                "X": 50.0,
+                "Y": 200.0,
+                "Z": 200.0
+              },
+              "LifeSpan": 10.0,
+              "FadeScreenSize": 0.01
+            }
+          ],
+          "Sequence": "EIntervalSequence::Random",
+          "bReceivesDecals": false,
+          "BuildGhostMaterialOverride": null,
+          "BuildSiteMaterialOverride": null,
+          "Mode": "ESplineConnectorMeshMode::Interval",
+          "ComponentTags": [],
+          "CollisionProfileName": "NoCollision",
+          "bCollisionOnly": false,
+          "PhysMaterialOverride": null,
+          "CollisionIgnoreFlags": 0,
+          "CanCharacterStepUpOn": "ECB_Yes",
+          "StartIndex": 2,
+          "EndIndex": 2,
+          "BoxWidth": 0.0,
+          "BoxHeight": 0.0,
+          "BoxLengthPadding": 0.0,
+          "SpawnPoints": [],
+          "SplineMeshAxis": "ESplineMeshAxis::Z",
+          "SplineStartOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "SplineEndOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "SplineBoundaryMin": 0.0,
+          "SplineBoundaryMax": 0.0,
+          "MinSplineLength": 5.0,
+          "bExtendSplineToMinLength": false,
+          "MinSplineLengthForCollision": 0.0,
+          "SplineMaterialScaling": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Interval": 250.0,
+          "IntervalDeltaPerDegree": 0.0,
+          "bEvenlySpace": false,
+          "bCenter": false,
+          "bLinearPlacement": false,
+          "bFillRemainder": false,
+          "bScaleRemainder": false,
+          "bApplySlopeOffset": false,
+          "bAlternateY": true,
+          "bFixedPitch": false,
+          "FixedPitch": 0.0,
+          "StartOffset": 0.0,
+          "EndOffset": 0.0,
+          "MaxSnapToLandscapeOffset": 60.0,
+          "MaxInstances": 10,
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 100.0,
+              "Z": 50.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "RandomRotationVariance": {
+            "Pitch": 0.0,
+            "Yaw": 90.0,
+            "Roll": 0.0
+          },
+          "RandomPositionVariance": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDisplayOnInvalidPath": false,
+          "CopyPlacementRangeFrom": -1,
+          "bIsEndCap": false,
+          "bEndCapReactsToSockets": false,
+          "bReactToSurface": false,
+          "SurfaceSettings": {
+            "bEnableSurfaceDeltaLowerBound": false,
+            "SurfaceDeltaLowerBound": 0.0,
+            "bEnableSurfaceDeltaUpperBound": false,
+            "SurfaceDeltaUpperBound": 0.0,
+            "bRequireBothSidesWithinBounds": false,
+            "PhysMatBlockList": [],
+            "bApplyWaterSurfaceDelta": false
+          },
+          "RuntimeVirtualTextures": [],
+          "VirtualTextureRenderPassType": "ERuntimeVirtualTextureMainPassType::Exclusive"
+        },
+        {
+          "Mesh": null,
+          "Meshes": [],
+          "ShadowMode": "EShadowMode::Enabled",
+          "ShadowProxyMesh": null,
+          "Decals": [],
+          "Sequence": "EIntervalSequence::Random",
+          "bReceivesDecals": false,
+          "BuildGhostMaterialOverride": null,
+          "BuildSiteMaterialOverride": null,
+          "Mode": "ESplineConnectorMeshMode::Boxes",
+          "ComponentTags": [
+            "PreserveProfileInBuildSite"
+          ],
+          "CollisionProfileName": "NoBuildArea",
+          "bCollisionOnly": false,
+          "PhysMaterialOverride": null,
+          "CollisionIgnoreFlags": 0,
+          "CanCharacterStepUpOn": "ECB_Yes",
+          "StartIndex": 2,
+          "EndIndex": 2,
+          "BoxWidth": 400.0,
+          "BoxHeight": 300.0,
+          "BoxLengthPadding": 200.0,
+          "SpawnPoints": [],
+          "SplineMeshAxis": "ESplineMeshAxis::Z",
+          "SplineStartOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "SplineEndOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "SplineBoundaryMin": 0.0,
+          "SplineBoundaryMax": 0.0,
+          "MinSplineLength": 5.0,
+          "bExtendSplineToMinLength": false,
+          "MinSplineLengthForCollision": 0.0,
+          "SplineMaterialScaling": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Interval": 100.0,
+          "IntervalDeltaPerDegree": 0.0,
+          "bEvenlySpace": false,
+          "bCenter": false,
+          "bLinearPlacement": false,
+          "bFillRemainder": false,
+          "bScaleRemainder": false,
+          "bApplySlopeOffset": false,
+          "bAlternateY": false,
+          "bFixedPitch": false,
+          "FixedPitch": 0.0,
+          "StartOffset": 0.0,
+          "EndOffset": 0.0,
+          "MaxSnapToLandscapeOffset": 0.0,
+          "MaxInstances": 0,
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "RandomRotationVariance": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RandomPositionVariance": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDisplayOnInvalidPath": false,
+          "CopyPlacementRangeFrom": -1,
+          "bIsEndCap": false,
+          "bEndCapReactsToSockets": false,
+          "bReactToSurface": false,
+          "SurfaceSettings": {
+            "bEnableSurfaceDeltaLowerBound": false,
+            "SurfaceDeltaLowerBound": 0.0,
+            "bEnableSurfaceDeltaUpperBound": false,
+            "SurfaceDeltaUpperBound": 0.0,
+            "bRequireBothSidesWithinBounds": false,
+            "PhysMatBlockList": [],
+            "bApplyWaterSurfaceDelta": false
+          },
+          "RuntimeVirtualTextures": [],
+          "VirtualTextureRenderPassType": "ERuntimeVirtualTextureMainPassType::Exclusive"
+        },
+        {
+          "Mesh": null,
+          "Meshes": [
+            {
+              "ObjectName": "StaticMesh'Bouy01'",
+              "ObjectPath": "War/Content/Meshes/Resources/Bouy01.2"
+            }
+          ],
+          "ShadowMode": "EShadowMode::Enabled",
+          "ShadowProxyMesh": null,
+          "Decals": [],
+          "Sequence": "EIntervalSequence::Random",
+          "bReceivesDecals": false,
+          "BuildGhostMaterialOverride": null,
+          "BuildSiteMaterialOverride": null,
+          "Mode": "ESplineConnectorMeshMode::Interval",
+          "ComponentTags": [
+            "MineSplineRemoveInstances",
+            "NeverStealth",
+            "ExcludeFromBuildGhost",
+            "ExcludeFromRealStructure",
+            "ExcludeFromBuildSiteOnWaterSurface"
+          ],
+          "CollisionProfileName": "NoCollision",
+          "bCollisionOnly": false,
+          "PhysMaterialOverride": null,
+          "CollisionIgnoreFlags": 0,
+          "CanCharacterStepUpOn": "ECB_Yes",
+          "StartIndex": 2,
+          "EndIndex": 2,
+          "BoxWidth": 0.0,
+          "BoxHeight": 0.0,
+          "BoxLengthPadding": 0.0,
+          "SpawnPoints": [],
+          "SplineMeshAxis": "ESplineMeshAxis::Z",
+          "SplineStartOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "SplineEndOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "SplineBoundaryMin": 0.0,
+          "SplineBoundaryMax": 0.0,
+          "MinSplineLength": 5.0,
+          "bExtendSplineToMinLength": false,
+          "MinSplineLengthForCollision": 0.0,
+          "SplineMaterialScaling": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Interval": 250.0,
+          "IntervalDeltaPerDegree": 0.0,
+          "bEvenlySpace": false,
+          "bCenter": false,
+          "bLinearPlacement": false,
+          "bFillRemainder": false,
+          "bScaleRemainder": false,
+          "bApplySlopeOffset": false,
+          "bAlternateY": true,
+          "bFixedPitch": false,
+          "FixedPitch": 0.0,
+          "StartOffset": 0.0,
+          "EndOffset": 0.0,
+          "MaxSnapToLandscapeOffset": 0.0,
+          "MaxInstances": 10,
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 100.0,
+              "Z": -150.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "RandomRotationVariance": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "RandomPositionVariance": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDisplayOnInvalidPath": false,
+          "CopyPlacementRangeFrom": -1,
+          "bIsEndCap": false,
+          "bEndCapReactsToSockets": false,
+          "bReactToSurface": true,
+          "SurfaceSettings": {
+            "bEnableSurfaceDeltaLowerBound": false,
+            "SurfaceDeltaLowerBound": 0.0,
+            "bEnableSurfaceDeltaUpperBound": false,
+            "SurfaceDeltaUpperBound": 0.0,
+            "bRequireBothSidesWithinBounds": false,
+            "PhysMatBlockList": [],
+            "bApplyWaterSurfaceDelta": true
+          },
+          "RuntimeVirtualTextures": [],
+          "VirtualTextureRenderPassType": "ERuntimeVirtualTextureMainPassType::Exclusive"
+        }
+      ],
+      "MaxArcAngle": 360.0,
+      "BuildFootprintCapsuleRadius": 450.0,
+      "BuildFootprintCapsuleHalfHeight": 95.0,
+      "BuildFootprintWidth": 300.0,
+      "BuildFootprintLength": 300.0,
+      "BuildFootprintHeight": 250.0,
+      "SurfaceSampleRadiusOverride": 250.0,
+      "BuildFootprintVerticalOffset": -125.0,
+      "BuildFootprintStartOffset": -150.0,
+      "BuildFootprintEndOffset": -150.0,
+      "BuildFootprintBoxEndLengthOverride": 0.0,
+      "bMouseWheelControlsHeight": false,
+      "MaxFootprintDepthBelowSurface": 3000.0,
+      "MaxFootprintHeightAboveSurface": 0.0,
+      "bCanDeployBelowSurface": true,
+      "MinDeploymentDepth": -1500.0,
+      "MaxDeploymentDepth": -3000.0,
+      "WaterPlacementRequirement": "ESplineWaterPlacementRequirement::AlwaysRequireWater",
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPWaterMineSpline_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/ExplosiveMines/BPWaterMineSpline.2"
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPWaterMineSpline_C",
+    "Class": "UScriptClass'StealthComponent'",
+    "Properties": {
+      "MinimumViewableDistanceOverride": 9500.0,
+      "bUseViewerLocationAsViewLocation": true
+    }
+  }
+]

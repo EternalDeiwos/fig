@@ -1,0 +1,547 @@
+[
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_0",
+    "Outer": "SK_LightBoatInfantryC_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_InfantryMain_Muzzle_L1",
+      "BoneName": "Motor_Recoil",
+      "RelativeLocation": {
+        "X": 7.2357616E-06,
+        "Y": 23.339203,
+        "Z": 1.102411E-07
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_1",
+    "Outer": "SK_LightBoatInfantryC_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_InfantryMain_Muzzle_L2",
+      "BoneName": "Motor_Recoil_001",
+      "RelativeLocation": {
+        "X": 7E-06,
+        "Y": 23.339203,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_2",
+    "Outer": "SK_LightBoatInfantryC_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_InfantryMain_Muzzle_R2",
+      "BoneName": "Motor_Recoil_002",
+      "RelativeLocation": {
+        "X": 7E-06,
+        "Y": 23.339203,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_3",
+    "Outer": "SK_LightBoatInfantryC_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_InfantryMain_Muzzle_R1",
+      "BoneName": "Motor_Recoil_003",
+      "RelativeLocation": {
+        "X": 7E-06,
+        "Y": 23.339203,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "Skeleton",
+    "Name": "SK_LightBoatInfantryC_Skeleton",
+    "Class": "UScriptClass'Skeleton'",
+    "Properties": {
+      "BoneTree": [
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        }
+      ],
+      "Sockets": [
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_LightBoatInfantryC_Skeleton:SkeletalMeshSocket_0'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/SK_LightBoatInfantryC_Skeleton.0"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_LightBoatInfantryC_Skeleton:SkeletalMeshSocket_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/SK_LightBoatInfantryC_Skeleton.1"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_LightBoatInfantryC_Skeleton:SkeletalMeshSocket_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/SK_LightBoatInfantryC_Skeleton.2"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_LightBoatInfantryC_Skeleton:SkeletalMeshSocket_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/SK_LightBoatInfantryC_Skeleton.3"
+        }
+      ]
+    },
+    "ReferenceSkeleton": {
+      "FinalRefBoneInfo": [
+        {
+          "Name": "root",
+          "ParentIndex": -1
+        },
+        {
+          "Name": "bodyoffset",
+          "ParentIndex": 0
+        },
+        {
+          "Name": "Turret_Horizontal",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "Turret_vertical",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "Motor_Recoil",
+          "ParentIndex": 3
+        },
+        {
+          "Name": "Motor_Recoil_001",
+          "ParentIndex": 3
+        },
+        {
+          "Name": "Motor_Recoil_002",
+          "ParentIndex": 3
+        },
+        {
+          "Name": "Motor_Recoil_003",
+          "ParentIndex": 3
+        },
+        {
+          "Name": "Propeller01",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "Roder01",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "Propeller02",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "Roder02",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "Propeller03",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "Roder03",
+          "ParentIndex": 1
+        }
+      ],
+      "FinalRefBonePose": [
+        {
+          "Rotation": {
+            "X": 1.4106499E-07,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 3.7748965E-08,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.9999999,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 5.705595E-07,
+            "Y": -3.1283018E-20,
+            "Z": 3.0323796E-13,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 5.5846363E-06,
+            "Y": 113.80608,
+            "Z": 253.77594
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -7.05987E-08,
+            "Y": 1.9718576E-19,
+            "Z": -3.0297667E-13,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -7.912942E-06,
+            "Y": -7.394917E-05,
+            "Z": 46.47641
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.8031204E-07,
+            "Y": -4.8187047E-14,
+            "Z": 9.0156014E-08,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 42.276768,
+            "Y": 54.513863,
+            "Z": 29.581831
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -5.40936E-07,
+            "Y": -4.818705E-14,
+            "Z": 9.0156014E-08,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 42.276768,
+            "Y": 54.358925,
+            "Z": 10.443891
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -5.40936E-07,
+            "Y": -4.818705E-14,
+            "Z": 9.0156014E-08,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -42.276752,
+            "Y": 54.140114,
+            "Z": 10.443891
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -5.40936E-07,
+            "Y": -4.818705E-14,
+            "Z": 9.0156014E-08,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -42.276752,
+            "Y": 54.24433,
+            "Z": 29.581831
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1.14869476E-23,
+            "Y": -9.312576E-16,
+            "Z": 1.2334878E-08,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.22756287,
+            "Y": -416.27332,
+            "Z": -79.697624
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -3.0938622E-25,
+            "Y": -2.8408274E-17,
+            "Z": 1.0890707E-08,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -0.118998334,
+            "Y": -536.0909,
+            "Z": -68.986244
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 2.3879932E-07,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 114.54504,
+            "Y": -416.27325,
+            "Z": -79.697624
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 114.44262,
+            "Y": -536.09094,
+            "Z": -67.20955
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -114.54504,
+            "Y": -417.0146,
+            "Z": -79.69761
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 7.2889435E-08,
+            "Y": -1.901309E-16,
+            "Z": 7.288944E-08,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -114.44262,
+            "Y": -536.008,
+            "Z": -78.99252
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      ],
+      "FinalNameToIndexMap": {
+        "root": 0,
+        "bodyoffset": 1,
+        "Turret_Horizontal": 2,
+        "Turret_vertical": 3,
+        "Motor_Recoil": 4,
+        "Motor_Recoil_001": 5,
+        "Motor_Recoil_002": 6,
+        "Motor_Recoil_003": 7,
+        "Propeller01": 8,
+        "Roder01": 9,
+        "Propeller02": 10,
+        "Roder02": 11,
+        "Propeller03": 12,
+        "Roder03": 13
+      }
+    },
+    "Guid": "0DDF4B5B-4FC19024-11194484-90BF23A8",
+    "AnimRetargetSources": {},
+    "NameMappings": {
+      "AnimationCurves": {
+        "GuidMap": null,
+        "UidMap": null,
+        "CurveMetaDataMap": {}
+      }
+    },
+    "ExistingMarkerNames": null
+  }
+]

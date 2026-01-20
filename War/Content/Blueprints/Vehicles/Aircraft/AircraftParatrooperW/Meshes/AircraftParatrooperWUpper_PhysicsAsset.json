@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "AircraftParatrooperWUpper_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsAsset'",
+    "Properties": {
+      "BoundsBodies": [
+        0
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup'AircraftParatrooperWUpper_PhysicsAsset:SkeletalBodySetup_0'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftParatrooperW/Meshes/AircraftParatrooperWUpper_PhysicsAsset.1"
+        }
+      ],
+      "ThumbnailInfo": null
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_0",
+    "Outer": "AircraftParatrooperWUpper_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 0.1931536,
+              "Y": -390.5593,
+              "Z": 94.80484
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -179.96587,
+              "Roll": -87.79247
+            },
+            "Radius": 151.39192,
+            "Length": 827.91455,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "root",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "40FE2AB843785B429E07FBB3DDC9BA18"
+  }
+]

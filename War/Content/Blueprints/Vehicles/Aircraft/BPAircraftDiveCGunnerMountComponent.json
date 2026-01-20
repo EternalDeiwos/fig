@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftDiveCGunnerMountComponent_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'AirHitScanMountComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftDiveCGunnerMountComponent_C'Default__BPAircraftDiveCGunnerMountComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/BPAircraftDiveCGunnerMountComponent.1"
+    }
+  },
+  {
+    "Type": "BPAircraftDiveCGunnerMountComponent_C",
+    "Name": "Default__BPAircraftDiveCGunnerMountComponent_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Aircraft/BPAircraftDiveCGunnerMountComponent.BPAircraftDiveCGunnerMountComponent_C'",
+    "Properties": {
+      "bControlsBombBay": true,
+      "bUsePerBarrelFX": false,
+      "ImpactEffect": {
+        "ObjectName": "BlueprintGeneratedClass'RifleImpactEffect_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/RifleImpactEffect.1"
+      },
+      "WeaponFireFXClass": {
+        "ObjectName": "BlueprintGeneratedClass'TracerFireFX_C'",
+        "ObjectPath": "War/Content/Blueprints/TracerFireFX.1"
+      },
+      "WeaponShotSFX": {
+        "FiringLoop": {
+          "ObjectName": "SoundCue'MGC-RFShot_Cue'",
+          "ObjectPath": "War/Content/Audio/SFX/Weapons/MGC/MGC-RFShot_Cue.0"
+        },
+        "FiringStopped": {
+          "ObjectName": "SoundCue'MGC-RFTail_Cue'",
+          "ObjectPath": "War/Content/Audio/SFX/Weapons/MGC/MGC-RFTail_Cue.0"
+        }
+      },
+      "MuzzleFlashPS": {
+        "ObjectName": "ParticleSystem'127mm_Heavy_Shellcaseing'",
+        "ObjectPath": "War/Content/FX/127mm_Heavy_Shellcaseing.56"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Blueprints/StringTables/STMounts.STMounts",
+        "Key": "MountGunner",
+        "SourceString": "Gunner",
+        "LocalizedString": "Gunner"
+      },
+      "AmmoName": "MGAmmo",
+      "ReloadSoundCue": {
+        "ObjectName": "SoundCue'HeavyMGReload'",
+        "ObjectPath": "War/Content/Audio/SFX/Weapons/HeavyMG/HeavyMGReload.0"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'MachineGunAmmoIcon'",
+        "ObjectPath": "War/Content/Textures/UI/ItemIcons/MachineGunAmmoIcon.0"
+      },
+      "EquippedGripType": "EEquippedWeaponGripType::VehicleSeatedLmgGunner",
+      "ActivityStateInfos[3]": {
+        "IsLooping": true
+      },
+      "ActivityStateInfos[4]": {
+        "ActivityMontage": {
+          "ObjectName": "AnimMontage'HMG_Reloading'",
+          "ObjectPath": "War/Content/Animation/Character/HMG_HeavyMachineGun/HMG_Reloading.0"
+        },
+        "Duration": 3.5
+      },
+      "bUseCharacterRotationForAim": true
+    }
+  }
+]

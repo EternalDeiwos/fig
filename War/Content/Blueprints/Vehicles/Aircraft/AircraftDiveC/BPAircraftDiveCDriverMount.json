@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftDiveCDriverMount_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'AirVehicleDriverMountComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftDiveCDriverMount_C'Default__BPAircraftDiveCDriverMount_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftDiveC/BPAircraftDiveCDriverMount.1"
+    }
+  },
+  {
+    "Type": "BPAircraftDiveCDriverMount_C",
+    "Name": "Default__BPAircraftDiveCDriverMount_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Aircraft/AircraftDiveC/BPAircraftDiveCDriverMount.BPAircraftDiveCDriverMount_C'",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Blueprints/StringTables/STMounts.STMounts",
+        "Key": "MountPilot",
+        "SourceString": "Pilot",
+        "LocalizedString": "Pilot"
+      },
+      "AmmoName": "DiveBomberAmmo",
+      "ActivityStateInfos[4]": {
+        "Duration": 12.0
+      }
+    }
+  }
+]

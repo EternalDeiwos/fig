@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPSurfaceWaterMineComponent_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LargeItemComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPSurfaceWaterMineComponent_C'Default__BPSurfaceWaterMineComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/BPSurfaceWaterMineComponent.1"
+    }
+  },
+  {
+    "Type": "BPSurfaceWaterMineComponent_C",
+    "Name": "Default__BPSurfaceWaterMineComponent_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/BPSurfaceWaterMineComponent.BPSurfaceWaterMineComponent_C'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'SK_SmallSeaMine'",
+        "ObjectPath": "War/Content/Meshes/Weapons/SK_SmallSeaMine.0"
+      },
+      "EquippedGripType": "EEquippedWeaponGripType::LargeDeployableItem",
+      "ActivityStateInfos[1]": {
+        "ActivityMontage": {
+          "ObjectName": "AnimMontage'NWP_HeavyMetalEquipping'",
+          "ObjectPath": "War/Content/Animation/Character/NWP_NoWeapon/NWP_HeavyMetalEquipping.0"
+        },
+        "Duration": 0.5
+      },
+      "MeshOffset": {
+        "X": 0.0,
+        "Y": -5.0,
+        "Z": -15.0
+      },
+      "MeshRotation": {
+        "Pitch": 0.0,
+        "Yaw": 110.0,
+        "Roll": 0.0
+      }
+    }
+  }
+]

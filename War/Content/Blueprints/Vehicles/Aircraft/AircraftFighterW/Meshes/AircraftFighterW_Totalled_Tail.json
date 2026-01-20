@@ -1,0 +1,264 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "AircraftFighterW_Totalled_Tail",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "A56EF48E4CF34803B64608ACE1BC7335",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 44554,
+        "SizeOnDisk": 44554,
+        "OffsetInFile": "0x39B72"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "AircraftFighterW_Totalled_Tail",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x449C4"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "AircraftFighterW_Totalled_Tail",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftFighterW'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterW/Materials/AircraftFighterW.0"
+          },
+          "MaterialSlotName": "AircraftFighterW",
+          "ImportedMaterialSlotName": "AircraftFighterW",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1093.0967,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftFighterWDetail'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterW/Materials/AircraftFighterWDetail.0"
+          },
+          "MaterialSlotName": "AircraftFighterWDetail",
+          "ImportedMaterialSlotName": "AircraftFighterWDetail",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 338.8784,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'KioskTrimSheet'",
+            "ObjectPath": "War/Content/Materials/Environment/Props/KioskTrimSheet.0"
+          },
+          "MaterialSlotName": "KioskTrims",
+          "ImportedMaterialSlotName": "KioskTrims",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 62.50191,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 717.2817,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -13.119644,
+          "Y": -470.91647,
+          "Z": 123.53898
+        },
+        "BoxExtent": {
+          "X": 73.96037,
+          "Y": 164.55893,
+          "Z": 90.35593
+        },
+        "SphereRadius": 169.48526
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'AircraftFighterW_Totalled_Tail:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterW/Meshes/AircraftFighterW_Totalled_Tail.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'AircraftFighterW_Totalled_Tail:NavCollision_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterW/Meshes/AircraftFighterW_Totalled_Tail.1"
+    },
+    "LightingGuid": "77BB8FE2-44C31E6A-206544AE-32913BBC",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 633,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 587,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 1899,
+              "NumTriangles": 138,
+              "MinVertexIndex": 588,
+              "MaxVertexIndex": 727,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 2313,
+              "NumTriangles": 792,
+              "MinVertexIndex": 728,
+              "MaxVertexIndex": 1839,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1840
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 1840,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 263,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 303,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 789,
+              "NumTriangles": 47,
+              "MinVertexIndex": 304,
+              "MaxVertexIndex": 366,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 930,
+              "NumTriangles": 472,
+              "MinVertexIndex": 367,
+              "MaxVertexIndex": 1115,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 7.660049,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1116
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 1116,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": -13.119644,
+          "Y": -470.91647,
+          "Z": 123.53898
+        },
+        "BoxExtent": {
+          "X": 73.96037,
+          "Y": 164.55893,
+          "Z": 90.35593
+        },
+        "SphereRadius": 169.48526
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.4567139,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

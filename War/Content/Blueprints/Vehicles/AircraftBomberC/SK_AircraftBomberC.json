@@ -1,0 +1,672 @@
+[
+  {
+    "Type": "SkeletalMesh",
+    "Name": "SK_AircraftBomberC",
+    "Class": "UScriptClass'SkeletalMesh'",
+    "Properties": {
+      "Skeleton": {
+        "ObjectName": "Skeleton'SK_AircraftBomberC_Skeleton'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_Skeleton.8"
+      },
+      "LODInfo": [
+        {
+          "ScreenSize": {
+            "bCooked": true,
+            "Default": 1.0,
+            "Value": 1.0
+          },
+          "LODHysteresis": 0.02,
+          "LODMaterialMap": [],
+          "BuildSettings": {
+            "bRecomputeNormals": false,
+            "bRecomputeTangents": true,
+            "bUseMikkTSpace": true,
+            "bComputeWeightedNormals": true,
+            "bRemoveDegenerates": true,
+            "bUseHighPrecisionTangentBasis": false,
+            "bUseFullPrecisionUVs": false,
+            "bBuildAdjacencyBuffer": true,
+            "ThresholdPosition": 2E-05,
+            "ThresholdTangentNormal": 2E-05,
+            "ThresholdUV": 0.000977
+          },
+          "ReductionSettings": {
+            "TerminationCriterion": "SMTC_NumOfTriangles",
+            "NumOfTrianglesPercentage": 1.0,
+            "NumOfVertPercentage": 1.0,
+            "MaxNumOfTriangles": 4,
+            "MaxNumOfVerts": 6,
+            "MaxDeviationPercentage": 0.0,
+            "ReductionMethod": "SMOT_NumOfTriangles",
+            "SilhouetteImportance": "SMOI_Normal",
+            "TextureImportance": "SMOI_Normal",
+            "ShadingImportance": "SMOI_Normal",
+            "SkinningImportance": "SMOI_Normal",
+            "bRemapMorphTargets": false,
+            "bRecalcNormals": true,
+            "WeldingThreshold": 0.1,
+            "NormalsThreshold": 60.0,
+            "MaxBonesPerVertex": 4,
+            "bEnforceBoneBoundaries": false,
+            "VolumeImportance": 1.0,
+            "bLockEdges": false,
+            "BaseLOD": 0
+          },
+          "BonesToRemove": [],
+          "BonesToPrioritize": [],
+          "WeightOfPrioritization": 1.0,
+          "BakePose": null,
+          "BakePoseOverride": null,
+          "SourceImportFilename": "",
+          "bHasBeenSimplified": false,
+          "bHasPerLODVertexColors": false,
+          "bAllowCPUAccess": false,
+          "bSupportUniformlyDistributedSampling": false
+        },
+        {
+          "ScreenSize": {
+            "bCooked": true,
+            "Default": 0.2,
+            "Value": 0.2
+          },
+          "LODHysteresis": 0.02,
+          "LODMaterialMap": [],
+          "BuildSettings": {
+            "bRecomputeNormals": true,
+            "bRecomputeTangents": true,
+            "bUseMikkTSpace": true,
+            "bComputeWeightedNormals": false,
+            "bRemoveDegenerates": true,
+            "bUseHighPrecisionTangentBasis": false,
+            "bUseFullPrecisionUVs": false,
+            "bBuildAdjacencyBuffer": true,
+            "ThresholdPosition": 2E-05,
+            "ThresholdTangentNormal": 2E-05,
+            "ThresholdUV": 0.0009765625
+          },
+          "ReductionSettings": {
+            "TerminationCriterion": "SMTC_NumOfTriangles",
+            "NumOfTrianglesPercentage": 0.5,
+            "NumOfVertPercentage": 0.5,
+            "MaxNumOfTriangles": 4,
+            "MaxNumOfVerts": 6,
+            "MaxDeviationPercentage": 0.5,
+            "ReductionMethod": "SMOT_NumOfTriangles",
+            "SilhouetteImportance": "SMOI_Normal",
+            "TextureImportance": "SMOI_Normal",
+            "ShadingImportance": "SMOI_Normal",
+            "SkinningImportance": "SMOI_Normal",
+            "bRemapMorphTargets": false,
+            "bRecalcNormals": true,
+            "WeldingThreshold": 0.1,
+            "NormalsThreshold": 60.0,
+            "MaxBonesPerVertex": 4,
+            "bEnforceBoneBoundaries": false,
+            "VolumeImportance": 1.0,
+            "bLockEdges": false,
+            "BaseLOD": 0
+          },
+          "BonesToRemove": [],
+          "BonesToPrioritize": [],
+          "WeightOfPrioritization": 1.0,
+          "BakePose": null,
+          "BakePoseOverride": null,
+          "SourceImportFilename": "",
+          "bHasBeenSimplified": true,
+          "bHasPerLODVertexColors": false,
+          "bAllowCPUAccess": false,
+          "bSupportUniformlyDistributedSampling": false
+        }
+      ],
+      "bHasBeenSimplified": true,
+      "bHasVertexColors": true,
+      "PhysicsAsset": {
+        "ObjectName": "PhysicsAsset'SK_AircraftBomberC_PhysicsAsset'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_PhysicsAsset.0"
+      },
+      "SamplingInfo": {
+        "BuiltData": {
+          "WholeMeshBuiltData": [
+            {
+              "AreaWeightedTriangleSampler": {
+                "Prob": [],
+                "Alias": [],
+                "TotalWeight": 0.0
+              }
+            },
+            {
+              "AreaWeightedTriangleSampler": {
+                "Prob": [],
+                "Alias": [],
+                "TotalWeight": 0.0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ImportedBounds": {
+      "Origin": {
+        "X": -0.00012207031,
+        "Y": -424.95178,
+        "Z": -20.687927
+      },
+      "BoxExtent": {
+        "X": 1524.771,
+        "Y": 1138.5168,
+        "Z": 282.1161
+      },
+      "SphereRadius": 1923.7299
+    },
+    "SkeletalMaterials": [
+      {
+        "MaterialSlotName": "AircraftBomberCChange",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'AircraftBomberCChange'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Materials/AircraftBomberCChange.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            533.8161,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "AircraftBomberCBody",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'AircraftBomberCBody'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Materials/AircraftBomberCBody.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            1483.9669,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "KioskTrims",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'KioskTrimSheet'",
+          "ObjectPath": "War/Content/Materials/Environment/Props/KioskTrimSheet.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            163.96895,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "AircraftBomberCWings",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'AircraftBomberCWings'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Materials/AircraftBomberCWings.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            1760.8007,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "Glass",
+        "Material": {
+          "ObjectName": "Material'Glass'",
+          "ObjectPath": "War/Content/Materials/Environment/Glass.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            139.69214,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "AircraftBomberCDetail",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'AircraftBomberCDetail'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Materials/AircraftBomberCDetail.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            1249.1813,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "MachineGun",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'MachineGun'",
+          "ObjectPath": "War/Content/Materials/Weapons/MachineGun.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            135.71713,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "ATRifle",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'ATRifle'",
+          "ObjectPath": "War/Content/Materials/Weapons/ATRifle.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            185.86652,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "LODModels": [
+      {
+        "Sections": [
+          {
+            "MaterialIndex": 0,
+            "BaseIndex": 0,
+            "NumTriangles": 3194,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 0,
+            "NumVertices": 3713,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 1,
+            "BaseIndex": 9582,
+            "NumTriangles": 4562,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 3713,
+            "NumVertices": 4826,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 2,
+            "BaseIndex": 23268,
+            "NumTriangles": 2540,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 8539,
+            "NumVertices": 4148,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 3,
+            "BaseIndex": 30888,
+            "NumTriangles": 3854,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 12687,
+            "NumVertices": 4291,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 4,
+            "BaseIndex": 42450,
+            "NumTriangles": 213,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 16978,
+            "NumVertices": 289,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 5,
+            "BaseIndex": 43089,
+            "NumTriangles": 37380,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 17267,
+            "NumVertices": 33648,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 6,
+            "BaseIndex": 155229,
+            "NumTriangles": 5604,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 50915,
+            "NumVertices": 6027,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 7,
+            "BaseIndex": 172041,
+            "NumTriangles": 2138,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 56942,
+            "NumVertices": 2736,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          }
+        ],
+        "NumVertices": 59678,
+        "NumTexCoords": 1,
+        "VertexBufferGPUSkin": {
+          "NumTexCoords": 0,
+          "MeshExtension": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "MeshOrigin": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bUseFullPrecisionUVs": true,
+          "bExtraBoneInfluences": false
+        }
+      },
+      {
+        "Sections": [
+          {
+            "MaterialIndex": 0,
+            "BaseIndex": 0,
+            "NumTriangles": 1840,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 0,
+            "NumVertices": 2540,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 1,
+            "BaseIndex": 5520,
+            "NumTriangles": 3928,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 2540,
+            "NumVertices": 4301,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 2,
+            "BaseIndex": 17304,
+            "NumTriangles": 2048,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 6841,
+            "NumVertices": 3656,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 3,
+            "BaseIndex": 23448,
+            "NumTriangles": 2323,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 10497,
+            "NumVertices": 3070,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 4,
+            "BaseIndex": 30417,
+            "NumTriangles": 204,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 13567,
+            "NumVertices": 280,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 5,
+            "BaseIndex": 31029,
+            "NumTriangles": 17114,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 13847,
+            "NumVertices": 18578,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 6,
+            "BaseIndex": 82371,
+            "NumTriangles": 1564,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 32425,
+            "NumVertices": 2558,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 7,
+            "BaseIndex": 87063,
+            "NumTriangles": 720,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 34983,
+            "NumVertices": 1278,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          }
+        ],
+        "NumVertices": 36261,
+        "NumTexCoords": 1,
+        "VertexBufferGPUSkin": {
+          "NumTexCoords": 0,
+          "MeshExtension": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "MeshOrigin": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bUseFullPrecisionUVs": true,
+          "bExtraBoneInfluences": false
+        }
+      }
+    ]
+  }
+]

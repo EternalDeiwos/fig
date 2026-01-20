@@ -1,0 +1,2261 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPLightBoatInfantryC_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.88"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'BPLightBoatInfantryC_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BPLightBoatInfantryC_C:ExecuteUbergraph_BPLightBoatInfantryC'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.10"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Gunboat'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BPLightBoatInfantryC_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.0"
+      },
+      {
+        "ObjectName": "Function'BPLightBoatInfantryC_C:BPOnVehicleOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.11"
+      },
+      {
+        "ObjectName": "Function'BPLightBoatInfantryC_C:ExecuteUbergraph_BPLightBoatInfantryC'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:SpotLightR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.8"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:SpotLightL'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.35"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:LightR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:LightL'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.30"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:ExhaustR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:ExhaustL'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:Idle'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:WaveBreakForeRight'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.41"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:WakeAft'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.36"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:WaveBreakForeLeft'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.40"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:WaveBreakAftRight'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.39"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:WaveBreakAftLeft'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.38"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:WakeFore'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.37"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:Camera'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:MainGunnerExit'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.32"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:DriverExit'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:MainGunnerTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.34"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:DriverTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:MainGunnerSeat1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:DriverSeat0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:BoatHullMesh'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPLightBoatInfantryC_C:BPWaterStencilComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.22"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BPLightBoatInfantryC": {
+        "ObjectName": "Function'BPLightBoatInfantryC_C:ExecuteUbergraph_BPLightBoatInfantryC'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.10"
+      },
+      "BPOnVehicleOn": {
+        "ObjectName": "Function'BPLightBoatInfantryC_C:BPOnVehicleOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.11"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPLightBoatInfantryC_C'Default__BPLightBoatInfantryC_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.2"
+    }
+  },
+  {
+    "Type": "BPLightBoatInfantryC_C",
+    "Name": "Default__BPLightBoatInfantryC_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.BPLightBoatInfantryC_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "WorkVolume": {
+        "ObjectName": "BoxComponent'Default__BPLightBoatInfantryC_C:WorkVolume'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.16"
+      },
+      "KillVolume": {
+        "ObjectName": "BoxComponent'Default__BPLightBoatInfantryC_C:KillVolume'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.14"
+      },
+      "GenericStockpileComponent": {
+        "ObjectName": "GenericStockpileComponent'Default__BPLightBoatInfantryC_C:GenericStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.20"
+      },
+      "ShipCollision": {
+        "ObjectName": "StaticMeshComponent'Default__BPLightBoatInfantryC_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.95"
+      },
+      "PropellerPositions": {
+        "X": -500.0,
+        "Y": -200.0,
+        "Z": -80.0
+      },
+      "PropellerPositions[1]": {
+        "X": -500.0,
+        "Y": 200.0,
+        "Z": -80.0
+      },
+      "RudderPivot": {
+        "X": -600.0,
+        "Y": 0.0,
+        "Z": -80.0
+      },
+      "BuildOffset": {
+        "X": 700.0,
+        "Y": -200.0,
+        "Z": -200.0
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "1AE8CA7B49693EC1A35C3DAFFF6AC7BD",
+        "SourceString": "K-81e “Sombre”",
+        "LocalizedString": "K-81e “Sombre”"
+      },
+      "ChassisName": {
+        "TableId": "/Game/Blueprints/StringTables/STChassis.STChassis",
+        "Key": "ChassisInfantryBoat",
+        "SourceString": "Infantry Boat",
+        "LocalizedString": "Infantry Boat"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C06463E04F6B8D2AEA89338C576B1648",
+        "SourceString": "The “Sombre” is an escort gunship that excels at deterring air-to-naval aggression. Fitted with paired machine gun turrets and boasting a heavier frame than most vessels of comparable size, this Kraunian-made K81e emerges at a moment’s notice to defend its charge.",
+        "LocalizedString": "The “Sombre” is an escort gunship that excels at deterring air-to-naval aggression. Fitted with paired machine gun turrets and boasting a heavier frame than most vessels of comparable size, this Kraunian-made K81e emerges at a moment’s notice to defend its charge."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'LightBoatInfantryCIcon'",
+        "ObjectPath": "War/Content/Textures/UI/VehicleIcons/LightBoatInfantryCIcon.0"
+      },
+      "TechID": "ETechID::UnlockLightBoatInfantry",
+      "VehicleBuildType": "EVehicleBuildType::Shipyard",
+      "FactionVariant": "EFactionId::Colonials",
+      "CodeName": "LightBoatInfantryC",
+      "VehicleProfileType": "EVehicleProfileType::CombatShip",
+      "VehicleMovementProfileType": "EVehicleMovementProfileType::Truck",
+      "ArmourType": "EArmourType::Tier1Ship",
+      "bCanUseStructures": true,
+      "bIsReserveStockpiled": true,
+      "bAllowItemDrop": true,
+      "DestroyedMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPLightBoatInfantryC_C:DestroyedMesh'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.94"
+      },
+      "MinorDamagePS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPLightBoatInfantryC_C:MinorDamagePS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.51"
+      },
+      "MajorDamagePS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPLightBoatInfantryC_C:MajorDamagePS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.50"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'GrenadeBlast'",
+        "ObjectPath": "War/Content/FX/GrenadeBlast.151"
+      },
+      "DestroyedSoundCue": {
+        "ObjectName": "SoundCue'VehicleDeath_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Truck/VehicleDeath_Cue.0"
+      },
+      "BreakdownSoundCue": {
+        "ObjectName": "SoundCue'TruckStall_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Truck/TruckStall_Cue.0"
+      },
+      "CharatcerHitSound": {
+        "ObjectName": "SoundCue'TruckFleshImpact'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Truck/TruckFleshImpact.0"
+      },
+      "FrozenEnterSound": {
+        "ObjectName": "SoundCue'DeployExplosive_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Weapons/Satchel/DeployExplosive_Cue.0"
+      },
+      "DriveLoop": {
+        "ObjectName": "AudioComponent'Default__BPLightBoatInfantryC_C:DriveLoop'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.6"
+      },
+      "BackUpSFXLoop": {
+        "ObjectName": "AudioComponent'Default__BPLightBoatInfantryC_C:BackUpSFXLoop'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.5"
+      },
+      "LockSound": {
+        "ObjectName": "SoundCue'Lock_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Lock_Cue.0"
+      },
+      "CameraRigComponent": {
+        "ObjectName": "PlayerCameraRigComponent'Default__BPLightBoatInfantryC_C:CameraRigVehicle'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.52"
+      },
+      "FrontAxleCastLocation": {
+        "ObjectName": "SceneComponent'Default__BPLightBoatInfantryC_C:FrontAxelCastLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.54"
+      },
+      "RearAxleCastLocation": {
+        "ObjectName": "SceneComponent'Default__BPLightBoatInfantryC_C:RearAxleCastLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.57"
+      },
+      "FrontLeftRollCastLocation": {
+        "ObjectName": "SceneComponent'Default__BPLightBoatInfantryC_C:FrontRightAxleCastLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.55"
+      },
+      "FrontRightRollCastLocation": {
+        "ObjectName": "SceneComponent'Default__BPLightBoatInfantryC_C:RearRightAxleCastLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.58"
+      },
+      "LeftSideTrackLocation": {
+        "ObjectName": "SceneComponent'Default__BPLightBoatInfantryC_C:LeftSideTrackLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.56"
+      },
+      "RightSideTrackLocation": {
+        "ObjectName": "SceneComponent'Default__BPLightBoatInfantryC_C:RightSideTrackLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.59"
+      },
+      "PassengerArea": {
+        "ObjectName": "BoxComponent'Default__BPLightBoatInfantryC_C:PassengerBaseBox'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.15"
+      },
+      "AFKTimeoutComponent": {
+        "ObjectName": "AFKTimeoutComponent'Default__BPLightBoatInfantryC_C:AFKTimeoutComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.3"
+      },
+      "LinearSpeedToTurnSpeedMapCurve": {
+        "ObjectName": "CurveFloat'GunboatCTurnSpeedCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/GunboatCTurnSpeedCurve.0"
+      },
+      "MuzzleInfo": [
+        {
+          "GunnerIndex": 1,
+          "MuzzleIndex": 0,
+          "SocketName": "S_InfantryMain_Muzzle_L1"
+        },
+        {
+          "GunnerIndex": 1,
+          "MuzzleIndex": 1,
+          "SocketName": "S_InfantryMain_Muzzle_L2"
+        },
+        {
+          "GunnerIndex": 1,
+          "MuzzleIndex": 2,
+          "SocketName": "S_InfantryMain_Muzzle_R1"
+        },
+        {
+          "GunnerIndex": 1,
+          "MuzzleIndex": 3,
+          "SocketName": "S_InfantryMain_Muzzle_R2"
+        }
+      ],
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPLightBoatInfantryC_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.96"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BPLightBoatInfantryC_C:CharacterMesh0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.89"
+      },
+      "CharacterMovement": {
+        "ObjectName": "ShipMovementComponent'Default__BPLightBoatInfantryC_C:CharMoveComp'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.87"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BPLightBoatInfantryC_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.95"
+      }
+    }
+  },
+  {
+    "Type": "AFKTimeoutComponent",
+    "Name": "AFKTimeoutComponent",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'AFKTimeoutComponent'",
+    "Properties": {
+      "TimeUntilTimeoutHours": 60.0
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "Idle_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'GunboatIdle_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Gunboat/GunboatIdle_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": 56.0,
+        "Y": 1E-06,
+        "Z": 201.0
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "BackUpSFXLoop",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "DriveLoop",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'GunboatDrive_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Gunboat/GunboatDrive_Cue.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      }
+    }
+  },
+  {
+    "Type": "BoatHullMeshComponent",
+    "Name": "BoatHullMesh_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'BoatHullMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'LightBoatInfantryCAntiSwimVolume'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/LightBoatInfantryCAntiSwimVolume.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'GreyBox'",
+          "ObjectPath": "War/Content/Materials/GreyBox.0"
+        }
+      ],
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "ShipHullMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "LandscapeAndWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SpotLightR",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SpotLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_BPLightBoatInfantryC",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BPLightBoatInfantryC",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BPLightBoatInfantryC_C:ExecuteUbergraph_BPLightBoatInfantryC.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.9"
+      },
+      {
+        "ObjectName": "BoolProperty'BPLightBoatInfantryC_C:ExecuteUbergraph_BPLightBoatInfantryC.K2Node_Event_IsOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.13"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "BPOnVehicleOn",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SimVehicle:BPOnVehicleOn'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'BPLightBoatInfantryC_C:BPOnVehicleOn.IsOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.12"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsOn",
+    "Outer": "BPOnVehicleOn",
+    "Class": "UScriptClass'BoolProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsOn",
+    "Outer": "ExecuteUbergraph_BPLightBoatInfantryC",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "KillVolume",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 450.0,
+        "Y": 170.0,
+        "Z": 120.0
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BPLightBoatInfantryC_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.95"
+      },
+      "RelativeLocation": {
+        "X": -77.56891,
+        "Y": -6.1035156E-05,
+        "Z": 189.29979
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PassengerBaseBox",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 150.0,
+        "Y": 170.0,
+        "Z": 150.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      },
+      "RelativeLocation": {
+        "X": -225.96292,
+        "Y": 0.0021362305,
+        "Z": 122.67032
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "WorkVolume",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 600.0,
+        "Y": 190.0,
+        "Z": 120.0
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BPLightBoatInfantryC_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.95"
+      },
+      "RelativeLocation": {
+        "X": 45.915314,
+        "Y": 0.0,
+        "Z": 129.2345
+      }
+    }
+  },
+  {
+    "Type": "BPWaterStencilComponent_C",
+    "Name": "BPWaterStencilComponent_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/BPWaterStencilComponent.BPWaterStencilComponent_C'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'LightBoatInfantryCAntiSwimVolume'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/LightBoatInfantryCAntiSwimVolume.2"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Camera_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -86.07459,
+        "Y": 0.0,
+        "Z": 49.695187
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "CapsuleHalfHeight": 200.0,
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BPLightBoatInfantryC_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.95"
+      }
+    }
+  },
+  {
+    "Type": "GenericStockpileComponent",
+    "Name": "GenericStockpileComponent",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'GenericStockpileComponent'"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BoatHullMesh",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BoatHullMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPWaterStencilComponent",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPWaterStencilComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/BPWaterStencilComponent.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Camera",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'CameraComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverExit",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatExitComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverSeat0",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'VehicleSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverTrigger",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ExhaustL",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ExhaustR",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Idle",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LightL",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LightR",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MainGunnerExit",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatExitComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MainGunnerSeat1",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'VehicleSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MainGunnerTrigger",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SpotLightL",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SpotLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WakeAft",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WakeFore",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaveBreakAftLeft",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaveBreakAftRight",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaveBreakForeLeft",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaveBreakForeRight",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ExhaustL_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TankVentExhaust'",
+        "ObjectPath": "War/Content/FX/TankVentExhaust.20"
+      },
+      "RelativeLocation": {
+        "X": 114.52608,
+        "Y": -464.2589,
+        "Z": 123.36769
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ExhaustR_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TankVentExhaust'",
+        "ObjectPath": "War/Content/FX/TankVentExhaust.20"
+      },
+      "RelativeLocation": {
+        "X": -114.52608,
+        "Y": -464.2589,
+        "Z": 123.36769
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WakeAft_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'BoatSplashes'",
+        "ObjectPath": "War/Content/FX/BoatSplashes.36"
+      },
+      "RelativeLocation": {
+        "X": -507.55463,
+        "Y": 0.0,
+        "Z": -113.99994
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWake"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WakeFore_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'BoatSplashes'",
+        "ObjectPath": "War/Content/FX/BoatSplashes.36"
+      },
+      "RelativeLocation": {
+        "X": 553.38983,
+        "Y": 0.0,
+        "Z": 76.431206
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWake"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WaveBreakAftLeft_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'LargeShipWaveBreakSplash'",
+        "ObjectPath": "War/Content/FX/LargeShipWaveBreakSplash.85"
+      },
+      "RelativeLocation": {
+        "X": -546.645,
+        "Y": -171.14955,
+        "Z": -170.4914
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99994,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWaveBreak"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WaveBreakAftRight_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'LargeShipWaveBreakSplash'",
+        "ObjectPath": "War/Content/FX/LargeShipWaveBreakSplash.85"
+      },
+      "RelativeLocation": {
+        "X": -546.645,
+        "Y": 171.14955,
+        "Z": -170.4914
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWaveBreak"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WaveBreakForeLeft_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'LargeShipWaveBreakSplash'",
+        "ObjectPath": "War/Content/FX/LargeShipWaveBreakSplash.85"
+      },
+      "RelativeLocation": {
+        "X": 678.03656,
+        "Y": -98.57311,
+        "Z": 15.172691
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWaveBreak"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WaveBreakForeRight_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'LargeShipWaveBreakSplash'",
+        "ObjectPath": "War/Content/FX/LargeShipWaveBreakSplash.85"
+      },
+      "RelativeLocation": {
+        "X": 678.03656,
+        "Y": 98.57311,
+        "Z": 15.172691
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWaveBreak"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MajorDamagePS",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      },
+      "RelativeLocation": {
+        "X": 283.0,
+        "Y": 0.0,
+        "Z": 240.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MinorDamagePS",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged02'",
+        "ObjectPath": "War/Content/FX/TruckDamaged02.35"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      },
+      "RelativeLocation": {
+        "X": 283.0,
+        "Y": 0.0,
+        "Z": 240.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "PlayerCameraRigComponent",
+    "Name": "CameraRigVehicle",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'PlayerCameraRigComponent'",
+    "Properties": {
+      "TargetArmLength": 3000.0,
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      },
+      "RelativeRotation": {
+        "Pitch": -60.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "FrontAxelCastLocation",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "FrontRightAxleCastLocation",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "LeftSideTrackLocation",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RearAxleCastLocation",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RearRightAxleCastLocation",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RightSideTrackLocation",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPLightBoatInfantryC_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.53"
+      },
+      "VariableGuid": "2E685F10-483896EA-206831A8-160D0460",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPWaterStencilComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/BPWaterStencilComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPWaterStencilComponent_C'BPLightBoatInfantryC_C:BPWaterStencilComponent_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.17"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9379A514-4EEC0536-F1DDD39B-3B2B3432",
+      "InternalVariableName": "BPWaterStencilComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPLightBoatInfantryC_C:WakeFore_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.45"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "DF583D3B-4CB73AE9-F3F83B9C-E355365B",
+      "InternalVariableName": "WakeFore"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPLightBoatInfantryC_C:WaveBreakForeRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.49"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "32B3A154-469B7116-E6BD3B8D-D9C563CB",
+      "InternalVariableName": "WaveBreakForeRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPLightBoatInfantryC_C:WaveBreakAftLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.46"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6FCCA075-470C18BA-01DA9FBB-F4A69F60",
+      "InternalVariableName": "WaveBreakAftLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPLightBoatInfantryC_C:WaveBreakAftRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.47"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5AF6F9CD-4A316F79-E6BB50A3-7E62992B",
+      "InternalVariableName": "WaveBreakAftRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPLightBoatInfantryC_C:WaveBreakForeLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.48"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "751FC6AB-4F1C9104-FFCFD482-AE39E0FF",
+      "InternalVariableName": "WaveBreakForeLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPLightBoatInfantryC_C:WakeAft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.44"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2A056AF6-41D5C04F-6016D4AE-058CAA1C",
+      "InternalVariableName": "WakeAft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'BPLightBoatInfantryC_C:Idle_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.4"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E973E894-4B60441B-4D39BB97-CBD2E677",
+      "InternalVariableName": "Idle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPLightBoatInfantryC_C:ExhaustL_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.42"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BFD421B7-4D4CA583-D180A48C-936220A0",
+      "InternalVariableName": "ExhaustL"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPLightBoatInfantryC_C:ExhaustR_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.43"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A9E3E931-485BBE44-B20840B9-97F7D1B5",
+      "InternalVariableName": "ExhaustR"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPLightBoatInfantryC_C:LightL_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.92"
+      },
+      "AttachToName": "root",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1950DEC4-4827F441-033F2ABF-34562BEC",
+      "InternalVariableName": "LightL"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoatHullMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoatHullMeshComponent'BPLightBoatInfantryC_C:BoatHullMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.7"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "25992434-465787F0-1360CFA5-92527E87",
+      "InternalVariableName": "BoatHullMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPLightBoatInfantryC_C:LightR_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.93"
+      },
+      "AttachToName": "root",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "268935D0-48C3C129-521696B4-3C76CD72",
+      "InternalVariableName": "LightR"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpotLightComponent'BPLightBoatInfantryC_C:SpotLightL_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.90"
+      },
+      "AttachToName": "root",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8019EC5B-44791CBC-CA2B0DBD-90B2D565",
+      "InternalVariableName": "SpotLightL"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_22",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpotLightComponent'BPLightBoatInfantryC_C:SpotLightR_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.91"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B9B4FF14-425727DE-6D6B1E8B-AE7B41D9",
+      "InternalVariableName": "SpotLightR"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'VehicleSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "VehicleSeatComponent'BPLightBoatInfantryC_C:DriverSeat0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.97"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6A88C9C0-4E068278-03B403AF-8ECFFB5D",
+      "InternalVariableName": "DriverSeat0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'VehicleSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "VehicleSeatComponent'BPLightBoatInfantryC_C:MainGunnerSeat1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.98"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5BD341D8-4F00EB70-2AAA2984-F999EC11",
+      "InternalVariableName": "MainGunnerSeat1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPLightBoatInfantryC_C:DriverTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.85"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "062D36E1-4B9DB37B-25FA0BBD-A4AD9182",
+      "InternalVariableName": "DriverTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPLightBoatInfantryC_C:MainGunnerTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.86"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "96472422-4C7675CC-486E4CA1-4B05F5FE",
+      "InternalVariableName": "MainGunnerTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatExitComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatExitComponent'BPLightBoatInfantryC_C:DriverExit_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.83"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "05745B2E-4419A910-FDEE21AD-CD98B01C",
+      "InternalVariableName": "DriverExit"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatExitComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatExitComponent'BPLightBoatInfantryC_C:MainGunnerExit_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.84"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5A49F4EE-4D8F1608-BF241185-836028D9",
+      "InternalVariableName": "MainGunnerExit"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CameraComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CameraComponent'BPLightBoatInfantryC_C:Camera_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.18"
+      },
+      "ParentComponentOrVariableName": "CameraRigVehicle",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F19B887D-496FA745-473C1984-58EB1CAC",
+      "InternalVariableName": "Camera"
+    }
+  },
+  {
+    "Type": "SeatExitComponent",
+    "Name": "DriverExit_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SeatExitComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -160.49106,
+        "Y": -82.22315,
+        "Z": 72.93623
+      }
+    }
+  },
+  {
+    "Type": "SeatExitComponent",
+    "Name": "MainGunnerExit_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SeatExitComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -160.49106,
+        "Y": 82.223145,
+        "Z": 72.93623
+      }
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "DriverTrigger_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 110.0,
+        "Y": 175.0,
+        "Z": 350.0
+      },
+      "RelativeLocation": {
+        "X": -95.76616,
+        "Y": -200.0,
+        "Z": 0.00012207031
+      }
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "MainGunnerTrigger_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 110.0,
+        "Y": 175.0,
+        "Z": 350.0
+      },
+      "RelativeLocation": {
+        "X": -95.76616,
+        "Y": 200.0,
+        "Z": 0.00012207031
+      }
+    }
+  },
+  {
+    "Type": "ShipMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'ShipMovementComponent'",
+    "Properties": {
+      "ThrustCurve": {
+        "ObjectName": "CurveFloat'LightBoatInfantryCThrustCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/LightBoatInfantryCThrustCurve.0"
+      },
+      "bCanSink": false,
+      "MaxSwimSpeed": 1000.0,
+      "BrakingDecelerationSwimming": 1.0,
+      "Buoyancy": 1.0
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.61"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.72"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.76"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.77"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.78"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.79"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.80"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.81"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.82"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.62"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.64"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.65"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.66"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.67"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.63"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.68"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.69"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.70"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.71"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.73"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.74"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.75"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.61"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.72"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.76"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.77"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.78"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.79"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.80"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.81"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.82"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.62"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.64"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.65"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.66"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.67"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.63"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.68"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.69"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.70"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.71"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.73"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.74"
+        },
+        {
+          "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.75"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPLightBoatInfantryC_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.60"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABPLightBoatInfantryC_C'",
+        "ObjectPath": "War/Content/Animation/WaterVehicles/LightBoat/LightBoatInfantryC/ABPLightBoatInfantryC.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LightBoatInfantryC'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/SK_LightBoatInfantryC.0"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::AlwaysTickPoseAndRefreshBones",
+      "OverrideMaterials": [
+        null
+      ],
+      "CanCharacterStepUpOn": "ECB_Yes",
+      "BodyInstance": {
+        "ObjectType": "ECC_Vehicle",
+        "CollisionProfileName": "LargeShipMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "IceBlocker",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'MetalPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/MetalPhys.0"
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 40.0
+      }
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLightL_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "InnerConeAngle": 25.0,
+      "OuterConeAngle": 50.0,
+      "bUseInverseSquaredFalloff": false,
+      "AttenuationRadius": 2500.2073,
+      "bUseRayTracedDistanceFieldShadows": true,
+      "Intensity": 10.0,
+      "LightColor": {
+        "B": 164,
+        "G": 222,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFDEA4"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 120.10471,
+        "Y": 316.95798,
+        "Z": 233.1913
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLightR_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "InnerConeAngle": 25.0,
+      "OuterConeAngle": 50.0,
+      "bUseInverseSquaredFalloff": false,
+      "AttenuationRadius": 2500.2073,
+      "bUseRayTracedDistanceFieldShadows": true,
+      "Intensity": 10.0,
+      "LightColor": {
+        "B": 164,
+        "G": 222,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFDEA4"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": -120.10471,
+        "Y": 316.95798,
+        "Z": 233.1913
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "LightL_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Headlight'",
+        "ObjectPath": "War/Content/Meshes/Vehicles/Headlight.2"
+      },
+      "RelativeLocation": {
+        "X": 120.10471,
+        "Y": 316.95798,
+        "Z": 233.1913
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.9363804,
+        "Z": 0.9663557
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "LightR_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Headlight'",
+        "ObjectPath": "War/Content/Meshes/Vehicles/Headlight.2"
+      },
+      "RelativeLocation": {
+        "X": -120.10471,
+        "Y": 316.95798,
+        "Z": 233.1913
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.9363804,
+        "Z": 0.9663557
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DestroyedMesh",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'LightBoatInfC_Destroyed'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/LightBoatInfC_Destroyed.2"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPLightBoatInfantryC_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.19"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -4.1547543E-07,
+        "Z": 39.126602
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ShipCollision",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'LightBoatInfantryCShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/LightBoatInfantryCShipCollision.2"
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "ShipRoot",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Work",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "IceBlocker",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BPLightBoatInfantryC_C'Default__BPLightBoatInfantryC_C'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryC.2"
+            },
+            "FunctionName": "VehicleCollisionTouched"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "VehicleSeatComponent",
+    "Name": "DriverSeat0_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'VehicleSeatComponent'",
+    "Properties": {
+      "Direction": "ESeatDirection::Port",
+      "EnterSFX": {
+        "ObjectName": "SoundCue'BargeStart_cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Barge/BargeStart_cue.0"
+      },
+      "TriggerName": "DriverTrigger",
+      "ExitName": "DriverExit",
+      "RelativeLocation": {
+        "X": 6.67572E-06,
+        "Y": 268.02206,
+        "Z": 132.92116
+      }
+    }
+  },
+  {
+    "Type": "VehicleSeatComponent",
+    "Name": "MainGunnerSeat1_GEN_VARIABLE",
+    "Outer": "BPLightBoatInfantryC_C",
+    "Class": "UScriptClass'VehicleSeatComponent'",
+    "Properties": {
+      "Direction": "ESeatDirection::Starboard",
+      "EnterSFX": {
+        "ObjectName": "SoundCue'DeployExplosive_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Weapons/Satchel/DeployExplosive_Cue.0"
+      },
+      "Index": 1,
+      "TriggerName": "MainGunnerTrigger",
+      "ExitName": "MainGunnerExit",
+      "MountCodeName": "LightBoatInfantryCMainGunner",
+      "MountComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BPLightBoatInfantryCMainGunner_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryCMainGunner.0"
+      },
+      "RelativeLocation": {
+        "X": -0.0004850477,
+        "Y": 115.46225,
+        "Z": 237.98218
+      }
+    }
+  }
+]

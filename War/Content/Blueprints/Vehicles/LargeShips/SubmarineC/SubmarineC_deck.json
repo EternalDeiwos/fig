@@ -1,0 +1,188 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "SubmarineC_deck",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "2CAD4EB44BCB7649D5C44A97EA0DE12B",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 22492,
+        "SizeOnDisk": 22492,
+        "OffsetInFile": "0x245F4"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "SubmarineC_deck",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x29E18"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SubmarineC_deck",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'GreyBox'",
+            "ObjectPath": "War/Content/Materials/GreyBox.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "ImportedMaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1127.7456,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 238.6333,
+          "Z": 347.04358
+        },
+        "BoxExtent": {
+          "X": 280.26572,
+          "Y": 2177.0527,
+          "Z": 352.22305
+        },
+        "SphereRadius": 2213.303
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SubmarineC_deck:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LargeShips/SubmarineC/SubmarineC_deck.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SubmarineC_deck:NavCollision_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LargeShips/SubmarineC/SubmarineC_deck.1"
+    },
+    "LightingGuid": "D0DDDE13-4CC763F5-779829A4-1B22FCF9",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 793,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 961,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 962
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 5,
+            "NumVertices": 962,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 397,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 606,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 65.15865,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 607
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 5,
+            "NumVertices": 607,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 238.6333,
+          "Z": 347.04358
+        },
+        "BoxExtent": {
+          "X": 280.26572,
+          "Y": 2177.0527,
+          "Z": 352.22305
+        },
+        "SphereRadius": 2213.303
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.6163997,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPSpotterMountComponentSitting_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SpotterMountComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPSpotterMountComponentSitting_C'Default__BPSpotterMountComponentSitting_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LargeShips/Components/BPSpotterMountComponentSitting.1"
+    }
+  },
+  {
+    "Type": "BPSpotterMountComponentSitting_C",
+    "Name": "Default__BPSpotterMountComponentSitting_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/LargeShips/Components/BPSpotterMountComponentSitting.BPSpotterMountComponentSitting_C'",
+    "Properties": {
+      "CameraArmLengthOverride": 4750.0,
+      "CameraArmLengthCurve": {
+        "ObjectName": "CurveFloat'SpotterCameraArmLengthCurve'",
+        "ObjectPath": "War/Content/Curves/SpotterCameraArmLengthCurve.0"
+      },
+      "EquippedGripType": "EEquippedWeaponGripType::VehicleSeatedPassenger",
+      "bUseCharacterRotationForAim": true,
+      "CameraLerpModifierOverride": 1.75
+    }
+  }
+]

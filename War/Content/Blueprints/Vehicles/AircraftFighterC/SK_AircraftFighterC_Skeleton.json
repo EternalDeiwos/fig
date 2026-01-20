@@ -1,0 +1,1090 @@
+[
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_2",
+    "Outer": "SK_AircraftFighterC_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_AircraftFighterC_MG_1",
+      "BoneName": "AircraftFighterC_CanonL",
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_3",
+    "Outer": "SK_AircraftFighterC_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_AircraftFighterC_MG_0",
+      "BoneName": "AircraftFighterC_CanonR",
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "Skeleton",
+    "Name": "SK_AircraftFighterC_Skeleton",
+    "Class": "UScriptClass'Skeleton'",
+    "Properties": {
+      "BoneTree": [
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        }
+      ],
+      "VirtualBoneGuid": "C60177CC-49A30C31-B88F4680-72F01529",
+      "Sockets": [
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_AircraftFighterC_Skeleton:SkeletalMeshSocket_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftFighterC/SK_AircraftFighterC_Skeleton.0"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_AircraftFighterC_Skeleton:SkeletalMeshSocket_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftFighterC/SK_AircraftFighterC_Skeleton.1"
+        }
+      ]
+    },
+    "ReferenceSkeleton": {
+      "FinalRefBoneInfo": [
+        {
+          "Name": "root",
+          "ParentIndex": -1
+        },
+        {
+          "Name": "AircraftFighterC_PIVOT",
+          "ParentIndex": 0
+        },
+        {
+          "Name": "AircraftFighterC_Offset",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftFighterC_ElevatorL",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_Rudder",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_propeller",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_Flap_L",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_Aileron_L",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_Flap_R",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_Aileron_R",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_Gear01L",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_Gear2L",
+          "ParentIndex": 10
+        },
+        {
+          "Name": "AircraftFighterC_Wheel_L",
+          "ParentIndex": 11
+        },
+        {
+          "Name": "AircraftFighterC_Gear3L",
+          "ParentIndex": 10
+        },
+        {
+          "Name": "AircraftFighterC_PistonL01",
+          "ParentIndex": 13
+        },
+        {
+          "Name": "AircraftFighterC_ElevatorR",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_CanonR",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_CanonL",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_Gear01R",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_Gear2R",
+          "ParentIndex": 18
+        },
+        {
+          "Name": "AircraftFighterC_Wheel_R",
+          "ParentIndex": 19
+        },
+        {
+          "Name": "AircraftFighterC_Gear3R",
+          "ParentIndex": 18
+        },
+        {
+          "Name": "AircraftFighterC_PistonR01",
+          "ParentIndex": 21
+        },
+        {
+          "Name": "AircraftFighterC_MgR",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_MgL",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "Fuselage01",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "Fuselage02",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "Tail",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "Engine",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "WingR",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "WingL",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AircraftFighterC_Wheel_B",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftFighterC_PistonL02",
+          "ParentIndex": 0
+        },
+        {
+          "Name": "AircraftFighterC_PistonR02",
+          "ParentIndex": 0
+        }
+      ],
+      "FinalRefBonePose": [
+        {
+          "Rotation": {
+            "X": 8.146034E-08,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 1.4210855E-12,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.4354214E-08,
+            "Y": -5.1068855E-24,
+            "Z": 6.605242E-17,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -1.675229E-21,
+            "Y": -1.2609382E-06,
+            "Z": -3.814702E-06
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1.3011008E-07,
+            "Y": 5.687187E-24,
+            "Z": 4.4969886E-17,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -2.5461226E-15,
+            "Y": 19.27336,
+            "Z": -90.91397
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1.6328251E-07,
+            "Y": -2.2473007E-08,
+            "Z": -0.21124847,
+            "W": -0.97743237,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 98.208435,
+            "Y": -539.2031,
+            "Z": 127.55486
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 9.249668E-08,
+            "Y": -2.5905007E-23,
+            "Z": 9.227086E-16,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 1.2985281E-13,
+            "Y": -584.80396,
+            "Z": 123.517235
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1.8096073E-07,
+            "Y": -2.694697E-22,
+            "Z": -3.5436392E-29,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -0.021398062,
+            "Y": 342.26898,
+            "Z": 78.91747
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 0.054276664,
+            "Y": -0.0030992695,
+            "Z": -0.7441658,
+            "W": -0.66577905,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 257.8893,
+            "Y": 57.037975,
+            "Z": 100.02407
+          },
+          "Scale3D": {
+            "X": 0.99999994,
+            "Y": 0.99999994,
+            "Z": 0.99999994
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 0.041562773,
+            "Y": -0.014344947,
+            "Z": -0.74216,
+            "W": -0.66877896,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 423.771,
+            "Y": 93.57399,
+            "Z": 105.99716
+          },
+          "Scale3D": {
+            "X": 0.99999994,
+            "Y": 1.0,
+            "Z": 0.99999994
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 0.054285105,
+            "Y": 0.0029576863,
+            "Z": 0.7424311,
+            "W": -0.6677128,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -257.8893,
+            "Y": 57.03796,
+            "Z": 100.02407
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 0.04151902,
+            "Y": 0.0144709665,
+            "Z": 0.744185,
+            "W": -0.66652495,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -423.77097,
+            "Y": 93.57395,
+            "Z": 105.997154
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.99999994,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.7436913E-07,
+            "Y": -9.690425E-18,
+            "Z": -1.15451916E-23,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 21.289171,
+            "Y": 91.07617,
+            "Z": 15.914673
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.1105923E-16,
+            "Y": -1.6139715E-14,
+            "Z": 1.885792E-07,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 38.741226,
+            "Y": -0.22941564,
+            "Z": -54.56297
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -2.7337256E-07,
+            "Y": -4.9681566E-14,
+            "Z": -1.886252E-07,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 10.399441,
+            "Y": 3.4434624E-06,
+            "Z": -8.275522E-07
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.1101894E-16,
+            "Y": 9.690351E-18,
+            "Z": 1.5786914E-30,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 36.158386,
+            "Y": -0.22937562,
+            "Z": -35.291912
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.9999999,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 0.7053205,
+            "Y": -5.3797514E-08,
+            "Z": 0.05023253,
+            "W": -0.7071066,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -0.19447476,
+            "Y": -1.9654803E-05,
+            "Z": 5.198256
+          },
+          "Scale3D": {
+            "X": 0.99999994,
+            "Y": 1.0,
+            "Z": 1.0000001
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1.6641604E-07,
+            "Y": 2.7714071E-08,
+            "Z": 0.21146475,
+            "W": -0.97738564,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -98.20842,
+            "Y": -539.2032,
+            "Z": 127.55486
+          },
+          "Scale3D": {
+            "X": 0.9999999,
+            "Y": 1.0000001,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 2.1857063E-07,
+            "Y": 2.4039692E-23,
+            "Z": -2.1264289E-29,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -29.02113,
+            "Y": 278.1036,
+            "Z": 128.01694
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 4.3714093E-07,
+            "Y": 1.1430299E-22,
+            "Z": -8.1993753E-29,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 29.02112,
+            "Y": 278.8499,
+            "Z": 128.01692
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1.0362346E-07,
+            "Y": 3.7975816E-15,
+            "Z": 6.90823E-08,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -21.289171,
+            "Y": 90.84678,
+            "Z": 15.914673
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.9999999,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 3.144616E-07,
+            "Y": 7.68066E-15,
+            "Z": 2.0964113E-07,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -38.741226,
+            "Y": -4.3618787E-05,
+            "Z": -54.562984
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -3.8996103E-07,
+            "Y": -7.949612E-14,
+            "Z": 2.4370732E-07,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -10.399441,
+            "Y": 3.3598224E-06,
+            "Z": 1.7220524E-05
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 3.434166E-07,
+            "Y": -4.9702728E-14,
+            "Z": 1.7170835E-07,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -36.158413,
+            "Y": -2.6196645E-05,
+            "Z": -35.291965
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 0.7053205,
+            "Y": -3.5126128E-08,
+            "Z": -0.05023244,
+            "W": -0.7071066,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.19449736,
+            "Y": 1.7967293E-05,
+            "Z": 5.1983027
+          },
+          "Scale3D": {
+            "X": 0.9999999,
+            "Y": 0.9999999,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 5.4642626E-08,
+            "Y": -1.842619E-23,
+            "Z": -2.9855935E-30,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -50.83527,
+            "Y": 265.23102,
+            "Z": 52.548244
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 5.4642626E-08,
+            "Y": -1.842619E-23,
+            "Z": -2.9855935E-30,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 50.83527,
+            "Y": 264.86664,
+            "Z": 52.548244
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.2314236E-07,
+            "Y": -6.061826E-24,
+            "Z": -4.4969925E-17,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -2.4381018E-14,
+            "Y": 93.93908,
+            "Z": 88.53643
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.2314227E-07,
+            "Y": -6.0618214E-24,
+            "Z": -4.4969846E-17,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 6.5450426E-14,
+            "Y": -310.6245,
+            "Z": 88.536575
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.9999999,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.2314227E-07,
+            "Y": -6.0618214E-24,
+            "Z": -4.4969846E-17,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 1.11249836E-13,
+            "Y": -516.88763,
+            "Z": 88.536644
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.9999999,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.231424E-07,
+            "Y": -6.0618064E-24,
+            "Z": -4.4969793E-17,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -6.765693E-14,
+            "Y": 288.83856,
+            "Z": 88.53636
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.4321877E-14,
+            "Y": -3.1715294E-23,
+            "Z": 8.864608E-33,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -198.29828,
+            "Y": 93.93908,
+            "Z": 99.68768
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.4321877E-14,
+            "Y": -3.1715294E-23,
+            "Z": 8.864608E-33,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 190.84181,
+            "Y": 93.93908,
+            "Z": 99.68768
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 7.7199104E-08,
+            "Y": 1.8384575E-20,
+            "Z": -2.9449118E-13,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.00029558354,
+            "Y": -505.67996,
+            "Z": -67.85201
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -0.7039214,
+            "Y": -0.013859786,
+            "Z": -0.06704346,
+            "W": -0.7069709,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 52.96313,
+            "Y": 110.120125,
+            "Z": -45.249863
+          },
+          "Scale3D": {
+            "X": 0.9999999,
+            "Y": 1.0,
+            "Z": 0.9999999
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -0.70614505,
+            "Y": -0.01385986,
+            "Z": 0.036868226,
+            "W": -0.7069709,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -52.904945,
+            "Y": 110.120125,
+            "Z": -45.306896
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.99999994,
+            "Z": 0.99999994
+          },
+          "IsRotationNormalized": true
+        }
+      ],
+      "FinalNameToIndexMap": {
+        "root": 0,
+        "AircraftFighterC_PIVOT": 1,
+        "AircraftFighterC_Offset": 2,
+        "AircraftFighterC_ElevatorL": 3,
+        "AircraftFighterC_Rudder": 4,
+        "AircraftFighterC_propeller": 5,
+        "AircraftFighterC_Flap_L": 6,
+        "AircraftFighterC_Aileron_L": 7,
+        "AircraftFighterC_Flap_R": 8,
+        "AircraftFighterC_Aileron_R": 9,
+        "AircraftFighterC_Gear01L": 10,
+        "AircraftFighterC_Gear2L": 11,
+        "AircraftFighterC_Wheel_L": 12,
+        "AircraftFighterC_Gear3L": 13,
+        "AircraftFighterC_PistonL01": 14,
+        "AircraftFighterC_ElevatorR": 15,
+        "AircraftFighterC_CanonR": 16,
+        "AircraftFighterC_CanonL": 17,
+        "AircraftFighterC_Gear01R": 18,
+        "AircraftFighterC_Gear2R": 19,
+        "AircraftFighterC_Wheel_R": 20,
+        "AircraftFighterC_Gear3R": 21,
+        "AircraftFighterC_PistonR01": 22,
+        "AircraftFighterC_MgR": 23,
+        "AircraftFighterC_MgL": 24,
+        "Fuselage01": 25,
+        "Fuselage02": 26,
+        "Tail": 27,
+        "Engine": 28,
+        "WingR": 29,
+        "WingL": 30,
+        "AircraftFighterC_Wheel_B": 31,
+        "AircraftFighterC_PistonL02": 32,
+        "AircraftFighterC_PistonR02": 33
+      }
+    },
+    "Guid": "97599216-4A43A316-AC5B9494-E7DDB632",
+    "AnimRetargetSources": {},
+    "NameMappings": {
+      "AnimationCurves": {
+        "GuidMap": null,
+        "UidMap": null,
+        "CurveMetaDataMap": {}
+      }
+    },
+    "ExistingMarkerNames": null
+  }
+]

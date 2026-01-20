@@ -1,0 +1,281 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftRunwayT2_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BPAircraftRunway_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPAircraftRunwayT2_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.7"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BPAircraftRunwayT2_C:InheritableComponentHandler'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BPAircraftRunway_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.1"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftRunwayT2_C'Default__BPAircraftRunwayT2_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.1"
+    }
+  },
+  {
+    "Type": "BPAircraftRunwayT2_C",
+    "Name": "Default__BPAircraftRunwayT2_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.BPAircraftRunwayT2_C'",
+    "Properties": {
+      "SettledPhysicalMaterial": {
+        "ObjectName": "PhysicalMaterial'T2RunwayPhys'",
+        "ObjectPath": "War/Content/PhysicalMaterials/T2RunwayPhys.0"
+      },
+      "WetPhysicalMaterial": {
+        "ObjectName": "PhysicalMaterial'T1RunwayPhys'",
+        "ObjectPath": "War/Content/PhysicalMaterials/T1RunwayPhys.0"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "675ACE37428F8630ED4A2ABF8590DF43",
+        "SourceString": "A stable runway that allows larger aircraft to take off.",
+        "LocalizedString": "A stable runway that allows larger aircraft to take off."
+      },
+      "ValidBuildTools": 60,
+      "ConcreteSettler": {
+        "bEnabled": true,
+        "ConcreteSettleDurationMins": 2880.0
+      },
+      "CodeName": "AircraftRunwayT2",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "138A13664B5D244A65F1C9A0171A8D53",
+        "SourceString": "Aircraft Runway (Tier 2)",
+        "LocalizedString": "Aircraft Runway (Tier 2)"
+      },
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftRunwayT2_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.2"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPAircraftRunwayT2_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.3"
+      },
+      "TechComponentIDs": [
+        "ETechComponentID::Fortifications"
+      ],
+      "MaxHealth": 7500,
+      "Health": 7500,
+      "MapIconType": "EMapIconType::AircraftRunwayT2",
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPAircraftRunwayT2_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.11"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftRunwayT2_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.2"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPAircraftRunwayT2_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPAircraftRunwayT2_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftRunwayT2_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.2"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BPAircraftRunwayT2_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BPAircraftRunwayT2_C:StaticMesh_GEN_VARIABLE'",
+            "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.10"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BPAircraftRunway_C'",
+              "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.1"
+            },
+            "SCSVariableName": "StaticMesh",
+            "AssociatedGuid": "40467DCA-48E89303-BCC5A7AD-222A586F"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BPAircraftRunwayT2_C:StaticMesh2_GEN_VARIABLE'",
+            "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.9"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BPAircraftRunway_C'",
+              "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.1"
+            },
+            "SCSVariableName": "StaticMesh2",
+            "AssociatedGuid": "1A5304F9-41BE73A6-B7136395-9B3A429A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BPAircraftRunwayT2_C:StaticMesh1_GEN_VARIABLE'",
+            "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.8"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BPAircraftRunway_C'",
+              "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.1"
+            },
+            "SCSVariableName": "StaticMesh1",
+            "AssociatedGuid": "BA5CDD64-435E6F4E-E676B1AC-606A3A43"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPAircraftRunwayT2_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPAircraftRunwayT2_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.5"
+      },
+      "VariableGuid": "767D8FCC-4AF9728B-BC003BB5-8F05E37F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPAircraftRunwayT2_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPAircraftRunwayT2_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT2.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh1_GEN_VARIABLE",
+    "Outer": "BPAircraftRunwayT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'AirfieldRunwayT2_01'",
+        "ObjectPath": "War/Content/Meshes/Structures/Airfield/AirfieldRunwayT2_01.2"
+      },
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'T2RunwayPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/T2RunwayPhys.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh2_GEN_VARIABLE",
+    "Outer": "BPAircraftRunwayT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'AirfieldRunwayT2_01'",
+        "ObjectPath": "War/Content/Meshes/Structures/Airfield/AirfieldRunwayT2_01.2"
+      },
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'T2RunwayPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/T2RunwayPhys.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BPAircraftRunwayT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'AirfieldRunwayT2_01'",
+        "ObjectPath": "War/Content/Meshes/Structures/Airfield/AirfieldRunwayT2_01.2"
+      },
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'T2RunwayPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/T2RunwayPhys.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPAircraftRunwayT2_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

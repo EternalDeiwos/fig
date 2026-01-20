@@ -1,0 +1,2791 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPGunboat2W_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPGunboat2W_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.104"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'BPGunboat2W_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BPGunboat2W_C:ExecuteUbergraph_BPGunboat2W'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.10"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Gunboat'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BPGunboat2W_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.0"
+      },
+      {
+        "ObjectName": "Function'BPGunboat2W_C:BPOnVehicleOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.11"
+      },
+      {
+        "ObjectName": "Function'BPGunboat2W_C:ExecuteUbergraph_BPGunboat2W'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:MainGunnerExit'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.8"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:InstancedStaticMesh'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.37"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:ItemGroupRender'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.38"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:BPVehicleAccessBox2'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:BPVehicleAccessBox'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:BPVehicleAccessBox1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:SpotterExit'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.43"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:SpotterTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.45"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:SpotterSeat2'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.44"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:WaveBreakForeLeft'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.50"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:WaveBreakAftRight'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.49"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:WaveBreakAftLeft'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.48"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:WaveBreakForeRight'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.51"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:WakeFore'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.47"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:WakeAft'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.46"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:BoatHullMesh'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:BPWaterStencilComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.30"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:Exhaust'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.35"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:DriverExit'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.32"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:DriverTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.34"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:MainGunnerSeat1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.40"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:DriverSeat0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:MainGunnerTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.41"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:Light'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.39"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:SpotLight'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.42"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:Idle'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.36"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPGunboat2W_C:Camera'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.31"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BPGunboat2W": {
+        "ObjectName": "Function'BPGunboat2W_C:ExecuteUbergraph_BPGunboat2W'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.10"
+      },
+      "BPOnVehicleOn": {
+        "ObjectName": "Function'BPGunboat2W_C:BPOnVehicleOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.11"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPGunboat2W_C'Default__BPGunboat2W_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.2"
+    }
+  },
+  {
+    "Type": "BPGunboat2W_C",
+    "Name": "Default__BPGunboat2W_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.BPGunboat2W_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "WorkVolume": {
+        "ObjectName": "BoxComponent'Default__BPGunboat2W_C:WorkVolume'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.16"
+      },
+      "KillVolume": {
+        "ObjectName": "BoxComponent'Default__BPGunboat2W_C:KillVolume'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.14"
+      },
+      "bAllowExtraItemHolders": true,
+      "GenericStockpileComponent": {
+        "ObjectName": "GenericStockpileComponent'Default__BPGunboat2W_C:GenericStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.23"
+      },
+      "ShipCollision": {
+        "ObjectName": "StaticMeshComponent'Default__BPGunboat2W_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.109"
+      },
+      "PropellerPositions": {
+        "X": -800.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "PropellerPositions[1]": {
+        "X": -800.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RudderPivot": {
+        "X": -900.0,
+        "Y": 0.0,
+        "Z": -50.0
+      },
+      "BuildOffset": {
+        "X": 450.0,
+        "Y": -135.0,
+        "Z": -100.0
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "8719606B491E939A914CC4B739AF2220",
+        "SourceString": "81f-f Ronan Blackguard",
+        "LocalizedString": "81f-f Ronan Blackguard"
+      },
+      "ChassisName": {
+        "TableId": "/Game/Blueprints/StringTables/STChassis.STChassis",
+        "Key": "ChassisSiegeBoat",
+        "SourceString": "Siege Boat",
+        "LocalizedString": "Siege Boat"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "64CC2785476DBF2E9BE3CB9AA535F979",
+        "SourceString": "A shore-strafing gunship, the Blackguard’s heavy mortar blitz makes short work of coastline bunker networks. Sporting ample storage for mortar shells means a no-frills approach to overall engineering. While the Blackguard may need a nearby escort, it more than makes up for it with pure guile.",
+        "LocalizedString": "A shore-strafing gunship, the Blackguard’s heavy mortar blitz makes short work of coastline bunker networks. Sporting ample storage for mortar shells means a no-frills approach to overall engineering. While the Blackguard may need a nearby escort, it more than makes up for it with pure guile."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'Gunboat2WIcon'",
+        "ObjectPath": "War/Content/Textures/UI/VehicleIcons/Gunboat2WIcon.0"
+      },
+      "TechID": "ETechID::UnlockGunboat2",
+      "VehicleBuildType": "EVehicleBuildType::Shipyard",
+      "FactionVariant": "EFactionId::Wardens",
+      "CodeName": "Gunboat2W",
+      "VehicleProfileType": "EVehicleProfileType::CombatShip",
+      "VehicleMovementProfileType": "EVehicleMovementProfileType::Truck",
+      "ArmourType": "EArmourType::Tier1Ship",
+      "FuelTank": {
+        "FuelCapacity": 200.0
+      },
+      "bCanUseStructures": true,
+      "bIsReserveStockpiled": true,
+      "bAllowItemDrop": true,
+      "DestroyedMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPGunboat2W_C:DestroyedMesh'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.108"
+      },
+      "MinorDamagePS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPGunboat2W_C:MinorDamagePS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.60"
+      },
+      "MajorDamagePS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPGunboat2W_C:MajorDamagePS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.59"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'GrenadeBlast'",
+        "ObjectPath": "War/Content/FX/GrenadeBlast.151"
+      },
+      "DestroyedSoundCue": {
+        "ObjectName": "SoundCue'VehicleDeath_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Truck/VehicleDeath_Cue.0"
+      },
+      "BreakdownSoundCue": {
+        "ObjectName": "SoundCue'TruckStall_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Truck/TruckStall_Cue.0"
+      },
+      "CharatcerHitSound": {
+        "ObjectName": "SoundCue'TruckFleshImpact'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Truck/TruckFleshImpact.0"
+      },
+      "FrozenEnterSound": {
+        "ObjectName": "SoundCue'DeployExplosive_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Weapons/Satchel/DeployExplosive_Cue.0"
+      },
+      "DriveLoop": {
+        "ObjectName": "AudioComponent'Default__BPGunboat2W_C:DriveLoop'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.6"
+      },
+      "BackUpSFXLoop": {
+        "ObjectName": "AudioComponent'Default__BPGunboat2W_C:BackUpSFXLoop'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.5"
+      },
+      "LockSound": {
+        "ObjectName": "SoundCue'Lock_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Lock_Cue.0"
+      },
+      "CameraRigComponent": {
+        "ObjectName": "PlayerCameraRigComponent'Default__BPGunboat2W_C:CameraRigVehicle'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.61"
+      },
+      "FrontAxleCastLocation": {
+        "ObjectName": "SceneComponent'Default__BPGunboat2W_C:FrontAxelCastLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.63"
+      },
+      "RearAxleCastLocation": {
+        "ObjectName": "SceneComponent'Default__BPGunboat2W_C:RearAxleCastLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.66"
+      },
+      "FrontLeftRollCastLocation": {
+        "ObjectName": "SceneComponent'Default__BPGunboat2W_C:FrontRightAxleCastLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.64"
+      },
+      "FrontRightRollCastLocation": {
+        "ObjectName": "SceneComponent'Default__BPGunboat2W_C:RearRightAxleCastLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.67"
+      },
+      "LeftSideTrackLocation": {
+        "ObjectName": "SceneComponent'Default__BPGunboat2W_C:LeftSideTrackLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.65"
+      },
+      "RightSideTrackLocation": {
+        "ObjectName": "SceneComponent'Default__BPGunboat2W_C:RightSideTrackLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.68"
+      },
+      "PassengerArea": {
+        "ObjectName": "BoxComponent'Default__BPGunboat2W_C:PassengerBaseBox'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.15"
+      },
+      "AFKTimeoutComponent": {
+        "ObjectName": "AFKTimeoutComponent'Default__BPGunboat2W_C:AFKTimeoutComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.3"
+      },
+      "LinearSpeedToTurnSpeedMapCurve": {
+        "ObjectName": "CurveFloat'GunboatWTurnSpeedCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/GunboatWTurnSpeedCurve.0"
+      },
+      "MuzzleInfo": [
+        {
+          "GunnerIndex": 1,
+          "MuzzleIndex": 0,
+          "SocketName": "S_Gunboat2_MainMuzzle"
+        }
+      ],
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPGunboat2W_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.110"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BPGunboat2W_C:CharacterMesh0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.105"
+      },
+      "CharacterMovement": {
+        "ObjectName": "ShipMovementComponent'Default__BPGunboat2W_C:CharMoveComp'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.103"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BPGunboat2W_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.109"
+      }
+    }
+  },
+  {
+    "Type": "AFKTimeoutComponent",
+    "Name": "AFKTimeoutComponent",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'AFKTimeoutComponent'",
+    "Properties": {
+      "TimeUntilTimeoutHours": 60.0
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "Idle_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'GunboatIdle_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Gunboat/GunboatIdle_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": 265.84082,
+        "Y": 0.0,
+        "Z": 157.0
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "BackUpSFXLoop",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "DriveLoop",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'GunboatDrive_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Gunboat/GunboatDrive_Cue.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      }
+    }
+  },
+  {
+    "Type": "BoatHullMeshComponent",
+    "Name": "BoatHullMesh_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'BoatHullMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Gunboat2WAntiSwimVolume'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/Gunboat2WAntiSwimVolume.2"
+      },
+      "bReceivesDecals": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "ShipHullMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "LandscapeAndWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeScale3D": {
+        "X": 0.99,
+        "Y": 0.99,
+        "Z": 0.99
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MainGunnerExit",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatExitComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_BPGunboat2W",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BPGunboat2W",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BPGunboat2W_C:ExecuteUbergraph_BPGunboat2W.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.9"
+      },
+      {
+        "ObjectName": "BoolProperty'BPGunboat2W_C:ExecuteUbergraph_BPGunboat2W.K2Node_Event_IsOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.13"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "BPOnVehicleOn",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SimVehicle:BPOnVehicleOn'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'BPGunboat2W_C:BPOnVehicleOn.IsOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.12"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsOn",
+    "Outer": "BPOnVehicleOn",
+    "Class": "UScriptClass'BoolProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsOn",
+    "Outer": "ExecuteUbergraph_BPGunboat2W",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "KillVolume",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 850.0,
+        "Y": 250.0,
+        "Z": 200.0
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BPGunboat2W_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.109"
+      },
+      "RelativeLocation": {
+        "X": -19.141327,
+        "Y": 0.0,
+        "Z": 214.5893
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PassengerBaseBox",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 600.0,
+        "Y": 200.0,
+        "Z": 155.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      },
+      "RelativeLocation": {
+        "X": -69.099045,
+        "Y": 0.00012207031,
+        "Z": 53.944336
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "WorkVolume",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 850.0,
+        "Y": 320.0,
+        "Z": 155.0
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BPGunboat2W_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.109"
+      },
+      "RelativeLocation": {
+        "X": -17.932877,
+        "Y": 0.0,
+        "Z": 181.57452
+      }
+    }
+  },
+  {
+    "Type": "BPVehicleAccessBox_C",
+    "Name": "BPVehicleAccessBox1_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Components/BPVehicleAccessBox.BPVehicleAccessBox_C'",
+    "Properties": {
+      "Priority": 1,
+      "ItemHolderIndex": 1,
+      "BoxExtent": {
+        "X": 150.0,
+        "Y": 180.0,
+        "Z": 32.0
+      },
+      "RelativeLocation": {
+        "X": -35.42685,
+        "Y": 1.0319563E-25,
+        "Z": 134.45897
+      },
+      "RelativeRotation": {
+        "Pitch": 1.3660378E-05,
+        "Yaw": 6.6326786E-20,
+        "Roll": 8.142218E-13
+      }
+    }
+  },
+  {
+    "Type": "BPVehicleAccessBox_C",
+    "Name": "BPVehicleAccessBox2_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Components/BPVehicleAccessBox.BPVehicleAccessBox_C'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 600.0,
+        "Y": 200.0,
+        "Z": 32.0
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 1.286285E-25,
+        "Z": 134.45982
+      },
+      "RelativeRotation": {
+        "Pitch": 1.3660378E-05,
+        "Yaw": 6.6326786E-20,
+        "Roll": 8.142218E-13
+      }
+    }
+  },
+  {
+    "Type": "BPVehicleAccessBox_C",
+    "Name": "BPVehicleAccessBox_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Components/BPVehicleAccessBox.BPVehicleAccessBox_C'",
+    "Properties": {
+      "Priority": 1,
+      "ItemHolderIndex": 0,
+      "StockpileIndex": 0,
+      "BoxExtent": {
+        "X": 128.0,
+        "Y": 128.0,
+        "Z": 32.0
+      },
+      "RelativeLocation": {
+        "X": -465.3271,
+        "Y": 0.0,
+        "Z": 134.45964
+      }
+    }
+  },
+  {
+    "Type": "BPWaterStencilComponent_C",
+    "Name": "BPWaterStencilComponent_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/BPWaterStencilComponent.BPWaterStencilComponent_C'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Gunboat2WAntiSwimVolume'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/Gunboat2WAntiSwimVolume.2"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.99,
+        "Y": 0.99,
+        "Z": 0.99
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Camera_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -86.07459,
+        "Y": 0.0,
+        "Z": 49.695187
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "CapsuleHalfHeight": 200.0,
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BPGunboat2W_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.109"
+      },
+      "RelativeLocation": {
+        "X": 22.026367,
+        "Y": 0.0,
+        "Z": 157.0
+      },
+      "bShouldUpdatePhysicsVolume": false
+    }
+  },
+  {
+    "Type": "GenericStockpileComponent",
+    "Name": "GenericStockpileComponent",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'GenericStockpileComponent'",
+    "Properties": {
+      "Configs": [
+        {
+          "Type": "EStockpileEntryType::Items",
+          "QuantityLimit": 32000,
+          "TotalQuantityLimit": 10,
+          "ItemCategoryFilter": 0,
+          "QuantityOverrides": [],
+          "TotalQuantityOverrides": [],
+          "ValidEntriesOverride": [
+            "MortarTankAmmoBR"
+          ],
+          "PreStockedEntries": [],
+          "RetrieveDurationModifiers": []
+        }
+      ],
+      "bReplicates": true
+    }
+  },
+  {
+    "Type": "InstancedStaticMeshComponent",
+    "Name": "InstancedStaticMesh_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'InstancedStaticMeshComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "ItemGroupRenderComponent",
+    "Name": "ItemGroupRender_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ItemGroupRenderComponent'",
+    "Properties": {
+      "DataClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPGenericMaterialLayout_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Components/BPGenericMaterialLayout.0"
+      },
+      "RelativeLocation": {
+        "X": -0.0007055998,
+        "Y": -408.938,
+        "Z": 123.92032
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99554,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BoatHullMesh",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BoatHullMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPVehicleAccessBox",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPVehicleAccessBox_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Components/BPVehicleAccessBox.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPVehicleAccessBox1",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPVehicleAccessBox_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Components/BPVehicleAccessBox.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPVehicleAccessBox2",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPVehicleAccessBox_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Components/BPVehicleAccessBox.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPWaterStencilComponent",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPWaterStencilComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/BPWaterStencilComponent.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Camera",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'CameraComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverExit",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatExitComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverSeat0",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'VehicleSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverTrigger",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Exhaust",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Idle",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "InstancedStaticMesh",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'InstancedStaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ItemGroupRender",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ItemGroupRenderComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Light",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MainGunnerSeat1",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'VehicleSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MainGunnerTrigger",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SpotLight",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SpotLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SpotterExit",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatExitComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SpotterSeat2",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'VehicleSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SpotterTrigger",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WakeAft",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WakeFore",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaveBreakAftLeft",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaveBreakAftRight",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaveBreakForeLeft",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaveBreakForeRight",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "Exhaust_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckExhaustDrive'",
+        "ObjectPath": "War/Content/FX/TruckExhaustDrive.18"
+      },
+      "RelativeLocation": {
+        "X": -1.3984827E-05,
+        "Y": 330.24884,
+        "Z": 494.79135
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 2.8574165E-09,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WakeAft_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'BoatSplashes'",
+        "ObjectPath": "War/Content/FX/BoatSplashes.36"
+      },
+      "RelativeLocation": {
+        "X": -819.33435,
+        "Y": 0.000914,
+        "Z": -200.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWake"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WakeFore_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'BoatSplashes'",
+        "ObjectPath": "War/Content/FX/BoatSplashes.36"
+      },
+      "RelativeLocation": {
+        "X": 627.376,
+        "Y": 0.000761,
+        "Z": -200.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWake"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WaveBreakAftLeft_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'LargeShipWaveBreakSplash'",
+        "ObjectPath": "War/Content/FX/LargeShipWaveBreakSplash.85"
+      },
+      "RelativeLocation": {
+        "X": -739.1967,
+        "Y": -191.01166,
+        "Z": -230.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99994,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWaveBreak"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WaveBreakAftRight_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'LargeShipWaveBreakSplash'",
+        "ObjectPath": "War/Content/FX/LargeShipWaveBreakSplash.85"
+      },
+      "RelativeLocation": {
+        "X": -739.1967,
+        "Y": 191.01166,
+        "Z": -230.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWaveBreak"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WaveBreakForeLeft_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'LargeShipWaveBreakSplash'",
+        "ObjectPath": "War/Content/FX/LargeShipWaveBreakSplash.85"
+      },
+      "RelativeLocation": {
+        "X": 625.593,
+        "Y": -155.46233,
+        "Z": -230.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWaveBreak"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WaveBreakForeRight_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'LargeShipWaveBreakSplash'",
+        "ObjectPath": "War/Content/FX/LargeShipWaveBreakSplash.85"
+      },
+      "RelativeLocation": {
+        "X": 625.593,
+        "Y": 155.46233,
+        "Z": -230.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWaveBreak"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MajorDamagePS",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      },
+      "RelativeLocation": {
+        "X": -242.76172,
+        "Y": 32.051056,
+        "Z": 90.91214
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MinorDamagePS",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged02'",
+        "ObjectPath": "War/Content/FX/TruckDamaged02.35"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      },
+      "RelativeLocation": {
+        "X": -242.76172,
+        "Y": 32.051056,
+        "Z": 90.91214
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "PlayerCameraRigComponent",
+    "Name": "CameraRigVehicle",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'PlayerCameraRigComponent'",
+    "Properties": {
+      "TargetArmLength": 3000.0,
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      },
+      "RelativeRotation": {
+        "Pitch": -60.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "FrontAxelCastLocation",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "FrontRightAxleCastLocation",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "LeftSideTrackLocation",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RearAxleCastLocation",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RearRightAxleCastLocation",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RightSideTrackLocation",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPGunboat2W_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.62"
+      },
+      "VariableGuid": "E709F14C-4C123634-42C2849B-0BF871F3",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPGunboat2W_C:MainGunnerTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.101"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "20211719-4ECABCC1-9FDAC8BB-16F615B0",
+      "InternalVariableName": "MainGunnerTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'VehicleSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "VehicleSeatComponent'BPGunboat2W_C:MainGunnerSeat1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.112"
+      },
+      "AttachToName": "Gun_Horizontal",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "671D0700-491C6366-CF9AE4AC-5DE8565D",
+      "InternalVariableName": "MainGunnerSeat1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPGunboat2W_C:Light_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.107"
+      },
+      "AttachToName": "root",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "715B7C58-4CB78126-FD1196AE-F55650CD",
+      "InternalVariableName": "Light"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPVehicleAccessBox_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Components/BPVehicleAccessBox.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPVehicleAccessBox_C'BPGunboat2W_C:BPVehicleAccessBox2_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.18"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A6F680C6-484EA0CE-00F54A90-B097F06B",
+      "InternalVariableName": "BPVehicleAccessBox2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'InstancedStaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "InstancedStaticMeshComponent'BPGunboat2W_C:InstancedStaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.24"
+      },
+      "VariableGuid": "7BDB2373-42026CBD-933BC289-1D7ABD49",
+      "InternalVariableName": "InstancedStaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatExitComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatExitComponent'BPGunboat2W_C:DriverExit_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.97"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A9C78EC3-403C4B1D-28C099B4-72025639",
+      "InternalVariableName": "DriverExit"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CameraComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CameraComponent'BPGunboat2W_C:Camera_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.21"
+      },
+      "ParentComponentOrVariableName": "CameraRigVehicle",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "80214740-41D376EC-A99A0C9A-77C49B06",
+      "InternalVariableName": "Camera"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'VehicleSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "VehicleSeatComponent'BPGunboat2W_C:DriverSeat0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.111"
+      },
+      "AttachToName": "Boat_Offset",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "995BB7DE-46C0D46A-2244ED92-ED31C36F",
+      "InternalVariableName": "DriverSeat0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_22",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPGunboat2W_C:WakeAft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.53"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EDFFCC1E-40C45AE7-111358BE-D20CA51D",
+      "InternalVariableName": "WakeAft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_23",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPWaterStencilComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/BPWaterStencilComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPWaterStencilComponent_C'BPGunboat2W_C:BPWaterStencilComponent_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.20"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "52DB6D47-4BEE27DA-D456699E-3CC29D1C",
+      "InternalVariableName": "BPWaterStencilComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_25",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPGunboat2W_C:DriverTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.100"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FB643778-456EFC98-11A339B8-6C547779",
+      "InternalVariableName": "DriverTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_26",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatExitComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatExitComponent'BPGunboat2W_C:MainGunnerExit_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.98"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "AB270CC9-4F3B70E2-84BB968B-1B5B5C52",
+      "InternalVariableName": "MainGunnerExit"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_27",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPGunboat2W_C:Exhaust_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.52"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "977A3CEE-45C9F29E-FB9129B7-F32C3433",
+      "InternalVariableName": "Exhaust"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_28",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPGunboat2W_C:WakeFore_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.54"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "28F90A97-43E8DD32-D2419BBB-D17697EB",
+      "InternalVariableName": "WakeFore"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_29",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPGunboat2W_C:WaveBreakForeRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.58"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1E0CB6D3-403B10F5-49CC2288-CA11CABF",
+      "InternalVariableName": "WaveBreakForeRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'BPGunboat2W_C:Idle_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.4"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "DAFFCEA8-440838B1-371CFC98-ED508794",
+      "InternalVariableName": "Idle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_30",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPGunboat2W_C:WaveBreakAftLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.55"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0FD84B09-40DD9A4E-F3FECCA0-2FB4E3ED",
+      "InternalVariableName": "WaveBreakAftLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_31",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPGunboat2W_C:WaveBreakAftRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.56"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FFB7CC56-4122DBE3-E9BA628B-AC285168",
+      "InternalVariableName": "WaveBreakAftRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_32",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPGunboat2W_C:WaveBreakForeLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.57"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "23EB7798-41D44D0B-1E926B8D-E44A7A8D",
+      "InternalVariableName": "WaveBreakForeLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_33",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'VehicleSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "VehicleSeatComponent'BPGunboat2W_C:SpotterSeat2_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.113"
+      },
+      "AttachToName": "Boat_Offset",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8BD10502-44E815BD-84DF87B6-B857F5A6",
+      "InternalVariableName": "SpotterSeat2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_34",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPGunboat2W_C:SpotterTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.102"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7983FA35-47A6A2CF-5A0DED9C-2064D25E",
+      "InternalVariableName": "SpotterTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_35",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatExitComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatExitComponent'BPGunboat2W_C:SpotterExit_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.99"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "524322E5-4A6DB613-6CB07BB8-E797E7DE",
+      "InternalVariableName": "SpotterExit"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ItemGroupRenderComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ItemGroupRenderComponent'BPGunboat2W_C:ItemGroupRender_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.25"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.74"
+        }
+      ],
+      "VariableGuid": "50F493EA-46EFADB9-FCEC6A82-377C1EE8",
+      "InternalVariableName": "ItemGroupRender"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPVehicleAccessBox_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Components/BPVehicleAccessBox.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPVehicleAccessBox_C'BPGunboat2W_C:BPVehicleAccessBox1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.17"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "42B3C72B-4B6A48E8-C52240A8-183FB176",
+      "InternalVariableName": "BPVehicleAccessBox1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoatHullMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoatHullMeshComponent'BPGunboat2W_C:BoatHullMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.7"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "AF9CC20B-44BCE727-7C1810B7-5FFAC319",
+      "InternalVariableName": "BoatHullMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPVehicleAccessBox_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Components/BPVehicleAccessBox.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPVehicleAccessBox_C'BPGunboat2W_C:BPVehicleAccessBox_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.19"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A68A8E55-4574EB61-BD5E4AAD-E1841AAB",
+      "InternalVariableName": "BPVehicleAccessBox"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpotLightComponent'BPGunboat2W_C:SpotLight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.106"
+      },
+      "AttachToName": "root",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F07F83C2-4F062910-8DEE618A-5E45F4D6",
+      "InternalVariableName": "SpotLight"
+    }
+  },
+  {
+    "Type": "SeatExitComponent",
+    "Name": "DriverExit_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'SeatExitComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 309.00122,
+        "Y": 100.547554,
+        "Z": 162.20564
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 1.4465528E-06
+      }
+    }
+  },
+  {
+    "Type": "SeatExitComponent",
+    "Name": "MainGunnerExit_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'SeatExitComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -216.77563,
+        "Y": -91.24641,
+        "Z": 162.01276
+      },
+      "RelativeRotation": {
+        "Pitch": 1.3660378E-05,
+        "Yaw": -1.02452805E-05,
+        "Roll": -1.241695E-12
+      }
+    }
+  },
+  {
+    "Type": "SeatExitComponent",
+    "Name": "SpotterExit_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'SeatExitComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 309.00122,
+        "Y": -100.547554,
+        "Z": 162.20564
+      }
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "DriverTrigger_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 110.0,
+        "Y": 225.0,
+        "Z": 350.0
+      },
+      "RelativeLocation": {
+        "X": 465.14417,
+        "Y": 225.0,
+        "Z": 110.987854
+      }
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "MainGunnerTrigger_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 130.0,
+        "Y": 450.0,
+        "Z": 350.0
+      },
+      "RelativeLocation": {
+        "X": -6.1576157,
+        "Y": 0.0,
+        "Z": 110.987854
+      }
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "SpotterTrigger_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 110.0,
+        "Y": 225.0,
+        "Z": 350.0
+      },
+      "RelativeLocation": {
+        "X": 465.14417,
+        "Y": -229.53644,
+        "Z": 110.987366
+      }
+    }
+  },
+  {
+    "Type": "ShipMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'ShipMovementComponent'",
+    "Properties": {
+      "ThrustCurve": {
+        "ObjectName": "CurveFloat'Gunboat2WThrustCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/Gunboat2WThrustCurve.0"
+      },
+      "bCanSink": false,
+      "MaxSwimSpeed": 1000.0,
+      "BrakingDecelerationSwimming": 1.0,
+      "Buoyancy": 1.0,
+      "OutofWaterZ": 0.0
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.76"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.85"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.96"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.72"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.70"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.77"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.71"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.80"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.75"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.82"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.79"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.94"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.78"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_28'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.83"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_29'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.84"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_30'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.86"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_31'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.87"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_32'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.88"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_33'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.89"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_34'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.90"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_35'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.91"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.93"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.95"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.73"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.92"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.81"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.76"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.85"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.96"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.72"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.70"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.77"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.71"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.80"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.75"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.82"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.79"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.94"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.78"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_28'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.83"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_29'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.84"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_30'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.86"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_31'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.87"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_32'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.88"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_33'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.89"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_34'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.90"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_35'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.91"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.93"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.95"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.73"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.92"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.74"
+        },
+        {
+          "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.81"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPGunboat2W_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.69"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Gunboat2W_C'",
+        "ObjectPath": "War/Content/Animation/WaterVehicles/Gunboat/ABP_Gunboat2W.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Gunboat2W'",
+        "ObjectPath": "War/Content/Meshes/Vehicles/SK_Gunboat2W.0"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::AlwaysTickPoseAndRefreshBones",
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'TownWoodBeam05Gunboat2W'",
+          "ObjectPath": "War/Content/Materials/Vehicles/TownWoodBeam05Gunboat2W.0"
+        }
+      ],
+      "bReceivesDecals": true,
+      "CanCharacterStepUpOn": "ECB_Yes",
+      "BodyInstance": {
+        "ObjectType": "ECC_Vehicle",
+        "CollisionProfileName": "LargeShipMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "IceBlocker",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'MetalPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/MetalPhys.0"
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      },
+      "RelativeLocation": {
+        "X": -23.556992,
+        "Y": 0.00017720368,
+        "Z": -154.41995
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLight_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "InnerConeAngle": 25.0,
+      "OuterConeAngle": 50.0,
+      "bUseInverseSquaredFalloff": false,
+      "AttenuationRadius": 2500.2073,
+      "bUseRayTracedDistanceFieldShadows": true,
+      "Intensity": 10.0,
+      "LightColor": {
+        "B": 164,
+        "G": 222,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFDEA4"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 0.000278,
+        "Y": 698.796,
+        "Z": 175.63571
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Light_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Headlight'",
+        "ObjectPath": "War/Content/Meshes/Vehicles/Headlight.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'SimpleEmissive'",
+          "ObjectPath": "War/Content/Materials/SimpleEmissive.0"
+        }
+      ],
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.00027816734,
+        "Y": 698.796,
+        "Z": 175.63571
+      },
+      "RelativeScale3D": {
+        "X": 3.4495678,
+        "Y": 1.0,
+        "Z": 3.4495678
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "VToggle"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DestroyedMesh",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Gunboat2WDestroyed'",
+        "ObjectPath": "War/Content/Meshes/Vehicles/Gunboat2WDestroyed.2"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPGunboat2W_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.22"
+      },
+      "RelativeLocation": {
+        "X": -23.556992,
+        "Y": 0.000177,
+        "Z": -154.41995
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00021,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ShipCollision",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Gunboat2WShipCollision'",
+        "ObjectPath": "War/Content/Meshes/Vehicles/Gunboat2WShipCollision.2"
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "ShipRoot",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Work",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "IceBlocker",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BPGunboat2W_C'Default__BPGunboat2W_C'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2W.2"
+            },
+            "FunctionName": "VehicleCollisionTouched"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPGunboat2W_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "VehicleSeatComponent",
+    "Name": "DriverSeat0_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'VehicleSeatComponent'",
+    "Properties": {
+      "Direction": "ESeatDirection::StarboardBow",
+      "bIsWoundable": true,
+      "EnterSFX": {
+        "ObjectName": "SoundCue'BargeStart_cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Barge/BargeStart_cue.0"
+      },
+      "TriggerName": "DriverTrigger",
+      "ExitName": "DriverExit",
+      "MountCodeName": "ScoutVehicleDriver",
+      "bIsExposed": true,
+      "MountComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BPScoutVehicleDriver_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/ScoutVehicle/BPScoutVehicleDriver.0"
+      },
+      "RelativeLocation": {
+        "X": -38.51193,
+        "Y": 579.14026,
+        "Z": 211.23116
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "VehicleSeatComponent",
+    "Name": "MainGunnerSeat1_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'VehicleSeatComponent'",
+    "Properties": {
+      "Direction": "ESeatDirection::Midships",
+      "bIsSwitchable": false,
+      "bIsWoundable": true,
+      "EnterSFX": {
+        "ObjectName": "SoundCue'DeployExplosive_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Weapons/Satchel/DeployExplosive_Cue.0"
+      },
+      "Index": 1,
+      "TriggerName": "MainGunnerTrigger",
+      "ExitName": "MainGunnerExit",
+      "MountCodeName": "Gunboat2WMainGunner",
+      "bIsExposed": true,
+      "MountComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BPGunboat2WGunnerW_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatW/BPGunboat2WGunnerW.0"
+      },
+      "ItemHolderIndex": 1,
+      "RelativeLocation": {
+        "X": 115.16507,
+        "Y": -20.283985,
+        "Z": 93.82826
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "VehicleSeatComponent",
+    "Name": "SpotterSeat2_GEN_VARIABLE",
+    "Outer": "BPGunboat2W_C",
+    "Class": "UScriptClass'VehicleSeatComponent'",
+    "Properties": {
+      "Direction": "ESeatDirection::PortBow",
+      "bIsWoundable": true,
+      "Index": 2,
+      "TriggerName": "SpotterTrigger",
+      "ExitName": "SpotterExit",
+      "MountCodeName": "Gunboat2WSpotter",
+      "bIsExposed": true,
+      "MountComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BPSpotterMountComponentSitting_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LargeShips/Components/BPSpotterMountComponentSitting.0"
+      },
+      "RelativeLocation": {
+        "X": 38.51193,
+        "Y": 579.14026,
+        "Z": 211.23116
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  }
+]

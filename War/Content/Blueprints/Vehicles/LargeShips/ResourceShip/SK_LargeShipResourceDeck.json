@@ -1,0 +1,590 @@
+[
+  {
+    "Type": "SkeletalMesh",
+    "Name": "SK_LargeShipResourceDeck",
+    "Class": "UScriptClass'SkeletalMesh'",
+    "Properties": {
+      "Skeleton": {
+        "ObjectName": "Skeleton'SK_LargeShipResourceHull_Skeleton'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LargeShips/ResourceShip/SK_LargeShipResourceHull_Skeleton.4"
+      },
+      "LODInfo": [
+        {
+          "ScreenSize": {
+            "bCooked": true,
+            "Default": 1.0,
+            "Value": 1.0
+          },
+          "LODHysteresis": 0.02,
+          "LODMaterialMap": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "BuildSettings": {
+            "bRecomputeNormals": true,
+            "bRecomputeTangents": true,
+            "bUseMikkTSpace": true,
+            "bComputeWeightedNormals": true,
+            "bRemoveDegenerates": true,
+            "bUseHighPrecisionTangentBasis": false,
+            "bUseFullPrecisionUVs": false,
+            "bBuildAdjacencyBuffer": true,
+            "ThresholdPosition": 2E-05,
+            "ThresholdTangentNormal": 2E-05,
+            "ThresholdUV": 0.000977
+          },
+          "ReductionSettings": {
+            "TerminationCriterion": "SMTC_NumOfTriangles",
+            "NumOfTrianglesPercentage": 1.0,
+            "NumOfVertPercentage": 1.0,
+            "MaxNumOfTriangles": 4,
+            "MaxNumOfVerts": 6,
+            "MaxDeviationPercentage": 0.0,
+            "ReductionMethod": "SMOT_NumOfTriangles",
+            "SilhouetteImportance": "SMOI_Normal",
+            "TextureImportance": "SMOI_Normal",
+            "ShadingImportance": "SMOI_Normal",
+            "SkinningImportance": "SMOI_Normal",
+            "bRemapMorphTargets": false,
+            "bRecalcNormals": true,
+            "WeldingThreshold": 0.1,
+            "NormalsThreshold": 60.0,
+            "MaxBonesPerVertex": 4,
+            "bEnforceBoneBoundaries": false,
+            "VolumeImportance": 1.0,
+            "bLockEdges": false,
+            "BaseLOD": 0
+          },
+          "BonesToRemove": [],
+          "BonesToPrioritize": [],
+          "WeightOfPrioritization": 1.0,
+          "BakePose": null,
+          "BakePoseOverride": null,
+          "SourceImportFilename": "",
+          "bHasBeenSimplified": false,
+          "bHasPerLODVertexColors": false,
+          "bAllowCPUAccess": false,
+          "bSupportUniformlyDistributedSampling": false
+        }
+      ],
+      "bHasVertexColors": true,
+      "SamplingInfo": {
+        "BuiltData": {
+          "WholeMeshBuiltData": [
+            {
+              "AreaWeightedTriangleSampler": {
+                "Prob": [],
+                "Alias": [],
+                "TotalWeight": 0.0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ImportedBounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 182.60327,
+        "Z": 916.88934
+      },
+      "BoxExtent": {
+        "X": 525.13135,
+        "Y": 2409.207,
+        "Z": 961.1277
+      },
+      "SphereRadius": 2646.471
+    },
+    "SkeletalMaterials": [
+      {
+        "MaterialSlotName": "Bin_001",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'LargeShipResourceBin'",
+          "ObjectPath": "War/Content/Materials/Vehicles/LargeShipResourceBin.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            1758.731,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "Cabin_001",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'LargeShipResourceCabin'",
+          "ObjectPath": "War/Content/Materials/Vehicles/LargeShipResourceCabin.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            1528.0511,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "Back",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'LargeShipResourceBack'",
+          "ObjectPath": "War/Content/Materials/Vehicles/LargeShipResourceBack.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            1974.6008,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "Front",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'LargeShipResourceFront'",
+          "ObjectPath": "War/Content/Materials/Vehicles/LargeShipResourceFront.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            1693.8201,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "Door",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'LargeShipResourceDoor'",
+          "ObjectPath": "War/Content/Materials/Vehicles/LargeShipResourceDoor.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            1463.7355,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "TillingWall",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'LargeShipResourceTillingWall'",
+          "ObjectPath": "War/Content/Materials/Vehicles/LargeShipResourceTillingWall.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            327.77496,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "Floor_002",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'LargeShipResourceTillingFloor'",
+          "ObjectPath": "War/Content/Materials/Vehicles/LargeShipResourceTillingFloor.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            352.15094,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "LArgerShiipPArt01_001",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'LargeShipNeutralParts01'",
+          "ObjectPath": "War/Content/Materials/Vehicles/LargeShipNeutralParts01.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            578.0688,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "Trap",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'ConstructionVehicleCanvas'",
+          "ObjectPath": "War/Content/Materials/Environment/Props/ConstructionVehicleCanvas.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            480.16708,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "LargeShipBaseShipDeck_002",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'LargeShipResourceAI'",
+          "ObjectPath": "War/Content/Materials/Vehicles/LargeShipResourceAI.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            2215.3083,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "Bits",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'LargeShipResourceBits'",
+          "ObjectPath": "War/Content/Materials/Vehicles/LargeShipResourceBits.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            322.81213,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "MaterialSlotName": "TRimTilling",
+        "Material": {
+          "ObjectName": "MaterialInstanceConstant'LargeShipResourceTillingTrim'",
+          "ObjectPath": "War/Content/Materials/Vehicles/LargeShipResourceTillingTrim.0"
+        },
+        "ImportedMaterialSlotName": null,
+        "UVChannelData": {
+          "bInitialized": true,
+          "bOverrideDensities": false,
+          "LocalUVDensities": [
+            246.96686,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "LODModels": [
+      {
+        "Sections": [
+          {
+            "MaterialIndex": 0,
+            "BaseIndex": 0,
+            "NumTriangles": 1760,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 0,
+            "NumVertices": 2333,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 1,
+            "BaseIndex": 5280,
+            "NumTriangles": 13274,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 2333,
+            "NumVertices": 11182,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 2,
+            "BaseIndex": 45102,
+            "NumTriangles": 4668,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 13515,
+            "NumVertices": 3931,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 3,
+            "BaseIndex": 59106,
+            "NumTriangles": 2674,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 17446,
+            "NumVertices": 2541,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 4,
+            "BaseIndex": 67128,
+            "NumTriangles": 690,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 19987,
+            "NumVertices": 758,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 5,
+            "BaseIndex": 69198,
+            "NumTriangles": 48,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 20745,
+            "NumVertices": 64,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 6,
+            "BaseIndex": 69342,
+            "NumTriangles": 32,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 20809,
+            "NumVertices": 34,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 7,
+            "BaseIndex": 69438,
+            "NumTriangles": 2784,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 20843,
+            "NumVertices": 2374,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 8,
+            "BaseIndex": 77790,
+            "NumTriangles": 672,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 23217,
+            "NumVertices": 375,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 9,
+            "BaseIndex": 79806,
+            "NumTriangles": 1242,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 23592,
+            "NumVertices": 1410,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 10,
+            "BaseIndex": 83532,
+            "NumTriangles": 3536,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 25002,
+            "NumVertices": 3712,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          },
+          {
+            "MaterialIndex": 11,
+            "BaseIndex": 94140,
+            "NumTriangles": 2512,
+            "bRecomputeTangent": false,
+            "RecomputeTangentsVertexMaskChannel": "Alpha",
+            "bCastShadow": true,
+            "bVisibleInRayTracing": true,
+            "bLegacyClothingSection": false,
+            "CorrespondClothSectionIndex": -1,
+            "BaseVertexIndex": 28714,
+            "NumVertices": 1593,
+            "MaxBoneInfluences": 1,
+            "bUse16BitBoneIndex": false,
+            "CorrespondClothAssetIndex": -1,
+            "bDisabled": false,
+            "GenerateUpToLodIndex": -1,
+            "OriginalDataSectionIndex": -1,
+            "ChunkedParentSectionIndex": -1
+          }
+        ],
+        "NumVertices": 30307,
+        "NumTexCoords": 1,
+        "VertexBufferGPUSkin": {
+          "NumTexCoords": 0,
+          "MeshExtension": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "MeshOrigin": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bUseFullPrecisionUVs": true,
+          "bExtraBoneInfluences": false
+        }
+      }
+    ]
+  }
+]

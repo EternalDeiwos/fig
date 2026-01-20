@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPScoutTankMultiWGunnerComponent_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'ProjectileGunnerMountComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPScoutTankMultiWGunnerComponent_C'Default__BPScoutTankMultiWGunnerComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/ScoutTank/BPScoutTankMultiWGunnerComponent.1"
+    }
+  },
+  {
+    "Type": "BPScoutTankMultiWGunnerComponent_C",
+    "Name": "Default__BPScoutTankMultiWGunnerComponent_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/ScoutTank/BPScoutTankMultiWGunnerComponent.BPScoutTankMultiWGunnerComponent_C'",
+    "Properties": {
+      "MuzzleFlashPS": {
+        "ObjectName": "ParticleSystem'RocketMultiSpoolSmall'",
+        "ObjectPath": "War/Content/FX/RocketMultiSpoolSmall.17"
+      },
+      "MinSpeed": 1000.0,
+      "MaxSpeed": 4500.0,
+      "ProjectileClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPDemolitionRocketProjectile_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectile.1"
+      },
+      "bIsArtilleryMode": true,
+      "bIsAutomaticFire": true,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "ED50F32049DEDC3A83266B901A9D8C18",
+        "SourceString": "Gunner",
+        "LocalizedString": "Gunner"
+      },
+      "AmmoName": "DemolitionRocketAmmo",
+      "AmmoSlotFilterAmount": 1,
+      "ReloadSoundCue": {
+        "ObjectName": "SoundCue'RPGReload_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Weapons/RPG/RPGReload_Cue.0"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'DemolitionRocketAmmoIcon'",
+        "ObjectPath": "War/Content/Textures/UI/ItemIcons/DemolitionRocketAmmoIcon.0"
+      },
+      "EquippedGripType": "EEquippedWeaponGripType::VehicleGunboatCannonGunner",
+      "ActivityStateInfos[3]": {
+        "IsLooping": true
+      },
+      "bMustBeStoppedToInvoke": true,
+      "LinkedVehicleSubsystem": "EVehicleSubsystem::None",
+      "bIsMultiWeapon": true,
+      "bIsDeployedGunner": true,
+      "bTriggerDriverFiringState": true
+    }
+  }
+]

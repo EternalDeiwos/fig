@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "BlendSpace1D",
+    "Name": "BS_AircraftDiveBomberC_Turret_Vertical",
+    "Class": "UScriptClass'BlendSpace1D'",
+    "Properties": {
+      "SampleData": [
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'ANIM_AircraftDiveBomberC_POSE_neutral'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftDiveBomberC/Animation/ANIM_AircraftDiveBomberC_POSE_neutral.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'ANIM_AircraftDiveBomberC_POSE_Turret_Vertical_up'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftDiveBomberC/Animation/ANIM_AircraftDiveBomberC_POSE_Turret_Vertical_up.0"
+          },
+          "SampleValue": {
+            "X": 45.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        }
+      ],
+      "GridSamples": [
+        {
+          "Indices": 1,
+          "Indices[1]": 0,
+          "Indices[2]": -1,
+          "Weights": 0.0,
+          "Weights[1]": 1.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 1,
+          "Indices[1]": 0,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        }
+      ],
+      "BlendParameters": {
+        "DisplayName": "Pitch",
+        "Max": 45.0,
+        "GridNum": 1
+      },
+      "Skeleton": {
+        "ObjectName": "Skeleton'SK_AircraftDiveBomberC_Skeleton'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftDiveBomberC/SK_AircraftDiveBomberC_Skeleton.4"
+      }
+    },
+    "SkeletonGuid": "9545CF1D-44740AE1-739276A0-D7202044"
+  }
+]

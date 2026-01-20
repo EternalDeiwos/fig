@@ -1,0 +1,2523 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPNoBuildBoxComponent",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPNoBuildBoxComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Components/BPNoBuildBoxComponent.0"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftRunway_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPAircraftRunway_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.96"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AircraftRunway'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:BPNoBuildBoxComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal22'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.45"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal21'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.44"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal20'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.43"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal19'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.42"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal18'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.41"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal17'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.40"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Roadlines09'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.59"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Roadlines08'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.58"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Roadlines07'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.57"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:StaticMesh2'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.62"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal16'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.39"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal15'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.38"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal14'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.37"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal13'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.36"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal12'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.35"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal11'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.34"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Roadlines06'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.56"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Roadlines05'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.55"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Roadlines04'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.54"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:StaticMesh1'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.61"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal10'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal9'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.50"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal8'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.49"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal7'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.48"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal6'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.47"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Decal5'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.46"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Roadlines03'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.53"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Roadlines02'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.52"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:Roadlines01'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.51"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftRunway_C:StaticMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.60"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftRunway_C'Default__BPAircraftRunway_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.2"
+    }
+  },
+  {
+    "Type": "BPAircraftRunway_C",
+    "Name": "Default__BPAircraftRunway_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Air/BPAircraftRunway.BPAircraftRunway_C'",
+    "Properties": {
+      "ProceduralUseVolumeFactor": 0.0,
+      "BuildGhostClass": null,
+      "BuildSiteClass": {
+        "ObjectName": "Class'StructureBuildSite'",
+        "ObjectPath": "/Script/War"
+      },
+      "BaseStructureClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPAircraftRunwayDestroyed_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayDestroyed.1"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "BC8D150344DA513997AA08A765FD2E5D",
+        "SourceString": "TBD - Aircraft Depot",
+        "LocalizedString": "TBD - Aircraft Depot"
+      },
+      "bDropsLargeMaterialsWhenDestroyed": false,
+      "ValidBuildTools": 24,
+      "bUsesImpactsMaterial": true,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "1BFD3AC94C88E1F988AF3F8754CC4FD9",
+        "SourceString": "TBD - Aircraft Depot",
+        "LocalizedString": "TBD - Aircraft Depot"
+      },
+      "ProfileType": "EStructureProfileType::LogiStructureWithValuableStorage",
+      "ArmourType": "EArmourType::Tier3Structure",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftRunway_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPAircraftRunway_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.4"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'BridgeExplosion1'",
+        "ObjectPath": "War/Content/FX/BridgeExplosion1.52"
+      },
+      "MaxHealth": 15000,
+      "Health": 15000,
+      "bIsBuildSiteMapIconVisible": true,
+      "bOverrideIsBurnable": true,
+      "bLogWhenDestroyed": true,
+      "bRotateDropLocation": true,
+      "ScreenToUse": "ESimScreen::StorageFacility",
+      "bIgnoreFriendlyFire": true,
+      "bAllowsShippablePlacement": true,
+      "StructureNetRelevancySize": "EStructureNetRelevancySize::Custom",
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPAircraftRunway_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.100"
+      },
+      "NetCullDistanceSquared": 625000000.0,
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftRunway_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPAircraftRunway_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPAircraftRunway_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftRunway_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.3"
+      }
+    }
+  },
+  {
+    "Type": "BPNoBuildBoxComponent_C",
+    "Name": "BPNoBuildBoxComponent_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Components/BPNoBuildBoxComponent.BPNoBuildBoxComponent_C'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 10000.0,
+        "Y": 1750.0,
+        "Z": 500.0
+      },
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 500.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal10_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'RunwayDirt02'",
+        "ObjectPath": "War/Content/Materials/Decals/RunwayDirt02.0"
+      },
+      "SortOrder": 1,
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": -593.5953,
+        "Y": -826.56995,
+        "Z": -85.19498
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -25.239405,
+        "Roll": 25.238068
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.69725376,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal11_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunwayDestroyed'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunwayDestroyed.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 256.0
+      },
+      "RelativeLocation": {
+        "X": -1299.9995,
+        "Y": -0.0034179688,
+        "Z": -99.998764
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 6.7215257,
+        "Roll": 173.27737
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0479859,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal12_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunwayDestroyed'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunwayDestroyed.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 256.0
+      },
+      "RelativeLocation": {
+        "X": 1299.999,
+        "Y": -0.010131836,
+        "Z": -100.00218
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 13.263537,
+        "Roll": -13.265381
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0479859,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal13_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'RunwayDirt01'",
+        "ObjectPath": "War/Content/Materials/Decals/RunwayDirt01.0"
+      },
+      "SortOrder": 1,
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": -499.98114,
+        "Y": 949.2739,
+        "Z": -93.45755
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 6.7215257,
+        "Roll": 173.27737
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.5679225,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal14_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'RunwayDirt02'",
+        "ObjectPath": "War/Content/Materials/Decals/RunwayDirt02.0"
+      },
+      "SortOrder": 1,
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": 578.50775,
+        "Y": -0.045898438,
+        "Z": -85.200836
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 6.7215257,
+        "Roll": 173.27737
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.69725376,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal15_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'RunwayDirt03'",
+        "ObjectPath": "War/Content/Materials/Decals/RunwayDirt03.0"
+      },
+      "SortOrder": 1,
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": 522.73474,
+        "Y": -1603.1068,
+        "Z": -92.286896
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": -0.0010070801
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.4171378,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal16_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'RunwayDirt02'",
+        "ObjectPath": "War/Content/Materials/Decals/RunwayDirt02.0"
+      },
+      "SortOrder": 1,
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": -593.5953,
+        "Y": -826.56995,
+        "Z": -85.19498
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -25.239405,
+        "Roll": 25.238068
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.69725376,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal17_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunwayDestroyed'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunwayDestroyed.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 256.0
+      },
+      "RelativeLocation": {
+        "X": -1299.9995,
+        "Y": -0.0034179688,
+        "Z": -99.998764
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 6.7215257,
+        "Roll": 173.27737
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0479859,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal18_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunwayDestroyed'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunwayDestroyed.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 256.0
+      },
+      "RelativeLocation": {
+        "X": 1299.999,
+        "Y": -0.010131836,
+        "Z": -100.00218
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 13.263537,
+        "Roll": -13.265381
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0479859,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal19_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'RunwayDirt01'",
+        "ObjectPath": "War/Content/Materials/Decals/RunwayDirt01.0"
+      },
+      "SortOrder": 1,
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": -499.98114,
+        "Y": 949.2739,
+        "Z": -93.45755
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 6.7215257,
+        "Roll": 173.27737
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.5679225,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal20_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'RunwayDirt02'",
+        "ObjectPath": "War/Content/Materials/Decals/RunwayDirt02.0"
+      },
+      "SortOrder": 1,
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": 578.50775,
+        "Y": -0.045898438,
+        "Z": -85.200836
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 6.7215257,
+        "Roll": 173.27737
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.69725376,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal21_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'RunwayDirt03'",
+        "ObjectPath": "War/Content/Materials/Decals/RunwayDirt03.0"
+      },
+      "SortOrder": 1,
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": 522.73474,
+        "Y": -1603.1068,
+        "Z": -92.286896
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": -0.0010070801
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.4171378,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal22_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'RunwayDirt02'",
+        "ObjectPath": "War/Content/Materials/Decals/RunwayDirt02.0"
+      },
+      "SortOrder": 1,
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": -593.5953,
+        "Y": -826.56995,
+        "Z": -85.19498
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -25.239405,
+        "Roll": 25.238068
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.69725376,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal5_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunwayDestroyed'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunwayDestroyed.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 256.0
+      },
+      "RelativeLocation": {
+        "X": -1299.9995,
+        "Y": -0.0034179688,
+        "Z": -99.998764
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 6.7215257,
+        "Roll": 173.27737
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0479859,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal6_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunwayDestroyed'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunwayDestroyed.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 256.0
+      },
+      "RelativeLocation": {
+        "X": 1299.999,
+        "Y": -0.010131836,
+        "Z": -100.00218
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 13.263537,
+        "Roll": -13.265381
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0479859,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal7_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'RunwayDirt01'",
+        "ObjectPath": "War/Content/Materials/Decals/RunwayDirt01.0"
+      },
+      "SortOrder": 1,
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": -499.98114,
+        "Y": 949.2739,
+        "Z": -93.45755
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 6.7215257,
+        "Roll": 173.27737
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.5679225,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal8_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'RunwayDirt02'",
+        "ObjectPath": "War/Content/Materials/Decals/RunwayDirt02.0"
+      },
+      "SortOrder": 1,
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": 578.50775,
+        "Y": -0.045898438,
+        "Z": -85.200836
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 6.7215257,
+        "Roll": 173.27737
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.69725376,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal9_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'RunwayDirt03'",
+        "ObjectPath": "War/Content/Materials/Decals/RunwayDirt03.0"
+      },
+      "SortOrder": 1,
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 2500.0,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": 522.73474,
+        "Y": -1603.1068,
+        "Z": -92.286896
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": -0.0010070801
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.4171378,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Roadlines01_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunway01'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunway01.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 1000.0,
+        "Z": 1000.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.83979386,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Roadlines02_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunway01'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunway01.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 1000.0,
+        "Z": 1000.0
+      },
+      "RelativeLocation": {
+        "X": -0.0007324219,
+        "Y": 1679.5863,
+        "Z": 0.0004272461
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -25.239378,
+        "Roll": -25.23938
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.83979386,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Roadlines03_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunway01'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunway01.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 1000.0,
+        "Z": 1000.0
+      },
+      "RelativeLocation": {
+        "X": 0.0007324219,
+        "Y": -1679.5863,
+        "Z": -0.0004272461
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -25.239378,
+        "Roll": -25.23938
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.83979386,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Roadlines04_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunway01'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunway01.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 1000.0,
+        "Z": 1000.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.83979386,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Roadlines05_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunway01'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunway01.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 1000.0,
+        "Z": 1000.0
+      },
+      "RelativeLocation": {
+        "X": -0.0007324219,
+        "Y": 1679.5863,
+        "Z": 0.0004272461
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -25.239378,
+        "Roll": -25.23938
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.83979386,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Roadlines06_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunway01'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunway01.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 1000.0,
+        "Z": 1000.0
+      },
+      "RelativeLocation": {
+        "X": 0.0007324219,
+        "Y": -1679.5863,
+        "Z": -0.0004272461
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -25.239378,
+        "Roll": -25.23938
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.83979386,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Roadlines07_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunway01'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunway01.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 1000.0,
+        "Z": 1000.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.83979386,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Roadlines08_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunway01'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunway01.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 1000.0,
+        "Z": 1000.0
+      },
+      "RelativeLocation": {
+        "X": -0.0007324219,
+        "Y": 1679.5863,
+        "Z": 0.0004272461
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -25.239378,
+        "Roll": -25.23938
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.83979386,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Roadlines09_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'AirfieldRunway01'",
+        "ObjectPath": "War/Content/Materials/Decals/AirfieldRunway01.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 1000.0,
+        "Z": 1000.0
+      },
+      "RelativeLocation": {
+        "X": 0.0007324219,
+        "Y": -1679.5863,
+        "Z": -0.0004272461
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -25.239378,
+        "Roll": -25.23938
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.83979386,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal10",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal11",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal12",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal13",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal14",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal15",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal16",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal17",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal18",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal19",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal20",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal21",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal22",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal5",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal6",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal7",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal8",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal9",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Roadlines01",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Roadlines02",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Roadlines03",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Roadlines04",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Roadlines05",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Roadlines06",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Roadlines07",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Roadlines08",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Roadlines09",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh1",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh2",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPAircraftRunway_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.63"
+      },
+      "VariableGuid": "767D8FCC-4AF9728B-BC003BB5-8F05E37F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Roadlines01_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.24"
+      },
+      "VariableGuid": "80FC55C5-41768BE3-980B40BE-7722A1BE",
+      "InternalVariableName": "Roadlines01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal9_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.23"
+      },
+      "VariableGuid": "925AF33D-4D38EFD7-C18128A2-05B46EF2",
+      "InternalVariableName": "Decal9"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal10_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.6"
+      },
+      "VariableGuid": "0542F13A-43B2CB24-E18285AA-DBBE210D",
+      "InternalVariableName": "Decal10"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal11_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.7"
+      },
+      "VariableGuid": "A8685D08-4BDCC29C-01B01B9F-E8F2C862",
+      "InternalVariableName": "Decal11"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal5_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.19"
+      },
+      "VariableGuid": "331C2C0E-448FC436-C8AAF280-F7F129AE",
+      "InternalVariableName": "Decal5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal6_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.20"
+      },
+      "VariableGuid": "EC57A722-42AA9354-22F0589D-2700EF86",
+      "InternalVariableName": "Decal6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal12_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.8"
+      },
+      "VariableGuid": "9D2AD18F-4ED59461-7941D9BC-6452A38D",
+      "InternalVariableName": "Decal12"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal13_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.9"
+      },
+      "VariableGuid": "3C3DCEDD-46DCC17A-2DA041AB-A5BF6CB2",
+      "InternalVariableName": "Decal13"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAircraftRunway_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.99"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.65"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.93"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.92"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.69"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.70"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.94"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.95"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.66"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.67"
+        }
+      ],
+      "VariableGuid": "40467DCA-48E89303-BCC5A7AD-222A586F",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal14_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.10"
+      },
+      "VariableGuid": "0B9CFD0B-409F71F9-F20C709B-F9C167EB",
+      "InternalVariableName": "Decal14"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal15_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.11"
+      },
+      "VariableGuid": "AC49D3E6-47846596-A61C82BA-F077A5C7",
+      "InternalVariableName": "Decal15"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAircraftRunway_C:StaticMesh1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.97"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.87"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.90"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.91"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.68"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.71"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.72"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.74"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.75"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.77"
+        }
+      ],
+      "VariableGuid": "BA5CDD64-435E6F4E-E676B1AC-606A3A43",
+      "InternalVariableName": "StaticMesh1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal16_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.12"
+      },
+      "VariableGuid": "C7D873FA-4D2DA052-AA187C8C-E6362928",
+      "InternalVariableName": "Decal16"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAircraftRunway_C:StaticMesh2_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.98"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.79"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.80"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.81"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.82"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.83"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.84"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_28'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.85"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_29'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.86"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_30'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.88"
+        }
+      ],
+      "VariableGuid": "1A5304F9-41BE73A6-B7136395-9B3A429A",
+      "InternalVariableName": "StaticMesh2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_22",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Roadlines07_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.30"
+      },
+      "VariableGuid": "B80EA74D-40078AE8-5E95D292-5F3E8BD4",
+      "InternalVariableName": "Roadlines07"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_23",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Roadlines08_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.31"
+      },
+      "VariableGuid": "AFADEDB1-46882D5E-3067E5B6-37D47245",
+      "InternalVariableName": "Roadlines08"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_24",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Roadlines09_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.32"
+      },
+      "VariableGuid": "5148B308-4CB3FD51-CFCD2CA4-30215487",
+      "InternalVariableName": "Roadlines09"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_25",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal17_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.13"
+      },
+      "VariableGuid": "27995A5C-4B979601-D41659AD-C51EFB50",
+      "InternalVariableName": "Decal17"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_26",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal18_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.14"
+      },
+      "VariableGuid": "E6A97498-44DE22BE-5C5C6696-AC019F2D",
+      "InternalVariableName": "Decal18"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_27",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal19_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.15"
+      },
+      "VariableGuid": "B7ACC8FB-4840185E-FFC51B88-D478D817",
+      "InternalVariableName": "Decal19"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_28",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal20_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.16"
+      },
+      "VariableGuid": "C4775297-46D56EFC-9DA65489-B207600B",
+      "InternalVariableName": "Decal20"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_29",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal21_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.17"
+      },
+      "VariableGuid": "3DCAAA66-486284AC-069642B6-55F03FC7",
+      "InternalVariableName": "Decal21"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Roadlines04_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.27"
+      },
+      "VariableGuid": "F117617D-4837F9B7-5F548D80-E79F5AC7",
+      "InternalVariableName": "Roadlines04"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_30",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal22_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.18"
+      },
+      "VariableGuid": "E6EF46D8-46CECB4F-8B3CD9A6-42A2D145",
+      "InternalVariableName": "Decal22"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_31",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPNoBuildBoxComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Components/BPNoBuildBoxComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPNoBuildBoxComponent_C'BPAircraftRunway_C:BPNoBuildBoxComponent_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.5"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "332D0A62-4546488E-A7191686-1AA6C87B",
+      "InternalVariableName": "BPNoBuildBoxComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Roadlines05_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.28"
+      },
+      "VariableGuid": "728D7DBF-47CE8365-49F7C08B-9C3BB474",
+      "InternalVariableName": "Roadlines05"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Roadlines06_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.29"
+      },
+      "VariableGuid": "50A5D48B-40D66335-11137990-4430BDC0",
+      "InternalVariableName": "Roadlines06"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Roadlines03_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.26"
+      },
+      "VariableGuid": "132838C7-426D3BD5-3B01D2B5-E7D47DB6",
+      "InternalVariableName": "Roadlines03"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Roadlines02_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.25"
+      },
+      "VariableGuid": "2E7705BC-4F52D123-21B9BBA9-40E861B3",
+      "InternalVariableName": "Roadlines02"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal7_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.21"
+      },
+      "VariableGuid": "E14D64D6-45F066A6-0E9BDD94-0BB24739",
+      "InternalVariableName": "Decal7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftRunway_C:Decal8_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.22"
+      },
+      "VariableGuid": "3C4C9D8E-4F2C89CA-B8438AA6-0279E80E",
+      "InternalVariableName": "Decal8"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.73"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.76"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.78"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_31'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.89"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.73"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.65"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.93"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.92"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.69"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.70"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.94"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.95"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.66"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.67"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.76"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.87"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.90"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.91"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.68"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.71"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.72"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.74"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.75"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.77"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.78"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.79"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.80"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.81"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.82"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.83"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.84"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_28'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.85"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_29'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.86"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_30'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.88"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_31'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.89"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPAircraftRunway_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.64"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh1_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'AirfieldRunwayT1_01'",
+        "ObjectPath": "War/Content/Meshes/Structures/Airfield/AirfieldRunwayT1_01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'T1RunwayPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/T1RunwayPhys.0"
+        }
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh2_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'AirfieldRunwayT1_01'",
+        "ObjectPath": "War/Content/Meshes/Structures/Airfield/AirfieldRunwayT1_01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'T1RunwayPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/T1RunwayPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 5000.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BPAircraftRunway_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'AirfieldRunwayT1_01'",
+        "ObjectPath": "War/Content/Meshes/Structures/Airfield/AirfieldRunwayT1_01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'T1RunwayPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/T1RunwayPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -5000.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPAircraftRunway_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

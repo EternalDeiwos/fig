@@ -1,0 +1,147 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPPilotUniformWPickup_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BPUniformPickup_C'",
+      "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPUniformPickup.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPPilotUniformWPickup_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformWPickup.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BPUniformPickup_C'",
+      "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPUniformPickup.0"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPPilotUniformWPickup_C'Default__BPPilotUniformWPickup_C'",
+      "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformWPickup.1"
+    }
+  },
+  {
+    "Type": "BPPilotUniformWPickup_C",
+    "Name": "Default__BPPilotUniformWPickup_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformWPickup.BPPilotUniformWPickup_C'",
+    "Properties": {
+      "UniformType": "EUniformType::PilotW",
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPPilotUniformWPickup_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformWPickup.7"
+      },
+      "CodeName": "PilotUniformW",
+      "ChassisName": {
+        "Namespace": "",
+        "Key": "03DA57B24521F5EB7B713EBCD4717867",
+        "SourceString": "Warden Pilot Uniform",
+        "LocalizedString": "Warden Pilot Uniform"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "0E34606449B575750F98F9A85934A53A",
+        "SourceString": "Aviator’s Raiment",
+        "LocalizedString": "Aviator’s Raiment"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3595FD8546D1CD07E84B9F8C2E1FF103",
+        "SourceString": "A pilot’s overcoat and goggles specially designed for cold-weather flying. Alliance Sky Brigade pilots are amongst the most talented aviators in the world, training from as young as eight years of age to hone their reflexes and strengthen their bones against atmospheric forces. Many won’t make it to adulthood.",
+        "LocalizedString": "A pilot’s overcoat and goggles specially designed for cold-weather flying. Alliance Sky Brigade pilots are amongst the most talented aviators in the world, training from as young as eight years of age to hone their reflexes and strengthen their bones against atmospheric forces. Many won’t make it to adulthood."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'PilotUniformWIcon'",
+        "ObjectPath": "War/Content/Textures/UI/ItemIcons/Uniforms/PilotUniformWIcon.0"
+      },
+      "SubTypeIcon": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SubtypeAirIcon'",
+          "ObjectPath": "War/Content/Textures/UI/ItemIcons/SubtypeAirIcon.0"
+        }
+      },
+      "FactionVariant": "EFactionId::Wardens",
+      "TechID": "ETechID::UnlockPilotUniform",
+      "ItemMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPPilotUniformWPickup_C:ItemMesh'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformWPickup.6"
+      },
+      "ItemBox": {
+        "ObjectName": "BoxComponent'Default__BPPilotUniformWPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformWPickup.2"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Default__BPPilotUniformWPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformWPickup.2"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "ItemBox",
+    "Outer": "Default__BPPilotUniformWPickup_C",
+    "Class": "UScriptClass'BoxComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPPilotUniformWPickup_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPPilotUniformWPickup_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformWPickup.3"
+      },
+      "VariableGuid": "57CA561C-434D89CD-F65025A0-F66D62DF",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPPilotUniformWPickup_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPPilotUniformWPickup_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformWPickup.4"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ItemMesh",
+    "Outer": "Default__BPPilotUniformWPickup_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BoxComponent'Default__BPPilotUniformWPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformWPickup.2"
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPPilotUniformWPickup_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

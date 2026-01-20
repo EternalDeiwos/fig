@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftParatrooperCCrateLayout_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BPBaseResourceLayout_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Components/BPBaseResourceLayout.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BPBaseResourceLayout_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Components/BPBaseResourceLayout.0"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftParatrooperCCrateLayout_C'Default__BPAircraftParatrooperCCrateLayout_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftParatrooperW/BPAircraftParatrooperCCrateLayout.1"
+    }
+  },
+  {
+    "Type": "BPAircraftParatrooperCCrateLayout_C",
+    "Name": "Default__BPAircraftParatrooperCCrateLayout_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/AircraftParatrooperW/BPAircraftParatrooperCCrateLayout.BPAircraftParatrooperCCrateLayout_C'",
+    "Properties": {
+      "Layouts": [
+        {
+          "Key": "ItemCrate",
+          "Value": {
+            "StaticMesh": null,
+            "MaxAmount": 16,
+            "LayerConfig": {
+              "MeshSizeX": 70.0,
+              "MeshSizeY": 70.0,
+              "MeshesAlongX": 4,
+              "MeshesAlongY": 2,
+              "MeshOffset": {
+                "X": -0.0,
+                "Y": -0.0,
+                "Z": -0.681942
+              }
+            },
+            "OddLayerConfig": {
+              "MeshSizeX": 70.0,
+              "MeshSizeY": 70.0,
+              "MeshesAlongX": 4,
+              "MeshesAlongY": 2,
+              "MeshOffset": {
+                "X": -0.0,
+                "Y": -0.0,
+                "Z": -0.681942
+              }
+            },
+            "MeshSizeZ": 50.0,
+            "YawJitter": 0.0,
+            "PitchJitter": 0.0,
+            "RollJitter": 3.0,
+            "OffsetJitter": 0.0,
+            "ScaleJitter": 0.0,
+            "LayerScaleDownFactor": 0.0,
+            "LayerScaleDownFactor2D": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bAllowFlipX": false,
+            "bAllowFlipZ": true,
+            "bAllowOddLayerRotation": false,
+            "LocalRotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LocalScale": 0.7,
+            "bIgnoreGenerateLayoutData": true
+          }
+        }
+      ],
+      "bForceUseSingleLayout": true,
+      "LayoutSize": {
+        "X": 100.0,
+        "Y": 200.0,
+        "Z": 250.0
+      }
+    }
+  }
+]

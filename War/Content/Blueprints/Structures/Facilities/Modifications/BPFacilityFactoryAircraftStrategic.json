@@ -1,0 +1,2631 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh34",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.62"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ModificationTemplate'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh34'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh33'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh32'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.32"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh31'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:ProducingFX'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:Box10'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.9"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:Box9'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:Box8'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:Box7'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:Box6'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.11"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:Box5'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh30'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.30"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh29'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh17'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.18"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh26'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh25'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh24'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh23'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh22'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh21'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.22"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh20'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh19'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh18'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.19"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:StaticMesh27'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:FacilityAmmoFactoryBaseRoof'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftStrategic_C:DefaultSceneRoot'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.15"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPFacilityFactoryAircraftStrategic_C'Default__BPFacilityFactoryAircraftStrategic_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.2"
+    }
+  },
+  {
+    "Type": "BPFacilityFactoryAircraftStrategic_C",
+    "Name": "Default__BPFacilityFactoryAircraftStrategic_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.BPFacilityFactoryAircraftStrategic_C'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box10_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 60.0,
+        "Y": 100.0,
+        "Z": 75.0
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -424.35602,
+        "Y": 17.339203,
+        "Z": 77.93132
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box5_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 45.0,
+        "Y": 60.0,
+        "Z": 55.0
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 412.20004,
+        "Y": 309.8369,
+        "Z": 55.000015
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box6_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 32.0,
+        "Y": 285.0,
+        "Z": 55.0
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 397.40768,
+        "Y": -34.653893,
+        "Z": 55.000183
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box7_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 55.0,
+        "Y": 100.0,
+        "Z": 55.0
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 420.04498,
+        "Y": -417.90128,
+        "Z": 54.999985
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box8_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 35.0,
+        "Y": 65.0,
+        "Z": 55.0
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -401.4398,
+        "Y": -379.27286,
+        "Z": 54.999588
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box9_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 60.0,
+        "Y": 100.0,
+        "Z": 95.0
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -424.35648,
+        "Y": -203.51207,
+        "Z": 97.15581
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Box10",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BoxComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Box5",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BoxComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Box6",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BoxComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Box7",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BoxComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Box8",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BoxComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Box9",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BoxComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FacilityAmmoFactoryBaseRoof",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ProducingFX",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh17",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh18",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh19",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh20",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh21",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh22",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh23",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh24",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh25",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh26",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh27",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh29",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh30",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh31",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh32",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh33",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ProducingFX_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'FacilitySteam2'",
+        "ObjectPath": "War/Content/FX/FacilitySteam2.16"
+      },
+      "RelativeLocation": {
+        "X": -110.601616,
+        "Y": -325.41785,
+        "Z": 766.8461
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "ComponentTags": [
+        "ExcludeFromBuildGhost"
+      ]
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPFacilityFactoryAircraftStrategic_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.35"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_37'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_28'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_29'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_30'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_31'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_32'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_33'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_34'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_35'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_36'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_39'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_40'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_41'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_42'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_43'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.55"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_44'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.56"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_45'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.57"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_46'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.58"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.59"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.60"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.61"
+        }
+      ],
+      "VariableGuid": "C4A89795-4773319D-945E39BF-E042FD6B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPFacilityFactoryAircraftStrategic_C:ProducingFX_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.34"
+      },
+      "VariableGuid": "1C88124F-4D8C1483-AE9BA5BD-DBAE06C6",
+      "InternalVariableName": "ProducingFX"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh31_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.77"
+      },
+      "VariableGuid": "9FB41E25-4C66B658-29B2B1BD-D68A4BD5",
+      "InternalVariableName": "StaticMesh31"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_27",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh17_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.64"
+      },
+      "VariableGuid": "5C406A2A-42358E06-FD47A5BB-6173DFC2",
+      "InternalVariableName": "StaticMesh17"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_28",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh18_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.65"
+      },
+      "VariableGuid": "E5CEEF27-451AB8C5-04F27E99-41D884F0",
+      "InternalVariableName": "StaticMesh18"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_29",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh19_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.66"
+      },
+      "VariableGuid": "45077064-4EE67346-650D779F-210CCBEC",
+      "InternalVariableName": "StaticMesh19"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:FacilityAmmoFactoryBaseRoof_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.63"
+      },
+      "VariableGuid": "1B6A5BD2-469D17D6-9AA077A7-98FAA462",
+      "InternalVariableName": "FacilityAmmoFactoryBaseRoof"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_30",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh20_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.67"
+      },
+      "VariableGuid": "9465137B-425569A4-381D0485-E178A037",
+      "InternalVariableName": "StaticMesh20"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_31",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh21_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.68"
+      },
+      "VariableGuid": "2DBB18A7-48DE25A0-00189AB8-152517AD",
+      "InternalVariableName": "StaticMesh21"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_32",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh22_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.69"
+      },
+      "VariableGuid": "2612AA07-4C4C4E17-8A25D9BE-A74DA188",
+      "InternalVariableName": "StaticMesh22"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_33",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh23_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.70"
+      },
+      "VariableGuid": "D06014A4-45E9237D-C5C72F83-92E1A442",
+      "InternalVariableName": "StaticMesh23"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_34",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh24_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.71"
+      },
+      "VariableGuid": "052BE068-4ACF64CF-29D25291-5EFA8481",
+      "InternalVariableName": "StaticMesh24"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_35",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh25_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.72"
+      },
+      "VariableGuid": "3E4620DF-4FD0158F-5E00E0B0-B5D9BE99",
+      "InternalVariableName": "StaticMesh25"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_36",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh26_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.73"
+      },
+      "VariableGuid": "160AD0A9-4CF1DF25-7AA0CFB7-FB123BA2",
+      "InternalVariableName": "StaticMesh26"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_37",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh27_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.74"
+      },
+      "VariableGuid": "4593CD7E-4946901F-AA6AB4B5-101919B4",
+      "InternalVariableName": "StaticMesh27"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_39",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh29_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.75"
+      },
+      "VariableGuid": "2762ED78-4F33370F-1470379D-5592F0E3",
+      "InternalVariableName": "StaticMesh29"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_40",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh30_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.76"
+      },
+      "VariableGuid": "95658B3F-4DE4841F-1BDCED80-12A2262A",
+      "InternalVariableName": "StaticMesh30"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_41",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BPFacilityFactoryAircraftStrategic_C:Box5_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.4"
+      },
+      "VariableGuid": "86486F58-4052EC89-75233C89-930D5CAA",
+      "InternalVariableName": "Box5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_42",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BPFacilityFactoryAircraftStrategic_C:Box6_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.5"
+      },
+      "VariableGuid": "3948219E-4FE0E069-821C0BBE-66ED1816",
+      "InternalVariableName": "Box6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_43",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BPFacilityFactoryAircraftStrategic_C:Box7_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.6"
+      },
+      "VariableGuid": "8738CD67-4C169B4D-B6FAB38F-02EF372C",
+      "InternalVariableName": "Box7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_44",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BPFacilityFactoryAircraftStrategic_C:Box8_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.7"
+      },
+      "VariableGuid": "9C252B6C-489EF73A-CBE206B2-B45E0D44",
+      "InternalVariableName": "Box8"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_45",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BPFacilityFactoryAircraftStrategic_C:Box9_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.8"
+      },
+      "VariableGuid": "FD022992-4A5558B0-AB770E88-D9C3862E",
+      "InternalVariableName": "Box9"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_46",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BPFacilityFactoryAircraftStrategic_C:Box10_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.3"
+      },
+      "VariableGuid": "74AF25BA-4D2A70D5-C53B4788-378A11DC",
+      "InternalVariableName": "Box10"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh32_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.78"
+      },
+      "VariableGuid": "9C1E184F-42BB75E6-28AAEFAE-E9FD00E6",
+      "InternalVariableName": "StaticMesh32"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh33_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.79"
+      },
+      "VariableGuid": "D0947A77-42CFD04D-233D6BBA-48FFF85F",
+      "InternalVariableName": "StaticMesh33"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftStrategic_C:StaticMesh34_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.80"
+      },
+      "VariableGuid": "DD03F0A7-4F4AE8CE-38285D93-5B88700C",
+      "InternalVariableName": "StaticMesh34"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.36"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_37'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_28'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_29'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_30'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_31'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_32'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_33'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_34'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_35'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_36'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_39'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_40'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_41'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_42'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_43'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.55"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_44'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.56"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_45'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.57"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_46'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.58"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.59"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.60"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.61"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPFacilityFactoryAircraftStrategic_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactoryAircraftStrategic.36"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FacilityAmmoFactoryBaseRoof_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FacilityFactoryAircraftStrategic'",
+        "ObjectPath": "War/Content/Meshes/Structures/FacilityFactoryAircraftStrategic.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "CollisionProfileName": "GarrisonRoof",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh17_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFBarrel02'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFBarrel02.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -404.11215,
+        "Y": -345.17596,
+        "Z": -9.2E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh18_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FacilityFactoryAircraftParts03'",
+        "ObjectPath": "War/Content/Meshes/Structures/FacilityFactoryAircraftParts03.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -431.1105,
+        "Y": -201.91783,
+        "Z": 96.48932
+      },
+      "RelativeRotation": {
+        "Pitch": -3.0517578E-05,
+        "Yaw": 90.000015,
+        "Roll": -3.8146973E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh19_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFLargeStorageContainer'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFLargeStorageContainer.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -423.61942,
+        "Y": -201.9178,
+        "Z": -6.1E-05
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00001,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh20_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFAirTank02'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFAirTank02.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 382.95923,
+        "Y": 201.62735,
+        "Z": -7.1E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh21_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFLargeStorageContainer'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFLargeStorageContainer.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -428.32803,
+        "Y": 17.587894,
+        "Z": -6.1E-05
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 86.579346,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh22_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFSmalllCrate01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFSmalllCrate01.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -423.61923,
+        "Y": -28.669971,
+        "Z": 95.920166
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 74.161095,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh23_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFSmalllCrate01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFSmalllCrate01.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -427.1887,
+        "Y": 85.75622,
+        "Z": 95.920166
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -178.52188,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh24_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFBarrel02'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFBarrel02.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 403.7112,
+        "Y": 345.6335,
+        "Z": -9.2E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh25_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFBarrel02'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFBarrel02.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -404.11215,
+        "Y": -414.69794,
+        "Z": -9.2E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh26_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFAirTank02'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFAirTank02.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 382.95923,
+        "Y": 230.69582,
+        "Z": -8.6E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh27_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFBarrel01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFBarrel01.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 425.90027,
+        "Y": 276.1116,
+        "Z": -9.2E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh29_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFAirTank02'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFAirTank02.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 409.83508,
+        "Y": 166.79944,
+        "Z": -9E-05
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -10.752415,
+        "Roll": -89.99988
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh30_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFBarrelstack'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFBarrelstack.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 429.06635,
+        "Y": -418.6509,
+        "Z": -9.2E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh31_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FacilityFactoryAircraftParts06'",
+        "ObjectPath": "War/Content/Meshes/Structures/FacilityFactoryAircraftParts06.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 415.36353,
+        "Y": -27.226662,
+        "Z": -7.1E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh32_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFAirTank02'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFAirTank02.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 382.95923,
+        "Y": -305.70425,
+        "Z": -0.00010151758
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh33_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FVFAirTank02'",
+        "ObjectPath": "War/Content/Meshes/Structures/FVFAirTank02.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 382.95923,
+        "Y": -277.7273,
+        "Z": -7.1E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh34_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftStrategic_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FacilityFactoryAircraftParts07'",
+        "ObjectPath": "War/Content/Meshes/Structures/FacilityFactoryAircraftParts07.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 391.4808,
+        "Y": -62.81431,
+        "Z": -7.1E-05
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 4.2465625,
+        "Roll": 0.0
+      }
+    }
+  }
+]

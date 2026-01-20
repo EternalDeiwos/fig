@@ -1,0 +1,264 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "SK_AircraftBomberW_Tail_Damage_L",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "FA04F84949A6838837E67582BFF5636A",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 35370,
+        "SizeOnDisk": 35370,
+        "OffsetInFile": "0x2F74A"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Outer": "SK_AircraftBomberW_Tail_Damage_L",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x381BC"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SK_AircraftBomberW_Tail_Damage_L",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftBomberWHull'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/Materials/AircraftBomberWHull.0"
+          },
+          "MaterialSlotName": "Hull",
+          "ImportedMaterialSlotName": "Hull",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 870.90497,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftBomberWWing'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/Materials/AircraftBomberWWing.0"
+          },
+          "MaterialSlotName": "wings",
+          "ImportedMaterialSlotName": "wings",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1700.6334,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftBomberWDamage'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/Materials/AircraftBomberWDamage.0"
+          },
+          "MaterialSlotName": "Damage",
+          "ImportedMaterialSlotName": "Damage",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 104.97234,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 602.72906,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 277.77322,
+          "Y": -1147.3923,
+          "Z": 243.15466
+        },
+        "BoxExtent": {
+          "X": 168.2026,
+          "Y": 98.62463,
+          "Z": 8.219315
+        },
+        "SphereRadius": 194.93108
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SK_AircraftBomberW_Tail_Damage_L:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/Parts/Damage/SK_AircraftBomberW_Tail_Damage_L.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SK_AircraftBomberW_Tail_Damage_L:NavCollision_2'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/Parts/Damage/SK_AircraftBomberW_Tail_Damage_L.1"
+    },
+    "LightingGuid": "BE69447F-4E96B7CA-F8251582-08241904",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 0,
+              "NumTriangles": 204,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 177,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 612,
+              "NumTriangles": 1012,
+              "MinVertexIndex": 178,
+              "MaxVertexIndex": 1551,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 3648,
+              "NumTriangles": 19,
+              "MinVertexIndex": 1552,
+              "MaxVertexIndex": 1576,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1577
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 1577,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 0,
+              "NumTriangles": 103,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 106,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 309,
+              "NumTriangles": 503,
+              "MinVertexIndex": 107,
+              "MaxVertexIndex": 974,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 1818,
+              "NumTriangles": 12,
+              "MinVertexIndex": 975,
+              "MaxVertexIndex": 992,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 5.5978317,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 993
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 993,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 277.77322,
+          "Y": -1147.3923,
+          "Z": 243.15466
+        },
+        "BoxExtent": {
+          "X": 168.2026,
+          "Y": 98.62463,
+          "Z": 8.219315
+        },
+        "SphereRadius": 194.93108
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.6264442,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

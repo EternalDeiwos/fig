@@ -1,0 +1,125 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BomberMineWaterEffect_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BomberMineWaterEffect_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BomberMineWaterEffect_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberMineWaterEffect.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ImpactEffect'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BomberMineWaterEffect_C:DefaultSceneRoot'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberMineWaterEffect.0"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BomberMineWaterEffect_C'Default__BomberMineWaterEffect_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/BomberMineWaterEffect.2"
+    }
+  },
+  {
+    "Type": "BomberMineWaterEffect_C",
+    "Name": "Default__BomberMineWaterEffect_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/BomberMineWaterEffect.BomberMineWaterEffect_C'",
+    "Properties": {
+      "EffectOverrides": [
+        {
+          "PhysicalSurface": "SurfaceType_Default",
+          "EmitterTemplate": {
+            "ObjectName": "ParticleSystem'WaterBucketImpact'",
+            "ObjectPath": "War/Content/FX/WaterBucketImpact.60"
+          },
+          "HitSound": {
+            "ObjectName": "SoundCue'GrenadeWaterExplosion_Cue'",
+            "ObjectPath": "War/Content/Audio/SFX/Weapons/Water/GrenadeWaterExplosion_Cue.0"
+          },
+          "Decal": {
+            "DecalMaterial": null,
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          },
+          "bOrientToHitDirection": false,
+          "DamageThreshold": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BomberMineWaterEffect_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BomberMineWaterEffect_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberMineWaterEffect.3"
+      },
+      "VariableGuid": "04535695-47D39B74-0CF183A6-99947170",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BomberMineWaterEffect_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BomberMineWaterEffect_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Items/BomberMineWaterEffect.4"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BomberMineWaterEffect_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Items/BomberMineWaterEffect.4"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BomberMineWaterEffect_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberMineWaterEffect.4"
+      }
+    }
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh",
+    "Outer": "BPBomberMineProjectile_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPBomberMineProjectile_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPBomberMineProjectile_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.9"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AirMineProjectile'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPBomberMineProjectile_C:StaticMesh'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.0"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPBomberMineProjectile_C'Default__BPBomberMineProjectile_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.2"
+    }
+  },
+  {
+    "Type": "BPBomberMineProjectile_C",
+    "Name": "Default__BPBomberMineProjectile_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/BPBomberMineProjectile.BPBomberMineProjectile_C'",
+    "Properties": {
+      "SurfaceWaterMineClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPSurfaceWaterMine_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPSurfaceWaterMine.0"
+      },
+      "MineToWaterImpactEffect": {
+        "ObjectName": "BlueprintGeneratedClass'BomberMineWaterEffect_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberMineWaterEffect.1"
+      },
+      "MineToSurfaceImpactEffect": {
+        "ObjectName": "BlueprintGeneratedClass'BomberMineSurfaceEffect_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberMineSurfaceEffect.1"
+      },
+      "MovementComp": {
+        "ObjectName": "ProjectileMovementComponent'Default__BPBomberMineProjectile_C:ProjectileComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.5"
+      },
+      "CollisionComp": {
+        "ObjectName": "SphereComponent'Default__BPBomberMineProjectile_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.10"
+      },
+      "ParticleComp": {
+        "ObjectName": "ParticleSystemComponent'Default__BPBomberMineProjectile_C:ParticleComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.4"
+      },
+      "LoopingAudio": {
+        "ObjectName": "AudioComponent'Default__BPBomberMineProjectile_C:LoopingAudio'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.3"
+      },
+      "ExplosionTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'BomberMineExplosion_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberMineExplosion.1"
+      },
+      "ExplosiveCodeName": "SurfaceWaterMine",
+      "AutoDetonateTime": 30.0,
+      "bInterpolatesMesh": true,
+      "bInterpolateFromRelativeSpawnPosition": true,
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BPBomberMineProjectile_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.10"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "LoopingAudio",
+    "Outer": "Default__BPBomberMineProjectile_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BPBomberMineProjectile_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.10"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ParticleComp",
+    "Outer": "Default__BPBomberMineProjectile_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BPBomberMineProjectile_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.10"
+      }
+    }
+  },
+  {
+    "Type": "ProjectileMovementComponent",
+    "Name": "ProjectileComp",
+    "Outer": "Default__BPBomberMineProjectile_C",
+    "Class": "UScriptClass'ProjectileMovementComponent'",
+    "Properties": {
+      "bRotationFollowsVelocity": false,
+      "ProjectileGravityScale": 2.0,
+      "Velocity": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPBomberMineProjectile_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPBomberMineProjectile_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.6"
+      },
+      "VariableGuid": "7194A8BB-4E58A754-2BE3E9BA-E6A4A8FE",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPBomberMineProjectile_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.11"
+      },
+      "ParentComponentOrVariableName": "SphereComp",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "616AD03B-43D0BFD5-9A2D2988-B3249EE1",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPBomberMineProjectile_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPBomberMineProjectile_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.8"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPBomberMineProjectile_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.8"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPBomberMineProjectile_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.7"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "SphereComp",
+    "Outer": "Default__BPBomberMineProjectile_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 75.0
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BPBomberMineProjectile_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SmallSeaMine'",
+        "ObjectPath": "War/Content/Meshes/Weapons/SmallSeaMine.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

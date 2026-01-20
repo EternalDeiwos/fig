@@ -1,0 +1,423 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "SK_AircraftWaterW_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsAsset'",
+    "Properties": {
+      "BoundsBodies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftWaterW_PhysicsAsset:SkeletalBodySetup_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/SK_AircraftWaterW_PhysicsAsset.1"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftWaterW_PhysicsAsset:SkeletalBodySetup_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/SK_AircraftWaterW_PhysicsAsset.2"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftWaterW_PhysicsAsset:SkeletalBodySetup_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/SK_AircraftWaterW_PhysicsAsset.3"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftWaterW_PhysicsAsset:SkeletalBodySetup_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/SK_AircraftWaterW_PhysicsAsset.4"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftWaterW_PhysicsAsset:SkeletalBodySetup_6'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/SK_AircraftWaterW_PhysicsAsset.5"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftWaterW_PhysicsAsset:SkeletalBodySetup_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/SK_AircraftWaterW_PhysicsAsset.6"
+        }
+      ],
+      "ThumbnailInfo": null
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_2",
+    "Outer": "SK_AircraftWaterW_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "BoxElems": [
+          {
+            "Center": {
+              "X": -0.0028174056,
+              "Y": -63.674244,
+              "Z": 63.337795
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 103.10795,
+            "Y": 171.35912,
+            "Z": 95.394,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": -0.110133775,
+              "Y": 73.72535,
+              "Z": -154.98933
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 101.38039,
+            "Y": 385.07922,
+            "Z": 64.17615,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": -0.04236226,
+              "Y": -37.92784,
+              "Z": -99.768135
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 14.360881,
+            "Y": 161.93993,
+            "Z": 46.299206,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ],
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 1.6486085E-08,
+              "Y": -40.110317,
+              "Z": -13.175831
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 2.4343738E-08,
+              "Roll": 89.999954
+            },
+            "Radius": 64.633934,
+            "Length": 162.3282,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "AircraftFighterW_Fuselage01",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "9530583749C306E984454988E334F10F"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_3",
+    "Outer": "SK_AircraftWaterW_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "BoxElems": [
+          {
+            "Center": {
+              "X": 4.8137837E-05,
+              "Y": 126.85452,
+              "Z": 55.42988
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 73.00324,
+            "Y": 82.72804,
+            "Z": 54.539906,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": -0.106976606,
+              "Y": 59.74488,
+              "Z": -157.7347
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 101.34309,
+            "Y": 277.77902,
+            "Z": 64.22284,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": 0.003965564,
+              "Y": 117.83681,
+              "Z": -102.44529
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 14.360881,
+            "Y": 161.93993,
+            "Z": 46.299206,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ],
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 5.244674E-09,
+              "Y": 62.041737,
+              "Z": -13.175762
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 89.999954
+            },
+            "Radius": 64.633934,
+            "Length": 267.60272,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "AircraftFighterW_Fuselage02",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "BE62D36D435DC4669F756CA3755D0C4C"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_4",
+    "Outer": "SK_AircraftWaterW_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "BoxElems": [
+          {
+            "Center": {
+              "X": 5.541889E-10,
+              "Y": -33.015774,
+              "Z": -16.752813
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 42.660744,
+            "Y": 164.2655,
+            "Z": 210.88078,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": -0.1905519,
+              "Y": 68.77932,
+              "Z": -45.797146
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 42.39854,
+            "Y": 39.680958,
+            "Z": 75.599915,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": -3.306645E-06,
+              "Y": 2.6080945,
+              "Z": -54.04724
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 268.78665,
+            "Y": 114.28673,
+            "Z": 18.05922,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "AircraftFighterW_Tail",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "7F10AE5F4586C18E2F660789B3C317BA"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_5",
+    "Outer": "SK_AircraftWaterW_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "BoxElems": [
+          {
+            "Center": {
+              "X": 16.7,
+              "Y": -51.0,
+              "Z": -4.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -25.5,
+              "Roll": 0.0
+            },
+            "X": 385.0,
+            "Y": 142.0,
+            "Z": 35.5,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": 24.5,
+              "Y": -111.6,
+              "Z": 121.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -25.5,
+              "Roll": 0.0
+            },
+            "X": 377.0,
+            "Y": 142.0,
+            "Z": 25.7,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "AircraftFighterW_Wing_L",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "C6298137424944E5B54105B7C70878D3"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_6",
+    "Outer": "SK_AircraftWaterW_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "BoxElems": [
+          {
+            "Center": {
+              "X": -16.7,
+              "Y": -51.0,
+              "Z": -4.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 25.499693,
+              "Roll": 0.0
+            },
+            "X": 385.0,
+            "Y": 142.0,
+            "Z": 35.5,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": -24.5,
+              "Y": -111.6,
+              "Z": 121.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 25.5,
+              "Roll": 0.0
+            },
+            "X": 377.0,
+            "Y": 142.0,
+            "Z": 25.7,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "AircraftFighterW_Wing_R",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "D1E38FF245DBCBAB3E86EBB7378595F6"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_8",
+    "Outer": "SK_AircraftWaterW_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 0.023416452,
+              "Y": -87.88797,
+              "Z": -10.797033
+            },
+            "Rotation": {
+              "Pitch": -0.012458265,
+              "Yaw": 0.050749205,
+              "Roll": 89.99998
+            },
+            "Radius": 52.250843,
+            "Length": 102.415924,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "AircraftFighterW_Engine",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "8FC7D13948108916F52D93A7EE8F0B5D"
+  }
+]

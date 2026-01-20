@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPLargeShipBattleShipWMachineGunner_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BPWarVehicleMachineGunnerComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/BPWarVehicleMachineGunnerComponent.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BPWarVehicleMachineGunnerComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/BPWarVehicleMachineGunnerComponent.0"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPLargeShipBattleShipWMachineGunner_C'Default__BPLargeShipBattleShipWMachineGunner_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LargeShips/BattleShipW/BPLargeShipBattleShipWMachineGunner.1"
+    }
+  },
+  {
+    "Type": "BPLargeShipBattleShipWMachineGunner_C",
+    "Name": "Default__BPLargeShipBattleShipWMachineGunner_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/LargeShips/BattleShipW/BPLargeShipBattleShipWMachineGunner.BPLargeShipBattleShipWMachineGunner_C'",
+    "Properties": {
+      "bSupportsAntiAircraftMode": true,
+      "AmmoSlotFilterAmount": 30,
+      "ActivityStateInfos[4]": {
+        "Duration": 4.5
+      },
+      "ActivityStateInfos[70]": {
+        "ActivityMontage": {
+          "ObjectName": "AnimMontage'NWP_Tinkering'",
+          "ObjectPath": "War/Content/Animation/Character/NWP_NoWeapon/NWP_Tinkering.0"
+        }
+      }
+    }
+  }
+]

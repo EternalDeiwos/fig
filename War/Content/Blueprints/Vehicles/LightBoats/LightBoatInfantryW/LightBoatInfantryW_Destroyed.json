@@ -1,0 +1,417 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "LightBoatInfantryW_Destroyed",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "F1FD62824E43198BAC6457A68E6CCE04",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1501485,
+        "SizeOnDisk": 1501485,
+        "OffsetInFile": "0x713846"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "LightBoatInfantryW_Destroyed",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x8821BB"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "LightBoatInfantryW_Destroyed",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'BoatWWoodPlanks'",
+            "ObjectPath": "War/Content/Materials/Vehicles/BoatWWoodPlanks.0"
+          },
+          "MaterialSlotName": "BoatWWoodPlanks",
+          "ImportedMaterialSlotName": "BoatWWoodPlanks",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1200.5977,
+            "LocalUVDensities[1]": 9130.559,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'ProductionPartsTarp'",
+            "ObjectPath": "War/Content/Materials/Environment/Props/ProductionPartsTarp.0"
+          },
+          "MaterialSlotName": "ProductionPartsTarp",
+          "ImportedMaterialSlotName": "ProductionPartsTarp",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 332.97983,
+            "LocalUVDensities[1]": 8853.868,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'RepeatingRope'",
+            "ObjectPath": "War/Content/Materials/Environment/Props/RepeatingRope.0"
+          },
+          "MaterialSlotName": "RepeatingRope",
+          "ImportedMaterialSlotName": "RepeatingRope",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 53.34049,
+            "LocalUVDensities[1]": 7814.007,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'LightBoatInfantryWBody'",
+            "ObjectPath": "War/Content/Materials/Vehicles/LightBoatInfantryWBody.0"
+          },
+          "MaterialSlotName": "LightBoatInfantryWBody",
+          "ImportedMaterialSlotName": "LightBoatInfantryWBody",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1672.2722,
+            "LocalUVDensities[1]": 9061.177,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'LightShips'",
+            "ObjectPath": "War/Content/Materials/Environment/LightShips.0"
+          },
+          "MaterialSlotName": "LightShips",
+          "ImportedMaterialSlotName": "LightShips",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1198.1125,
+            "LocalUVDensities[1]": 9304.422,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'LightBoatInfantryWCabin'",
+            "ObjectPath": "War/Content/Materials/Vehicles/LightBoatInfantryWCabin.0"
+          },
+          "MaterialSlotName": "LightBoatInfantryWCabin",
+          "ImportedMaterialSlotName": "LightBoatInfantryWCabin",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1010.22,
+            "LocalUVDensities[1]": 9090.708,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'LightBoatInfantryWTurrets'",
+            "ObjectPath": "War/Content/Materials/Vehicles/LightBoatInfantryWTurrets.0"
+          },
+          "MaterialSlotName": "LightBoatInfantryWTurrets",
+          "ImportedMaterialSlotName": "LightBoatInfantryWTurrets",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 608.8856,
+            "LocalUVDensities[1]": 8930.023,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 8968.685,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.52612305,
+          "Y": 20.408936,
+          "Z": 158.53297
+        },
+        "BoxExtent": {
+          "X": 267.80255,
+          "Y": 851.7052,
+          "Z": 333.43796
+        },
+        "SphereRadius": 860.022
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'LightBoatInfantryW_Destroyed:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryW/LightBoatInfantryW_Destroyed.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'LightBoatInfantryW_Destroyed:NavCollision_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryW/LightBoatInfantryW_Destroyed.1"
+    },
+    "LightingGuid": "876EADDD-4F02E468-33D826AB-7028A3E5",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 290,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 186,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 870,
+              "NumTriangles": 1364,
+              "MinVertexIndex": 187,
+              "MaxVertexIndex": 922,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 4962,
+              "NumTriangles": 10696,
+              "MinVertexIndex": 923,
+              "MaxVertexIndex": 7432,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 37050,
+              "NumTriangles": 11312,
+              "MinVertexIndex": 7433,
+              "MaxVertexIndex": 18279,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 70986,
+              "NumTriangles": 80,
+              "MinVertexIndex": 18280,
+              "MaxVertexIndex": 18328,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 5,
+              "FirstIndex": 71226,
+              "NumTriangles": 9558,
+              "MinVertexIndex": 18329,
+              "MaxVertexIndex": 26974,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 6,
+              "FirstIndex": 99900,
+              "NumTriangles": 18194,
+              "MinVertexIndex": 26975,
+              "MaxVertexIndex": 49019,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 49020
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 49020,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 45,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 48,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 135,
+              "NumTriangles": 779,
+              "MinVertexIndex": 49,
+              "MaxVertexIndex": 481,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 2472,
+              "NumTriangles": 3676,
+              "MinVertexIndex": 482,
+              "MaxVertexIndex": 3026,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 13500,
+              "NumTriangles": 7396,
+              "MinVertexIndex": 3027,
+              "MaxVertexIndex": 11200,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 35688,
+              "NumTriangles": 54,
+              "MinVertexIndex": 11201,
+              "MaxVertexIndex": 11236,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 5,
+              "FirstIndex": 35850,
+              "NumTriangles": 5233,
+              "MinVertexIndex": 11237,
+              "MaxVertexIndex": 16728,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 6,
+              "FirstIndex": 51549,
+              "NumTriangles": 8564,
+              "MinVertexIndex": 16729,
+              "MaxVertexIndex": 29543,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 3.9896705,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 29544
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 29544,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 0.52612305,
+          "Y": 20.408936,
+          "Z": 158.53297
+        },
+        "BoxExtent": {
+          "X": 267.80255,
+          "Y": 851.7052,
+          "Z": 333.43796
+        },
+        "SphereRadius": 860.022
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

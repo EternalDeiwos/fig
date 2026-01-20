@@ -1,0 +1,1015 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "SK_AircraftBomberWLower_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsAsset'",
+    "Properties": {
+      "BoundsBodies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberWLower_PhysicsAsset:SkeletalBodySetup_13'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/SK_AircraftBomberWLower_PhysicsAsset.1"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberWLower_PhysicsAsset:SkeletalBodySetup_14'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/SK_AircraftBomberWLower_PhysicsAsset.2"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberWLower_PhysicsAsset:SkeletalBodySetup_15'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/SK_AircraftBomberWLower_PhysicsAsset.3"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberWLower_PhysicsAsset:SkeletalBodySetup_17'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/SK_AircraftBomberWLower_PhysicsAsset.4"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberWLower_PhysicsAsset:SkeletalBodySetup_18'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/SK_AircraftBomberWLower_PhysicsAsset.5"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberWLower_PhysicsAsset:SkeletalBodySetup_19'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/SK_AircraftBomberWLower_PhysicsAsset.6"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberWLower_PhysicsAsset:SkeletalBodySetup_20'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/SK_AircraftBomberWLower_PhysicsAsset.7"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberWLower_PhysicsAsset:SkeletalBodySetup_21'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/SK_AircraftBomberWLower_PhysicsAsset.8"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberWLower_PhysicsAsset:SkeletalBodySetup_22'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/SK_AircraftBomberWLower_PhysicsAsset.9"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberWLower_PhysicsAsset:SkeletalBodySetup_23'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/SK_AircraftBomberWLower_PhysicsAsset.10"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberWLower_PhysicsAsset:SkeletalBodySetup_24'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/SK_AircraftBomberWLower_PhysicsAsset.11"
+        }
+      ],
+      "ThumbnailInfo": null
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_13",
+    "Outer": "SK_AircraftBomberWLower_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 1.7214427E-14,
+              "Y": -277.52695,
+              "Z": 15.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 89.999954
+            },
+            "Radius": 220.0,
+            "Length": 552.6427,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Fuselage01",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "4478639747F2434A79F22FB2F8573619"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_14",
+    "Outer": "SK_AircraftBomberWLower_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 19.582035,
+              "Y": -363.52994,
+              "Z": 60.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 89.999954
+            },
+            "Radius": 180.0,
+            "Length": 508.31592,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Fuselage02",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "9BD4A6B34941B02B058779A5962405DA"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_15",
+    "Outer": "SK_AircraftBomberWLower_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": -1.7991807E-14,
+              "Y": 38.110153,
+              "Z": 50.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 89.999954
+            },
+            "Radius": 170.0,
+            "Length": 327.8297,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Fuselage03",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "DF8DA4E349413A53E0B7ABAAFB053794"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_17",
+    "Outer": "SK_AircraftBomberWLower_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 1374.0841,
+                "Y": 123.167175,
+                "Z": -21.781322
+              },
+              {
+                "X": 1374.0841,
+                "Y": -267.53873,
+                "Z": -15.840564
+              },
+              {
+                "X": 1374.0841,
+                "Y": 123.16717,
+                "Z": 21.781363
+              },
+              {
+                "X": 1457.7427,
+                "Y": 107.1997,
+                "Z": -21.781326
+              },
+              {
+                "X": 1043.9974,
+                "Y": 138.01988,
+                "Z": -21.78132
+              },
+              {
+                "X": 1043.9974,
+                "Y": -277.74075,
+                "Z": -15.840566
+              },
+              {
+                "X": 1043.9974,
+                "Y": 138.01988,
+                "Z": 21.781366
+              },
+              {
+                "X": 1043.9974,
+                "Y": -277.74075,
+                "Z": 15.840475
+              },
+              {
+                "X": 1374.0841,
+                "Y": -267.53873,
+                "Z": 15.840476
+              },
+              {
+                "X": 1457.7427,
+                "Y": -251.57126,
+                "Z": 15.840479
+              },
+              {
+                "X": 1541.4012,
+                "Y": -177.57957,
+                "Z": 15.840491
+              },
+              {
+                "X": 1457.7427,
+                "Y": 107.19969,
+                "Z": 21.78136
+              },
+              {
+                "X": 1457.7427,
+                "Y": -251.57124,
+                "Z": -15.840561
+              },
+              {
+                "X": 1541.4012,
+                "Y": -177.57957,
+                "Z": -15.8405485
+              },
+              {
+                "X": 1541.4012,
+                "Y": 33.207996,
+                "Z": -21.781338
+              },
+              {
+                "X": 1541.4012,
+                "Y": 33.207993,
+                "Z": 21.78135
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": 1043.9974,
+                "Y": -277.74075,
+                "Z": -21.781338
+              },
+              "Max": {
+                "X": 1541.4012,
+                "Y": 138.01988,
+                "Z": 21.781366
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": -597.22,
+                "Y": 10.242777,
+                "Z": -0.0084160855
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Wing02L",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "9326752943BB2E7F76E7B5A2ED7F1B81",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1699,
+        "SizeOnDisk": 1699,
+        "OffsetInFile": "0x69DF"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_18",
+    "Outer": "SK_AircraftBomberWLower_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 166.6702,
+                "Y": 177.49643,
+                "Z": -21.781315
+              },
+              {
+                "X": 166.6702,
+                "Y": -304.85635,
+                "Z": -15.8405695
+              },
+              {
+                "X": 166.6702,
+                "Y": 177.49643,
+                "Z": 21.781372
+              },
+              {
+                "X": 1043.9974,
+                "Y": 138.01988,
+                "Z": -21.78132
+              },
+              {
+                "X": 1043.9974,
+                "Y": -277.74075,
+                "Z": -15.840566
+              },
+              {
+                "X": 1043.9974,
+                "Y": 138.01988,
+                "Z": 21.781366
+              },
+              {
+                "X": 1043.9974,
+                "Y": -277.74075,
+                "Z": 15.840475
+              },
+              {
+                "X": 166.6702,
+                "Y": -304.85635,
+                "Z": 15.84047
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": 166.6702,
+                "Y": -304.85635,
+                "Z": -21.78132
+              },
+              "Max": {
+                "X": 1043.9974,
+                "Y": 177.49643,
+                "Z": 21.781372
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": -1254.3958,
+                "Y": 11.006422,
+                "Z": 0.015650041
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Wing01L",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "AC2EDEB74212C229DCD11F9F15770275",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 915,
+        "SizeOnDisk": 915,
+        "OffsetInFile": "0x73F3"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_19",
+    "Outer": "SK_AircraftBomberWLower_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -166.6702,
+                "Y": 177.49643,
+                "Z": -21.781315
+              },
+              {
+                "X": -166.6702,
+                "Y": -304.85635,
+                "Z": -15.8405695
+              },
+              {
+                "X": -166.6702,
+                "Y": 177.49643,
+                "Z": 21.781372
+              },
+              {
+                "X": -1043.9974,
+                "Y": 138.01988,
+                "Z": -21.78132
+              },
+              {
+                "X": -1043.9974,
+                "Y": -277.74075,
+                "Z": -15.840566
+              },
+              {
+                "X": -1043.9974,
+                "Y": 138.01988,
+                "Z": 21.781366
+              },
+              {
+                "X": -1043.9974,
+                "Y": -277.74075,
+                "Z": 15.840475
+              },
+              {
+                "X": -166.6702,
+                "Y": -304.85635,
+                "Z": 15.84047
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -1043.9974,
+                "Y": -304.85635,
+                "Z": -21.78132
+              },
+              "Max": {
+                "X": -166.6702,
+                "Y": 177.49643,
+                "Z": 21.781372
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 1287.406,
+                "Y": 8.522402,
+                "Z": 1.05339424E-07
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Wing01R",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "28AF75874E34835E3738F48046DA2F60",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 915,
+        "SizeOnDisk": 915,
+        "OffsetInFile": "0x7AF7"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_20",
+    "Outer": "SK_AircraftBomberWLower_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -1374.0841,
+                "Y": 123.167175,
+                "Z": -21.781322
+              },
+              {
+                "X": -1374.0841,
+                "Y": 123.16717,
+                "Z": 21.781363
+              },
+              {
+                "X": -1374.0841,
+                "Y": -267.53873,
+                "Z": -15.840564
+              },
+              {
+                "X": -1374.0841,
+                "Y": -267.53873,
+                "Z": 15.840476
+              },
+              {
+                "X": -1541.4012,
+                "Y": -177.57957,
+                "Z": -15.8405485
+              },
+              {
+                "X": -1541.4012,
+                "Y": 33.207996,
+                "Z": -21.781338
+              },
+              {
+                "X": -1541.4012,
+                "Y": 33.207993,
+                "Z": 21.78135
+              },
+              {
+                "X": -1541.4012,
+                "Y": -177.57957,
+                "Z": 15.840491
+              },
+              {
+                "X": -1457.7427,
+                "Y": -251.57124,
+                "Z": -15.840561
+              },
+              {
+                "X": -1457.7427,
+                "Y": -251.57126,
+                "Z": 15.840479
+              },
+              {
+                "X": -1457.7427,
+                "Y": 107.19969,
+                "Z": 21.78136
+              },
+              {
+                "X": -1457.7427,
+                "Y": 107.1997,
+                "Z": -21.781326
+              },
+              {
+                "X": -1043.9974,
+                "Y": -277.74075,
+                "Z": -15.840566
+              },
+              {
+                "X": -1043.9974,
+                "Y": -277.74075,
+                "Z": 15.840475
+              },
+              {
+                "X": -1043.9974,
+                "Y": 138.01988,
+                "Z": -21.78132
+              },
+              {
+                "X": -1043.9974,
+                "Y": 138.01988,
+                "Z": 21.781366
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -1541.4012,
+                "Y": -277.74075,
+                "Z": -21.781338
+              },
+              "Max": {
+                "X": -1043.9974,
+                "Y": 138.01988,
+                "Z": 21.781366
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 611.9404,
+                "Y": 7.8813386,
+                "Z": -7.7689157E-07
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Wing02R",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "CF57EBE04EBB8B81F6057D9CBEC3482E",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1699,
+        "SizeOnDisk": 1699,
+        "OffsetInFile": "0x825B"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_21",
+    "Outer": "SK_AircraftBomberWLower_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "BoxElems": [
+          {
+            "Center": {
+              "X": 6.325574E-28,
+              "Y": -58.148853,
+              "Z": 2.5394048E-18
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 107.84009,
+            "Y": 569.08044,
+            "Z": 252.71991,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "EngineL",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "D1144B7D462DC1444A0DE3883BC9224D"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_22",
+    "Outer": "SK_AircraftBomberWLower_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "BoxElems": [
+          {
+            "Center": {
+              "X": 0.0,
+              "Y": -58.148853,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 107.84009,
+            "Y": 569.08044,
+            "Z": 252.71991,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "EngineR",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "1447F8F1404A169C022929BB8243BA7F"
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_23",
+    "Outer": "SK_AircraftBomberWLower_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 399.20416,
+                "Y": -1152.71,
+                "Z": 253.8528
+              },
+              {
+                "X": 399.20416,
+                "Y": -1286.7136,
+                "Z": 247.91196
+              },
+              {
+                "X": 102.48151,
+                "Y": -1046.9788,
+                "Z": 253.85281
+              },
+              {
+                "X": 399.2795,
+                "Y": -1151.3615,
+                "Z": 242.82036
+              },
+              {
+                "X": 420.93848,
+                "Y": -1160.9418,
+                "Z": 253.88496
+              },
+              {
+                "X": 442.67282,
+                "Y": -1193.4365,
+                "Z": 253.91711
+              },
+              {
+                "X": 421.01382,
+                "Y": -1159.7605,
+                "Z": 242.85252
+              },
+              {
+                "X": 420.93848,
+                "Y": -1278.3276,
+                "Z": 247.94412
+              },
+              {
+                "X": 442.67282,
+                "Y": -1245.1855,
+                "Z": 247.97629
+              },
+              {
+                "X": 421.01382,
+                "Y": -1277.1465,
+                "Z": 236.91168
+              },
+              {
+                "X": 399.2795,
+                "Y": -1285.3652,
+                "Z": 236.87952
+              },
+              {
+                "X": 442.74817,
+                "Y": -1244.6648,
+                "Z": 236.94383
+              },
+              {
+                "X": 442.74817,
+                "Y": -1192.9158,
+                "Z": 242.88466
+              },
+              {
+                "X": 102.55686,
+                "Y": -1357.934,
+                "Z": 236.87952
+              },
+              {
+                "X": 102.55686,
+                "Y": -1045.6304,
+                "Z": 242.82037
+              },
+              {
+                "X": 102.48151,
+                "Y": -1359.2823,
+                "Z": 247.91194
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": 102.48151,
+                "Y": -1359.2823,
+                "Z": 236.87952
+              },
+              "Max": {
+                "X": 442.74817,
+                "Y": -1045.6304,
+                "Z": 253.91711
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": -246.92752,
+                "Y": 1157.5433,
+                "Z": -241.39516
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "TailL",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "BE35624345127A538A91EDA644673A33",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1747,
+        "SizeOnDisk": 1747,
+        "OffsetInFile": "0x9133"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_24",
+    "Outer": "SK_AircraftBomberWLower_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -399.20416,
+                "Y": -1152.71,
+                "Z": 253.8528
+              },
+              {
+                "X": -399.20416,
+                "Y": -1286.7136,
+                "Z": 247.91196
+              },
+              {
+                "X": -102.48151,
+                "Y": -1046.9788,
+                "Z": 253.85281
+              },
+              {
+                "X": -399.2795,
+                "Y": -1151.3615,
+                "Z": 242.82036
+              },
+              {
+                "X": -420.93848,
+                "Y": -1160.9418,
+                "Z": 253.88496
+              },
+              {
+                "X": -442.67282,
+                "Y": -1193.4365,
+                "Z": 253.91711
+              },
+              {
+                "X": -421.01382,
+                "Y": -1159.7605,
+                "Z": 242.85252
+              },
+              {
+                "X": -420.93848,
+                "Y": -1278.3276,
+                "Z": 247.94412
+              },
+              {
+                "X": -442.67282,
+                "Y": -1245.1855,
+                "Z": 247.97629
+              },
+              {
+                "X": -421.01382,
+                "Y": -1277.1465,
+                "Z": 236.91168
+              },
+              {
+                "X": -399.2795,
+                "Y": -1285.3652,
+                "Z": 236.87952
+              },
+              {
+                "X": -442.74817,
+                "Y": -1244.6648,
+                "Z": 236.94383
+              },
+              {
+                "X": -442.74817,
+                "Y": -1192.9158,
+                "Z": 242.88466
+              },
+              {
+                "X": -102.55686,
+                "Y": -1357.934,
+                "Z": 236.87952
+              },
+              {
+                "X": -102.55686,
+                "Y": -1045.6304,
+                "Z": 242.82037
+              },
+              {
+                "X": -102.48151,
+                "Y": -1359.2823,
+                "Z": 247.91194
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -442.74817,
+                "Y": -1359.2823,
+                "Z": 236.87952
+              },
+              "Max": {
+                "X": -102.48151,
+                "Y": -1045.6304,
+                "Z": 253.91711
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 256.38162,
+                "Y": 1159.7161,
+                "Z": -244.39288
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "TailR",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "413A5ACB466968BA4A8FFC813BAF0C22",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1747,
+        "SizeOnDisk": 1747,
+        "OffsetInFile": "0x9BD7"
+      }
+    }
+  }
+]

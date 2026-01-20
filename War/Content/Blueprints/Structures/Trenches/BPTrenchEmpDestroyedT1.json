@@ -1,0 +1,1277 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmpCommonSockets",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.41"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'DestroyedFort'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:TrenchEmpCommonSockets'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:TrenchEmpCommonDirtT1T2'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:BPStructurePuddleMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:FloorDecal'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01Right'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.22"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01Back'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.15"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01Left'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01FrontRight'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01FrontLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.19"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01Front'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.18"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01BackRight'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01BackLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:TrenchEmpCommon'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:TrenchT1Destroyed01'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpDestroyedT1_C:Floor'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.11"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPTrenchEmpDestroyedT1_C'Default__BPTrenchEmpDestroyedT1_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.2"
+    }
+  },
+  {
+    "Type": "BPTrenchEmpDestroyedT1_C",
+    "Name": "Default__BPTrenchEmpDestroyedT1_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.BPTrenchEmpDestroyedT1_C'",
+    "Properties": {
+      "EmplacementLocation": {
+        "ObjectName": "BoxComponent'Default__BPTrenchEmpDestroyedT1_C:EmplacementLocation'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.4"
+      },
+      "Tier": "EFortTier::T1",
+      "bDisableModificationSlotValidation": true,
+      "bReadOnlyModifications": true,
+      "BuildGhostClass": null,
+      "Description": {
+        "Namespace": "",
+        "Key": "BE5E36F541B479B4216542B5A6ADFC4B",
+        "SourceString": "A destroyed emplacement trench.",
+        "LocalizedString": "A destroyed emplacement trench."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'TrenchT1EmplacementIcon'",
+        "ObjectPath": "War/Content/Textures/UI/StructureIcons/TrenchT1EmplacementIcon.0"
+      },
+      "BuildCategory": "EBuildCategory::Bunker",
+      "DestroyedDamageExtent": {
+        "X": 420.0,
+        "Y": 420.0,
+        "Z": 100.0
+      },
+      "ValidBuildTools": 2,
+      "ConversionCodeNames": [
+        "TrenchEmpFill"
+      ],
+      "CodeName": "TrenchEmpDestroyedT1",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "06F1BCF74DEDC31BDF53F8B1878F911F",
+        "SourceString": "Destroyed Trench (Tier 1)",
+        "LocalizedString": "Destroyed Trench (Tier 1)"
+      },
+      "ProfileType": "EStructureProfileType::DestroyedFort",
+      "ArmourType": "EArmourType::Trench",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchEmpDestroyedT1_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPTrenchEmpDestroyedT1_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.6"
+      },
+      "KillVolume": {
+        "ObjectName": "BoxComponent'Default__BPTrenchEmpDestroyedT1_C:KillVolume'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.5"
+      },
+      "ModularMountsComponent": {
+        "ObjectName": "ModularMountsComponent'Default__BPTrenchEmpDestroyedT1_C:ModularMountsComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.9"
+      },
+      "MaxHealth": 1500,
+      "Health": 1500,
+      "UpgradeStructureCodeName": "TrenchEmpT1",
+      "ClaimStatus": {
+        "bIsEnabled": false
+      },
+      "bIsBlankFortPiece": false,
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPTrenchEmpDestroyedT1_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.52"
+      },
+      "bReceivesRainfall": true,
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchEmpDestroyedT1_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "EmplacementLocation",
+    "Outer": "Default__BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchEmpDestroyedT1_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.3"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "KillVolume",
+    "Outer": "Default__BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 24.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchEmpDestroyedT1_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -135.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 420.0,
+        "Y": 420.0,
+        "Z": 100.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchEmpDestroyedT1_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.3"
+      },
+      "RelativeLocation": {
+        "X": -6.1035156E-05,
+        "Y": 1.4084167,
+        "Z": -23.000153
+      }
+    }
+  },
+  {
+    "Type": "BPStructurePuddleMesh_C",
+    "Name": "BPStructurePuddleMesh_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Puddles/BPStructurePuddleMesh.BPStructurePuddleMesh_C'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT1FloorPuddlesDestroyed'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT1FloorPuddlesDestroyed.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MudPuddleMesh'",
+          "ObjectPath": "War/Content/Materials/Decals/MudPuddleMesh.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 0.000127,
+        "Y": 0.0,
+        "Z": -159.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "FloorDecal_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'PuddlePatch1'",
+        "ObjectPath": "War/Content/Materials/Decals/PuddlePatch1.0"
+      },
+      "RelativeLocation": {
+        "X": -152.80275,
+        "Y": 100.35622,
+        "Z": 35.8696
+      },
+      "RelativeRotation": {
+        "Pitch": -89.99999,
+        "Yaw": 360.0197,
+        "Roll": -360.01965
+      },
+      "RelativeScale3D": {
+        "X": 0.67724055,
+        "Y": 0.4315082,
+        "Z": 0.4315082
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "ModularMountsComponent",
+    "Name": "ModularMountsComponent",
+    "Outer": "Default__BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ModularMountsComponent'"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPStructurePuddleMesh",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPStructurePuddleMesh_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Puddles/BPStructurePuddleMesh.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Floor",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FloorDecal",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmpCommon",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmpCommonDirtT1T2",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmplacementT1Destroyed01Back",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmplacementT1Destroyed01BackLeft",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmplacementT1Destroyed01BackRight",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmplacementT1Destroyed01Front",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmplacementT1Destroyed01FrontLeft",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmplacementT1Destroyed01FrontRight",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmplacementT1Destroyed01Left",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmplacementT1Destroyed01Right",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchT1Destroyed01",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPTrenchEmpDestroyedT1_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.24"
+      },
+      "VariableGuid": "1144E758-45F21128-659C63A0-98B6F24C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpDestroyedT1_C:TrenchT1Destroyed01_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.51"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BF3765B0-43309E23-FD21C9BC-1248C698",
+      "InternalVariableName": "TrenchT1Destroyed01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPTrenchEmpDestroyedT1_C:FloorDecal_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.8"
+      },
+      "VariableGuid": "5316A30D-418E4A63-F6F8F09F-7F5768CD",
+      "InternalVariableName": "FloorDecal"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPStructurePuddleMesh_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Puddles/BPStructurePuddleMesh.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPStructurePuddleMesh_C'BPTrenchEmpDestroyedT1_C:BPStructurePuddleMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.7"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E79656DD-45B2703D-D04F44BC-12F347A8",
+      "InternalVariableName": "BPStructurePuddleMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPTrenchEmpDestroyedT1_C:TrenchEmpCommonDirtT1T2_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.54"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "38EEBD82-40883B8E-EB470485-7DEEBB6F",
+      "InternalVariableName": "TrenchEmpCommonDirtT1T2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_128",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpDestroyedT1_C:Floor_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.42"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.27"
+        }
+      ],
+      "VariableGuid": "90A032EC-428877C1-AB3620AF-C615FB9F",
+      "InternalVariableName": "Floor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPTrenchEmpDestroyedT1_C:TrenchEmpCommonSockets_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.55"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "91D228B9-4ABA8070-3A1EE591-B0401CC7",
+      "InternalVariableName": "TrenchEmpCommonSockets"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPTrenchEmpDestroyedT1_C:TrenchEmpCommon_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.53"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D1CF9140-45D927CE-31452BA8-58174CC3",
+      "InternalVariableName": "TrenchEmpCommon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01Back_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.43"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1776FBF2-465C32C4-52DD378A-4724D58E",
+      "InternalVariableName": "TrenchEmplacementT1Destroyed01Back"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01BackLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.44"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "998DD79D-4DBA3409-D62D0FAA-14FEA6CB",
+      "InternalVariableName": "TrenchEmplacementT1Destroyed01BackLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01BackRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.45"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0C3BA82C-4CDD9A82-FA7369A7-BB0ED974",
+      "InternalVariableName": "TrenchEmplacementT1Destroyed01BackRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01Front_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.46"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C27CE2D4-4FA741D2-14A7E082-FC3E15B6",
+      "InternalVariableName": "TrenchEmplacementT1Destroyed01Front"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01FrontLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.47"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "380E0833-48B524B9-426D92B4-C30DB8E4",
+      "InternalVariableName": "TrenchEmplacementT1Destroyed01FrontLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01FrontRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.48"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "22D55A16-4202B94C-33DE05A7-A27ACC67",
+      "InternalVariableName": "TrenchEmplacementT1Destroyed01FrontRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01Left_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.49"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "ADA87261-4457A6C1-99BB10BC-8C69592F",
+      "InternalVariableName": "TrenchEmplacementT1Destroyed01Left"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpDestroyedT1_C:TrenchEmplacementT1Destroyed01Right_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.50"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "CB2894E3-45C292B6-29D80583-CE94B99F",
+      "InternalVariableName": "TrenchEmplacementT1Destroyed01Right"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_128'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.31"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_128'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.31"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPTrenchEmpDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT1.25"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Floor_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT1FloorDestroyed01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT1FloorDestroyed01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'DirtPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/DirtPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.000127,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "TrenchEmplacementT1Destroyed01Back_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT1Destroyed01Back'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT1Destroyed01Back.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 7.288153E-05,
+        "Y": -0.0023662155,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -6.1035145E-05,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideBack"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "TrenchEmplacementT1Destroyed01BackLeft_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT1Destroyed01BackLeft'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT1Destroyed01BackLeft.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 7.288153E-05,
+        "Y": -0.0023662155,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -6.1035145E-05,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideBackLeft"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "TrenchEmplacementT1Destroyed01BackRight_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT1Destroyed01BackRight'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT1Destroyed01BackRight.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 7.288153E-05,
+        "Y": -0.0023662155,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -6.1035145E-05,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideBackRight"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "TrenchEmplacementT1Destroyed01Front_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT1Destroyed01Front'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT1Destroyed01Front.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 7.288153E-05,
+        "Y": -0.0023662155,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -6.1035145E-05,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideFront"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "TrenchEmplacementT1Destroyed01FrontLeft_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT1Destroyed01FrontLeft'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT1Destroyed01FrontLeft.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 7.288153E-05,
+        "Y": -0.0023662155,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -6.1035145E-05,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideFrontLeft"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "TrenchEmplacementT1Destroyed01FrontRight_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT1Destroyed01FrontRight'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT1Destroyed01FrontRight.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 7.288153E-05,
+        "Y": -0.0023662155,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -6.1035145E-05,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideFrontRight"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "TrenchEmplacementT1Destroyed01Left_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT1Destroyed01Left'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT1Destroyed01Left.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 7.288153E-05,
+        "Y": -0.0023662155,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -6.1035145E-05,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideLeft"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "TrenchEmplacementT1Destroyed01Right_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT1Destroyed01Right'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT1Destroyed01Right.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 7.288153E-05,
+        "Y": -0.0023662155,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -6.1035145E-05,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideRight"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "TrenchT1Destroyed01_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT1Destroyed01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT1Destroyed01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 7.288153E-05,
+        "Y": -0.0023662155,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -6.1E-05,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "TrenchEmpCommon_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchEmpCommon_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpCommon.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "TrenchEmpCommonDirtT1T2_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchEmpCommonDirtT1T2_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpCommonDirtT1T2.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "TrenchEmpCommonSockets_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpDestroyedT1_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchEmpCommonSockets_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpCommonSockets.1"
+      }
+    }
+  }
+]

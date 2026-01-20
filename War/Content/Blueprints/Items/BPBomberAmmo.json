@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPBomberAmmo_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LargeItemComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPBomberAmmo_C'Default__BPBomberAmmo_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/BPBomberAmmo.1"
+    }
+  },
+  {
+    "Type": "BPBomberAmmo_C",
+    "Name": "Default__BPBomberAmmo_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/BPBomberAmmo.BPBomberAmmo_C'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'SK_AerialBombs'",
+        "ObjectPath": "War/Content/Meshes/Weapons/SK_AerialBombs.0"
+      },
+      "EquippedGripType": "EEquippedWeaponGripType::LargeDeployableItem",
+      "ActivityStateInfos[1]": {
+        "ActivityMontage": {
+          "ObjectName": "AnimMontage'NWP_HeavyMetalEquipping'",
+          "ObjectPath": "War/Content/Animation/Character/NWP_NoWeapon/NWP_HeavyMetalEquipping.0"
+        },
+        "Duration": 0.5
+      },
+      "MeshRotation": {
+        "Pitch": 175.0,
+        "Yaw": 0.0,
+        "Roll": 87.5
+      }
+    }
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "BPAntiAircraftExplosion_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAntiAircraftExplosion_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPAntiAircraftExplosion_C:SimpleConstructionScript_1'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.12"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'BPAntiAircraftExplosion_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BPAntiAircraftExplosion_C:ExecuteUbergraph_BPAntiAircraftExplosion'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ShrapnelExplosionEffect'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BPAntiAircraftExplosion_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.0"
+      },
+      {
+        "ObjectName": "Function'BPAntiAircraftExplosion_C:ReceiveBeginPlay'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.6"
+      },
+      {
+        "ObjectName": "Function'BPAntiAircraftExplosion_C:ExecuteUbergraph_BPAntiAircraftExplosion'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAntiAircraftExplosion_C:RadialForce'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.3"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BPAntiAircraftExplosion": {
+        "ObjectName": "Function'BPAntiAircraftExplosion_C:ExecuteUbergraph_BPAntiAircraftExplosion'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.5"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BPAntiAircraftExplosion_C:ReceiveBeginPlay'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.6"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAntiAircraftExplosion_C'Default__BPAntiAircraftExplosion_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.2"
+    }
+  },
+  {
+    "Type": "BPAntiAircraftExplosion_C",
+    "Name": "Default__BPAntiAircraftExplosion_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/BPAntiAircraftExplosion.BPAntiAircraftExplosion_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ShrapnelFX": {
+        "ObjectName": "ParticleSystem'FlakBlast1'",
+        "ObjectPath": "War/Content/FX/FlakBlast1.117"
+      },
+      "ParticleSystemOverrides": [
+        {
+          "PhysicalSurface": "SurfaceType_Default",
+          "ExplosionFX": {
+            "ObjectName": "ParticleSystem'FlakBlast'",
+            "ObjectPath": "War/Content/FX/FlakBlast.76"
+          },
+          "ExplosionSFX": null,
+          "Decal": {
+            "DecalMaterial": null,
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          }
+        }
+      ],
+      "ExplosionLightFadeOut": 0.15,
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'AAImpact01_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Explosions/AAImpact01_Cue.0"
+      },
+      "CameraShake": {
+        "ObjectName": "BlueprintGeneratedClass'GrenadeCameraShake_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/GrenadeCameraShake.0"
+      },
+      "bDoNotOrientToImpactNormal": true,
+      "PainVolume": {
+        "ObjectName": "BlueprintGeneratedClass'BPShrapnelPainVolume_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPShrapnelPainVolume.1"
+      },
+      "PainVolumeDelay": 0.5,
+      "DetonationDelay": 0.5,
+      "ExplosionLight": {
+        "ObjectName": "PointLightComponent'Default__BPAntiAircraftExplosion_C:ExplosionLight'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.7"
+      },
+      "bReplicates": true,
+      "RemoteRole": "ROLE_SimulatedProxy",
+      "InitialLifeSpan": 20.0,
+      "NetCullDistanceSquared": 144000000.0,
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'Default__BPAntiAircraftExplosion_C:ExplosionLight'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.7"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RadialForce",
+    "Outer": "BPAntiAircraftExplosion_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'RadialForceComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_BPAntiAircraftExplosion",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BPAntiAircraftExplosion",
+    "Outer": "BPAntiAircraftExplosion_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BPAntiAircraftExplosion_C:ExecuteUbergraph_BPAntiAircraftExplosion.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.4"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BPAntiAircraftExplosion_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "ExplosionLight",
+    "Outer": "Default__BPAntiAircraftExplosion_C",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "AttenuationRadius": 2000.0,
+      "Intensity": 50.0,
+      "LightColor": {
+        "B": 117,
+        "G": 175,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFAF75"
+      }
+    }
+  },
+  {
+    "Type": "RadialForceComponent",
+    "Name": "RadialForce_GEN_VARIABLE",
+    "Outer": "BPAntiAircraftExplosion_C",
+    "Class": "UScriptClass'RadialForceComponent'",
+    "Properties": {
+      "Radius": 500.0,
+      "ImpulseStrength": 100000.0,
+      "DestructibleDamage": 100.0,
+      "ObjectTypesToAffect": [
+        "ObjectTypeQuery4"
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPAntiAircraftExplosion_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'RadialForceComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "RadialForceComponent'BPAntiAircraftExplosion_C:RadialForce_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.8"
+      },
+      "ParentComponentOrVariableName": "ExplosionLight",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "ED95043C-4BF9474F-1DC08DA0-C2DD8674",
+      "InternalVariableName": "RadialForce"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPAntiAircraftExplosion_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.9"
+      },
+      "VariableGuid": "7087B329-46E22DDE-4D14E59F-86318DAD",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_1",
+    "Outer": "BPAntiAircraftExplosion_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAntiAircraftExplosion_C:SimpleConstructionScript_1.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.10"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAntiAircraftExplosion_C:SimpleConstructionScript_1.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.10"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPAntiAircraftExplosion_C:SimpleConstructionScript_1.SCS_Node_4'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.11"
+      }
+    }
+  }
+]

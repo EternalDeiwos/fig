@@ -1,0 +1,175 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "TrenchEmpCullPlane",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "674CB01C4BAE32F75EEDFC87A194905B"
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Outer": "TrenchEmpCullPlane",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x1EDB"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "TrenchEmpCullPlane",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "ImportedMaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 109.40591,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 109.40591,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "BoxExtent": {
+          "X": 50.000004,
+          "Y": 50.000004,
+          "Z": 0.0
+        },
+        "SphereRadius": 54.664993
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'TrenchEmpCullPlane:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Culling/TrenchEmpCullPlane.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'TrenchEmpCullPlane:NavCollision_2'",
+      "ObjectPath": "War/Content/Blueprints/Culling/TrenchEmpCullPlane.1"
+    },
+    "LightingGuid": "ED946C49-4FF752CC-89BF17A3-72344BB4",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 14,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 11,
+              "bEnableCollision": false,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 12
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 12,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 6,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 7,
+              "bEnableCollision": false,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.08329632,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 8
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 8,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "BoxExtent": {
+          "X": 50.000004,
+          "Y": 50.000004,
+          "Z": 0.0
+        },
+        "SphereRadius": 54.664993
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

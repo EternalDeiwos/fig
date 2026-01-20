@@ -1,0 +1,220 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPUniforms_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'Uniforms'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPUniforms_C'Default__BPUniforms_C'",
+      "ObjectPath": "War/Content/Blueprints/Character/BPUniforms.1"
+    }
+  },
+  {
+    "Type": "BPUniforms_C",
+    "Name": "Default__BPUniforms_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Character/BPUniforms.BPUniforms_C'",
+    "Properties": {
+      "Data[1]": {
+        "ItemHolderCapacity": 5,
+        "StackFilter": 16,
+        "StackSize": 2,
+        "EncumbranceFilter": 16,
+        "EncumbranceModifier": 0.666667
+      },
+      "Data[2]": {
+        "ItemHolderCapacity": 4,
+        "DamageMitigation": [
+          {
+            "Key": "EDamageType::LightKinetic",
+            "Value": {
+              "Mitigation": 0.33,
+              "SFX": {
+                "ObjectName": "SoundCue'ArmourImpact_Cue'",
+                "ObjectPath": "War/Content/Audio/SFX/Armour/ArmourImpact_Cue.0"
+              }
+            }
+          }
+        ],
+        "BleedChanceModifier": 0.25
+      },
+      "Data[3]": {
+        "ItemHolderCapacity": 3,
+        "DamageMitigation": [
+          {
+            "Key": "EDamageType::LightKinetic",
+            "Value": {
+              "Mitigation": 0.5,
+              "SFX": {
+                "ObjectName": "SoundCue'ArmourMetalImpact_Cue'",
+                "ObjectPath": "War/Content/Audio/SFX/Armour/ArmourMetalImpact_Cue.0"
+              }
+            }
+          },
+          {
+            "Key": "EDamageType::Karate",
+            "Value": {
+              "Mitigation": 0.5,
+              "SFX": {
+                "ObjectName": "SoundCue'ArmourMetalImpact_Cue'",
+                "ObjectPath": "War/Content/Audio/SFX/Armour/ArmourMetalImpact_Cue.0"
+              }
+            }
+          }
+        ],
+        "BleedChanceModifier": 0.75
+      },
+      "Data[4]": {
+        "ItemHolderCapacity": 3,
+        "DamageMitigation": [
+          {
+            "Key": "EDamageType::PoisonGas",
+            "Value": {
+              "Mitigation": 0.5,
+              "SFX": null
+            }
+          }
+        ]
+      },
+      "Data[5]": {
+        "ItemHolderCapacity": 8,
+        "EncumbranceFilter": 256,
+        "EncumbranceModifier": 0.75
+      },
+      "Data[6]": {
+        "ItemHolderCapacity": 8,
+        "EncumbranceFilter": 256,
+        "EncumbranceModifier": 0.75
+      },
+      "Data[7]": {
+        "StackFilter": 16392,
+        "StackSize": 2,
+        "EncumbranceFilter": 16392,
+        "EncumbranceModifier": 0.75
+      },
+      "Data[8]": {
+        "StackFilter": 512,
+        "StackSize": 5,
+        "EncumbranceFilter": 1024,
+        "EncumbranceModifier": 0.75
+      },
+      "Data[9]": {
+        "StackFilter": 512,
+        "StackSize": 5,
+        "EncumbranceFilter": 1024,
+        "EncumbranceModifier": 0.75
+      },
+      "Data[10]": {
+        "bAllowRegimentFriendlyFire": true
+      },
+      "Data[11]": {
+        "bAllowRegimentFriendlyFire": true
+      },
+      "Data[12]": {
+        "StackFilter": 4096,
+        "StackSize": 3,
+        "RainStormMitigation": 0.75
+      },
+      "Data[13]": {
+        "ItemHolderCapacity": 5,
+        "StackFilter": 512,
+        "StackSize": 2,
+        "DetectionChance": 0.2
+      },
+      "Data[14]": {
+        "ItemHolderCapacity": 5,
+        "StackFilter": 512,
+        "StackSize": 2,
+        "DetectionChance": 0.2,
+        "SnowStormMitigation": 0.333333
+      },
+      "Data[15]": {
+        "StackFilter": 4096,
+        "StackSize": 3,
+        "SnowStormMitigation": 0.33
+      },
+      "Data[16]": {
+        "StackFilter": 4096,
+        "StackSize": 3,
+        "SnowStormMitigation": 0.66
+      },
+      "Data[17]": {
+        "ItemHolderCapacity": 8,
+        "StackFilter": 4096,
+        "StackSize": 3,
+        "EncumbranceFilter": 128,
+        "EncumbranceModifier": 0.75
+      },
+      "Data[18]": {
+        "ItemHolderCapacity": 8,
+        "StackFilter": 4096,
+        "StackSize": 3,
+        "EncumbranceFilter": 128,
+        "EncumbranceModifier": 0.75
+      },
+      "Data[19]": {
+        "ItemHolderCapacity": 7,
+        "StackFilter": 4,
+        "StackSize": 2,
+        "EncumbranceFilter": 2,
+        "EncumbranceModifier": 0.75
+      },
+      "Data[20]": {
+        "ItemHolderCapacity": 7,
+        "StackFilter": 4,
+        "StackSize": 2,
+        "EncumbranceFilter": 2,
+        "EncumbranceModifier": 0.75
+      },
+      "Data[21]": {
+        "EncumbranceFilter": 33024,
+        "EncumbranceModifier": 0.75,
+        "DeepWaterSpeedModifier": 2.0
+      },
+      "Data[22]": {
+        "EncumbranceFilter": 33024,
+        "EncumbranceModifier": 0.75,
+        "DeepWaterSpeedModifier": 2.0
+      },
+      "Data[23]": {
+        "ItemHolderCapacity": 5,
+        "StackFilter": 516,
+        "StackSize": 2,
+        "DetectionChance": 0.25,
+        "bAllowPilotingAircraft": true
+      },
+      "Data[24]": {
+        "ItemHolderCapacity": 5,
+        "StackFilter": 516,
+        "StackSize": 2,
+        "DetectionChance": 0.25,
+        "bAllowPilotingAircraft": true
+      },
+      "Data[25]": {
+        "ItemHolderCapacity": 5,
+        "StackFilter": 4160,
+        "StackSize": 2,
+        "EncumbranceFilter": 128,
+        "EncumbranceModifier": 0.75,
+        "DetectionChance": 0.25
+      },
+      "Data[26]": {
+        "ItemHolderCapacity": 5,
+        "StackFilter": 4160,
+        "StackSize": 2,
+        "EncumbranceFilter": 128,
+        "EncumbranceModifier": 0.75,
+        "DetectionChance": 0.25
+      }
+    }
+  }
+]

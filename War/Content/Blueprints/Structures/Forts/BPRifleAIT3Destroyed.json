@@ -1,0 +1,667 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonDestroyedDirtT3",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.22"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'DestroyedFort'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPRifleAIT3Destroyed_C:FortCommonDestroyedDirtT3'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPRifleAIT3Destroyed_C:FortCommonAIT3Destroyed'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.11"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPRifleAIT3Destroyed_C:insidefloor'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPRifleAIT3Destroyed_C:LocationMultiplexedMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPRifleAIT3Destroyed_C:FortCommon'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPRifleAIT3Destroyed_C:Floor'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.9"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPRifleAIT3Destroyed_C'Default__BPRifleAIT3Destroyed_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.2"
+    }
+  },
+  {
+    "Type": "BPRifleAIT3Destroyed_C",
+    "Name": "Default__BPRifleAIT3Destroyed_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.BPRifleAIT3Destroyed_C'",
+    "Properties": {
+      "EmplacementLocation": {
+        "ObjectName": "BoxComponent'Default__BPRifleAIT3Destroyed_C:EmplacementLocation'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.4"
+      },
+      "MinUpgradeTargetDistance": 300.0,
+      "Tier": "EFortTier::T3",
+      "bDisableModificationSlotValidation": true,
+      "bReadOnlyModifications": true,
+      "BuildGhostClass": null,
+      "Icon": {
+        "ObjectName": "Texture2D'FortT3Icon'",
+        "ObjectPath": "War/Content/Textures/UI/StructureIcons/FortT3Icon.0"
+      },
+      "BuildCategory": "EBuildCategory::Bunker",
+      "DestroyedDamageExtent": {
+        "X": 235.0,
+        "Y": 235.0,
+        "Z": 120.0
+      },
+      "DestroyedDamageOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30.0
+      },
+      "bDropsLargeMaterialsWhenDestroyed": false,
+      "ValidBuildTools": 2,
+      "CodeName": "RifleAIT3Destroyed",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "499CBB884BDAA4EAFFB78EB00FB1C160",
+        "SourceString": "Bunker (Tier 3)",
+        "LocalizedString": "Bunker (Tier 3)"
+      },
+      "ProfileType": "EStructureProfileType::DestroyedFort",
+      "ArmourType": "EArmourType::Tier3Structure",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPRifleAIT3Destroyed_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPRifleAIT3Destroyed_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.6"
+      },
+      "KillVolume": {
+        "ObjectName": "BoxComponent'Default__BPRifleAIT3Destroyed_C:KillVolume'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.5"
+      },
+      "DestroyedSoundCue": {
+        "ObjectName": "SoundCue'BunkerExplosion_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/BunkerExplosion_Cue.0"
+      },
+      "ModularMountsComponent": {
+        "ObjectName": "ModularMountsComponent'Default__BPRifleAIT3Destroyed_C:ModularMountsComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.8"
+      },
+      "MaxHealth": 3750,
+      "Health": 3750,
+      "UpgradeStructureCodeName": "RifleAIT3",
+      "bIsTrackedClimbable": false,
+      "ClaimStatus": {
+        "bIsEnabled": false
+      },
+      "bIsBlankFortPiece": false,
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPRifleAIT3Destroyed_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.25"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPRifleAIT3Destroyed_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "EmplacementLocation",
+    "Outer": "Default__BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPRifleAIT3Destroyed_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.3"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "KillVolume",
+    "Outer": "Default__BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 250.0,
+        "Y": 250.0,
+        "Z": 261.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPRifleAIT3Destroyed_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 100.5
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 300.0,
+        "Y": 300.0,
+        "Z": 100.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPRifleAIT3Destroyed_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.3"
+      },
+      "RelativeLocation": {
+        "X": -6.1035156E-05,
+        "Y": 1.4084167,
+        "Z": 66.99985
+      }
+    }
+  },
+  {
+    "Type": "LocationMultiplexedMeshComponent",
+    "Name": "LocationMultiplexedMesh_GEN_VARIABLE",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'LocationMultiplexedMeshComponent'",
+    "Properties": {
+      "TargetTag": "MultiplexedFloor",
+      "MeshStops": [
+        {
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'FortT3GunAIDestroyed01'",
+            "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/AIBunkers/husks/FortT3GunAIDestroyed01.2"
+          }
+        },
+        {
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'FortT3GunAIDestroyed02'",
+            "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/AIBunkers/husks/FortT3GunAIDestroyed02.2"
+          }
+        },
+        {
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'FortT3GunAIDestroyed03'",
+            "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/AIBunkers/husks/FortT3GunAIDestroyed03.2"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ModularMountsComponent",
+    "Name": "ModularMountsComponent",
+    "Outer": "Default__BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'ModularMountsComponent'"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Floor",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommon",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonAIT3Destroyed",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "insidefloor",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LocationMultiplexedMesh",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'LocationMultiplexedMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPRifleAIT3Destroyed_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.14"
+      },
+      "VariableGuid": "1144E758-45F21128-659C63A0-98B6F24C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPRifleAIT3Destroyed_C:FortCommon_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.26"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3E44F132-4438C89A-CDCC3CB4-1932D2DD",
+      "InternalVariableName": "FortCommon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPRifleAIT3Destroyed_C:insidefloor_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.24"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9CC20E71-4B7152D1-A9284FA3-61DC0801",
+      "InternalVariableName": "insidefloor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPRifleAIT3Destroyed_C:FortCommonAIT3Destroyed_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.27"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0EC6152C-4ACDA3FD-CCC840BB-E396E816",
+      "InternalVariableName": "FortCommonAIT3Destroyed"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPRifleAIT3Destroyed_C:FortCommonDestroyedDirtT3_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.28"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "AED9A66E-4DD21C5D-98C03AB7-9BFF01DE",
+      "InternalVariableName": "FortCommonDestroyedDirtT3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_40",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPRifleAIT3Destroyed_C:Floor_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.23"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7CE8D49D-45908314-055555B1-647CFA24",
+      "InternalVariableName": "Floor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LocationMultiplexedMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LocationMultiplexedMeshComponent'BPRifleAIT3Destroyed_C:LocationMultiplexedMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.7"
+      },
+      "VariableGuid": "903557D4-4BC89268-6EB098A9-3564E8FD",
+      "InternalVariableName": "LocationMultiplexedMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0.SCS_Node_40'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.19"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0.SCS_Node_40'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.19"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPRifleAIT3Destroyed_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPRifleAIT3Destroyed.15"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Floor_GEN_VARIABLE",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3GunAIDestroyed01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/AIBunkers/husks/FortT3GunAIDestroyed01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "MultiplexedFloor",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "insidefloor_GEN_VARIABLE",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Destroyed01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Destroyed01.2"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.999985,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommon_GEN_VARIABLE",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommon_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommon.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonAIT3Destroyed_GEN_VARIABLE",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonAIT3Destroyed_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonAIT3Destroyed.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonDestroyedDirtT3_GEN_VARIABLE",
+    "Outer": "BPRifleAIT3Destroyed_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonDestroyedDirtT3_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonDestroyedDirtT3.1"
+      }
+    }
+  }
+]

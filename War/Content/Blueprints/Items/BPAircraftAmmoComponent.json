@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftAmmoComponent_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LargeItemComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftAmmoComponent_C'Default__BPAircraftAmmoComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/BPAircraftAmmoComponent.1"
+    }
+  },
+  {
+    "Type": "BPAircraftAmmoComponent_C",
+    "Name": "Default__BPAircraftAmmoComponent_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/BPAircraftAmmoComponent.BPAircraftAmmoComponent_C'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftAmmo'",
+        "ObjectPath": "War/Content/Meshes/Weapons/SK_AircraftAmmo.0"
+      },
+      "EquippedGripType": "EEquippedWeaponGripType::HeavySingleHandItem",
+      "ActivityStateInfos[1]": {
+        "ActivityMontage": {
+          "ObjectName": "AnimMontage'NWP_HeavyMetalEquipping'",
+          "ObjectPath": "War/Content/Animation/Character/NWP_NoWeapon/NWP_HeavyMetalEquipping.0"
+        },
+        "Duration": 0.5
+      },
+      "MeshOffset": {
+        "X": 0.0,
+        "Y": 20.0,
+        "Z": 0.0
+      }
+    }
+  }
+]

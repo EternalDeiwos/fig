@@ -1,0 +1,196 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPSurfaceWaterMine_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPSurfaceWaterMine_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPSurfaceWaterMine.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'WaterMine'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPSurfaceWaterMine_C'Default__BPSurfaceWaterMine_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/BPSurfaceWaterMine.1"
+    }
+  },
+  {
+    "Type": "BPSurfaceWaterMine_C",
+    "Name": "Default__BPSurfaceWaterMine_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/BPSurfaceWaterMine.BPSurfaceWaterMine_C'",
+    "Properties": {
+      "ActivationDelay": 3.0,
+      "bTriggeredByVehicles": true,
+      "bTriggeredByShips": true,
+      "DetonationDelay": 0.1,
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPSurfaceWaterMine_C:Arrow'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPSurfaceWaterMine.2"
+      },
+      "CollisionComp": {
+        "ObjectName": "SphereComponent'Default__BPSurfaceWaterMine_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPSurfaceWaterMine.6"
+      },
+      "ItemMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPSurfaceWaterMine_C:ItemMesh'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPSurfaceWaterMine.7"
+      },
+      "ExplosiveCodeName": "SurfaceWaterMine",
+      "DamageDelay": 0.0,
+      "ExplosionTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'DepthChargeExplosion_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/DepthChargeExplosion.1"
+      },
+      "WaterSurfaceExplosionTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'WaterSurfaceExplosion_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/WaterSurfaceExplosion.1"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPSurfaceWaterMine_C:Arrow'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPSurfaceWaterMine.2"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "Arrow",
+    "Outer": "Default__BPSurfaceWaterMine_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPSurfaceWaterMine_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPSurfaceWaterMine_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPSurfaceWaterMine.3"
+      },
+      "VariableGuid": "020A9E1E-40A762B5-8CD32FA4-708D1C3F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPSurfaceWaterMine_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPSurfaceWaterMine_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPSurfaceWaterMine.4"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "SphereComp",
+    "Outer": "Default__BPSurfaceWaterMine_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 225.0,
+      "BodyInstance": {
+        "CollisionProfileName": "ExplosiveMine",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Work",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPSurfaceWaterMine_C:Arrow'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPSurfaceWaterMine.2"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ItemMesh",
+    "Outer": "Default__BPSurfaceWaterMine_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SmallSeaMine'",
+        "ObjectPath": "War/Content/Meshes/Weapons/SmallSeaMine.2"
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPSurfaceWaterMine_C:Arrow'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPSurfaceWaterMine.2"
+      },
+      "bVisible": true
+    }
+  }
+]

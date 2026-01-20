@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPFacilityMaterials2Component_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LargeMaterialComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPFacilityMaterials2Component_C'Default__BPFacilityMaterials2Component_C'",
+      "ObjectPath": "War/Content/Blueprints/ItemPickups/Facilities/BPFacilityMaterials2Component.1"
+    }
+  },
+  {
+    "Type": "BPFacilityMaterials2Component_C",
+    "Name": "Default__BPFacilityMaterials2Component_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/ItemPickups/Facilities/BPFacilityMaterials2Component.BPFacilityMaterials2Component_C'",
+    "Properties": {
+      "ImpactEffect": {
+        "ObjectName": "BlueprintGeneratedClass'SandbagMaterialImpactEffect_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/SandbagMaterialImpactEffect.1"
+      },
+      "ItemMesh": {
+        "ObjectName": "SkeletalMesh'SK_FacilityMaterials2'",
+        "ObjectPath": "War/Content/Meshes/Pickups/SK_FacilityMaterials2.0"
+      },
+      "StartTaskText": {
+        "CultureInvariantString": null
+      },
+      "EndTaskText": {
+        "CultureInvariantString": null
+      },
+      "EquippedGripType": "EEquippedWeaponGripType::LargeDeployableItem",
+      "ActivityStateInfos[1]": {
+        "ActivityMontage": {
+          "ObjectName": "AnimMontage'NWP_HeavyMetalEquipping'",
+          "ObjectPath": "War/Content/Animation/Character/NWP_NoWeapon/NWP_HeavyMetalEquipping.0"
+        },
+        "Duration": 0.5
+      },
+      "SafeItem": true,
+      "AttachedItemMesh": {
+        "ObjectName": "SkeletalMesh'SK_FacilityMaterials2'",
+        "ObjectPath": "War/Content/Meshes/Pickups/SK_FacilityMaterials2.0"
+      },
+      "MeshOffset": {
+        "X": 0.0,
+        "Y": -2.5,
+        "Z": 0.0
+      },
+      "MeshRotation": {
+        "Pitch": 175.0,
+        "Yaw": 0.0,
+        "Roll": 87.5
+      },
+      "bAutoActivate": true
+    }
+  }
+]

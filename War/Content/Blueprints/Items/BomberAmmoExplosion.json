@@ -1,0 +1,385 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "BomberAmmoExplosion_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BomberAmmoExplosion_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BomberAmmoExplosion_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.15"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'BomberAmmoExplosion_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BomberAmmoExplosion_C:ExecuteUbergraph_BomberAmmoExplosion'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'WarExplosionEffect'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BomberAmmoExplosion_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.0"
+      },
+      {
+        "ObjectName": "Function'BomberAmmoExplosion_C:ReceiveBeginPlay'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.7"
+      },
+      {
+        "ObjectName": "Function'BomberAmmoExplosion_C:ExecuteUbergraph_BomberAmmoExplosion'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'BomberAmmoExplosion_C:Audio'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.8"
+      },
+      {
+        "ObjectName": "ObjectProperty'BomberAmmoExplosion_C:RadialForce'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.4"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BomberAmmoExplosion": {
+        "ObjectName": "Function'BomberAmmoExplosion_C:ExecuteUbergraph_BomberAmmoExplosion'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.6"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BomberAmmoExplosion_C:ReceiveBeginPlay'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.7"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BomberAmmoExplosion_C'Default__BomberAmmoExplosion_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.2"
+    }
+  },
+  {
+    "Type": "BomberAmmoExplosion_C",
+    "Name": "Default__BomberAmmoExplosion_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/BomberAmmoExplosion.BomberAmmoExplosion_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ParticleSystemOverrides": [
+        {
+          "PhysicalSurface": "SurfaceType_Default",
+          "ExplosionFX": {
+            "ObjectName": "ParticleSystem'ArtilleryImpactMetal'",
+            "ObjectPath": "War/Content/FX/ArtilleryImpactMetal.213"
+          },
+          "ExplosionSFX": null,
+          "Decal": {
+            "DecalMaterial": null,
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          }
+        },
+        {
+          "PhysicalSurface": "SurfaceType2",
+          "ExplosionFX": {
+            "ObjectName": "ParticleSystem'ArtilleryImpactSplash'",
+            "ObjectPath": "War/Content/FX/ArtilleryImpactSplash.98"
+          },
+          "ExplosionSFX": {
+            "ObjectName": "SoundCue'ArtilleryHeavyExplosionWater_Cue'",
+            "ObjectPath": "War/Content/Audio/SFX/Weapons/StaticArtillery/ArtilleryHeavyExplosionWater_Cue.0"
+          },
+          "Decal": {
+            "DecalMaterial": null,
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          }
+        },
+        {
+          "PhysicalSurface": "SurfaceType8",
+          "ExplosionFX": {
+            "ObjectName": "ParticleSystem'ArtilleryImpactMetal'",
+            "ObjectPath": "War/Content/FX/ArtilleryImpactMetal.213"
+          },
+          "ExplosionSFX": {
+            "ObjectName": "SoundCue'ArtilleryHeavyExplosionWater_Cue'",
+            "ObjectPath": "War/Content/Audio/SFX/Weapons/StaticArtillery/ArtilleryHeavyExplosionWater_Cue.0"
+          },
+          "Decal": {
+            "DecalMaterial": null,
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          }
+        },
+        {
+          "PhysicalSurface": "SurfaceType1",
+          "ExplosionFX": {
+            "ObjectName": "ParticleSystem'ArtilleryImpact01'",
+            "ObjectPath": "War/Content/FX/ArtilleryImpact01.198"
+          },
+          "ExplosionSFX": null,
+          "Decal": {
+            "DecalMaterial": null,
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          }
+        },
+        {
+          "PhysicalSurface": "SurfaceType4",
+          "ExplosionFX": {
+            "ObjectName": "ParticleSystem'ArtilleryImpact01'",
+            "ObjectPath": "War/Content/FX/ArtilleryImpact01.198"
+          },
+          "ExplosionSFX": null,
+          "Decal": {
+            "DecalMaterial": null,
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          }
+        }
+      ],
+      "ExplosionLightFadeOut": 0.15,
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'ArtilleryHeavyExplosion_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Weapons/StaticArtillery/ArtilleryHeavyExplosion_Cue.0"
+      },
+      "ExplosionLight": {
+        "ObjectName": "PointLightComponent'Default__BomberAmmoExplosion_C:ExplosionLight'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.9"
+      },
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'Default__BomberAmmoExplosion_C:ExplosionLight'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.9"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "Audio_GEN_VARIABLE",
+    "Outer": "BomberAmmoExplosion_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'ArtilleryHeavyIncoming_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Weapons/StaticArtillery/ArtilleryHeavyIncoming_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -0.000244,
+        "Z": 2199.1206
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RadialForce",
+    "Outer": "BomberAmmoExplosion_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'RadialForceComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_BomberAmmoExplosion",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BomberAmmoExplosion",
+    "Outer": "BomberAmmoExplosion_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BomberAmmoExplosion_C:ExecuteUbergraph_BomberAmmoExplosion.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.5"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BomberAmmoExplosion_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Audio",
+    "Outer": "BomberAmmoExplosion_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "ExplosionLight",
+    "Outer": "Default__BomberAmmoExplosion_C",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "AttenuationRadius": 2000.0,
+      "Intensity": 0.0
+    }
+  },
+  {
+    "Type": "RadialForceComponent",
+    "Name": "RadialForce_GEN_VARIABLE",
+    "Outer": "BomberAmmoExplosion_C",
+    "Class": "UScriptClass'RadialForceComponent'",
+    "Properties": {
+      "Radius": 500.0,
+      "ImpulseStrength": 100000.0,
+      "DestructibleDamage": 100.0
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BomberAmmoExplosion_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BomberAmmoExplosion_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.11"
+      },
+      "VariableGuid": "35C045D8-452EB1F5-54BD16A3-BDF4E627",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'RadialForceComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "RadialForceComponent'BomberAmmoExplosion_C:RadialForce_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.10"
+      },
+      "ParentComponentOrVariableName": "ExplosionLight",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "721E6FE1-44385984-B4DA6DA5-D771A7CE",
+      "InternalVariableName": "RadialForce"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'BomberAmmoExplosion_C:Audio_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.3"
+      },
+      "ParentComponentOrVariableName": "ExplosionLight",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4CB65419-483198E0-AFA4BABF-9FCBCA33",
+      "InternalVariableName": "Audio"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BomberAmmoExplosion_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BomberAmmoExplosion_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BomberAmmoExplosion_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.14"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BomberAmmoExplosion_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BomberAmmoExplosion_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.14"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BomberAmmoExplosion_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.12"
+      }
+    }
+  }
+]

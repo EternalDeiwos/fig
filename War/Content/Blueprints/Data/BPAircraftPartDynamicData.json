@@ -1,0 +1,375 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BPAircraftPartDynamicData",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AircraftPartDynamicData'",
+        "ObjectPath": "/Script/War"
+      }
+    },
+    "Rows": {
+      "AircraftBomberCFuselage": {
+        "Health": 5000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftBomberCEngine": {
+        "Health": 3000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftBomberCWing": {
+        "Health": 5000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftBomberCTail": {
+        "Health": 5000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftDiveCFuselage": {
+        "Health": 3000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftDiveCEngine": {
+        "Health": 1500,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftDiveCWing": {
+        "Health": 2000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftDiveCTail": {
+        "Health": 2000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftWaterWFuselage": {
+        "Health": 3000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftWaterWEngine": {
+        "Health": 1500,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftWaterWWing": {
+        "Health": 2000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftWaterWTail": {
+        "Health": 2000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftFighterWFuselage": {
+        "Health": 3000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftFighterWEngine": {
+        "Health": 1500,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftFighterWWing": {
+        "Health": 2000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftFighterWTail": {
+        "Health": 2000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftFighterCFuselage": {
+        "Health": 3000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftFighterCEngine": {
+        "Health": 1500,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftFighterCWing": {
+        "Health": 2000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftFighterCTail": {
+        "Health": 2000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftTorpedoWFuselage": {
+        "Health": 3500,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftTorpedoWEngine": {
+        "Health": 1500,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftTorpedoWWing": {
+        "Health": 2650,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftTorpedoWTail": {
+        "Health": 2650,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftFighterWCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftParatrooperCFuselage": {
+        "Health": 3500,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftParatrooperCEngine": {
+        "Health": 2000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftParatrooperCWing": {
+        "Health": 2650,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftParatrooperCTail": {
+        "Health": 2650,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftParatrooperWFuselage": {
+        "Health": 3500,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftParatrooperWEngine": {
+        "Health": 2000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftParatrooperWWing": {
+        "Health": 2650,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftParatrooperWTail": {
+        "Health": 2650,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftBomberWFuselage": {
+        "Health": 5000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftBomberWEngine": {
+        "Health": 3000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftBomberWWing": {
+        "Health": 5000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      },
+      "AircraftBomberWTail": {
+        "Health": 5000,
+        "DamagedThreshold": 0.5,
+        "RepairCost": 75,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'AircraftBomberCCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCCollisionDamageCurve.0"
+        },
+        "bDestructionDestroysAircraft": false
+      }
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "BlendSpace1D",
+    "Name": "BS_AircraftWaterW_Elevator",
+    "Class": "UScriptClass'BlendSpace1D'",
+    "Properties": {
+      "SampleData": [
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Pose_AircraftWaterW_Elevator_00'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/Pose_AircraftWaterW_Elevator_00.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Pose_AircraftWaterW_Elevator_Down'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/Pose_AircraftWaterW_Elevator_Down.0"
+          },
+          "SampleValue": {
+            "X": -40.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Pose_AircraftWaterW_Elevator_Up'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/Pose_AircraftWaterW_Elevator_Up.0"
+          },
+          "SampleValue": {
+            "X": 40.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        }
+      ],
+      "GridSamples": [
+        {
+          "Indices": 0,
+          "Indices[1]": 1,
+          "Indices[2]": -1,
+          "Weights": 0.0,
+          "Weights[1]": 1.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 0,
+          "Indices[1]": 1,
+          "Indices[2]": -1,
+          "Weights": 0.5,
+          "Weights[1]": 0.5,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 0,
+          "Indices[1]": 1,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 2,
+          "Indices[1]": 0,
+          "Indices[2]": -1,
+          "Weights": 0.5,
+          "Weights[1]": 0.5,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 2,
+          "Indices[1]": 0,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        }
+      ],
+      "BlendParameters": {
+        "Min": -40.0,
+        "Max": 40.0
+      },
+      "Skeleton": {
+        "ObjectName": "Skeleton'SK_AircraftWaterW_Skeleton'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/SK_AircraftWaterW_Skeleton.3"
+      }
+    },
+    "SkeletonGuid": "88689EF3-419B52DD-8AF68F84-EC14B4DB"
+  }
+]

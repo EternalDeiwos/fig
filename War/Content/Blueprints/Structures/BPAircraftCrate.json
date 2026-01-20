@@ -1,0 +1,250 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "BoxMesh",
+    "Outer": "BPAircraftCrate_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftCrate_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPAircraftCrate_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPAircraftCrate.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'VehicleCrate'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPAircraftCrate_C:BoxMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPAircraftCrate.0"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftCrate_C'Default__BPAircraftCrate_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/BPAircraftCrate.2"
+    }
+  },
+  {
+    "Type": "BPAircraftCrate_C",
+    "Name": "Default__BPAircraftCrate_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/BPAircraftCrate.BPAircraftCrate_C'",
+    "Properties": {
+      "ShippableMesh": {
+        "ObjectName": "StaticMesh'ProductionPartsPacked'",
+        "ObjectPath": "War/Content/Meshes/Shippables/ProductionPartsPacked.2"
+      },
+      "BuildGhostClass": null,
+      "Description": {
+        "Namespace": "",
+        "Key": "5ED5E5AE4528DB9C427214B473FDFDA1",
+        "SourceString": "A crate for a packed aircraft frame.",
+        "LocalizedString": "A crate for a packed aircraft frame."
+      },
+      "ShippableInfo": {
+        "Type": "EShippableType::Large"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'ProductionPartsStructureIcon'",
+        "ObjectPath": "War/Content/Textures/UI/StructureIcons/ProductionPartsStructureIcon.0"
+      },
+      "ValidBuildTools": 1,
+      "CodeName": "AircraftCrate",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7039E0854CADBBD481B8918EE7C6D2B4",
+        "SourceString": "Aircraft Crate",
+        "LocalizedString": "Aircraft Crate"
+      },
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftCrate_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPAircraftCrate.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPAircraftCrate_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPAircraftCrate.4"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'GrenadeBlast'",
+        "ObjectPath": "War/Content/FX/GrenadeBlast.151"
+      },
+      "DestroyedSoundCue": {
+        "ObjectName": "SoundCue'StructureExplosionSmall_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/StructureExplosionSmall_Cue.0"
+      },
+      "MaxHealth": 800,
+      "Health": 800,
+      "ScreenToUse": "ESimScreen::Crate",
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPAircraftCrate_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPAircraftCrate.10"
+      },
+      "NetCullDistanceSquared": 25000000.0,
+      "MinNetUpdateFrequency": 1.0,
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftCrate_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPAircraftCrate.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPAircraftCrate_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPAircraftCrate_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 315.0,
+        "Y": 480.0,
+        "Z": 200.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftCrate_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPAircraftCrate.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 165.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPAircraftCrate_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPAircraftCrate_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPAircraftCrate.5"
+      },
+      "VariableGuid": "37B03939-494ABD7B-8233C4A5-6355017F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAircraftCrate_C:BoxMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPAircraftCrate.9"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "CE4B2598-4A6E5B26-B09586BA-F1ECC4BB",
+      "InternalVariableName": "BoxMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPAircraftCrate_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftCrate_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPAircraftCrate.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftCrate_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPAircraftCrate.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPAircraftCrate_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPAircraftCrate.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BoxMesh_GEN_VARIABLE",
+    "Outer": "BPAircraftCrate_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ProductionParts'",
+        "ObjectPath": "War/Content/Meshes/Shippables/ProductionParts.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        },
+        "MassInKgOverride": 168.54219
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPAircraftCrate_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Outer": "ParticleModuleRequired_1",
+    "Class": "UScriptClass'DistributionFloatConstant'"
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "BurstScaleDistribution",
+    "Outer": "ParticleModuleSpawn_1",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Outer": "ParticleSpriteEmitter_1",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'AircraftDamagePlaceholder:ParticleModuleRequired_1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftDamagePlaceholder.6"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'AircraftDamagePlaceholder:ParticleModuleLifetime_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftDamagePlaceholder.4"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'AircraftDamagePlaceholder:ParticleModuleSize_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftDamagePlaceholder.7"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity'AircraftDamagePlaceholder:ParticleModuleVelocity_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftDamagePlaceholder.9"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation'AircraftDamagePlaceholder:ParticleModuleLocation_0'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftDamagePlaceholder.5"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife'AircraftDamagePlaceholder:ParticleModuleColorOverLife_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftDamagePlaceholder.3"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'AircraftDamagePlaceholder:ParticleModuleSpawn_1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftDamagePlaceholder.8"
+      },
+      "PeakActiveParticles": 21
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_1",
+    "Outer": "AircraftDamagePlaceholder",
+    "Class": "UScriptClass'ParticleModuleColorOverLife'",
+    "Properties": {
+      "ColorOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "TimeScale": 1.0,
+          "Values": [
+            1.0,
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_1",
+    "Outer": "AircraftDamagePlaceholder",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_0",
+    "Outer": "AircraftDamagePlaceholder",
+    "Class": "UScriptClass'ParticleModuleLocation'",
+    "Properties": {
+      "StartLocation": {
+        "MinValue": -10.0,
+        "MaxValue": 10.0,
+        "MinValueVec": {
+          "X": -10.0,
+          "Y": -10.0,
+          "Z": -10.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 10.0,
+          "Z": 10.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -10.0,
+            -10.0,
+            -10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_1",
+    "Outer": "AircraftDamagePlaceholder",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'DefaultParticle'",
+        "ObjectPath": "Engine/Content/EngineMaterials/DefaultParticle.0"
+      },
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'AircraftDamagePlaceholder:ParticleModuleRequired_1.RequiredDistributionSpawnRate'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftDamagePlaceholder.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "EmitterLoops": 1,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_1",
+    "Outer": "AircraftDamagePlaceholder",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Properties": {
+      "StartSize": {
+        "MinValue": 50.0,
+        "MaxValue": 25.0,
+        "MinValueVec": {
+          "X": 50.0,
+          "Y": 50.0,
+          "Z": 50.0
+        },
+        "MaxValueVec": {
+          "X": 25.0,
+          "Y": 25.0,
+          "Z": 25.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            50.0,
+            50.0,
+            50.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_1",
+    "Outer": "AircraftDamagePlaceholder",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Properties": {
+      "Rate": {
+        "MinValue": 20.0,
+        "MaxValue": 20.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            20.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            1.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "BurstScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'AircraftDamagePlaceholder:ParticleModuleSpawn_1.BurstScaleDistribution'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftDamagePlaceholder.1"
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleVelocity",
+    "Name": "ParticleModuleVelocity_1",
+    "Outer": "AircraftDamagePlaceholder",
+    "Class": "UScriptClass'ParticleModuleVelocity'",
+    "Properties": {
+      "StartVelocity": {
+        "MinValue": -200.0,
+        "MaxValue": 200.0,
+        "MinValueVec": {
+          "X": -200.0,
+          "Y": -200.0,
+          "Z": -200.0
+        },
+        "MaxValueVec": {
+          "X": 200.0,
+          "Y": 200.0,
+          "Z": 200.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Values": [
+            -200.0,
+            -200.0,
+            -200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3
+        }
+      },
+      "StartVelocityRadial": {
+        "Table": {
+          "Values": [
+            0.0
+          ],
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_1",
+    "Outer": "AircraftDamagePlaceholder",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'AircraftDamagePlaceholder:ParticleSpriteEmitter_1.ParticleLODLevel_0'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftDamagePlaceholder.2"
+        }
+      ],
+      "DetailModeBitmask": 7
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "AircraftDamagePlaceholder",
+    "Class": "UScriptClass'ParticleSystem'",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter'AircraftDamagePlaceholder:ParticleSpriteEmitter_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftDamagePlaceholder.10"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true,
+      "CustomOcclusionBounds": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 1
+      }
+    }
+  }
+]

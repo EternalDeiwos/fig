@@ -1,0 +1,445 @@
+[
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_0",
+    "Outer": "SK_Gunboat2C_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_Muzzle",
+      "BoneName": "MainGunVertical",
+      "RelativeLocation": {
+        "X": 126.1299,
+        "Y": -45.898766,
+        "Z": 42.05136
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "Skeleton",
+    "Name": "SK_Gunboat2C_Skeleton",
+    "Class": "UScriptClass'Skeleton'",
+    "Properties": {
+      "BoneTree": [
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        }
+      ],
+      "Sockets": [
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_Gunboat2C_Skeleton:SkeletalMeshSocket_0'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/Gunboat2C/SK_Gunboat2C_Skeleton.0"
+        }
+      ]
+    },
+    "ReferenceSkeleton": {
+      "FinalRefBoneInfo": [
+        {
+          "Name": "root",
+          "ParentIndex": -1
+        },
+        {
+          "Name": "GunboatC_Pivot",
+          "ParentIndex": 0
+        },
+        {
+          "Name": "BodyOffset",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "GearShift",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "MainGunHorizontal",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "MainGunVertical",
+          "ParentIndex": 4
+        },
+        {
+          "Name": "MainGunVerticalPistons",
+          "ParentIndex": 4
+        },
+        {
+          "Name": "MainGunVerticalBase",
+          "ParentIndex": 4
+        },
+        {
+          "Name": "Rudder_Right",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "Propellor_Right",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "Rudder_Left",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "Propellor_Left",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "SteeringWheel",
+          "ParentIndex": 2
+        }
+      ],
+      "FinalRefBonePose": [
+        {
+          "Rotation": {
+            "X": 7.853981E-08,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.4210855E-14,
+            "Y": 2.0789313E-30,
+            "Z": -1.1102229E-16,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 1.5777218E-30,
+            "Z": -3.0035102E-33,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 5.82376E-29,
+            "Y": 2.6227891E-13,
+            "Z": 75.72293
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -0.08715606,
+            "Y": 9.676363E-18,
+            "Z": 8.465736E-19,
+            "W": -0.99619466,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.85052824,
+            "Y": 294.54303,
+            "Z": 143.671
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1E-45,
+            "Y": 2.9935079E-30,
+            "Z": -4.2949602E-16,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -4.3408113E-07,
+            "Y": -464.46228,
+            "Z": 69.09468
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -4E-45,
+            "Y": -8.552974E-30,
+            "Z": 4.5889545E-16,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 4.340817E-07,
+            "Y": 74.3271,
+            "Z": 106.72325
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -1.2621775E-29,
+            "Z": -2.4719997E-32,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -2.1254373,
+            "Y": -68.03963,
+            "Z": 114.686104
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1.9359045E-07,
+            "Y": 1.1054477E-23,
+            "Z": 7.2118063E-16,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 4.3408158E-07,
+            "Y": -68.039635,
+            "Z": 65.561424
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 0.00013962577,
+            "Y": -0.00037322243,
+            "Z": 5.2111478E-08,
+            "W": -0.99999994,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -107.16629,
+            "Y": -770.66595,
+            "Z": -184.1118
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.99999994,
+            "Z": 0.99999994
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -0.0028157784,
+            "Y": -1.9052713E-05,
+            "Z": -5.364844E-08,
+            "W": -0.999996,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": -106.88662,
+            "Y": -725.1886,
+            "Z": -326.16217
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.99999994,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 0.00013962577,
+            "Y": 0.00037322243,
+            "Z": -5.2111478E-08,
+            "W": -0.99999994,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 106.99558,
+            "Y": -770.66595,
+            "Z": -184.1118
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.99999994,
+            "Z": 0.99999994
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -0.0027954867,
+            "Y": 1.8933506E-05,
+            "Z": 5.292858E-08,
+            "W": -0.99999607,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": 106.71591,
+            "Y": -725.18097,
+            "Z": -326.16498
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.99999994,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -0.30070558,
+            "Y": 3.387028E-17,
+            "Z": 1.06792524E-17,
+            "W": -0.953717,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": 72.51939,
+            "Y": 257.1811,
+            "Z": 184.91716
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.99999994,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      ],
+      "FinalNameToIndexMap": {
+        "root": 0,
+        "GunboatC_Pivot": 1,
+        "BodyOffset": 2,
+        "GearShift": 3,
+        "MainGunHorizontal": 4,
+        "MainGunVertical": 5,
+        "MainGunVerticalPistons": 6,
+        "MainGunVerticalBase": 7,
+        "Rudder_Right": 8,
+        "Propellor_Right": 9,
+        "Rudder_Left": 10,
+        "Propellor_Left": 11,
+        "SteeringWheel": 12
+      }
+    },
+    "Guid": "B9B4C0D5-4DD6913F-C8C44388-88951643",
+    "AnimRetargetSources": {},
+    "NameMappings": {
+      "AnimationCurves": {
+        "GuidMap": null,
+        "UidMap": null,
+        "CurveMetaDataMap": {}
+      }
+    },
+    "ExistingMarkerNames": null
+  }
+]

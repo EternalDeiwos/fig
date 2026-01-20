@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftScoutCDriverMount_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'AirVehicleDriverMountComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftScoutCDriverMount_C'Default__BPAircraftScoutCDriverMount_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutC/BPAircraftScoutCDriverMount.1"
+    }
+  },
+  {
+    "Type": "BPAircraftScoutCDriverMount_C",
+    "Name": "Default__BPAircraftScoutCDriverMount_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutC/BPAircraftScoutCDriverMount.BPAircraftScoutCDriverMount_C'",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Blueprints/StringTables/STMounts.STMounts",
+        "Key": "MountPilot",
+        "SourceString": "Pilot",
+        "LocalizedString": "Pilot"
+      },
+      "AmmoName": "SurfaceWaterMine",
+      "AmmoSlotFilterAmount": 10
+    }
+  }
+]

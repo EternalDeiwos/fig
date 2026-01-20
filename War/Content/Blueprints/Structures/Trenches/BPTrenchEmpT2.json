@@ -1,0 +1,1794 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmpCommonSockets",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPTrenchEmpT2_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.53"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Fort'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:TrenchEmpCommonSockets'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:TrenchEmpDirtDecals'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:TrenchEmpCommonDirtT1T2'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:TrenchEmpCommonMods'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:TrenchEmpCommon'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:BackCornerL'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.9"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:RightCornerR'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:RightCornerL'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:FrontCornerR'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:FrontCornerL'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.15"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:LeftCornerR'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:LeftCornerL'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:BackCornerR'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:Floor'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:Front'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:FrontLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:BackLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.11"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:FrontRight'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.18"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:BackRight'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:Left'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.19"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:Back'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.8"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchEmpT2_C:Right'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.22"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPTrenchEmpT2_C'Default__BPTrenchEmpT2_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.2"
+    }
+  },
+  {
+    "Type": "BPTrenchEmpT2_C",
+    "Name": "Default__BPTrenchEmpT2_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.BPTrenchEmpT2_C'",
+    "Properties": {
+      "bSupportsEmplacedStructures": true,
+      "EmplacementLocation": {
+        "ObjectName": "BoxComponent'Default__BPTrenchEmpT2_C:EmplacementLocation'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.4"
+      },
+      "Tier": "EFortTier::T2",
+      "BuildGhostClass": null,
+      "BuildSiteClass": {
+        "ObjectName": "Class'FortBuildSiteBase'",
+        "ObjectPath": "/Script/War"
+      },
+      "BaseStructureClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchEmpDestroyedT2_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDestroyedT2.1"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "2F7B619D405D508DFA5DEF94AA028D8C",
+        "SourceString": "A dugout that's used for cover and as passageways between Bunkers. Connects to other Trenches. This variant can also serve as an emplacement for mannable defenses.",
+        "LocalizedString": "A dugout that's used for cover and as passageways between Bunkers. Connects to other Trenches. This variant can also serve as an emplacement for mannable defenses."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'TrenchT2EmplacementIcon'",
+        "ObjectPath": "War/Content/Textures/UI/StructureIcons/TrenchT2EmplacementIcon.0"
+      },
+      "BuildCategory": "EBuildCategory::Bunker",
+      "DestroyedDamageExtent": {
+        "X": 420.0,
+        "Y": 420.0,
+        "Z": 100.0
+      },
+      "ValidBuildTools": 49,
+      "ConversionCodeNames": [
+        "TrenchEmpT2Fill"
+      ],
+      "CodeName": "TrenchEmpT2",
+      "ChassisName": {
+        "TableId": "/Game/Blueprints/StringTables/STChassis.STChassis",
+        "Key": "ChassisEntrenchment",
+        "SourceString": "Entrenchment",
+        "LocalizedString": "Entrenchment"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "6510FCE04BBFE9D922B27A832E1D6971",
+        "SourceString": "Trench Emplacement (Tier 2)",
+        "LocalizedString": "Trench Emplacement (Tier 2)"
+      },
+      "ProfileType": "EStructureProfileType::Trench",
+      "ArmourType": "EArmourType::Trench",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchEmpT2_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPTrenchEmpT2_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.6"
+      },
+      "KillVolume": {
+        "ObjectName": "BoxComponent'Default__BPTrenchEmpT2_C:KillVolume'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.5"
+      },
+      "ModularMountsComponent": {
+        "ObjectName": "ModularMountsComponent'Default__BPTrenchEmpT2_C:ModularMountsComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.7"
+      },
+      "MaxHealth": 1850,
+      "Health": 1850,
+      "UpgradeStructureCodeName": "TrenchEmpT3",
+      "ClaimStatus": {
+        "bCanBeDemolished": true,
+        "DemolishDurationHours": 672
+      },
+      "bIsBlankFortPiece": false,
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPTrenchEmpT2_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.71"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchEmpT2_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "EmplacementLocation",
+    "Outer": "Default__BPTrenchEmpT2_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchEmpT2_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "KillVolume",
+    "Outer": "Default__BPTrenchEmpT2_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 24.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchEmpT2_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -135.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPTrenchEmpT2_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 420.0,
+        "Y": 420.0,
+        "Z": 100.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchEmpT2_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.3"
+      },
+      "RelativeLocation": {
+        "X": -6.1035156E-05,
+        "Y": 1.4084167,
+        "Z": -23.000153
+      }
+    }
+  },
+  {
+    "Type": "ModularMountsComponent",
+    "Name": "ModularMountsComponent",
+    "Outer": "Default__BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ModularMountsComponent'"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Back",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BackCornerL",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BackCornerR",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BackLeft",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BackRight",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Floor",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Front",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FrontCornerL",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FrontCornerR",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FrontLeft",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FrontRight",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Left",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LeftCornerL",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LeftCornerR",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Right",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RightCornerL",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RightCornerR",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmpCommon",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmpCommonDirtT1T2",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmpCommonMods",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchEmpDirtDecals",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPTrenchEmpT2_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.29"
+      },
+      "VariableGuid": "1144E758-45F21128-659C63A0-98B6F24C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPTrenchEmpT2_C:TrenchEmpCommon_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.72"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "34655B1B-45E316E2-837EB88D-F9C21118",
+      "InternalVariableName": "TrenchEmpCommon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_120",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:Right_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.68"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8D38D56C-4AC0593E-122A2AAD-D5E125B9",
+      "InternalVariableName": "Right"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_121",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:Back_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.54"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E0953175-4149F2AC-DCD5DAB0-A20B448D",
+      "InternalVariableName": "Back"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_122",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:Left_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.65"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "65EFFAA7-4F98A8B3-5B7F579A-5A09053A",
+      "InternalVariableName": "Left"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_123",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:BackRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.58"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F1E43F5A-4753D82A-22740AB1-6A90E759",
+      "InternalVariableName": "BackRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_124",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:FrontRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.64"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "40A498A6-42A97622-57E2A7A7-1B699C94",
+      "InternalVariableName": "FrontRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_125",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:BackLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.57"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "CE64161F-46200819-0B7DB689-FC07AF7B",
+      "InternalVariableName": "BackLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_126",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:FrontLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.63"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "AA1528E5-4D6CD339-B5064D93-B93DDC8F",
+      "InternalVariableName": "FrontLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_127",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:Front_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.60"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D58F17BF-4942EDFB-06F67CB7-4A7072D8",
+      "InternalVariableName": "Front"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_128",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:Floor_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.59"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "90A032EC-428877C1-AB3620AF-C615FB9F",
+      "InternalVariableName": "Floor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_129",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:BackCornerR_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.56"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "85E274FF-4C7D4F6B-169658B8-32F5FF6D",
+      "InternalVariableName": "BackCornerR"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_130",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:LeftCornerL_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.66"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7E23918D-45B7E539-669613A9-755A76D5",
+      "InternalVariableName": "LeftCornerL"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_131",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:LeftCornerR_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.67"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "253F3EB9-4EA25DEA-095FCABC-DCF016CD",
+      "InternalVariableName": "LeftCornerR"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_132",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:FrontCornerL_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.61"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EDABCD55-4C393EB5-1E0BB29F-BA7A216F",
+      "InternalVariableName": "FrontCornerL"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_133",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:FrontCornerR_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.62"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2182298D-49C14F00-0E20C6B9-25A4D392",
+      "InternalVariableName": "FrontCornerR"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_134",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:RightCornerL_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.69"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "DD27477B-432251DE-AC73019C-A8F14D42",
+      "InternalVariableName": "RightCornerL"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_135",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:RightCornerR_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.70"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C1F51676-48DA7E9F-0250738C-57157915",
+      "InternalVariableName": "RightCornerR"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_136",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchEmpT2_C:BackCornerL_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.55"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F77D2434-438096F3-AB882B9A-40522C1E",
+      "InternalVariableName": "BackCornerL"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPTrenchEmpT2_C:TrenchEmpCommonMods_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.74"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3D59944D-4F7B8729-C5EB2D91-3D2BC47E",
+      "InternalVariableName": "TrenchEmpCommonMods"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPTrenchEmpT2_C:TrenchEmpCommonDirtT1T2_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.73"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "39E81863-423D2232-92D35884-BE85C5D8",
+      "InternalVariableName": "TrenchEmpCommonDirtT1T2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPTrenchEmpT2_C:TrenchEmpCommonSockets_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.75"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A294BB22-4B2ECEDA-D951C886-9B8ACEB4",
+      "InternalVariableName": "TrenchEmpCommonSockets"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPTrenchEmpT2_C:TrenchEmpDirtDecals_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.76"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7D255B21-48F6387B-F22ACCB7-39BCB71A",
+      "InternalVariableName": "TrenchEmpDirtDecals"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_120'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_121'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_122'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_123'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_124'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_125'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_126'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_127'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_128'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_129'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_130'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_131'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_132'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_133'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_134'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_135'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_136'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.51"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_120'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_121'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_122'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_123'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_124'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_125'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_126'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_127'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_128'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_129'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_130'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_131'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_132'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_133'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_134'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_135'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_136'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.51"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPTrenchEmpT2_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpT2.30"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Back_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchT2Short01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchT2Short01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -420.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99996,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideBack"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BackCornerL_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT2Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT2Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -400.0,
+        "Y": 165.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 65.00009,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BackCornerR_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT2Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT2Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -400.0,
+        "Y": -165.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 114.999916,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BackLeft_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchT2Short01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchT2Short01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -300.0,
+        "Y": -300.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 135.0,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideBackLeft"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BackRight_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchT2Short01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchT2Short01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -300.0,
+        "Y": 300.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 44.999992,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideBackRight"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Floor_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT2Floor01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT2Floor01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "CastShadow": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "RandomVisualVariance"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Front_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchT2Short01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchT2Short01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 420.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.999985,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideFront"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FrontCornerL_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT2Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT2Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 400.0,
+        "Y": -165.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -114.999916,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FrontCornerR_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT2Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT2Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 400.0,
+        "Y": 165.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -65.00007,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FrontLeft_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchT2Short01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchT2Short01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": -300.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -135.0,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideFrontLeft"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FrontRight_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchT2Short01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchT2Short01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 300.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -44.999992,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideFrontRight"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Left_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchT2Short01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchT2Short01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -420.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99963,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideLeft"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "LeftCornerL_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT2Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT2Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -165.0,
+        "Y": -400.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 155.00008,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "LeftCornerR_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT2Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT2Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 165.0,
+        "Y": -400.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -155.00008,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Right_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchT2Short01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchT2Short01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 420.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideRight"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "RightCornerL_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT2Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT2Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 165.0,
+        "Y": 400.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -24.999928,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "RightCornerR_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchEmplacementT2Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchEmplacementT2Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -165.0,
+        "Y": 400.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 24.999914,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPTrenchEmpT2_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "TrenchEmpCommon_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchEmpCommon_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpCommon.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "TrenchEmpCommonDirtT1T2_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchEmpCommonDirtT1T2_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpCommonDirtT1T2.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "TrenchEmpCommonMods_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchEmpCommonMods_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpCommonMods.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "TrenchEmpCommonSockets_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchEmpCommonSockets_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpCommonSockets.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "TrenchEmpDirtDecals_GEN_VARIABLE",
+    "Outer": "BPTrenchEmpT2_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchEmpDirtDecals_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchEmpDirtDecals.1"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -35.0
+      }
+    }
+  }
+]

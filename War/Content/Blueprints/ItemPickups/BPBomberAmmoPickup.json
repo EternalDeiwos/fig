@@ -1,0 +1,152 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPBomberAmmoPickup_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPBomberAmmoPickup_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPBomberAmmoPickup.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ExplosiveAmmoPickup'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPBomberAmmoPickup_C'Default__BPBomberAmmoPickup_C'",
+      "ObjectPath": "War/Content/Blueprints/ItemPickups/BPBomberAmmoPickup.1"
+    }
+  },
+  {
+    "Type": "BPBomberAmmoPickup_C",
+    "Name": "Default__BPBomberAmmoPickup_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/ItemPickups/BPBomberAmmoPickup.BPBomberAmmoPickup_C'",
+    "Properties": {
+      "ExplosionClass": {
+        "ObjectName": "BlueprintGeneratedClass'BomberAmmoExplosion_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.1"
+      },
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPBomberAmmoPickup_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPBomberAmmoPickup.7"
+      },
+      "ItemComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPBomberAmmo_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberAmmo.0"
+      },
+      "Encumbrance": 400,
+      "CodeName": "BomberAmmo",
+      "ChassisName": {
+        "Namespace": "",
+        "Key": "95DCFA9B426E758DFA0F9A983B031B9D",
+        "SourceString": "Bomber Ammo",
+        "LocalizedString": "Bomber Ammo"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F407DEBB4C49DD394B9668BFE23D8B10",
+        "SourceString": "Mark II Raidbreaker",
+        "LocalizedString": "Mark II Raidbreaker"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "059CA6F7491F53C9B4A380BAD1866374",
+        "SourceString": "Highly explosive payloads for use with bomber aircraft.",
+        "LocalizedString": "Highly explosive payloads for use with bomber aircraft."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'AerialBombsIcon'",
+        "ObjectPath": "War/Content/Textures/UI/VehicleIcons/AerialBombsIcon.0"
+      },
+      "EquipmentSlot": "EEquipmentSlot::Large",
+      "ItemCategory": "EItemCategory::HeavyAmmo",
+      "ItemFlagsMask": 17,
+      "ItemProfileType": "EItemProfileType::HeavyAmmo",
+      "bIsLarge": true,
+      "ItemMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPBomberAmmoPickup_C:ItemMesh'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPBomberAmmoPickup.6"
+      },
+      "ItemBox": {
+        "ObjectName": "BoxComponent'Default__BPBomberAmmoPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPBomberAmmoPickup.2"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Default__BPBomberAmmoPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPBomberAmmoPickup.2"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "ItemBox",
+    "Outer": "Default__BPBomberAmmoPickup_C",
+    "Class": "UScriptClass'BoxComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPBomberAmmoPickup_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPBomberAmmoPickup_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPBomberAmmoPickup.3"
+      },
+      "VariableGuid": "110894EC-43C61C16-CDCC9098-B56A2B52",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPBomberAmmoPickup_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPBomberAmmoPickup_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPBomberAmmoPickup.4"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ItemMesh",
+    "Outer": "Default__BPBomberAmmoPickup_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'AerialBombs'",
+        "ObjectPath": "War/Content/Meshes/Weapons/AerialBombs.2"
+      },
+      "AttachParent": {
+        "ObjectName": "BoxComponent'Default__BPBomberAmmoPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPBomberAmmoPickup.2"
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPBomberAmmoPickup_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

@@ -1,0 +1,686 @@
+[
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_0",
+    "Outer": "SK_MediumBoatW_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_BowGunnerMuzzle",
+      "BoneName": "Gunner_Vertical",
+      "RelativeLocation": {
+        "X": -9.1552734E-05,
+        "Y": 86.33588,
+        "Z": -1.7475985E-06
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_1",
+    "Outer": "SK_MediumBoatW_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_PortGunnerRMuzzle",
+      "BoneName": "AltGunner_Vertical_L",
+      "RelativeLocation": {
+        "X": -9.667587,
+        "Y": 86.155945,
+        "Z": -1.4E-05
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_10",
+    "Outer": "SK_MediumBoatW_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_RightHandIK_3",
+      "BoneName": "AltGunner_Vertical_R",
+      "RelativeLocation": {
+        "X": -15.83205,
+        "Y": -86.14484,
+        "Z": -6.816326
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.4132,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_2",
+    "Outer": "SK_MediumBoatW_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_PortGunnerLMuzzle",
+      "BoneName": "AltGunner_Vertical_L",
+      "RelativeLocation": {
+        "X": 9.667587,
+        "Y": 86.155945,
+        "Z": -1.4E-05
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_3",
+    "Outer": "SK_MediumBoatW_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_LeftHandIK_0",
+      "BoneName": "Gunner_Vertical",
+      "RelativeLocation": {
+        "X": 18.522648,
+        "Y": -59.36212,
+        "Z": -22.524029
+      },
+      "RelativeRotation": {
+        "Pitch": 26.033272,
+        "Yaw": 89.997765,
+        "Roll": 179.9999
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_4",
+    "Outer": "SK_MediumBoatW_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_RightHandIK_0",
+      "BoneName": "Gunner_Vertical",
+      "RelativeLocation": {
+        "X": -18.522648,
+        "Y": -59.36212,
+        "Z": -22.524029
+      },
+      "RelativeRotation": {
+        "Pitch": -26.029707,
+        "Yaw": -90.4132,
+        "Roll": -0.9432609
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_5",
+    "Outer": "SK_MediumBoatW_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_LeftHandIK_1",
+      "BoneName": "AltGunner_Vertical_L",
+      "RelativeLocation": {
+        "X": 15.83205,
+        "Y": -86.14484,
+        "Z": -6.816326
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.997765,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_6",
+    "Outer": "SK_MediumBoatW_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_RightHandIK_1",
+      "BoneName": "AltGunner_Vertical_L",
+      "RelativeLocation": {
+        "X": -15.83205,
+        "Y": -86.14484,
+        "Z": -6.816326
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.4132,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_7",
+    "Outer": "SK_MediumBoatW_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_StarboardGunnerRMuzzle",
+      "BoneName": "AltGunner_Vertical_R",
+      "RelativeLocation": {
+        "X": -9.667587,
+        "Y": 86.155945,
+        "Z": -1.41001165E-05
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_8",
+    "Outer": "SK_MediumBoatW_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_StarboardGunnerLMuzzle",
+      "BoneName": "AltGunner_Vertical_R",
+      "RelativeLocation": {
+        "X": 9.667587,
+        "Y": 86.155945,
+        "Z": -1.4E-05
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_9",
+    "Outer": "SK_MediumBoatW_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_LeftHandIK_3",
+      "BoneName": "AltGunner_Vertical_R",
+      "RelativeLocation": {
+        "X": 15.83205,
+        "Y": -86.14484,
+        "Z": -6.816326
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.997765,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "Skeleton",
+    "Name": "SK_MediumBoatW_Skeleton",
+    "Class": "UScriptClass'Skeleton'",
+    "Properties": {
+      "BoneTree": [
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        }
+      ],
+      "VirtualBoneGuid": "25A774D3-471E4195-F4F24DA3-3AE78EF9",
+      "Sockets": [
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_MediumBoatW_Skeleton:SkeletalMeshSocket_0'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatW/SK_MediumBoatW_Skeleton.0"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_MediumBoatW_Skeleton:SkeletalMeshSocket_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatW/SK_MediumBoatW_Skeleton.3"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_MediumBoatW_Skeleton:SkeletalMeshSocket_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatW/SK_MediumBoatW_Skeleton.1"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_MediumBoatW_Skeleton:SkeletalMeshSocket_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatW/SK_MediumBoatW_Skeleton.9"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_MediumBoatW_Skeleton:SkeletalMeshSocket_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatW/SK_MediumBoatW_Skeleton.8"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_MediumBoatW_Skeleton:SkeletalMeshSocket_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatW/SK_MediumBoatW_Skeleton.4"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_MediumBoatW_Skeleton:SkeletalMeshSocket_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatW/SK_MediumBoatW_Skeleton.5"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_MediumBoatW_Skeleton:SkeletalMeshSocket_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatW/SK_MediumBoatW_Skeleton.6"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_MediumBoatW_Skeleton:SkeletalMeshSocket_6'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatW/SK_MediumBoatW_Skeleton.7"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_MediumBoatW_Skeleton:SkeletalMeshSocket_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatW/SK_MediumBoatW_Skeleton.10"
+        },
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_MediumBoatW_Skeleton:SkeletalMeshSocket_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatW/SK_MediumBoatW_Skeleton.2"
+        }
+      ]
+    },
+    "ReferenceSkeleton": {
+      "FinalRefBoneInfo": [
+        {
+          "Name": "root",
+          "ParentIndex": -1
+        },
+        {
+          "Name": "MediumBoatW_pivot",
+          "ParentIndex": 0
+        },
+        {
+          "Name": "MediumBoatW_offset",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AltGunner_Horizontal_R",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AltGunner_Vertical_R",
+          "ParentIndex": 3
+        },
+        {
+          "Name": "Gunner_Horizontal",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "Gunner_Vertical",
+          "ParentIndex": 5
+        },
+        {
+          "Name": "Propeller_R",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "Rudder_R",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "Propeller_L",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "Rudder_L",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AltGunner_Horizontal_L",
+          "ParentIndex": 2
+        },
+        {
+          "Name": "AltGunner_Vertical_L",
+          "ParentIndex": 11
+        }
+      ],
+      "FinalRefBonePose": [
+        {
+          "Rotation": {
+            "X": 1.4106499E-07,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -2.920434E-07,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": -85.368805,
+            "Z": -117.28071
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 3.9679685E-07,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -174.24017,
+            "Y": -676.65625,
+            "Z": 233.297
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1.3226548E-07,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 7.169159E-05,
+            "Z": 146.73611
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.99999994,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 3.0817307E-07,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -8.0418636E-14,
+            "Y": 543.5012,
+            "Z": 117.280304
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -2.0956042E-14,
+            "Y": 0.6149762,
+            "Z": 188.18744
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -7.20203E-08,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -114.55762,
+            "Y": -586.6571,
+            "Z": -232.70222
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -3.5994063E-07,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -114.55762,
+            "Y": -1017.6473,
+            "Z": -207.58545
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -7.20203E-08,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 114.55762,
+            "Y": -586.6571,
+            "Z": -232.70222
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -3.5994063E-07,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 114.55762,
+            "Y": -1017.6473,
+            "Z": -207.58545
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 3.9679685E-07,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 174.24017,
+            "Y": -676.65625,
+            "Z": 233.297
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1.3226548E-07,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 7.169159E-05,
+            "Z": 146.73611
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.99999994,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      ],
+      "FinalNameToIndexMap": {
+        "root": 0,
+        "MediumBoatW_pivot": 1,
+        "MediumBoatW_offset": 2,
+        "AltGunner_Horizontal_R": 3,
+        "AltGunner_Vertical_R": 4,
+        "Gunner_Horizontal": 5,
+        "Gunner_Vertical": 6,
+        "Propeller_R": 7,
+        "Rudder_R": 8,
+        "Propeller_L": 9,
+        "Rudder_L": 10,
+        "AltGunner_Horizontal_L": 11,
+        "AltGunner_Vertical_L": 12
+      }
+    },
+    "Guid": "85D898E3-40D2D364-C97E2195-068239CE",
+    "AnimRetargetSources": {},
+    "NameMappings": {
+      "AnimationCurves": {
+        "GuidMap": null,
+        "UidMap": null,
+        "CurveMetaDataMap": {}
+      }
+    },
+    "ExistingMarkerNames": null
+  }
+]

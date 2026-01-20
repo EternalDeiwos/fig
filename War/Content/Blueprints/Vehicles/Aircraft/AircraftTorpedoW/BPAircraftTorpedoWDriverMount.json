@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftTorpedoWDriverMount_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'AirVehicleDriverMountComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftTorpedoWDriverMount_C'Default__BPAircraftTorpedoWDriverMount_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoWDriverMount.1"
+    }
+  },
+  {
+    "Type": "BPAircraftTorpedoWDriverMount_C",
+    "Name": "Default__BPAircraftTorpedoWDriverMount_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoWDriverMount.BPAircraftTorpedoWDriverMount_C'",
+    "Properties": {
+      "DisplayName": {
+        "TableId": "/Game/Blueprints/StringTables/STMounts.STMounts",
+        "Key": "MountPilot",
+        "SourceString": "Pilot",
+        "LocalizedString": "Pilot"
+      },
+      "AmmoName": "TorpedoAmmo",
+      "ActivityStateInfos[4]": {
+        "Duration": 10.0
+      },
+      "bIsMultiWeapon": true
+    }
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPEmplacedAircraftWRotator_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'AntiAircraftRotatorMountComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPEmplacedAircraftWRotator_C'Default__BPEmplacedAircraftWRotator_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftWRotator.1"
+    }
+  },
+  {
+    "Type": "BPEmplacedAircraftWRotator_C",
+    "Name": "Default__BPEmplacedAircraftWRotator_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftWRotator.BPEmplacedAircraftWRotator_C'",
+    "Properties": {
+      "PlayersRequiredToRotate": 2,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "7CEE509A462E635D6573B5AF640F243E",
+        "SourceString": "Operator",
+        "LocalizedString": "Operator"
+      },
+      "EquippedGripType": "EEquippedWeaponGripType::SeatedDoubleHandedCrank",
+      "ActivityStateInfos[3]": {
+        "ActivityMontage": {
+          "ObjectName": "AnimMontage'NWP_FieldArtillery_Driver_Firing'",
+          "ObjectPath": "War/Content/Animation/Character/NWP_NoWeapon/NWP_FieldArtillery_Driver_Firing.0"
+        }
+      }
+    }
+  }
+]

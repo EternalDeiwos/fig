@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BPShrapnelPainVolume_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPShrapnelPainVolume_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPShrapnelPainVolume_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPShrapnelPainVolume.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ShrapnelPainVolume'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPShrapnelPainVolume_C:DefaultSceneRoot'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPShrapnelPainVolume.0"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPShrapnelPainVolume_C'Default__BPShrapnelPainVolume_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/BPShrapnelPainVolume.2"
+    }
+  },
+  {
+    "Type": "BPShrapnelPainVolume_C",
+    "Name": "Default__BPShrapnelPainVolume_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/BPShrapnelPainVolume.BPShrapnelPainVolume_C'",
+    "Properties": {
+      "MovementComponent": {
+        "ObjectName": "ShrapnelMovementComponent'Default__BPShrapnelPainVolume_C:MoveComponent'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPShrapnelPainVolume.5"
+      },
+      "Damage": 800.0,
+      "Radius": 1000.0,
+      "DamageType": {
+        "ObjectName": "BlueprintGeneratedClass'BPShrapnelDamageType_C'",
+        "ObjectPath": "War/Content/Blueprints/DamageTypes/BPShrapnelDamageType.0"
+      },
+      "InitialLifeSpan": 5.0
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPShrapnelPainVolume_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPShrapnelPainVolume_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPShrapnelPainVolume.3"
+      },
+      "VariableGuid": "8446A7B7-4F7CFD59-5E986AA7-A9D20097",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "ShrapnelMovementComponent",
+    "Name": "MoveComponent",
+    "Outer": "Default__BPShrapnelPainVolume_C",
+    "Class": "UScriptClass'ShrapnelMovementComponent'"
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPShrapnelPainVolume_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPShrapnelPainVolume_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Items/BPShrapnelPainVolume.4"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPShrapnelPainVolume_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Items/BPShrapnelPainVolume.4"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPShrapnelPainVolume_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPShrapnelPainVolume.4"
+      }
+    }
+  }
+]

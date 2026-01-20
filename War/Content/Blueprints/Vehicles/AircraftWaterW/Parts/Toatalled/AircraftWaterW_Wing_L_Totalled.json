@@ -1,0 +1,188 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "AircraftWaterW_Wing_L_Totalled",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "A2DF04384B865D60470BD6A0FB9A0338",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 15323,
+        "SizeOnDisk": 15323,
+        "OffsetInFile": "0x140EB"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "AircraftWaterW_Wing_L_Totalled",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x17D0E"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "AircraftWaterW_Wing_L_Totalled",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftWaterW'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/Materials/AircraftWaterW.0"
+          },
+          "MaterialSlotName": "PlaneWater",
+          "ImportedMaterialSlotName": "PlaneWater",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 637.05524,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 637.05524,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 75.66384,
+          "Y": 41.663956,
+          "Z": 32.924904
+        },
+        "BoxExtent": {
+          "X": 10.1528015,
+          "Y": 112.98949,
+          "Z": 76.264084
+        },
+        "SphereRadius": 131.41039
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'AircraftWaterW_Wing_L_Totalled:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Toatalled/AircraftWaterW_Wing_L_Totalled.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'AircraftWaterW_Wing_L_Totalled:NavCollision_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Parts/Toatalled/AircraftWaterW_Wing_L_Totalled.1"
+    },
+    "LightingGuid": "E2779A74-472ABF18-AAA5EF92-86144555",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 518,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 600,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 601
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 601,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 258,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 347,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 3.7751899,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 348
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 348,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 75.66384,
+          "Y": 41.663956,
+          "Z": 32.924904
+        },
+        "BoxExtent": {
+          "X": 10.1528015,
+          "Y": 112.98949,
+          "Z": 76.264084
+        },
+        "SphereRadius": 131.41039
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.62628514,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

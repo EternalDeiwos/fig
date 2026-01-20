@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPArmourPiercingDiveDamageType_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SimDamageType'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_Const | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPArmourPiercingDiveDamageType_C'Default__BPArmourPiercingDiveDamageType_C'",
+      "ObjectPath": "War/Content/Blueprints/DamageTypes/BPArmourPiercingDiveDamageType.1"
+    }
+  },
+  {
+    "Type": "BPArmourPiercingDiveDamageType_C",
+    "Name": "Default__BPArmourPiercingDiveDamageType_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/DamageTypes/BPArmourPiercingDiveDamageType.BPArmourPiercingDiveDamageType_C'",
+    "Properties": {
+      "Type": "EDamageType::ArmourPiercing",
+      "bCanPenetrateArmour": false,
+      "LeakChanceMultiplier": 1.0,
+      "TankArmourEffectType": "ETankArmourEffectType::Large",
+      "VehicleSubsystemDisableMultipliers": 3.0,
+      "VehicleSubsystemDisableMultipliers[1]": 3.0,
+      "VehicleSubsystemDisableMultipliers[2]": 3.0,
+      "VehicleSubsystemDisableMultipliers[3]": 3.0,
+      "VehicleSubsystemDisableMultipliers[4]": 3.0,
+      "VehicleSubsystemDisableMultipliers[5]": 3.0,
+      "VehicleSubsystemDisableMultipliers[6]": 3.0,
+      "bApplyTankArmourMechanics": true,
+      "bApplyTankArmourAngleRangeBonuses": false,
+      "bExposeInUI": true,
+      "Icon": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SubtypeAPIcon'",
+          "ObjectPath": "War/Content/Textures/UI/ItemIcons/SubtypeAPIcon.0"
+        }
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "0A3C00574614D03A304F4DA076817260",
+        "SourceString": "Armour Piercing",
+        "LocalizedString": "Armour Piercing"
+      },
+      "DescriptionDetails": [
+        {
+          "TooltipDetailType": "ETooltipDetailType::LowVisibility",
+          "Text": {
+            "Namespace": "",
+            "Key": "B694F525471E995F532307881B1F5711",
+            "SourceString": "High chance of disabling all vehicle subsystems",
+            "LocalizedString": "High chance of disabling all vehicle subsystems"
+          }
+        }
+      ]
+    }
+  }
+]

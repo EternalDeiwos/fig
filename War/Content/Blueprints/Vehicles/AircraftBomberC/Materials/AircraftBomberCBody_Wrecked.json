@@ -1,0 +1,339 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "AircraftBomberCBody_Wrecked",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'AircraftBomberCBody'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Materials/AircraftBomberCBody.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Metalness",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": -0.018349,
+          "ExpressionGUID": "3B25CFA6-4954E3AB-99ACCBBD-CD529D27"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Roughness",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.385321,
+          "ExpressionGUID": "9426E210-473A13A4-275F0385-ECFFB122"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Damage Mask Intensity",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 200.0,
+          "ExpressionGUID": "165358E0-4E72A959-4BA3C0A7-460D5B0D"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Damage Mask Tightness",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.5,
+          "ExpressionGUID": "052BC727-43700B13-7800E9B9-F3A539BF"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Damage/Roughness Tiling",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.5,
+          "ExpressionGUID": "BD89CB79-4D79BD52-E7E75489-5EBFA5A7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Impact Mask Tiling",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "961F6F78-4F525995-317228AA-458FEEE5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Impacts",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.8,
+          "ExpressionGUID": "663B68B8-4575BA15-1AD398AC-91C50863"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Snow Contrast",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 25.0,
+          "ExpressionGUID": "F2101908-486A6979-3072B8BA-F1C22802"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Snow Depth (How Far onto the sides)",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.9,
+          "ExpressionGUID": "8D10B09A-4D859A71-1113CFB4-6951F369"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Snow Strength",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.25,
+          "ExpressionGUID": "879A2B28-4DB35180-BDF97783-5F34191E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Snow Mask Multiply",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 4.0,
+          "ExpressionGUID": "377F40AD-4892E994-D9FD9CAF-762E65D9"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Snow Mask Power",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "52F73E8F-464C55A1-D7620F88-62D36172"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Impact Colour 1",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.001,
+            "G": 1.7E-05,
+            "B": 0.000163,
+            "A": 0.1,
+            "Hex": "19030000"
+          },
+          "ExpressionGUID": "101FF144-47C4DCDF-EDC05DAB-2A989E4F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Impact Colour 2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.02,
+            "G": 0.012334,
+            "B": 0.009062,
+            "A": 1.0,
+            "Hex": "261D17"
+          },
+          "ExpressionGUID": "B8772A68-4BCB7D32-42F619B8-037E73BF"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Color 1",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.0,
+            "Hex": "FFFFFF"
+          },
+          "ExpressionGUID": "07F50012-4158366A-5E918DBB-4343B371"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Color 2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.0,
+            "Hex": "FFFFFF"
+          },
+          "ExpressionGUID": "7A7A3E96-46537D1A-F9B82AA3-0EDD6804"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Damage/Roughness Mask",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'NoiseMask'",
+            "ObjectPath": "War/Content/FX/Textures/NoiseMasks/NoiseMask.0"
+          },
+          "ExpressionGUID": "4DD8E1F9-41A71071-4515C385-57984219"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Albedo",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'AircraftBomberCBodyA'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Textures/AircraftBomberCBodyA.0"
+          },
+          "ExpressionGUID": "ABE95477-4B8864CB-11A28F88-632F172E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Impact Shape",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'TankArmourDamage01'",
+            "ObjectPath": "War/Content/FX/Textures/NoiseMasks/TankArmourDamage01.0"
+          },
+          "ExpressionGUID": "7DBE36DB-4CAAB8F6-CE6123A5-6041FA80"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Normal",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'AircraftBomberCBodyN'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Textures/AircraftBomberCBodyN.0"
+          },
+          "ExpressionGUID": "F83EFF74-4439F683-11D4E2A4-95002649"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RoughnessUVTexture",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'AircraftBomberCBodyM'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Textures/AircraftBomberCBodyM.0"
+          },
+          "ExpressionGUID": "51DDC46C-41CD24CC-74A980BA-4D681329"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "BlendMode": "BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Overlapping Vehicle?",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "05662C17-4B79D23C-A26886BD-A1C0E980"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Normal Map?",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "771E90BE-46CF097B-689B88B6-09881C2B"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Red Channel for Metalness?",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "D8211B06-4806D01D-A880C29C-47F421E5"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Roughness Texture",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "AE99BCBB-4F0DB768-77561996-33B1026E"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "SnowVehicle",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "9A235EC5-44E3F9C0-85456CBE-BD0D6D2C"
+          }
+        ]
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "SnowM"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "TerrainSnow4_A"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "TerrainSnow4_N"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "TilingNoises01"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]

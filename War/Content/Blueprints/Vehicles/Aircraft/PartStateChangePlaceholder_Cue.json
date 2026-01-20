@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "PartStateChangePlaceholder_Cue",
+    "Class": "UScriptClass'SoundCue'",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeWavePlayer'PartStateChangePlaceholder_Cue:SoundNodeWavePlayer_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/PartStateChangePlaceholder_Cue.1"
+      },
+      "VolumeMultiplier": 1.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Foley'",
+        "ObjectPath": "War/Content/Audio/SoundClasses/Foley.0"
+      },
+      "Duration": 1.3171202,
+      "MaxDistance": 2097152.0
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Outer": "PartStateChangePlaceholder_Cue",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Blueprints/Vehicles/Aircraft/PartStateChangePlaceholder.PartStateChangePlaceholder",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'PartStateChangePlaceholder'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/PartStateChangePlaceholder.0"
+    }
+  }
+]

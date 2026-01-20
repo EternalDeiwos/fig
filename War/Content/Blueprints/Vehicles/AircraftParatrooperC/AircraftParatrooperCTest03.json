@@ -1,0 +1,211 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "AircraftParatrooperCTest03",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "C549E56844A9DA4662DFF89DAC8F7B00",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1881573,
+        "SizeOnDisk": 1881573,
+        "OffsetInFile": "0x9C93CB"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Outer": "AircraftParatrooperCTest03",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0xB949F8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "AircraftParatrooperCTest03",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftParatrooperCBody'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftParatrooperC/Materials/AircraftParatrooperCBody.0"
+          },
+          "MaterialSlotName": "PlaneBody",
+          "ImportedMaterialSlotName": "PlaneBody",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1773.3746,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftParatrooperCWings'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftParatrooperC/Materials/AircraftParatrooperCWings.0"
+          },
+          "MaterialSlotName": "PlaneWing",
+          "ImportedMaterialSlotName": "PlaneWing",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1751.8873,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'Tire01'",
+            "ObjectPath": "War/Content/Materials/Vehicles/Tire01.0"
+          },
+          "MaterialSlotName": "Tire_001",
+          "ImportedMaterialSlotName": "Tire_001",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 252.93436,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 2,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": -378.47015,
+          "Z": 326.92825
+        },
+        "BoxExtent": {
+          "X": 1116.9004,
+          "Y": 894.06793,
+          "Z": 276.43768
+        },
+        "SphereRadius": 1182.982
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'AircraftParatrooperCTest03:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftParatrooperC/AircraftParatrooperCTest03.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'AircraftParatrooperCTest03:NavCollision_2'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftParatrooperC/AircraftParatrooperCTest03.1"
+    },
+    "LightingGuid": "DE8CFBB7-4558DABA-63D227A4-1834B767",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 35457,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 34818,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 106371,
+              "NumTriangles": 26559,
+              "MinVertexIndex": 34819,
+              "MaxVertexIndex": 66132,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 186048,
+              "NumTriangles": 2496,
+              "MinVertexIndex": 66133,
+              "MaxVertexIndex": 68082,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 68083
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 3,
+            "NumVertices": 68083,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": -378.47015,
+          "Z": 326.92825
+        },
+        "BoxExtent": {
+          "X": 1116.9004,
+          "Y": 894.06793,
+          "Z": 276.43768
+        },
+        "SphereRadius": 1182.982
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

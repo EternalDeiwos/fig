@@ -1,0 +1,246 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "BPParatrooperBackpackPickup_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPParatrooperBackpackPickup_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPParatrooperBackpackPickup_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.9"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'BPParatrooperBackpackPickup_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BPParatrooperBackpackPickup_C:ExecuteUbergraph_BPParatrooperBackpackPickup'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ParatrooperBackpackItemPickup'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BPParatrooperBackpackPickup_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.0"
+      },
+      {
+        "ObjectName": "Function'BPParatrooperBackpackPickup_C:ReceiveBeginPlay'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.6"
+      },
+      {
+        "ObjectName": "Function'BPParatrooperBackpackPickup_C:ExecuteUbergraph_BPParatrooperBackpackPickup'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.5"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BPParatrooperBackpackPickup": {
+        "ObjectName": "Function'BPParatrooperBackpackPickup_C:ExecuteUbergraph_BPParatrooperBackpackPickup'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.5"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BPParatrooperBackpackPickup_C:ReceiveBeginPlay'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.6"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPParatrooperBackpackPickup_C'Default__BPParatrooperBackpackPickup_C'",
+      "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.2"
+    }
+  },
+  {
+    "Type": "BPParatrooperBackpackPickup_C",
+    "Name": "Default__BPParatrooperBackpackPickup_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.BPParatrooperBackpackPickup_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "OpenedBackpackMeshes": [
+        {
+          "ObjectName": "SkeletalMesh'ParatrooperBackpackMC_Open'",
+          "ObjectPath": "War/Content/Meshes/Character/Back/ParatrooperBackpackMC_Open.0"
+        },
+        {
+          "ObjectName": "SkeletalMesh'ParatrooperBackpackMC_Open'",
+          "ObjectPath": "War/Content/Meshes/Character/Back/ParatrooperBackpackMC_Open.0"
+        }
+      ],
+      "bCanBeEquippedWithLargeItem": false,
+      "UniformRestrictions": [
+        "EUniformType::ParatrooperC",
+        "EUniformType::ParatrooperW",
+        "EUniformType::PilotC",
+        "EUniformType::PilotW"
+      ],
+      "BackpackMeshes": [
+        {
+          "ObjectName": "SkeletalMesh'ParatrooperBackpackMC'",
+          "ObjectPath": "War/Content/Meshes/Character/Back/ParatrooperBackpackMC.0"
+        },
+        {
+          "ObjectName": "SkeletalMesh'ParatrooperBackpackMC'",
+          "ObjectPath": "War/Content/Meshes/Character/Back/ParatrooperBackpackMC.0"
+        }
+      ],
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPParatrooperBackpackPickup_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.11"
+      },
+      "ItemComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPParatrooperBackpackItemComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPParatrooperBackpackItemComponent.0"
+      },
+      "Encumbrance": 60,
+      "EquippedEncumbrance": 0,
+      "CodeName": "ParatrooperBackpack",
+      "ChassisName": {
+        "Namespace": "",
+        "Key": "C0E2F77449E8948B6B73F58366446556",
+        "SourceString": "Backpack",
+        "LocalizedString": "Backpack"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "1CCDD2D945738966EE632198C70715AB",
+        "SourceString": "Paratrooper’s Ruck",
+        "LocalizedString": "Paratrooper’s Ruck"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "A61B72DB4A153A0A63DC41A94B34B397",
+        "SourceString": "A paratrooper's basic kit. Includes minimal survival gear to improve weight distribution and account for parachutes.",
+        "LocalizedString": "A paratrooper's basic kit. Includes minimal survival gear to improve weight distribution and account for parachutes."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'ParatrooperBackpackItemIcon'",
+        "ObjectPath": "War/Content/Textures/UI/ItemIcons/ParatrooperBackpackItemIcon.0"
+      },
+      "EquipmentSlot": "EEquipmentSlot::Utility",
+      "ItemCategory": "EItemCategory::Utility",
+      "ItemProfileType": "EItemProfileType::Accessory",
+      "TechID": "ETechID::UnlockParatrooperBackpack",
+      "ItemMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPParatrooperBackpackPickup_C:ItemMesh'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.10"
+      },
+      "ItemBox": {
+        "ObjectName": "BoxComponent'Default__BPParatrooperBackpackPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.3"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Default__BPParatrooperBackpackPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.3"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "ItemBox",
+    "Outer": "Default__BPParatrooperBackpackPickup_C",
+    "Class": "UScriptClass'BoxComponent'"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_BPParatrooperBackpackPickup",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BPParatrooperBackpackPickup",
+    "Outer": "BPParatrooperBackpackPickup_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BPParatrooperBackpackPickup_C:ExecuteUbergraph_BPParatrooperBackpackPickup.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.4"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BPParatrooperBackpackPickup_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPParatrooperBackpackPickup_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPParatrooperBackpackPickup_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.7"
+      },
+      "VariableGuid": "514DEE6B-4A5A094D-452371A8-10056145",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPParatrooperBackpackPickup_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPParatrooperBackpackPickup_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ItemMesh",
+    "Outer": "Default__BPParatrooperBackpackPickup_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BoxComponent'Default__BPParatrooperBackpackPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPParatrooperBackpackPickup.3"
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPParatrooperBackpackPickup_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "LightFreighterCollision",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 944.49426,
+                "Y": 157.8312,
+                "Z": 141.04991
+              },
+              {
+                "X": 779.8974,
+                "Y": 222.72775,
+                "Z": 141.04994
+              },
+              {
+                "X": -1057.3871,
+                "Y": 222.72925,
+                "Z": 142.03822
+              },
+              {
+                "X": -1057.3875,
+                "Y": -222.72758,
+                "Z": 142.03804
+              },
+              {
+                "X": 779.89703,
+                "Y": -222.72906,
+                "Z": 141.04973
+              },
+              {
+                "X": 944.494,
+                "Y": -157.83286,
+                "Z": 141.04976
+              },
+              {
+                "X": -1013.8944,
+                "Y": -222.72754,
+                "Z": -51.971493
+              },
+              {
+                "X": -1013.894,
+                "Y": 222.72931,
+                "Z": -51.971287
+              },
+              {
+                "X": 779.8974,
+                "Y": 222.72783,
+                "Z": -51.971287
+              },
+              {
+                "X": 946.1963,
+                "Y": 59.957203,
+                "Z": -219.31499
+              },
+              {
+                "X": 944.494,
+                "Y": -157.83273,
+                "Z": -51.97147
+              },
+              {
+                "X": 944.494,
+                "Y": -125.16058,
+                "Z": -146.66756
+              },
+              {
+                "X": 946.19604,
+                "Y": -59.958496,
+                "Z": -219.31506
+              },
+              {
+                "X": 779.89703,
+                "Y": -176.62292,
+                "Z": -146.6676
+              },
+              {
+                "X": -901.347,
+                "Y": -59.956997,
+                "Z": -219.31506
+              },
+              {
+                "X": -901.34686,
+                "Y": 59.95871,
+                "Z": -219.31499
+              },
+              {
+                "X": 944.49426,
+                "Y": 157.8313,
+                "Z": -51.97131
+              },
+              {
+                "X": 944.49426,
+                "Y": 125.15923,
+                "Z": -146.66745
+              },
+              {
+                "X": -957.8953,
+                "Y": -176.62152,
+                "Z": -146.6676
+              },
+              {
+                "X": -957.8951,
+                "Y": 176.62326,
+                "Z": -146.6674
+              },
+              {
+                "X": 779.8974,
+                "Y": 176.62183,
+                "Z": -146.6674
+              },
+              {
+                "X": 779.89703,
+                "Y": -222.72897,
+                "Z": -51.971493
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -1057.3875,
+                "Y": -222.72906,
+                "Z": -219.31506
+              },
+              "Max": {
+                "X": 946.1963,
+                "Y": 222.72931,
+                "Z": 142.03822
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "2623EF7D449FC97E23F46BB2EC9A4D3F",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 4075,
+        "SizeOnDisk": 4075,
+        "OffsetInFile": "0x533D"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_1",
+    "Outer": "LightFreighterCollision",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1489,
+        "SizeOnDisk": 1489,
+        "OffsetInFile": "0x6370"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "LightFreighterCollision",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'TempAsset'",
+            "ObjectPath": "War/Content/Materials/TempAsset.0"
+          },
+          "MaterialSlotName": "TempAsset",
+          "ImportedMaterialSlotName": "TempAsset",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1883.2386,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 1883.2386,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -39.42859,
+          "Y": 0.0001373291,
+          "Z": 38.4366
+        },
+        "BoxExtent": {
+          "X": 1011.8098,
+          "Y": 229.41109,
+          "Z": 180.67662
+        },
+        "SphereRadius": 1053.1058
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'LightFreighterCollision:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/FreighterLight/LightFreighterCollision.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'LightFreighterCollision:NavCollision_1'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/FreighterLight/LightFreighterCollision.1"
+    },
+    "LightingGuid": "B93093EA-4B536D4A-94C74990-544B85AC",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 64,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 164,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 165
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 165,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": -39.42859,
+          "Y": 0.0001373291,
+          "Z": 38.4366
+        },
+        "BoxExtent": {
+          "X": 1011.8098,
+          "Y": 229.41109,
+          "Z": 180.67662
+        },
+        "SphereRadius": 1053.1058
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

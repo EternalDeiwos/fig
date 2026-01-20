@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPLightBoatInfantryCMainGunner_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'HitScanMountComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPLightBoatInfantryCMainGunner_C'Default__BPLightBoatInfantryCMainGunner_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryCMainGunner.1"
+    }
+  },
+  {
+    "Type": "BPLightBoatInfantryCMainGunner_C",
+    "Name": "Default__BPLightBoatInfantryCMainGunner_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/BPLightBoatInfantryCMainGunner.BPLightBoatInfantryCMainGunner_C'",
+    "Properties": {
+      "FiringRate": 0.175,
+      "ImpactEffect": {
+        "ObjectName": "BlueprintGeneratedClass'RifleImpactEffect_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/RifleImpactEffect.1"
+      },
+      "WeaponFireFXClass": {
+        "ObjectName": "BlueprintGeneratedClass'TracerFireFX_C'",
+        "ObjectPath": "War/Content/Blueprints/TracerFireFX.1"
+      },
+      "WeaponShotSFX": {
+        "FiringLoop": {
+          "ObjectName": "SoundCue'MGTC-RFShot_Cue'",
+          "ObjectPath": "War/Content/Audio/SFX/Weapons/MGTC/MGTC-RFShot_Cue.0"
+        },
+        "FiringStopped": {
+          "ObjectName": "SoundCue'MGTC-RFTail_Cue'",
+          "ObjectPath": "War/Content/Audio/SFX/Weapons/MGTC/MGTC-RFTail_Cue.0"
+        }
+      },
+      "MuzzleFlashPS": {
+        "ObjectName": "ParticleSystem'MachinegunMF'",
+        "ObjectPath": "War/Content/FX/MachinegunMF.41"
+      },
+      "bSupportsAntiAircraftMode": true,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3A60ECD44CDD066B51A792BA675648A0",
+        "SourceString": "Gunner",
+        "LocalizedString": "Gunner"
+      },
+      "AmmoName": "AircraftAmmo",
+      "AmmoSlotFilterAmount": 20,
+      "ReloadSoundCue": {
+        "ObjectName": "SoundCue'HeavyMGReload'",
+        "ObjectPath": "War/Content/Audio/SFX/Weapons/HeavyMG/HeavyMGReload.0"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'AircraftAmmoIcon'",
+        "ObjectPath": "War/Content/Textures/UI/VehicleIcons/AircraftAmmoIcon.0"
+      },
+      "EquippedGripType": "EEquippedWeaponGripType::VehicleGunboatHmgGunner",
+      "ActivityStateInfos[3]": {
+        "IsLooping": true
+      },
+      "ActivityStateInfos[4]": {
+        "Duration": 4.0
+      }
+    }
+  }
+]

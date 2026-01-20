@@ -1,0 +1,307 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "SmokeVolumeBase",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Opacity",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "999B9F6B-4746806A-BAA599B5-73ADE976"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Depth Fade",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 500.0,
+          "ExpressionGUID": "EB896228-42FE534C-C851EBAB-57E087F5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Pan1X",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "1E1A642A-422E1F7E-4B8455AA-B5A1D563"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Pan1Y",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "435F946C-40DA7E58-78E0D8A3-A8A7A9CE"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Pan2X",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "AA91537F-4EE69218-06CD7EA0-18E07640"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Pan2Y",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "B65BF3E0-45C4EF8F-4D9D0E8A-F2073A0A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Pan3X",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "08604CBB-4E490254-E68790BD-2121D63D"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Pan3Y",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "A04FC5C3-46A597B9-CB8435A9-9DEB24B5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Tiling1",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 24000.0,
+          "ExpressionGUID": "8CD7F981-4216124E-7F306581-15D889AD"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Tiling2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 18000.0,
+          "ExpressionGUID": "F7B51063-4EB0614F-C2DC899B-D130EC69"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Tiling3",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 33750.0,
+          "ExpressionGUID": "9864A019-4473B481-C9664CB7-36300F92"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Power1",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "AE499921-4A50F63A-3C23ECA4-6702DCD0"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Multiply1",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.328961,
+          "ExpressionGUID": "075E76BD-497D2463-25D97AB7-CF986F15"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Power2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.255896,
+          "ExpressionGUID": "D53BD0D9-49EC75CE-3818438A-F507411D"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Power3",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.0,
+          "ExpressionGUID": "EBD93B25-4901129C-C5A7B7A0-B22AEFF8"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Multiply2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.154861,
+          "ExpressionGUID": "742626B9-49140D14-4FC4369B-E25A529A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Multiply3",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 3.304958,
+          "ExpressionGUID": "7389996D-4F0E484D-1254D79D-C4271CFD"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "MinFromBP",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 256.0,
+          "ExpressionGUID": "A556B4A1-48B9D989-7BB73189-FBC2F3A7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "MaxFromBP",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 4096.0,
+          "ExpressionGUID": "82D824C9-4845C552-8D64C58D-2A0DD17E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Camera Fade Distance",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 12000.0,
+          "ExpressionGUID": "615C9F5E-43E82E73-F947B3B2-FBF6D180"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "CloudDensity",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "67F57338-4BF198E1-AC94FB94-433C2948"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Player Visiblity Size",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "3D3AD94B-474AC69D-748342A9-430C95B4"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Player Visiblity Strength",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 4.5,
+          "ExpressionGUID": "8FBDA3DF-497A025D-BB7B3FA4-1AA4DD18"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Secondary Clouds",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "30C2C5EC-4A771D7A-4E3D7D9E-7AE4CF39"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "ShadowColour",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.440972,
+            "G": 0.440972,
+            "B": 0.440972,
+            "A": 1.0,
+            "Hex": "B1B1B1"
+          },
+          "ExpressionGUID": "0C5D76E3-4B210F76-6BC9D7B3-AD501B05"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Texture1",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'TilingNoises01'",
+            "ObjectPath": "War/Content/FX/Textures/NoiseMasks/TilingNoises01.0"
+          },
+          "ExpressionGUID": "2E197611-4CDE4709-6568F697-8DEC7BDD"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Texture2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'TilingNoise03'",
+            "ObjectPath": "War/Content/Blueprints/FogSheet/Textures/Noise/TilingNoise03.0"
+          },
+          "ExpressionGUID": "329DD073-43F8F878-04D5AA83-59D0176E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Texture3",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'clouds'",
+            "ObjectPath": "War/Content/FX/Textures/NoiseMasks/clouds.0"
+          },
+          "ExpressionGUID": "3921422E-4DB535E6-8CE13DBF-9872522D"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Translucent",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "SmokeAlphas01"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]

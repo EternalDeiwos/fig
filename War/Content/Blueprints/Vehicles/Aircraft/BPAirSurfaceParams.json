@@ -1,0 +1,218 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BPAirSurfaceParams",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AirSurfaceParams'",
+        "ObjectPath": "/Script/War"
+      }
+    },
+    "Rows": {
+      "TestPlaneWing": {
+        "LiftCurveSlope": 8.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 20.0,
+        "NegativeStallAngle": -15.0,
+        "SkinFriction": 0.02
+      },
+      "ReferenceWing": {
+        "LiftCurveSlope": 6.28,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 10.0,
+        "NegativeStallAngle": -10.0,
+        "SkinFriction": 0.02
+      },
+      "PrototypeFighterWWing": {
+        "LiftCurveSlope": 6.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -15.0,
+        "SkinFriction": 0.02
+      },
+      "PrototypeBomberCWing": {
+        "LiftCurveSlope": 7.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -12.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftFighterWWing": {
+        "LiftCurveSlope": 8.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 16.0,
+        "NegativeStallAngle": -16.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftFighterWControlSurface": {
+        "LiftCurveSlope": 6.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -15.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftBomberCWing": {
+        "LiftCurveSlope": 7.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -12.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftScoutWWing": {
+        "LiftCurveSlope": 8.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -15.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftScoutWControlSurface": {
+        "LiftCurveSlope": 5.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -15.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftTorpedoWWing": {
+        "LiftCurveSlope": 9.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 16.0,
+        "NegativeStallAngle": -16.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftTorpedoWControlSurface": {
+        "LiftCurveSlope": 8.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -15.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftDiveCSpoiler": {
+        "LiftCurveSlope": 0.1,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 30.0,
+        "NegativeStallAngle": -30.0,
+        "SkinFriction": 3.0
+      },
+      "AircraftBomberCSpoiler": {
+        "LiftCurveSlope": 0.1,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 30.0,
+        "NegativeStallAngle": -30.0,
+        "SkinFriction": 0.5
+      },
+      "AircraftWaterWWing": {
+        "LiftCurveSlope": 8.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 16.0,
+        "NegativeStallAngle": -16.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftWaterWControlSurface": {
+        "LiftCurveSlope": 6.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -15.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftParatrooperCWing": {
+        "LiftCurveSlope": 15.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -12.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftParatrooperCControlSurface": {
+        "LiftCurveSlope": 12.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -12.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftFighterCWing": {
+        "LiftCurveSlope": 9.5,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 16.0,
+        "NegativeStallAngle": -16.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftFighterCControlSurface": {
+        "LiftCurveSlope": 6.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -15.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftBomberWWing": {
+        "LiftCurveSlope": 7.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -12.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftScoutCWing": {
+        "LiftCurveSlope": 8.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -15.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftParatrooperCRamp": {
+        "LiftCurveSlope": 0.1,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 30.0,
+        "NegativeStallAngle": -30.0,
+        "SkinFriction": 3.0
+      },
+      "AircraftParatrooperWWing": {
+        "LiftCurveSlope": 10.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -12.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftParatrooperWControlSurface": {
+        "LiftCurveSlope": 4.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -12.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftParatrooperWRamp": {
+        "LiftCurveSlope": 0.1,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 30.0,
+        "NegativeStallAngle": -30.0,
+        "SkinFriction": 3.0
+      },
+      "AircraftDiveCWing": {
+        "LiftCurveSlope": 12.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 16.0,
+        "NegativeStallAngle": -16.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftDiveCTail": {
+        "LiftCurveSlope": 8.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 16.0,
+        "NegativeStallAngle": -16.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftFighterCFixed": {
+        "LiftCurveSlope": 0.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -15.0,
+        "SkinFriction": 0.02
+      },
+      "AircraftScoutCControlSurface": {
+        "LiftCurveSlope": 6.0,
+        "ZeroLiftAngleOfAttack": 0.0,
+        "PositiveStallAngle": 15.0,
+        "NegativeStallAngle": -15.0,
+        "SkinFriction": 0.02
+      }
+    }
+  }
+]

@@ -1,0 +1,1618 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPFortLargeRadar_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.53"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'BPFortLargeRadar_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BPFortLargeRadar_C:ExecuteUbergraph_BPFortLargeRadar'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AircraftRadar'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BPFortLargeRadar_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.0"
+      },
+      {
+        "ObjectName": "Function'BPFortLargeRadar_C:BPSetTeamVisuals'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.18"
+      },
+      {
+        "ObjectName": "Function'BPFortLargeRadar_C:ExecuteUbergraph_BPFortLargeRadar'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:MapIntelligenceSource'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:LargeFortCommon'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:OccupiableTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:OccupiableComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.32"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:MultiplexedStaticMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:Flag2'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:Flag'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:RoofMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.35"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:FloorMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:FrontFortSocket'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:RightFortSocket'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.34"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:BackFortSocket'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:LeftFortSocket'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortLargeRadar_C:MultiplexedSkeletalMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.30"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BPFortLargeRadar": {
+        "ObjectName": "Function'BPFortLargeRadar_C:ExecuteUbergraph_BPFortLargeRadar'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.6"
+      },
+      "BPSetTeamVisuals": {
+        "ObjectName": "Function'BPFortLargeRadar_C:BPSetTeamVisuals'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.18"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPFortLargeRadar_C'Default__BPFortLargeRadar_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.2"
+    }
+  },
+  {
+    "Type": "BPFortLargeRadar_C",
+    "Name": "Default__BPFortLargeRadar_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/BPFortLargeRadar.BPFortLargeRadar_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BPFortLargeRadar_C:SkeletalMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.55"
+      },
+      "BaseMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BPFortLargeRadar_C:BaseMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.54"
+      },
+      "RotationSFXLoop": {
+        "ObjectName": "WarAudioComponent'Default__BPFortLargeRadar_C:RotationSFXLoop'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.63"
+      },
+      "Tier": "EFortTier::T3",
+      "BuildGhostClass": null,
+      "BuildSiteClass": {
+        "ObjectName": "Class'FortBuildSite'",
+        "ObjectPath": "/Script/War"
+      },
+      "BaseStructureClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortDestroyedT3_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortDestroyedT3.1"
+      },
+      "bClearModificationsOnDowngrade": true,
+      "Description": {
+        "Namespace": "",
+        "Key": "AA1521EC44C8CA51F1C2EC808AA1164C",
+        "SourceString": "A radar that detects aircraft across a large effective radius and must be built atop a solid foundational hardpoint within bunker systems—for both operational stability and defence. The SC-3 Aerial Interceptor Array, or AIA, uses state-of-the-art technology to emit short radio bursts that provide aerial intelligence to nearby receivers and entrenched anti-aircraft defences.",
+        "LocalizedString": "A radar that detects aircraft across a large effective radius and must be built atop a solid foundational hardpoint within bunker systems—for both operational stability and defence. The SC-3 Aerial Interceptor Array, or AIA, uses state-of-the-art technology to emit short radio bursts that provide aerial intelligence to nearby receivers and entrenched anti-aircraft defences."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'FortLargeRadarIcon'",
+        "ObjectPath": "War/Content/Textures/UI/StructureIcons/FortLargeRadarIcon.0"
+      },
+      "BuildCategory": "EBuildCategory::Bunker",
+      "bDropsLargeMaterialsWhenDestroyed": false,
+      "ValidBuildTools": 52,
+      "ConcreteSettler": {
+        "bEnabled": true
+      },
+      "CodeName": "FortLargeRadar",
+      "ChassisName": {
+        "TableId": "/Game/Blueprints/StringTables/STChassis.STChassis",
+        "Key": "ChassisEntrenchment",
+        "SourceString": "Entrenchment",
+        "LocalizedString": "Entrenchment"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "CCCE8A9D44CC5BCE674CBBAC7C53049B",
+        "SourceString": "SC-3 Aerial Interceptor Array",
+        "LocalizedString": "SC-3 Aerial Interceptor Array"
+      },
+      "ArmourType": "EArmourType::Tier3Structure",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPFortLargeRadar_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPFortLargeRadar_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.10"
+      },
+      "KillVolume": {
+        "ObjectName": "BoxComponent'Default__BPFortLargeRadar_C:KillVolume'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.9"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'GrenadeBlast'",
+        "ObjectPath": "War/Content/FX/GrenadeBlast.151"
+      },
+      "TechID": "ETechID::UnlockAircraftRadar",
+      "TechComponentIDs": [
+        "ETechComponentID::AdvancedBunkers"
+      ],
+      "InfrastructureComponent": {
+        "ObjectName": "InfrastructureComponent'Default__BPFortLargeRadar_C:InfrastructureComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.19"
+      },
+      "MaxHealth": 2550,
+      "Health": 2550,
+      "MapIconType": "EMapIconType::FortAircraftRadar",
+      "bLogWhenDestroyed": true,
+      "bRotateDropLocation": true,
+      "ScreenToUse": "ESimScreen::AircraftRadar",
+      "StructureNetRelevancySize": "EStructureNetRelevancySize::Large",
+      "RequiredPowerForRotation": 2.5,
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPFortLargeRadar_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.60"
+      },
+      "NetCullDistanceSquared": 25000000.0,
+      "NetUpdateFrequency": 15.0,
+      "MinNetUpdateFrequency": 15.0,
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPFortLargeRadar_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPFortLargeRadar_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MapIntelligenceSource",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'MapIntelligenceSourceComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_BPFortLargeRadar",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BPFortLargeRadar",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BPFortLargeRadar_C:ExecuteUbergraph_BPFortLargeRadar.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.5"
+      },
+      {
+        "ObjectName": "IntProperty'BPFortLargeRadar_C:ExecuteUbergraph_BPFortLargeRadar.K2Node_Event_VisualTeamId'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.16"
+      },
+      {
+        "ObjectName": "ByteProperty'BPFortLargeRadar_C:ExecuteUbergraph_BPFortLargeRadar.CallFunc_Conv_IntToByte_ReturnValue'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.15"
+      },
+      {
+        "ObjectName": "BoolProperty'BPFortLargeRadar_C:ExecuteUbergraph_BPFortLargeRadar.CallFunc_HasAuthority_ReturnValue'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.8"
+      },
+      {
+        "ObjectName": "BoolProperty'BPFortLargeRadar_C:ExecuteUbergraph_BPFortLargeRadar.CallFunc_EqualEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.7"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+    "Outer": "ExecuteUbergraph_BPFortLargeRadar",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_HasAuthority_ReturnValue",
+    "Outer": "ExecuteUbergraph_BPFortLargeRadar",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "KillVolume",
+    "Outer": "Default__BPFortLargeRadar_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 250.0,
+        "Y": 250.0,
+        "Z": 24.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFortLargeRadar_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 180.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPFortLargeRadar_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 320.0,
+        "Y": 320.0,
+        "Z": 128.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFortLargeRadar_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -28.0
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "BackFortSocket_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "SocketTags": [
+        {
+          "SocketTypeMask": 4,
+          "SocketTypeCategory": 4,
+          "Tag": "SideBack",
+          "ShowsTag": "None",
+          "ShowsTagBoth": "None",
+          "ShowsTagHigher": "None",
+          "HidesTagBoth": "None",
+          "HidesTagHigher": "None",
+          "MaxZOffset": 0.0,
+          "ApplicationRule": "EBuildSocketTagRule::AffectsBoth",
+          "ConnectorAttachmentTag": "None"
+        }
+      ],
+      "Direction": "ESocketDirection::Back",
+      "RelativeLocation": {
+        "X": -250.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99976,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "FrontFortSocket_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "SocketTags": [
+        {
+          "SocketTypeMask": 4,
+          "SocketTypeCategory": 4,
+          "Tag": "SideFront",
+          "ShowsTag": "None",
+          "ShowsTagBoth": "None",
+          "ShowsTagHigher": "None",
+          "HidesTagBoth": "None",
+          "HidesTagHigher": "None",
+          "MaxZOffset": 0.0,
+          "ApplicationRule": "EBuildSocketTagRule::AffectsBoth",
+          "ConnectorAttachmentTag": "None"
+        }
+      ],
+      "Direction": "ESocketDirection::Front",
+      "RelativeLocation": {
+        "X": 250.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "LeftFortSocket_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "SocketTags": [
+        {
+          "SocketTypeMask": 4,
+          "SocketTypeCategory": 4,
+          "Tag": "SideLeft",
+          "ShowsTag": "None",
+          "ShowsTagBoth": "None",
+          "ShowsTagHigher": "None",
+          "HidesTagBoth": "None",
+          "HidesTagHigher": "None",
+          "MaxZOffset": 0.0,
+          "ApplicationRule": "EBuildSocketTagRule::AffectsBoth",
+          "ConnectorAttachmentTag": "None"
+        }
+      ],
+      "Direction": "ESocketDirection::Left",
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -250.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.000114,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "RightFortSocket_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "SocketTags": [
+        {
+          "SocketTypeMask": 4,
+          "SocketTypeCategory": 4,
+          "Tag": "SideRight",
+          "ShowsTag": "None",
+          "ShowsTagBoth": "None",
+          "ShowsTagHigher": "None",
+          "HidesTagBoth": "None",
+          "HidesTagHigher": "None",
+          "MaxZOffset": 0.0,
+          "ApplicationRule": "EBuildSocketTagRule::AffectsBoth",
+          "ConnectorAttachmentTag": "None"
+        }
+      ],
+      "Direction": "ESocketDirection::Right",
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.999626,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "CallFunc_Conv_IntToByte_ReturnValue",
+    "Outer": "ExecuteUbergraph_BPFortLargeRadar",
+    "Class": "UScriptClass'ByteProperty'",
+    "Enum": null
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_Event_VisualTeamId",
+    "Outer": "ExecuteUbergraph_BPFortLargeRadar",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "ConstParm"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "VisualTeamId",
+    "Outer": "BPSetTeamVisuals",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "BPSetTeamVisuals",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'TeamStructure:BPSetTeamVisuals'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BPFortLargeRadar_C:BPSetTeamVisuals.VisualTeamId'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.17"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InfrastructureComponent",
+    "Name": "InfrastructureComponent",
+    "Outer": "Default__BPFortLargeRadar_C",
+    "Class": "UScriptClass'InfrastructureComponent'",
+    "Properties": {
+      "FilteredTypes": "EFortModificationType::Desk",
+      "FilteredTypes[1]": "EFortModificationType::Module"
+    }
+  },
+  {
+    "Type": "MapIntelligenceSourceComponent",
+    "Name": "MapIntelligenceSource_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'MapIntelligenceSourceComponent'",
+    "Properties": {
+      "ContainerFlags": 2,
+      "DetectionRadius": 50000.0,
+      "HalfDetectionAngle": 75.0
+    }
+  },
+  {
+    "Type": "MultiplexedSkeletalMeshComponent",
+    "Name": "MultiplexedSkeletalMesh_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'MultiplexedSkeletalMeshComponent'",
+    "Properties": {
+      "TargetTag": "Multiplexed",
+      "MeshStops": [
+        {
+          "Threshold": 0,
+          "SkeletalMesh": {
+            "ObjectName": "SkeletalMesh'SK_FortLargerRadarCritical'",
+            "ObjectPath": "War/Content/Animation/WorldAssets/Fort_and_Trenches/FortRader/SK_FortLargerRadarCritical.0"
+          }
+        },
+        {
+          "Threshold": 33,
+          "SkeletalMesh": {
+            "ObjectName": "SkeletalMesh'SK_FortLargerRadarDamage'",
+            "ObjectPath": "War/Content/Animation/WorldAssets/Fort_and_Trenches/FortRader/SK_FortLargerRadarDamage.0"
+          }
+        },
+        {
+          "Threshold": 66,
+          "SkeletalMesh": {
+            "ObjectName": "SkeletalMesh'SK_FortLargerRadar'",
+            "ObjectPath": "War/Content/Animation/WorldAssets/Fort_and_Trenches/FortRader/SK_FortLargerRadar.0"
+          }
+        }
+      ],
+      "InputValue": 100,
+      "SelectedMeshIndex": 2
+    }
+  },
+  {
+    "Type": "MultiplexedStaticMeshComponent",
+    "Name": "MultiplexedStaticMesh_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'MultiplexedStaticMeshComponent'",
+    "Properties": {
+      "TargetTag": "Multiplexed2",
+      "MeshStops": [
+        {
+          "Threshold": 0,
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'IntelligenceCenterTopConcreteDamagedCritical'",
+            "ObjectPath": "War/Content/Meshes/Structures/IntelligenceCenterTopConcreteDamagedCritical.2"
+          }
+        },
+        {
+          "Threshold": 33,
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'IntelligenceCenterTopConcreteDamaged'",
+            "ObjectPath": "War/Content/Meshes/Structures/IntelligenceCenterTopConcreteDamaged.2"
+          }
+        },
+        {
+          "Threshold": 66,
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'IntelligenceCenterTopConcrete'",
+            "ObjectPath": "War/Content/Meshes/Structures/IntelligenceCenterTopConcrete.2"
+          }
+        }
+      ],
+      "InputValue": 100,
+      "SelectedMeshIndex": 2
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BackFortSocket",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BuildSocketComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Flag",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Flag2",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FloorMesh",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FrontFortSocket",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BuildSocketComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LargeFortCommon",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LeftFortSocket",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BuildSocketComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MultiplexedSkeletalMesh",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'MultiplexedSkeletalMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MultiplexedStaticMesh",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'MultiplexedStaticMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "OccupiableComponent",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StructureSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "OccupiableTrigger",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RightFortSocket",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BuildSocketComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RoofMesh",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPFortLargeRadar_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.36"
+      },
+      "VariableGuid": "6F9A620C-4B15380B-2CC77895-979D14F2",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MultiplexedSkeletalMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MultiplexedSkeletalMeshComponent'BPFortLargeRadar_C:MultiplexedSkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.21"
+      },
+      "VariableGuid": "7E269B41-44D05ECF-650A2F99-93625811",
+      "InternalVariableName": "MultiplexedSkeletalMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BuildSocketComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BuildSocketComponent'BPFortLargeRadar_C:BackFortSocket_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.11"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A06EC8BE-4B9B0B18-57057D94-B72E09F3",
+      "InternalVariableName": "BackFortSocket"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BuildSocketComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BuildSocketComponent'BPFortLargeRadar_C:RightFortSocket_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.14"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3B7C43CD-4F603082-54A38B90-EC82CCBB",
+      "InternalVariableName": "RightFortSocket"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BuildSocketComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BuildSocketComponent'BPFortLargeRadar_C:FrontFortSocket_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.12"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1376366A-4EBB2488-5EA626A6-98F74700",
+      "InternalVariableName": "FrontFortSocket"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StructureSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StructureSeatComponent'BPFortLargeRadar_C:OccupiableComponent_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.61"
+      },
+      "ParentComponentOrVariableName": "SkeletalMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7B17A740-4AB74D50-5E8988AE-5A6B006F",
+      "InternalVariableName": "OccupiableComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortLargeRadar_C:FloorMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.58"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E410FA14-4767D897-B082DEB5-25A79920",
+      "InternalVariableName": "FloorMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPFortLargeRadar_C:OccupiableTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.52"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8CBAE47A-4EAB0400-0AC7D28C-6FFE8E43",
+      "InternalVariableName": "OccupiableTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MapIntelligenceSourceComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MapIntelligenceSourceComponent'BPFortLargeRadar_C:MapIntelligenceSource_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.20"
+      },
+      "VariableGuid": "8649F55F-498FB779-C83408BB-2E41D76D",
+      "InternalVariableName": "MapIntelligenceSource"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortLargeRadar_C:RoofMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.59"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "09C10C7A-4758936F-C791E182-8E4FBBB8",
+      "InternalVariableName": "RoofMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortLargeRadar_C:Flag_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.57"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7F671D2A-4B3377F0-2F7C99A8-66201F6A",
+      "InternalVariableName": "Flag"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortLargeRadar_C:Flag2_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.56"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F1347D76-4DD0D930-7753B2BD-E2498B1A",
+      "InternalVariableName": "Flag2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MultiplexedStaticMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MultiplexedStaticMeshComponent'BPFortLargeRadar_C:MultiplexedStaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.22"
+      },
+      "VariableGuid": "55E174F0-43C884E3-0F9496AD-37418ACC",
+      "InternalVariableName": "MultiplexedStaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPFortLargeRadar_C:LargeFortCommon_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.62"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C90D7566-4A958CE3-6ACC348B-E3EE05B0",
+      "InternalVariableName": "LargeFortCommon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BuildSocketComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BuildSocketComponent'BPFortLargeRadar_C:LeftFortSocket_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.13"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "08F003A7-4298DB58-2004B181-C6C4C3EA",
+      "InternalVariableName": "LeftFortSocket"
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "OccupiableTrigger_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 320.0,
+        "Y": 320.0,
+        "Z": 128.0
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -28.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.45"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.45"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPFortLargeRadar_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.37"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "BaseMesh",
+    "Outer": "Default__BPFortLargeRadar_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_FortLargerRadar_Lower'",
+        "ObjectPath": "War/Content/Animation/WorldAssets/Fort_and_Trenches/FortRader/SK_FortLargerRadar_Lower.0"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFortLargeRadar_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -0.00030517578,
+        "Z": -158.47472
+      },
+      "ComponentTags": [
+        "NoConcrete"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMesh",
+    "Outer": "Default__BPFortLargeRadar_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Fort_Rader_C'",
+        "ObjectPath": "War/Content/Animation/WorldAssets/Fort_and_Trenches/FortRader/Anim/ABP_Fort_Rader.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_FortLargerRadar'",
+        "ObjectPath": "War/Content/Animation/WorldAssets/Fort_and_Trenches/FortRader/SK_FortLargerRadar.0"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFortLargeRadar_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 145.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "Multiplexed",
+        "NoConcrete",
+        "RoofVisibility",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Flag2_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "War/Content/Meshes/Measurement/Plane.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'FlagHangingColonials'",
+          "ObjectPath": "War/Content/Materials/Structures/FlagHangingColonials.0"
+        }
+      ],
+      "bGenerateOverlapEvents": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -129.0,
+        "Y": 164.00002,
+        "Z": -10.400088
+      },
+      "RelativeRotation": {
+        "Pitch": 5.464151E-05,
+        "Yaw": -89.999954,
+        "Roll": 89.99995
+      },
+      "RelativeScale3D": {
+        "X": 1.4,
+        "Y": 2.2,
+        "Z": 1.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Flag_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "War/Content/Meshes/Measurement/Plane.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'FlagHangingColonials'",
+          "ObjectPath": "War/Content/Materials/Structures/FlagHangingColonials.0"
+        }
+      ],
+      "bGenerateOverlapEvents": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 130.00066,
+        "Y": -155.0004,
+        "Z": -8.400015
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99892,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 1.4,
+        "Y": 2.2,
+        "Z": 1.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FloorMesh_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Floor01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Floor01.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "RoofMesh_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Roof01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Roof01.2"
+      },
+      "bReceivesDecals": false,
+      "bCastHiddenShadow": true,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "RoofVisibility"
+      ]
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPFortLargeRadar_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "StructureSeatComponent",
+    "Name": "OccupiableComponent_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'StructureSeatComponent'",
+    "Properties": {
+      "bProvidesFullCover": false,
+      "bCheckForPlayersOnOccupy": true,
+      "bOccupantCrouches": false,
+      "TriggerName": "OccupiableTrigger",
+      "MountCodeName": "FortLargeRadar",
+      "bIsExposed": true,
+      "MountComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortLargeRadarMountComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Components/BPFortLargeRadarMountComponent.0"
+      },
+      "RelativeLocation": {
+        "X": 189.431,
+        "Y": 5.0924427E-05,
+        "Z": -204.11609
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "LargeFortCommon_GEN_VARIABLE",
+    "Outer": "BPFortLargeRadar_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPLargeFortCommon_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPLargeFortCommon.1"
+      }
+    }
+  },
+  {
+    "Type": "WarAudioComponent",
+    "Name": "RotationSFXLoop",
+    "Outer": "Default__BPFortLargeRadar_C",
+    "Class": "UScriptClass'WarAudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFortLargeRadar_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortLargeRadar.3"
+      }
+    }
+  }
+]

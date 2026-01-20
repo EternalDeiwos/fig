@@ -1,0 +1,148 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPRadioAircraftPickup_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPRadioAircraftPickup_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPRadioAircraftPickup.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'RadioPickup'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPRadioAircraftPickup_C'Default__BPRadioAircraftPickup_C'",
+      "ObjectPath": "War/Content/Blueprints/ItemPickups/BPRadioAircraftPickup.1"
+    }
+  },
+  {
+    "Type": "BPRadioAircraftPickup_C",
+    "Name": "Default__BPRadioAircraftPickup_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/ItemPickups/BPRadioAircraftPickup.BPRadioAircraftPickup_C'",
+    "Properties": {
+      "MapIntelContainer": "EMapIntelContainer::Air",
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPRadioAircraftPickup_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPRadioAircraftPickup.7"
+      },
+      "CodeName": "RadioAircraft",
+      "ChassisName": {
+        "TableId": "/Game/Blueprints/StringTables/STChassis.STChassis",
+        "Key": "ChassisFieldGear",
+        "SourceString": "Field Gear",
+        "LocalizedString": "Field Gear"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "339908314D92BD5CCE3678BB9923ED9D",
+        "SourceString": "Liason Transmitter",
+        "LocalizedString": "Liason Transmitter"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C339C6BB47AA7CDEF3AF1E98E396C4F8",
+        "SourceString": "Allows receiving map intelligence reports on detected airborne targets.",
+        "LocalizedString": "Allows receiving map intelligence reports on detected airborne targets."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'RadioItemIcon'",
+        "ObjectPath": "War/Content/Textures/UI/ItemIcons/RadioItemIcon.0"
+      },
+      "SubTypeIcon": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SubtypeAirIcon'",
+          "ObjectPath": "War/Content/Textures/UI/ItemIcons/SubtypeAirIcon.0"
+        }
+      },
+      "EquipmentSlot": "EEquipmentSlot::Utility",
+      "ItemCategory": "EItemCategory::Utility",
+      "ItemProfileType": "EItemProfileType::Tool",
+      "ItemMesh": null,
+      "ItemBox": {
+        "ObjectName": "BoxComponent'Default__BPRadioAircraftPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPRadioAircraftPickup.2"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Default__BPRadioAircraftPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPRadioAircraftPickup.2"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "ItemBox",
+    "Outer": "Default__BPRadioAircraftPickup_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 64.0,
+        "Y": 30.57192,
+        "Z": 22.76623
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPRadioAircraftPickup_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPRadioAircraftPickup_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPRadioAircraftPickup.3"
+      },
+      "VariableGuid": "DE30D4EF-4241894A-9E6C3DBD-4D6D2CCF",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPRadioAircraftPickup_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPRadioAircraftPickup_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPRadioAircraftPickup.4"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ItemMesh",
+    "Outer": "Default__BPRadioAircraftPickup_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BoxComponent'Default__BPRadioAircraftPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPRadioAircraftPickup.2"
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPRadioAircraftPickup_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

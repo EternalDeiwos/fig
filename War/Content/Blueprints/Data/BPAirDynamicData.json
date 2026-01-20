@@ -1,0 +1,1238 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BPAirDynamicData",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AirDynamicData'",
+        "ObjectPath": "/Script/War"
+      }
+    },
+    "Rows": {
+      "AircraftFighterW": {
+        "EnginePower": 1239000.0,
+        "MaxSpeed": 2600.0,
+        "MaxSpeedFromEngine": 2200.0,
+        "MaxSpeedFromEngineUnsupportedSurface": 600.0,
+        "MaxSpeedFromEngineMissingPartMultiplier": 0.05,
+        "MaxEngineRPM": 1000.0,
+        "OverspeedEngineRPM": 1500.0,
+        "MaxReverseThrottlePct": 0.3,
+        "MaxReverseThrottleSpeed": 200.0,
+        "MaxControlDeflections": {
+          "X": 30.0,
+          "Y": 45.0,
+          "Z": 45.0,
+          "W": 45.0
+        },
+        "ControlChangeRate": {
+          "X": 180.0,
+          "Y": 270.0,
+          "Z": 180.0,
+          "W": 90.0
+        },
+        "SimulationScale": 3.5,
+        "WheelGripCurve": {
+          "ObjectName": "CurveFloat'AircraftGripCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftGripCurve.0"
+        },
+        "WheelRollingResistanceCurve": {
+          "ObjectName": "CurveFloat'LightAircraftRollingResistanceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftRollingResistanceCurve.0"
+        },
+        "WheelRollingResistanceUnsupportedSurfaceCurve": {
+          "ObjectName": "CurveFloat'LightAircraftRollingResistanceUnsupportedSurfaceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftRollingResistanceUnsupportedSurfaceCurve.0"
+        },
+        "SupportedSurfaceTypes": [
+          "SurfaceType15",
+          "SurfaceType16"
+        ],
+        "WheelBrakeCoefficient": 0.5,
+        "SuspensionStiffness": 1.5,
+        "SuspensionDamping": 0.5,
+        "TailSuspensionStiffness": 2.0,
+        "TailSuspensionDamping": 0.5,
+        "NormalizedCrashDamagePerSecond": 0.033,
+        "CrashDamageAngleThreshold": 85.0,
+        "CollisionSpeedDamageCurve": null,
+        "AssistModeMaxRoll": 60.0,
+        "AssistModeMaxPitch": 30.0,
+        "ElevatorControl": {
+          "PID": {
+            "X": 0.2,
+            "Y": 0.3,
+            "Z": 0.05
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "YawControl": {
+          "PID": {
+            "X": 2.0,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 1.5,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "RudderControl": {
+          "PID": {
+            "X": 0.5,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 0.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "AileronControl": {
+          "PID": {
+            "X": -0.15,
+            "Y": 0.0,
+            "Z": -0.03
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "ThrottleControl": {
+          "PID": {
+            "X": 20.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "MinSpeedFlaps": 1.0,
+        "MinSpeedOffset": 0.1,
+        "TrimCurveTable": {
+          "ObjectName": "CurveTable'AircraftFighterWTrimCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWTrimCurve.0"
+        },
+        "AirDensityCurve": {
+          "ObjectName": "CurveFloat'AirDensityCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+        }
+      },
+      "AircraftBomberC": {
+        "EnginePower": 1023750.0,
+        "MaxSpeed": 2000.0,
+        "MaxSpeedFromEngine": 1750.0,
+        "MaxSpeedFromEngineUnsupportedSurface": 600.0,
+        "MaxSpeedFromEngineMissingPartMultiplier": 0.05,
+        "MaxEngineRPM": 1000.0,
+        "OverspeedEngineRPM": 1500.0,
+        "MaxReverseThrottlePct": 0.5,
+        "MaxReverseThrottleSpeed": 200.0,
+        "MaxControlDeflections": {
+          "X": 30.0,
+          "Y": 45.0,
+          "Z": 45.0,
+          "W": 45.0
+        },
+        "ControlChangeRate": {
+          "X": 90.0,
+          "Y": 270.0,
+          "Z": 90.0,
+          "W": 90.0
+        },
+        "SimulationScale": 3.5,
+        "WheelGripCurve": {
+          "ObjectName": "CurveFloat'AircraftGripCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftGripCurve.0"
+        },
+        "WheelRollingResistanceCurve": {
+          "ObjectName": "CurveFloat'HeavyAircraftRollingResistanceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/HeavyAircraftRollingResistanceCurve.0"
+        },
+        "WheelRollingResistanceUnsupportedSurfaceCurve": {
+          "ObjectName": "CurveFloat'HeavyAircraftRollingResistanceUnsupportedSurfaceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/HeavyAircraftRollingResistanceUnsupportedSurfaceCurve.0"
+        },
+        "SupportedSurfaceTypes": [
+          "SurfaceType16"
+        ],
+        "WheelBrakeCoefficient": 0.5,
+        "SuspensionStiffness": 1.0,
+        "SuspensionDamping": 0.5,
+        "TailSuspensionStiffness": 2.0,
+        "TailSuspensionDamping": 0.5,
+        "NormalizedCrashDamagePerSecond": 0.033,
+        "CrashDamageAngleThreshold": 85.0,
+        "CollisionSpeedDamageCurve": null,
+        "AssistModeMaxRoll": 45.0,
+        "AssistModeMaxPitch": 26.0,
+        "ElevatorControl": {
+          "PID": {
+            "X": 0.1,
+            "Y": 0.0,
+            "Z": 0.08
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "YawControl": {
+          "PID": {
+            "X": 3.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.5,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "RudderControl": {
+          "PID": {
+            "X": 0.05,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 2.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "AileronControl": {
+          "PID": {
+            "X": -0.2,
+            "Y": 0.0,
+            "Z": -0.08
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": true
+        },
+        "ThrottleControl": {
+          "PID": {
+            "X": 10.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "MinSpeedFlaps": 0.5,
+        "MinSpeedOffset": 0.2,
+        "TrimCurveTable": {
+          "ObjectName": "CurveTable'AircraftBomberCTrimCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberCTrimCurve.0"
+        },
+        "AirDensityCurve": {
+          "ObjectName": "CurveFloat'AirDensityCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+        }
+      },
+      "AircraftWaterW": {
+        "EnginePower": 1100000.0,
+        "MaxSpeed": 2000.0,
+        "MaxSpeedFromEngine": 1850.0,
+        "MaxSpeedFromEngineUnsupportedSurface": 500.0,
+        "MaxSpeedFromEngineMissingPartMultiplier": 0.05,
+        "MaxEngineRPM": 1000.0,
+        "OverspeedEngineRPM": 1500.0,
+        "MaxReverseThrottlePct": 0.3,
+        "MaxReverseThrottleSpeed": 200.0,
+        "MaxControlDeflections": {
+          "X": 30.0,
+          "Y": 45.0,
+          "Z": 45.0,
+          "W": 45.0
+        },
+        "ControlChangeRate": {
+          "X": 180.0,
+          "Y": 270.0,
+          "Z": 180.0,
+          "W": 90.0
+        },
+        "SimulationScale": 3.5,
+        "WheelGripCurve": {
+          "ObjectName": "CurveFloat'AircraftGripCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftGripCurve.0"
+        },
+        "WheelRollingResistanceCurve": {
+          "ObjectName": "CurveFloat'LightAircraftRollingResistanceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftRollingResistanceCurve.0"
+        },
+        "WheelRollingResistanceUnsupportedSurfaceCurve": {
+          "ObjectName": "CurveFloat'LightAircraftRollingResistanceUnsupportedSurfaceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftRollingResistanceUnsupportedSurfaceCurve.0"
+        },
+        "SupportedSurfaceTypes": [
+          "SurfaceType15",
+          "SurfaceType16",
+          "SurfaceType2"
+        ],
+        "WheelBrakeCoefficient": 0.5,
+        "SuspensionStiffness": 1.5,
+        "SuspensionDamping": 0.5,
+        "TailSuspensionStiffness": 2.0,
+        "TailSuspensionDamping": 0.5,
+        "NormalizedCrashDamagePerSecond": 0.033,
+        "CrashDamageAngleThreshold": 85.0,
+        "CollisionSpeedDamageCurve": null,
+        "AssistModeMaxRoll": 60.0,
+        "AssistModeMaxPitch": 30.0,
+        "ElevatorControl": {
+          "PID": {
+            "X": 0.2,
+            "Y": 0.3,
+            "Z": 0.05
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "YawControl": {
+          "PID": {
+            "X": 2.0,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 1.5,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "RudderControl": {
+          "PID": {
+            "X": 0.5,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 0.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "AileronControl": {
+          "PID": {
+            "X": -0.15,
+            "Y": 0.0,
+            "Z": -0.03
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "ThrottleControl": {
+          "PID": {
+            "X": 20.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "MinSpeedFlaps": 1.0,
+        "MinSpeedOffset": 0.1,
+        "TrimCurveTable": {
+          "ObjectName": "CurveTable'AircraftWaterWTrimCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterWTrimCurve.0"
+        },
+        "AirDensityCurve": {
+          "ObjectName": "CurveFloat'AirDensityCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+        }
+      },
+      "AircraftScoutW": {
+        "EnginePower": 350000.0,
+        "MaxSpeed": 1900.0,
+        "MaxSpeedFromEngine": 1550.0,
+        "MaxSpeedFromEngineUnsupportedSurface": 500.0,
+        "MaxSpeedFromEngineMissingPartMultiplier": 0.05,
+        "MaxEngineRPM": 1000.0,
+        "OverspeedEngineRPM": 1500.0,
+        "MaxReverseThrottlePct": 0.5,
+        "MaxReverseThrottleSpeed": 200.0,
+        "MaxControlDeflections": {
+          "X": 30.0,
+          "Y": 45.0,
+          "Z": 45.0,
+          "W": 45.0
+        },
+        "ControlChangeRate": {
+          "X": 180.0,
+          "Y": 270.0,
+          "Z": 180.0,
+          "W": 90.0
+        },
+        "SimulationScale": 3.5,
+        "WheelGripCurve": {
+          "ObjectName": "CurveFloat'AircraftGripCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftGripCurve.0"
+        },
+        "WheelRollingResistanceCurve": {
+          "ObjectName": "CurveFloat'LightAircraftRollingResistanceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftRollingResistanceCurve.0"
+        },
+        "WheelRollingResistanceUnsupportedSurfaceCurve": {
+          "ObjectName": "CurveFloat'LightAircraftRollingResistanceUnsupportedSurfaceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftRollingResistanceUnsupportedSurfaceCurve.0"
+        },
+        "SupportedSurfaceTypes": [
+          "SurfaceType14",
+          "SurfaceType15",
+          "SurfaceType16",
+          "SurfaceType2",
+          "SurfaceType11"
+        ],
+        "WheelBrakeCoefficient": 0.5,
+        "SuspensionStiffness": 1.5,
+        "SuspensionDamping": 0.5,
+        "TailSuspensionStiffness": 2.0,
+        "TailSuspensionDamping": 0.5,
+        "NormalizedCrashDamagePerSecond": 0.033,
+        "CrashDamageAngleThreshold": 85.0,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'LightAircraftCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftCollisionDamageCurve.0"
+        },
+        "AssistModeMaxRoll": 60.0,
+        "AssistModeMaxPitch": 30.0,
+        "ElevatorControl": {
+          "PID": {
+            "X": 0.2,
+            "Y": 0.3,
+            "Z": 0.05
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "YawControl": {
+          "PID": {
+            "X": 2.0,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 1.5,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "RudderControl": {
+          "PID": {
+            "X": 0.5,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 0.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "AileronControl": {
+          "PID": {
+            "X": -0.15,
+            "Y": 0.0,
+            "Z": -0.03
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "ThrottleControl": {
+          "PID": {
+            "X": 20.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "MinSpeedFlaps": 1.0,
+        "MinSpeedOffset": 0.25,
+        "TrimCurveTable": {
+          "ObjectName": "CurveTable'AircraftScoutWTrimCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutWTrimCurve.0"
+        },
+        "AirDensityCurve": {
+          "ObjectName": "CurveFloat'AirDensityCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+        }
+      },
+      "AircraftDiveC": {
+        "EnginePower": 1150000.0,
+        "MaxSpeed": 2600.0,
+        "MaxSpeedFromEngine": 1750.0,
+        "MaxSpeedFromEngineUnsupportedSurface": 400.0,
+        "MaxSpeedFromEngineMissingPartMultiplier": 0.05,
+        "MaxEngineRPM": 1000.0,
+        "OverspeedEngineRPM": 1500.0,
+        "MaxReverseThrottlePct": 0.3,
+        "MaxReverseThrottleSpeed": 200.0,
+        "MaxControlDeflections": {
+          "X": 30.0,
+          "Y": 45.0,
+          "Z": 45.0,
+          "W": 45.0
+        },
+        "ControlChangeRate": {
+          "X": 180.0,
+          "Y": 270.0,
+          "Z": 180.0,
+          "W": 90.0
+        },
+        "SimulationScale": 3.5,
+        "WheelGripCurve": {
+          "ObjectName": "CurveFloat'AircraftGripCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftGripCurve.0"
+        },
+        "WheelRollingResistanceCurve": {
+          "ObjectName": "CurveFloat'LightAircraftRollingResistanceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftRollingResistanceCurve.0"
+        },
+        "WheelRollingResistanceUnsupportedSurfaceCurve": {
+          "ObjectName": "CurveFloat'LightAircraftRollingResistanceUnsupportedSurfaceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftRollingResistanceUnsupportedSurfaceCurve.0"
+        },
+        "SupportedSurfaceTypes": [
+          "SurfaceType15",
+          "SurfaceType16"
+        ],
+        "WheelBrakeCoefficient": 0.5,
+        "SuspensionStiffness": 1.5,
+        "SuspensionDamping": 0.5,
+        "TailSuspensionStiffness": 2.0,
+        "TailSuspensionDamping": 0.5,
+        "NormalizedCrashDamagePerSecond": 0.033,
+        "CrashDamageAngleThreshold": 85.0,
+        "CollisionSpeedDamageCurve": null,
+        "AssistModeMaxRoll": 60.0,
+        "AssistModeMaxPitch": 30.0,
+        "ElevatorControl": {
+          "PID": {
+            "X": 0.2,
+            "Y": 0.3,
+            "Z": 0.05
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "YawControl": {
+          "PID": {
+            "X": 2.0,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 1.5,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "RudderControl": {
+          "PID": {
+            "X": 0.5,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 0.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "AileronControl": {
+          "PID": {
+            "X": -0.15,
+            "Y": 0.0,
+            "Z": -0.03
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "ThrottleControl": {
+          "PID": {
+            "X": 20.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "MinSpeedFlaps": 1.0,
+        "MinSpeedOffset": 0.1,
+        "TrimCurveTable": {
+          "ObjectName": "CurveTable'AircraftDiveCTrimCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftDiveCTrimCurve.0"
+        },
+        "AirDensityCurve": {
+          "ObjectName": "CurveFloat'AirDensityCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+        }
+      },
+      "AircraftScoutC": {
+        "EnginePower": 350000.0,
+        "MaxSpeed": 1900.0,
+        "MaxSpeedFromEngine": 1550.0,
+        "MaxSpeedFromEngineUnsupportedSurface": 500.0,
+        "MaxSpeedFromEngineMissingPartMultiplier": 0.05,
+        "MaxEngineRPM": 1000.0,
+        "OverspeedEngineRPM": 1500.0,
+        "MaxReverseThrottlePct": 0.5,
+        "MaxReverseThrottleSpeed": 200.0,
+        "MaxControlDeflections": {
+          "X": 30.0,
+          "Y": 45.0,
+          "Z": 45.0,
+          "W": 45.0
+        },
+        "ControlChangeRate": {
+          "X": 180.0,
+          "Y": 270.0,
+          "Z": 180.0,
+          "W": 90.0
+        },
+        "SimulationScale": 3.5,
+        "WheelGripCurve": {
+          "ObjectName": "CurveFloat'AircraftGripCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftGripCurve.0"
+        },
+        "WheelRollingResistanceCurve": {
+          "ObjectName": "CurveFloat'LightAircraftRollingResistanceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftRollingResistanceCurve.0"
+        },
+        "WheelRollingResistanceUnsupportedSurfaceCurve": {
+          "ObjectName": "CurveFloat'LightAircraftRollingResistanceUnsupportedSurfaceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftRollingResistanceUnsupportedSurfaceCurve.0"
+        },
+        "SupportedSurfaceTypes": [
+          "SurfaceType14",
+          "SurfaceType15",
+          "SurfaceType16",
+          "SurfaceType2",
+          "SurfaceType11"
+        ],
+        "WheelBrakeCoefficient": 0.5,
+        "SuspensionStiffness": 1.5,
+        "SuspensionDamping": 0.5,
+        "TailSuspensionStiffness": 2.0,
+        "TailSuspensionDamping": 0.5,
+        "NormalizedCrashDamagePerSecond": 0.033,
+        "CrashDamageAngleThreshold": 85.0,
+        "CollisionSpeedDamageCurve": {
+          "ObjectName": "CurveFloat'LightAircraftCollisionDamageCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftCollisionDamageCurve.0"
+        },
+        "AssistModeMaxRoll": 60.0,
+        "AssistModeMaxPitch": 30.0,
+        "ElevatorControl": {
+          "PID": {
+            "X": 0.2,
+            "Y": 0.3,
+            "Z": 0.05
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "YawControl": {
+          "PID": {
+            "X": 2.0,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 1.5,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "RudderControl": {
+          "PID": {
+            "X": 0.5,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 0.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "AileronControl": {
+          "PID": {
+            "X": -0.15,
+            "Y": 0.0,
+            "Z": -0.03
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "ThrottleControl": {
+          "PID": {
+            "X": 20.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "MinSpeedFlaps": 1.0,
+        "MinSpeedOffset": 0.25,
+        "TrimCurveTable": {
+          "ObjectName": "CurveTable'AircraftScoutCTrimCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutCTrimCurve.0"
+        },
+        "AirDensityCurve": {
+          "ObjectName": "CurveFloat'AirDensityCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+        }
+      },
+      "AircraftTorpedoW": {
+        "EnginePower": 1100000.0,
+        "MaxSpeed": 1900.0,
+        "MaxSpeedFromEngine": 1650.0,
+        "MaxSpeedFromEngineUnsupportedSurface": 600.0,
+        "MaxSpeedFromEngineMissingPartMultiplier": 0.05,
+        "MaxEngineRPM": 1000.0,
+        "OverspeedEngineRPM": 1500.0,
+        "MaxReverseThrottlePct": 0.5,
+        "MaxReverseThrottleSpeed": 200.0,
+        "MaxControlDeflections": {
+          "X": 30.0,
+          "Y": 45.0,
+          "Z": 45.0,
+          "W": 45.0
+        },
+        "ControlChangeRate": {
+          "X": 180.0,
+          "Y": 270.0,
+          "Z": 180.0,
+          "W": 90.0
+        },
+        "SimulationScale": 3.5,
+        "WheelGripCurve": {
+          "ObjectName": "CurveFloat'AircraftGripCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftGripCurve.0"
+        },
+        "WheelRollingResistanceCurve": {
+          "ObjectName": "CurveFloat'HeavyAircraftRollingResistanceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/HeavyAircraftRollingResistanceCurve.0"
+        },
+        "WheelRollingResistanceUnsupportedSurfaceCurve": {
+          "ObjectName": "CurveFloat'HeavyAircraftRollingResistanceUnsupportedSurfaceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/HeavyAircraftRollingResistanceUnsupportedSurfaceCurve.0"
+        },
+        "SupportedSurfaceTypes": [
+          "SurfaceType15",
+          "SurfaceType16"
+        ],
+        "WheelBrakeCoefficient": 0.5,
+        "SuspensionStiffness": 1.5,
+        "SuspensionDamping": 0.5,
+        "TailSuspensionStiffness": 2.0,
+        "TailSuspensionDamping": 0.5,
+        "NormalizedCrashDamagePerSecond": 0.033,
+        "CrashDamageAngleThreshold": 85.0,
+        "CollisionSpeedDamageCurve": null,
+        "AssistModeMaxRoll": 60.0,
+        "AssistModeMaxPitch": 30.0,
+        "ElevatorControl": {
+          "PID": {
+            "X": 0.2,
+            "Y": 0.3,
+            "Z": 0.05
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "YawControl": {
+          "PID": {
+            "X": 2.0,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 1.5,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "RudderControl": {
+          "PID": {
+            "X": 0.5,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 0.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "AileronControl": {
+          "PID": {
+            "X": -0.15,
+            "Y": 0.0,
+            "Z": -0.03
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "ThrottleControl": {
+          "PID": {
+            "X": 20.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "MinSpeedFlaps": 1.0,
+        "MinSpeedOffset": 0.1,
+        "TrimCurveTable": {
+          "ObjectName": "CurveTable'AircraftTorpedoWTrimCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoWTrimCurve.0"
+        },
+        "AirDensityCurve": {
+          "ObjectName": "CurveFloat'AirDensityCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+        }
+      },
+      "AircraftParatrooperC": {
+        "EnginePower": 1023750.0,
+        "MaxSpeed": 2000.0,
+        "MaxSpeedFromEngine": 1750.0,
+        "MaxSpeedFromEngineUnsupportedSurface": 500.0,
+        "MaxSpeedFromEngineMissingPartMultiplier": 0.05,
+        "MaxEngineRPM": 1000.0,
+        "OverspeedEngineRPM": 1500.0,
+        "MaxReverseThrottlePct": 0.3,
+        "MaxReverseThrottleSpeed": 200.0,
+        "MaxControlDeflections": {
+          "X": 30.0,
+          "Y": 45.0,
+          "Z": 45.0,
+          "W": 45.0
+        },
+        "ControlChangeRate": {
+          "X": 90.0,
+          "Y": 270.0,
+          "Z": 90.0,
+          "W": 90.0
+        },
+        "SimulationScale": 3.5,
+        "WheelGripCurve": {
+          "ObjectName": "CurveFloat'AircraftGripCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftGripCurve.0"
+        },
+        "WheelRollingResistanceCurve": {
+          "ObjectName": "CurveFloat'HeavyAircraftRollingResistanceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/HeavyAircraftRollingResistanceCurve.0"
+        },
+        "WheelRollingResistanceUnsupportedSurfaceCurve": {
+          "ObjectName": "CurveFloat'HeavyAircraftRollingResistanceUnsupportedSurfaceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/HeavyAircraftRollingResistanceUnsupportedSurfaceCurve.0"
+        },
+        "SupportedSurfaceTypes": [
+          "SurfaceType15",
+          "SurfaceType16",
+          "SurfaceType2"
+        ],
+        "WheelBrakeCoefficient": 0.5,
+        "SuspensionStiffness": 1.0,
+        "SuspensionDamping": 0.5,
+        "TailSuspensionStiffness": 2.0,
+        "TailSuspensionDamping": 0.5,
+        "NormalizedCrashDamagePerSecond": 0.033,
+        "CrashDamageAngleThreshold": 85.0,
+        "CollisionSpeedDamageCurve": null,
+        "AssistModeMaxRoll": 45.0,
+        "AssistModeMaxPitch": 26.0,
+        "ElevatorControl": {
+          "PID": {
+            "X": 0.1,
+            "Y": 0.0,
+            "Z": 0.08
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "YawControl": {
+          "PID": {
+            "X": 3.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.5,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "RudderControl": {
+          "PID": {
+            "X": 0.05,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 2.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "AileronControl": {
+          "PID": {
+            "X": -0.2,
+            "Y": 0.0,
+            "Z": -0.08
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": true
+        },
+        "ThrottleControl": {
+          "PID": {
+            "X": 10.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "MinSpeedFlaps": 0.5,
+        "MinSpeedOffset": 0.2,
+        "TrimCurveTable": {
+          "ObjectName": "CurveTable'AircraftParatrooperCTrimCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftParatrooperCTrimCurve.0"
+        },
+        "AirDensityCurve": {
+          "ObjectName": "CurveFloat'AirDensityCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+        }
+      },
+      "AircraftFighterC": {
+        "EnginePower": 1500000.0,
+        "MaxSpeed": 2600.0,
+        "MaxSpeedFromEngine": 2200.0,
+        "MaxSpeedFromEngineUnsupportedSurface": 600.0,
+        "MaxSpeedFromEngineMissingPartMultiplier": 0.05,
+        "MaxEngineRPM": 1000.0,
+        "OverspeedEngineRPM": 1500.0,
+        "MaxReverseThrottlePct": 0.3,
+        "MaxReverseThrottleSpeed": 200.0,
+        "MaxControlDeflections": {
+          "X": 30.0,
+          "Y": 45.0,
+          "Z": 45.0,
+          "W": 45.0
+        },
+        "ControlChangeRate": {
+          "X": 180.0,
+          "Y": 270.0,
+          "Z": 180.0,
+          "W": 90.0
+        },
+        "SimulationScale": 3.5,
+        "WheelGripCurve": {
+          "ObjectName": "CurveFloat'AircraftGripCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftGripCurve.0"
+        },
+        "WheelRollingResistanceCurve": {
+          "ObjectName": "CurveFloat'LightAircraftRollingResistanceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftRollingResistanceCurve.0"
+        },
+        "WheelRollingResistanceUnsupportedSurfaceCurve": {
+          "ObjectName": "CurveFloat'LightAircraftRollingResistanceUnsupportedSurfaceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/LightAircraftRollingResistanceUnsupportedSurfaceCurve.0"
+        },
+        "SupportedSurfaceTypes": [
+          "SurfaceType15",
+          "SurfaceType16"
+        ],
+        "WheelBrakeCoefficient": 0.5,
+        "SuspensionStiffness": 1.5,
+        "SuspensionDamping": 0.5,
+        "TailSuspensionStiffness": 2.0,
+        "TailSuspensionDamping": 0.5,
+        "NormalizedCrashDamagePerSecond": 0.033,
+        "CrashDamageAngleThreshold": 85.0,
+        "CollisionSpeedDamageCurve": null,
+        "AssistModeMaxRoll": 60.0,
+        "AssistModeMaxPitch": 30.0,
+        "ElevatorControl": {
+          "PID": {
+            "X": 0.2,
+            "Y": 0.3,
+            "Z": 0.05
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "YawControl": {
+          "PID": {
+            "X": 2.0,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 1.5,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "RudderControl": {
+          "PID": {
+            "X": 0.5,
+            "Y": 0.0,
+            "Z": 0.1
+          },
+          "IntegralSaturation": 0.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "AileronControl": {
+          "PID": {
+            "X": -0.15,
+            "Y": 0.0,
+            "Z": -0.03
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "ThrottleControl": {
+          "PID": {
+            "X": 20.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "MinSpeedFlaps": 1.0,
+        "MinSpeedOffset": 0.2,
+        "TrimCurveTable": {
+          "ObjectName": "CurveTable'AircraftFighterCTrimCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterCTrimCurve.0"
+        },
+        "AirDensityCurve": {
+          "ObjectName": "CurveFloat'AirDensityCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+        }
+      },
+      "AircraftBomberW": {
+        "EnginePower": 1023750.0,
+        "MaxSpeed": 2000.0,
+        "MaxSpeedFromEngine": 1750.0,
+        "MaxSpeedFromEngineUnsupportedSurface": 600.0,
+        "MaxSpeedFromEngineMissingPartMultiplier": 0.05,
+        "MaxEngineRPM": 1000.0,
+        "OverspeedEngineRPM": 1500.0,
+        "MaxReverseThrottlePct": 0.5,
+        "MaxReverseThrottleSpeed": 200.0,
+        "MaxControlDeflections": {
+          "X": 30.0,
+          "Y": 45.0,
+          "Z": 45.0,
+          "W": 45.0
+        },
+        "ControlChangeRate": {
+          "X": 90.0,
+          "Y": 270.0,
+          "Z": 90.0,
+          "W": 90.0
+        },
+        "SimulationScale": 3.5,
+        "WheelGripCurve": {
+          "ObjectName": "CurveFloat'AircraftGripCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftGripCurve.0"
+        },
+        "WheelRollingResistanceCurve": {
+          "ObjectName": "CurveFloat'HeavyAircraftRollingResistanceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/HeavyAircraftRollingResistanceCurve.0"
+        },
+        "WheelRollingResistanceUnsupportedSurfaceCurve": {
+          "ObjectName": "CurveFloat'HeavyAircraftRollingResistanceUnsupportedSurfaceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/HeavyAircraftRollingResistanceUnsupportedSurfaceCurve.0"
+        },
+        "SupportedSurfaceTypes": [
+          "SurfaceType16"
+        ],
+        "WheelBrakeCoefficient": 0.5,
+        "SuspensionStiffness": 1.0,
+        "SuspensionDamping": 0.5,
+        "TailSuspensionStiffness": 2.0,
+        "TailSuspensionDamping": 0.5,
+        "NormalizedCrashDamagePerSecond": 0.033,
+        "CrashDamageAngleThreshold": 85.0,
+        "CollisionSpeedDamageCurve": null,
+        "AssistModeMaxRoll": 45.0,
+        "AssistModeMaxPitch": 26.0,
+        "ElevatorControl": {
+          "PID": {
+            "X": 0.1,
+            "Y": 0.0,
+            "Z": 0.08
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "YawControl": {
+          "PID": {
+            "X": 3.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.5,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "RudderControl": {
+          "PID": {
+            "X": 0.05,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 2.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "AileronControl": {
+          "PID": {
+            "X": -0.2,
+            "Y": 0.0,
+            "Z": -0.08
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": true
+        },
+        "ThrottleControl": {
+          "PID": {
+            "X": 10.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "MinSpeedFlaps": 0.5,
+        "MinSpeedOffset": 0.2,
+        "TrimCurveTable": {
+          "ObjectName": "CurveTable'AircraftBomberWTrimCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftBomberWTrimCurve.0"
+        },
+        "AirDensityCurve": {
+          "ObjectName": "CurveFloat'AirDensityCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+        }
+      },
+      "AircraftParatrooperW": {
+        "EnginePower": 900000.0,
+        "MaxSpeed": 2000.0,
+        "MaxSpeedFromEngine": 1750.0,
+        "MaxSpeedFromEngineUnsupportedSurface": 500.0,
+        "MaxSpeedFromEngineMissingPartMultiplier": 0.05,
+        "MaxEngineRPM": 1000.0,
+        "OverspeedEngineRPM": 1500.0,
+        "MaxReverseThrottlePct": 0.5,
+        "MaxReverseThrottleSpeed": 200.0,
+        "MaxControlDeflections": {
+          "X": 30.0,
+          "Y": 45.0,
+          "Z": 45.0,
+          "W": 45.0
+        },
+        "ControlChangeRate": {
+          "X": 90.0,
+          "Y": 270.0,
+          "Z": 90.0,
+          "W": 90.0
+        },
+        "SimulationScale": 3.5,
+        "WheelGripCurve": {
+          "ObjectName": "CurveFloat'AircraftGripCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftGripCurve.0"
+        },
+        "WheelRollingResistanceCurve": {
+          "ObjectName": "CurveFloat'HeavyAircraftRollingResistanceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/HeavyAircraftRollingResistanceCurve.0"
+        },
+        "WheelRollingResistanceUnsupportedSurfaceCurve": {
+          "ObjectName": "CurveFloat'HeavyAircraftRollingResistanceUnsupportedSurfaceCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/HeavyAircraftRollingResistanceUnsupportedSurfaceCurve.0"
+        },
+        "SupportedSurfaceTypes": [
+          "SurfaceType15",
+          "SurfaceType16",
+          "SurfaceType2"
+        ],
+        "WheelBrakeCoefficient": 0.5,
+        "SuspensionStiffness": 1.0,
+        "SuspensionDamping": 0.5,
+        "TailSuspensionStiffness": 2.0,
+        "TailSuspensionDamping": 0.5,
+        "NormalizedCrashDamagePerSecond": 0.033,
+        "CrashDamageAngleThreshold": 85.0,
+        "CollisionSpeedDamageCurve": null,
+        "AssistModeMaxRoll": 45.0,
+        "AssistModeMaxPitch": 26.0,
+        "ElevatorControl": {
+          "PID": {
+            "X": 0.1,
+            "Y": 0.0,
+            "Z": 0.08
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "YawControl": {
+          "PID": {
+            "X": 3.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.5,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "RudderControl": {
+          "PID": {
+            "X": 0.05,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 2.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "AileronControl": {
+          "PID": {
+            "X": -0.2,
+            "Y": 0.0,
+            "Z": -0.08
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": true
+        },
+        "ThrottleControl": {
+          "PID": {
+            "X": 10.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "IntegralSaturation": 1.0,
+          "OutputSaturation": 1.0,
+          "bUseValueRate": false
+        },
+        "MinSpeedFlaps": 0.5,
+        "MinSpeedOffset": 0.2,
+        "TrimCurveTable": {
+          "ObjectName": "CurveTable'AircraftParatrooperWTrimCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftParatrooperWTrimCurve.0"
+        },
+        "AirDensityCurve": {
+          "ObjectName": "CurveFloat'AirDensityCurve'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+        }
+      }
+    }
+  }
+]

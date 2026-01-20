@@ -1,0 +1,210 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "SeaMineForBoat",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "BoxElems": [
+          {
+            "Center": {
+              "X": 0.16700745,
+              "Y": -1.5140228,
+              "Z": -3.7700195
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 104.23592,
+            "Y": 106.222466,
+            "Z": 119.39503,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "D0E797CC413D47E711E735B348CE851F",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 77201,
+        "SizeOnDisk": 77201,
+        "OffsetInFile": "0x5A2E9"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Outer": "SeaMineForBoat",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 265,
+        "SizeOnDisk": 265,
+        "OffsetInFile": "0x6D0C2"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SeaMineForBoat",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'SeaMine'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/LargeShips/SubmarineW/Materials/SeaMine.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "ImportedMaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 286.5452,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 286.5452,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 7.6293945E-06
+        },
+        "BoxExtent": {
+          "X": 64.38585,
+          "Y": 65.37909,
+          "Z": 71.96538
+        },
+        "SphereRadius": 82.86803
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SeaMineForBoat:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/SeaMineForBoat.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SeaMineForBoat:NavCollision_2'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/SeaMineForBoat.1"
+    },
+    "LightingGuid": "43A285C6-411B9F8C-2A349480-684694C6",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 2680,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 2419,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 2420
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 2420,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 1340,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 1370,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 3.267017,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1371
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 1371,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 7.6293945E-06
+        },
+        "BoxExtent": {
+          "X": 64.38585,
+          "Y": 65.37909,
+          "Z": 71.96538
+        },
+        "SphereRadius": 82.86803
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.5045979,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

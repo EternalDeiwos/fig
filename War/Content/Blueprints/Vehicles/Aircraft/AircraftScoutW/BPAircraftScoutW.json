@@ -1,0 +1,1998 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPAircraftScoutW_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.61"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'BPAircraftScoutW_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BPAircraftScoutW_C:ExecuteUbergraph_BPAircraftScoutW'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.13"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AirVehicle'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BPAircraftScoutW_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.0"
+      },
+      {
+        "ObjectName": "Function'BPAircraftScoutW_C:BPOnVehicleOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.14"
+      },
+      {
+        "ObjectName": "Function'BPAircraftScoutW_C:ExecuteUbergraph_BPAircraftScoutW'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftScoutW_C:ExhaustRight1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.11"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftScoutW_C:ExhaustRight'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftScoutW_C:GunnerExit'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.30"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftScoutW_C:GunnerTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftScoutW_C:PayloadStaticMesh1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftScoutW_C:BPWaterStencilComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftScoutW_C:PayloadStaticMesh'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.32"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftScoutW_C:BomberSeat1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftScoutW_C:Camera'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftScoutW_C:DriverTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftScoutW_C:DriverExit'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftScoutW_C:DriverSeat0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.27"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BPAircraftScoutW": {
+        "ObjectName": "Function'BPAircraftScoutW_C:ExecuteUbergraph_BPAircraftScoutW'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.13"
+      },
+      "BPOnVehicleOn": {
+        "ObjectName": "Function'BPAircraftScoutW_C:BPOnVehicleOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.14"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftScoutW_C'Default__BPAircraftScoutW_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.2"
+    }
+  },
+  {
+    "Type": "BPAircraftScoutW_C",
+    "Name": "Default__BPAircraftScoutW_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.BPAircraftScoutW_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "WeaponConfigs": [
+        {
+          "DisplayName": {
+            "Namespace": "",
+            "Key": "75A25C4C435D539B7F406B975B6D10B2",
+            "SourceString": "TBD - HMG",
+            "LocalizedString": "TBD - HMG"
+          },
+          "AmmoCodeName": "MGAmmo",
+          "WeaponCodeName": "AircraftScoutW_HMG",
+          "MuzzleIndices": [
+            0
+          ],
+          "FiringRate": 0.25,
+          "ConvergenceDistance": 7500.0,
+          "MaxDeviation": 20.0,
+          "ImpactEffect": {
+            "ObjectName": "BlueprintGeneratedClass'RifleImpactEffect_C'",
+            "ObjectPath": "War/Content/Blueprints/Items/RifleImpactEffect.1"
+          },
+          "WeaponFireFX": {
+            "ObjectName": "BlueprintGeneratedClass'TracerFireMG_C'",
+            "ObjectPath": "War/Content/Blueprints/TracerFireMG.1"
+          },
+          "WeaponShotSFX": {
+            "FiringLoop": null,
+            "FiringStopped": null
+          },
+          "ShotSoundCue": {
+            "ObjectName": "SoundCue'FieldMGShot_Cue'",
+            "ObjectPath": "War/Content/Audio/SFX/Weapons/FieldMG/FieldMGShot_Cue.0"
+          },
+          "MuzzleFlashPS": {
+            "ObjectName": "ParticleSystem'MachinegunMF'",
+            "ObjectPath": "War/Content/FX/MachinegunMF.41"
+          },
+          "bSpawnExtraTracers": true
+        }
+      ],
+      "SimulatedHitNotifies": {
+        "DeltaFlags": "EFastArraySerializerDeltaFlags::HasBeenSerialized"
+      },
+      "bAllowReloadAsDriver": true,
+      "MaxDeviationAtStandardDropHeight": 500.0,
+      "BombPayloadMeshes": {
+        "GunnerIndex": 1,
+        "bUseForMuzzleTransform": true
+      },
+      "Collision": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftScoutW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.65"
+      },
+      "Surfaces": [
+        {
+          "SurfaceParamsRow": "AircraftScoutWWing",
+          "Params": {
+            "LiftCurveSlope": 8.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 15.0,
+            "NegativeStallAngle": -15.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0087264255,
+              "Z": 0.0,
+              "W": 0.9999619,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 75.0,
+              "Y": 125.0,
+              "Z": 95.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 230.0,
+            "Y": 250.0
+          },
+          "ControlSurfaceFraction": 0.2,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 4.478,
+          "bUseManualAspectRatio": true,
+          "Type": "EAirSurfaceType::Flaps"
+        },
+        {
+          "SurfaceParamsRow": "AircraftScoutWWing",
+          "Params": {
+            "LiftCurveSlope": 8.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 15.0,
+            "NegativeStallAngle": -15.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 2.540111E-12,
+              "Y": -0.0087264255,
+              "Z": 2.9107156E-10,
+              "W": 0.9999619,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 75.0,
+              "Y": -125.0,
+              "Z": 95.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 230.0,
+            "Y": 250.0
+          },
+          "ControlSurfaceFraction": 0.2,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 4.478,
+          "bUseManualAspectRatio": true,
+          "Type": "EAirSurfaceType::Flaps"
+        },
+        {
+          "SurfaceParamsRow": "AircraftScoutWWing",
+          "Params": {
+            "LiftCurveSlope": 8.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 15.0,
+            "NegativeStallAngle": -15.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 2.743319E-11,
+              "Y": -0.0087264255,
+              "Z": 3.1435718E-09,
+              "W": 0.9999619,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 75.0,
+              "Y": 382.5,
+              "Z": 95.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 230.0,
+            "Y": 265.0
+          },
+          "ControlSurfaceFraction": 0.15,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 4.478,
+          "bUseManualAspectRatio": true,
+          "Type": "EAirSurfaceType::Aileron"
+        },
+        {
+          "SurfaceParamsRow": "AircraftScoutWWing",
+          "Params": {
+            "LiftCurveSlope": 8.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 15.0,
+            "NegativeStallAngle": -15.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 7.6203323E-13,
+              "Y": -0.0087264255,
+              "Z": 8.732146E-11,
+              "W": 0.9999619,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 75.0,
+              "Y": -382.5,
+              "Z": 95.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 230.0,
+            "Y": 265.0
+          },
+          "ControlSurfaceFraction": 0.15,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 4.478,
+          "bUseManualAspectRatio": true,
+          "Type": "EAirSurfaceType::Aileron"
+        },
+        {
+          "SurfaceParamsRow": "AircraftScoutWControlSurface",
+          "Params": {
+            "LiftCurveSlope": 5.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 15.0,
+            "NegativeStallAngle": -15.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.014111169,
+              "Z": 0.0,
+              "W": 0.99990046,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -590.0,
+              "Y": 0.0,
+              "Z": 60.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 150.0,
+            "Y": 210.0
+          },
+          "ControlSurfaceFraction": 0.5,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 0.0,
+          "bUseManualAspectRatio": false,
+          "Type": "EAirSurfaceType::Elevator"
+        },
+        {
+          "SurfaceParamsRow": "AircraftScoutWWing",
+          "Params": {
+            "LiftCurveSlope": 8.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 15.0,
+            "NegativeStallAngle": -15.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.70710653,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.70710707,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -590.0,
+              "Y": 0.0,
+              "Z": 90.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 130.0,
+            "Y": 120.0
+          },
+          "ControlSurfaceFraction": 0.5,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 0.0,
+          "bUseManualAspectRatio": false,
+          "Type": "EAirSurfaceType::Rudder"
+        },
+        {
+          "SurfaceParamsRow": "AircraftScoutWControlSurface",
+          "Params": {
+            "LiftCurveSlope": 5.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 15.0,
+            "NegativeStallAngle": -15.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.70710653,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.70710707,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -250.0,
+              "Y": 0.0,
+              "Z": 20.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 600.0,
+            "Y": 70.0
+          },
+          "ControlSurfaceFraction": 0.0,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 0.0,
+          "bUseManualAspectRatio": false,
+          "Type": "EAirSurfaceType::Fixed"
+        }
+      ],
+      "Masses": [
+        {
+          "Offset": {
+            "X": 75.0,
+            "Y": 0.0,
+            "Z": 95.0
+          },
+          "Extents": {
+            "X": 95.0,
+            "Y": 515.0,
+            "Z": 16.0
+          },
+          "MassPercentage": 0.18
+        },
+        {
+          "Offset": {
+            "X": 130.0,
+            "Y": 0.0,
+            "Z": 50.0
+          },
+          "Extents": {
+            "X": 125.0,
+            "Y": 60.0,
+            "Z": 60.0
+          },
+          "MassPercentage": 0.65
+        },
+        {
+          "Offset": {
+            "X": -270.0,
+            "Y": 0.0,
+            "Z": 25.0
+          },
+          "Extents": {
+            "X": 280.0,
+            "Y": 25.0,
+            "Z": 25.0
+          },
+          "MassPercentage": 0.15
+        },
+        {
+          "Offset": {
+            "X": 22.0,
+            "Y": 0.0,
+            "Z": 155.0
+          },
+          "Extents": {
+            "X": 80.0,
+            "Y": 35.0,
+            "Z": 45.0
+          },
+          "MassPercentage": 0.1
+        }
+      ],
+      "CollisionCapsules": [
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -6.217249E-15,
+              "Y": -0.70710677,
+              "Z": -8.881784E-15,
+              "W": 0.7071067,
+              "IsNormalized": true,
+              "Size": 0.99999994,
+              "SizeSquared": 0.9999999
+            },
+            "Translation": {
+              "X": -100.0,
+              "Y": 0.0,
+              "Z": 50.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Radius": 100.0,
+          "HalfHeight": 500.0
+        },
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -0.7071069,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 0.7071066,
+              "IsNormalized": true,
+              "Size": 0.99999994,
+              "SizeSquared": 0.9999999
+            },
+            "Translation": {
+              "X": 95.0,
+              "Y": 0.0,
+              "Z": 110.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Radius": 140.0,
+          "HalfHeight": 600.0
+        }
+      ],
+      "CollisionDamagePS": {
+        "ObjectName": "ParticleSystem'VehicleCollisionImpact'",
+        "ObjectPath": "War/Content/FX/VehicleCollisionImpact.54"
+      },
+      "AirTrailsLeftPS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPAircraftScoutW_C:AirTrailsLeftPS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.36"
+      },
+      "AirTrailsRightPS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPAircraftScoutW_C:AirTrailsRightPS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.37"
+      },
+      "CollisionDamageCue": {
+        "ObjectName": "SoundCue'AircraftDamage_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftDamage_Cue.0"
+      },
+      "EnginePitchCurve": {
+        "ObjectName": "CurveFloat'AircraftScoutWEnginePitch'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutWEnginePitch.0"
+      },
+      "EngineLoopCue": {
+        "ObjectName": "SoundCue'AircraftFighterWEngineLoop_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftFighterWEngineLoop_Cue.0"
+      },
+      "Engines": [
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -115.0,
+              "Y": 0.0,
+              "Z": 95.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Diameter": 175.0,
+          "DamageThrustFactor": 1.0,
+          "RPM": 0.0,
+          "EngineLoop": null
+        }
+      ],
+      "Wheels": [
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -0.0,
+              "Y": 0.3826831,
+              "Z": 0.0,
+              "W": 0.9238797,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -550.0,
+              "Y": 0.0,
+              "Z": 5.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "SuspensionLength": 28.0,
+          "Radius": 13.0,
+          "bCanBrake": false,
+          "bCanSwivel": true,
+          "bEnabled": true
+        },
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 120.0,
+              "Y": -170.0,
+              "Z": -68.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "SuspensionLength": 85.0,
+          "Radius": 28.0,
+          "bCanBrake": true,
+          "bCanSwivel": false,
+          "bEnabled": true
+        },
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -7.0459344E-17,
+              "Y": -1.6658132E-25,
+              "Z": 2.364219E-09,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 120.0,
+              "Y": 170.0,
+              "Z": -68.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "SuspensionLength": 85.0,
+          "Radius": 28.0,
+          "bCanBrake": true,
+          "bCanSwivel": false,
+          "bEnabled": true
+        }
+      ],
+      "AltitudeToPanRadiusCurve": {
+        "ObjectName": "CurveFloat'AltitudeToPanRadiusCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AltitudeToPanRadiusCurve.0"
+      },
+      "AltitudeToCameraPitchCurve": {
+        "ObjectName": "CurveFloat'AltitudeToPitchCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AltitudeToPitchCurve.0"
+      },
+      "PitchToCameraPitchCurve": {
+        "ObjectName": "CurveFloat'PitchToCameraPitchCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/PitchToCameraPitchCurve.0"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPAircraftScoutW_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.18"
+      },
+      "FuselageGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftScoutW_C:FuselageGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.5"
+      },
+      "LeftWingGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftScoutW_C:LeftWingGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.6"
+      },
+      "RightWingGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftScoutW_C:RightWingGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.7"
+      },
+      "TailGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftScoutW_C:TailGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.8"
+      },
+      "EngineGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftScoutW_C:EngineGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.4"
+      },
+      "GenericStockpileComponent": {
+        "ObjectName": "GenericStockpileComponent'Default__BPAircraftScoutW_C:GenericStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.22"
+      },
+      "DriverType": "EAirDriverType::Gunner",
+      "bCanBeRepairedByLargeShips": true,
+      "bCantEnterWithItems": true,
+      "BuildOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 100.0
+      },
+      "BuildRotation": {
+        "Pitch": 4.5,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "45D9BA4A4554082AB21350AA796ABDED",
+        "SourceString": "Luminary Mk. IV Herald",
+        "LocalizedString": "Luminary Mk. IV Herald"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6ACAB4174C95AB2D4FDC21B19EF198E9",
+        "SourceString": "The Mk. IV is a lighter Luminary aircraft designed for high and low-altitude intelligence gathering. Living up to its namesake, the Herald has been instrumental in thwarting several Colonial operations in the west. What it lacks in resilience and firepower, it more than makes up for in flexibility.",
+        "LocalizedString": "The Mk. IV is a lighter Luminary aircraft designed for high and low-altitude intelligence gathering. Living up to its namesake, the Herald has been instrumental in thwarting several Colonial operations in the west. What it lacks in resilience and firepower, it more than makes up for in flexibility."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'AircraftScoutWIcon'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/Textures/AircraftScoutWIcon.0"
+      },
+      "TechID": "ETechID::UnlockAircraftScout",
+      "ShippableInfo": {
+        "Type": "EShippableType::Large"
+      },
+      "VehicleBuildType": "EVehicleBuildType::AircraftFactory",
+      "FactionVariant": "EFactionId::Wardens",
+      "CodeName": "AircraftScoutW",
+      "ArmourType": "EArmourType::Tier1Aircraft",
+      "bIsReserveStockpiled": true,
+      "DepthCuttoffForSwimDamage": 230.0,
+      "DestroyedMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPAircraftScoutW_C:DestroyedMesh'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.63"
+      },
+      "MinorDamagePS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPAircraftScoutW_C:MinorDamagePS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.39"
+      },
+      "MajorDamagePS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPAircraftScoutW_C:MajorDamagePS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.38"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'MortarBlast'",
+        "ObjectPath": "War/Content/FX/MortarBlast.194"
+      },
+      "DestroyedSoundCue": {
+        "ObjectName": "SoundCue'VehicleDeath_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Truck/VehicleDeath_Cue.0"
+      },
+      "BackUpSFXLoop": {
+        "ObjectName": "AudioComponent'Default__BPAircraftScoutW_C:BackUpSFXLoop'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.10"
+      },
+      "LockSound": {
+        "ObjectName": "SoundCue'Lock_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Lock_Cue.0"
+      },
+      "VehicleMapIntelligenceProvider": {
+        "TransmitPeriodSeconds": 5.0
+      },
+      "CameraRigComponent": {
+        "ObjectName": "PlayerCameraRigComponent'Default__BPAircraftScoutW_C:CameraRigVehicle'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.42"
+      },
+      "PassengerArea": {
+        "ObjectName": "BoxComponent'Default__BPAircraftScoutW_C:PassengerBaseBox'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.17"
+      },
+      "AFKTimeoutComponent": {
+        "ObjectName": "AFKTimeoutComponent'Default__BPAircraftScoutW_C:AFKTimeoutComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.3"
+      },
+      "MuzzleInfo": [
+        {
+          "GunnerIndex": 0,
+          "MuzzleIndex": 0,
+          "SocketName": "S_ScoutW_HMG"
+        }
+      ],
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPAircraftScoutW_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.64"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BPAircraftScoutW_C:CharacterMesh0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.62"
+      },
+      "CharacterMovement": {
+        "ObjectName": "AirMovementComponent'Default__BPAircraftScoutW_C:CharMoveComp'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.9"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftScoutW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.21"
+      },
+      "NetUpdateFrequency": 30.0,
+      "MinNetUpdateFrequency": 5.0,
+      "RootComponent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftScoutW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.65"
+      }
+    }
+  },
+  {
+    "Type": "AFKTimeoutComponent",
+    "Name": "AFKTimeoutComponent",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'AFKTimeoutComponent'"
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "EngineGroup",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftScoutW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.65"
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "FuselageGroup",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftScoutW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.65"
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "LeftWingGroup",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftScoutW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.65"
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "RightWingGroup",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftScoutW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.65"
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "TailGroup",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftScoutW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.65"
+      }
+    }
+  },
+  {
+    "Type": "AirMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'AirMovementComponent'",
+    "Properties": {
+      "AirDensityCurve": {
+        "ObjectName": "CurveFloat'AirDensityCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+      },
+      "bCanSink": false,
+      "NetworkSimulatedSmoothLocationTime": 0.3,
+      "NetworkMaxSmoothUpdateDistance": 2048.0,
+      "NetworkNoSmoothUpdateDistance": 2048.0
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "BackUpSFXLoop",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftScoutW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.21"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ExhaustRight1",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_BPAircraftScoutW",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BPAircraftScoutW",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BPAircraftScoutW_C:ExecuteUbergraph_BPAircraftScoutW.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.12"
+      },
+      {
+        "ObjectName": "BoolProperty'BPAircraftScoutW_C:ExecuteUbergraph_BPAircraftScoutW.K2Node_Event_IsOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.16"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "BPOnVehicleOn",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SimVehicle:BPOnVehicleOn'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'BPAircraftScoutW_C:BPOnVehicleOn.IsOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.15"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsOn",
+    "Outer": "BPOnVehicleOn",
+    "Class": "UScriptClass'BoolProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsOn",
+    "Outer": "ExecuteUbergraph_BPAircraftScoutW",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PassengerBaseBox",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftScoutW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.21"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 500.0,
+        "Y": 200.0,
+        "Z": 256.0
+      },
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftScoutW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.65"
+      },
+      "RelativeLocation": {
+        "X": -119.23583,
+        "Y": 0.0,
+        "Z": -41.93071
+      }
+    }
+  },
+  {
+    "Type": "BPWaterStencilComponent_C",
+    "Name": "BPWaterStencilComponent_GEN_VARIABLE",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/BPWaterStencilComponent.BPWaterStencilComponent_C'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 216.2608,
+        "Y": 0.0,
+        "Z": 40.77484
+      },
+      "RelativeScale3D": {
+        "X": 2.18042,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Camera_GEN_VARIABLE",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Properties": {
+      "bEditableWhenInherited": false
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftScoutW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.65"
+      },
+      "bShouldUpdatePhysicsVolume": false
+    }
+  },
+  {
+    "Type": "GenericStockpileComponent",
+    "Name": "GenericStockpileComponent",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'GenericStockpileComponent'"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BomberSeat1",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'VehicleSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPWaterStencilComponent",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPWaterStencilComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/BPWaterStencilComponent.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Camera",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'CameraComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverExit",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatExitComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverSeat0",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'VehicleSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverTrigger",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ExhaustRight",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "GunnerExit",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatExitComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "GunnerTrigger",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PayloadStaticMesh",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'PayloadStaticMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PayloadStaticMesh1",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'PayloadStaticMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ExhaustRight1_GEN_VARIABLE",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckExhaustDrive'",
+        "ObjectPath": "War/Content/FX/TruckExhaustDrive.18"
+      },
+      "RelativeLocation": {
+        "X": 49.113487,
+        "Y": -22.770874,
+        "Z": 144.17992
+      },
+      "RelativeRotation": {
+        "Pitch": -6.830189E-06,
+        "Yaw": 90.00001,
+        "Roll": -89.99995
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ExhaustRight_GEN_VARIABLE",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckExhaustDrive'",
+        "ObjectPath": "War/Content/FX/TruckExhaustDrive.18"
+      },
+      "RelativeLocation": {
+        "X": -49.77474,
+        "Y": -22.770876,
+        "Z": 144.17998
+      },
+      "RelativeRotation": {
+        "Pitch": -6.830189E-06,
+        "Yaw": 90.00001,
+        "Roll": -89.99995
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "AirTrailsLeftPS",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftScoutW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.65"
+      },
+      "RelativeLocation": {
+        "X": 60.0,
+        "Y": -490.0,
+        "Z": 60.0
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "AirTrailsRightPS",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftScoutW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.65"
+      },
+      "RelativeLocation": {
+        "X": 60.0,
+        "Y": 490.0,
+        "Z": 60.0
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MajorDamagePS",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftScoutW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.21"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MinorDamagePS",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftScoutW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.21"
+      }
+    }
+  },
+  {
+    "Type": "PayloadStaticMeshComponent",
+    "Name": "PayloadStaticMesh1_GEN_VARIABLE",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'PayloadStaticMeshComponent'",
+    "Properties": {
+      "bLinkToSpecificGunnerIndex": true,
+      "GunnerIndex": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MiniTorpedoAmmo'",
+        "ObjectPath": "War/Content/Meshes/Weapons/MiniTorpedoAmmo.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "RelativeLocation": {
+        "X": 86.36382,
+        "Y": 50.035378,
+        "Z": 16.446539
+      },
+      "RelativeScale3D": {
+        "X": 0.65,
+        "Y": 0.65,
+        "Z": 0.65
+      },
+      "ComponentTags": [
+        "KeepOnServer"
+      ]
+    }
+  },
+  {
+    "Type": "PayloadStaticMeshComponent",
+    "Name": "PayloadStaticMesh_GEN_VARIABLE",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'PayloadStaticMeshComponent'",
+    "Properties": {
+      "bLinkToSpecificGunnerIndex": true,
+      "GunnerIndex": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MiniTorpedoAmmo'",
+        "ObjectPath": "War/Content/Meshes/Weapons/MiniTorpedoAmmo.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "RelativeLocation": {
+        "X": -86.36382,
+        "Y": 50.035378,
+        "Z": 16.446539
+      },
+      "RelativeScale3D": {
+        "X": 0.65,
+        "Y": 0.65,
+        "Z": 0.65
+      },
+      "ComponentTags": [
+        "KeepOnServer"
+      ]
+    }
+  },
+  {
+    "Type": "PlayerCameraRigComponent",
+    "Name": "CameraRigVehicle",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'PlayerCameraRigComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftScoutW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.21"
+      },
+      "RelativeLocation": {
+        "X": 200.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": -60.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPAircraftScoutW_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.43"
+      },
+      "VariableGuid": "E8AB2031-46BD577F-13BD42AF-0F6348C1",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'VehicleSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "VehicleSeatComponent'BPAircraftScoutW_C:BomberSeat1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.66"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "16A9AC91-4F79B8A7-7FA0BA82-7A6EAF5E",
+      "InternalVariableName": "BomberSeat1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPAircraftScoutW_C:DriverTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.59"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8B30A332-49F055BC-918BF19A-B12397AE",
+      "InternalVariableName": "DriverTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftScoutW_C:ExhaustRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.35"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9F0D6388-49C3FBED-7EDDECB9-F906B77A",
+      "InternalVariableName": "ExhaustRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftScoutW_C:ExhaustRight1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.34"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A884BD02-425D3142-411719B7-78C31626",
+      "InternalVariableName": "ExhaustRight1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PayloadStaticMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PayloadStaticMeshComponent'BPAircraftScoutW_C:PayloadStaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.41"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0CEA464E-4E1FA52D-3C4F9C84-E6559683",
+      "InternalVariableName": "PayloadStaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PayloadStaticMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PayloadStaticMeshComponent'BPAircraftScoutW_C:PayloadStaticMesh1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.40"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "300F902A-466FF83A-EA3F14BF-2112F67F",
+      "InternalVariableName": "PayloadStaticMesh1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CameraComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CameraComponent'BPAircraftScoutW_C:Camera_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.20"
+      },
+      "ParentComponentOrVariableName": "CameraRigVehicle",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6C9E0FCE-439C2C8A-1A773A95-4A5DBFDE",
+      "InternalVariableName": "Camera"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPWaterStencilComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/BPWaterStencilComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPWaterStencilComponent_C'BPAircraftScoutW_C:BPWaterStencilComponent_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.19"
+      },
+      "ParentComponentOrVariableName": "Collision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BCBD8F4C-4B56C6C8-2DEE9BAD-FA7A5FCD",
+      "InternalVariableName": "BPWaterStencilComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPAircraftScoutW_C:GunnerTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.60"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0DCD1E2A-4835D4D8-C6E565AE-586EE52B",
+      "InternalVariableName": "GunnerTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatExitComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatExitComponent'BPAircraftScoutW_C:GunnerExit_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.58"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B17165A0-48C986AD-7DF270B2-328BC88B",
+      "InternalVariableName": "GunnerExit"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'VehicleSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "VehicleSeatComponent'BPAircraftScoutW_C:DriverSeat0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.67"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BFB23F87-4D5C61DB-53CBD89A-674848C1",
+      "InternalVariableName": "DriverSeat0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatExitComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatExitComponent'BPAircraftScoutW_C:DriverExit_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.57"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B4A3375E-4E5E69BA-CC4776A7-496C1138",
+      "InternalVariableName": "DriverExit"
+    }
+  },
+  {
+    "Type": "SeatExitComponent",
+    "Name": "DriverExit_GEN_VARIABLE",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'SeatExitComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 359.82043,
+        "Y": -227.3703,
+        "Z": 20.000305
+      }
+    }
+  },
+  {
+    "Type": "SeatExitComponent",
+    "Name": "GunnerExit_GEN_VARIABLE",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'SeatExitComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 359.82043,
+        "Y": 227.3703,
+        "Z": 20.000305
+      }
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "DriverTrigger_GEN_VARIABLE",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 264.0,
+        "Y": 128.0,
+        "Z": 256.0
+      },
+      "RelativeLocation": {
+        "X": 103.760025,
+        "Y": -128.66806,
+        "Z": -128.0
+      }
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "GunnerTrigger_GEN_VARIABLE",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 264.0,
+        "Y": 128.0,
+        "Z": 256.0
+      },
+      "RelativeLocation": {
+        "X": 103.760025,
+        "Y": 128.66806,
+        "Z": -127.99965
+      }
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.55"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.56"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.48"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.55"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.56"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.48"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPAircraftScoutW_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.44"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_AircraftScoutW_C'",
+        "ObjectPath": "War/Content/Animation/Aircraft/ScoutW/ABP_AircraftScoutW.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftScoutW'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/Meshes/SK_AircraftScoutW.0"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered",
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECC_Vehicle",
+        "CollisionProfileName": "AircraftMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "IceBlocker",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftScoutW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.21"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -1.4523762E-06,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DestroyedMesh",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftScoutW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/BPAircraftScoutW.21"
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "VehicleCollisionComponent",
+    "Name": "Collision",
+    "Outer": "Default__BPAircraftScoutW_C",
+    "Class": "UScriptClass'VehicleCollisionComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'AircraftScoutWPrototypeCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/Meshes/AircraftScoutWPrototypeCollision.2"
+      },
+      "bShouldUpdatePhysicsVolume": true
+    }
+  },
+  {
+    "Type": "VehicleSeatComponent",
+    "Name": "BomberSeat1_GEN_VARIABLE",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'VehicleSeatComponent'",
+    "Properties": {
+      "bCharacterIsAlwaysVisible": true,
+      "EnterSFX": {
+        "ObjectName": "SoundCue'MediumTank3CEnter_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/MediumTank3C/MediumTank3CEnter_Cue.0"
+      },
+      "Index": 1,
+      "TriggerName": "GunnerTrigger",
+      "ExitName": "GunnerExit",
+      "MountCodeName": "AircraftScoutWBomber",
+      "MountComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BPAircraftScoutWBomberMountComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/BPAircraftScoutWBomberMountComponent.0"
+      },
+      "RelativeLocation": {
+        "X": 0.49627733,
+        "Y": 145.4306,
+        "Z": 58.3909
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0001,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "VehicleSeatComponent",
+    "Name": "DriverSeat0_GEN_VARIABLE",
+    "Outer": "BPAircraftScoutW_C",
+    "Class": "UScriptClass'VehicleSeatComponent'",
+    "Properties": {
+      "bIsSwitchable": false,
+      "bCharacterIsAlwaysVisible": true,
+      "EnterSFX": {
+        "ObjectName": "SoundCue'AircraftEnter01_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftEnter01_Cue.0"
+      },
+      "TriggerName": "DriverTrigger",
+      "ExitName": "DriverExit",
+      "MountCodeName": "AircraftScoutWDriver",
+      "MountComponent": {
+        "ObjectName": "Class'AirVehicleDriverMountComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "RelativeLocation": {
+        "X": 0.4957152,
+        "Y": 231.67996,
+        "Z": 58.3909
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0001,
+        "Roll": 0.0
+      }
+    }
+  }
+]

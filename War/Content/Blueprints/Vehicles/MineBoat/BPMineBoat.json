@@ -1,0 +1,2458 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPMineBoat_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPMineBoat_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.88"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'BPMineBoat_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BPMineBoat_C:ExecuteUbergraph_BPMineBoat'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.10"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MineBoat'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BPMineBoat_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.0"
+      },
+      {
+        "ObjectName": "Function'BPMineBoat_C:BPOnVehicleOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.11"
+      },
+      {
+        "ObjectName": "Function'BPMineBoat_C:ExecuteUbergraph_BPMineBoat'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:Idle'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.8"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:ExhaustLeft'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:ExhaustRight'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:SpotLight1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.32"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:LightL'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:LightR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.30"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:SpotLight'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:WaveBreakForeRight'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.41"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:WakeAft'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.36"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:WaveBreakForeLeft'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.40"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:WaveBreakAftRight'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.39"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:WaveBreakAftLeft'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.38"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:WakeFore'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.37"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:SternGunnerExit'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:SternGunnerTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.35"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:SternGunnerSeat'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.34"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:BoatHullMesh'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:BPWaterStencilComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.22"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:Camera'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:DriverSeat'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:DriverTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMineBoat_C:DriverExit'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.24"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BPMineBoat": {
+        "ObjectName": "Function'BPMineBoat_C:ExecuteUbergraph_BPMineBoat'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.10"
+      },
+      "BPOnVehicleOn": {
+        "ObjectName": "Function'BPMineBoat_C:BPOnVehicleOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.11"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPMineBoat_C'Default__BPMineBoat_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.2"
+    }
+  },
+  {
+    "Type": "BPMineBoat_C",
+    "Name": "Default__BPMineBoat_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.BPMineBoat_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "MineSplashPS": {
+        "ObjectName": "ParticleSystem'CollisionImpactSplash01'",
+        "ObjectPath": "War/Content/FX/CollisionImpactSplash01.102"
+      },
+      "MineSplashSoundCue": {
+        "ObjectName": "SoundCue'MineBoatSplash_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/NavalGeneral/MineBoatSplash_Cue.0"
+      },
+      "MineInstanceData": [
+        {
+          "CodeName": "WaterMine",
+          "Mesh": {
+            "ObjectName": "StaticMesh'SeaMineForBoat'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/SeaMineForBoat.2"
+          },
+          "MineSpacing": 140.0,
+          "HeightOffset": 20.0,
+          "MineDeploymentPS": {
+            "ObjectName": "ParticleSystem'MineDeploy'",
+            "ObjectPath": "War/Content/FX/MineDeploy.27"
+          }
+        },
+        {
+          "CodeName": "SurfaceWaterMine",
+          "Mesh": {
+            "ObjectName": "StaticMesh'SmallSeaMine'",
+            "ObjectPath": "War/Content/Meshes/Weapons/SmallSeaMine.2"
+          },
+          "MineSpacing": 100.0,
+          "HeightOffset": 0.0,
+          "MineDeploymentPS": {
+            "ObjectName": "ParticleSystem'MineDeploy01'",
+            "ObjectPath": "War/Content/FX/MineDeploy01.27"
+          }
+        }
+      ],
+      "MineTraceLocation": {
+        "X": -1167.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "LeftMineSplashLocation": {
+        "X": -1017.0,
+        "Y": -200.0,
+        "Z": 0.0
+      },
+      "WorkVolume": {
+        "ObjectName": "BoxComponent'Default__BPMineBoat_C:WorkVolume'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.16"
+      },
+      "KillVolume": {
+        "ObjectName": "BoxComponent'Default__BPMineBoat_C:KillVolume'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.14"
+      },
+      "GenericStockpileComponent": {
+        "ObjectName": "GenericStockpileComponent'Default__BPMineBoat_C:GenericStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.20"
+      },
+      "ShipCollision": {
+        "ObjectName": "StaticMeshComponent'Default__BPMineBoat_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.95"
+      },
+      "PropellerPositions": {
+        "X": -717.0,
+        "Y": 0.0,
+        "Z": -50.0
+      },
+      "PropellerPositions[1]": {
+        "X": -717.0,
+        "Y": 0.0,
+        "Z": -50.0
+      },
+      "RudderPivot": {
+        "X": -900.0,
+        "Y": 0.0,
+        "Z": -50.0
+      },
+      "BuildOffset": {
+        "X": 800.0,
+        "Y": -135.0,
+        "Z": -290.0
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "22B7660D4F651DA431FCC9805E27CCF8",
+        "SourceString": "Bellweather by VAC",
+        "LocalizedString": "Bellweather by VAC"
+      },
+      "ChassisName": {
+        "Namespace": "",
+        "Key": "81E42B23423911E584F3D29E957F192D",
+        "SourceString": "Mine Boat",
+        "LocalizedString": "Mine Boat"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "022464324BCDC0D75E37EEA10E2BF83E",
+        "SourceString": "A simple vessel designed to lay out and maintain naval mines. Manufactured by the Venchin Auto Corporation, the Bellweather was originally commissioned by the Wenitan Naval Guard. Sensing further opportunities to profit, VAC began marketing the Bellweather to navies beyond Katoma, finally reaching Caoivish shores.",
+        "LocalizedString": "A simple vessel designed to lay out and maintain naval mines. Manufactured by the Venchin Auto Corporation, the Bellweather was originally commissioned by the Wenitan Naval Guard. Sensing further opportunities to profit, VAC began marketing the Bellweather to navies beyond Katoma, finally reaching Caoivish shores."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'MineboatIcon'",
+        "ObjectPath": "War/Content/Textures/UI/VehicleIcons/MineboatIcon.0"
+      },
+      "TechID": "ETechID::UnlockMineBoat",
+      "VehicleBuildType": "EVehicleBuildType::Shipyard",
+      "CodeName": "MineBoat",
+      "VehicleProfileType": "EVehicleProfileType::Ship",
+      "VehicleMovementProfileType": "EVehicleMovementProfileType::Truck",
+      "ArmourType": "EArmourType::Tier1Ship",
+      "FuelTank": {
+        "FuelCapacity": 200.0
+      },
+      "bCanUseStructures": true,
+      "bIsReserveStockpiled": true,
+      "bAllowItemDrop": true,
+      "DestroyedMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPMineBoat_C:DestroyedMesh'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.94"
+      },
+      "MinorDamagePS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPMineBoat_C:MinorDamagePS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.51"
+      },
+      "MajorDamagePS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPMineBoat_C:MajorDamagePS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.50"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'ATLaunchedGrenadeBlast'",
+        "ObjectPath": "War/Content/FX/ATLaunchedGrenadeBlast.190"
+      },
+      "DestroyedSoundCue": {
+        "ObjectName": "SoundCue'VehicleDeath_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Truck/VehicleDeath_Cue.0"
+      },
+      "BreakdownSoundCue": {
+        "ObjectName": "SoundCue'TruckStall_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Truck/TruckStall_Cue.0"
+      },
+      "CharatcerHitSound": {
+        "ObjectName": "SoundCue'TruckFleshImpact'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Truck/TruckFleshImpact.0"
+      },
+      "DriveLoop": {
+        "ObjectName": "AudioComponent'Default__BPMineBoat_C:DriveLoop'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.6"
+      },
+      "BackUpSFXLoop": {
+        "ObjectName": "AudioComponent'Default__BPMineBoat_C:BackUpSFXLoop'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.5"
+      },
+      "LockSound": {
+        "ObjectName": "SoundCue'Lock_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Lock_Cue.0"
+      },
+      "CameraRigComponent": {
+        "ObjectName": "PlayerCameraRigComponent'Default__BPMineBoat_C:CameraRigVehicle'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.52"
+      },
+      "FrontAxleCastLocation": {
+        "ObjectName": "SceneComponent'Default__BPMineBoat_C:FrontAxelCastLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.54"
+      },
+      "RearAxleCastLocation": {
+        "ObjectName": "SceneComponent'Default__BPMineBoat_C:RearAxleCastLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.57"
+      },
+      "FrontLeftRollCastLocation": {
+        "ObjectName": "SceneComponent'Default__BPMineBoat_C:FrontRightAxleCastLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.55"
+      },
+      "FrontRightRollCastLocation": {
+        "ObjectName": "SceneComponent'Default__BPMineBoat_C:RearRightAxleCastLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.58"
+      },
+      "LeftSideTrackLocation": {
+        "ObjectName": "SceneComponent'Default__BPMineBoat_C:LeftSideTrackLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.56"
+      },
+      "RightSideTrackLocation": {
+        "ObjectName": "SceneComponent'Default__BPMineBoat_C:RightSideTrackLocation'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.59"
+      },
+      "PassengerArea": {
+        "ObjectName": "BoxComponent'Default__BPMineBoat_C:PassengerBaseBox'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.15"
+      },
+      "AFKTimeoutComponent": {
+        "ObjectName": "AFKTimeoutComponent'Default__BPMineBoat_C:AFKTimeoutComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.3"
+      },
+      "LinearSpeedToTurnSpeedMapCurve": {
+        "ObjectName": "CurveFloat'GunboatWTurnSpeedCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/GunboatWTurnSpeedCurve.0"
+      },
+      "MuzzleInfo": [
+        {
+          "GunnerIndex": 1,
+          "MuzzleIndex": 0,
+          "SocketName": "S_Muzzle"
+        }
+      ],
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPMineBoat_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.96"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BPMineBoat_C:CharacterMesh0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.89"
+      },
+      "CharacterMovement": {
+        "ObjectName": "ShipMovementComponent'Default__BPMineBoat_C:CharMoveComp'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.87"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BPMineBoat_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.95"
+      }
+    }
+  },
+  {
+    "Type": "AFKTimeoutComponent",
+    "Name": "AFKTimeoutComponent",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'AFKTimeoutComponent'"
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "Idle_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'GunboatIdle_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Gunboat/GunboatIdle_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": 117.0,
+        "Y": 0.0,
+        "Z": 638.99963
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "BackUpSFXLoop",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "DriveLoop",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      }
+    }
+  },
+  {
+    "Type": "BoatHullMeshComponent",
+    "Name": "BoatHullMesh_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'BoatHullMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MineBoatAntiSwimVolume'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/MineBoatAntiSwimVolume.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "ShipHullMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "LandscapeAndWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeScale3D": {
+        "X": 0.99,
+        "Y": 0.99,
+        "Z": 0.99
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Idle",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_BPMineBoat",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BPMineBoat",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BPMineBoat_C:ExecuteUbergraph_BPMineBoat.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.9"
+      },
+      {
+        "ObjectName": "BoolProperty'BPMineBoat_C:ExecuteUbergraph_BPMineBoat.K2Node_Event_IsOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.13"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "BPOnVehicleOn",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SimVehicle:BPOnVehicleOn'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'BPMineBoat_C:BPOnVehicleOn.IsOn'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.12"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsOn",
+    "Outer": "BPOnVehicleOn",
+    "Class": "UScriptClass'BoolProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsOn",
+    "Outer": "ExecuteUbergraph_BPMineBoat",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "KillVolume",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BPMineBoat_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.95"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PassengerBaseBox",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 800.0,
+        "Y": 200.0,
+        "Z": 155.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      },
+      "RelativeLocation": {
+        "X": -123.566696,
+        "Y": -0.0009765625,
+        "Z": 176.1701
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "WorkVolume",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BPMineBoat_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.95"
+      }
+    }
+  },
+  {
+    "Type": "BPWaterStencilComponent_C",
+    "Name": "BPWaterStencilComponent_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/BPWaterStencilComponent.BPWaterStencilComponent_C'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MineBoatAntiSwimVolume'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/MineBoatAntiSwimVolume.2"
+      },
+      "RelativeLocation": {
+        "X": 2.6E-05,
+        "Y": -0.387531,
+        "Z": 3.410828
+      },
+      "RelativeScale3D": {
+        "X": 0.99,
+        "Y": 0.99,
+        "Z": 0.99
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Camera_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -86.07459,
+        "Y": 0.0,
+        "Z": 49.695187
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BPMineBoat_C:ShipCollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.95"
+      },
+      "RelativeLocation": {
+        "X": 105.02637,
+        "Y": 0.0,
+        "Z": 157.0
+      }
+    }
+  },
+  {
+    "Type": "GenericStockpileComponent",
+    "Name": "GenericStockpileComponent",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'GenericStockpileComponent'",
+    "Properties": {
+      "Configs": [
+        {
+          "Type": "EStockpileEntryType::Items",
+          "QuantityLimit": 32000,
+          "TotalQuantityLimit": 0,
+          "ItemCategoryFilter": 0,
+          "QuantityOverrides": [],
+          "TotalQuantityOverrides": [
+            {
+              "Key": "WaterMine",
+              "Value": 20
+            },
+            {
+              "Key": "SurfaceWaterMine",
+              "Value": 20
+            }
+          ],
+          "ValidEntriesOverride": [
+            "WaterMine",
+            "SurfaceWaterMine",
+            "MaintenanceSupplies"
+          ],
+          "PreStockedEntries": [],
+          "RetrieveDurationModifiers": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BoatHullMesh",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BoatHullMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPWaterStencilComponent",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPWaterStencilComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/BPWaterStencilComponent.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Camera",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'CameraComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverExit",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatExitComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverSeat",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'VehicleSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverTrigger",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ExhaustLeft",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ExhaustRight",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LightL",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LightR",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SpotLight",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SpotLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SpotLight1",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SpotLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SternGunnerExit",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatExitComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SternGunnerSeat",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'VehicleSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SternGunnerTrigger",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WakeAft",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WakeFore",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaveBreakAftLeft",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaveBreakAftRight",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaveBreakForeLeft",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaveBreakForeRight",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ExhaustLeft_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckExhaustDrive'",
+        "ObjectPath": "War/Content/FX/TruckExhaustDrive.18"
+      },
+      "RelativeLocation": {
+        "X": 58.380432,
+        "Y": 270.83755,
+        "Z": 571.96844
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -14.036263,
+        "Roll": 104.03627
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ExhaustRight_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckExhaustDrive'",
+        "ObjectPath": "War/Content/FX/TruckExhaustDrive.18"
+      },
+      "RelativeLocation": {
+        "X": -58.808052,
+        "Y": 270.65613,
+        "Z": 572.76624
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -14.036263,
+        "Roll": 104.03627
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WakeAft_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'BoatSplashes'",
+        "ObjectPath": "War/Content/FX/BoatSplashes.36"
+      },
+      "RelativeLocation": {
+        "X": -921.7645,
+        "Y": 0.001675,
+        "Z": -24.207855
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWake"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WakeFore_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'BoatSplashes'",
+        "ObjectPath": "War/Content/FX/BoatSplashes.36"
+      },
+      "RelativeLocation": {
+        "X": 714.5564,
+        "Y": 0.000761,
+        "Z": -24.207855
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWake"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WaveBreakAftLeft_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'LargeShipWaveBreakSplash'",
+        "ObjectPath": "War/Content/FX/LargeShipWaveBreakSplash.85"
+      },
+      "RelativeLocation": {
+        "X": -485.8081,
+        "Y": -255.77026,
+        "Z": -24.207855
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99994,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWaveBreak"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WaveBreakAftRight_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'LargeShipWaveBreakSplash'",
+        "ObjectPath": "War/Content/FX/LargeShipWaveBreakSplash.85"
+      },
+      "RelativeLocation": {
+        "X": -482.67767,
+        "Y": 259.5086,
+        "Z": -24.207855
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWaveBreak"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WaveBreakForeLeft_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'LargeShipWaveBreakSplash'",
+        "ObjectPath": "War/Content/FX/LargeShipWaveBreakSplash.85"
+      },
+      "RelativeLocation": {
+        "X": 263.79065,
+        "Y": -257.50183,
+        "Z": -24.207855
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWaveBreak"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WaveBreakForeRight_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'LargeShipWaveBreakSplash'",
+        "ObjectPath": "War/Content/FX/LargeShipWaveBreakSplash.85"
+      },
+      "RelativeLocation": {
+        "X": 263.26587,
+        "Y": 258.1745,
+        "Z": -24.207855
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "ShipWaveBreak"
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MajorDamagePS",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      },
+      "RelativeLocation": {
+        "X": -130.78947,
+        "Y": -0.00012207031,
+        "Z": -14.544022
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MinorDamagePS",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged02'",
+        "ObjectPath": "War/Content/FX/TruckDamaged02.35"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      },
+      "RelativeLocation": {
+        "X": -130.78947,
+        "Y": -0.00012207031,
+        "Z": -14.544022
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "PlayerCameraRigComponent",
+    "Name": "CameraRigVehicle",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'PlayerCameraRigComponent'",
+    "Properties": {
+      "TargetArmLength": 3000.0,
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      },
+      "RelativeRotation": {
+        "Pitch": -60.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "FrontAxelCastLocation",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "FrontRightAxleCastLocation",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "LeftSideTrackLocation",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RearAxleCastLocation",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RearRightAxleCastLocation",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RightSideTrackLocation",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPMineBoat_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.53"
+      },
+      "VariableGuid": "151308E2-4C2E08BA-C0C004A8-65F57323",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoatHullMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoatHullMeshComponent'BPMineBoat_C:BoatHullMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.7"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "14AE06B4-4C8A4694-BEEDF2B1-BCB0A2C9",
+      "InternalVariableName": "BoatHullMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPMineBoat_C:WakeFore_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.45"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F06E68F8-4523767A-113E7A8F-C6EE8929",
+      "InternalVariableName": "WakeFore"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPMineBoat_C:WaveBreakForeRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.49"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "946DCB0D-4DF379BA-653C3BAC-F2BBCB59",
+      "InternalVariableName": "WaveBreakForeRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPMineBoat_C:WaveBreakAftLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.46"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "ABC39336-41E1242C-6B6C0F9E-43808B09",
+      "InternalVariableName": "WaveBreakAftLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPMineBoat_C:WaveBreakAftRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.47"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "15A2F92E-4B62C8E7-93DA01BD-35AE7A5A",
+      "InternalVariableName": "WaveBreakAftRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPMineBoat_C:WaveBreakForeLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.48"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "306065DF-4D8609D8-9E6C18A7-20517FA7",
+      "InternalVariableName": "WaveBreakForeLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPMineBoat_C:WakeAft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.44"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "93A430DE-49F8FF34-A3FDAB85-CE7A2CBE",
+      "InternalVariableName": "WakeAft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpotLightComponent'BPMineBoat_C:SpotLight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.91"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7374399E-474F0C59-1FB1C298-464D72F9",
+      "InternalVariableName": "SpotLight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPMineBoat_C:LightR_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.93"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "AAB2CC2D-4088D009-24DA5D87-5CE512B3",
+      "InternalVariableName": "LightR"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPMineBoat_C:LightL_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.92"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BCB72F5D-4FFF083A-032C5081-5E14B4ED",
+      "InternalVariableName": "LightL"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpotLightComponent'BPMineBoat_C:SpotLight1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.90"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1DE21872-4BAF3616-2574F48D-F05BDE24",
+      "InternalVariableName": "SpotLight1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CameraComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CameraComponent'BPMineBoat_C:Camera_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.18"
+      },
+      "ParentComponentOrVariableName": "CameraRigVehicle",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "67A9C448-4C93DB17-9D40E085-B6B69DB9",
+      "InternalVariableName": "Camera"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPMineBoat_C:ExhaustRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.43"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A93B2D18-445A0D1B-679D9B8A-31E217F7",
+      "InternalVariableName": "ExhaustRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'BPMineBoat_C:Idle_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.4"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "048BB395-47EFA96A-F64B9098-6E2298EC",
+      "InternalVariableName": "Idle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_22",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPMineBoat_C:ExhaustLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.42"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3EFD3204-43A1E8ED-7BBC6EAF-C61234C1",
+      "InternalVariableName": "ExhaustLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatExitComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatExitComponent'BPMineBoat_C:DriverExit_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.83"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FF8FCD04-4BFF832D-D291309B-55CDD5AE",
+      "InternalVariableName": "DriverExit"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPMineBoat_C:DriverTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.85"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "CE3FECB2-4E44497E-94C395A0-49B67AFC",
+      "InternalVariableName": "DriverTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'VehicleSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "VehicleSeatComponent'BPMineBoat_C:DriverSeat_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.97"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D25B6AD1-415357B8-5AEC5098-031240C2",
+      "InternalVariableName": "DriverSeat"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPWaterStencilComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/BPWaterStencilComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPWaterStencilComponent_C'BPMineBoat_C:BPWaterStencilComponent_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.17"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FFCD9D7C-40D1D2D4-C1B3448F-94C8F9F0",
+      "InternalVariableName": "BPWaterStencilComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'VehicleSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "VehicleSeatComponent'BPMineBoat_C:SternGunnerSeat_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.98"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E4B1D8F0-43C96EE9-8029E980-0AF56487",
+      "InternalVariableName": "SternGunnerSeat"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPMineBoat_C:SternGunnerTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.86"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "28FFE19C-4AAF7FD5-1E3BEAAE-FD1DD85E",
+      "InternalVariableName": "SternGunnerTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatExitComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatExitComponent'BPMineBoat_C:SternGunnerExit_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.84"
+      },
+      "ParentComponentOrVariableName": "ShipCollision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B0DFF3F1-4CF6BF96-DA7E3492-1989142B",
+      "InternalVariableName": "SternGunnerExit"
+    }
+  },
+  {
+    "Type": "SeatExitComponent",
+    "Name": "DriverExit_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'SeatExitComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 322.52313,
+        "Y": 183.5987,
+        "Z": 220.08679
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99998,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SeatExitComponent",
+    "Name": "SternGunnerExit_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'SeatExitComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 208.04356,
+        "Y": -169.92181,
+        "Z": 220.08679
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99998,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "DriverTrigger_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 160.0,
+        "Y": 450.0,
+        "Z": 350.0
+      },
+      "RelativeLocation": {
+        "X": 402.47055,
+        "Y": 0.0,
+        "Z": 110.987
+      }
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "SternGunnerTrigger_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 160.0,
+        "Y": 450.0,
+        "Z": 350.0
+      },
+      "RelativeLocation": {
+        "X": 76.08653,
+        "Y": 0.0,
+        "Z": 110.990234
+      }
+    }
+  },
+  {
+    "Type": "ShipMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'ShipMovementComponent'",
+    "Properties": {
+      "ThrustCurve": {
+        "ObjectName": "CurveFloat'MineboatThrustCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/MineboatThrustCurve.0"
+      },
+      "bCanSink": false,
+      "MaxSwimSpeed": 1000.0,
+      "BrakingDecelerationSwimming": 1.0,
+      "Buoyancy": 1.0
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.76"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.77"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.78"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.72"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.79"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.61"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.80"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.81"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.82"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.62"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.64"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.65"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.66"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.67"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.63"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.68"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.69"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.70"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.71"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.73"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.75"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.74"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.76"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.77"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.78"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.72"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.79"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.61"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.80"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.81"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.82"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.62"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.64"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.65"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.66"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.67"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.63"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.68"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.69"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.70"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.71"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.73"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.75"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.74"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPMineBoat_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.60"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_MineBoat_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_MineBoat'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/SK_MineBoat.0"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::AlwaysTickPoseAndRefreshBones",
+      "OverrideMaterials": [
+        null
+      ],
+      "CanCharacterStepUpOn": "ECB_Yes",
+      "BodyInstance": {
+        "ObjectType": "ECC_Vehicle",
+        "CollisionProfileName": "LargeShipMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "IceBlocker",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'MetalPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/MetalPhys.0"
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      },
+      "RelativeLocation": {
+        "X": -72.52513,
+        "Y": 2.1E-05,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLight1_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "InnerConeAngle": 25.0,
+      "OuterConeAngle": 50.0,
+      "bUseInverseSquaredFalloff": false,
+      "AttenuationRadius": 2500.2073,
+      "bUseRayTracedDistanceFieldShadows": true,
+      "Intensity": 10.0,
+      "LightColor": {
+        "B": 164,
+        "G": 222,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFDEA4"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 51.451416,
+        "Y": 484.65735,
+        "Z": 447.06256
+      },
+      "RelativeRotation": {
+        "Pitch": -16.349642,
+        "Yaw": 50.87197,
+        "Roll": 0.00015036837
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLight_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "InnerConeAngle": 25.0,
+      "OuterConeAngle": 50.0,
+      "bUseInverseSquaredFalloff": false,
+      "AttenuationRadius": 2500.2073,
+      "bUseRayTracedDistanceFieldShadows": true,
+      "Intensity": 10.0,
+      "LightColor": {
+        "B": 164,
+        "G": 222,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFDEA4"
+      },
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": -50.78475,
+        "Y": 485.34586,
+        "Z": 447.06256
+      },
+      "RelativeRotation": {
+        "Pitch": -16.349699,
+        "Yaw": 128.78226,
+        "Roll": 0.0001352426
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "LightL_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Headlight'",
+        "ObjectPath": "War/Content/Meshes/Vehicles/Headlight.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'SimpleEmissive'",
+          "ObjectPath": "War/Content/Materials/SimpleEmissive.0"
+        }
+      ],
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 48.926365,
+        "Y": 482.79086,
+        "Z": 446.76282
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -40.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.25,
+        "Y": 1.25,
+        "Z": 1.25
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "VToggle"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "LightR_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Headlight'",
+        "ObjectPath": "War/Content/Meshes/Vehicles/Headlight.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'SimpleEmissive'",
+          "ObjectPath": "War/Content/Materials/SimpleEmissive.0"
+        }
+      ],
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -48.391773,
+        "Y": 481.98755,
+        "Z": 446.76282
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 38.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.25,
+        "Y": 1.25,
+        "Z": 1.25
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "VToggle"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DestroyedMesh",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPMineBoat_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.19"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ShipCollision",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MineBoatMainCollisionVolume'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/MineBoatMainCollisionVolume.2"
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "ShipRoot",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Work",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "IceBlocker",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BPMineBoat_C'Default__BPMineBoat_C'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoat.2"
+            },
+            "FunctionName": "VehicleCollisionTouched"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPMineBoat_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "VehicleSeatComponent",
+    "Name": "DriverSeat_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'VehicleSeatComponent'",
+    "Properties": {
+      "Direction": "ESeatDirection::Midships",
+      "bIsSwitchable": false,
+      "bIsWoundable": true,
+      "EnterSFX": {
+        "ObjectName": "SoundCue'BargeStart_cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Barge/BargeStart_cue.0"
+      },
+      "TriggerName": "DriverTrigger",
+      "ExitName": "DriverExit",
+      "MountCodeName": "MineBoatDriver",
+      "MountComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BPMineBoatDriverComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/BPMineBoatDriverComponent.0"
+      },
+      "RelativeLocation": {
+        "X": 60.99997,
+        "Y": -220.9999,
+        "Z": 248.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00001,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "VehicleSeatComponent",
+    "Name": "SternGunnerSeat_GEN_VARIABLE",
+    "Outer": "BPMineBoat_C",
+    "Class": "UScriptClass'VehicleSeatComponent'",
+    "Properties": {
+      "Direction": "ESeatDirection::Stern",
+      "bIsSwitchable": false,
+      "bIsWoundable": true,
+      "EnterSFX": {
+        "ObjectName": "SoundCue'DeployExplosive_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Weapons/Satchel/DeployExplosive_Cue.0"
+      },
+      "Index": 1,
+      "TriggerName": "SternGunnerTrigger",
+      "ExitName": "SternGunnerExit",
+      "MountCodeName": "LargeShipDestroyerCMachineGunner",
+      "bIsExposed": true,
+      "MountComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BPLargeShipDestroyerCMachineGunner_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/LargeShips/DestroyerC/BPLargeShipDestroyerCMachineGunner.0"
+      },
+      "RelativeLocation": {
+        "X": 1.4421101,
+        "Y": 127.8603,
+        "Z": 319.3772
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  }
+]

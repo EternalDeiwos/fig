@@ -1,0 +1,276 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "BPWeatherCloudActor_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPWeatherCloudActor_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPWeatherCloudActor_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.10"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'BPWeatherCloudActor_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BPWeatherCloudActor_C:ExecuteUbergraph_BPWeatherCloudActor'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'WeatherCloudActor'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BPWeatherCloudActor_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.0"
+      },
+      {
+        "ObjectName": "Function'BPWeatherCloudActor_C:ExecuteUbergraph_BPWeatherCloudActor'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPWeatherCloudActor_C:Mesh'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPWeatherCloudActor_C:DefaultSceneRoot'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.5"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BPWeatherCloudActor": {
+        "ObjectName": "Function'BPWeatherCloudActor_C:ExecuteUbergraph_BPWeatherCloudActor'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPWeatherCloudActor_C'Default__BPWeatherCloudActor_C'",
+      "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.2"
+    }
+  },
+  {
+    "Type": "BPWeatherCloudActor_C",
+    "Name": "Default__BPWeatherCloudActor_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.BPWeatherCloudActor_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AnimationSpeed": 0.033333,
+      "PanSpeeds": 0.005,
+      "PanSpeeds[1]": 0.005,
+      "PanSpeeds[2]": 0.005
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_BPWeatherCloudActor",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BPWeatherCloudActor",
+    "Outer": "BPWeatherCloudActor_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BPWeatherCloudActor_C:ExecuteUbergraph_BPWeatherCloudActor.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.3"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BPWeatherCloudActor_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Mesh",
+    "Outer": "BPWeatherCloudActor_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPWeatherCloudActor_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeScale3D": {
+        "X": 2500.0,
+        "Y": 2500.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPWeatherCloudActor_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.7"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPWeatherCloudActor_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.9"
+        }
+      ],
+      "VariableGuid": "CF5C0535-4F7E011B-73B509B6-629F342B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPWeatherCloudActor_C:Mesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.11"
+      },
+      "VariableGuid": "A1289C5B-4F768278-0D4E3EB0-714D7FA3",
+      "InternalVariableName": "Mesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPWeatherCloudActor_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPWeatherCloudActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.8"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPWeatherCloudActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.8"
+        },
+        {
+          "ObjectName": "SCS_Node'BPWeatherCloudActor_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.9"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPWeatherCloudActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/BPWeatherCloudActor.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh_GEN_VARIABLE",
+    "Outer": "BPWeatherCloudActor_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'SmokeVolumeBase'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolumeBase.0"
+        }
+      ],
+      "TranslucencySortPriority": 5,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

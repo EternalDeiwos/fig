@@ -1,0 +1,1621 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "AnimBlueprintGeneratedClass",
+    "Name": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'AnimBlueprintGeneratedClass'",
+    "Properties": {
+      "BakedStateMachines": [
+        {
+          "MachineName": "LandingGear",
+          "InitialState": 0,
+          "States": [
+            {
+              "StateName": "Lowered",
+              "Transitions": [
+                {
+                  "CanTakeDelegateIndex": 15,
+                  "CustomResultNodeIndex": -1,
+                  "TransitionIndex": 4,
+                  "bDesiredTransitionReturnValue": true,
+                  "bAutomaticRemainingTimeRule": false,
+                  "PoseEvaluatorLinks": []
+                },
+                {
+                  "CanTakeDelegateIndex": 16,
+                  "CustomResultNodeIndex": -1,
+                  "TransitionIndex": 0,
+                  "bDesiredTransitionReturnValue": true,
+                  "bAutomaticRemainingTimeRule": false,
+                  "PoseEvaluatorLinks": []
+                }
+              ],
+              "StateRootNodeIndex": 7,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "FullyBlendedNotify": -1,
+              "bIsAConduit": false,
+              "EntryRuleNodeIndex": -1,
+              "PlayerNodeIndices": [
+                8
+              ],
+              "LayerNodeIndices": [],
+              "bAlwaysResetOnEntry": false
+            },
+            {
+              "StateName": "Raising",
+              "Transitions": [
+                {
+                  "CanTakeDelegateIndex": 17,
+                  "CustomResultNodeIndex": -1,
+                  "TransitionIndex": 1,
+                  "bDesiredTransitionReturnValue": true,
+                  "bAutomaticRemainingTimeRule": false,
+                  "PoseEvaluatorLinks": []
+                }
+              ],
+              "StateRootNodeIndex": 9,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "FullyBlendedNotify": -1,
+              "bIsAConduit": false,
+              "EntryRuleNodeIndex": -1,
+              "PlayerNodeIndices": [
+                10
+              ],
+              "LayerNodeIndices": [],
+              "bAlwaysResetOnEntry": false
+            },
+            {
+              "StateName": "Raised",
+              "Transitions": [
+                {
+                  "CanTakeDelegateIndex": 18,
+                  "CustomResultNodeIndex": -1,
+                  "TransitionIndex": 5,
+                  "bDesiredTransitionReturnValue": true,
+                  "bAutomaticRemainingTimeRule": false,
+                  "PoseEvaluatorLinks": []
+                },
+                {
+                  "CanTakeDelegateIndex": 19,
+                  "CustomResultNodeIndex": -1,
+                  "TransitionIndex": 2,
+                  "bDesiredTransitionReturnValue": true,
+                  "bAutomaticRemainingTimeRule": false,
+                  "PoseEvaluatorLinks": []
+                }
+              ],
+              "StateRootNodeIndex": 11,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "FullyBlendedNotify": -1,
+              "bIsAConduit": false,
+              "EntryRuleNodeIndex": -1,
+              "PlayerNodeIndices": [
+                12
+              ],
+              "LayerNodeIndices": [],
+              "bAlwaysResetOnEntry": false
+            },
+            {
+              "StateName": "Lowering",
+              "Transitions": [
+                {
+                  "CanTakeDelegateIndex": 20,
+                  "CustomResultNodeIndex": -1,
+                  "TransitionIndex": 3,
+                  "bDesiredTransitionReturnValue": true,
+                  "bAutomaticRemainingTimeRule": false,
+                  "PoseEvaluatorLinks": []
+                }
+              ],
+              "StateRootNodeIndex": 13,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "FullyBlendedNotify": -1,
+              "bIsAConduit": false,
+              "EntryRuleNodeIndex": -1,
+              "PlayerNodeIndices": [
+                14
+              ],
+              "LayerNodeIndices": [],
+              "bAlwaysResetOnEntry": false
+            }
+          ],
+          "Transitions": [
+            {
+              "PreviousState": 0,
+              "NextState": 1,
+              "CrossfadeDuration": 2.5,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "InterruptNotify": -1,
+              "BlendMode": "EAlphaBlendOption::Linear",
+              "CustomCurve": null,
+              "BlendProfile": null,
+              "LogicType": "ETransitionLogicType::TLT_StandardBlend",
+              "StateName": "None"
+            },
+            {
+              "PreviousState": 1,
+              "NextState": 2,
+              "CrossfadeDuration": 0.5,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "InterruptNotify": -1,
+              "BlendMode": "EAlphaBlendOption::Linear",
+              "CustomCurve": null,
+              "BlendProfile": null,
+              "LogicType": "ETransitionLogicType::TLT_StandardBlend",
+              "StateName": "None"
+            },
+            {
+              "PreviousState": 2,
+              "NextState": 3,
+              "CrossfadeDuration": 2.5,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "InterruptNotify": -1,
+              "BlendMode": "EAlphaBlendOption::Linear",
+              "CustomCurve": null,
+              "BlendProfile": null,
+              "LogicType": "ETransitionLogicType::TLT_StandardBlend",
+              "StateName": "None"
+            },
+            {
+              "PreviousState": 3,
+              "NextState": 0,
+              "CrossfadeDuration": 0.5,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "InterruptNotify": -1,
+              "BlendMode": "EAlphaBlendOption::Linear",
+              "CustomCurve": null,
+              "BlendProfile": null,
+              "LogicType": "ETransitionLogicType::TLT_StandardBlend",
+              "StateName": "None"
+            },
+            {
+              "PreviousState": 0,
+              "NextState": 2,
+              "CrossfadeDuration": 0.0,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "InterruptNotify": -1,
+              "BlendMode": "EAlphaBlendOption::HermiteCubic",
+              "CustomCurve": null,
+              "BlendProfile": null,
+              "LogicType": "ETransitionLogicType::TLT_StandardBlend",
+              "StateName": "None"
+            },
+            {
+              "PreviousState": 2,
+              "NextState": 0,
+              "CrossfadeDuration": 0.0,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "InterruptNotify": -1,
+              "BlendMode": "EAlphaBlendOption::HermiteCubic",
+              "CustomCurve": null,
+              "BlendProfile": null,
+              "LogicType": "ETransitionLogicType::TLT_StandardBlend",
+              "StateName": "None"
+            }
+          ]
+        }
+      ],
+      "TargetSkeleton": {
+        "ObjectName": "Skeleton'SK_AircraftWaterW_Skeleton'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/SK_AircraftWaterW_Skeleton.3"
+      },
+      "OrderedSavedPoseIndicesMap": [
+        {
+          "Key": "AnimGraph",
+          "Value": {
+            "OrderedSavedPoseNodeIndices": []
+          }
+        }
+      ],
+      "EvaluateGraphExposedInputs": [
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "SourcePropertyName": "NormalizedPropellerSpeed",
+              "SourceSubPropertyName": "None",
+              "SourceArrayIndex": 0,
+              "bInstanceIsTarget": false,
+              "PostCopyOperation": "EPostCopyOperation::None",
+              "DestProperty": {
+                "ObjectName": "FloatProperty'AnimNode_SequencePlayer:PlayRate'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "DestArrayIndex": 0,
+              "Size": 4,
+              "CachedSourceProperty": {
+                "ObjectName": "FloatProperty'AirVehicleAnimInstance:NormalizedPropellerSpeed'",
+                "ObjectPath": "/Script/War"
+              },
+              "CachedSourceStructSubProperty": null
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_SequencePlayer_09465B4F4C2DFD82B3999BB9E79F7E78'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.26"
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "SourcePropertyName": "NormalizedRudderAngle",
+              "SourceSubPropertyName": "None",
+              "SourceArrayIndex": 0,
+              "bInstanceIsTarget": false,
+              "PostCopyOperation": "EPostCopyOperation::None",
+              "DestProperty": {
+                "ObjectName": "FloatProperty'AnimNode_BlendSpacePlayer:X'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "DestArrayIndex": 0,
+              "Size": 4,
+              "CachedSourceProperty": {
+                "ObjectName": "FloatProperty'AirVehicleAnimInstance:NormalizedRudderAngle'",
+                "ObjectPath": "/Script/War"
+              },
+              "CachedSourceStructSubProperty": null
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_BlendSpacePlayer_CD900D564595CD497666C5893F8DA625'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.24"
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "SourcePropertyName": "NormalizedElevatorAngle",
+              "SourceSubPropertyName": "None",
+              "SourceArrayIndex": 0,
+              "bInstanceIsTarget": false,
+              "PostCopyOperation": "EPostCopyOperation::None",
+              "DestProperty": {
+                "ObjectName": "FloatProperty'AnimNode_BlendSpacePlayer:X'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "DestArrayIndex": 0,
+              "Size": 4,
+              "CachedSourceProperty": {
+                "ObjectName": "FloatProperty'AirVehicleAnimInstance:NormalizedElevatorAngle'",
+                "ObjectPath": "/Script/War"
+              },
+              "CachedSourceStructSubProperty": null
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_BlendSpacePlayer_C5C433E546D739E2BC25BD92E03B6B15'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.23"
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "SourcePropertyName": "NormalizedFlapsAngle",
+              "SourceSubPropertyName": "None",
+              "SourceArrayIndex": 0,
+              "bInstanceIsTarget": false,
+              "PostCopyOperation": "EPostCopyOperation::None",
+              "DestProperty": {
+                "ObjectName": "FloatProperty'AnimNode_BlendSpacePlayer:X'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "DestArrayIndex": 0,
+              "Size": 4,
+              "CachedSourceProperty": {
+                "ObjectName": "FloatProperty'AirVehicleAnimInstance:NormalizedFlapsAngle'",
+                "ObjectPath": "/Script/War"
+              },
+              "CachedSourceStructSubProperty": null
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_BlendSpacePlayer_6902572A43CD72652792D1AA0AF6519D'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.21"
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "SourcePropertyName": "NormalizedRightAileronAngle",
+              "SourceSubPropertyName": "None",
+              "SourceArrayIndex": 0,
+              "bInstanceIsTarget": false,
+              "PostCopyOperation": "EPostCopyOperation::None",
+              "DestProperty": {
+                "ObjectName": "FloatProperty'AnimNode_BlendSpacePlayer:X'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "DestArrayIndex": 0,
+              "Size": 4,
+              "CachedSourceProperty": {
+                "ObjectName": "FloatProperty'AirVehicleAnimInstance:NormalizedRightAileronAngle'",
+                "ObjectPath": "/Script/War"
+              },
+              "CachedSourceStructSubProperty": null
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_BlendSpacePlayer_981B77AA438ABA7508A41CAC3B792C6C'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.22"
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "SourcePropertyName": "NormalizedLeftAileronAngle",
+              "SourceSubPropertyName": "None",
+              "SourceArrayIndex": 0,
+              "bInstanceIsTarget": false,
+              "PostCopyOperation": "EPostCopyOperation::None",
+              "DestProperty": {
+                "ObjectName": "FloatProperty'AnimNode_BlendSpacePlayer:X'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "DestArrayIndex": 0,
+              "Size": 4,
+              "CachedSourceProperty": {
+                "ObjectName": "FloatProperty'AirVehicleAnimInstance:NormalizedLeftAileronAngle'",
+                "ObjectPath": "/Script/War"
+              },
+              "CachedSourceStructSubProperty": null
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_BlendSpacePlayer_3336E8FA4E508B746146BD85CF01AB9E'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.20"
+          }
+        },
+        {
+          "BoundFunction": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_03B46EE5449E4A8EFD9243B3DF3C0DD3",
+          "CopyRecords": [],
+          "Function": {
+            "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_03B46EE5449E4A8EFD9243B3DF3C0DD3'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.14"
+          },
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_TransitionResult_03B46EE5449E4A8EFD9243B3DF3C0DD3'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.36"
+          }
+        },
+        {
+          "BoundFunction": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_B25A52EF47A11A733896BEBAA0FC760E",
+          "CopyRecords": [],
+          "Function": {
+            "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_B25A52EF47A11A733896BEBAA0FC760E'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.18"
+          },
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_TransitionResult_B25A52EF47A11A733896BEBAA0FC760E'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.40"
+          }
+        },
+        {
+          "BoundFunction": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_575694284FF1B422732DAFA8E3F97A9A",
+          "CopyRecords": [],
+          "Function": {
+            "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_575694284FF1B422732DAFA8E3F97A9A'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.16"
+          },
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_TransitionResult_575694284FF1B422732DAFA8E3F97A9A'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.38"
+          }
+        },
+        {
+          "BoundFunction": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_108462CA4164C831E25FE7A5AED95D73",
+          "CopyRecords": [],
+          "Function": {
+            "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_108462CA4164C831E25FE7A5AED95D73'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.15"
+          },
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_TransitionResult_108462CA4164C831E25FE7A5AED95D73'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.37"
+          }
+        },
+        {
+          "BoundFunction": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_DA98B07047DAED9A72B1B88173DC9E9B",
+          "CopyRecords": [],
+          "Function": {
+            "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_DA98B07047DAED9A72B1B88173DC9E9B'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.19"
+          },
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_TransitionResult_DA98B07047DAED9A72B1B88173DC9E9B'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.41"
+          }
+        },
+        {
+          "BoundFunction": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_6E03063241A5B682AB0C36817EE7933E",
+          "CopyRecords": [],
+          "Function": {
+            "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_6E03063241A5B682AB0C36817EE7933E'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.17"
+          },
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_TransitionResult_6E03063241A5B682AB0C36817EE7933E'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.39"
+          }
+        }
+      ],
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:ExecuteUbergraph_ABP_AircraftWaterW'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AirVehicleAnimInstance'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.0"
+      },
+      {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:AnimGraph'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.13"
+      },
+      {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_03B46EE5449E4A8EFD9243B3DF3C0DD3'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.14"
+      },
+      {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_108462CA4164C831E25FE7A5AED95D73'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.15"
+      },
+      {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_DA98B07047DAED9A72B1B88173DC9E9B'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.19"
+      },
+      {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_B25A52EF47A11A733896BEBAA0FC760E'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.18"
+      },
+      {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_575694284FF1B422732DAFA8E3F97A9A'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.16"
+      },
+      {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_6E03063241A5B682AB0C36817EE7933E'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.17"
+      },
+      {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:ExecuteUbergraph_ABP_AircraftWaterW'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.5"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_Root_324FC3174873368D1D8A21BAD51690B1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.3"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_LayeredBoneBlend_95074A6C4347FABFF86DE89C52F9F686'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.25"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_TransitionResult_6E03063241A5B682AB0C36817EE7933E'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.39"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_TransitionResult_DA98B07047DAED9A72B1B88173DC9E9B'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.41"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_TransitionResult_108462CA4164C831E25FE7A5AED95D73'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.37"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_TransitionResult_575694284FF1B422732DAFA8E3F97A9A'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.38"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_TransitionResult_B25A52EF47A11A733896BEBAA0FC760E'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.40"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_TransitionResult_03B46EE5449E4A8EFD9243B3DF3C0DD3'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.36"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_SequencePlayer_15D0B2B84A6F91F574C6E796AAFA42D8'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.27"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_StateResult_2C2B1C834DF74816402330BCA2388A3D'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.33"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_SequencePlayer_DAF2AAEC44868DFECE11B9B34E53A7F7'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.30"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_StateResult_8C940E1741BF8C9BBFE6FCB4B919346C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.34"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_SequencePlayer_21D87D7241D2552342C4F6A60F02FB70'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.28"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_StateResult_DBCDD23F45434C68B9ADE99A45092EF5'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.35"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_SequencePlayer_C2757D5743450BC18DC6A7B964DA0085'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.29"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_StateResult_2333D26B496009C280E5749BF0D8444C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.32"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_StateMachine_C67C16B64415DDF3FA5972B113F707FA'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.31"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_BlendSpacePlayer_3336E8FA4E508B746146BD85CF01AB9E'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.20"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_BlendSpacePlayer_981B77AA438ABA7508A41CAC3B792C6C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.22"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_BlendSpacePlayer_6902572A43CD72652792D1AA0AF6519D'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.21"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_BlendSpacePlayer_C5C433E546D739E2BC25BD92E03B6B15'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.23"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_BlendSpacePlayer_CD900D564595CD497666C5893F8DA625'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.24"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraphNode_SequencePlayer_09465B4F4C2DFD82B3999BB9E79F7E78'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.26"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ABP_AircraftWaterW": {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:ExecuteUbergraph_ABP_AircraftWaterW'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.5"
+      },
+      "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_6E03063241A5B682AB0C36817EE7933E": {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_6E03063241A5B682AB0C36817EE7933E'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.17"
+      },
+      "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_575694284FF1B422732DAFA8E3F97A9A": {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_575694284FF1B422732DAFA8E3F97A9A'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.16"
+      },
+      "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_B25A52EF47A11A733896BEBAA0FC760E": {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_B25A52EF47A11A733896BEBAA0FC760E'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.18"
+      },
+      "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_DA98B07047DAED9A72B1B88173DC9E9B": {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_DA98B07047DAED9A72B1B88173DC9E9B'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.19"
+      },
+      "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_108462CA4164C831E25FE7A5AED95D73": {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_108462CA4164C831E25FE7A5AED95D73'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.15"
+      },
+      "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_03B46EE5449E4A8EFD9243B3DF3C0DD3": {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_03B46EE5449E4A8EFD9243B3DF3C0DD3'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.14"
+      },
+      "AnimGraph": {
+        "ObjectName": "Function'ABP_AircraftWaterW_C:AnimGraph'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.13"
+      }
+    },
+    "ClassFlags": "CLASS_Transient | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'SkeletalMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ABP_AircraftWaterW_C'Default__ABP_AircraftWaterW_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.2"
+    }
+  },
+  {
+    "Type": "ABP_AircraftWaterW_C",
+    "Name": "Default__ABP_AircraftWaterW_C",
+    "Class": "AnimBlueprintGeneratedClass'War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.ABP_AircraftWaterW_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AnimGraphNode_Root_324FC3174873368D1D8A21BAD51690B1": {
+        "Result": {
+          "LinkID": 1
+        },
+        "Name": "AnimGraph",
+        "Group": "None"
+      },
+      "AnimGraphNode_LayeredBoneBlend_95074A6C4347FABFF86DE89C52F9F686": {
+        "BasePose": {
+          "LinkID": 22
+        },
+        "BlendPoses": [
+          {
+            "LinkID": 17
+          },
+          {
+            "LinkID": 18
+          },
+          {
+            "LinkID": 19
+          },
+          {
+            "LinkID": 20
+          },
+          {
+            "LinkID": 21
+          },
+          {
+            "LinkID": 16
+          }
+        ],
+        "LayerSetup": [
+          {
+            "BranchFilters": [
+              {
+                "BoneName": "AircraftFighterW_Aileron_L_01",
+                "BlendDepth": 0
+              },
+              {
+                "BoneName": "AircraftFighterW_Aileron_L_02",
+                "BlendDepth": 0
+              }
+            ]
+          },
+          {
+            "BranchFilters": [
+              {
+                "BoneName": "AircraftFighterW_Aileron_R_01",
+                "BlendDepth": 0
+              },
+              {
+                "BoneName": "AircraftFighterW_Aileron_R_02",
+                "BlendDepth": 0
+              }
+            ]
+          },
+          {
+            "BranchFilters": [
+              {
+                "BoneName": "AircraftFighterW_Flap_L",
+                "BlendDepth": 0
+              },
+              {
+                "BoneName": "AircraftFighterW_Flap_R",
+                "BlendDepth": 0
+              }
+            ]
+          },
+          {
+            "BranchFilters": [
+              {
+                "BoneName": "AircraftFighterW_Elevator",
+                "BlendDepth": 0
+              }
+            ]
+          },
+          {
+            "BranchFilters": [
+              {
+                "BoneName": "AircraftFighterW_Rudder",
+                "BlendDepth": 0
+              }
+            ]
+          },
+          {
+            "BranchFilters": [
+              {
+                "BoneName": "AircraftFighterW_LandingGear_L",
+                "BlendDepth": 0
+              },
+              {
+                "BoneName": "AircraftFighterW_LandingGear_R",
+                "BlendDepth": 0
+              },
+              {
+                "BoneName": "AircraftFighterW_Wheel_B",
+                "BlendDepth": 0
+              },
+              {
+                "BoneName": "AircraftFighterW_Skey",
+                "BlendDepth": 0
+              }
+            ]
+          }
+        ],
+        "BlendWeights": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bMeshSpaceRotationBlend": false,
+        "bMeshSpaceScaleBlend": false,
+        "CurveBlendOption": "ECurveBlendOption::MaxWeight",
+        "bBlendRootMotionBasedOnRootBone": true,
+        "LODThreshold": -1,
+        "PerBoneBlendWeights": [
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 3,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 4,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 2,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 2,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 1,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 5,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 5,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 5,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 5,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 5,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 5,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 5,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 5,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 1,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 5,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 5,
+            "BlendWeight": 1.0
+          }
+        ],
+        "SkeletonGuid": "88689EF3-419B52DD-8AF68F84-EC14B4DB",
+        "VirtualBoneGuid": "00000000-00000000-00000000-00000000"
+      },
+      "AnimGraphNode_TransitionResult_6E03063241A5B682AB0C36817EE7933E": {
+        "bCanEnterTransition": false
+      },
+      "AnimGraphNode_TransitionResult_DA98B07047DAED9A72B1B88173DC9E9B": {
+        "bCanEnterTransition": false
+      },
+      "AnimGraphNode_TransitionResult_108462CA4164C831E25FE7A5AED95D73": {
+        "bCanEnterTransition": false
+      },
+      "AnimGraphNode_TransitionResult_575694284FF1B422732DAFA8E3F97A9A": {
+        "bCanEnterTransition": false
+      },
+      "AnimGraphNode_TransitionResult_B25A52EF47A11A733896BEBAA0FC760E": {
+        "bCanEnterTransition": false
+      },
+      "AnimGraphNode_TransitionResult_03B46EE5449E4A8EFD9243B3DF3C0DD3": {
+        "bCanEnterTransition": false
+      },
+      "AnimGraphNode_SequencePlayer_15D0B2B84A6F91F574C6E796AAFA42D8": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Pose_AircraftWaterW_Landing_Gear_Down'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/Pose_AircraftWaterW_Landing_Gear_Down.0"
+        },
+        "PlayRateBasis": 1.0,
+        "PlayRate": 1.0,
+        "PlayRateScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "StartPosition": 0.0,
+        "bLoopAnimation": false,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_StateResult_2C2B1C834DF74816402330BCA2388A3D": {
+        "Result": {
+          "LinkID": 8
+        },
+        "Name": "None",
+        "Group": "None"
+      },
+      "AnimGraphNode_SequencePlayer_DAF2AAEC44868DFECE11B9B34E53A7F7": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Pose_AircraftWaterW_Landing_Gear_Up'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/Pose_AircraftWaterW_Landing_Gear_Up.0"
+        },
+        "PlayRateBasis": 1.0,
+        "PlayRate": 1.0,
+        "PlayRateScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "StartPosition": 0.0,
+        "bLoopAnimation": false,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_StateResult_8C940E1741BF8C9BBFE6FCB4B919346C": {
+        "Result": {
+          "LinkID": 10
+        },
+        "Name": "None",
+        "Group": "None"
+      },
+      "AnimGraphNode_SequencePlayer_21D87D7241D2552342C4F6A60F02FB70": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Pose_AircraftWaterW_Landing_Gear_Up'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/Pose_AircraftWaterW_Landing_Gear_Up.0"
+        },
+        "PlayRateBasis": 1.0,
+        "PlayRate": 1.0,
+        "PlayRateScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "StartPosition": 0.0,
+        "bLoopAnimation": false,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_StateResult_DBCDD23F45434C68B9ADE99A45092EF5": {
+        "Result": {
+          "LinkID": 12
+        },
+        "Name": "None",
+        "Group": "None"
+      },
+      "AnimGraphNode_SequencePlayer_C2757D5743450BC18DC6A7B964DA0085": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Pose_AircraftWaterW_Landing_Gear_Down'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/Pose_AircraftWaterW_Landing_Gear_Down.0"
+        },
+        "PlayRateBasis": 1.0,
+        "PlayRate": 1.0,
+        "PlayRateScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "StartPosition": 0.0,
+        "bLoopAnimation": false,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_StateResult_2333D26B496009C280E5749BF0D8444C": {
+        "Result": {
+          "LinkID": 14
+        },
+        "Name": "None",
+        "Group": "None"
+      },
+      "AnimGraphNode_StateMachine_C67C16B64415DDF3FA5972B113F707FA": {
+        "StateMachineIndexInClass": 0,
+        "MaxTransitionsPerFrame": 3,
+        "bSkipFirstUpdateTransition": true,
+        "bReinitializeOnBecomingRelevant": true
+      },
+      "AnimGraphNode_BlendSpacePlayer_3336E8FA4E508B746146BD85CF01AB9E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "PlayRate": 1.0,
+        "bLoop": true,
+        "bResetPlayTimeWhenBlendSpaceChanges": true,
+        "StartPosition": 0.0,
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_AircraftWaterW_Aileron_L'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/BS_AircraftWaterW_Aileron_L.0"
+        },
+        "PreviousBlendSpace": null,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_BlendSpacePlayer_981B77AA438ABA7508A41CAC3B792C6C": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "PlayRate": 1.0,
+        "bLoop": true,
+        "bResetPlayTimeWhenBlendSpaceChanges": true,
+        "StartPosition": 0.0,
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_AircraftWaterW_Aileron_R'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/BS_AircraftWaterW_Aileron_R.0"
+        },
+        "PreviousBlendSpace": null,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_BlendSpacePlayer_6902572A43CD72652792D1AA0AF6519D": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "PlayRate": 1.0,
+        "bLoop": true,
+        "bResetPlayTimeWhenBlendSpaceChanges": true,
+        "StartPosition": 0.0,
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_AircraftWaterW_Flap'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/BS_AircraftWaterW_Flap.0"
+        },
+        "PreviousBlendSpace": null,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_BlendSpacePlayer_C5C433E546D739E2BC25BD92E03B6B15": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "PlayRate": 1.0,
+        "bLoop": true,
+        "bResetPlayTimeWhenBlendSpaceChanges": true,
+        "StartPosition": 0.0,
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_AircraftWaterW_Elevator'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/BS_AircraftWaterW_Elevator.0"
+        },
+        "PreviousBlendSpace": null,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_BlendSpacePlayer_CD900D564595CD497666C5893F8DA625": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "PlayRate": 1.0,
+        "bLoop": true,
+        "bResetPlayTimeWhenBlendSpaceChanges": true,
+        "StartPosition": 0.0,
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_AircraftWaterW_Rudder'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/BS_AircraftWaterW_Rudder.0"
+        },
+        "PreviousBlendSpace": null,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_SequencePlayer_09465B4F4C2DFD82B3999BB9E79F7E78": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Anim_AircraftWaterW_Prop'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/Anim_AircraftWaterW_Prop.0"
+        },
+        "PlayRateBasis": 1.0,
+        "PlayRate": 1.0,
+        "PlayRateScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "StartPosition": 0.0,
+        "bLoopAnimation": true,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_Root_324FC3174873368D1D8A21BAD51690B1",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_Root'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_ABP_AircraftWaterW",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ABP_AircraftWaterW",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'ABP_AircraftWaterW_C:ExecuteUbergraph_ABP_AircraftWaterW.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.4"
+      },
+      {
+        "ObjectName": "BoolProperty'ABP_AircraftWaterW_C:ExecuteUbergraph_ABP_AircraftWaterW.CallFunc_EqualEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.6"
+      },
+      {
+        "ObjectName": "BoolProperty'ABP_AircraftWaterW_C:ExecuteUbergraph_ABP_AircraftWaterW.CallFunc_EqualEqual_ByteByte_ReturnValue_1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.7"
+      },
+      {
+        "ObjectName": "BoolProperty'ABP_AircraftWaterW_C:ExecuteUbergraph_ABP_AircraftWaterW.CallFunc_EqualEqual_ByteByte_ReturnValue_2'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.8"
+      },
+      {
+        "ObjectName": "BoolProperty'ABP_AircraftWaterW_C:ExecuteUbergraph_ABP_AircraftWaterW.CallFunc_EqualEqual_ByteByte_ReturnValue_3'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.9"
+      },
+      {
+        "ObjectName": "BoolProperty'ABP_AircraftWaterW_C:ExecuteUbergraph_ABP_AircraftWaterW.CallFunc_NotEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.10"
+      },
+      {
+        "ObjectName": "BoolProperty'ABP_AircraftWaterW_C:ExecuteUbergraph_ABP_AircraftWaterW.CallFunc_NotEqual_ByteByte_ReturnValue_1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.11"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+    "Outer": "ExecuteUbergraph_ABP_AircraftWaterW",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_ABP_AircraftWaterW",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_ABP_AircraftWaterW",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_3",
+    "Outer": "ExecuteUbergraph_ABP_AircraftWaterW",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+    "Outer": "ExecuteUbergraph_ABP_AircraftWaterW",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_ByteByte_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_ABP_AircraftWaterW",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraph",
+    "Outer": "AnimGraph",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Parm | OutParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PoseLink'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AnimGraph",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "StructProperty'ABP_AircraftWaterW_C:AnimGraph.AnimGraph'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftWaterW/Anim/ABP_AircraftWaterW.12"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_03B46EE5449E4A8EFD9243B3DF3C0DD3",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_108462CA4164C831E25FE7A5AED95D73",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_575694284FF1B422732DAFA8E3F97A9A",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_6E03063241A5B682AB0C36817EE7933E",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_B25A52EF47A11A733896BEBAA0FC760E",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_AircraftWaterW_AnimGraphNode_TransitionResult_DA98B07047DAED9A72B1B88173DC9E9B",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_BlendSpacePlayer_3336E8FA4E508B746146BD85CF01AB9E",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_BlendSpacePlayer'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_BlendSpacePlayer_6902572A43CD72652792D1AA0AF6519D",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_BlendSpacePlayer'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_BlendSpacePlayer_981B77AA438ABA7508A41CAC3B792C6C",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_BlendSpacePlayer'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_BlendSpacePlayer_C5C433E546D739E2BC25BD92E03B6B15",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_BlendSpacePlayer'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_BlendSpacePlayer_CD900D564595CD497666C5893F8DA625",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_BlendSpacePlayer'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_LayeredBoneBlend_95074A6C4347FABFF86DE89C52F9F686",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_LayeredBoneBlend'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_SequencePlayer_09465B4F4C2DFD82B3999BB9E79F7E78",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_SequencePlayer'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_SequencePlayer_15D0B2B84A6F91F574C6E796AAFA42D8",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_SequencePlayer'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_SequencePlayer_21D87D7241D2552342C4F6A60F02FB70",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_SequencePlayer'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_SequencePlayer_C2757D5743450BC18DC6A7B964DA0085",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_SequencePlayer'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_SequencePlayer_DAF2AAEC44868DFECE11B9B34E53A7F7",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_SequencePlayer'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_StateMachine_C67C16B64415DDF3FA5972B113F707FA",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_StateMachine'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_StateResult_2333D26B496009C280E5749BF0D8444C",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_StateResult'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_StateResult_2C2B1C834DF74816402330BCA2388A3D",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_StateResult'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_StateResult_8C940E1741BF8C9BBFE6FCB4B919346C",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_StateResult'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_StateResult_DBCDD23F45434C68B9ADE99A45092EF5",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_StateResult'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_TransitionResult_03B46EE5449E4A8EFD9243B3DF3C0DD3",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_TransitionResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_TransitionResult_108462CA4164C831E25FE7A5AED95D73",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_TransitionResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_TransitionResult_575694284FF1B422732DAFA8E3F97A9A",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_TransitionResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_TransitionResult_6E03063241A5B682AB0C36817EE7933E",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_TransitionResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_TransitionResult_B25A52EF47A11A733896BEBAA0FC760E",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_TransitionResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_TransitionResult_DA98B07047DAED9A72B1B88173DC9E9B",
+    "Outer": "ABP_AircraftWaterW_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_TransitionResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  }
+]

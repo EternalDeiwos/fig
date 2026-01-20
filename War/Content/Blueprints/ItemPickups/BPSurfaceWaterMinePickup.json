@@ -1,0 +1,226 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "SK_SmallSeaMine",
+    "Outer": "BPSurfaceWaterMinePickup_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SkeletalMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPSurfaceWaterMinePickup_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPSurfaceWaterMinePickup_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'GearPickup'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPSurfaceWaterMinePickup_C:SK_SmallSeaMine'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.0"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPSurfaceWaterMinePickup_C'Default__BPSurfaceWaterMinePickup_C'",
+      "ObjectPath": "War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.2"
+    }
+  },
+  {
+    "Type": "BPSurfaceWaterMinePickup_C",
+    "Name": "Default__BPSurfaceWaterMinePickup_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.BPSurfaceWaterMinePickup_C'",
+    "Properties": {
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPSurfaceWaterMinePickup_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.10"
+      },
+      "ItemComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPSurfaceWaterMineComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPSurfaceWaterMineComponent.0"
+      },
+      "Encumbrance": 385,
+      "CodeName": "SurfaceWaterMine",
+      "ChassisName": {
+        "Namespace": "",
+        "Key": "BE643A3D43B8E5A4F1AFBFB3A33BC218",
+        "SourceString": "Sea Mine",
+        "LocalizedString": "Sea Mine"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A49D2F2645EFEF92436CA39B782D1FB4",
+        "SourceString": "E681-B Hullbreaker Mine",
+        "LocalizedString": "E681-B Hullbreaker Mine"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3BB215FD4F82A57687875D868132A0F8",
+        "SourceString": "A specialized sea mine that floats near the surface, causing destructive damage to ship hulls.",
+        "LocalizedString": "A specialized sea mine that floats near the surface, causing destructive damage to ship hulls."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'SurfaceMineIcon'",
+        "ObjectPath": "War/Content/Textures/UI/ItemIcons/SurfaceMineIcon.0"
+      },
+      "EquipmentSlot": "EEquipmentSlot::Large",
+      "ItemCategory": "EItemCategory::Utility",
+      "ItemProfileType": "EItemProfileType::Tool",
+      "bIsLarge": true,
+      "ItemMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPSurfaceWaterMinePickup_C:ItemMesh'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.9"
+      },
+      "ItemBox": {
+        "ObjectName": "BoxComponent'Default__BPSurfaceWaterMinePickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.3"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Default__BPSurfaceWaterMinePickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.3"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "ItemBox",
+    "Outer": "Default__BPSurfaceWaterMinePickup_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 64.0,
+        "Y": 64.0,
+        "Z": 64.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPSurfaceWaterMinePickup_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPSurfaceWaterMinePickup_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.4"
+      },
+      "VariableGuid": "0A11CC2F-48310EAD-43E1D2BF-B684F9C5",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'BPSurfaceWaterMinePickup_C:SK_SmallSeaMine_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.8"
+      },
+      "ParentComponentOrVariableName": "ItemBox",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B60E9518-492B4DBF-37E8779C-CB46E6AC",
+      "InternalVariableName": "SK_SmallSeaMine"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPSurfaceWaterMinePickup_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPSurfaceWaterMinePickup_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.6"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPSurfaceWaterMinePickup_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.6"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPSurfaceWaterMinePickup_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.5"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SK_SmallSeaMine_GEN_VARIABLE",
+    "Outer": "BPSurfaceWaterMinePickup_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_SmallSeaMine'",
+        "ObjectPath": "War/Content/Meshes/Weapons/SK_SmallSeaMine.0"
+      },
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": -1E-06,
+        "Y": 0.0,
+        "Z": 15.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ItemMesh",
+    "Outer": "Default__BPSurfaceWaterMinePickup_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BoxComponent'Default__BPSurfaceWaterMinePickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPSurfaceWaterMinePickup.3"
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPSurfaceWaterMinePickup_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

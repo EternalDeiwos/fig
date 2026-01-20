@@ -1,0 +1,392 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_1",
+    "Outer": "PipelineI03Destroyed",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -0.09302497,
+                "Y": 48.472534,
+                "Z": -13.565753
+              },
+              {
+                "X": -0.09302497,
+                "Y": 48.472507,
+                "Z": 147.40578
+              },
+              {
+                "X": -0.09302497,
+                "Y": -36.468025,
+                "Z": -13.565766
+              },
+              {
+                "X": -0.09302497,
+                "Y": -36.468052,
+                "Z": 147.40576
+              },
+              {
+                "X": 320.42743,
+                "Y": 48.472534,
+                "Z": -13.565753
+              },
+              {
+                "X": 320.42743,
+                "Y": 48.472507,
+                "Z": 147.40578
+              },
+              {
+                "X": 320.42743,
+                "Y": -36.468025,
+                "Z": -13.565766
+              },
+              {
+                "X": 320.42743,
+                "Y": -36.468052,
+                "Z": 147.40576
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -0.09302497,
+                "Y": -36.468052,
+                "Z": -13.565766
+              },
+              "Max": {
+                "X": 320.42743,
+                "Y": 48.472534,
+                "Z": 147.40578
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "VertexData": [
+              {
+                "X": 336.0139,
+                "Y": 48.91428,
+                "Z": -13.565753
+              },
+              {
+                "X": 336.0139,
+                "Y": 48.914253,
+                "Z": 147.40578
+              },
+              {
+                "X": 252.47409,
+                "Y": 48.91429,
+                "Z": -13.565753
+              },
+              {
+                "X": 252.47409,
+                "Y": 48.914265,
+                "Z": 147.40578
+              },
+              {
+                "X": 336.01395,
+                "Y": -115.86759,
+                "Z": -13.56578
+              },
+              {
+                "X": 336.01395,
+                "Y": -115.867615,
+                "Z": 147.40575
+              },
+              {
+                "X": 252.47409,
+                "Y": -115.86759,
+                "Z": -13.56578
+              },
+              {
+                "X": 252.47409,
+                "Y": -115.867615,
+                "Z": 147.40575
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": 252.47409,
+                "Y": -115.867615,
+                "Z": -13.56578
+              },
+              "Max": {
+                "X": 336.01395,
+                "Y": 48.91429,
+                "Z": 147.40578
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "814FAE4C486C051682C83A861D21C2BB",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 235189,
+        "SizeOnDisk": 235189,
+        "OffsetInFile": "0x11FF41"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Outer": "PipelineI03Destroyed",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 893,
+        "SizeOnDisk": 893,
+        "OffsetInFile": "0x15963E"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "PipelineI03Destroyed",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'PipelineIConnect'",
+            "ObjectPath": "War/Content/Materials/Resources/PipelineIConnect.0"
+          },
+          "MaterialSlotName": "PipelineIConnect",
+          "ImportedMaterialSlotName": "PipelineIConnect",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 768.29095,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'PipelineSegmentTrim'",
+            "ObjectPath": "War/Content/Materials/Resources/PipelineSegmentTrim.0"
+          },
+          "MaterialSlotName": "PipelineSegmentTrim",
+          "ImportedMaterialSlotName": "PipelineSegmentTrim",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 574.76733,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 742.81824,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 176.39139,
+          "Y": -36.576492,
+          "Z": 70.98623
+        },
+        "BoxExtent": {
+          "X": 177.08089,
+          "Y": 83.85423,
+          "Z": 84.35416
+        },
+        "SphereRadius": 213.31624
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'PipelineI03Destroyed:BodySetup_1'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/PipelineI03Destroyed.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'PipelineI03Destroyed:NavCollision_2'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/PipelineI03Destroyed.1"
+    },
+    "LightingGuid": "302C4E74-48D1E313-182A7291-B6B3F3E6",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 5908,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 5922,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 17724,
+              "NumTriangles": 2216,
+              "MinVertexIndex": 5923,
+              "MaxVertexIndex": 7720,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 7721
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 7721,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 7721
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 3363,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 3871,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 10089,
+              "NumTriangles": 698,
+              "MinVertexIndex": 3872,
+              "MaxVertexIndex": 4704,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 5.527725,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 4705
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 4705,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 4705
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 176.39139,
+          "Y": -36.576492,
+          "Z": 70.98623
+        },
+        "BoxExtent": {
+          "X": 177.08089,
+          "Y": 83.85423,
+          "Z": 84.35416
+        },
+        "SphereRadius": 213.31624
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.43259203,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

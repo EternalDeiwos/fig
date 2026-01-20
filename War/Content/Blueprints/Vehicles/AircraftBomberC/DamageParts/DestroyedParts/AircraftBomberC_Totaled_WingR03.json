@@ -1,0 +1,227 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "AircraftBomberC_Totaled_WingR03",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "F102020242068EB8B3841998FC13E8DE",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 38721,
+        "SizeOnDisk": 38721,
+        "OffsetInFile": "0x34B46"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "AircraftBomberC_Totaled_WingR03",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x3E2CF"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "AircraftBomberC_Totaled_WingR03",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "KioskTrimSheet_006",
+          "ImportedMaterialSlotName": "KioskTrimSheet_006",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 307.0897,
+            "LocalUVDensities[1]": 1186.2002,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftBomberCWings_Wrecked'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Materials/AircraftBomberCWings_Wrecked.0"
+          },
+          "MaterialSlotName": "AircraftBomberCWings_005",
+          "ImportedMaterialSlotName": "AircraftBomberCWings_005",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1765.7197,
+            "LocalUVDensities[1]": 1203.5521,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 1190.8579,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -18.564056,
+          "Y": -55.94391,
+          "Z": -9.252045
+        },
+        "BoxExtent": {
+          "X": 131.83661,
+          "Y": 294.33044,
+          "Z": 45.846397
+        },
+        "SphereRadius": 323.13687
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'AircraftBomberC_Totaled_WingR03:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/DamageParts/DestroyedParts/AircraftBomberC_Totaled_WingR03.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'AircraftBomberC_Totaled_WingR03:NavCollision_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/DamageParts/DestroyedParts/AircraftBomberC_Totaled_WingR03.1"
+    },
+    "LightingGuid": "93A7DD01-4086FBE5-7DF6F0A9-914FB075",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 1141,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 1534,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 3423,
+              "NumTriangles": 195,
+              "MinVertexIndex": 1535,
+              "MaxVertexIndex": 1757,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1758
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 1758,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 561,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 720,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 1683,
+              "NumTriangles": 106,
+              "MinVertexIndex": 721,
+              "MaxVertexIndex": 856,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 55.032993,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 857
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 857,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": -18.564056,
+          "Y": -55.94391,
+          "Z": -9.252045
+        },
+        "BoxExtent": {
+          "X": 131.83661,
+          "Y": 294.33044,
+          "Z": 45.846397
+        },
+        "SphereRadius": 323.13687
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.14939621,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

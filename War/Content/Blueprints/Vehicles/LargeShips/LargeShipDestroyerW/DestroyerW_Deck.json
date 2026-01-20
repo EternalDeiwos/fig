@@ -1,0 +1,644 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "DestroyerW_Deck",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "B89BECB64E48FE3E263B368CCA0E19EB",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 2851957,
+        "SizeOnDisk": 2851957,
+        "OffsetInFile": "0x1093AE3"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_5",
+    "Outer": "DestroyerW_Deck",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x134BFA0"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "DestroyerW_Deck",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "LargeShipDestroyerWMidel",
+          "ImportedMaterialSlotName": "LargeShipDestroyerWMidel",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1205.2375,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "LargeShipDestroyerWBack",
+          "ImportedMaterialSlotName": "LargeShipDestroyerWBack",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1253.8063,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "LargeShipDestroyerWRaling",
+          "ImportedMaterialSlotName": "LargeShipDestroyerWRaling",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1493.0728,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "LargeShipDestroyerWSmoke",
+          "ImportedMaterialSlotName": "LargeShipDestroyerWSmoke",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 923.6417,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "LargeShipDestroyerWFront",
+          "ImportedMaterialSlotName": "LargeShipDestroyerWFront",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1081.7152,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "LargeShipDestroyerWCabin",
+          "ImportedMaterialSlotName": "LargeShipDestroyerWCabin",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1289.9453,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "LargeShipDestroyerWMainGuns",
+          "ImportedMaterialSlotName": "LargeShipDestroyerWMainGuns",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1257.9302,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "LargeShipDestroyerWWood_001",
+          "ImportedMaterialSlotName": "LargeShipDestroyerWWood_001",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 670.7188,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "Wood",
+          "ImportedMaterialSlotName": "Wood",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 401.23743,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "LargeShipDestroyerWDepthCharge",
+          "ImportedMaterialSlotName": "LargeShipDestroyerWDepthCharge",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 796.31714,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "LargeShipDestroyerWATGuns",
+          "ImportedMaterialSlotName": "LargeShipDestroyerWATGuns",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 977.1781,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "BattleShipTrim",
+          "ImportedMaterialSlotName": "BattleShipTrim",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 213.00836,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "InsideWall_001",
+          "ImportedMaterialSlotName": "InsideWall_001",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 236.2678,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 1094.5295,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.00088500977,
+          "Y": -203.5542,
+          "Z": 724.6279
+        },
+        "BoxExtent": {
+          "X": 393.33688,
+          "Y": 2264.9102,
+          "Z": 730.3885
+        },
+        "SphereRadius": 2376.288
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'DestroyerW_Deck:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LargeShips/LargeShipDestroyerW/DestroyerW_Deck.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'DestroyerW_Deck:NavCollision_5'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LargeShips/LargeShipDestroyerW/DestroyerW_Deck.1"
+    },
+    "LightingGuid": "2C7BB37A-496FD3F8-E7660F8F-25F3F390",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 3668,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 4458,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 11004,
+              "NumTriangles": 1617,
+              "MinVertexIndex": 4459,
+              "MaxVertexIndex": 6133,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 15855,
+              "NumTriangles": 5302,
+              "MinVertexIndex": 6134,
+              "MaxVertexIndex": 11461,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 31761,
+              "NumTriangles": 18034,
+              "MinVertexIndex": 11462,
+              "MaxVertexIndex": 28662,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 85863,
+              "NumTriangles": 5494,
+              "MinVertexIndex": 28663,
+              "MaxVertexIndex": 34266,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 5,
+              "FirstIndex": 102345,
+              "NumTriangles": 8229,
+              "MinVertexIndex": 34267,
+              "MaxVertexIndex": 43224,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 6,
+              "FirstIndex": 127032,
+              "NumTriangles": 17268,
+              "MinVertexIndex": 43225,
+              "MaxVertexIndex": 56510,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 7,
+              "FirstIndex": 178836,
+              "NumTriangles": 2,
+              "MinVertexIndex": 56511,
+              "MaxVertexIndex": 56514,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 8,
+              "FirstIndex": 178842,
+              "NumTriangles": 60,
+              "MinVertexIndex": 56515,
+              "MaxVertexIndex": 56569,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 9,
+              "FirstIndex": 179022,
+              "NumTriangles": 19738,
+              "MinVertexIndex": 56570,
+              "MaxVertexIndex": 78519,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 10,
+              "FirstIndex": 238236,
+              "NumTriangles": 9363,
+              "MinVertexIndex": 78520,
+              "MaxVertexIndex": 86860,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 11,
+              "FirstIndex": 266325,
+              "NumTriangles": 3748,
+              "MinVertexIndex": 86861,
+              "MaxVertexIndex": 89068,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 12,
+              "FirstIndex": 277569,
+              "NumTriangles": 64,
+              "MinVertexIndex": 89069,
+              "MaxVertexIndex": 89154,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 89155
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 89155,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 2331,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 3184,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 6993,
+              "NumTriangles": 1371,
+              "MinVertexIndex": 3185,
+              "MaxVertexIndex": 4632,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 11106,
+              "NumTriangles": 1943,
+              "MinVertexIndex": 4633,
+              "MaxVertexIndex": 7255,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 16935,
+              "NumTriangles": 9851,
+              "MinVertexIndex": 7256,
+              "MaxVertexIndex": 17551,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 46488,
+              "NumTriangles": 3492,
+              "MinVertexIndex": 17552,
+              "MaxVertexIndex": 21571,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 5,
+              "FirstIndex": 56964,
+              "NumTriangles": 4373,
+              "MinVertexIndex": 21572,
+              "MaxVertexIndex": 26965,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 6,
+              "FirstIndex": 70083,
+              "NumTriangles": 6820,
+              "MinVertexIndex": 26966,
+              "MaxVertexIndex": 33742,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 7,
+              "FirstIndex": 90543,
+              "NumTriangles": 2,
+              "MinVertexIndex": 33743,
+              "MaxVertexIndex": 33746,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 8,
+              "FirstIndex": 90549,
+              "NumTriangles": 35,
+              "MinVertexIndex": 33747,
+              "MaxVertexIndex": 33783,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 9,
+              "FirstIndex": 90654,
+              "NumTriangles": 10311,
+              "MinVertexIndex": 33784,
+              "MaxVertexIndex": 47052,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 10,
+              "FirstIndex": 121587,
+              "NumTriangles": 4599,
+              "MinVertexIndex": 47053,
+              "MaxVertexIndex": 51970,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 11,
+              "FirstIndex": 135384,
+              "NumTriangles": 1133,
+              "MinVertexIndex": 51971,
+              "MaxVertexIndex": 52746,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 12,
+              "FirstIndex": 138783,
+              "NumTriangles": 32,
+              "MinVertexIndex": 52747,
+              "MaxVertexIndex": 52802,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 3.4421651,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 52803
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 52803,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": -0.00088500977,
+          "Y": -203.5542,
+          "Z": 724.6279
+        },
+        "BoxExtent": {
+          "X": 393.33688,
+          "Y": 2264.9102,
+          "Z": 730.3885
+        },
+        "SphereRadius": 2376.288
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

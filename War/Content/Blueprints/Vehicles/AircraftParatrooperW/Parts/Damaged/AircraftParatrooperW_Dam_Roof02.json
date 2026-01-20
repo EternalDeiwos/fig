@@ -1,0 +1,265 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "AircraftParatrooperW_Dam_Roof02",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "55BB95FE443E75ADF8B9CD93ADEB9256",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 43116,
+        "SizeOnDisk": 43116,
+        "OffsetInFile": "0x3AA9D"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "AircraftParatrooperW_Dam_Roof02",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x45351"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "AircraftParatrooperW_Dam_Roof02",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftParatrooperWExterior'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftParatrooperW/Materials/AircraftParatrooperWExterior.0"
+          },
+          "MaterialSlotName": "AircraftParatrooperWExterior",
+          "ImportedMaterialSlotName": "AircraftParatrooperWExterior",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 3466.9995,
+            "LocalUVDensities[1]": 860.62305,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'Glass'",
+            "ObjectPath": "War/Content/Materials/Environment/Glass.0"
+          },
+          "MaterialSlotName": "glass",
+          "ImportedMaterialSlotName": "glass",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'Metalworks_trim_LargeShipDestroyerC'",
+            "ObjectPath": "War/Content/Materials/Environment/Metalworks_trim_LargeShipDestroyerC.0"
+          },
+          "MaterialSlotName": "Metalworks_trim_LargeShipDestroyerC",
+          "ImportedMaterialSlotName": "Metalworks_trim_LargeShipDestroyerC",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 293.78607,
+            "LocalUVDensities[1]": 861.7547,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 861.1864,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": -621.62024,
+          "Z": 89.93057
+        },
+        "BoxExtent": {
+          "X": 136.28023,
+          "Y": 210.19475,
+          "Z": 51.337543
+        },
+        "SphereRadius": 254.53468
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'AircraftParatrooperW_Dam_Roof02:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftParatrooperW/Parts/Damaged/AircraftParatrooperW_Dam_Roof02.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'AircraftParatrooperW_Dam_Roof02:NavCollision_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftParatrooperW/Parts/Damaged/AircraftParatrooperW_Dam_Roof02.1"
+    },
+    "LightingGuid": "4A7964FA-495BF75C-DB9FA6B5-A2D55E28",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 0,
+              "NumTriangles": 848,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 1175,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 2544,
+              "NumTriangles": 617,
+              "MinVertexIndex": 1176,
+              "MaxVertexIndex": 1855,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 4395,
+              "NumTriangles": 8,
+              "MinVertexIndex": 1856,
+              "MaxVertexIndex": 1871,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1872
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 1872,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 0,
+              "NumTriangles": 484,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 715,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 1452,
+              "NumTriangles": 245,
+              "MinVertexIndex": 716,
+              "MaxVertexIndex": 1062,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 2187,
+              "NumTriangles": 8,
+              "MinVertexIndex": 1063,
+              "MaxVertexIndex": 1078,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 56.06126,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1079
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 1079,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": -621.62024,
+          "Z": 89.93057
+        },
+        "BoxExtent": {
+          "X": 136.28023,
+          "Y": 210.19475,
+          "Z": 51.337543
+        },
+        "SphereRadius": 254.53468
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.11776483,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

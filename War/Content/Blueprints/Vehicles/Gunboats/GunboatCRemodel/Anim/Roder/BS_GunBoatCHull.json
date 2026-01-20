@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlendSpace1D",
+    "Name": "BS_GunBoatCHull",
+    "Class": "UScriptClass'BlendSpace1D'",
+    "Properties": {
+      "SampleData": [
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Pose_GunboatCHull_Wheel_00'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatCRemodel/Anim/Wheel/Pose_GunboatCHull_Wheel_00.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Pose_GunboatCHull_Wheel_Left'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatCRemodel/Anim/Wheel/Pose_GunboatCHull_Wheel_Left.0"
+          },
+          "SampleValue": {
+            "X": -50.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Pose_GunboatCHull_Wheel_Right'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatCRemodel/Anim/Wheel/Pose_GunboatCHull_Wheel_Right.0"
+          },
+          "SampleValue": {
+            "X": 50.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        }
+      ],
+      "GridSamples": [
+        {
+          "Indices": 0,
+          "Indices[1]": 1,
+          "Indices[2]": -1,
+          "Weights": 0.0,
+          "Weights[1]": 1.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 0,
+          "Indices[1]": 1,
+          "Indices[2]": -1,
+          "Weights": 0.5,
+          "Weights[1]": 0.5,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 0,
+          "Indices[1]": 1,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 2,
+          "Indices[1]": 0,
+          "Indices[2]": -1,
+          "Weights": 0.5,
+          "Weights[1]": 0.5,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 2,
+          "Indices[1]": 0,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        }
+      ],
+      "BlendParameters": {
+        "DisplayName": "Pitch",
+        "Min": -50.0,
+        "Max": 50.0
+      },
+      "Skeleton": {
+        "ObjectName": "Skeleton'SK_GunBoatCHull_Skeleton'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatCRemodel/SK_GunBoatCHull_Skeleton.3"
+      }
+    },
+    "SkeletonGuid": "7FF7FD23-456CAA1A-1EE609B3-97487AF0"
+  }
+]

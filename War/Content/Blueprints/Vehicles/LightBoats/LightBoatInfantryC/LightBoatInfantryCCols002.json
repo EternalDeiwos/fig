@@ -1,0 +1,282 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "LightBoatInfantryCCols002",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 77.043304,
+                "Y": 11.4152975,
+                "Z": 253.8141
+              },
+              {
+                "X": 100.0,
+                "Y": 34.372,
+                "Z": 253.8141
+              },
+              {
+                "X": 100.0,
+                "Y": 177.40582,
+                "Z": 253.81413
+              },
+              {
+                "X": 51.954605,
+                "Y": 219.29413,
+                "Z": 253.81413
+              },
+              {
+                "X": 65.0047,
+                "Y": 154.60892,
+                "Z": 307.73764
+              },
+              {
+                "X": 48.641582,
+                "Y": 169.60417,
+                "Z": 307.73764
+              },
+              {
+                "X": 42.085567,
+                "Y": 42.772995,
+                "Z": 307.7376
+              },
+              {
+                "X": 62.620342,
+                "Y": 65.89378,
+                "Z": 307.7376
+              },
+              {
+                "X": -77.043304,
+                "Y": 11.4152975,
+                "Z": 253.8141
+              },
+              {
+                "X": -100.0,
+                "Y": 34.372,
+                "Z": 253.8141
+              },
+              {
+                "X": -100.0,
+                "Y": 177.40582,
+                "Z": 253.81413
+              },
+              {
+                "X": -51.954605,
+                "Y": 219.29413,
+                "Z": 253.81413
+              },
+              {
+                "X": -65.0047,
+                "Y": 154.60892,
+                "Z": 307.73764
+              },
+              {
+                "X": -48.64158,
+                "Y": 169.60417,
+                "Z": 307.73764
+              },
+              {
+                "X": -42.08556,
+                "Y": 42.772995,
+                "Z": 307.7376
+              },
+              {
+                "X": -62.620342,
+                "Y": 65.89378,
+                "Z": 307.7376
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": 11.4152975,
+                "Z": 253.8141
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 219.29413,
+                "Z": 307.73764
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "6C634F9345BD2D6F439A939FB5D246CE",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 2675,
+        "SizeOnDisk": 2675,
+        "OffsetInFile": "0x3A85"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "LightBoatInfantryCCols002",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1081,
+        "SizeOnDisk": 1081,
+        "OffsetInFile": "0x4540"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "LightBoatInfantryCCols002",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "ImportedMaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1789.3638,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 1789.3638,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 115.35471,
+          "Z": 280.77588
+        },
+        "BoxExtent": {
+          "X": 100.0,
+          "Y": 103.939415,
+          "Z": 26.96177
+        },
+        "SphereRadius": 132.15904
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'LightBoatInfantryCCols002:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/LightBoatInfantryCCols002.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'LightBoatInfantryCCols002:NavCollision_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/LightBoatInfantryC/LightBoatInfantryCCols002.1"
+    },
+    "LightingGuid": "FEF77ADA-42D6C9F6-E1B04BAE-E5AE58EE",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 28,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 51,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 52
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 52,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 115.35471,
+          "Z": 280.77588
+        },
+        "BoxExtent": {
+          "X": 100.0,
+          "Y": 103.939415,
+          "Z": 26.96177
+        },
+        "SphereRadius": 132.15904
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

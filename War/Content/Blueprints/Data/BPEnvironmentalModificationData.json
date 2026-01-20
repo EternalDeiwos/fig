@@ -1,0 +1,1005 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPEnvironmentalModificationData_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'EnvironmentalModificationData'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPEnvironmentalModificationData_C'Default__BPEnvironmentalModificationData_C'",
+      "ObjectPath": "War/Content/Blueprints/Data/BPEnvironmentalModificationData.1"
+    }
+  },
+  {
+    "Type": "BPEnvironmentalModificationData_C",
+    "Name": "Default__BPEnvironmentalModificationData_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Data/BPEnvironmentalModificationData.BPEnvironmentalModificationData_C'",
+    "Properties": {
+      "Craters": [
+        {
+          "Crater": {
+            "ObjectName": "BlueprintGeneratedClass'BPCraterMedium_C'",
+            "ObjectPath": "War/Content/Blueprints/Structures/Craters/BPCraterMedium.1"
+          },
+          "BlockingPhysicalMaterials": [
+            {
+              "ObjectName": "PhysicalMaterial'TownStone'",
+              "ObjectPath": "War/Content/PhysicalMaterials/TownStone.0"
+            },
+            {
+              "ObjectName": "PhysicalMaterial'TrenchPhys'",
+              "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+            },
+            {
+              "ObjectName": "PhysicalMaterial'TrenchDirtPhys'",
+              "ObjectPath": "War/Content/PhysicalMaterials/TrenchDirtPhys.0"
+            }
+          ],
+          "Radius": 135.0,
+          "OuterRadius": 450.0,
+          "SpawnWeight": 1.0
+        },
+        {
+          "Crater": {
+            "ObjectName": "BlueprintGeneratedClass'BPCraterLarge_C'",
+            "ObjectPath": "War/Content/Blueprints/Structures/Craters/BPCraterLarge.1"
+          },
+          "BlockingPhysicalMaterials": [
+            {
+              "ObjectName": "PhysicalMaterial'TownStone'",
+              "ObjectPath": "War/Content/PhysicalMaterials/TownStone.0"
+            },
+            {
+              "ObjectName": "PhysicalMaterial'TrenchPhys'",
+              "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+            },
+            {
+              "ObjectName": "PhysicalMaterial'TrenchDirtPhys'",
+              "ObjectPath": "War/Content/PhysicalMaterials/TrenchDirtPhys.0"
+            }
+          ],
+          "Radius": 215.0,
+          "OuterRadius": 650.0,
+          "SpawnWeight": 1.0
+        }
+      ],
+      "MaxCraterCoverage": 25.0,
+      "MinCraterSpawnDevastation": 0.2,
+      "CraterSpawnProbability": 0.15,
+      "MaxCraterAngle": 20.0,
+      "Decal": {
+        "DecalMaterial": {
+          "ObjectName": "MaterialInstanceConstant'NoMansLand1'",
+          "ObjectPath": "War/Content/Materials/Decals/NoMansLand1.0"
+        },
+        "DecalSize": {
+          "X": 32.0,
+          "Y": 512.0,
+          "Z": 512.0
+        }
+      },
+      "TownDecal": {
+        "DecalMaterial": {
+          "ObjectName": "MaterialInstanceConstant'NoMansLandTownDecal'",
+          "ObjectPath": "War/Content/Materials/Decals/NoMansLandTownDecal.0"
+        },
+        "DecalSize": {
+          "X": 32.0,
+          "Y": 512.0,
+          "Z": 512.0
+        }
+      },
+      "TownDecalDistance": 4000.0,
+      "FoliageReplacements": [
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Birch01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Birch01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPBirch01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPBirch01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Birch02'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Birch02.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPBirch02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPBirch02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Birch03'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Birch03.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPBirch03Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPBirch03Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Birch05Dead'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Birch05Dead.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPBirch05DeadReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPBirch05DeadReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Birch06'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Birch06.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPBirch06Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPBirch06Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Fir01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Fir01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPFir01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPFir01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Fir02'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Fir02.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPFir02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPFir02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Pine01Snow'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Pine01Snow.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPPine01SnowReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPPine01SnowReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'FirBunch01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/FirBunch01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPFirBunch01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPFirBunch01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Pine01Ruined'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Pine01Ruined.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPPine01DeadReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPPine01DeadReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Pine02Damaged'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Pine02Damaged.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPPine02DeadReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPPine02DeadReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Pine03Damaged'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Pine03Damaged.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPPine03DeadReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPPine03DeadReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Pine03Damaged'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Pine03Damaged.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPPine04DeadReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPPine04DeadReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Pine02Snow'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Pine02Snow.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPFir02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPFir02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'PineBunchSnow01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/PineBunchSnow01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPFirBunch01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPFirBunch01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Firbush01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Firbush01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPFirbush01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPFirbush01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Firbush02'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Firbush02.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPFirbush02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPFirbush02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Firbush03'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Firbush03.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPFirbush03Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPFirbush03Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'AspenTree01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/AspenTree01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPAspenTree01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPAspenTree01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'AspenTree02'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/AspenTree02.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPAspenTree02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPAspenTree02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'AspenTree03'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/AspenTree03.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPAspenTree03Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPAspenTree03Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'CypressTree01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/CypressTree01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPCypressTree01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPCypressTree01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'CypressTree02'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/CypressTree02.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPCypressTree02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPCypressTree02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'CypressTree03'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/CypressTree03.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPCypressTree03Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPCypressTree03Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'OliveTree01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/OliveTree01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPOliveTree01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPOliveTree01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'OliveTree02'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/OliveTree02.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPOliveTree02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPOliveTree02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'OliveTree03'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/OliveTree03.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPOliveTree03Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPOliveTree03Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'BirchSilver_2'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/BirchSilver_2.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPSilverBirchFull01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchFull01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'ShrubWheatBrown_B'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/ShrubWheatBrown_B.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPBrownWheatReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPBrownWheatReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'BeechShrub01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/MichalTest/BeechShrub01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPBush01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPBush01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'BeechShrub02_2'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/MichalTest/BeechShrub02_2.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPBush02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPBush02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Bush05Dead'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Bush05Dead.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPBush05DeadReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPBush05DeadReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'CatTail01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/CatTail01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPCatTail01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPCatTail01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'CatTail02'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/CatTail02.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPCatTail02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPCatTail02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Corn01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Corn01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPCorn01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPCorn01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Bush05Dead'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Bush05Dead.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPDeadBush01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPDeadBush01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'FirDead'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/FirDead.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPFirDeadReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPFirDeadReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'ShrubWheatBrown_A'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/ShrubWheatBrown_A.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPGoldenWheatReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPGoldenWheatReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'ShrubWheatBrown_C'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/ShrubWheatBrown_C.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPGoldenWheatReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPGoldenWheatReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'BirchSilver_1'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/BirchSilver_1.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPSilverBirchFull02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchFull02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'BirchSilver_3'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/BirchSilver_3.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPSilverBirchFull03Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchFull03Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'SilverBirchBare'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/SilverBirchBare.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPSilverBirchBareReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'AspenTreeBush03'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/AspenTreeBush03.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPBirchBunchReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPBirchBunchReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'BeechShrub03'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/MichalTest/BeechShrub03.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPBush02DeadReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPBush02DeadReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'GrassPlantFernA_01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/GrassPlantFernA_01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPFern01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPFern01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'GrassPlantFernA_03'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/FoliageTypes/GrassPlantFernA_03.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPFern02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPFern02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'GroundCover01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/GroundCover01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPGroundCover01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPGroundCover01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'GroundCover02'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/GroundCover02.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPGroundCover02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPGroundCover02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'GroundCover03'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/GroundCover03.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPGroundCover03Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPGroundCover03Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'GroundCover04'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/GroundCover04.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPGroundCover04Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPGroundCover04Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'GourdPlant01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/GourdPlant01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPGourdPlant01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPGourdPlant01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Pine01Damaged'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Pine01Damaged.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPPine01DeadReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPPine01DeadReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Pine03'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Pine03.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPPine02DeadReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPPine02DeadReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Pine03Ruined'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Pine03Ruined.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPPine03DeadReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPPine03DeadReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Pine02Ruined'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Pine02Ruined.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPPine04DeadReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPPine04DeadReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'GrassPlantNettle_01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/GrassPlantNettle_01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPSmallPlants01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSmallPlants01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'GrassPlantNettle_03'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/GrassPlantNettle_03.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPSmallPlants02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSmallPlants02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Sunflower01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Sunflower01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPSunflower1Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSunflower1Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Sunflower02'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Sunflower02.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPSunflower2Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSunflower2Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'SunflowerDead01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/SunflowerDead01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPSunflowerDeadReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSunflowerDeadReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'TallGrass'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/TallGrass.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPTallgrassReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPTallgrassReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'FirSnow01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/FirSnow01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'Fir01SnowyReplacement1_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'FirSnow02'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/FirSnow02.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'Fir02SnowyReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir02SnowyReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'FirBunch01Snow2'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/FirBunch01Snow2.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'FirBunch01SnowReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/FirBunch01SnowReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'FirBunch01Snow2'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/FirBunch01Snow2.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPFirbush02SnowyReplacement1_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPFirbush02SnowyReplacement1.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'AspenTreeBush01'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/AspenTreeBush01.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'AspenTreeBush01Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/AspenTreeBush01Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'AspenTreeBush02'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/AspenTreeBush02.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'AspenTreeBush02Replacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/AspenTreeBush02Replacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Pine02Snow'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Pine02Snow.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPPine02SnowReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPPine02SnowReplacement.1"
+          }
+        },
+        {
+          "OriginalMesh": {
+            "ObjectName": "StaticMesh'Pine03Snow'",
+            "ObjectPath": "War/Content/Meshes/Environment/Foliage/Pine03Snow.2"
+          },
+          "Replacement": {
+            "ObjectName": "BlueprintGeneratedClass'BPPine03SnowReplacement_C'",
+            "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPPine03SnowReplacement.1"
+          }
+        }
+      ],
+      "MaxTreeRemovalPercentage": 0.9,
+      "FoliageCullInstancedStaticMeshClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPFoliageCullInstancedStaticMeshComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Culling/BPFoliageCullInstancedStaticMeshComponent.0"
+      },
+      "FoliageRemovalThresholdWeights[3]": 200.0,
+      "FoliageRemovalThresholdWeights[4]": 130.0,
+      "FoliageRemovalThresholdWeights[5]": 130.0,
+      "FoliageRemovalThresholdWeights[6]": 20.0,
+      "SampleExtents": 3000.0,
+      "DevastationToContrast": {
+        "ObjectName": "CurveFloat'DevastationToContrast'",
+        "ObjectPath": "War/Content/Blueprints/Data/DevastationToContrast.0"
+      },
+      "DevastationToSaturation": {
+        "ObjectName": "CurveFloat'DevastationToSaturation'",
+        "ObjectPath": "War/Content/Blueprints/Data/DevastationToSaturation.0"
+      },
+      "SunHeightToDevastationPostProcessMultiplier": {
+        "ObjectName": "CurveFloat'SunHeightToDevastationPostProcessMultiplier'",
+        "ObjectPath": "War/Content/Blueprints/Data/SunHeightToDevastationPostProcessMultiplier.0"
+      },
+      "MaxPuddleCoverage": 0.25,
+      "PuddlesInGroupDistribution": {
+        "ObjectName": "CurveFloat'PuddlesInGroupDistribution'",
+        "ObjectPath": "War/Content/Blueprints/Data/PuddlesInGroupDistribution.0"
+      },
+      "PuddleGroupRadiusDistribution": {
+        "ObjectName": "CurveFloat'PuddleGroupRadiusDistribution'",
+        "ObjectPath": "War/Content/Blueprints/Data/PuddleGroupRadiusDistribution.0"
+      },
+      "PuddleMinDistance": 500.0,
+      "PuddleMinDistanceDistribution": {
+        "ObjectName": "CurveFloat'PuddleMinDistanceDistribution'",
+        "ObjectPath": "War/Content/Blueprints/Data/PuddleMinDistanceDistribution.0"
+      },
+      "PuddleRadiusDistribution": {
+        "ObjectName": "CurveFloat'PuddleRadiusDistribution'",
+        "ObjectPath": "War/Content/Blueprints/Data/PuddleRadiusDistribution.0"
+      },
+      "PuddleMaximumRainfallDistribution": {
+        "ObjectName": "CurveFloat'PuddleMaximumDistribution'",
+        "ObjectPath": "War/Content/Blueprints/Data/PuddleMaximumDistribution.0"
+      },
+      "StructureMaximumRainfallDistribution": {
+        "ObjectName": "CurveFloat'StructureMaximumRainfallDistribution'",
+        "ObjectPath": "War/Content/Blueprints/Data/StructureMaximumRainfallDistribution.0"
+      },
+      "RainfallVisualMappingCurve": {
+        "ObjectName": "CurveFloat'RainfallVisualMappingCurve'",
+        "ObjectPath": "War/Content/Blueprints/Data/RainfallVisualMappingCurve.0"
+      },
+      "RainfallPerIntensitySecond": 2E-05,
+      "RainfallDevastationMultiplier": 5.0,
+      "RainfallDryingRate": 1.5E-05,
+      "MaximumPuddleSlopeAngle": 15.0,
+      "PuddleDecals": [
+        {
+          "Decal": {
+            "DecalMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MudPuddle'",
+              "ObjectPath": "War/Content/Materials/Decals/MudPuddle.0"
+            },
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          },
+          "RequiredPhysMats": []
+        },
+        {
+          "Decal": {
+            "DecalMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MudPuddle1'",
+              "ObjectPath": "War/Content/Materials/Decals/MudPuddle1.0"
+            },
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          },
+          "RequiredPhysMats": []
+        },
+        {
+          "Decal": {
+            "DecalMaterial": {
+              "ObjectName": "MaterialInstanceConstant'MudPuddle2'",
+              "ObjectPath": "War/Content/Materials/Decals/MudPuddle2.0"
+            },
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          },
+          "RequiredPhysMats": []
+        },
+        {
+          "Decal": {
+            "DecalMaterial": {
+              "ObjectName": "MaterialInstanceConstant'SlushPuddle'",
+              "ObjectPath": "War/Content/Materials/Decals/SlushPuddle.0"
+            },
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          },
+          "RequiredPhysMats": [
+            {
+              "ObjectName": "PhysicalMaterial'SnowPhys'",
+              "ObjectPath": "War/Content/PhysicalMaterials/SnowPhys.0"
+            }
+          ]
+        },
+        {
+          "Decal": {
+            "DecalMaterial": {
+              "ObjectName": "MaterialInstanceConstant'SlushPuddle1'",
+              "ObjectPath": "War/Content/Materials/Decals/SlushPuddle1.0"
+            },
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          },
+          "RequiredPhysMats": [
+            {
+              "ObjectName": "PhysicalMaterial'SnowPhys'",
+              "ObjectPath": "War/Content/PhysicalMaterials/SnowPhys.0"
+            }
+          ]
+        },
+        {
+          "Decal": {
+            "DecalMaterial": {
+              "ObjectName": "MaterialInstanceConstant'SlushPuddle2'",
+              "ObjectPath": "War/Content/Materials/Decals/SlushPuddle2.0"
+            },
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          },
+          "RequiredPhysMats": [
+            {
+              "ObjectName": "PhysicalMaterial'SnowPhys'",
+              "ObjectPath": "War/Content/PhysicalMaterials/SnowPhys.0"
+            }
+          ]
+        }
+      ],
+      "PuddleBlockingPhysicalMaterials": [
+        {
+          "ObjectName": "PhysicalMaterial'TownStone'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TownStone.0"
+        },
+        {
+          "ObjectName": "PhysicalMaterial'SandPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/SandPhys.0"
+        },
+        {
+          "ObjectName": "PhysicalMaterial'WetSandPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/WetSandPhys.0"
+        }
+      ],
+      "RainfallPerShovel": 0.0075,
+      "RainfallPerWaterBucket": 0.005,
+      "AirDustParticleSystem": {
+        "ObjectName": "ParticleSystem'AirDust'",
+        "ObjectPath": "War/Content/FX/AirDust.15"
+      },
+      "PrimaryFogData": {
+        "FogDensity": 0.05,
+        "FogHeightFalloff": 0.1
+      },
+      "SecondaryFogData": {
+        "FogDensity": 0.05,
+        "FogHeightFalloff": 0.1,
+        "FogHeightOffset": 6000.0
+      },
+      "FogInscatteringColor": {
+        "R": 0.401042,
+        "G": 0.39189,
+        "B": 0.387832,
+        "A": 1.0,
+        "Hex": "AAA8A7"
+      },
+      "CSMParameters": {
+        "ObjectName": "CurveVector'CSMParameters'",
+        "ObjectPath": "War/Content/Blueprints/Data/CSMParameters.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,2217 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "SK_AircraftBomberC_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsAsset'",
+    "Properties": {
+      "BoundsBodies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberC_PhysicsAsset:SkeletalBodySetup_0'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_PhysicsAsset.1"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberC_PhysicsAsset:SkeletalBodySetup_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_PhysicsAsset.2"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberC_PhysicsAsset:SkeletalBodySetup_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_PhysicsAsset.4"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberC_PhysicsAsset:SkeletalBodySetup_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_PhysicsAsset.5"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberC_PhysicsAsset:SkeletalBodySetup_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_PhysicsAsset.6"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberC_PhysicsAsset:SkeletalBodySetup_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_PhysicsAsset.7"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberC_PhysicsAsset:SkeletalBodySetup_6'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_PhysicsAsset.8"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberC_PhysicsAsset:SkeletalBodySetup_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_PhysicsAsset.9"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberC_PhysicsAsset:SkeletalBodySetup_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_PhysicsAsset.10"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberC_PhysicsAsset:SkeletalBodySetup_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_PhysicsAsset.11"
+        },
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftBomberC_PhysicsAsset:SkeletalBodySetup_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_PhysicsAsset.3"
+        }
+      ],
+      "ThumbnailInfo": null
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_0",
+    "Outer": "SK_AircraftBomberC_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 0.0,
+                "Y": 192.30391,
+                "Z": 20.70073
+              },
+              {
+                "X": 2.3841858E-05,
+                "Y": 231.23341,
+                "Z": -20.77782
+              },
+              {
+                "X": 0.0,
+                "Y": 192.30392,
+                "Z": -62.256382
+              },
+              {
+                "X": -923.2129,
+                "Y": 192.3045,
+                "Z": 20.700727
+              },
+              {
+                "X": 4.194665,
+                "Y": -281.45648,
+                "Z": 5.132584
+              },
+              {
+                "X": -923.2129,
+                "Y": -152.17157,
+                "Z": 12.515416
+              },
+              {
+                "X": 4.194665,
+                "Y": -281.45648,
+                "Z": -5.6924844
+              },
+              {
+                "X": -923.2129,
+                "Y": -152.1715,
+                "Z": 6.8239107
+              },
+              {
+                "X": -923.2129,
+                "Y": 192.3045,
+                "Z": -22.915789
+              },
+              {
+                "X": -923.2129,
+                "Y": 231.23402,
+                "Z": -1.1076148
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -923.2129,
+                "Y": -281.45648,
+                "Z": -62.256382
+              },
+              "Max": {
+                "X": 4.194665,
+                "Y": 231.23402,
+                "Z": 20.70073
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Wing02_R",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "E95DFD9B40E20EE6C4ADC98DCC073DFF",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1231,
+        "SizeOnDisk": 1231,
+        "OffsetInFile": "0xBC8D"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_1",
+    "Outer": "SK_AircraftBomberC_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -432.07474,
+                "Y": 192.30484,
+                "Z": 20.700727
+              },
+              {
+                "X": -432.07474,
+                "Y": 231.23436,
+                "Z": 9.122794
+              },
+              {
+                "X": -432.07474,
+                "Y": 192.30484,
+                "Z": -2.4551578
+              },
+              {
+                "X": -0.0031471252,
+                "Y": 192.3045,
+                "Z": 20.700727
+              },
+              {
+                "X": -432.07474,
+                "Y": -84.57317,
+                "Z": 16.355152
+              },
+              {
+                "X": 0.0,
+                "Y": -150.7148,
+                "Z": 12.598163
+              },
+              {
+                "X": -432.07474,
+                "Y": -84.57319,
+                "Z": 13.333549
+              },
+              {
+                "X": 0.0005722046,
+                "Y": -150.71487,
+                "Z": 6.964176
+              },
+              {
+                "X": 0.000667572,
+                "Y": 192.3045,
+                "Z": -22.474888
+              },
+              {
+                "X": -0.0037193298,
+                "Y": 231.23402,
+                "Z": -0.8869794
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -432.07474,
+                "Y": -150.71487,
+                "Z": -22.474888
+              },
+              "Max": {
+                "X": 0.000667572,
+                "Y": 231.23436,
+                "Z": 20.700727
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Wing01_R",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "9476C26C4E63B9D5BAD6F989F5C3B2EE",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1231,
+        "SizeOnDisk": 1231,
+        "OffsetInFile": "0xC4E5"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_10",
+    "Outer": "SK_AircraftBomberC_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 61.388172,
+                "Y": -396.8974,
+                "Z": 135.58061
+              },
+              {
+                "X": -61.388363,
+                "Y": -396.8974,
+                "Z": 135.58061
+              },
+              {
+                "X": 68.50388,
+                "Y": -648.3216,
+                "Z": 135.98427
+              },
+              {
+                "X": 67.73165,
+                "Y": -403.05246,
+                "Z": 135.47705
+              },
+              {
+                "X": -68.504074,
+                "Y": -648.3216,
+                "Z": 135.98427
+              },
+              {
+                "X": -67.73184,
+                "Y": -403.05246,
+                "Z": 135.47705
+              },
+              {
+                "X": 74.85043,
+                "Y": -651.7831,
+                "Z": 128.30295
+              },
+              {
+                "X": 102.96633,
+                "Y": -403.0519,
+                "Z": 81.34637
+              },
+              {
+                "X": -74.850624,
+                "Y": -651.7831,
+                "Z": 128.30295
+              },
+              {
+                "X": 74.54352,
+                "Y": -352.81146,
+                "Z": 71.861755
+              },
+              {
+                "X": -102.96652,
+                "Y": -403.0519,
+                "Z": 81.34637
+              },
+              {
+                "X": -74.54371,
+                "Y": -352.81146,
+                "Z": 71.861755
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -102.96652,
+                "Y": -651.7831,
+                "Z": 71.861755
+              },
+              "Max": {
+                "X": 102.96633,
+                "Y": -352.81146,
+                "Z": 135.98427
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "VertexData": [
+              {
+                "X": -79.005135,
+                "Y": -651.78296,
+                "Z": -239.51978
+              },
+              {
+                "X": -112.28748,
+                "Y": -651.783,
+                "Z": -225.74297
+              },
+              {
+                "X": -77.310524,
+                "Y": -333.7856,
+                "Z": -217.4668
+              },
+              {
+                "X": -110.60215,
+                "Y": -333.78564,
+                "Z": -203.69054
+              },
+              {
+                "X": 79.004944,
+                "Y": -651.78296,
+                "Z": -239.51978
+              },
+              {
+                "X": 112.28729,
+                "Y": -651.783,
+                "Z": -225.74297
+              },
+              {
+                "X": -74.850624,
+                "Y": -651.7831,
+                "Z": 128.30295
+              },
+              {
+                "X": -101.5751,
+                "Y": -333.78568,
+                "Z": 68.26998
+              },
+              {
+                "X": -124.39198,
+                "Y": -333.78568,
+                "Z": 49.426792
+              },
+              {
+                "X": 77.31033,
+                "Y": -333.7856,
+                "Z": -217.4668
+              },
+              {
+                "X": -124.391624,
+                "Y": -333.7855,
+                "Z": -170.43169
+              },
+              {
+                "X": -126.07358,
+                "Y": -651.78284,
+                "Z": -192.48277
+              },
+              {
+                "X": -126.07358,
+                "Y": -651.7829,
+                "Z": 106.771706
+              },
+              {
+                "X": 110.60196,
+                "Y": -333.78564,
+                "Z": -203.69054
+              },
+              {
+                "X": -60.338287,
+                "Y": -108.571594,
+                "Z": -202.19698
+              },
+              {
+                "X": -81.36969,
+                "Y": -108.571594,
+                "Z": -184.23013
+              },
+              {
+                "X": -67.707466,
+                "Y": -108.57163,
+                "Z": 24.14304
+              },
+              {
+                "X": -91.901436,
+                "Y": -108.571625,
+                "Z": 5.299865
+              },
+              {
+                "X": -95.159164,
+                "Y": -108.57146,
+                "Z": -150.97128
+              },
+              {
+                "X": 74.85043,
+                "Y": -651.7831,
+                "Z": 128.30295
+              },
+              {
+                "X": 101.57491,
+                "Y": -333.78568,
+                "Z": 68.26998
+              },
+              {
+                "X": 124.39179,
+                "Y": -333.78568,
+                "Z": 49.426792
+              },
+              {
+                "X": 124.39143,
+                "Y": -333.7855,
+                "Z": -170.43169
+              },
+              {
+                "X": 126.07339,
+                "Y": -651.78284,
+                "Z": -192.48277
+              },
+              {
+                "X": 126.07339,
+                "Y": -651.7829,
+                "Z": 106.771706
+              },
+              {
+                "X": 60.338097,
+                "Y": -108.571594,
+                "Z": -202.19698
+              },
+              {
+                "X": 81.3695,
+                "Y": -108.571594,
+                "Z": -184.23013
+              },
+              {
+                "X": 67.707275,
+                "Y": -108.57163,
+                "Z": 24.14304
+              },
+              {
+                "X": 91.901245,
+                "Y": -108.571625,
+                "Z": 5.299865
+              },
+              {
+                "X": 95.15897,
+                "Y": -108.57146,
+                "Z": -150.97128
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -126.07358,
+                "Y": -651.7831,
+                "Z": -239.51978
+              },
+              "Max": {
+                "X": 126.07339,
+                "Y": -108.57146,
+                "Z": 128.30295
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "VertexData": [
+              {
+                "X": -60.338287,
+                "Y": -108.571594,
+                "Z": -202.19698
+              },
+              {
+                "X": -81.36969,
+                "Y": -108.571594,
+                "Z": -184.23013
+              },
+              {
+                "X": -67.707466,
+                "Y": -108.57163,
+                "Z": 24.14304
+              },
+              {
+                "X": -91.901436,
+                "Y": -108.571625,
+                "Z": 5.299865
+              },
+              {
+                "X": -95.159164,
+                "Y": -108.57146,
+                "Z": -150.97128
+              },
+              {
+                "X": -6.074361,
+                "Y": -0.0001630638,
+                "Z": -169.84375
+              },
+              {
+                "X": -8.191595,
+                "Y": -0.00016476725,
+                "Z": -159.3881
+              },
+              {
+                "X": -6.8162165,
+                "Y": -0.00019466826,
+                "Z": 24.143055
+              },
+              {
+                "X": -9.251828,
+                "Y": -0.00019159833,
+                "Z": 5.299881
+              },
+              {
+                "X": -9.579782,
+                "Y": -2.4869378E-05,
+                "Z": -140.03342
+              },
+              {
+                "X": 60.338097,
+                "Y": -108.571594,
+                "Z": -202.19698
+              },
+              {
+                "X": 81.3695,
+                "Y": -108.571594,
+                "Z": -184.23013
+              },
+              {
+                "X": 67.707275,
+                "Y": -108.57163,
+                "Z": 24.14304
+              },
+              {
+                "X": -77.126465,
+                "Y": -54.285908,
+                "Z": 5.2998724
+              },
+              {
+                "X": -56.82215,
+                "Y": -54.28591,
+                "Z": 24.143045
+              },
+              {
+                "X": 91.901245,
+                "Y": -108.571625,
+                "Z": 5.299865
+              },
+              {
+                "X": 95.15897,
+                "Y": -108.57146,
+                "Z": -150.97128
+              },
+              {
+                "X": -68.2879,
+                "Y": -54.285877,
+                "Z": -177.38179
+              },
+              {
+                "X": -79.86044,
+                "Y": -54.28574,
+                "Z": -147.95598
+              },
+              {
+                "X": 6.0741744,
+                "Y": -0.0001630638,
+                "Z": -169.84375
+              },
+              {
+                "X": -50.637722,
+                "Y": -54.285877,
+                "Z": -193.27797
+              },
+              {
+                "X": 8.191409,
+                "Y": -0.00016476725,
+                "Z": -159.3881
+              },
+              {
+                "X": 6.8160305,
+                "Y": -0.00019466826,
+                "Z": 24.143055
+              },
+              {
+                "X": 9.251641,
+                "Y": -0.00019159833,
+                "Z": 5.299881
+              },
+              {
+                "X": 9.579596,
+                "Y": -2.4869378E-05,
+                "Z": -140.03342
+              },
+              {
+                "X": 77.126274,
+                "Y": -54.285908,
+                "Z": 5.2998724
+              },
+              {
+                "X": 56.82196,
+                "Y": -54.28591,
+                "Z": 24.143045
+              },
+              {
+                "X": 68.28771,
+                "Y": -54.285877,
+                "Z": -177.38179
+              },
+              {
+                "X": 79.86025,
+                "Y": -54.28574,
+                "Z": -147.95598
+              },
+              {
+                "X": 50.63753,
+                "Y": -54.285877,
+                "Z": -193.27797
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -95.159164,
+                "Y": -108.57163,
+                "Z": -202.19698
+              },
+              "Max": {
+                "X": 95.15897,
+                "Y": -2.4869378E-05,
+                "Z": 24.143055
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Fuselage_01",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "96D2ACED40FB0FFC4F6AEDB7253E97E5",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 7399,
+        "SizeOnDisk": 7399,
+        "OffsetInFile": "0xD40D"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_2",
+    "Outer": "SK_AircraftBomberC_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 0.0,
+                "Y": 565.3222,
+                "Z": -154.47942
+              },
+              {
+                "X": 70.66555,
+                "Y": 565.3222,
+                "Z": -125.208855
+              },
+              {
+                "X": -70.66555,
+                "Y": 565.3222,
+                "Z": -125.208855
+              },
+              {
+                "X": 0.0,
+                "Y": -41.48072,
+                "Z": -154.4795
+              },
+              {
+                "X": 70.66555,
+                "Y": -41.48073,
+                "Z": -125.208954
+              },
+              {
+                "X": -70.66555,
+                "Y": -41.48073,
+                "Z": -125.208954
+              },
+              {
+                "X": 0.0,
+                "Y": -417.74243,
+                "Z": -81.8012
+              },
+              {
+                "X": -24.045181,
+                "Y": -417.74243,
+                "Z": -66.40473
+              },
+              {
+                "X": 24.045229,
+                "Y": -417.74243,
+                "Z": -66.40473
+              },
+              {
+                "X": 34.00502,
+                "Y": -417.74243,
+                "Z": -29.234362
+              },
+              {
+                "X": 34.00502,
+                "Y": -417.74243,
+                "Z": -1.1479133
+              },
+              {
+                "X": 99.936104,
+                "Y": -41.48074,
+                "Z": -54.54358
+              },
+              {
+                "X": -34.00502,
+                "Y": -417.74243,
+                "Z": -29.234362
+              },
+              {
+                "X": -34.00502,
+                "Y": -417.74243,
+                "Z": -1.1479133
+              },
+              {
+                "X": -99.936104,
+                "Y": -41.48074,
+                "Z": -54.54358
+              },
+              {
+                "X": -99.936104,
+                "Y": -41.480755,
+                "Z": 48.27306
+              },
+              {
+                "X": -99.936104,
+                "Y": 565.3222,
+                "Z": -54.54348
+              },
+              {
+                "X": -99.936104,
+                "Y": 565.3222,
+                "Z": 48.27316
+              },
+              {
+                "X": 99.936104,
+                "Y": 565.3222,
+                "Z": -54.54348
+              },
+              {
+                "X": 99.936104,
+                "Y": 565.3222,
+                "Z": 48.27316
+              },
+              {
+                "X": 99.936104,
+                "Y": -41.480755,
+                "Z": 48.27306
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -99.936104,
+                "Y": -417.74243,
+                "Z": -154.4795
+              },
+              "Max": {
+                "X": 99.936104,
+                "Y": 565.3222,
+                "Z": 48.27316
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Engine_R",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "A3D9514247735F83DBAFA38050D5F14F",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 2081,
+        "SizeOnDisk": 2081,
+        "OffsetInFile": "0xF501"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_3",
+    "Outer": "SK_AircraftBomberC_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -5.9604645E-06,
+                "Y": 126.08814,
+                "Z": 2.4158455E-05
+              },
+              {
+                "X": -339.46866,
+                "Y": 126.08814,
+                "Z": 2.4158455E-05
+              },
+              {
+                "X": -5.9604645E-06,
+                "Y": 132.68976,
+                "Z": -7.7155867
+              },
+              {
+                "X": -5.9604645E-06,
+                "Y": 9.5220305E-05,
+                "Z": 0.90303856
+              },
+              {
+                "X": -5.9604645E-06,
+                "Y": 126.08814,
+                "Z": -15.4312
+              },
+              {
+                "X": -339.46866,
+                "Y": 126.08814,
+                "Z": -15.4312
+              },
+              {
+                "X": -5.9604645E-06,
+                "Y": 9.802862E-05,
+                "Z": -16.334253
+              },
+              {
+                "X": -339.46866,
+                "Y": 9.802862E-05,
+                "Z": -16.334253
+              },
+              {
+                "X": -5.9604645E-06,
+                "Y": -173.5837,
+                "Z": -8.684244
+              },
+              {
+                "X": -339.46866,
+                "Y": -78.5922,
+                "Z": -8.684229
+              },
+              {
+                "X": -5.9604645E-06,
+                "Y": -173.5837,
+                "Z": -6.747029
+              },
+              {
+                "X": -339.46866,
+                "Y": -78.5922,
+                "Z": -6.7470136
+              },
+              {
+                "X": -339.46866,
+                "Y": 9.5220305E-05,
+                "Z": 0.90303856
+              },
+              {
+                "X": -339.46866,
+                "Y": 132.68976,
+                "Z": -7.7155867
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -339.46866,
+                "Y": -173.5837,
+                "Z": -16.334253
+              },
+              "Max": {
+                "X": -5.9604645E-06,
+                "Y": 132.68976,
+                "Z": 0.90303856
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "VertexData": [
+              {
+                "X": -338.89233,
+                "Y": 140.78404,
+                "Z": 174.1341
+              },
+              {
+                "X": -333.24878,
+                "Y": -0.46303725,
+                "Z": 174.13408
+              },
+              {
+                "X": -344.49783,
+                "Y": 140.78404,
+                "Z": 174.1341
+              },
+              {
+                "X": -338.89233,
+                "Y": 140.78409,
+                "Z": -78.93587
+              },
+              {
+                "X": -333.24878,
+                "Y": -0.462996,
+                "Z": -78.93589
+              },
+              {
+                "X": -344.49783,
+                "Y": 140.78409,
+                "Z": -78.93587
+              },
+              {
+                "X": -350.14142,
+                "Y": -0.462996,
+                "Z": -78.93589
+              },
+              {
+                "X": -343.57895,
+                "Y": -169.20566,
+                "Z": -78.93592
+              },
+              {
+                "X": -350.14142,
+                "Y": -0.46303725,
+                "Z": 174.13408
+              },
+              {
+                "X": -343.57895,
+                "Y": -169.20569,
+                "Z": 174.13405
+              },
+              {
+                "X": -339.81125,
+                "Y": -169.20569,
+                "Z": 174.13405
+              },
+              {
+                "X": -339.81125,
+                "Y": -169.20566,
+                "Z": -78.93592
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -350.14142,
+                "Y": -169.20569,
+                "Z": -78.93592
+              },
+              "Max": {
+                "X": -333.24878,
+                "Y": 140.78409,
+                "Z": 174.1341
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Tail_R",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "CFF857EB4E516A527B4E22B5DC13F834",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 2521,
+        "SizeOnDisk": 2521,
+        "OffsetInFile": "0x1035F"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_4",
+    "Outer": "SK_AircraftBomberC_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 0.0,
+                "Y": 192.30391,
+                "Z": 20.70073
+              },
+              {
+                "X": -2.3841858E-05,
+                "Y": 231.23341,
+                "Z": -20.77782
+              },
+              {
+                "X": 0.0,
+                "Y": 192.30392,
+                "Z": -62.256382
+              },
+              {
+                "X": 923.2129,
+                "Y": 192.3045,
+                "Z": 20.700727
+              },
+              {
+                "X": 923.2129,
+                "Y": 231.23402,
+                "Z": -1.1076148
+              },
+              {
+                "X": 923.2129,
+                "Y": 192.3045,
+                "Z": -22.915789
+              },
+              {
+                "X": -4.194665,
+                "Y": -281.45648,
+                "Z": -5.6924844
+              },
+              {
+                "X": -4.194665,
+                "Y": -281.45648,
+                "Z": 5.132584
+              },
+              {
+                "X": 923.2129,
+                "Y": -152.1715,
+                "Z": 6.8239098
+              },
+              {
+                "X": 923.2129,
+                "Y": -152.17157,
+                "Z": 12.515416
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -4.194665,
+                "Y": -281.45648,
+                "Z": -62.256382
+              },
+              "Max": {
+                "X": 923.2129,
+                "Y": 231.23402,
+                "Z": 20.70073
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Wing02_L",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "CA50C6A640258745AE0EF090DD93A464",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1231,
+        "SizeOnDisk": 1231,
+        "OffsetInFile": "0x110C1"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_5",
+    "Outer": "SK_AircraftBomberC_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 432.07474,
+                "Y": 192.30484,
+                "Z": 20.700727
+              },
+              {
+                "X": 432.07474,
+                "Y": 231.23436,
+                "Z": 9.122794
+              },
+              {
+                "X": 0.0031471252,
+                "Y": 192.3045,
+                "Z": 20.700727
+              },
+              {
+                "X": 0.0037193298,
+                "Y": 231.23402,
+                "Z": -0.8869791
+              },
+              {
+                "X": 0.0,
+                "Y": -150.7148,
+                "Z": 12.598163
+              },
+              {
+                "X": 432.07474,
+                "Y": -84.57317,
+                "Z": 16.355152
+              },
+              {
+                "X": 432.07474,
+                "Y": -84.57319,
+                "Z": 13.333549
+              },
+              {
+                "X": 432.07474,
+                "Y": 192.30484,
+                "Z": -2.4551585
+              },
+              {
+                "X": -0.000667572,
+                "Y": 192.3045,
+                "Z": -22.474888
+              },
+              {
+                "X": -0.0005722046,
+                "Y": -150.71487,
+                "Z": 6.964177
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -0.000667572,
+                "Y": -150.71487,
+                "Z": -22.474888
+              },
+              "Max": {
+                "X": 432.07474,
+                "Y": 231.23436,
+                "Z": 20.700727
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Wing01_L",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "27A542F243FA0060079316BE1583171E",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1231,
+        "SizeOnDisk": 1231,
+        "OffsetInFile": "0x11919"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_6",
+    "Outer": "SK_AircraftBomberC_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 0.0,
+                "Y": 565.3222,
+                "Z": -154.47942
+              },
+              {
+                "X": -70.66555,
+                "Y": 565.3222,
+                "Z": -125.208855
+              },
+              {
+                "X": 34.00502,
+                "Y": -417.74243,
+                "Z": -29.234362
+              },
+              {
+                "X": -99.936104,
+                "Y": 565.3222,
+                "Z": -54.54348
+              },
+              {
+                "X": 99.936104,
+                "Y": -41.480755,
+                "Z": 48.27306
+              },
+              {
+                "X": -99.936104,
+                "Y": -41.480755,
+                "Z": 48.27306
+              },
+              {
+                "X": 99.936104,
+                "Y": 565.3222,
+                "Z": 48.27316
+              },
+              {
+                "X": -99.936104,
+                "Y": 565.3222,
+                "Z": 48.27316
+              },
+              {
+                "X": 24.045181,
+                "Y": -417.74243,
+                "Z": -66.40473
+              },
+              {
+                "X": 70.66555,
+                "Y": 565.3222,
+                "Z": -125.208855
+              },
+              {
+                "X": -34.00502,
+                "Y": -417.74243,
+                "Z": -29.234362
+              },
+              {
+                "X": 99.936104,
+                "Y": 565.3222,
+                "Z": -54.54348
+              },
+              {
+                "X": 0.0,
+                "Y": -41.48072,
+                "Z": -154.4795
+              },
+              {
+                "X": -24.045229,
+                "Y": -417.74243,
+                "Z": -66.40473
+              },
+              {
+                "X": -70.66555,
+                "Y": -41.48073,
+                "Z": -125.208954
+              },
+              {
+                "X": 0.0,
+                "Y": -417.74243,
+                "Z": -81.8012
+              },
+              {
+                "X": -99.936104,
+                "Y": -41.48074,
+                "Z": -54.54358
+              },
+              {
+                "X": -34.00502,
+                "Y": -417.74243,
+                "Z": -1.1479127
+              },
+              {
+                "X": 70.66555,
+                "Y": -41.48073,
+                "Z": -125.208954
+              },
+              {
+                "X": 34.00502,
+                "Y": -417.74243,
+                "Z": -1.1479127
+              },
+              {
+                "X": 99.936104,
+                "Y": -41.48074,
+                "Z": -54.54358
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -99.936104,
+                "Y": -417.74243,
+                "Z": -154.4795
+              },
+              "Max": {
+                "X": 99.936104,
+                "Y": 565.3222,
+                "Z": 48.27316
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Engine_L",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "265B7A51429DDD4038706DA1BE8FEDCC",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 2081,
+        "SizeOnDisk": 2081,
+        "OffsetInFile": "0x121F5"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_7",
+    "Outer": "SK_AircraftBomberC_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 5.9604645E-06,
+                "Y": 126.08814,
+                "Z": 2.4346698E-05
+              },
+              {
+                "X": 339.46866,
+                "Y": 9.802862E-05,
+                "Z": -16.334251
+              },
+              {
+                "X": 5.9604645E-06,
+                "Y": 9.802862E-05,
+                "Z": -16.334251
+              },
+              {
+                "X": 5.9604645E-06,
+                "Y": 132.68976,
+                "Z": -7.7155867
+              },
+              {
+                "X": 339.46866,
+                "Y": 126.08814,
+                "Z": 2.4346698E-05
+              },
+              {
+                "X": 5.9604645E-06,
+                "Y": 9.5220305E-05,
+                "Z": 0.9030388
+              },
+              {
+                "X": 339.46866,
+                "Y": 9.5220305E-05,
+                "Z": 0.9030388
+              },
+              {
+                "X": 339.46866,
+                "Y": 132.68976,
+                "Z": -7.7155867
+              },
+              {
+                "X": 5.9604645E-06,
+                "Y": 126.08814,
+                "Z": -15.431199
+              },
+              {
+                "X": 339.46866,
+                "Y": -78.5922,
+                "Z": -8.684229
+              },
+              {
+                "X": 5.9604645E-06,
+                "Y": -173.5837,
+                "Z": -8.684244
+              },
+              {
+                "X": 339.46866,
+                "Y": 126.08814,
+                "Z": -15.431199
+              },
+              {
+                "X": 339.46866,
+                "Y": -78.5922,
+                "Z": -6.7470136
+              },
+              {
+                "X": 5.9604645E-06,
+                "Y": -173.5837,
+                "Z": -6.747029
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": 5.9604645E-06,
+                "Y": -173.5837,
+                "Z": -16.334251
+              },
+              "Max": {
+                "X": 339.46866,
+                "Y": 132.68976,
+                "Z": 0.9030388
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "VertexData": [
+              {
+                "X": 338.89233,
+                "Y": 140.78404,
+                "Z": 174.1341
+              },
+              {
+                "X": 333.24878,
+                "Y": -0.46303725,
+                "Z": 174.13408
+              },
+              {
+                "X": 339.81125,
+                "Y": -169.20569,
+                "Z": 174.13405
+              },
+              {
+                "X": 344.49783,
+                "Y": 140.78404,
+                "Z": 174.1341
+              },
+              {
+                "X": 350.14142,
+                "Y": -0.46303725,
+                "Z": 174.13408
+              },
+              {
+                "X": 343.57895,
+                "Y": -169.20569,
+                "Z": 174.13405
+              },
+              {
+                "X": 338.89233,
+                "Y": 140.78409,
+                "Z": -78.93587
+              },
+              {
+                "X": 333.24878,
+                "Y": -0.462996,
+                "Z": -78.93589
+              },
+              {
+                "X": 339.81125,
+                "Y": -169.20566,
+                "Z": -78.93592
+              },
+              {
+                "X": 344.49783,
+                "Y": 140.78409,
+                "Z": -78.93587
+              },
+              {
+                "X": 350.14142,
+                "Y": -0.462996,
+                "Z": -78.93589
+              },
+              {
+                "X": 343.57895,
+                "Y": -169.20566,
+                "Z": -78.93592
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": 333.24878,
+                "Y": -169.20569,
+                "Z": -78.93592
+              },
+              "Max": {
+                "X": 350.14142,
+                "Y": 140.78409,
+                "Z": 174.1341
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Tail_L",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "77B7502645E2BECA742BAF8E0E94EFEB",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 2521,
+        "SizeOnDisk": 2521,
+        "OffsetInFile": "0x13053"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_8",
+    "Outer": "SK_AircraftBomberC_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -89.046005,
+                "Y": -343.4131,
+                "Z": 64.87563
+              },
+              {
+                "X": -89.046005,
+                "Y": -343.41306,
+                "Z": -92.92052
+              },
+              {
+                "X": -69.88526,
+                "Y": -343.41327,
+                "Z": 86.40687
+              },
+              {
+                "X": -85.46371,
+                "Y": -343.41324,
+                "Z": -110.91979
+              },
+              {
+                "X": 89.04581,
+                "Y": -343.4131,
+                "Z": 64.87563
+              },
+              {
+                "X": 89.04581,
+                "Y": -343.41306,
+                "Z": -92.92052
+              },
+              {
+                "X": -41.983322,
+                "Y": -343.41315,
+                "Z": -139.95753
+              },
+              {
+                "X": 69.88507,
+                "Y": -343.41327,
+                "Z": 86.40687
+              },
+              {
+                "X": -21.453669,
+                "Y": -408.22903,
+                "Z": -116.21391
+              },
+              {
+                "X": 85.46352,
+                "Y": -343.41324,
+                "Z": -110.91979
+              },
+              {
+                "X": -56.895725,
+                "Y": -408.22916,
+                "Z": -101.83401
+              },
+              {
+                "X": -44.197304,
+                "Y": -408.2292,
+                "Z": 82.86494
+              },
+              {
+                "X": -59.815746,
+                "Y": -408.22894,
+                "Z": -92.92051
+              },
+              {
+                "X": -59.815754,
+                "Y": -408.22897,
+                "Z": 61.3337
+              },
+              {
+                "X": 41.983135,
+                "Y": -343.41315,
+                "Z": -139.95753
+              },
+              {
+                "X": 21.453484,
+                "Y": -408.22903,
+                "Z": -116.21391
+              },
+              {
+                "X": 56.895535,
+                "Y": -408.22916,
+                "Z": -101.83401
+              },
+              {
+                "X": 44.197117,
+                "Y": -408.2292,
+                "Z": 82.86494
+              },
+              {
+                "X": 59.815556,
+                "Y": -408.22894,
+                "Z": -92.92051
+              },
+              {
+                "X": 59.815563,
+                "Y": -408.22897,
+                "Z": 61.3337
+              },
+              {
+                "X": -71.15834,
+                "Y": -0.00011119497,
+                "Z": 97.14873
+              },
+              {
+                "X": -51.475395,
+                "Y": 2.6960824E-05,
+                "Z": -165.48436
+              },
+              {
+                "X": 98.53936,
+                "Y": 8.304778E-05,
+                "Z": 75.61749
+              },
+              {
+                "X": -92.34109,
+                "Y": -7.2499985E-05,
+                "Z": -140.35939
+              },
+              {
+                "X": 92.3409,
+                "Y": -7.2499985E-05,
+                "Z": -140.35939
+              },
+              {
+                "X": 51.475204,
+                "Y": 2.6960824E-05,
+                "Z": -165.48436
+              },
+              {
+                "X": -98.53955,
+                "Y": 8.304778E-05,
+                "Z": 75.61749
+              },
+              {
+                "X": -98.53955,
+                "Y": 0.00011466495,
+                "Z": -118.44735
+              },
+              {
+                "X": 71.15815,
+                "Y": -0.00011119497,
+                "Z": 97.14873
+              },
+              {
+                "X": 98.53936,
+                "Y": 0.00011466495,
+                "Z": -118.44735
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -98.53955,
+                "Y": -408.2292,
+                "Z": -165.48436
+              },
+              "Max": {
+                "X": 98.53936,
+                "Y": 0.00011466495,
+                "Z": 97.14873
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Fuselage_03",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "BF0F3C364FE4E4890A3B9187940D3549",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 3095,
+        "SizeOnDisk": 3095,
+        "OffsetInFile": "0x13EA5"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_9",
+    "Outer": "SK_AircraftBomberC_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -79.005135,
+                "Y": 131.25621,
+                "Z": -239.51965
+              },
+              {
+                "X": -112.28748,
+                "Y": 131.2562,
+                "Z": -225.74284
+              },
+              {
+                "X": 79.004944,
+                "Y": 131.25621,
+                "Z": -239.51965
+              },
+              {
+                "X": 112.28729,
+                "Y": 131.2562,
+                "Z": -225.74284
+              },
+              {
+                "X": -74.850624,
+                "Y": 131.25613,
+                "Z": 128.30307
+              },
+              {
+                "X": -126.07358,
+                "Y": 131.25633,
+                "Z": -192.48264
+              },
+              {
+                "X": -126.07358,
+                "Y": 131.25627,
+                "Z": 106.771835
+              },
+              {
+                "X": 74.85043,
+                "Y": 131.25613,
+                "Z": 128.30307
+              },
+              {
+                "X": 126.07339,
+                "Y": 131.25633,
+                "Z": -192.48264
+              },
+              {
+                "X": 126.07339,
+                "Y": 131.25627,
+                "Z": 106.771835
+              },
+              {
+                "X": -71.15834,
+                "Y": -864.74097,
+                "Z": 97.14859
+              },
+              {
+                "X": -51.475395,
+                "Y": -864.7409,
+                "Z": -165.4845
+              },
+              {
+                "X": 98.53936,
+                "Y": -864.7408,
+                "Z": 75.61735
+              },
+              {
+                "X": -92.34109,
+                "Y": -864.7409,
+                "Z": -140.35953
+              },
+              {
+                "X": 92.3409,
+                "Y": -864.7409,
+                "Z": -140.35953
+              },
+              {
+                "X": 51.475204,
+                "Y": -864.7409,
+                "Z": -165.4845
+              },
+              {
+                "X": -98.53955,
+                "Y": -864.7408,
+                "Z": 75.61735
+              },
+              {
+                "X": -98.53955,
+                "Y": -864.7407,
+                "Z": -118.447495
+              },
+              {
+                "X": 71.15815,
+                "Y": -864.74097,
+                "Z": 97.14859
+              },
+              {
+                "X": 98.53936,
+                "Y": -864.7407,
+                "Z": -118.447495
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -126.07358,
+                "Y": -864.74097,
+                "Z": -239.51965
+              },
+              "Max": {
+                "X": 126.07339,
+                "Y": 131.25633,
+                "Z": 128.30307
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "Fuselage_02",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "803B0D454621A93A0D0376B6C518B9E7",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1947,
+        "SizeOnDisk": 1947,
+        "OffsetInFile": "0x14EBD"
+      }
+    }
+  }
+]

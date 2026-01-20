@@ -1,0 +1,989 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "MultiplexedSkeletalMesh",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'MultiplexedSkeletalMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPISGPillbox_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPISGPillbox_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.38"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FoxholeTurret'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPISGPillbox_C:MultiplexedSkeletalMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPISGPillbox_C:SkeletalMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPISGPillbox_C:SeatTriggerComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPISGPillbox_C:SeatComponent0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.22"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPISGPillbox_C:LandscapeCheck5'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPISGPillbox_C:LandscapeCheck4'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPISGPillbox_C:LandscapeCheck3'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.19"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPISGPillbox_C:LandscapeCheck2'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.18"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPISGPillbox_C:LandscapeCheck1'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPISGPillbox_C:LandscapeCheck'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.16"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPISGPillbox_C'Default__BPISGPillbox_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.2"
+    }
+  },
+  {
+    "Type": "BPISGPillbox_C",
+    "Name": "Default__BPISGPillbox_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/BPISGPillbox.BPISGPillbox_C'",
+    "Properties": {
+      "AITurretComponent": {
+        "ObjectName": "AITurretComponent'Default__BPISGPillbox_C:AITurretComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.3"
+      },
+      "AITurretsController": {
+        "ObjectName": "AITurretsControllerComponent'Default__BPISGPillbox_C:AITurretsControllerComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.4"
+      },
+      "MuzzleFlashLocationComponent": {
+        "ObjectName": "ArrowComponent'Default__BPISGPillbox_C:MuzzleFxLocationComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.5"
+      },
+      "ShouldAggroOnDamage": true,
+      "FlagMesh": {
+        "ObjectName": "TeamFlagMeshComponent'Default__BPISGPillbox_C:FlagMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.42"
+      },
+      "VisibilityTraceOffsetZ": 150.0,
+      "bCanBeHidden": true,
+      "ProceduralUseVolumeFactor": 1.0,
+      "NoBuildPhysicalMaterials": [
+        {
+          "ObjectName": "PhysicalMaterial'WetSandPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/WetSandPhys.0"
+        },
+        {
+          "ObjectName": "PhysicalMaterial'T1RoadPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/T1RoadPhys.0"
+        },
+        {
+          "ObjectName": "PhysicalMaterial'T2RoadPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/T2RoadPhys.0"
+        },
+        {
+          "ObjectName": "PhysicalMaterial'T3RoadPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/T3RoadPhys.0"
+        },
+        {
+          "ObjectName": "PhysicalMaterial'SandPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/SandPhys.0"
+        },
+        {
+          "ObjectName": "PhysicalMaterial'TownStone'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TownStone.0"
+        }
+      ],
+      "BuildGhostClass": null,
+      "BuildSiteClass": {
+        "ObjectName": "Class'StructureBuildSite'",
+        "ObjectPath": "/Script/War"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "2E6A6C40441C77B0E7917596936A32A4",
+        "SourceString": "This heavily reinforced pillbox allows the garrisoned infantry with a 30mm support gun to fire on approaching enemy armour from a safe position.",
+        "LocalizedString": "This heavily reinforced pillbox allows the garrisoned infantry with a 30mm support gun to fire on approaching enemy armour from a safe position."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'ISGPillboxIcon'",
+        "ObjectPath": "War/Content/Textures/UI/StructureIcons/ISGPillboxIcon.0"
+      },
+      "BuildCategory": "EBuildCategory::Defense",
+      "BuildOrder": 8,
+      "BuildLocationType": "EBuildLocationType::Anywhere",
+      "bRotateBuildGhost": true,
+      "ValidBuildTools": 49,
+      "CodeName": "ISGPillbox",
+      "ChassisName": {
+        "TableId": "/Game/Blueprints/StringTables/STChassis.STChassis",
+        "Key": "ChassisFortification",
+        "SourceString": "Field Fortification",
+        "LocalizedString": "Field Fortification"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A512D48C4DBB485EA40D7A9524A5705E",
+        "SourceString": "Infantry Support Gun Pillbox",
+        "LocalizedString": "Infantry Support Gun Pillbox"
+      },
+      "ArmourType": "EArmourType::Tier2Structure",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPISGPillbox_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.6"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPISGPillbox_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.8"
+      },
+      "KillVolume": {
+        "ObjectName": "BoxComponent'Default__BPISGPillbox_C:KillVolume'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.7"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'GrenadeBlast'",
+        "ObjectPath": "War/Content/FX/GrenadeBlast.151"
+      },
+      "DestroyedSoundCue": {
+        "ObjectName": "SoundCue'StructureExplosionSmall_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/StructureExplosionSmall_Cue.0"
+      },
+      "TechID": "ETechID::UnlockISGPillbox",
+      "MaxHealth": 950,
+      "Health": 950,
+      "MapIntelligenceType": "EMapIntelligenceType::Defense",
+      "ClaimStatus": {
+        "bCanBuildSiteBeDemolished": true
+      },
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPISGPillbox_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.40"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPISGPillbox_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.6"
+      }
+    }
+  },
+  {
+    "Type": "AITurretComponent",
+    "Name": "AITurretComponent",
+    "Outer": "Default__BPISGPillbox_C",
+    "Class": "UScriptClass'AITurretComponent'",
+    "Properties": {
+      "AllowedTargetTypes": 30,
+      "MaximumRange": 4000.0,
+      "MaximumReachability": 3500.0,
+      "DamageAttributes": {
+        "ExplosionEffect": {
+          "ObjectName": "BlueprintGeneratedClass'ISGExplosion_C'",
+          "ObjectPath": "War/Content/Blueprints/ItemPickups/TankAmmo/ISGExplosion.0"
+        },
+        "DamageType": {
+          "ObjectName": "BlueprintGeneratedClass'BPExplosivePenetratingDamageType_C'",
+          "ObjectPath": "War/Content/Blueprints/DamageTypes/BPExplosivePenetratingDamageType.0"
+        },
+        "ShotSoundCue": {
+          "ObjectName": "SoundCue'ISGShot01_Cue'",
+          "ObjectPath": "War/Content/Audio/SFX/Weapons/ISG/ISGShot01_Cue.0"
+        },
+        "MuzzleFlashPS": {
+          "ObjectName": "ParticleSystem'ISGMF'",
+          "ObjectPath": "War/Content/FX/ISGMF.61"
+        },
+        "WeaponDamage": 400.0,
+        "FiringPeriod": 4.5,
+        "TimeToFullFireRateAndAccuracy": 7.0,
+        "EnemyPursueDuration": 4.0
+      },
+      "DamageAttributesAlternate": {
+        "WeaponFireFXClass": {
+          "ObjectName": "BlueprintGeneratedClass'TracerFireFX_C'",
+          "ObjectPath": "War/Content/Blueprints/TracerFireFX.1"
+        },
+        "ImpactEffect": {
+          "ObjectName": "BlueprintGeneratedClass'RifleImpactEffect_C'",
+          "ObjectPath": "War/Content/Blueprints/Items/RifleImpactEffect.1"
+        },
+        "DamageType": null,
+        "WeaponDamage": 0.0
+      },
+      "FiringConeAngle": 35.0,
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPISGPillbox_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.6"
+      }
+    }
+  },
+  {
+    "Type": "AITurretsControllerComponent",
+    "Name": "AITurretsControllerComponent",
+    "Outer": "Default__BPISGPillbox_C",
+    "Class": "UScriptClass'AITurretsControllerComponent'"
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "MuzzleFxLocationComponent",
+    "Outer": "Default__BPISGPillbox_C",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPISGPillbox_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.6"
+      },
+      "RelativeLocation": {
+        "X": 220.0,
+        "Y": 0.0,
+        "Z": 166.35922
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPISGPillbox_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "KillVolume",
+    "Outer": "Default__BPISGPillbox_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 275.0,
+        "Y": 250.0,
+        "Z": 110.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPISGPillbox_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.6"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 155.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPISGPillbox_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 330.0,
+        "Y": 300.0,
+        "Z": 64.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPISGPillbox_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.6"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 64.0
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "LandscapeCheck1_GEN_VARIABLE",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "MaxHeightAboveLandscape": 110.0,
+      "MaxDepthBelowLandscape": 150.0,
+      "RelativeLocation": {
+        "X": 57.5,
+        "Y": 100.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "LandscapeCheck2_GEN_VARIABLE",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "MaxHeightAboveLandscape": 110.0,
+      "MaxDepthBelowLandscape": 150.0,
+      "RelativeLocation": {
+        "X": -57.5,
+        "Y": 100.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "LandscapeCheck3_GEN_VARIABLE",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "MaxHeightAboveLandscape": 110.0,
+      "MaxDepthBelowLandscape": 150.0,
+      "RelativeLocation": {
+        "X": -115.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "LandscapeCheck4_GEN_VARIABLE",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "MaxHeightAboveLandscape": 110.0,
+      "MaxDepthBelowLandscape": 150.0,
+      "RelativeLocation": {
+        "X": -57.5,
+        "Y": -100.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "LandscapeCheck5_GEN_VARIABLE",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "MaxHeightAboveLandscape": 110.0,
+      "MaxDepthBelowLandscape": 150.0,
+      "RelativeLocation": {
+        "X": 57.5,
+        "Y": -100.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "LandscapeCheck_GEN_VARIABLE",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "MaxHeightAboveLandscape": 110.0,
+      "MaxDepthBelowLandscape": 150.0,
+      "RelativeLocation": {
+        "X": 115.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "MultiplexedSkeletalMeshComponent",
+    "Name": "MultiplexedSkeletalMesh_GEN_VARIABLE",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'MultiplexedSkeletalMeshComponent'",
+    "Properties": {
+      "TargetTag": "Multiplexed",
+      "MeshStops": [
+        {
+          "Threshold": 0,
+          "SkeletalMesh": {
+            "ObjectName": "SkeletalMesh'SK_ISGPillboxCritical'",
+            "ObjectPath": "War/Content/Meshes/Structures/SK_ISGPillboxCritical.0"
+          }
+        },
+        {
+          "Threshold": 33,
+          "SkeletalMesh": {
+            "ObjectName": "SkeletalMesh'SK_ISGPillboxDamage'",
+            "ObjectPath": "War/Content/Meshes/Structures/SK_ISGPillboxDamage.0"
+          }
+        },
+        {
+          "Threshold": 66,
+          "SkeletalMesh": {
+            "ObjectName": "SkeletalMesh'SK_ISGPillbox'",
+            "ObjectPath": "War/Content/Meshes/Structures/SK_ISGPillbox.0"
+          }
+        }
+      ],
+      "InputValue": 100,
+      "SelectedMeshIndex": 2
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LandscapeCheck",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BuildSocketComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LandscapeCheck1",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BuildSocketComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LandscapeCheck2",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BuildSocketComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LandscapeCheck3",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BuildSocketComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LandscapeCheck4",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BuildSocketComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LandscapeCheck5",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BuildSocketComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SeatComponent0",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StructureSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SeatTriggerComponent",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SkeletalMesh",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SkeletalMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPISGPillbox_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.25"
+      },
+      "VariableGuid": "B692036D-41768086-1E33EF9D-E041CA90",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MultiplexedSkeletalMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MultiplexedSkeletalMeshComponent'BPISGPillbox_C:MultiplexedSkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.15"
+      },
+      "VariableGuid": "5E6CB7DD-404EEBE2-2284AEBC-DE26AFA0",
+      "InternalVariableName": "MultiplexedSkeletalMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BuildSocketComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BuildSocketComponent'BPISGPillbox_C:LandscapeCheck5_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.13"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "896893EB-45FE3231-EDD782B6-855E254D",
+      "InternalVariableName": "LandscapeCheck5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'BPISGPillbox_C:SkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.39"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2288CCD4-48A788F9-A9E631B1-36B8E531",
+      "InternalVariableName": "SkeletalMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StructureSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StructureSeatComponent'BPISGPillbox_C:SeatComponent0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.41"
+      },
+      "ParentComponentOrVariableName": "AITurretComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B3D2D2AD-43BDB448-898702BF-67729A84",
+      "InternalVariableName": "SeatComponent0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPISGPillbox_C:SeatTriggerComponent_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.37"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4B8E1926-43C91913-FA57488C-D5E28A9A",
+      "InternalVariableName": "SeatTriggerComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BuildSocketComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BuildSocketComponent'BPISGPillbox_C:LandscapeCheck_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.14"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7A688FDC-4C9509C6-FC92C7AE-4991BA69",
+      "InternalVariableName": "LandscapeCheck"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BuildSocketComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BuildSocketComponent'BPISGPillbox_C:LandscapeCheck1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.9"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7588983E-4F04C071-00AA6690-0A0F2F5D",
+      "InternalVariableName": "LandscapeCheck1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BuildSocketComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BuildSocketComponent'BPISGPillbox_C:LandscapeCheck2_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.10"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9C471D66-4338F82A-ACAF9F96-C32BA4DD",
+      "InternalVariableName": "LandscapeCheck2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BuildSocketComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BuildSocketComponent'BPISGPillbox_C:LandscapeCheck3_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.11"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A98C8CAC-440139DE-D349539D-51C74425",
+      "InternalVariableName": "LandscapeCheck3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BuildSocketComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BuildSocketComponent'BPISGPillbox_C:LandscapeCheck4_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.12"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B0B03298-48350A30-0F7CBBA3-3A488D43",
+      "InternalVariableName": "LandscapeCheck4"
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "SeatTriggerComponent_GEN_VARIABLE",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 330.0,
+        "Y": 300.0,
+        "Z": 64.0
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 64.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.27"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.27"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPISGPillbox_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.26"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMesh_GEN_VARIABLE",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_ISGPillbox_C'",
+        "ObjectPath": "War/Content/Animation/WorldAssets/Fort_and_Trenches/ABP_ISGPillbox.1"
+      },
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_ISGPillbox'",
+        "ObjectPath": "War/Content/Meshes/Structures/SK_ISGPillbox.0"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered",
+      "bGenerateOverlapEvents": true,
+      "bReceivesDecals": false,
+      "CanCharacterStepUpOn": "ECB_Yes",
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "BlockAllDynamic",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bAllowTickOnDedicatedServer": false
+      },
+      "ComponentTags": [
+        "Multiplexed"
+      ]
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPISGPillbox_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "StructureSeatComponent",
+    "Name": "SeatComponent0_GEN_VARIABLE",
+    "Outer": "BPISGPillbox_C",
+    "Class": "UScriptClass'StructureSeatComponent'",
+    "Properties": {
+      "TriggerName": "SeatTriggerComponent",
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 50.0
+      }
+    }
+  },
+  {
+    "Type": "TeamFlagMeshComponent",
+    "Name": "FlagMesh",
+    "Outer": "Default__BPISGPillbox_C",
+    "Class": "UScriptClass'TeamFlagMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPISGPillbox_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPISGPillbox.6"
+      },
+      "RelativeLocation": {
+        "X": -166.25656,
+        "Y": -95.98797,
+        "Z": -16.52478
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 30.001188,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.7,
+        "Y": 0.7,
+        "Z": 0.5
+      }
+    }
+  }
+]

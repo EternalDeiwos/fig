@@ -1,0 +1,147 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPPilotUniformCPickup_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BPUniformPickup_C'",
+      "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPUniformPickup.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPPilotUniformCPickup_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformCPickup.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BPUniformPickup_C'",
+      "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPUniformPickup.0"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPPilotUniformCPickup_C'Default__BPPilotUniformCPickup_C'",
+      "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformCPickup.1"
+    }
+  },
+  {
+    "Type": "BPPilotUniformCPickup_C",
+    "Name": "Default__BPPilotUniformCPickup_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformCPickup.BPPilotUniformCPickup_C'",
+    "Properties": {
+      "UniformType": "EUniformType::PilotC",
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPPilotUniformCPickup_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformCPickup.7"
+      },
+      "CodeName": "PilotUniformC",
+      "ChassisName": {
+        "Namespace": "",
+        "Key": "D66891E842E4B6B2E031128E25F9305C",
+        "SourceString": "Colonial Pilot Uniform",
+        "LocalizedString": "Colonial Pilot Uniform"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "1D399BB34B56A0D3F12B5E9B6E195059",
+        "SourceString": "Lodesman’s Lorica",
+        "LocalizedString": "Lodesman’s Lorica"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B17CF7DF41C794FF4A6819B9BC27ED4B",
+        "SourceString": "Standard-issue Colonial Aeronautics Corps lodesman’s uniform. Fashioned for function over form, CAC pilots are protected from external elements while free to execute their duties with efficiency.",
+        "LocalizedString": "Standard-issue Colonial Aeronautics Corps lodesman’s uniform. Fashioned for function over form, CAC pilots are protected from external elements while free to execute their duties with efficiency."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'PilotUniformCIcon'",
+        "ObjectPath": "War/Content/Textures/UI/ItemIcons/Uniforms/PilotUniformCIcon.0"
+      },
+      "SubTypeIcon": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SubtypeAirIcon'",
+          "ObjectPath": "War/Content/Textures/UI/ItemIcons/SubtypeAirIcon.0"
+        }
+      },
+      "FactionVariant": "EFactionId::Colonials",
+      "TechID": "ETechID::UnlockPilotUniform",
+      "ItemMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPPilotUniformCPickup_C:ItemMesh'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformCPickup.6"
+      },
+      "ItemBox": {
+        "ObjectName": "BoxComponent'Default__BPPilotUniformCPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformCPickup.2"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Default__BPPilotUniformCPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformCPickup.2"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "ItemBox",
+    "Outer": "Default__BPPilotUniformCPickup_C",
+    "Class": "UScriptClass'BoxComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPPilotUniformCPickup_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPPilotUniformCPickup_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformCPickup.3"
+      },
+      "VariableGuid": "57CA561C-434D89CD-F65025A0-F66D62DF",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPPilotUniformCPickup_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPPilotUniformCPickup_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformCPickup.4"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ItemMesh",
+    "Outer": "Default__BPPilotUniformCPickup_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BoxComponent'Default__BPPilotUniformCPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/Uniforms/BPPilotUniformCPickup.2"
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPPilotUniformCPickup_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

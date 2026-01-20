@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftScoutCBomberMount_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'AirBomberMountComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftScoutCBomberMount_C'Default__BPAircraftScoutCBomberMount_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/BPAircraftScoutCBomberMount.1"
+    }
+  },
+  {
+    "Type": "BPAircraftScoutCBomberMount_C",
+    "Name": "Default__BPAircraftScoutCBomberMount_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Aircraft/BPAircraftScoutCBomberMount.BPAircraftScoutCBomberMount_C'",
+    "Properties": {
+      "ProjectileClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPBomberMineProjectile_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberMineProjectile.1"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Blueprints/StringTables/STMounts.STMounts",
+        "Key": "MountBombardier",
+        "SourceString": "Bombardier",
+        "LocalizedString": "Bombardier"
+      },
+      "AmmoName": "SurfaceWaterMine",
+      "Icon": {
+        "ObjectName": "Texture2D'SurfaceMineIcon'",
+        "ObjectPath": "War/Content/Textures/UI/ItemIcons/SurfaceMineIcon.0"
+      },
+      "EquippedGripType": "EEquippedWeaponGripType::AirVehicleDriver",
+      "ActivityStateInfos[3]": {
+        "Duration": 0.25
+      },
+      "ActivityStateInfos[4]": {
+        "Duration": 3.0
+      },
+      "bIsMultiWeapon": true
+    }
+  }
+]

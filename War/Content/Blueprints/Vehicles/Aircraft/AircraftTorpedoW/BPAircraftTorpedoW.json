@@ -1,0 +1,3214 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPWrenchUseComponent",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPWrenchUseComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPWrenchUseComponent.0"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPAircraftTorpedoW_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.100"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AirVehicle'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:BPWrenchUseComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:PayloadStaticMesh1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.44"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:PayloadStaticMesh'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.43"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:Gunner1Exit'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.36"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:Gunner1Trigger'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.37"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:GunnerSeat1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.38"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:EngineSlot0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:EngineSlot1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.34"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:EngineSlot2'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.35"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:EngineParticleSystem2'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.32"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:EngineParticleSystem1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:CrashDamagePS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:WingParticleSystem0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.47"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:TailParticleSystem0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.45"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:WingParticleSystem1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.48"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:MechanicalParticleSystem0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.39"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:EngineParticleSystem0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.30"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:TailSlot0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.46"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:WingSlot1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.50"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:WingSlot0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.49"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:MechanicalParticleSystem1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.40"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:MechanicalSlot1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.42"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:MechanicalSlot0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.41"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:Camera'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:DriverTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:DriverExit'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftTorpedoW_C:DriverSeat0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.28"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftTorpedoW_C'Default__BPAircraftTorpedoW_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.2"
+    }
+  },
+  {
+    "Type": "BPAircraftTorpedoW_C",
+    "Name": "Default__BPAircraftTorpedoW_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.BPAircraftTorpedoW_C'",
+    "Properties": {
+      "SimulatedHitNotifies": {
+        "DeltaFlags": "EFastArraySerializerDeltaFlags::HasBeenSerialized"
+      },
+      "MaxDeviationAtStandardDropHeight": 150.0,
+      "BombProjectileClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPAirTorpedoProjectile_C'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAirTorpedoProjectile.1"
+      },
+      "BombPayloadMeshes": {
+        "bUseForMuzzleTransform": true
+      },
+      "MaxBombAmmoCount": 2,
+      "Collision": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftTorpedoW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.104"
+      },
+      "Surfaces": [
+        {
+          "SurfaceParamsRow": "AircraftTorpedoWWing",
+          "Params": {
+            "LiftCurveSlope": 9.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 16.0,
+            "NegativeStallAngle": -16.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 1.8626438E-09,
+              "Y": 1.6296726E-10,
+              "Z": 0.087159485,
+              "W": 0.99619436,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -20.0,
+              "Y": 300.0,
+              "Z": 140.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 350.0,
+            "Y": 545.0
+          },
+          "ControlSurfaceFraction": 0.15,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 5.82,
+          "bUseManualAspectRatio": true,
+          "Type": "EAirSurfaceType::Flaps"
+        },
+        {
+          "SurfaceParamsRow": "AircraftTorpedoWWing",
+          "Params": {
+            "LiftCurveSlope": 9.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 16.0,
+            "NegativeStallAngle": -16.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -0.0,
+              "Y": 0.0,
+              "Z": -0.08715827,
+              "W": 0.9961945,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -20.0,
+              "Y": -300.0,
+              "Z": 140.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 350.0,
+            "Y": 545.0
+          },
+          "ControlSurfaceFraction": 0.15,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 5.82,
+          "bUseManualAspectRatio": true,
+          "Type": "EAirSurfaceType::Flaps"
+        },
+        {
+          "SurfaceParamsRow": "AircraftTorpedoWWing",
+          "Params": {
+            "LiftCurveSlope": 9.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 16.0,
+            "NegativeStallAngle": -16.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.08715587,
+              "W": 0.99619466,
+              "IsNormalized": true,
+              "Size": 0.99999994,
+              "SizeSquared": 0.99999994
+            },
+            "Translation": {
+              "X": -113.350105,
+              "Y": 829.4,
+              "Z": 140.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 350.0,
+            "Y": 530.0
+          },
+          "ControlSurfaceFraction": 0.15,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 5.82,
+          "bUseManualAspectRatio": true,
+          "Type": "EAirSurfaceType::Aileron"
+        },
+        {
+          "SurfaceParamsRow": "AircraftTorpedoWWing",
+          "Params": {
+            "LiftCurveSlope": 9.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 16.0,
+            "NegativeStallAngle": -16.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -6.984911E-10,
+              "Y": 6.1110145E-11,
+              "Z": -0.08715587,
+              "W": 0.99619466,
+              "IsNormalized": true,
+              "Size": 0.99999994,
+              "SizeSquared": 0.99999994
+            },
+            "Translation": {
+              "X": -113.350105,
+              "Y": -829.4,
+              "Z": 140.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 350.0,
+            "Y": 530.0
+          },
+          "ControlSurfaceFraction": 0.15,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 5.82,
+          "bUseManualAspectRatio": true,
+          "Type": "EAirSurfaceType::Aileron"
+        },
+        {
+          "SurfaceParamsRow": "AircraftTorpedoWControlSurface",
+          "Params": {
+            "LiftCurveSlope": 8.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 15.0,
+            "NegativeStallAngle": -15.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.014111169,
+              "Z": 0.0,
+              "W": 0.99990046,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -1030.0,
+              "Y": 0.0,
+              "Z": 40.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 300.0,
+            "Y": 760.0
+          },
+          "ControlSurfaceFraction": 0.3,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 0.0,
+          "bUseManualAspectRatio": false,
+          "Type": "EAirSurfaceType::Elevator"
+        },
+        {
+          "SurfaceParamsRow": "AircraftTorpedoWControlSurface",
+          "Params": {
+            "LiftCurveSlope": 8.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 15.0,
+            "NegativeStallAngle": -15.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.70710653,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.70710707,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -1050.0,
+              "Y": 0.0,
+              "Z": 30.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 350.0,
+            "Y": 450.0
+          },
+          "ControlSurfaceFraction": 0.35,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 0.0,
+          "bUseManualAspectRatio": false,
+          "Type": "EAirSurfaceType::Rudder"
+        },
+        {
+          "SurfaceParamsRow": "AircraftFighterWControlSurface",
+          "Params": {
+            "LiftCurveSlope": 6.0,
+            "ZeroLiftAngleOfAttack": 0.0,
+            "PositiveStallAngle": 15.0,
+            "NegativeStallAngle": -15.0,
+            "SkinFriction": 0.02
+          },
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.70710653,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.70710707,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -420.0,
+              "Y": 0.0,
+              "Z": -80.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Dimensions": {
+            "X": 900.0,
+            "Y": 380.0
+          },
+          "ControlSurfaceFraction": 0.0,
+          "AerodynamicCenterFraction": 0.25,
+          "ManualAspectRatio": 0.0,
+          "bUseManualAspectRatio": false,
+          "Type": "EAirSurfaceType::Fixed"
+        }
+      ],
+      "Masses": [
+        {
+          "Offset": {
+            "X": 20.0,
+            "Y": 0.0,
+            "Z": 130.0
+          },
+          "Extents": {
+            "X": 160.0,
+            "Y": 1100.0,
+            "Z": 20.0
+          },
+          "MassPercentage": 0.08
+        },
+        {
+          "Offset": {
+            "X": -50.0,
+            "Y": 0.0,
+            "Z": -140.0
+          },
+          "Extents": {
+            "X": 400.0,
+            "Y": 60.0,
+            "Z": 120.0
+          },
+          "MassPercentage": 0.82
+        },
+        {
+          "Offset": {
+            "X": 10.0,
+            "Y": 408.0,
+            "Z": -20.0
+          },
+          "Extents": {
+            "X": 240.0,
+            "Y": 64.0,
+            "Z": 64.0
+          },
+          "MassPercentage": 0.12
+        },
+        {
+          "Offset": {
+            "X": 10.0,
+            "Y": -408.0,
+            "Z": -20.0
+          },
+          "Extents": {
+            "X": 240.0,
+            "Y": 64.0,
+            "Z": 64.0
+          },
+          "MassPercentage": 0.12
+        },
+        {
+          "Offset": {
+            "X": -800.0,
+            "Y": 0.0,
+            "Z": -70.0
+          },
+          "Extents": {
+            "X": 320.0,
+            "Y": 60.0,
+            "Z": 60.0
+          },
+          "MassPercentage": 0.1
+        }
+      ],
+      "CollisionCapsules": [
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.70710677,
+              "Z": 0.0,
+              "W": 0.7071067,
+              "IsNormalized": true,
+              "Size": 0.99999994,
+              "SizeSquared": 0.9999999
+            },
+            "Translation": {
+              "X": -250.0,
+              "Y": 0.0,
+              "Z": -50.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Radius": 220.0,
+          "HalfHeight": 1000.0
+        },
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -0.70710653,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 0.70710707,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 45.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Radius": 200.0,
+          "HalfHeight": 1200.0
+        }
+      ],
+      "CollisionDamagePS": {
+        "ObjectName": "ParticleSystem'VehicleCollisionImpact'",
+        "ObjectPath": "War/Content/FX/VehicleCollisionImpact.54"
+      },
+      "AirTrailsLeftPS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPAircraftTorpedoW_C:AirTrailsLeftPS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.60"
+      },
+      "AirTrailsRightPS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPAircraftTorpedoW_C:AirTrailsRightPS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.61"
+      },
+      "CollisionDamageCue": {
+        "ObjectName": "SoundCue'AircraftDamage_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftDamage_Cue.0"
+      },
+      "EnginePitchCurve": {
+        "ObjectName": "CurveFloat'AircraftFighterWEnginePitchCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterWEnginePitchCurve.0"
+      },
+      "EngineLoopCue": {
+        "ObjectName": "SoundCue'AircraftFighterWEngineLoop_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftFighterWEngineLoop_Cue.0"
+      },
+      "Engines": [
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 600.0,
+              "Y": 0.0,
+              "Z": -143.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Diameter": 360.0,
+          "DamageThrustFactor": 1.0,
+          "RPM": 0.0,
+          "EngineLoop": null
+        },
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 280.0,
+              "Y": 408.0,
+              "Z": -36.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Diameter": 360.0,
+          "DamageThrustFactor": 1.0,
+          "RPM": 0.0,
+          "EngineLoop": null
+        },
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 280.0,
+              "Y": -408.0,
+              "Z": -36.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Diameter": 360.0,
+          "DamageThrustFactor": 1.0,
+          "RPM": 0.0,
+          "EngineLoop": null
+        }
+      ],
+      "Wheels": [
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -982.0,
+              "Y": 0.0,
+              "Z": -250.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "SuspensionLength": 0.0,
+          "Radius": 25.0,
+          "bCanBrake": false,
+          "bCanSwivel": true,
+          "bEnabled": true
+        },
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -35.0,
+              "Y": -409.0,
+              "Z": -265.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "SuspensionLength": 0.0,
+          "Radius": 70.0,
+          "bCanBrake": true,
+          "bCanSwivel": false,
+          "bEnabled": true
+        },
+        {
+          "RelativeTransform": {
+            "Rotation": {
+              "X": -7.0459344E-17,
+              "Y": -1.6658132E-25,
+              "Z": 2.364219E-09,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": -35.0,
+              "Y": 409.0,
+              "Z": -265.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "SuspensionLength": 0.0,
+          "Radius": 70.0,
+          "bCanBrake": true,
+          "bCanSwivel": false,
+          "bEnabled": true
+        }
+      ],
+      "AltitudeToPanRadiusCurve": {
+        "ObjectName": "CurveFloat'AltitudeToPanRadiusCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AltitudeToPanRadiusCurve.0"
+      },
+      "AltitudeToCameraPitchCurve": {
+        "ObjectName": "CurveFloat'AltitudeToPitchCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AltitudeToPitchCurve.0"
+      },
+      "PitchToCameraPitchCurve": {
+        "ObjectName": "CurveFloat'PitchToCameraPitchCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/PitchToCameraPitchCurve.0"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPAircraftTorpedoW_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.20"
+      },
+      "FuselageGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftTorpedoW_C:FuselageGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.13"
+      },
+      "LeftWingGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftTorpedoW_C:LeftWingGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.14"
+      },
+      "RightWingGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftTorpedoW_C:RightWingGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.15"
+      },
+      "TailGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftTorpedoW_C:TailGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.16"
+      },
+      "EngineGroup": {
+        "ObjectName": "AircraftPartSlotGroupComponent'Default__BPAircraftTorpedoW_C:EngineGroup'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.12"
+      },
+      "GenericStockpileComponent": {
+        "ObjectName": "GenericStockpileComponent'Default__BPAircraftTorpedoW_C:GenericStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.24"
+      },
+      "DriverType": "EAirDriverType::Bomber",
+      "bHasRetractableLandingGear": false,
+      "BuildOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 340.0
+      },
+      "BuildRotation": {
+        "Pitch": 3.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3FD9518942A9225F35624D972FEF6081",
+        "SourceString": "M925 Austringer Man-O-War",
+        "LocalizedString": "M925 Austringer Man-O-War"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "2CF462A4437F18CA7779B18B2D25907B",
+        "SourceString": "The M925 Edellian bomber is the Alliance Sky Brigade’s ace at air-to-sea combat. Featuring twin torpedo bays and a rear-mounted machine gun, the Man-O-War is a veritable threat to any ship’s hull or would-be assailants. The M925's unique capabilities overdelivered, as it was originally conceived as nothing more than a short-range coastal defence bomber. During the M925’s first operation off of the Katoman coast, a small squadron single-handedly sank a Titan. Her crew had no idea how their ship filled with seawater as torpedo after torpedo bored into the underside of her hull. ",
+        "LocalizedString": "The M925 Edellian bomber is the Alliance Sky Brigade’s ace at air-to-sea combat. Featuring twin torpedo bays and a rear-mounted machine gun, the Man-O-War is a veritable threat to any ship’s hull or would-be assailants. The M925's unique capabilities overdelivered, as it was originally conceived as nothing more than a short-range coastal defence bomber. During the M925’s first operation off of the Katoman coast, a small squadron single-handedly sank a Titan. Her crew had no idea how their ship filled with seawater as torpedo after torpedo bored into the underside of her hull. "
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'AircraftTorpedoWIcon'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/Textures/AircraftTorpedoWIcon.0"
+      },
+      "TechID": "ETechID::UnlockAircraftTorpedo",
+      "ShippableInfo": {
+        "Type": "EShippableType::Large",
+        "bAllowPackagingToCrate": true
+      },
+      "FactionVariant": "EFactionId::Wardens",
+      "CodeName": "AircraftTorpedoW",
+      "ArmourType": "EArmourType::Tier1Aircraft",
+      "FuelTank": {
+        "FuelCapacity": 200.0,
+        "FuelItemCodeName": "FacilityOil1"
+      },
+      "bIsReserveStockpiled": true,
+      "bIsUsableFromVehicle": true,
+      "DestroyedMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPAircraftTorpedoW_C:DestroyedMesh'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.102"
+      },
+      "MinorDamagePS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPAircraftTorpedoW_C:MinorDamagePS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.63"
+      },
+      "MajorDamagePS": {
+        "ObjectName": "ParticleSystemComponent'Default__BPAircraftTorpedoW_C:MajorDamagePS'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.62"
+      },
+      "BackUpSFXLoop": {
+        "ObjectName": "AudioComponent'Default__BPAircraftTorpedoW_C:BackUpSFXLoop'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.18"
+      },
+      "LockSound": {
+        "ObjectName": "SoundCue'Lock_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Lock_Cue.0"
+      },
+      "CameraRigComponent": {
+        "ObjectName": "PlayerCameraRigComponent'Default__BPAircraftTorpedoW_C:CameraRigVehicle'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.66"
+      },
+      "PassengerArea": {
+        "ObjectName": "BoxComponent'Default__BPAircraftTorpedoW_C:PassengerBaseBox'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.19"
+      },
+      "AFKTimeoutComponent": {
+        "ObjectName": "AFKTimeoutComponent'Default__BPAircraftTorpedoW_C:AFKTimeoutComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.3"
+      },
+      "MuzzleInfo": [
+        {
+          "GunnerIndex": 1,
+          "MuzzleIndex": 0,
+          "SocketName": "S_AircraftTorpedoW_Muzzle"
+        }
+      ],
+      "ServerAnimTickMode": "EServerAnimTickMode::TickWhenOccupied",
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPAircraftTorpedoW_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.103"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BPAircraftTorpedoW_C:CharacterMesh0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.101"
+      },
+      "CharacterMovement": {
+        "ObjectName": "AirMovementComponent'Default__BPAircraftTorpedoW_C:CharMoveComp'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.17"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftTorpedoW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.23"
+      },
+      "NetUpdateFrequency": 30.0,
+      "MinNetUpdateFrequency": 5.0,
+      "RootComponent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftTorpedoW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.104"
+      }
+    }
+  },
+  {
+    "Type": "AFKTimeoutComponent",
+    "Name": "AFKTimeoutComponent",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AFKTimeoutComponent'"
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "EngineSlot0_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Engine",
+      "SlotCodeName": "AircraftTorpedoWEngine",
+      "BasePartCodeName": "AircraftPartSmallEngineW",
+      "WreckedPartCodeName": "AircraftPartSmallEngineWreckedW",
+      "BoneName": "AircraftTorpedoW_EngineL",
+      "LinkedCollisionShapes": [
+        "LeftWing",
+        "LeftEngine"
+      ],
+      "StatePhysicsFactors": 0.15,
+      "StatePhysicsFactors[1]": 0.0,
+      "LinkedEngineIndex": 2,
+      "bIncludeInTotalledCheck": false,
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'AircraftTorpedoWEngine_L'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FinishedParts/AircraftTorpedoWEngine_L.0"
+      },
+      "SkeletalWreckedMesh": {
+        "ObjectName": "SkeletalMesh'AircraftTorpedoWEngine_L_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/DamageMesh/AircraftTorpedoWEngine_L_Dam.0"
+      },
+      "SkeletalUnbuiltMesh": {
+        "ObjectName": "SkeletalMesh'AircraftTorpedoWEngine_L_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FrameParts/AircraftTorpedoWEngine_L_FR.0"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": 395.66385,
+        "Y": 214.3515,
+        "Z": -0.9378891
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 1.0245281E-05,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "LeftWingHide"
+      ]
+    }
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "EngineSlot1_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Engine",
+      "SlotCodeName": "AircraftTorpedoWEngine",
+      "BasePartCodeName": "AircraftPartSmallEngineW",
+      "WreckedPartCodeName": "AircraftPartSmallEngineWreckedW",
+      "BoneName": "AircraftTorpedoW_EngineMid",
+      "LinkedCollisionShapes": [
+        "Engine"
+      ],
+      "StatePhysicsFactors": 0.15,
+      "StatePhysicsFactors[1]": 0.0,
+      "LinkedEngineIndex": 0,
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'AircraftTorpedoWEngine_M'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FinishedParts/AircraftTorpedoWEngine_M.0"
+      },
+      "SkeletalWreckedMesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftTorpedoWEngine_M_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/DamageMesh/SK_AircraftTorpedoWEngine_M_Dam.0"
+      },
+      "StaticUnbuiltMesh": {
+        "ObjectName": "StaticMesh'AircraftTorpedoWEngine_M_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FrameParts/AircraftTorpedoWEngine_M_FR.2"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": 0.00092470646,
+        "Y": 561.05035,
+        "Z": -138.64021
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 2.3905657E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "EngineSlot2_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Engine",
+      "SlotCodeName": "AircraftTorpedoWEngine",
+      "BasePartCodeName": "AircraftPartSmallEngineW",
+      "WreckedPartCodeName": "AircraftPartSmallEngineWreckedW",
+      "BoneName": "AircraftTorpedoW_EngineR",
+      "LinkedCollisionShapes": [
+        "RightEngine",
+        "RightWing"
+      ],
+      "StatePhysicsFactors": 0.15,
+      "StatePhysicsFactors[1]": 0.0,
+      "LinkedEngineIndex": 1,
+      "bIncludeInTotalledCheck": false,
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'AircraftTorpedoWEngine_R'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FinishedParts/AircraftTorpedoWEngine_R.0"
+      },
+      "SkeletalWreckedMesh": {
+        "ObjectName": "SkeletalMesh'AircraftTorpedoWEngine_R_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/DamageMesh/AircraftTorpedoWEngine_R_Dam.0"
+      },
+      "SkeletalUnbuiltMesh": {
+        "ObjectName": "SkeletalMesh'AircraftTorpedoWEngine_R_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FrameParts/AircraftTorpedoWEngine_R_FR.0"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": -395.66385,
+        "Y": 214.3515,
+        "Z": -0.937889
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 1.0245281E-05,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "RightWingHide"
+      ]
+    }
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "MechanicalSlot0_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Fuselage",
+      "SlotCodeName": "AircraftTorpedoWFuselage",
+      "BasePartCodeName": "AircraftPartSmallMechanicalW",
+      "WreckedPartCodeName": "AircraftPartSmallMechanicalWreckedW",
+      "BoneName": "AircraftTorpedoW_Fuselage01",
+      "LinkedCollisionShapes": [
+        "Fuselage"
+      ],
+      "LinkedSeatIndices": [
+        0
+      ],
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'AircraftTorpedoWFuselage_01'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FinishedParts/AircraftTorpedoWFuselage_01.0"
+      },
+      "SkeletalWreckedMesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftTorpedoWFuselage_01_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/DamageMesh/SK_AircraftTorpedoWFuselage_01_Dam.0"
+      },
+      "StaticUnbuiltMesh": {
+        "ObjectName": "StaticMesh'AircraftTorpedoWFuselage_01_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FrameParts/AircraftTorpedoWFuselage_01_FR.2"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": 0.0031707694,
+        "Y": 43.934418,
+        "Z": 7.767685
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "MechanicalSlot1_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Fuselage",
+      "SlotCodeName": "AircraftTorpedoWFuselage",
+      "BasePartCodeName": "AircraftPartSmallMechanicalW",
+      "WreckedPartCodeName": "AircraftPartSmallMechanicalWreckedW",
+      "BoneName": "AircraftTorpedoW_Fuselage02",
+      "LinkedCollisionShapes": [
+        "Fuselage"
+      ],
+      "LinkedSeatIndices": [
+        1
+      ],
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'AircraftTorpedoWFuselage_02'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FinishedParts/AircraftTorpedoWFuselage_02.0"
+      },
+      "StaticWreckedMesh": {
+        "ObjectName": "StaticMesh'AircraftTorpedoWFuselage_02_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/DamageMesh/AircraftTorpedoWFuselage_02_Dam.2"
+      },
+      "StaticUnbuiltMesh": {
+        "ObjectName": "StaticMesh'AircraftTorpedoWFuselage_02_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FrameParts/AircraftTorpedoWFuselage_02_FR.2"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": -0.00016746507,
+        "Y": -510.2189,
+        "Z": -72.24676
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "TailSlot0_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Tail",
+      "SlotCodeName": "AircraftTorpedoWTail",
+      "BasePartCodeName": "AircraftPartSmallMechanicalW",
+      "WreckedPartCodeName": "AircraftPartSmallMechanicalWreckedW",
+      "BoneName": "AircraftTorpedoW_Tail",
+      "LinkedCollisionShapes": [
+        "Tail"
+      ],
+      "StatePhysicsFactors": 0.6,
+      "StatePhysicsFactors[1]": 0.0,
+      "LinkedSurfaceIndices": 4,
+      "LinkedSurfaceIndices[1]": 6,
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'AircraftTorpedoWTail'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FinishedParts/AircraftTorpedoWTail.0"
+      },
+      "SkeletalWreckedMesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftTorpedoWTail_01_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/DamageMesh/SK_AircraftTorpedoWTail_01_Dam.0"
+      },
+      "SkeletalUnbuiltMesh": {
+        "ObjectName": "SkeletalMesh'AircraftTorpedoWTail_01_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FrameParts/AircraftTorpedoWTail_01_FR.0"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": -2.7704082E-06,
+        "Y": -1033.3093,
+        "Z": 41.51857
+      },
+      "ComponentTags": [
+        "TailHide"
+      ]
+    }
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "WingSlot0_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Wing",
+      "SlotCodeName": "AircraftTorpedoWWing",
+      "BasePartCodeName": "AircraftPartSmallMechanicalW",
+      "WreckedPartCodeName": "AircraftPartSmallMechanicalWreckedW",
+      "BoneName": "AircraftTorpedoW_WingL",
+      "LinkedCollisionShapes": [
+        "LeftWing",
+        "LeftEngine"
+      ],
+      "StatePhysicsFactors": 0.7,
+      "StatePhysicsFactors[1]": 0.0,
+      "LinkedSurfaceIndices": 1,
+      "LinkedSurfaceIndices[1]": 3,
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'AircraftTorpedoWWing01_L'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FinishedParts/AircraftTorpedoWWing01_L.0"
+      },
+      "StaticWreckedMesh": {
+        "ObjectName": "StaticMesh'AircraftTorpedoWWing01_L_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/DamageMesh/AircraftTorpedoWWing01_L_Dam.2"
+      },
+      "StaticUnbuiltMesh": {
+        "ObjectName": "StaticMesh'AircraftTorpedoWWing01_L_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FrameParts/AircraftTorpedoWWing01_L_FR.2"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": 707.0941,
+        "Y": -46.36505,
+        "Z": 136.92882
+      },
+      "ComponentTags": [
+        "LeftWingHide"
+      ]
+    }
+  },
+  {
+    "Type": "AircraftPartSlotComponent",
+    "Name": "WingSlot1_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AircraftPartSlotComponent'",
+    "Properties": {
+      "Type": "EAircraftPartType::Wing",
+      "SlotCodeName": "AircraftTorpedoWWing",
+      "BasePartCodeName": "AircraftPartSmallMechanicalW",
+      "WreckedPartCodeName": "AircraftPartSmallMechanicalWreckedW",
+      "BoneName": "AircraftTorpedoW_WingR",
+      "LinkedCollisionShapes": [
+        "RightWing",
+        "RightEngine"
+      ],
+      "StatePhysicsFactors": 0.7,
+      "StatePhysicsFactors[1]": 0.0,
+      "LinkedSurfaceIndices": 0,
+      "LinkedSurfaceIndices[1]": 2,
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'AircraftTorpedoWWing01_R'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FinishedParts/AircraftTorpedoWWing01_R.0"
+      },
+      "StaticWreckedMesh": {
+        "ObjectName": "StaticMesh'AircraftTorpedoWWing01_R_Dam'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/DamageMesh/AircraftTorpedoWWing01_R_Dam.2"
+      },
+      "StaticUnbuiltMesh": {
+        "ObjectName": "StaticMesh'AircraftTorpedoWWing01_R_FR'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/FrameParts/AircraftTorpedoWWing01_R_FR.2"
+      },
+      "StateTransitionPS": {
+        "ObjectName": "ParticleSystem'AircraftSmallWreckedExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftSmallWreckedExplosion.131"
+      },
+      "StateTransitionCue": {
+        "ObjectName": "SoundCue'AircraftTransition_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftTransition_Cue.0"
+      },
+      "RelativeLocation": {
+        "X": -707.0941,
+        "Y": -46.36505,
+        "Z": 136.92882
+      },
+      "ComponentTags": [
+        "RightWingHide"
+      ]
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "EngineGroup",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftTorpedoW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.104"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "FuselageGroup",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftTorpedoW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.104"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "LeftWingGroup",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "StumpMesh": {
+        "ObjectName": "StaticMesh'AircraftTorpedoWWing_L_01_Des'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/Totaled/AircraftTorpedoWWing_L_01_Des.2"
+      },
+      "TotalledPS": {
+        "ObjectName": "ParticleSystem'AircraftWLTotaledExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftWLTotaledExplosion.171"
+      },
+      "TotalledCue": {
+        "ObjectName": "SoundCue'AircraftPartDestroyed_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftPartDestroyed_Cue.0"
+      },
+      "RemovedCollisionShapes": [
+        "LeftWing",
+        "LeftEngine"
+      ],
+      "RemovedWheelIndices": [
+        1
+      ],
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftTorpedoW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.104"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "RightWingGroup",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "StumpMesh": {
+        "ObjectName": "StaticMesh'AircraftTorpedoWWing_R_01_Des'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/Totaled/AircraftTorpedoWWing_R_01_Des.2"
+      },
+      "TotalledPS": {
+        "ObjectName": "ParticleSystem'AircraftWRTotaledExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftWRTotaledExplosion.171"
+      },
+      "TotalledCue": {
+        "ObjectName": "SoundCue'AircraftPartDestroyed_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftPartDestroyed_Cue.0"
+      },
+      "RemovedCollisionShapes": [
+        "RightWing",
+        "RightEngine"
+      ],
+      "RemovedWheelIndices": [
+        2
+      ],
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftTorpedoW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.104"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "AircraftPartSlotGroupComponent",
+    "Name": "TailGroup",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AircraftPartSlotGroupComponent'",
+    "Properties": {
+      "StumpMesh": {
+        "ObjectName": "StaticMesh'AircraftTorpedoWTail_01_Des'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/Totaled/AircraftTorpedoWTail_01_Des.2"
+      },
+      "bAutoPositionTotalledPS": true,
+      "TotalledPS": {
+        "ObjectName": "ParticleSystem'AircraftPartGroupTotaledGenericExplosion'",
+        "ObjectPath": "War/Content/FX/AircraftPartGroupTotaledGenericExplosion.131"
+      },
+      "TotalledCue": {
+        "ObjectName": "SoundCue'AircraftPartDestroyed_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftPartDestroyed_Cue.0"
+      },
+      "RemovedCollisionShapes": [
+        "Tail"
+      ],
+      "RemovedWheelIndices": [
+        0
+      ],
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftTorpedoW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.104"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "AirMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AirMovementComponent'",
+    "Properties": {
+      "AirDensityCurve": {
+        "ObjectName": "CurveFloat'AirDensityCurve'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AirDensityCurve.0"
+      },
+      "NetworkSimulatedSmoothLocationTime": 0.3,
+      "NetworkMaxSmoothUpdateDistance": 2048.0,
+      "NetworkNoSmoothUpdateDistance": 2048.0
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "BackUpSFXLoop",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftTorpedoW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.23"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PassengerBaseBox",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftTorpedoW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.23"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftTorpedoW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.104"
+      }
+    }
+  },
+  {
+    "Type": "BPWrenchUseComponent_C",
+    "Name": "BPWrenchUseComponent_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPWrenchUseComponent.BPWrenchUseComponent_C'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 200.0,
+        "Y": 300.0,
+        "Z": 256.0
+      },
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -215.0,
+        "Y": 0.00012207031,
+        "Z": -70.0
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Camera_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Properties": {
+      "bEditableWhenInherited": false
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftTorpedoW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.104"
+      }
+    }
+  },
+  {
+    "Type": "GenericStockpileComponent",
+    "Name": "GenericStockpileComponent",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'GenericStockpileComponent'",
+    "Properties": {
+      "Configs": [
+        {
+          "Type": "EStockpileEntryType::Items",
+          "QuantityLimit": 1,
+          "TotalQuantityLimit": 1,
+          "ItemCategoryFilter": 0,
+          "QuantityOverrides": [],
+          "TotalQuantityOverrides": [],
+          "ValidEntriesOverride": [
+            "TorpedoAmmo"
+          ],
+          "PreStockedEntries": [],
+          "RetrieveDurationModifiers": []
+        }
+      ],
+      "bReplicates": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Camera",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'CameraComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CrashDamagePS",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverExit",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatExitComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverSeat0",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'VehicleSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DriverTrigger",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "EngineParticleSystem0",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "EngineParticleSystem1",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "EngineParticleSystem2",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "EngineSlot0",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "EngineSlot1",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "EngineSlot2",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Gunner1Exit",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatExitComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Gunner1Trigger",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "GunnerSeat1",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'VehicleSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MechanicalParticleSystem0",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MechanicalParticleSystem1",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MechanicalSlot0",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MechanicalSlot1",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PayloadStaticMesh",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'PayloadStaticMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PayloadStaticMesh1",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'PayloadStaticMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TailParticleSystem0",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TailSlot0",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WingParticleSystem0",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WingParticleSystem1",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WingSlot0",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WingSlot1",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AircraftPartSlotComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "CrashDamagePS_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99999,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "ComponentTags": [
+        "CrashDamageFX"
+      ],
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "EngineParticleSystem0_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "EngineParticleSystem1_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 1.0245281E-05,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "EngineParticleSystem2_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 1.0245281E-05,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MechanicalParticleSystem0_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99999,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MechanicalParticleSystem1_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "TailParticleSystem0_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99998,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WingParticleSystem0_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00002,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "WingParticleSystem1_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TruckDamaged01'",
+        "ObjectPath": "War/Content/FX/TruckDamaged01.50"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99998,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "AirTrailsLeftPS",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftTorpedoW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.104"
+      },
+      "RelativeLocation": {
+        "X": -90.0,
+        "Y": -1090.0,
+        "Z": 140.0
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "AirTrailsRightPS",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "VehicleCollisionComponent'Default__BPAircraftTorpedoW_C:Collision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.104"
+      },
+      "RelativeLocation": {
+        "X": -90.0,
+        "Y": 1090.0,
+        "Z": 140.0
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MajorDamagePS",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftTorpedoW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.23"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "MinorDamagePS",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftTorpedoW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.23"
+      }
+    }
+  },
+  {
+    "Type": "PayloadStaticMeshComponent",
+    "Name": "PayloadStaticMesh1_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'PayloadStaticMeshComponent'",
+    "Properties": {
+      "bLinkToSpecificGunnerIndex": true,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Torpedo'",
+        "ObjectPath": "War/Content/Meshes/Weapons/Torpedo.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 117.51819,
+        "Y": -253.31384,
+        "Z": -230.89363
+      }
+    }
+  },
+  {
+    "Type": "PayloadStaticMeshComponent",
+    "Name": "PayloadStaticMesh_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'PayloadStaticMeshComponent'",
+    "Properties": {
+      "bLinkToSpecificGunnerIndex": true,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Torpedo'",
+        "ObjectPath": "War/Content/Meshes/Weapons/Torpedo.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": -117.51819,
+        "Y": -253.31384,
+        "Z": -230.89363
+      }
+    }
+  },
+  {
+    "Type": "PlayerCameraRigComponent",
+    "Name": "CameraRigVehicle",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'PlayerCameraRigComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftTorpedoW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.23"
+      },
+      "RelativeLocation": {
+        "X": 200.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": -60.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPAircraftTorpedoW_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.67"
+      },
+      "VariableGuid": "E8AB2031-46BD577F-13BD42AF-0F6348C1",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftTorpedoW_C:MechanicalSlot0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.7"
+      },
+      "ParentComponentOrVariableName": "FuselageGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.77"
+        }
+      ],
+      "VariableGuid": "B3AB25BF-47804D76-C4059293-775A6695",
+      "InternalVariableName": "MechanicalSlot0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPAircraftTorpedoW_C:DriverTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.98"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8B30A332-49F055BC-918BF19A-B12397AE",
+      "InternalVariableName": "DriverTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftTorpedoW_C:WingSlot1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.11"
+      },
+      "ParentComponentOrVariableName": "RightWingGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.79"
+        }
+      ],
+      "VariableGuid": "27D308D4-4344FD13-805EF6B2-D9C9C210",
+      "InternalVariableName": "WingSlot1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftTorpedoW_C:EngineSlot2_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.6"
+      },
+      "ParentComponentOrVariableName": "RightWingGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.78"
+        }
+      ],
+      "VariableGuid": "CBB3EC8C-4500FBD8-447C4BB3-FB667B94",
+      "InternalVariableName": "EngineSlot2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftTorpedoW_C:TailSlot0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.9"
+      },
+      "ParentComponentOrVariableName": "TailGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.81"
+        }
+      ],
+      "VariableGuid": "758EB452-4F001875-DD9826B9-6C2CFC18",
+      "InternalVariableName": "TailSlot0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftTorpedoW_C:EngineParticleSystem1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.53"
+      },
+      "VariableGuid": "128A8ABA-481268E8-217601B6-0E6375AB",
+      "InternalVariableName": "EngineParticleSystem1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftTorpedoW_C:EngineSlot0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.4"
+      },
+      "ParentComponentOrVariableName": "LeftWingGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.76"
+        }
+      ],
+      "VariableGuid": "79C37FA6-490998EB-C89C0491-1DE100CA",
+      "InternalVariableName": "EngineSlot0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftTorpedoW_C:EngineParticleSystem0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.52"
+      },
+      "VariableGuid": "610BF27F-4CE4B2CB-037284BC-898770E3",
+      "InternalVariableName": "EngineParticleSystem0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftTorpedoW_C:MechanicalParticleSystem0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.55"
+      },
+      "VariableGuid": "51C51447-42F27D42-55580783-8E7FE1F4",
+      "InternalVariableName": "MechanicalParticleSystem0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftTorpedoW_C:EngineParticleSystem2_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.54"
+      },
+      "VariableGuid": "CAF2A1F8-46E78A24-F6DEB588-DE5AE30C",
+      "InternalVariableName": "EngineParticleSystem2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftTorpedoW_C:WingParticleSystem1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.59"
+      },
+      "VariableGuid": "96BEBF22-45E39258-420831A9-6825A601",
+      "InternalVariableName": "WingParticleSystem1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftTorpedoW_C:CrashDamagePS_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.51"
+      },
+      "ParentComponentOrVariableName": "Collision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "03958367-4D00D4A1-07548EA8-E231523C",
+      "InternalVariableName": "CrashDamagePS"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftTorpedoW_C:TailParticleSystem0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.57"
+      },
+      "VariableGuid": "7CCB3938-49B774F6-78C6B492-2E0014AF",
+      "InternalVariableName": "TailParticleSystem0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftTorpedoW_C:WingParticleSystem0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.58"
+      },
+      "VariableGuid": "0BEDE98A-4FE289F2-1904E386-7130947A",
+      "InternalVariableName": "WingParticleSystem0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_22",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'VehicleSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "VehicleSeatComponent'BPAircraftTorpedoW_C:GunnerSeat1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.106"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4534C7BE-4A719527-8A3EB88C-EA05571B",
+      "InternalVariableName": "GunnerSeat1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_23",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatExitComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatExitComponent'BPAircraftTorpedoW_C:Gunner1Exit_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.97"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F01238B6-4DD33535-67E88FAB-DD5D2A62",
+      "InternalVariableName": "Gunner1Exit"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_24",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPAircraftTorpedoW_C:Gunner1Trigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.99"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "481CD4C7-46F47007-952D66AD-78894450",
+      "InternalVariableName": "Gunner1Trigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_25",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PayloadStaticMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PayloadStaticMeshComponent'BPAircraftTorpedoW_C:PayloadStaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.65"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3A410BDA-4E7DEEE3-D3D2D881-50A0E255",
+      "InternalVariableName": "PayloadStaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_26",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PayloadStaticMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PayloadStaticMeshComponent'BPAircraftTorpedoW_C:PayloadStaticMesh1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.64"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "CC6A9F16-4C388803-678CC892-E0AF943A",
+      "InternalVariableName": "PayloadStaticMesh1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_27",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPWrenchUseComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPWrenchUseComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPWrenchUseComponent_C'BPAircraftTorpedoW_C:BPWrenchUseComponent_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.21"
+      },
+      "ParentComponentOrVariableName": "Collision",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8CF03472-48223C00-3D785ABD-24F9D1CD",
+      "InternalVariableName": "BPWrenchUseComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftTorpedoW_C:MechanicalSlot1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.8"
+      },
+      "ParentComponentOrVariableName": "FuselageGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.91"
+        }
+      ],
+      "VariableGuid": "13CF6D28-4B212381-4E3EC0A1-79117B04",
+      "InternalVariableName": "MechanicalSlot1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CameraComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CameraComponent'BPAircraftTorpedoW_C:Camera_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.22"
+      },
+      "ParentComponentOrVariableName": "CameraRigVehicle",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6C9E0FCE-439C2C8A-1A773A95-4A5DBFDE",
+      "InternalVariableName": "Camera"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAircraftTorpedoW_C:MechanicalParticleSystem1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.56"
+      },
+      "VariableGuid": "246D81F3-499F3530-8D03ACA0-9225EA5B",
+      "InternalVariableName": "MechanicalParticleSystem1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftTorpedoW_C:WingSlot0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.10"
+      },
+      "ParentComponentOrVariableName": "LeftWingGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.82"
+        }
+      ],
+      "VariableGuid": "0211B197-48D7D834-FC64299B-E89457C1",
+      "InternalVariableName": "WingSlot0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AircraftPartSlotComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AircraftPartSlotComponent'BPAircraftTorpedoW_C:EngineSlot1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.5"
+      },
+      "ParentComponentOrVariableName": "EngineGroup",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.74"
+        }
+      ],
+      "VariableGuid": "9D3ACBBB-4BCFD712-29749FB2-B3F49A80",
+      "InternalVariableName": "EngineSlot1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'VehicleSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "VehicleSeatComponent'BPAircraftTorpedoW_C:DriverSeat0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.105"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BFB23F87-4D5C61DB-53CBD89A-674848C1",
+      "InternalVariableName": "DriverSeat0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatExitComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatExitComponent'BPAircraftTorpedoW_C:DriverExit_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.96"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B4A3375E-4E5E69BA-CC4776A7-496C1138",
+      "InternalVariableName": "DriverExit"
+    }
+  },
+  {
+    "Type": "SeatExitComponent",
+    "Name": "DriverExit_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'SeatExitComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 434.4257,
+        "Y": -204.33922,
+        "Z": -112.585915
+      }
+    }
+  },
+  {
+    "Type": "SeatExitComponent",
+    "Name": "Gunner1Exit_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'SeatExitComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -436.80463,
+        "Y": -245.59917,
+        "Z": -112.585915
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -1.02452805E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "DriverTrigger_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 200.0,
+        "Y": 300.0,
+        "Z": 128.0
+      },
+      "RelativeLocation": {
+        "X": 344.89606,
+        "Y": 0.0,
+        "Z": -143.08517
+      }
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "Gunner1Trigger_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 200.0,
+        "Y": 300.0,
+        "Z": 128.0
+      },
+      "RelativeLocation": {
+        "X": -459.78644,
+        "Y": 0.0003862977,
+        "Z": -143.08444
+      }
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.94"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.95"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.70"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.90"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.69"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.89"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.92"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.71"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.73"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.80"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.72"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.93"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.75"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.83"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.85"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.84"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.86"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.87"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.88"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.94"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.95"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.70"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.90"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.69"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.89"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.91"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.92"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.71"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.73"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.76"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.77"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.79"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.81"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.82"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.80"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.74"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.78"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.72"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.93"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.75"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.83"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.85"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.84"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.86"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.87"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.88"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPAircraftTorpedoW_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.68"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_AircraftTorpedoW_C'",
+        "ObjectPath": "War/Content/Animation/Aircraft/TorpedoPlaneW/ABP_AircraftTorpedoW.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_AircraftTorpedoW'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/SK_AircraftTorpedoW.0"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered",
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECC_Vehicle",
+        "CollisionProfileName": "AircraftMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "IceBlocker",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftTorpedoW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.23"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -1.4523762E-06,
+        "Z": 0.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DestroyedMesh",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BPAircraftTorpedoW_C:CollisionCylinder'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoW.23"
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "VehicleCollisionComponent",
+    "Name": "Collision",
+    "Outer": "Default__BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'VehicleCollisionComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'AircraftTorpedoWAircollision'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/AircraftTorpedoWAircollision.2"
+      }
+    }
+  },
+  {
+    "Type": "VehicleSeatComponent",
+    "Name": "DriverSeat0_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'VehicleSeatComponent'",
+    "Properties": {
+      "bIsSwitchable": false,
+      "bCharacterIsAlwaysVisible": true,
+      "bRequiresPilotUniform": true,
+      "EnterSFX": {
+        "ObjectName": "SoundCue'AircraftEnter01_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Aircraft/AircraftEnter01_Cue.0"
+      },
+      "TriggerName": "DriverTrigger",
+      "ExitName": "DriverExit",
+      "MountCodeName": "AircraftTorpedoWDriver",
+      "MountComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BPAircraftTorpedoWDriverMount_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPAircraftTorpedoWDriverMount.0"
+      },
+      "RelativeLocation": {
+        "X": 0.49549642,
+        "Y": 192.24081,
+        "Z": -22.14521
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0001,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "VehicleSeatComponent",
+    "Name": "GunnerSeat1_GEN_VARIABLE",
+    "Outer": "BPAircraftTorpedoW_C",
+    "Class": "UScriptClass'VehicleSeatComponent'",
+    "Properties": {
+      "Direction": "ESeatDirection::Rear",
+      "bCharacterIsAlwaysVisible": true,
+      "bRequiresPilotUniform": true,
+      "EnterSFX": {
+        "ObjectName": "SoundCue'MediumTank3CEnter_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/MediumTank3C/MediumTank3CEnter_Cue.0"
+      },
+      "Index": 1,
+      "TriggerName": "Gunner1Trigger",
+      "ExitName": "Gunner1Exit",
+      "MountCodeName": "AircraftTorpedoWRearGunner",
+      "MountComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BPAircraftTorpedoWRearGunnerMount_C'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/BPAircraftTorpedoWRearGunnerMount.0"
+      },
+      "RelativeLocation": {
+        "X": 0.0008750806,
+        "Y": -436.1067,
+        "Z": -24.55825
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  }
+]

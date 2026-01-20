@@ -1,0 +1,526 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "MainMesh",
+    "Outer": "BPFacilityPipeValve_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPFacilityPipeValve_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPFacilityPipeValve_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.11"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'PipelineValve'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPFacilityPipeValve_C:MainMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.0"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPFacilityPipeValve_C'Default__BPFacilityPipeValve_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.2"
+    }
+  },
+  {
+    "Type": "BPFacilityPipeValve_C",
+    "Name": "Default__BPFacilityPipeValve_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.BPFacilityPipeValve_C'",
+    "Properties": {
+      "UpgradeSlotComponent": {
+        "ObjectName": "ModificationSlotComponent'Default__BPFacilityPipeValve_C:UpgradeSlotComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.7"
+      },
+      "BackSocket": {
+        "ObjectName": "BuildSocketComponent'Default__BPFacilityPipeValve_C:BackSocket'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.5"
+      },
+      "FrontSocket": {
+        "ObjectName": "BuildSocketComponent'Default__BPFacilityPipeValve_C:FrontSocket'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.6"
+      },
+      "Tier": "EFortTier::T1",
+      "NoBuildPhysicalMaterials": [
+        {
+          "ObjectName": "PhysicalMaterial'TownStone'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TownStone.0"
+        },
+        {
+          "ObjectName": "PhysicalMaterial'T1RoadPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/T1RoadPhys.0"
+        },
+        {
+          "ObjectName": "PhysicalMaterial'T2RoadPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/T2RoadPhys.0"
+        },
+        {
+          "ObjectName": "PhysicalMaterial'T3RoadPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/T3RoadPhys.0"
+        }
+      ],
+      "bIsBuiltOnFoundation": true,
+      "BuildGhostClass": null,
+      "Description": {
+        "Namespace": "",
+        "Key": "1134F3234A5F463AE53A268D4DBF6B52",
+        "SourceString": "A weighted valve that controls the rate of flow through a pipeline. Requires a Wrench to adjust.",
+        "LocalizedString": "A weighted valve that controls the rate of flow through a pipeline. Requires a Wrench to adjust."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'FacilityPipeValveIcon'",
+        "ObjectPath": "War/Content/Textures/UI/ItemIcons/FacilityPipeValveIcon.0"
+      },
+      "BuildCategory": "EBuildCategory::Liquids",
+      "BuildOrder": 75,
+      "BuildLocationType": "EBuildLocationType::Anywhere",
+      "bDropsLargeMaterialsWhenDestroyed": false,
+      "ValidBuildTools": 4,
+      "CodeName": "FacilityPipeValve",
+      "ChassisName": {
+        "TableId": "/Game/Blueprints/StringTables/STChassis.STChassis",
+        "Key": "ChassisFacility",
+        "SourceString": "Facility Structure",
+        "LocalizedString": "Facility Structure"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "1E0788EE4A2F52EE7ED3EF8EF6DC9EF7",
+        "SourceString": "Pipeline Valve",
+        "LocalizedString": "Pipeline Valve"
+      },
+      "ArmourType": "EArmourType::Tier1Structure",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityPipeValve_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPFacilityPipeValve_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.4"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'GrenadeBlast'",
+        "ObjectPath": "War/Content/FX/GrenadeBlast.151"
+      },
+      "TechID": "ETechID::UnlockFacilityTier2",
+      "MaxHealth": 350,
+      "Health": 350,
+      "ScreenToUse": "ESimScreen::Pipeline",
+      "ClaimStatus": {
+        "bIsEnabled": true,
+        "bCanBeDemolished": true,
+        "bCanBuildSiteBeDemolished": true,
+        "DemolishDurationHours": 672
+      },
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPFacilityPipeValve_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.13"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityPipeValve_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPFacilityPipeValve_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPFacilityPipeValve_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 128.0,
+        "Y": 128.0,
+        "Z": 128.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityPipeValve_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.3"
+      },
+      "RelativeLocation": {
+        "X": 87.5,
+        "Y": -1.3,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "BackSocket",
+    "Outer": "Default__BPFacilityPipeValve_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "SocketTags": [
+        {
+          "SocketTypeMask": 18432,
+          "SocketTypeCategory": 16777216,
+          "Tag": "None",
+          "ShowsTag": "None",
+          "ShowsTagBoth": "None",
+          "ShowsTagHigher": "None",
+          "HidesTagBoth": "None",
+          "HidesTagHigher": "None",
+          "MaxZOffset": 0.0,
+          "ApplicationRule": "EBuildSocketTagRule::AffectsBoth",
+          "ConnectorAttachmentTag": "None"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityPipeValve_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.3"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "FrontSocket",
+    "Outer": "Default__BPFacilityPipeValve_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "SocketTags": [
+        {
+          "SocketTypeMask": 18432,
+          "SocketTypeCategory": 16777216,
+          "Tag": "None",
+          "ShowsTag": "None",
+          "ShowsTagBoth": "None",
+          "ShowsTagHigher": "None",
+          "HidesTagBoth": "None",
+          "HidesTagHigher": "None",
+          "MaxZOffset": 0.0,
+          "ApplicationRule": "EBuildSocketTagRule::AffectsBoth",
+          "ConnectorAttachmentTag": "None"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityPipeValve_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.3"
+      },
+      "RelativeLocation": {
+        "X": 173.84949,
+        "Y": -3.0517578E-05,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "ModificationSlotComponent",
+    "Name": "UpgradeSlotComponent",
+    "Outer": "Default__BPFacilityPipeValve_C",
+    "Class": "UScriptClass'ModificationSlotComponent'",
+    "Properties": {
+      "Modifications": [
+        {
+          "Key": "EFortModificationType::Default",
+          "Value": {
+            "DisplayName": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "Icon": {
+              "ImageSize": {
+                "X": 32.0,
+                "Y": 32.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "RequiredSocketConnectionMask": 0,
+            "HiddenBySocketConnectionMask": 0,
+            "bIsRemovable": false,
+            "bVehicleBlocksRemoval": false,
+            "bHiddenByDefault": false,
+            "bVisualsAreClientOnly": true,
+            "bShowInBuildSite": false,
+            "bBuildFootprintIgnoresConnectedActors": false,
+            "TechID": "ETechID::None",
+            "InfrastructureType": "EInfrastructureType::None",
+            "InfrastructureAmount": 0,
+            "BuildFootprintTemplate": null,
+            "Tiers": []
+          }
+        },
+        {
+          "Key": "EFortModificationType::Insulation",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Blueprints/StringTables/STStructures.STStructures",
+              "Key": "PipeModInsulation",
+              "SourceString": "Insulated Pipe",
+              "LocalizedString": "Insulated Pipe"
+            },
+            "Description": {
+              "TableId": "/Game/Blueprints/StringTables/STStructures.STStructures",
+              "Key": "PipeModInsulationDesc",
+              "SourceString": "An insulating material to keep the pipe from freezing during harsh weather conditions.",
+              "LocalizedString": "An insulating material to keep the pipe from freezing during harsh weather conditions."
+            },
+            "Icon": {
+              "ImageSize": {
+                "X": 256.0,
+                "Y": 256.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "Texture2D'PipelineSegmentIcon'",
+                "ObjectPath": "War/Content/Textures/UI/StructureIcons/PipelineSegmentIcon.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "RequiredSocketConnectionMask": 0,
+            "HiddenBySocketConnectionMask": 0,
+            "bIsRemovable": false,
+            "bVehicleBlocksRemoval": false,
+            "bHiddenByDefault": false,
+            "bVisualsAreClientOnly": true,
+            "bShowInBuildSite": false,
+            "bBuildFootprintIgnoresConnectedActors": false,
+            "TechID": "ETechID::None",
+            "InfrastructureType": "EInfrastructureType::None",
+            "InfrastructureAmount": 0,
+            "BuildFootprintTemplate": null,
+            "Tiers": [
+              {
+                "Key": "EFortTier::T1",
+                "Value": {
+                  "ResourceAmounts": {
+                    "Resource": {
+                      "CodeName": "PipeMaterials",
+                      "Quantity": 1
+                    },
+                    "OtherResources": []
+                  },
+                  "RemoveCostOverride": {
+                    "Resource": {
+                      "CodeName": "None",
+                      "Quantity": 0
+                    },
+                    "OtherResources": []
+                  },
+                  "bUseTemplateActor": true,
+                  "TemplateMesh": null,
+                  "TemplateActor": {
+                    "ObjectName": "BlueprintGeneratedClass'BPFacilityPipeInsulated_C'",
+                    "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityPipeInsulated.1"
+                  },
+                  "bUsePreviewMesh": false,
+                  "PreviewMesh": null
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityPipeValve_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.3"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPFacilityPipeValve_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPFacilityPipeValve_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.8"
+      },
+      "VariableGuid": "454AFBEC-472AFDA4-C90E93A1-A669B0EE",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityPipeValve_C:MainMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.12"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D5C26FC8-4B437EFC-FE6456B1-21361ADF",
+      "InternalVariableName": "MainMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPFacilityPipeValve_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFacilityPipeValve_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.10"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFacilityPipeValve_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.10"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPFacilityPipeValve_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityPipeValve.9"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MainMesh_GEN_VARIABLE",
+    "Outer": "BPFacilityPipeValve_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FacilityPipeValve'",
+        "ObjectPath": "War/Content/Meshes/Structures/Facilities/FacilityPipeValve.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPFacilityPipeValve_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

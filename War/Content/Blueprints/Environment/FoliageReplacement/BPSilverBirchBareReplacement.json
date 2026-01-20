@@ -1,0 +1,531 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPSilverBirchBareReplacement_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.27"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'BPSilverBirchBareReplacement_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BPSilverBirchBareReplacement_C:ExecuteUbergraph_BPSilverBirchBareReplacement'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ClientFoliageReplacement'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BPSilverBirchBareReplacement_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.0"
+      },
+      {
+        "ObjectName": "Function'BPSilverBirchBareReplacement_C:OnStateChanged'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.12"
+      },
+      {
+        "ObjectName": "Function'BPSilverBirchBareReplacement_C:ExecuteUbergraph_BPSilverBirchBareReplacement'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPSilverBirchBareReplacement_C:Splinter'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPSilverBirchBareReplacement_C:NoMansLandTreeFire'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.18"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPSilverBirchBareReplacement_C:Fire'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPSilverBirchBareReplacement_C:NoMansLandSplinter'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.17"
+      },
+      {
+        "ObjectName": "EnumProperty'BPSilverBirchBareReplacement_C:NewVar_0'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.15"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BPSilverBirchBareReplacement": {
+        "ObjectName": "Function'BPSilverBirchBareReplacement_C:ExecuteUbergraph_BPSilverBirchBareReplacement'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.7"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BPSilverBirchBareReplacement_C:OnStateChanged'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.12"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPSilverBirchBareReplacement_C'Default__BPSilverBirchBareReplacement_C'",
+      "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.2"
+    }
+  },
+  {
+    "Type": "BPSilverBirchBareReplacement_C",
+    "Name": "Default__BPSilverBirchBareReplacement_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.BPSilverBirchBareReplacement_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "DestroyedMesh": {
+        "ObjectName": "StaticMesh'BirchSilver_1Ruined'",
+        "ObjectPath": "War/Content/Meshes/Environment/Foliage/BirchSilver_1Ruined.2"
+      },
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPSilverBirchBareReplacement_C:Mesh'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.28"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BPSilverBirchBareReplacement_C:Mesh'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.28"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "Fire_GEN_VARIABLE",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'TreeReplacementFire'",
+        "ObjectPath": "War/Content/Audio/Ambient/TreeReplacementFire.0"
+      },
+      "RelativeLocation": {
+        "X": -15.652319,
+        "Y": -15.938705,
+        "Z": 598.3298
+      },
+      "RelativeRotation": {
+        "Pitch": -8.720519,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "Splinter_GEN_VARIABLE",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'TreeReplacementSplinter'",
+        "ObjectPath": "War/Content/Audio/Ambient/TreeReplacementSplinter.0"
+      },
+      "RelativeLocation": {
+        "X": -15.652319,
+        "Y": -15.938705,
+        "Z": 598.3298
+      },
+      "RelativeRotation": {
+        "Pitch": -8.720519,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Splinter",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_BPSilverBirchBareReplacement",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BPSilverBirchBareReplacement",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BPSilverBirchBareReplacement_C:ExecuteUbergraph_BPSilverBirchBareReplacement.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.6"
+      },
+      {
+        "ObjectName": "EnumProperty'BPSilverBirchBareReplacement_C:ExecuteUbergraph_BPSilverBirchBareReplacement.K2Node_Event_State'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.14"
+      },
+      {
+        "ObjectName": "BoolProperty'BPSilverBirchBareReplacement_C:ExecuteUbergraph_BPSilverBirchBareReplacement.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.8"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Outer": "ExecuteUbergraph_BPSilverBirchBareReplacement",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_Event_State",
+    "Class": "UScriptClass'ByteProperty'",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "NewVar_0",
+    "Class": "UScriptClass'ByteProperty'",
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "State",
+    "Outer": "OnStateChanged",
+    "Class": "UScriptClass'EnumProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'EClientFoliageReplacementState'",
+      "ObjectPath": "/Script/War"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'BPSilverBirchBareReplacement_C:OnStateChanged.State.UnderlyingType'",
+      "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.13"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'ClientFoliageReplacement:OnStateChanged'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'BPSilverBirchBareReplacement_C:OnStateChanged.State'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.11"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "State",
+    "Class": "UScriptClass'ByteProperty'",
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Event_State",
+    "Outer": "ExecuteUbergraph_BPSilverBirchBareReplacement",
+    "Class": "UScriptClass'EnumProperty'",
+    "Enum": {
+      "ObjectName": "Enum'EClientFoliageReplacementState'",
+      "ObjectPath": "/Script/War"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'BPSilverBirchBareReplacement_C:ExecuteUbergraph_BPSilverBirchBareReplacement.K2Node_Event_State.UnderlyingType'",
+      "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.9"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "NewVar_0",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'EnumProperty'",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Enum": {
+      "ObjectName": "Enum'EClientFoliageReplacementState'",
+      "ObjectPath": "/Script/War"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'BPSilverBirchBareReplacement_C:NewVar_0.UnderlyingType'",
+      "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.10"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Fire",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "NoMansLandSplinter",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "NoMansLandTreeFire",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "NoMansLandSplinter_GEN_VARIABLE",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'NoMansLandSplintersBirch'",
+        "ObjectPath": "War/Content/FX/NoMansLandSplintersBirch.52"
+      },
+      "RelativeLocation": {
+        "X": -11.633479,
+        "Y": 35.61708,
+        "Z": 532.824
+      },
+      "RelativeRotation": {
+        "Pitch": -8.720519,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "NoMansLandTreeFire_GEN_VARIABLE",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TreeFire01'",
+        "ObjectPath": "War/Content/FX/TreeFire01.51"
+      },
+      "RelativeLocation": {
+        "X": 4.810562,
+        "Y": 2.8856735,
+        "Z": 536.94
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPSilverBirchBareReplacement_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.21"
+      },
+      "VariableGuid": "5F64A74C-4BADC529-F4218B84-0B23E5EA",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPSilverBirchBareReplacement_C:NoMansLandSplinter_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.19"
+      },
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "20D9B75C-49D12E7D-98C4F499-35C7EAB9",
+      "InternalVariableName": "NoMansLandSplinter"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'BPSilverBirchBareReplacement_C:Splinter_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.4"
+      },
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "16E9ADD6-423C20EE-08363C8D-806AE110",
+      "InternalVariableName": "Splinter"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'BPSilverBirchBareReplacement_C:Fire_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.3"
+      },
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B993755D-462285F9-480DF18F-E083E908",
+      "InternalVariableName": "Fire"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPSilverBirchBareReplacement_C:NoMansLandTreeFire_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.20"
+      },
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8B4872DA-4542A29B-320A6D9F-B825CA79",
+      "InternalVariableName": "NoMansLandTreeFire"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPSilverBirchBareReplacement_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BPSilverBirchBareReplacement_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BPSilverBirchBareReplacement_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BPSilverBirchBareReplacement_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.24"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPSilverBirchBareReplacement_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BPSilverBirchBareReplacement_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BPSilverBirchBareReplacement_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BPSilverBirchBareReplacement_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.24"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPSilverBirchBareReplacement_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/BPSilverBirchBareReplacement.22"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Outer": "Default__BPSilverBirchBareReplacement_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BirchSilver_1Critical'",
+        "ObjectPath": "War/Content/Meshes/Environment/Foliage/BirchSilver_1Critical.2"
+      },
+      "CachedMaxDrawDistance": 10000.0
+    }
+  }
+]

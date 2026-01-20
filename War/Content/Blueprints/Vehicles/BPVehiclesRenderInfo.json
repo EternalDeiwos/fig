@@ -1,0 +1,239 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BPVehiclesRenderInfo_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPVehiclesRenderInfo_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPVehiclesRenderInfo_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/BPVehiclesRenderInfo.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'VehiclesRenderInfo'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPVehiclesRenderInfo_C:DefaultSceneRoot'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/BPVehiclesRenderInfo.0"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPVehiclesRenderInfo_C'Default__BPVehiclesRenderInfo_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/BPVehiclesRenderInfo.2"
+    }
+  },
+  {
+    "Type": "BPVehiclesRenderInfo_C",
+    "Name": "Default__BPVehiclesRenderInfo_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/BPVehiclesRenderInfo.BPVehiclesRenderInfo_C'",
+    "Properties": {
+      "PhysicalMaterialResolver": {
+        "MaterialsEffectedByImpact": [
+          {
+            "ObjectName": "PhysicalMaterial'GrassPhys'",
+            "ObjectPath": "War/Content/PhysicalMaterials/GrassPhys.0"
+          },
+          {
+            "ObjectName": "PhysicalMaterial'SnowPhys'",
+            "ObjectPath": "War/Content/PhysicalMaterials/SnowPhys.0"
+          }
+        ],
+        "ImpactedMaterial": {
+          "ObjectName": "PhysicalMaterial'MudPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/MudPhys.0"
+        },
+        "SnowMaterial": {
+          "ObjectName": "PhysicalMaterial'SnowPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/SnowPhys.0"
+        }
+      },
+      "ShippableCrateRenderInfo": [
+        {
+          "Key": "AircraftWaterW",
+          "Value": {
+            "CrateMesh": {
+              "ObjectName": "StaticMesh'AircraftWaterWCrate'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/Meshes/AircraftWaterWCrate.2"
+            },
+            "ShippableMesh": {
+              "ObjectName": "StaticMesh'AircraftWaterWCratePacked'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftWaterW/Meshes/AircraftWaterWCratePacked.2"
+            }
+          }
+        },
+        {
+          "Key": "AircraftFighterC",
+          "Value": {
+            "CrateMesh": {
+              "ObjectName": "StaticMesh'AircraftFighterCCrate'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterC/Meshes/AircraftFighterCCrate.2"
+            },
+            "ShippableMesh": {
+              "ObjectName": "StaticMesh'AircraftFighterCCratePacked'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterC/Meshes/AircraftFighterCCratePacked.2"
+            }
+          }
+        },
+        {
+          "Key": "AircraftFighterW",
+          "Value": {
+            "CrateMesh": {
+              "ObjectName": "StaticMesh'AircraftFighterWCrate'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterW/Meshes/AircraftFighterWCrate.2"
+            },
+            "ShippableMesh": {
+              "ObjectName": "StaticMesh'AircraftFighterWCratePacked'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterW/Meshes/AircraftFighterWCratePacked.2"
+            }
+          }
+        },
+        {
+          "Key": "AircraftParatrooperC",
+          "Value": {
+            "CrateMesh": {
+              "ObjectName": "StaticMesh'AircraftParatrooperCCrate'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftParatrooperC/Meshes/AircraftParatrooperCCrate.2"
+            },
+            "ShippableMesh": {
+              "ObjectName": "StaticMesh'AircraftParatrooperCCratePacked'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftParatrooperC/Meshes/AircraftParatrooperCCratePacked.2"
+            }
+          }
+        },
+        {
+          "Key": "AircraftParatrooperW",
+          "Value": {
+            "CrateMesh": {
+              "ObjectName": "StaticMesh'AircraftParatrooperWCrate'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftParatrooperW/Meshes/AircraftParatrooperWCrate.2"
+            },
+            "ShippableMesh": {
+              "ObjectName": "StaticMesh'AircraftParatrooperWCratePacked'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftParatrooperW/Meshes/AircraftParatrooperWCratePacked.2"
+            }
+          }
+        },
+        {
+          "Key": "AircraftBomberC",
+          "Value": {
+            "CrateMesh": {
+              "ObjectName": "StaticMesh'AircraftBomberCCrate'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Meshes/AircraftBomberCCrate.2"
+            },
+            "ShippableMesh": {
+              "ObjectName": "StaticMesh'AircraftBomberCCratePacked'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Meshes/AircraftBomberCCratePacked.2"
+            }
+          }
+        },
+        {
+          "Key": "AircraftBomberW",
+          "Value": {
+            "CrateMesh": {
+              "ObjectName": "StaticMesh'AircraftBomberWCrate'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/Meshes/AircraftBomberWCrate.2"
+            },
+            "ShippableMesh": {
+              "ObjectName": "StaticMesh'AircraftBomberWCratePacked'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberW/Meshes/AircraftBomberWCratePacked.2"
+            }
+          }
+        },
+        {
+          "Key": "AircraftDiveC",
+          "Value": {
+            "CrateMesh": {
+              "ObjectName": "StaticMesh'AircraftDiveBomberCrate'",
+              "ObjectPath": "War/Content/Meshes/Structures/ShipParts/Aircraft/AircraftDiveBomberCrate.2"
+            },
+            "ShippableMesh": {
+              "ObjectName": "StaticMesh'AircraftDiveBomberCratePacked'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftDiveBomberC/AircraftDiveBomberCratePacked.2"
+            }
+          }
+        },
+        {
+          "Key": "AircraftTorpedoW",
+          "Value": {
+            "CrateMesh": {
+              "ObjectName": "StaticMesh'AircraftTorpedoWCrate'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/Meshes/AircraftTorpedoWCrate.2"
+            },
+            "ShippableMesh": {
+              "ObjectName": "StaticMesh'AircraftTorpedoWCratePacked'",
+              "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/Meshes/AircraftTorpedoWCratePacked.2"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPVehiclesRenderInfo_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPVehiclesRenderInfo_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/BPVehiclesRenderInfo.3"
+      },
+      "VariableGuid": "A1E0A24A-4BBD01B4-8BAB2CA6-EAB94BDE",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPVehiclesRenderInfo_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPVehiclesRenderInfo_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/BPVehiclesRenderInfo.4"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPVehiclesRenderInfo_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/BPVehiclesRenderInfo.4"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPVehiclesRenderInfo_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/BPVehiclesRenderInfo.4"
+      }
+    }
+  }
+]

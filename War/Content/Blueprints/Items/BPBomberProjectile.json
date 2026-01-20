@@ -1,0 +1,264 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh",
+    "Outer": "BPBomberProjectile_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPBomberProjectile_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPBomberProjectile_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.9"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AirBombProjectile'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPBomberProjectile_C:StaticMesh'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.0"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPBomberProjectile_C'Default__BPBomberProjectile_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.2"
+    }
+  },
+  {
+    "Type": "BPBomberProjectile_C",
+    "Name": "Default__BPBomberProjectile_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/BPBomberProjectile.BPBomberProjectile_C'",
+    "Properties": {
+      "MovementComp": {
+        "ObjectName": "ProjectileMovementComponent'Default__BPBomberProjectile_C:ProjectileComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.5"
+      },
+      "CollisionComp": {
+        "ObjectName": "SphereComponent'Default__BPBomberProjectile_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.10"
+      },
+      "ParticleComp": {
+        "ObjectName": "ParticleSystemComponent'Default__BPBomberProjectile_C:ParticleComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.4"
+      },
+      "LoopingAudio": {
+        "ObjectName": "AudioComponent'Default__BPBomberProjectile_C:LoopingAudio'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.3"
+      },
+      "ExplosionTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'BomberAmmoExplosion_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BomberAmmoExplosion.1"
+      },
+      "ExplosiveCodeName": "BomberAmmo",
+      "AutoDetonateTime": 30.0,
+      "bInterpolatesMesh": true,
+      "bInterpolateFromRelativeSpawnPosition": true,
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BPBomberProjectile_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.10"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "LoopingAudio",
+    "Outer": "Default__BPBomberProjectile_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BPBomberProjectile_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.10"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ParticleComp",
+    "Outer": "Default__BPBomberProjectile_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BPBomberProjectile_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.10"
+      }
+    }
+  },
+  {
+    "Type": "ProjectileMovementComponent",
+    "Name": "ProjectileComp",
+    "Outer": "Default__BPBomberProjectile_C",
+    "Class": "UScriptClass'ProjectileMovementComponent'",
+    "Properties": {
+      "ProjectileGravityScale": 1.35,
+      "Velocity": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPBomberProjectile_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPBomberProjectile_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.6"
+      },
+      "VariableGuid": "7194A8BB-4E58A754-2BE3E9BA-E6A4A8FE",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPBomberProjectile_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.11"
+      },
+      "ParentComponentOrVariableName": "SphereComp",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "616AD03B-43D0BFD5-9A2D2988-B3249EE1",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPBomberProjectile_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPBomberProjectile_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.8"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPBomberProjectile_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.8"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPBomberProjectile_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.7"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "SphereComp",
+    "Outer": "Default__BPBomberProjectile_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 20.0
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BPBomberProjectile_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'AerialBombs'",
+        "ObjectPath": "War/Content/Meshes/Weapons/AerialBombs.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  }
+]

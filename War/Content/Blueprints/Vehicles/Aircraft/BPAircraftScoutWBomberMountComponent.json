@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftScoutWBomberMountComponent_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'AirBomberMountComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftScoutWBomberMountComponent_C'Default__BPAircraftScoutWBomberMountComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/BPAircraftScoutWBomberMountComponent.1"
+    }
+  },
+  {
+    "Type": "BPAircraftScoutWBomberMountComponent_C",
+    "Name": "Default__BPAircraftScoutWBomberMountComponent_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Aircraft/BPAircraftScoutWBomberMountComponent.BPAircraftScoutWBomberMountComponent_C'",
+    "Properties": {
+      "ProjectileClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPAirMiniTorpedoProjectile_C'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAirMiniTorpedoProjectile.1"
+      },
+      "DisplayName": {
+        "TableId": "/Game/Blueprints/StringTables/STMounts.STMounts",
+        "Key": "MountBombardier",
+        "SourceString": "Bombardier",
+        "LocalizedString": "Bombardier"
+      },
+      "AmmoName": "MiniTorpedoAmmo",
+      "Icon": {
+        "ObjectName": "Texture2D'MiniTorpedoAmmoIcon'",
+        "ObjectPath": "War/Content/Textures/UI/ItemIcons/MiniTorpedoAmmoIcon.0"
+      },
+      "EquippedGripType": "EEquippedWeaponGripType::AirVehicleDriver",
+      "ActivityStateInfos[3]": {
+        "Duration": 0.25
+      },
+      "ActivityStateInfos[4]": {
+        "Duration": 3.0
+      },
+      "bIsMultiWeapon": true
+    }
+  }
+]

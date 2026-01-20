@@ -1,0 +1,341 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "AircraftParatrooperW_FR_Body01",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "C90417AB4BAA81282E002B8691E1FD7F",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 489760,
+        "SizeOnDisk": 489760,
+        "OffsetInFile": "0x276C89"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_1",
+    "Outer": "AircraftParatrooperW_FR_Body01",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x2EE5F1"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "AircraftParatrooperW_FR_Body01",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftParatrooperWExterior'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftParatrooperW/Materials/AircraftParatrooperWExterior.0"
+          },
+          "MaterialSlotName": "AircraftParatrooperWExterior",
+          "ImportedMaterialSlotName": "AircraftParatrooperWExterior",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 3603.833,
+            "LocalUVDensities[1]": 4660.361,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'Metalworks_trim_LargeShipDestroyerC'",
+            "ObjectPath": "War/Content/Materials/Environment/Metalworks_trim_LargeShipDestroyerC.0"
+          },
+          "MaterialSlotName": "Metalworks_trim_LargeShipDestroyerC",
+          "ImportedMaterialSlotName": "Metalworks_trim_LargeShipDestroyerC",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 278.8227,
+            "LocalUVDensities[1]": 4648.2637,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftParatrooperWInterior'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftParatrooperW/Materials/AircraftParatrooperWInterior.0"
+          },
+          "MaterialSlotName": "AircraftParatrooperWInterior",
+          "ImportedMaterialSlotName": "AircraftParatrooperWInterior",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 880.56726,
+            "LocalUVDensities[1]": 4591.057,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftParatrooperWCockpit'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftParatrooperW/Materials/AircraftParatrooperWCockpit.0"
+          },
+          "MaterialSlotName": "AircraftParatrooperWCockpit",
+          "ImportedMaterialSlotName": "AircraftParatrooperWCockpit",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 355.60095,
+            "LocalUVDensities[1]": 4614.7207,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftW_instruments'",
+            "ObjectPath": "War/Content/Materials/Vehicles/AircraftW_instruments.0"
+          },
+          "MaterialSlotName": "AircraftW_instruments",
+          "ImportedMaterialSlotName": "AircraftW_instruments",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 66.94876,
+            "LocalUVDensities[1]": 4621.588,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 4630.7993,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 144.3771,
+          "Z": -6.871765
+        },
+        "BoxExtent": {
+          "X": 162.16214,
+          "Y": 557.3123,
+          "Z": 149.501
+        },
+        "SphereRadius": 575.3694
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'AircraftParatrooperW_FR_Body01:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftParatrooperW/Parts/Frame/AircraftParatrooperW_FR_Body01.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'AircraftParatrooperW_FR_Body01:NavCollision_1'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftParatrooperW/Parts/Frame/AircraftParatrooperW_FR_Body01.1"
+    },
+    "LightingGuid": "187690E6-4ABFCA0A-71CC82B4-3D99E1F1",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 0,
+              "NumTriangles": 440,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 687,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 1320,
+              "NumTriangles": 4176,
+              "MinVertexIndex": 688,
+              "MaxVertexIndex": 5336,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 13848,
+              "NumTriangles": 2988,
+              "MinVertexIndex": 5337,
+              "MaxVertexIndex": 9650,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 22812,
+              "NumTriangles": 4566,
+              "MinVertexIndex": 9651,
+              "MaxVertexIndex": 15305,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 36510,
+              "NumTriangles": 4512,
+              "MinVertexIndex": 15306,
+              "MaxVertexIndex": 19611,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 19612
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 19612,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 0,
+              "NumTriangles": 344,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 591,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 1032,
+              "NumTriangles": 3296,
+              "MinVertexIndex": 592,
+              "MaxVertexIndex": 4563,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 10920,
+              "NumTriangles": 2283,
+              "MinVertexIndex": 4564,
+              "MaxVertexIndex": 8220,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 17769,
+              "NumTriangles": 1929,
+              "MinVertexIndex": 8221,
+              "MaxVertexIndex": 11182,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 23556,
+              "NumTriangles": 488,
+              "MinVertexIndex": 11183,
+              "MaxVertexIndex": 11914,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 7.896187,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 11915
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 11915,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 144.3771,
+          "Z": -6.871765
+        },
+        "BoxExtent": {
+          "X": 162.16214,
+          "Y": 557.3123,
+          "Z": 149.501
+        },
+        "SphereRadius": 575.3694
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.94647443,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

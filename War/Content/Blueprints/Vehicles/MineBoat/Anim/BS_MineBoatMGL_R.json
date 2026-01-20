@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlendSpace1D",
+    "Name": "BS_MineBoatMGL_R",
+    "Class": "UScriptClass'BlendSpace1D'",
+    "Properties": {
+      "SampleData": [
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Anim_MineBoat_POSE_Turrets_Horizontal_Front'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/Anim_MineBoat_POSE_Turrets_Horizontal_Front.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Anim_MineBoat_POSE_Turrets_Horizontal_Right'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/Anim_MineBoat_POSE_Turrets_Horizontal_Right.0"
+          },
+          "SampleValue": {
+            "X": 90.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Anim_MineBoat_POSE_Turrets_Horizontal_Left'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/Anim_MineBoat_POSE_Turrets_Horizontal_Left.0"
+          },
+          "SampleValue": {
+            "X": -90.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        }
+      ],
+      "GridSamples": [
+        {
+          "Indices": 0,
+          "Indices[1]": 2,
+          "Indices[2]": -1,
+          "Weights": 0.0,
+          "Weights[1]": 1.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 0,
+          "Indices[1]": 2,
+          "Indices[2]": -1,
+          "Weights": 0.5,
+          "Weights[1]": 0.5,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 0,
+          "Indices[1]": 2,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 1,
+          "Indices[1]": 0,
+          "Indices[2]": -1,
+          "Weights": 0.5,
+          "Weights[1]": 0.5,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 1,
+          "Indices[1]": 0,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        }
+      ],
+      "BlendParameters": {
+        "DisplayName": "Yaw",
+        "Min": -90.0,
+        "Max": 90.0
+      },
+      "Skeleton": {
+        "ObjectName": "Skeleton'SK_MineBoat_Skeleton'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/SK_MineBoat_Skeleton.4"
+      }
+    },
+    "SkeletonGuid": "E69D76B4-4F5C0CCB-52CA48A5-D14195E0"
+  }
+]

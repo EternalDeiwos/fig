@@ -1,0 +1,1718 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonThreeWallsMods",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "AmmoCount",
+    "Outer": "UpdateAmmoInstanceMesh",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateAmmoInstanceMesh",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BPAmmoRoomT3_C:UpdateAmmoInstanceMesh.AmmoCount'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.1"
+      },
+      {
+        "ObjectName": "IntProperty'BPAmmoRoomT3_C:UpdateAmmoInstanceMesh.AmmoCountClamped'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.9"
+      },
+      {
+        "ObjectName": "IntProperty'BPAmmoRoomT3_C:UpdateAmmoInstanceMesh.AmmoRowCount'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.10"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPAmmoRoomT3_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.52"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AmmoRoom'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BPAmmoRoomT3_C:UpdateAmmoInstanceMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.2"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:FortCommonThreeWallsMods'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:FortCommonT3BreachedWalls'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.22"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:FortCommonDirtT3'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:InstancedStaticMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:ItemGroupRender'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:FortCommonT2T3ModsMinimal'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:FortCommonDefenseMods'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.19"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:FortCommon'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.18"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:AmmoRoom'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:ParticleSystem'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:Light'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:Roof'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:CornerFrontRight'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:CornerFrontLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.15"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:CornerBackLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:Floor'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:SideLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAmmoRoomT3_C:CornerBackRight'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.14"
+      }
+    ],
+    "FuncMap": {
+      "UpdateAmmoInstanceMesh": {
+        "ObjectName": "Function'BPAmmoRoomT3_C:UpdateAmmoInstanceMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.2"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAmmoRoomT3_C'Default__BPAmmoRoomT3_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.4"
+    }
+  },
+  {
+    "Type": "BPAmmoRoomT3_C",
+    "Name": "Default__BPAmmoRoomT3_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.BPAmmoRoomT3_C'",
+    "Properties": {
+      "GenericStockpileComponent": {
+        "ObjectName": "ReplicatedGenericStockpileComponent'Default__BPAmmoRoomT3_C:GenericStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.31"
+      },
+      "bCanBeFlaggedForDisruptivePlacement": true,
+      "Tier": "EFortTier::T3",
+      "BuildGhostClass": null,
+      "BuildSiteClass": {
+        "ObjectName": "Class'AmmoRoomBuildSite'",
+        "ObjectPath": "/Script/War"
+      },
+      "BaseStructureClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortDestroyedT3_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortDestroyedT3.1"
+      },
+      "BreachedStructureClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortDestroyedT3_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortDestroyedT3.1"
+      },
+      "bClearModificationsOnDowngrade": true,
+      "Description": {
+        "Namespace": "",
+        "Key": "23E6D64B495A0A6B46E711BCD9D03A93",
+        "SourceString": "A facility that stores equipment and ammunition for artillery. Retrieval is very quick for this structure.",
+        "LocalizedString": "A facility that stores equipment and ammunition for artillery. Retrieval is very quick for this structure."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'AmmoRoomIcon'",
+        "ObjectPath": "War/Content/Textures/UI/StructureIcons/AmmoRoomIcon.0"
+      },
+      "BuildCategory": "EBuildCategory::Bunker",
+      "bDropsLargeMaterialsWhenDestroyed": false,
+      "ValidBuildTools": 52,
+      "ConcreteSettler": {
+        "bEnabled": true
+      },
+      "CodeName": "AmmoRoomT3",
+      "ChassisName": {
+        "TableId": "/Game/Blueprints/StringTables/STChassis.STChassis",
+        "Key": "ChassisEntrenchment",
+        "SourceString": "Entrenchment",
+        "LocalizedString": "Entrenchment"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "903CBC5C4DB8775BEA393C85D1047486",
+        "SourceString": "Storage Room (Tier 3)",
+        "LocalizedString": "Storage Room (Tier 3)"
+      },
+      "ProfileType": "EStructureProfileType::Fort",
+      "ArmourType": "EArmourType::Tier3Structure",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPAmmoRoomT3_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.5"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPAmmoRoomT3_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.7"
+      },
+      "KillVolume": {
+        "ObjectName": "BoxComponent'Default__BPAmmoRoomT3_C:KillVolume'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.6"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'GrenadeBlast'",
+        "ObjectPath": "War/Content/FX/GrenadeBlast.151"
+      },
+      "TechComponentIDs": [
+        "ETechComponentID::T3SupportBunkers"
+      ],
+      "MaxHealth": 3750,
+      "Health": 3750,
+      "bAllowsShippablePlacement": true,
+      "ShippablePlacementFilter": "ConstructionEquipment",
+      "ClaimStatus": {
+        "bIsEnabled": true,
+        "bCanBeDemolished": true,
+        "DemolishDurationHours": 672
+      },
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPAmmoRoomT3_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.61"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPAmmoRoomT3_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.5"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "KillVolume",
+    "Outer": "Default__BPAmmoRoomT3_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 250.0,
+        "Y": 250.0,
+        "Z": 174.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPAmmoRoomT3_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.5"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 18.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPAmmoRoomT3_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 200.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPAmmoRoomT3_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.5"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -5.0,
+        "Z": -43.0
+      }
+    }
+  },
+  {
+    "Type": "InstancedStaticMeshComponent",
+    "Name": "InstancedStaticMesh_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'InstancedStaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 2,
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "ComponentTags": [
+        "IncludeInBuildSite",
+        "NoConcrete"
+      ]
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "AmmoCountClamped",
+    "Outer": "UpdateAmmoInstanceMesh",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "AmmoRowCount",
+    "Outer": "UpdateAmmoInstanceMesh",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "ItemGroupRenderComponent",
+    "Name": "ItemGroupRender_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ItemGroupRenderComponent'",
+    "Properties": {
+      "DataClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPAmmoRoomLayout_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Components/BPAmmoRoomLayout.0"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -158.00012,
+        "Z": 22.675652
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "DefaultFloorVisibility"
+      ]
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "AmmoRoom",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CornerBackLeft",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CornerBackRight",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CornerFrontLeft",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CornerFrontRight",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Floor",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommon",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonDefenseMods",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonDirtT3",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonT2T3ModsMinimal",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonT3BreachedWalls",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "InstancedStaticMesh",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'InstancedStaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ItemGroupRender",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ItemGroupRenderComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Light",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ParticleSystem",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Roof",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SideLeft",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "Light_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'StaticLight'",
+        "ObjectPath": "War/Content/FX/StaticLight.9"
+      },
+      "RelativeLocation": {
+        "X": 43.0,
+        "Y": -77.0,
+        "Z": 107.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ParticleSystem_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'StaticLight'",
+        "ObjectPath": "War/Content/FX/StaticLight.9"
+      },
+      "RelativeLocation": {
+        "X": 43.0,
+        "Y": 78.0,
+        "Z": 107.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "ReplicatedGenericStockpileComponent",
+    "Name": "GenericStockpileComponent",
+    "Outer": "Default__BPAmmoRoomT3_C",
+    "Class": "UScriptClass'ReplicatedGenericStockpileComponent'",
+    "Properties": {
+      "Configs": [
+        {
+          "Type": "EStockpileEntryType::Items",
+          "QuantityLimit": 32000,
+          "TotalQuantityLimit": 100,
+          "ItemCategoryFilter": 0,
+          "QuantityOverrides": [],
+          "TotalQuantityOverrides": [],
+          "ValidEntriesOverride": [
+            "LightArtilleryAmmo",
+            "HeavyArtilleryAmmo",
+            "LRArtilleryAmmo",
+            "tripod",
+            "mgtw",
+            "mgtc",
+            "rpgtw",
+            "atrifletc",
+            "isgtc",
+            "BarbedWireMaterials",
+            "MetalBeamMaterials",
+            "SandbagMaterials",
+            "Concrete",
+            "HERocketAmmo",
+            "FireRocketAmmo",
+            "BattleTankAmmo",
+            "ATLargeAmmo",
+            "MortarTankAmmo",
+            "atrpgtw",
+            "FlameAmmo",
+            "GrenadeLauncherTC",
+            "WaterMine",
+            "SurfaceWaterMine",
+            "DepthChargeAmmo",
+            "TankMine",
+            "InfantryMine",
+            "WindsockT",
+            "ListeningKit",
+            "BannerTC",
+            "BannerTW",
+            "MortarTankAmmoBR",
+            "DemolitionRocketAmmo",
+            "BomberAmmo",
+            "AAAmmo",
+            "DiveBomberAmmo",
+            "AircraftAmmo",
+            "MiniTorpedoAmmo"
+          ],
+          "PreStockedEntries": [],
+          "RetrieveDurationModifiers": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPAmmoRoomT3_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.32"
+      },
+      "VariableGuid": "1144E758-45F21128-659C63A0-98B6F24C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAmmoRoomT3_C:AmmoRoom_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.53"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.48"
+        }
+      ],
+      "VariableGuid": "020B359E-41212338-367DC2B1-7743B7D3",
+      "InternalVariableName": "AmmoRoom"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPAmmoRoomT3_C:FortCommonThreeWallsMods_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.67"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4A3E0ADE-4CB54E63-A6099ABB-E402224D",
+      "InternalVariableName": "FortCommonThreeWallsMods"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAmmoRoomT3_C:Light_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.29"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C044A9A4-4B76A28F-E096039F-D9BA0544",
+      "InternalVariableName": "Light"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPAmmoRoomT3_C:ParticleSystem_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.30"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "74E83BDE-47807DB1-D6EC5DAC-4DF9FE3B",
+      "InternalVariableName": "ParticleSystem"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPAmmoRoomT3_C:FortCommon_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.62"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3C1B226E-417B2D7E-40CF32A0-57625051",
+      "InternalVariableName": "FortCommon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPAmmoRoomT3_C:FortCommonDefenseMods_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.63"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "62EDD111-4865A81F-B1497DA4-728BA55C",
+      "InternalVariableName": "FortCommonDefenseMods"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPAmmoRoomT3_C:FortCommonT2T3ModsMinimal_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.65"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8BA8CAEA-4DE66A9B-AB52CAAD-6301EDED",
+      "InternalVariableName": "FortCommonT2T3ModsMinimal"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_39",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAmmoRoomT3_C:SideLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.60"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8CFF19AD-49DD864C-09935F88-C4F1922C",
+      "InternalVariableName": "SideLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_40",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAmmoRoomT3_C:Floor_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.58"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7CE8D49D-45908314-055555B1-647CFA24",
+      "InternalVariableName": "Floor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_42",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAmmoRoomT3_C:CornerBackRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.55"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "49BC660B-490CD0BF-6A042180-9F2C3D8F",
+      "InternalVariableName": "CornerBackRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_43",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAmmoRoomT3_C:CornerBackLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.54"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6C831C81-4CC825CC-626A13B1-C41875CC",
+      "InternalVariableName": "CornerBackLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_44",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAmmoRoomT3_C:CornerFrontLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.56"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4D611137-44C649D2-2800D3BB-B8981E45",
+      "InternalVariableName": "CornerFrontLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_45",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAmmoRoomT3_C:CornerFrontRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.57"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "80215150-4CAD7194-442FDA9C-3C435C40",
+      "InternalVariableName": "CornerFrontRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_46",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAmmoRoomT3_C:Roof_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.59"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0AA9A297-436E3BC3-8E707BB8-0F3818C4",
+      "InternalVariableName": "Roof"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ItemGroupRenderComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ItemGroupRenderComponent'BPAmmoRoomT3_C:ItemGroupRender_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.11"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.51"
+        }
+      ],
+      "VariableGuid": "4835821C-4BC71B22-75832987-CC0B59EC",
+      "InternalVariableName": "ItemGroupRender"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPAmmoRoomT3_C:FortCommonDirtT3_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.64"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "09A04C88-4FBCCC21-82CC63B6-C9A39514",
+      "InternalVariableName": "FortCommonDirtT3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPAmmoRoomT3_C:FortCommonT3BreachedWalls_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.66"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "34F17953-44D90876-396B6891-51AAB9A3",
+      "InternalVariableName": "FortCommonT3BreachedWalls"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'InstancedStaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "InstancedStaticMeshComponent'BPAmmoRoomT3_C:InstancedStaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.8"
+      },
+      "VariableGuid": "A8DDDF26-4459225D-8232BC93-421CEDA4",
+      "InternalVariableName": "InstancedStaticMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_42'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_39'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_40'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_43'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_44'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_45'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_46'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.35"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_42'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_39'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_40'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_43'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_44'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_45'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_46'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.35"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPAmmoRoomT3_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPAmmoRoomT3.33"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "AmmoRoom_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'AmmoRoomRack'",
+        "ObjectPath": "War/Content/Materials/Structures/AmmoRoomRack.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'AmmoRoom'",
+          "ObjectPath": "War/Content/Materials/Structures/AmmoRoom.0"
+        }
+      ],
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -161.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "NoConcrete",
+        "FloorVisibility"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "CornerBackLeft_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -250.0,
+        "Y": -250.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.9999,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideLeft",
+        "SideBack",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "CornerBackRight_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -250.0,
+        "Y": 250.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00005,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideBack",
+        "SideRight",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "CornerFrontLeft_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 250.0,
+        "Y": -250.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99975,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideFront",
+        "SideLeft",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "CornerFrontRight_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 250.0,
+        "Y": 250.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideFront",
+        "SideRight",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Floor_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Floor01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Floor01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "FloorVisibility"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Roof_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Roof01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Roof01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "bCastHiddenShadow": true,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "RoofVisibility",
+        "ExcludeFromBuildGhost"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SideLeft_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Wall01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Wall01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -250.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.9995,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideLeft",
+        "ModLeft",
+        "ModDefault",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPAmmoRoomT3_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommon_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommon_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommon.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonDefenseMods_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonDefenseMods_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonDefenseMods.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonDirtT3_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonDirtT3_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonDirtT3.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonT2T3ModsMinimal_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonT2T3ModsMinimal_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonT2T3ModsMinimal.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonT3BreachedWalls_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonT3BreachedWalls_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortCommonT3BreachedWalls.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonThreeWallsMods_GEN_VARIABLE",
+    "Outer": "BPAmmoRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonThreeWallsMods_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonThreeWallsMods.1"
+      }
+    }
+  }
+]

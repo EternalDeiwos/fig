@@ -1,0 +1,1040 @@
+[
+  {
+    "Type": "Material",
+    "Name": "SmokeVolume",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "BlendMode": "BLEND_Translucent",
+      "TranslucencyLightingMode": "TLM_VolumetricPerVertexNonDirectional",
+      "Expressions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'SmokeVolume:MaterialExpressionMaterialFunctionCall_1'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.8"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_3'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.31"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_4'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.32"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_5'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.33"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'SmokeVolume:MaterialExpressionMaterialFunctionCall_2'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.9"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_6'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.34"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_7'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.35"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_8'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.36"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_11'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.14"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_12'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.15"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_13'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.16"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'SmokeVolume:MaterialExpressionVectorParameter_0'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.42"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'SmokeVolume:MaterialExpressionMaterialFunctionCall_0'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.7"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_0'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.12"
+        },
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_1'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.13"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'SmokeVolume:MaterialExpressionTextureSample_0'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.41"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_9'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.37"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_14'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.17"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_15'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.18"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureObjectParameter'SmokeVolume:MaterialExpressionTextureObjectParameter_0'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.38"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureObjectParameter'SmokeVolume:MaterialExpressionTextureObjectParameter_1'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.39"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_16'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.19"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_17'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.20"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'SmokeVolume:MaterialExpressionMaterialFunctionCall_3'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.11"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_2'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.23"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_18'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.21"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_19'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.22"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_20'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.24"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_21'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.25"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureObjectParameter'SmokeVolume:MaterialExpressionTextureObjectParameter_2'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.40"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_22'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.26"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionCollectionParameter'SmokeVolume:MaterialExpressionCollectionParameter_0'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.1"
+        },
+        {
+          "ObjectName": "MaterialExpressionCollectionParameter'SmokeVolume:MaterialExpressionCollectionParameter_3'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.4"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'SmokeVolume:MaterialExpressionVectorParameter_1'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.43"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_23'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.27"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionCollectionParameter'SmokeVolume:MaterialExpressionCollectionParameter_1'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.2"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionCollectionParameter'SmokeVolume:MaterialExpressionCollectionParameter_4'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.5"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionCollectionParameter'SmokeVolume:MaterialExpressionCollectionParameter_6'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.6"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionCollectionParameter'SmokeVolume:MaterialExpressionCollectionParameter_16'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.3"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_24'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.28"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'SmokeVolume:MaterialExpressionMaterialFunctionCall_25'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.10"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_26'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.30"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SmokeVolume:MaterialExpressionScalarParameter_25'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.29"
+        },
+        null,
+        null,
+        null
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+          "Function": {
+            "ObjectName": "MaterialFunction'LinearGradient'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.0"
+          }
+        },
+        {
+          "StateId": "1F3C7ECC-4653CAFB-2A6AEE82-B1F2F3A5",
+          "Function": {
+            "ObjectName": "MaterialFunction'CheapContrast'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.1"
+          }
+        },
+        {
+          "StateId": "A1337409-4518B73A-A3F1D595-ABEABD0F",
+          "Function": {
+            "ObjectName": "MaterialFunction'WorldPannerCustom'",
+            "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.6"
+          }
+        },
+        {
+          "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+          "Function": {
+            "ObjectName": "MaterialFunction'LinearGradient'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.0"
+          }
+        },
+        {
+          "StateId": "1F3C7ECC-4653CAFB-2A6AEE82-B1F2F3A5",
+          "Function": {
+            "ObjectName": "MaterialFunction'CheapContrast'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.1"
+          }
+        },
+        {
+          "StateId": "A1337409-4518B73A-A3F1D595-ABEABD0F",
+          "Function": {
+            "ObjectName": "MaterialFunction'WorldPannerCustom'",
+            "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.6"
+          }
+        },
+        {
+          "StateId": "82036262-4644DDFB-64C77488-3A8C7C56",
+          "Function": {
+            "ObjectName": "MaterialFunction'BeersLaw'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Volumetrics/BeersLaw.0"
+          }
+        },
+        {
+          "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+          "Function": {
+            "ObjectName": "MaterialFunction'LinearGradient'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.0"
+          }
+        },
+        {
+          "StateId": "1F3C7ECC-4653CAFB-2A6AEE82-B1F2F3A5",
+          "Function": {
+            "ObjectName": "MaterialFunction'CheapContrast'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.1"
+          }
+        },
+        {
+          "StateId": "A1337409-4518B73A-A3F1D595-ABEABD0F",
+          "Function": {
+            "ObjectName": "MaterialFunction'WorldPannerCustom'",
+            "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.6"
+          }
+        },
+        {
+          "StateId": "DB3E993F-4E2E98B3-05AD13B9-2D8C5DA5",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDepthFade'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.0"
+          }
+        }
+      ],
+      "MaterialParameterCollectionInfos": [
+        {
+          "StateId": "55282790-4C26CE2D-E3F976B5-C0198AF3",
+          "ParameterCollection": {
+            "ObjectName": "MaterialParameterCollection'WeatherControl'",
+            "ObjectPath": "War/Content/Materials/Collections/WeatherControl.0"
+          }
+        },
+        {
+          "StateId": "133A7343-44D81A99-41B548AB-70F6DB9A",
+          "ParameterCollection": {
+            "ObjectName": "MaterialParameterCollection'TreeAndGrass'",
+            "ObjectPath": "War/Content/Materials/Collections/TreeAndGrass.0"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "2CB34FA5-44F30955-F754E68F-4B8662F9",
+      "CachedQualityLevelsUsed": [
+        false,
+        true,
+        false
+      ],
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "SmokeAlphas01"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionCollectionParameter",
+    "Name": "MaterialExpressionCollectionParameter_0",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionCollectionParameter'",
+    "Properties": {
+      "Collection": {
+        "ObjectName": "MaterialParameterCollection'WeatherControl'",
+        "ObjectPath": "War/Content/Materials/Collections/WeatherControl.0"
+      },
+      "ParameterName": "WeatherSnowControl",
+      "ParameterId": "E1B68D1D-4F1EA9E4-3BAF16B6-EC36BC11",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionCollectionParameter",
+    "Name": "MaterialExpressionCollectionParameter_1",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionCollectionParameter'",
+    "Properties": {
+      "Collection": {
+        "ObjectName": "MaterialParameterCollection'WeatherControl'",
+        "ObjectPath": "War/Content/Materials/Collections/WeatherControl.0"
+      },
+      "ParameterName": "WeatherSnowControl",
+      "ParameterId": "E1B68D1D-4F1EA9E4-3BAF16B6-EC36BC11",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionCollectionParameter",
+    "Name": "MaterialExpressionCollectionParameter_16",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionCollectionParameter'",
+    "Properties": {
+      "Collection": {
+        "ObjectName": "MaterialParameterCollection'TreeAndGrass'",
+        "ObjectPath": "War/Content/Materials/Collections/TreeAndGrass.0"
+      },
+      "ParameterName": "SphereOffset",
+      "ParameterId": "6AC43507-4A6D0AFD-6E1DAD8B-3F95F6F2",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionCollectionParameter",
+    "Name": "MaterialExpressionCollectionParameter_3",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionCollectionParameter'",
+    "Properties": {
+      "Collection": {
+        "ObjectName": "MaterialParameterCollection'WeatherControl'",
+        "ObjectPath": "War/Content/Materials/Collections/WeatherControl.0"
+      },
+      "ParameterName": "RainRoughness",
+      "ParameterId": "E6FB785B-4B227A3E-CC6FFB92-CA0121B4",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionCollectionParameter",
+    "Name": "MaterialExpressionCollectionParameter_4",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionCollectionParameter'",
+    "Properties": {
+      "Collection": {
+        "ObjectName": "MaterialParameterCollection'WeatherControl'",
+        "ObjectPath": "War/Content/Materials/Collections/WeatherControl.0"
+      },
+      "ParameterName": "RainRoughness",
+      "ParameterId": "E6FB785B-4B227A3E-CC6FFB92-CA0121B4",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionCollectionParameter",
+    "Name": "MaterialExpressionCollectionParameter_6",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionCollectionParameter'",
+    "Properties": {
+      "Collection": {
+        "ObjectName": "MaterialParameterCollection'TreeAndGrass'",
+        "ObjectPath": "War/Content/Materials/Collections/TreeAndGrass.0"
+      },
+      "ParameterName": "Player Location",
+      "ParameterId": "A5B1B3F9-4DFA7374-7D19D4AA-A2D07624",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_0",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'BeersLaw'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Volumetrics/BeersLaw.0"
+      },
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_1",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'WorldPannerCustom'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.6"
+      },
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_2",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'WorldPannerCustom'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.6"
+      },
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_25",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'CameraDepthFade'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.0"
+      },
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_3",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'WorldPannerCustom'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.6"
+      },
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_0",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 0.5,
+      "ParameterName": "BeersDepth",
+      "ExpressionGUID": "DB943194-4B45EF23-C522D6A3-D51B5B8A",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_1",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 1.0,
+      "ParameterName": "Opacity",
+      "ExpressionGUID": "999B9F6B-4746806A-BAA599B5-73ADE976",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_11",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 1.0,
+      "ParameterName": "MaxTo",
+      "ExpressionGUID": "C9041754-442F5CF8-B506EF9F-DBD31448",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_12",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 256.0,
+      "ParameterName": "MinFromBP",
+      "ExpressionGUID": "A556B4A1-48B9D989-7BB73189-FBC2F3A7",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_13",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 256.0,
+      "ParameterName": "MaxFromBP",
+      "ExpressionGUID": "82D824C9-4845C552-8D64C58D-2A0DD17E",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_14",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 2.0,
+      "ParameterName": "Power2",
+      "ExpressionGUID": "D53BD0D9-49EC75CE-3818438A-F507411D",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_15",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 2.0,
+      "ParameterName": "Power1",
+      "ExpressionGUID": "AE499921-4A50F63A-3C23ECA4-6702DCD0",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_16",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 2.0,
+      "ParameterName": "Multiply2",
+      "ExpressionGUID": "742626B9-49140D14-4FC4369B-E25A529A",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_17",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 2.0,
+      "ParameterName": "Multiply1",
+      "ExpressionGUID": "075E76BD-497D2463-25D97AB7-CF986F15",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_18",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "ParameterName": "Pan3X",
+      "ExpressionGUID": "08604CBB-4E490254-E68790BD-2121D63D",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_19",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 256.0,
+      "ParameterName": "Tiling3",
+      "ExpressionGUID": "9864A019-4473B481-C9664CB7-36300F92",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_2",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "ParameterName": "Pan3Y",
+      "ExpressionGUID": "A04FC5C3-46A597B9-CB8435A9-9DEB24B5",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_20",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 5.0,
+      "ParameterName": "Power3",
+      "ExpressionGUID": "EBD93B25-4901129C-C5A7B7A0-B22AEFF8",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_21",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 6.0,
+      "ParameterName": "Multiply3",
+      "ExpressionGUID": "7389996D-4F0E484D-1254D79D-C4271CFD",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_22",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "ParameterName": "Secondary Clouds",
+      "ExpressionGUID": "30C2C5EC-4A771D7A-4E3D7D9E-7AE4CF39",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_23",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 1.0,
+      "ParameterName": "CloudDensity",
+      "ExpressionGUID": "67F57338-4BF198E1-AC94FB94-433C2948",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_24",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 1.0,
+      "ParameterName": "Player Visiblity Strength",
+      "ExpressionGUID": "8FBDA3DF-497A025D-BB7B3FA4-1AA4DD18",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_25",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 1.0,
+      "ParameterName": "Player Visiblity Size",
+      "ExpressionGUID": "3D3AD94B-474AC69D-748342A9-430C95B4",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_26",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 2200.0,
+      "ParameterName": "Camera Fade Distance",
+      "ExpressionGUID": "615C9F5E-43E82E73-F947B3B2-FBF6D180",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_3",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "ParameterName": "Pan1Y",
+      "ExpressionGUID": "435F946C-40DA7E58-78E0D8A3-A8A7A9CE",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_4",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "ParameterName": "Pan1X",
+      "ExpressionGUID": "1E1A642A-422E1F7E-4B8455AA-B5A1D563",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_5",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 256.0,
+      "ParameterName": "Tiling1",
+      "ExpressionGUID": "8CD7F981-4216124E-7F306581-15D889AD",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_6",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "ParameterName": "Pan2Y",
+      "ExpressionGUID": "B65BF3E0-45C4EF8F-4D9D0E8A-F2073A0A",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_7",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "ParameterName": "Pan2X",
+      "ExpressionGUID": "AA91537F-4EE69218-06CD7EA0-18E07640",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_8",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 256.0,
+      "ParameterName": "Tiling2",
+      "ExpressionGUID": "F7B51063-4EB0614F-C2DC899B-D130EC69",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_9",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Properties": {
+      "DefaultValue": 250.0,
+      "ParameterName": "Depth Fade",
+      "ExpressionGUID": "EB896228-42FE534C-C851EBAB-57E087F5",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureObjectParameter",
+    "Name": "MaterialExpressionTextureObjectParameter_0",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+    "Properties": {
+      "ParameterName": "Texture1",
+      "ExpressionGUID": "2E197611-4CDE4709-6568F697-8DEC7BDD",
+      "Group": "Texture",
+      "Texture": {
+        "ObjectName": "Texture2D'TilingNoise03'",
+        "ObjectPath": "War/Content/Blueprints/FogSheet/Textures/Noise/TilingNoise03.0"
+      },
+      "SamplerType": "SAMPLERTYPE_LinearColor",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureObjectParameter",
+    "Name": "MaterialExpressionTextureObjectParameter_1",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+    "Properties": {
+      "ParameterName": "Texture2",
+      "ExpressionGUID": "329DD073-43F8F878-04D5AA83-59D0176E",
+      "Group": "Texture",
+      "Texture": {
+        "ObjectName": "Texture2D'TilingNoise03'",
+        "ObjectPath": "War/Content/Blueprints/FogSheet/Textures/Noise/TilingNoise03.0"
+      },
+      "SamplerType": "SAMPLERTYPE_LinearColor",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureObjectParameter",
+    "Name": "MaterialExpressionTextureObjectParameter_2",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+    "Properties": {
+      "ParameterName": "Texture3",
+      "ExpressionGUID": "3921422E-4DB535E6-8CE13DBF-9872522D",
+      "Group": "Texture",
+      "Texture": {
+        "ObjectName": "Texture2D'TilingNoise03'",
+        "ObjectPath": "War/Content/Blueprints/FogSheet/Textures/Noise/TilingNoise03.0"
+      },
+      "SamplerType": "SAMPLERTYPE_LinearColor",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_0",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'SmokeAlphas01'",
+        "ObjectPath": "War/Content/FX/Textures/SmokeAlphas01.0"
+      },
+      "SamplerType": "SAMPLERTYPE_LinearColor",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_0",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Properties": {
+      "DefaultValue": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "ParameterName": "ShadowColour",
+      "ExpressionGUID": "0C5D76E3-4B210F76-6BC9D7B3-AD501B05",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_1",
+    "Outer": "SmokeVolume",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.9,
+        "G": 0.9,
+        "B": 0.9,
+        "A": 1.0,
+        "Hex": "F4F4F4"
+      },
+      "ParameterName": "Main Colour",
+      "ExpressionGUID": "C471A366-4CDC9C44-3311FEBF-2D0ED493",
+      "Material": {
+        "ObjectName": "Material'SmokeVolume'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/SmokeVolume.0"
+      }
+    }
+  }
+]

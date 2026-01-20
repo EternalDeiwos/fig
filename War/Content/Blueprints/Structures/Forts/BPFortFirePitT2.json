@@ -1,0 +1,1368 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonT2Corners",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPFortFirePitT2_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.43"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortFirePit'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:FortCommonT2Corners'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:FortCommonThreeWallsMods'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:FortCommonT2BreachedWalls'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.15"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:RearWall'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:SideLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:LocationMultiplexedMeshFloor'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:LocationMultiplexedMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.19"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:RoofDirt'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:Roof'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.22"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:FortCommonT2T3ModsMinimal'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:FortFirePitCommonFire'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.18"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:FirePitMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:FortCommonDirtT2'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:FortCommonDefenseMods'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:FortCommon'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortFirePitT2_C:Floor'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.11"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPFortFirePitT2_C'Default__BPFortFirePitT2_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.2"
+    }
+  },
+  {
+    "Type": "BPFortFirePitT2_C",
+    "Name": "Default__BPFortFirePitT2_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.BPFortFirePitT2_C'",
+    "Properties": {
+      "EmplacementLocation": {
+        "ObjectName": "BoxComponent'Default__BPFortFirePitT2_C:EmplacementLocation'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.4"
+      },
+      "MinUpgradeTargetDistance": 300.0,
+      "ObstructionCheckOverrideExtents": {
+        "X": 250.0,
+        "Y": 250.0,
+        "Z": 100.0
+      },
+      "Tier": "EFortTier::T2",
+      "BuildGhostClass": null,
+      "BuildSiteClass": {
+        "ObjectName": "Class'FortBuildSite'",
+        "ObjectPath": "/Script/War"
+      },
+      "BaseStructureClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortDestroyedT2_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortDestroyedT2.1"
+      },
+      "bClearModificationsOnDowngrade": true,
+      "Description": {
+        "Namespace": "",
+        "Key": "9688E2684A7D074F7706E191E9B1BBDE",
+        "SourceString": "The keystone to any bunker, this simple hearth functions both as oven and warmth in the coldest weather, heating a fair area around it when built on solid foundations.",
+        "LocalizedString": "The keystone to any bunker, this simple hearth functions both as oven and warmth in the coldest weather, heating a fair area around it when built on solid foundations."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'FortFirePitIcon'",
+        "ObjectPath": "War/Content/Textures/UI/StructureIcons/FortFirePitIcon.0"
+      },
+      "BuildCategory": "EBuildCategory::Bunker",
+      "DestroyedDamageExtent": {
+        "X": 235.0,
+        "Y": 235.0,
+        "Z": 120.0
+      },
+      "DestroyedDamageOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30.0
+      },
+      "ValidBuildTools": 49,
+      "CodeName": "FortFirePitT2",
+      "ChassisName": {
+        "TableId": "/Game/Blueprints/StringTables/STChassis.STChassis",
+        "Key": "ChassisEntrenchment",
+        "SourceString": "Entrenchment",
+        "LocalizedString": "Entrenchment"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E32D1103404DCC185BA296A48AA5CA61",
+        "SourceString": "Bunker Hearth (Tier 2)",
+        "LocalizedString": "Bunker Hearth (Tier 2)"
+      },
+      "ProfileType": "EStructureProfileType::Fort",
+      "ArmourType": "EArmourType::Tier2Structure",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPFortFirePitT2_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPFortFirePitT2_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.6"
+      },
+      "KillVolume": {
+        "ObjectName": "BoxComponent'Default__BPFortFirePitT2_C:KillVolume'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.5"
+      },
+      "DestroyedSoundCue": {
+        "ObjectName": "SoundCue'BunkerExplosion_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/BunkerExplosion_Cue.0"
+      },
+      "TechComponentIDs": [
+        "ETechComponentID::T1SupportBunkers"
+      ],
+      "ModularMountsComponent": {
+        "ObjectName": "ModularMountsComponent'Default__BPFortFirePitT2_C:ModularMountsComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.9"
+      },
+      "MaxHealth": 2000,
+      "Health": 2000,
+      "UpgradeStructureCodeName": "FortFirePitT3",
+      "ClaimStatus": {
+        "bCanBeDemolished": true,
+        "DemolishDurationHours": 672
+      },
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPFortFirePitT2_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.50"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPFortFirePitT2_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPFortFirePitT2_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "EmplacementLocation",
+    "Outer": "Default__BPFortFirePitT2_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFortFirePitT2_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.3"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "KillVolume",
+    "Outer": "Default__BPFortFirePitT2_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 250.0,
+        "Y": 250.0,
+        "Z": 174.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFortFirePitT2_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 18.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPFortFirePitT2_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 300.0,
+        "Y": 300.0,
+        "Z": 156.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFortFirePitT2_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 22.0
+      }
+    }
+  },
+  {
+    "Type": "LocationMultiplexedMeshComponent",
+    "Name": "LocationMultiplexedMesh_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'LocationMultiplexedMeshComponent'",
+    "Properties": {
+      "TargetTag": "MultiplexedRoof",
+      "MeshStops": [
+        {
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'FortT2RoofDirt01'",
+            "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT2RoofDirt01.2"
+          }
+        },
+        {
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'FortT2RoofDirt02'",
+            "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT2RoofDirt02.2"
+          }
+        },
+        {
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'FortT2RoofDirt03'",
+            "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT2RoofDirt03.2"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LocationMultiplexedMeshComponent",
+    "Name": "LocationMultiplexedMeshFloor_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'LocationMultiplexedMeshComponent'",
+    "Properties": {
+      "TargetTag": "MultiplexedFloor",
+      "MeshStops": [
+        {
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'FortT2Floor01'",
+            "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT2Floor01.2"
+          }
+        },
+        {
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'FortT2Floor02'",
+            "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT2Floor02.2"
+          }
+        },
+        {
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'FortT2Floor03'",
+            "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT2Floor03.2"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ModularMountsComponent",
+    "Name": "ModularMountsComponent",
+    "Outer": "Default__BPFortFirePitT2_C",
+    "Class": "UScriptClass'ModularMountsComponent'"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FirePitMesh",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Floor",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommon",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonDefenseMods",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonDirtT2",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonT2BreachedWalls",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonT2T3ModsMinimal",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonThreeWallsMods",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortFirePitCommonFire",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LocationMultiplexedMesh",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'LocationMultiplexedMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LocationMultiplexedMeshFloor",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'LocationMultiplexedMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RearWall",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Roof",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RoofDirt",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SideLeft",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPFortFirePitT2_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.25"
+      },
+      "VariableGuid": "1144E758-45F21128-659C63A0-98B6F24C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPFortFirePitT2_C:FortCommonT2Corners_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.55"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "CE4FF507-4843BAF0-3515C7B9-176B3D95",
+      "InternalVariableName": "FortCommonT2Corners"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortFirePitT2_C:Roof_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.47"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.29"
+        }
+      ],
+      "VariableGuid": "4C6C13CB-4138FDA6-548ECE9D-AD4BE096",
+      "InternalVariableName": "Roof"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortFirePitT2_C:RoofDirt_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.48"
+      },
+      "VariableGuid": "4B1C9C38-41D49F23-3B148687-DD2457D2",
+      "InternalVariableName": "RoofDirt"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LocationMultiplexedMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LocationMultiplexedMeshComponent'BPFortFirePitT2_C:LocationMultiplexedMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.7"
+      },
+      "VariableGuid": "F8484275-49A144E5-50DAD59A-DCC16DB9",
+      "InternalVariableName": "LocationMultiplexedMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LocationMultiplexedMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LocationMultiplexedMeshComponent'BPFortFirePitT2_C:LocationMultiplexedMeshFloor_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.8"
+      },
+      "VariableGuid": "6B70DF19-4BFCA8EF-D38165B4-705C5091",
+      "InternalVariableName": "LocationMultiplexedMeshFloor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortFirePitT2_C:RearWall_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.46"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "57390383-4CD6BF8B-4E209983-7BD6CF76",
+      "InternalVariableName": "RearWall"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortFirePitT2_C:SideLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.49"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D80AA627-496A2B82-057E0290-398592F6",
+      "InternalVariableName": "SideLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPFortFirePitT2_C:FortCommonT2BreachedWalls_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.54"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1F9B501B-47A2446B-D285A782-570164AD",
+      "InternalVariableName": "FortCommonT2BreachedWalls"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPFortFirePitT2_C:FortCommon_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.51"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "041018B6-4FC483FE-D69C59BF-2E49C9C5",
+      "InternalVariableName": "FortCommon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPFortFirePitT2_C:FortCommonDefenseMods_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.52"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1C80BE26-4AAF25D5-DC274593-DEF532DB",
+      "InternalVariableName": "FortCommonDefenseMods"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPFortFirePitT2_C:FortCommonDirtT2_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.53"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "754F3579-4C436B19-140C4683-CBDD7CD3",
+      "InternalVariableName": "FortCommonDirtT2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_40",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortFirePitT2_C:Floor_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.45"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7CE8D49D-45908314-055555B1-647CFA24",
+      "InternalVariableName": "Floor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortFirePitT2_C:FirePitMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.44"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "90C143E4-4B89B6E1-E735DCBD-C698CDAA",
+      "InternalVariableName": "FirePitMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPFortFirePitT2_C:FortCommonT2T3ModsMinimal_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.56"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EDB7B7ED-4E5DF3CD-9795CBAF-B7F91321",
+      "InternalVariableName": "FortCommonT2T3ModsMinimal"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPFortFirePitT2_C:FortCommonThreeWallsMods_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.57"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5BBF0093-47B93339-5F4107AC-56F6178F",
+      "InternalVariableName": "FortCommonThreeWallsMods"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPFortFirePitT2_C:FortFirePitCommonFire_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.58"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2810C73B-4518EA40-4A15068D-A939E4A4",
+      "InternalVariableName": "FortFirePitCommonFire"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_40'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.27"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_40'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.27"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPFortFirePitT2_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortFirePitT2.26"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FirePitMesh_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortFirePit'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortFirePit.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Floor_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT2Floor01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT2Floor01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "MultiplexedFloor"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "RearWall_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT2Wall01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT2Wall01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -250.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.9995,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideLeft",
+        "ModLeft",
+        "ModDefault",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Roof_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT2Roof01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT2Roof01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "bCastHiddenShadow": true,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "RoofVisibility",
+        "ExcludeFromBuildGhost"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "RoofDirt_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT2RoofDirt01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT2RoofDirt01.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null
+      ],
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "CastShadow": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'DirtPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/DirtPhys.0"
+        }
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "RoofVisibility",
+        "ExcludeFromBuildGhost",
+        "ExcludeFromBuildSite",
+        "MultiplexedRoof"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SideLeft_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT2Wall01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT2Wall01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -250.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.9995,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideLeft",
+        "ModLeft",
+        "ModDefault",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPFortFirePitT2_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommon_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommon_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommon.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonDefenseMods_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonDefenseMods_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonDefenseMods.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonDirtT2_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonDirtT2_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonDirtT2.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonT2BreachedWalls_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonT2BreachedWalls_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortCommonT2BreachedWalls.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonT2Corners_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonT2Corners_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonT2Corners.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonT2T3ModsMinimal_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonT2T3ModsMinimal_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonT2T3ModsMinimal.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonThreeWallsMods_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonThreeWallsMods_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonThreeWallsMods.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortFirePitCommonFire_GEN_VARIABLE",
+    "Outer": "BPFortFirePitT2_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortFirePitCommonFire_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortFirePitCommonFire.1"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -150.0
+      }
+    }
+  }
+]

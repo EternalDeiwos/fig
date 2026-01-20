@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPParatrooperBackpackItemComponent_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'ParatrooperBackpackItemComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPParatrooperBackpackItemComponent_C'Default__BPParatrooperBackpackItemComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/BPParatrooperBackpackItemComponent.1"
+    }
+  },
+  {
+    "Type": "BPParatrooperBackpackItemComponent_C",
+    "Name": "Default__BPParatrooperBackpackItemComponent_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/BPParatrooperBackpackItemComponent.BPParatrooperBackpackItemComponent_C'",
+    "Properties": {
+      "ParachuteMesh": {
+        "ObjectName": "SkeletalMesh'SK_ParatrooperParachute'",
+        "ObjectPath": "War/Content/Meshes/Pickups/SK_ParatrooperParachute.0"
+      },
+      "DeployMontage": {
+        "ObjectName": "AnimMontage'Backpack_Parachute_Deploy'",
+        "ObjectPath": "War/Content/Animation/Items/Backpack_Parachute_Deploy.0"
+      },
+      "DeployMontageSection": "Default",
+      "ParachuteAnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_ParatrooperParachute_C'",
+        "ObjectPath": "War/Content/Animation/Items/ABP_ParatrooperParachute.1"
+      },
+      "ParachuteOpenCue": {
+        "ObjectName": "SoundCue'ParachuteOpen_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/Paratrooper/ParachuteOpen_Cue.0"
+      }
+    }
+  }
+]

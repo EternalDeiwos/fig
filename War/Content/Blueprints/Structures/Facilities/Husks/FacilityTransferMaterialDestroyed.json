@@ -1,0 +1,468 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "FacilityTransferMaterialDestroyed",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -430.00003,
+                "Y": 310.0,
+                "Z": 25.004032
+              },
+              {
+                "X": -430.00003,
+                "Y": 310.00006,
+                "Z": -99.9999
+              },
+              {
+                "X": -430.00003,
+                "Y": -309.99997,
+                "Z": -100.00011
+              },
+              {
+                "X": -430.00003,
+                "Y": -310.00003,
+                "Z": 25.00383
+              },
+              {
+                "X": 460.00003,
+                "Y": 310.0,
+                "Z": 25.004032
+              },
+              {
+                "X": 460.00003,
+                "Y": 310.00006,
+                "Z": -99.9999
+              },
+              {
+                "X": 460.00003,
+                "Y": -310.00003,
+                "Z": 25.00383
+              },
+              {
+                "X": 460.00003,
+                "Y": -309.99997,
+                "Z": -100.00011
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -430.00003,
+                "Y": -310.00003,
+                "Z": -100.00011
+              },
+              "Max": {
+                "X": 460.00003,
+                "Y": 310.00006,
+                "Z": 25.004032
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "VertexData": [
+              {
+                "X": -780.397,
+                "Y": -324.43582,
+                "Z": 25.003826
+              },
+              {
+                "X": -780.397,
+                "Y": -324.4358,
+                "Z": -100.000114
+              },
+              {
+                "X": -428.45975,
+                "Y": -324.43582,
+                "Z": 25.003826
+              },
+              {
+                "X": -780.397,
+                "Y": 325.7482,
+                "Z": 25.004032
+              },
+              {
+                "X": -780.397,
+                "Y": 325.74823,
+                "Z": -99.9999
+              },
+              {
+                "X": -428.45975,
+                "Y": 325.7482,
+                "Z": 25.004032
+              },
+              {
+                "X": -428.45975,
+                "Y": 325.74823,
+                "Z": -99.9999
+              },
+              {
+                "X": -428.45975,
+                "Y": -324.4358,
+                "Z": -100.000114
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -780.397,
+                "Y": -324.43582,
+                "Z": -100.000114
+              },
+              "Max": {
+                "X": -428.45975,
+                "Y": 325.74823,
+                "Z": 25.004032
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "F0F4FA274D04D1C095F746BAE5EEA0AD",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 303755,
+        "SizeOnDisk": 303755,
+        "OffsetInFile": "0x1B4715"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Outer": "FacilityTransferMaterialDestroyed",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 893,
+        "SizeOnDisk": 893,
+        "OffsetInFile": "0x1FE9E8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "FacilityTransferMaterialDestroyed",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'TownWoodBeams05'",
+            "ObjectPath": "War/Content/Materials/Environment/Town/TownWoodBeams05.0"
+          },
+          "MaterialSlotName": "TownWoodBeams05",
+          "ImportedMaterialSlotName": "TownWoodBeams05",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 199.05942,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'RepeatingMetal3'",
+            "ObjectPath": "War/Content/Materials/Resources/RepeatingMetal3.0"
+          },
+          "MaterialSlotName": "RepeatingMetal3",
+          "ImportedMaterialSlotName": "RepeatingMetal3",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 6.358637,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'WoodBarnPlanksBurnt'",
+            "ObjectPath": "War/Content/Materials/Environment/Props/WoodBarnPlanksBurnt.0"
+          },
+          "MaterialSlotName": "WoodBarnPlanks",
+          "ImportedMaterialSlotName": "WoodBarnPlanks",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 398.59613,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'FacilityResourceTransferStationPad'",
+            "ObjectPath": "War/Content/Materials/Structures/FacilityResourceTransferStationPad.0"
+          },
+          "MaterialSlotName": "FacilityResourceTransferStationPad",
+          "ImportedMaterialSlotName": "FacilityResourceTransferStationPad",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 983.76996,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 349.7908,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -159.40369,
+          "Y": -3.0517578E-05,
+          "Z": 11.230028
+        },
+        "BoxExtent": {
+          "X": 620.4983,
+          "Y": 326.0813,
+          "Z": 21.053318
+        },
+        "SphereRadius": 701.1612
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'FacilityTransferMaterialDestroyed:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/FacilityTransferMaterialDestroyed.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'FacilityTransferMaterialDestroyed:NavCollision_2'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/FacilityTransferMaterialDestroyed.1"
+    },
+    "LightingGuid": "2A89C5DA-4AF7EF90-15A4ECB1-8168EFB7",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 0,
+              "NumTriangles": 3296,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 4905,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 9888,
+              "NumTriangles": 1216,
+              "MinVertexIndex": 4906,
+              "MaxVertexIndex": 7253,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 13536,
+              "NumTriangles": 3600,
+              "MinVertexIndex": 7254,
+              "MaxVertexIndex": 13373,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 24336,
+              "NumTriangles": 2334,
+              "MinVertexIndex": 13374,
+              "MaxVertexIndex": 15604,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 15605
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 15605,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 15605
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 0,
+              "NumTriangles": 2008,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 3837,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 6024,
+              "NumTriangles": 1205,
+              "MinVertexIndex": 3838,
+              "MaxVertexIndex": 6174,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 9639,
+              "NumTriangles": 1426,
+              "MinVertexIndex": 6175,
+              "MaxVertexIndex": 9280,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 13917,
+              "NumTriangles": 584,
+              "MinVertexIndex": 9281,
+              "MaxVertexIndex": 10063,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 4.545986,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 10064
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 10064,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 10064
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": -159.40369,
+          "Y": -3.0517578E-05,
+          "Z": 11.230028
+        },
+        "BoxExtent": {
+          "X": 620.4983,
+          "Y": 326.0813,
+          "Z": 21.053318
+        },
+        "SphereRadius": 701.1612
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

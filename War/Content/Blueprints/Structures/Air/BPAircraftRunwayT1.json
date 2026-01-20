@@ -1,0 +1,145 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftRunwayT1_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BPAircraftRunway_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPAircraftRunwayT1_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT1.7"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BPAircraftRunwayT1_C:InheritableComponentHandler'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT1.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BPAircraftRunway_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunway.1"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftRunwayT1_C'Default__BPAircraftRunwayT1_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT1.1"
+    }
+  },
+  {
+    "Type": "BPAircraftRunwayT1_C",
+    "Name": "Default__BPAircraftRunwayT1_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Air/BPAircraftRunwayT1.BPAircraftRunwayT1_C'",
+    "Properties": {
+      "Description": {
+        "Namespace": "",
+        "Key": "B4783F1A48A5C93216E2619727691479",
+        "SourceString": "A stable runway that allows smaller aircraft to take off.",
+        "LocalizedString": "A stable runway that allows smaller aircraft to take off."
+      },
+      "CodeName": "AircraftRunwayT1",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "81447D284F7F18E3EB4209A158196854",
+        "SourceString": "Aircraft Runway (Tier 1)",
+        "LocalizedString": "Aircraft Runway (Tier 1)"
+      },
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftRunwayT1_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT1.2"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPAircraftRunwayT1_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT1.3"
+      },
+      "TechComponentIDs": [
+        "ETechComponentID::Fortifications"
+      ],
+      "MaxHealth": 2000,
+      "Health": 2000,
+      "UpgradeStructureCodeName": "AircraftRunwayT2",
+      "MapIconType": "EMapIconType::AircraftRunwayT1",
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPAircraftRunwayT1_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT1.8"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftRunwayT1_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT1.2"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPAircraftRunwayT1_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPAircraftRunwayT1_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftRunwayT1_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT1.2"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BPAircraftRunwayT1_C",
+    "Class": "UScriptClass'InheritableComponentHandler'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPAircraftRunwayT1_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPAircraftRunwayT1_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT1.5"
+      },
+      "VariableGuid": "767D8FCC-4AF9728B-BC003BB5-8F05E37F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPAircraftRunwayT1_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPAircraftRunwayT1_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftRunwayT1.6"
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPAircraftRunwayT1_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

@@ -1,0 +1,626 @@
+[
+  {
+    "Type": "SkeletalMeshSocket",
+    "Name": "SkeletalMeshSocket_0",
+    "Outer": "SK_AircraftScoutW_Skeleton",
+    "Class": "UScriptClass'SkeletalMeshSocket'",
+    "Properties": {
+      "SocketName": "S_ScoutW_HMG",
+      "BoneName": "AircraftScoutW_offset",
+      "RelativeLocation": {
+        "X": -64.0,
+        "Y": 180.0,
+        "Z": 74.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": -9.640152E-12
+      }
+    }
+  },
+  {
+    "Type": "Skeleton",
+    "Name": "SK_AircraftScoutW_Skeleton",
+    "Class": "UScriptClass'Skeleton'",
+    "Properties": {
+      "BoneTree": [
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        },
+        {
+          "TranslationRetargetingMode": "EBoneTranslationRetargetingMode::Animation"
+        }
+      ],
+      "VirtualBoneGuid": "1CA77F92-4864C4DE-F6D3A38A-3FAFF1D3",
+      "Sockets": [
+        {
+          "ObjectName": "SkeletalMeshSocket'SK_AircraftScoutW_Skeleton:SkeletalMeshSocket_0'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutW/Meshes/SK_AircraftScoutW_Skeleton.0"
+        }
+      ]
+    },
+    "ReferenceSkeleton": {
+      "FinalRefBoneInfo": [
+        {
+          "Name": "AircraftScoutW_PIVOT",
+          "ParentIndex": -1
+        },
+        {
+          "Name": "AircraftScoutW_offset",
+          "ParentIndex": 0
+        },
+        {
+          "Name": "AircraftScoutW_Elevator",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftScoutW_Rudder",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftScoutW_Propeller",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftScoutW_Flap_L",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftScoutW_Flap_R",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftScoutW_Aileron_L",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftScoutW_Aileron_R",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftScoutW_Gunbarrel",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftScoutW_LandingGear01_L",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftScoutW_LandingGear03_L",
+          "ParentIndex": 10
+        },
+        {
+          "Name": "AircraftScoutW_Wheel_L",
+          "ParentIndex": 10
+        },
+        {
+          "Name": "AircraftScoutW_LandingGear02_L",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftScoutW_Wheel_B",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftScoutW_LandingGear01_R",
+          "ParentIndex": 1
+        },
+        {
+          "Name": "AircraftScoutW_LandingGear03_R",
+          "ParentIndex": 15
+        },
+        {
+          "Name": "AircraftScoutW_Wheel_R",
+          "ParentIndex": 15
+        },
+        {
+          "Name": "AircraftScoutW_LandingGear02_R",
+          "ParentIndex": 1
+        }
+      ],
+      "FinalRefBonePose": [
+        {
+          "Rotation": {
+            "X": -6.094266E-16,
+            "Y": 1.1920929E-07,
+            "Z": 5.112241E-09,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.0587912E-22,
+            "Y": 9.2644235E-23,
+            "Z": -3.200596E-08,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -4.577651E-06,
+            "Y": 108.24533,
+            "Z": 23.842115
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -3.1554436E-30,
+            "Y": -2.4719163E-38,
+            "Z": -7.833815E-09,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -6.9084745E-05,
+            "Y": -703.4827,
+            "Z": 70.71892
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -7.73631E-30,
+            "Y": 5.293956E-23,
+            "Z": -2.692548E-08,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -6.605824E-05,
+            "Y": -727.41425,
+            "Z": 50.573303
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1.556084E-30,
+            "Y": -1.323489E-23,
+            "Z": -1.6349055E-09,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -4.3907738E-05,
+            "Y": -200.94635,
+            "Z": 121.59372
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 7.264932E-23,
+            "Y": -1.323489E-23,
+            "Z": -4.6910087E-25,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 344.57214,
+            "Y": -61.19187,
+            "Z": 43.47689
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.99999994,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -8.692129E-28,
+            "Y": 2.3841858E-07,
+            "Z": -3.6391258E-21,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -344.57214,
+            "Y": -61.19182,
+            "Z": 43.476727
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1.5777218E-30,
+            "Y": -1.323489E-23,
+            "Z": -4.6910087E-25,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 357.73135,
+            "Y": -32.487957,
+            "Z": 148.49931
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -8.692129E-28,
+            "Y": 2.3841858E-07,
+            "Z": -3.6391258E-21,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -357.7314,
+            "Y": -32.487904,
+            "Z": 148.49915
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -8.692129E-28,
+            "Y": 2.3841858E-07,
+            "Z": -3.6391258E-21,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -64.034744,
+            "Y": 134.22435,
+            "Z": 73.5433
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 7.264932E-23,
+            "Y": -1.323489E-23,
+            "Z": -4.6910087E-25,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 155.21202,
+            "Y": 41.92899,
+            "Z": 39.73323
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.99999994,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1.1714398E-08,
+            "Y": -0.31357312,
+            "Z": 3.547361E-08,
+            "W": -0.94956404,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.21949826,
+            "Y": -30.818184,
+            "Z": -76.00313
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 3.2943364E-15,
+            "Y": 1.1920929E-07,
+            "Z": 2.7634897E-08,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 16.064177,
+            "Y": -30.87266,
+            "Z": -133.34561
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -1.9253022E-08,
+            "Y": -0.31163317,
+            "Z": 5.87045E-08,
+            "W": -0.95020247,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": 65.71733,
+            "Y": 11.195239,
+            "Z": 29.838072
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -5.238039E-30,
+            "Y": 2.646978E-23,
+            "Z": -1.9073578E-08,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 5.9120474,
+            "Y": -659.1692,
+            "Z": -19.145628
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 7.2648454E-23,
+            "Y": 2.3841856E-07,
+            "Z": -3.6391254E-21,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -155.21202,
+            "Y": 41.929012,
+            "Z": 39.73316
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 0.99999994,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.1714398E-08,
+            "Y": 0.31357312,
+            "Z": 3.547361E-08,
+            "W": -0.94956404,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -0.21950284,
+            "Y": -30.8182,
+            "Z": -76.00313
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": -3.2943352E-15,
+            "Y": -1.19209275E-07,
+            "Z": 2.7634897E-08,
+            "W": -1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -16.064182,
+            "Y": -30.872671,
+            "Z": -133.34561
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        },
+        {
+          "Rotation": {
+            "X": 1.925304E-08,
+            "Y": 0.31163344,
+            "Z": 5.8704497E-08,
+            "W": -0.9502024,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -65.71735,
+            "Y": 11.195241,
+            "Z": 29.838041
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      ],
+      "FinalNameToIndexMap": {
+        "AircraftScoutW_PIVOT": 0,
+        "AircraftScoutW_offset": 1,
+        "AircraftScoutW_Elevator": 2,
+        "AircraftScoutW_Rudder": 3,
+        "AircraftScoutW_Propeller": 4,
+        "AircraftScoutW_Flap_L": 5,
+        "AircraftScoutW_Flap_R": 6,
+        "AircraftScoutW_Aileron_L": 7,
+        "AircraftScoutW_Aileron_R": 8,
+        "AircraftScoutW_Gunbarrel": 9,
+        "AircraftScoutW_LandingGear01_L": 10,
+        "AircraftScoutW_LandingGear03_L": 11,
+        "AircraftScoutW_Wheel_L": 12,
+        "AircraftScoutW_LandingGear02_L": 13,
+        "AircraftScoutW_Wheel_B": 14,
+        "AircraftScoutW_LandingGear01_R": 15,
+        "AircraftScoutW_LandingGear03_R": 16,
+        "AircraftScoutW_Wheel_R": 17,
+        "AircraftScoutW_LandingGear02_R": 18
+      }
+    },
+    "Guid": "2CDBF231-4A29A70E-2D4E79BF-175510FF",
+    "AnimRetargetSources": {},
+    "NameMappings": {
+      "AnimationCurves": {
+        "GuidMap": null,
+        "UidMap": null,
+        "CurveMetaDataMap": {}
+      }
+    },
+    "ExistingMarkerNames": null
+  }
+]

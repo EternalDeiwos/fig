@@ -1,0 +1,1667 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "PointLight4",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'PointLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Deprecated",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftFactory_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPAircraftFactory_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.54"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'VehicleFactory'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BPAircraftFactory_C:Deprecated'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.1"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:PointLight4'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:TemperatureModifierBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.30"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:BPStructureInteriorArea'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:PointLight2'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:FoundationDecal5'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.19"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:FoundationDecal4'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.18"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:FoundationDecal6'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:FoundationDecal7'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:MultiplexedBase'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:MultiplexedRoof'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:FoundationDecal3'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:FVFLight5'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.22"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:PointLight3'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:FVFLight6'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:SmallHangarFoundation'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:Upper'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPAircraftFactory_C:Lower'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.24"
+      }
+    ],
+    "FuncMap": {
+      "Deprecated": {
+        "ObjectName": "Function'BPAircraftFactory_C:Deprecated'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.1"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftFactory_C'Default__BPAircraftFactory_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.3"
+    }
+  },
+  {
+    "Type": "BPAircraftFactory_C",
+    "Name": "Default__BPAircraftFactory_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Air/BPAircraftFactory.BPAircraftFactory_C'",
+    "Properties": {
+      "BuildLocationFilter": "EBuildLocationType::AircraftFactory",
+      "GarageFootprintComponent": {
+        "ObjectName": "BoxComponent'Default__BPAircraftFactory_C:GarageFootprint'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.5"
+      },
+      "CraneSpawnLocationComponent": {
+        "ObjectName": "CraneSpawnLocationComponent'Default__BPAircraftFactory_C:CraneSpawnLocationComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.8"
+      },
+      "ProceduralUseVolumeFactor": 0.0,
+      "BuildGhostClass": null,
+      "BuildSiteClass": {
+        "ObjectName": "Class'VehicleFactoryBuildSite'",
+        "ObjectPath": "/Script/War"
+      },
+      "BaseStructureClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPAircraftFactoryDestroyed_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactoryDestroyed.1"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "47F9C2AD4BC64A204BF601ABC3ECCA13",
+        "SourceString": "A small-scale aircraft production center.",
+        "LocalizedString": "A small-scale aircraft production center."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'AircraftFactoryIcon'",
+        "ObjectPath": "War/Content/Textures/UI/StructureIcons/AircraftFactoryIcon.0"
+      },
+      "DestroyedDamageExtent": {
+        "X": 800.0,
+        "Y": 650.0,
+        "Z": 125.0
+      },
+      "DestroyedDamageOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 160.0
+      },
+      "ValidBuildTools": 56,
+      "CodeName": "AircraftFactory",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D36EBC094749B2CC817F0CBA00232288",
+        "SourceString": "Aircraft Hangar",
+        "LocalizedString": "Aircraft Hangar"
+      },
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftFactory_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.4"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPAircraftFactory_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.6"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'BridgeExplosion1'",
+        "ObjectPath": "War/Content/FX/BridgeExplosion1.52"
+      },
+      "TechComponentIDs": [
+        "ETechComponentID::Fortifications"
+      ],
+      "MaxHealth": 2000,
+      "Health": 2000,
+      "MapIconType": "EMapIconType::AircraftFactory",
+      "bLogWhenDestroyed": true,
+      "DropLocationOffset": {
+        "X": 0.0,
+        "Y": 1160.0,
+        "Z": 30.0
+      },
+      "bRotateDropLocation": true,
+      "ScreenToUse": "ESimScreen::BuildFromStructure",
+      "StructureNetRelevancySize": "EStructureNetRelevancySize::Large",
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPAircraftFactory_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.60"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftFactory_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.4"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPAircraftFactory_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "GarageFootprint",
+    "Outer": "Default__BPAircraftFactory_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 512.0,
+        "Y": 280.0,
+        "Z": 220.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftFactory_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.4"
+      },
+      "RelativeLocation": {
+        "X": 55.4,
+        "Y": 0.000107206004,
+        "Z": 248.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPAircraftFactory_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 825.0,
+        "Y": 850.0,
+        "Z": 205.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftFactory_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.4"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 235.5462
+      }
+    }
+  },
+  {
+    "Type": "BPStructureInteriorArea_C",
+    "Name": "BPStructureInteriorArea_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/BPStructureInteriorArea.BPStructureInteriorArea_C'",
+    "Properties": {
+      "bBlockVehicles": false,
+      "BoxExtent": {
+        "X": 775.0,
+        "Y": 625.0,
+        "Z": 100.0
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": []
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": []
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 130.0
+      }
+    }
+  },
+  {
+    "Type": "CraneSpawnLocationComponent",
+    "Name": "CraneSpawnLocationComponent",
+    "Outer": "Default__BPAircraftFactory_C",
+    "Class": "UScriptClass'CraneSpawnLocationComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPAircraftFactory_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.4"
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "FoundationDecal3_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'FacilitiesDecalFacilityVehicleFactory2D1'",
+        "ObjectPath": "War/Content/Materials/Decals/FacilitiesDecalFacilityVehicleFactory2D1.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 700.0,
+        "Z": 700.0
+      },
+      "RelativeLocation": {
+        "X": -499.99994,
+        "Y": -5.5573177,
+        "Z": 9.705692E-08
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 180.0789,
+        "Roll": 360.0796
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "FoundationDecal4_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'FacilitiesDecalFacilityVehicleFactory2D4'",
+        "ObjectPath": "War/Content/Materials/Decals/FacilitiesDecalFacilityVehicleFactory2D4.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 506.1202,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": 0.012407219,
+        "Y": 1202.4971,
+        "Z": 0.001037589
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 20.55604,
+        "Roll": 110.55618
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "FoundationDecal5_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'FacilitiesDecalFacilityVehicleFactory2D1'",
+        "ObjectPath": "War/Content/Materials/Decals/FacilitiesDecalFacilityVehicleFactory2D1.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 700.0,
+        "Z": 700.0
+      },
+      "RelativeLocation": {
+        "X": 500.00018,
+        "Y": 22.601597,
+        "Z": 9.706491E-08
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0017485283,
+        "Roll": 0.00282567
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "FoundationDecal6_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'TankSSOilSpill'",
+        "ObjectPath": "War/Content/FX/Materials/TankSSOilSpill.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 1000.0,
+        "Z": 500.0
+      },
+      "RelativeLocation": {
+        "X": 0.0030517578,
+        "Y": -143.29207,
+        "Z": -80.88443
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -54.73578,
+        "Roll": 54.73651
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.3033389
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "FoundationDecal7_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'FacilitiesDecalFacilityVehicleFactory2D4'",
+        "ObjectPath": "War/Content/Materials/Decals/FacilitiesDecalFacilityVehicleFactory2D4.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 506.1202,
+        "Z": 512.0
+      },
+      "RelativeLocation": {
+        "X": 0.012225131,
+        "Y": -1184.9017,
+        "Z": 0.0011287678
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": -90.000854
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "MultiplexedStaticMeshComponent",
+    "Name": "MultiplexedBase_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'MultiplexedStaticMeshComponent'",
+    "Properties": {
+      "TargetTag": "MultiplexedBase",
+      "MeshStops": [
+        {
+          "Threshold": 0,
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'SmallHangarLowerCritical'",
+            "ObjectPath": "War/Content/Meshes/Structures/Airfield/SmallHangarLowerCritical.2"
+          }
+        },
+        {
+          "Threshold": 33,
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'SmallHangarLowerDamaged'",
+            "ObjectPath": "War/Content/Meshes/Structures/Airfield/SmallHangarLowerDamaged.2"
+          }
+        },
+        {
+          "Threshold": 66,
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'SmallHangarLower'",
+            "ObjectPath": "War/Content/Meshes/Structures/Airfield/SmallHangarLower.2"
+          }
+        }
+      ],
+      "InputValue": 100,
+      "SelectedMeshIndex": 2
+    }
+  },
+  {
+    "Type": "MultiplexedStaticMeshComponent",
+    "Name": "MultiplexedRoof_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'MultiplexedStaticMeshComponent'",
+    "Properties": {
+      "TargetTag": "MultiplexedRoof",
+      "MeshStops": [
+        {
+          "Threshold": 0,
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'SmallHangarUpperCritical'",
+            "ObjectPath": "War/Content/Meshes/Structures/Airfield/SmallHangarUpperCritical.2"
+          }
+        },
+        {
+          "Threshold": 33,
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'SmallHangarUpperDamaged'",
+            "ObjectPath": "War/Content/Meshes/Structures/Airfield/SmallHangarUpperDamaged.2"
+          }
+        },
+        {
+          "Threshold": 66,
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'SmallHangarUpper'",
+            "ObjectPath": "War/Content/Meshes/Structures/Airfield/SmallHangarUpper.2"
+          }
+        }
+      ],
+      "InputValue": 100,
+      "SelectedMeshIndex": 2
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPStructureInteriorArea",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPStructureInteriorArea_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/BPStructureInteriorArea.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FoundationDecal3",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FoundationDecal4",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FoundationDecal5",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FoundationDecal6",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FoundationDecal7",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FVFLight5",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FVFLight6",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Lower",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MultiplexedBase",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'MultiplexedStaticMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MultiplexedRoof",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'MultiplexedStaticMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PointLight2",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'PointLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PointLight3",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'PointLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SmallHangarFoundation",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TemperatureModifierBox",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemperatureModifierBoxComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Upper",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight2_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.75,
+      "SourceRadius": 8.100976,
+      "AttenuationRadius": 500.0,
+      "ShadowSharpen": 0.155963,
+      "bUseRayTracedDistanceFieldShadows": true,
+      "Intensity": 7.0,
+      "LightColor": {
+        "B": 140,
+        "G": 211,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFD38C"
+      },
+      "CastShadows": false,
+      "CastStaticShadows": false,
+      "bAffectTranslucentLighting": false,
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 2.0844078E-10,
+        "Roll": 9.1951946E-11
+      },
+      "RelativeScale3D": {
+        "X": 0.99999994,
+        "Y": 0.99999994,
+        "Z": 1.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "HasEmissiveLight"
+      ]
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight3_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.75,
+      "SourceRadius": 8.100976,
+      "AttenuationRadius": 500.0,
+      "ShadowSharpen": 0.155963,
+      "bUseRayTracedDistanceFieldShadows": true,
+      "Intensity": 7.0,
+      "LightColor": {
+        "B": 140,
+        "G": 211,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFD38C"
+      },
+      "CastShadows": false,
+      "CastStaticShadows": false,
+      "bAffectTranslucentLighting": false,
+      "RelativeLocation": {
+        "X": 0.0014634564,
+        "Y": -0.00068457215,
+        "Z": -284.83328
+      },
+      "RelativeRotation": {
+        "Pitch": 7E-06,
+        "Yaw": 179.99998,
+        "Roll": -0.000195
+      },
+      "RelativeScale3D": {
+        "X": 0.741125,
+        "Y": 0.741125,
+        "Z": 0.594088
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "HasEmissiveLight"
+      ]
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight4_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.75,
+      "SourceRadius": 8.100976,
+      "AttenuationRadius": 500.0,
+      "ShadowSharpen": 0.155963,
+      "bUseRayTracedDistanceFieldShadows": true,
+      "Intensity": 7.0,
+      "LightColor": {
+        "B": 140,
+        "G": 211,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFD38C"
+      },
+      "CastShadows": false,
+      "CastStaticShadows": false,
+      "bAffectTranslucentLighting": false,
+      "RelativeLocation": {
+        "X": 0.001463,
+        "Y": -0.000685,
+        "Z": -284.83328
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": 179.99998,
+        "Roll": -0.00018310532
+      },
+      "RelativeScale3D": {
+        "X": 0.741125,
+        "Y": 0.741125,
+        "Z": 0.594088
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "HasEmissiveLight"
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPAircraftFactory_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.35"
+      },
+      "VariableGuid": "A76FB2FF-4F7FC01B-7DBE84A1-F185B859",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAircraftFactory_C:Lower_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.57"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FDDA3C79-44F4B083-980DCEA6-2A5FAED6",
+      "InternalVariableName": "Lower"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAircraftFactory_C:SmallHangarFoundation_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.58"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EE081F76-46801891-DA209BAE-130B599F",
+      "InternalVariableName": "SmallHangarFoundation"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAircraftFactory_C:FVFLight6_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.56"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.40"
+        }
+      ],
+      "VariableGuid": "C59B9F94-4ED2E62D-8E90AF8C-B33C2568",
+      "InternalVariableName": "FVFLight6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BPAircraftFactory_C:PointLight3_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.33"
+      },
+      "VariableGuid": "A55133F5-4FC5C8EF-C6EC38B8-66DB91F3",
+      "InternalVariableName": "PointLight3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAircraftFactory_C:FVFLight5_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.55"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.53"
+        }
+      ],
+      "VariableGuid": "35EA749F-41F1BB91-6558F79B-6F9CA2EA",
+      "InternalVariableName": "FVFLight5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPAircraftFactory_C:Upper_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.59"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "58DC95C9-493CBA45-380E30A6-A1F86FA9",
+      "InternalVariableName": "Upper"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BPAircraftFactory_C:PointLight2_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.32"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C1D284D1-422E47BE-00F3DBA0-76C14F73",
+      "InternalVariableName": "PointLight2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_25",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftFactory_C:FoundationDecal3_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.9"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C750B2E4-4A0F792D-591804A7-CB010F1D",
+      "InternalVariableName": "FoundationDecal3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_26",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftFactory_C:FoundationDecal4_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.10"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "871D25DB-4DDC583A-7908D5BE-19CFCB54",
+      "InternalVariableName": "FoundationDecal4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_27",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftFactory_C:FoundationDecal5_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.11"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "62A89E6F-495B12FA-2CB718A1-E31C0858",
+      "InternalVariableName": "FoundationDecal5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_29",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftFactory_C:FoundationDecal7_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.13"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "60FA0FF4-43F5019B-DACD329C-C190D908",
+      "InternalVariableName": "FoundationDecal7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPStructureInteriorArea_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStructureInteriorArea.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPStructureInteriorArea_C'BPAircraftFactory_C:BPStructureInteriorArea_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.7"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E15EE751-49179A7B-AC535BA8-E7B22410",
+      "InternalVariableName": "BPStructureInteriorArea"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_30",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPAircraftFactory_C:FoundationDecal6_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.12"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "44AC94A4-45F67065-37E801B0-ADF49219",
+      "InternalVariableName": "FoundationDecal6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_31",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MultiplexedStaticMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MultiplexedStaticMeshComponent'BPAircraftFactory_C:MultiplexedRoof_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.15"
+      },
+      "VariableGuid": "9F4BDE09-402D7EC2-0327B2BF-E1522A45",
+      "InternalVariableName": "MultiplexedRoof"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_32",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MultiplexedStaticMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MultiplexedStaticMeshComponent'BPAircraftFactory_C:MultiplexedBase_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.14"
+      },
+      "VariableGuid": "6F23F6CE-4AF62967-ADE9FA80-062A2589",
+      "InternalVariableName": "MultiplexedBase"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemperatureModifierBoxComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemperatureModifierBoxComponent'BPAircraftFactory_C:TemperatureModifierBox_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.61"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F34EB8C2-435F24BA-C2D69296-11E733EB",
+      "InternalVariableName": "TemperatureModifierBox"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BPAircraftFactory_C:PointLight4_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.34"
+      },
+      "VariableGuid": "500842FD-4306B5A4-CAE7C9BA-A9B96247",
+      "InternalVariableName": "PointLight4"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_31'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_32'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_29'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_30'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.52"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_31'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_32'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_29'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_30'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.53"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPAircraftFactory_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.36"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FVFLight5_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MetalLightBarnHanging'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/MetalLightBarnHanging.2"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'LanternOn-Off'",
+          "ObjectPath": "War/Content/Materials/Environment/LanternOn-Off.0"
+        }
+      ],
+      "bGenerateOverlapEvents": false,
+      "bCastHiddenShadow": true,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -375.7,
+        "Y": -26.5,
+        "Z": 593.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.9995,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "HasEmissiveLight"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FVFLight6_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MetalLightBarnHanging'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/MetalLightBarnHanging.2"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'LanternOn-Off'",
+          "ObjectPath": "War/Content/Materials/Environment/LanternOn-Off.0"
+        }
+      ],
+      "bGenerateOverlapEvents": false,
+      "bCastHiddenShadow": true,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 375.7,
+        "Y": -26.5,
+        "Z": 593.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.9995,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "HasEmissiveLight"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Lower_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SmallHangarLower'",
+        "ObjectPath": "War/Content/Meshes/Structures/Airfield/SmallHangarLower.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "MultiplexedBase"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SmallHangarFoundation_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SmallHangarFoundation'",
+        "ObjectPath": "War/Content/Meshes/Structures/Airfield/SmallHangarFoundation.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Upper_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SmallHangarUpper'",
+        "ObjectPath": "War/Content/Meshes/Structures/Airfield/SmallHangarUpper.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "bCastHiddenShadow": true,
+      "BodyInstance": {
+        "CollisionProfileName": "GarrisonRoof",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "VToggle",
+        "DontHideWeatherFX",
+        "MultiplexedRoof"
+      ]
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPAircraftFactory_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "TemperatureModifierBoxComponent",
+    "Name": "TemperatureModifierBox_GEN_VARIABLE",
+    "Outer": "BPAircraftFactory_C",
+    "Class": "UScriptClass'TemperatureModifierBoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 800.0,
+        "Y": 650.0,
+        "Z": 125.0
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "TemperatureModifierBoxComponent'BPAircraftFactory_C:TemperatureModifierBox_GEN_VARIABLE'",
+              "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.61"
+            },
+            "FunctionName": "OnBeginOverlap"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "TemperatureModifierBoxComponent'BPAircraftFactory_C:TemperatureModifierBox_GEN_VARIABLE'",
+              "ObjectPath": "War/Content/Blueprints/Structures/Air/BPAircraftFactory.61"
+            },
+            "FunctionName": "OnEndOverlap"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 160.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  }
+]

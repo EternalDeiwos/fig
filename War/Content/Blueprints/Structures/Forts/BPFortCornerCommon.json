@@ -1,0 +1,817 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPFoliageCullStaticMeshComponent",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPFoliageCullStaticMeshComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Culling/BPFoliageCullStaticMeshComponent.0"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPFortCornerCommon_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.32"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Template'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerCommon_C:BPFoliageCullStaticMeshComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerCommon_C:BPLandscapeCullStaticMeshComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerCommon_C:WaterStencil'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerCommon_C:DecalFront'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.15"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerCommon_C:DecalBack'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerCommon_C:DecalLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerCommon_C:FoundationSocket'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.18"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerCommon_C:LandscapeHole'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.19"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerCommon_C:BoatHull'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerCommon_C:DefaultSceneRoot'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.17"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPFortCornerCommon_C'Default__BPFortCornerCommon_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.2"
+    }
+  },
+  {
+    "Type": "BPFortCornerCommon_C",
+    "Name": "Default__BPFortCornerCommon_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.BPFortCornerCommon_C'"
+  },
+  {
+    "Type": "BoatHullComponent",
+    "Name": "BoatHull_GEN_VARIABLE",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'BoatHullComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 300.0,
+        "Y": 300.0,
+        "Z": 200.0
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "OverlapOnlyPawnVehicle",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -155.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "LandscapeHole_GEN_VARIABLE",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 300.0,
+        "Y": 300.0,
+        "Z": 100.0
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "CollisionProfileName": "LandscapeHole",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Landscape",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "LandscapeOverlap",
+        "IncludeInBuildSite",
+        "PreserveProfileInBuildSite",
+        "LandscapeHoleFortCorner"
+      ],
+      "bCanEverAffectNavigation": false
+    }
+  },
+  {
+    "Type": "BPFoliageCullStaticMeshComponent_C",
+    "Name": "BPFoliageCullStaticMeshComponent_GEN_VARIABLE",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Culling/BPFoliageCullStaticMeshComponent.BPFoliageCullStaticMeshComponent_C'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortCornerCullPlane'",
+        "ObjectPath": "War/Content/Blueprints/Culling/FortCornerCullPlane.2"
+      },
+      "RelativeScale3D": {
+        "X": 7.0,
+        "Y": 7.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "BPLandscapeCullStaticMeshComponent_C",
+    "Name": "BPLandscapeCullStaticMeshComponent_GEN_VARIABLE",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Culling/BPLandscapeCullStaticMeshComponent.BPLandscapeCullStaticMeshComponent_C'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortCornerCullPlane'",
+        "ObjectPath": "War/Content/Blueprints/Culling/FortCornerCullPlane.2"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 50.0
+      },
+      "RelativeScale3D": {
+        "X": 5.9,
+        "Y": 5.9,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "BPWaterStencilComponent_C",
+    "Name": "WaterStencil_GEN_VARIABLE",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/BPWaterStencilComponent.BPWaterStencilComponent_C'",
+    "Properties": {
+      "bGenerateOverlapEvents": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -210.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -0.1449585,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 5.0,
+        "Y": 5.0,
+        "Z": 5.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "IncludeInBuildSite",
+        "PreserveProfileInBuildSite"
+      ]
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "FoundationSocket_GEN_VARIABLE",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "SocketTags": [
+        {
+          "SocketTypeMask": 8,
+          "SocketTypeCategory": 4,
+          "Tag": "None",
+          "ShowsTag": "None",
+          "ShowsTagBoth": "None",
+          "ShowsTagHigher": "None",
+          "HidesTagBoth": "None",
+          "HidesTagHigher": "None",
+          "MaxZOffset": 0.0,
+          "ApplicationRule": "EBuildSocketTagRule::AffectsBoth",
+          "ConnectorAttachmentTag": "None"
+        }
+      ],
+      "bDoLandscapeChecks": false,
+      "bContributeToIslandIntegrityBonus": false,
+      "RelativeLocation": {
+        "X": -8E-05,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -3.6222527E-06,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "DecalBack_GEN_VARIABLE",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'FortDirtDecal04'",
+        "ObjectPath": "War/Content/Materials/Decals/FortDirtDecal04.0"
+      },
+      "RelativeLocation": {
+        "X": -340.74225,
+        "Y": -0.0007261354,
+        "Z": -35.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -26.565033,
+        "Roll": 116.56497
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.7,
+        "Z": 1.65
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideBack",
+        "ShowWeatherFX",
+        "DontHideWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "DecalFront_GEN_VARIABLE",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'FortDirtDecal01'",
+        "ObjectPath": "War/Content/Materials/Decals/FortDirtDecal01.0"
+      },
+      "RelativeLocation": {
+        "X": 143.70465,
+        "Y": 154.9467,
+        "Z": -34.999744
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 1106.5651,
+        "Roll": -72.963104
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.8,
+        "Z": 1.75
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideFront",
+        "ShowWeatherFX",
+        "DontHideWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "DecalLeft_GEN_VARIABLE",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'FortDirtDecal03'",
+        "ObjectPath": "War/Content/Materials/Decals/FortDirtDecal03.0"
+      },
+      "RelativeLocation": {
+        "X": 0.0009705308,
+        "Y": -340.74225,
+        "Z": -34.99994
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -0.00043713208,
+        "Roll": -179.99905
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.7,
+        "Z": 1.65
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideLeft",
+        "ShowWeatherFX",
+        "DontHideWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BoatHull",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BoatHullComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPLandscapeCullStaticMeshComponent",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPLandscapeCullStaticMeshComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Culling/BPLandscapeCullStaticMeshComponent.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DecalBack",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DecalFront",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DecalLeft",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FoundationSocket",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BuildSocketComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LandscapeHole",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BoxComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaterStencil",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPWaterStencilComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/BPWaterStencilComponent.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPFortCornerCommon_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.21"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.27"
+        }
+      ],
+      "VariableGuid": "3456C512-46BD5A51-B2C965AB-743BC8CC",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPLandscapeCullStaticMeshComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Culling/BPLandscapeCullStaticMeshComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPLandscapeCullStaticMeshComponent_C'BPFortCornerCommon_C:BPLandscapeCullStaticMeshComponent_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.6"
+      },
+      "VariableGuid": "932726BD-496740E9-4CDA2EAA-621BBDD3",
+      "InternalVariableName": "BPLandscapeCullStaticMeshComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPFortCornerCommon_C:DecalFront_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.10"
+      },
+      "VariableGuid": "2D43D2AA-4D0CFCAA-F9FFC887-AA804515",
+      "InternalVariableName": "DecalFront"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPWaterStencilComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/BPWaterStencilComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPWaterStencilComponent_C'BPFortCornerCommon_C:WaterStencil_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.7"
+      },
+      "VariableGuid": "FCCDEDB0-4E7D3BD0-F63A21A5-0862A557",
+      "InternalVariableName": "WaterStencil"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BuildSocketComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BuildSocketComponent'BPFortCornerCommon_C:FoundationSocket_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.8"
+      },
+      "VariableGuid": "B9E3D210-48DDB019-1FA3B68C-A8072FE2",
+      "InternalVariableName": "FoundationSocket"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPFoliageCullStaticMeshComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Culling/BPFoliageCullStaticMeshComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPFoliageCullStaticMeshComponent_C'BPFortCornerCommon_C:BPFoliageCullStaticMeshComponent_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.5"
+      },
+      "VariableGuid": "AE6E1138-4F84FD35-BF52AAB5-1B02FE66",
+      "InternalVariableName": "BPFoliageCullStaticMeshComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BPFortCornerCommon_C:LandscapeHole_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.4"
+      },
+      "VariableGuid": "9392CB4B-40813BB1-27866CBA-BB63A50C",
+      "InternalVariableName": "LandscapeHole"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoatHullComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoatHullComponent'BPFortCornerCommon_C:BoatHull_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.3"
+      },
+      "VariableGuid": "7CDEEE2E-46BCB9B2-C6BAAD8B-FBB78E5B",
+      "InternalVariableName": "BoatHull"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPFortCornerCommon_C:DecalLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.11"
+      },
+      "VariableGuid": "F76917CB-4AD46FC0-318DFD9D-C02084AF",
+      "InternalVariableName": "DecalLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPFortCornerCommon_C:DecalBack_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.9"
+      },
+      "VariableGuid": "CDB6C7ED-4F4B799D-190A00AB-17A0DB6D",
+      "InternalVariableName": "DecalBack"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPFortCornerCommon_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.22"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.27"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPFortCornerCommon_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommon.22"
+      }
+    }
+  }
+]

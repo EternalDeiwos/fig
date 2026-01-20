@@ -1,0 +1,617 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh1",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.25"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'DestroyedFacilityRefinery'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftDestroyed_C:StaticMesh1'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftDestroyed_C:StaticMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.15"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftDestroyed_C:Decal6'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftDestroyed_C:Decal5'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftDestroyed_C:Decal4'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.11"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactoryAircraftDestroyed_C:MainMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.14"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPFacilityFactoryAircraftDestroyed_C'Default__BPFacilityFactoryAircraftDestroyed_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.2"
+    }
+  },
+  {
+    "Type": "BPFacilityFactoryAircraftDestroyed_C",
+    "Name": "Default__BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.BPFacilityFactoryAircraftDestroyed_C'",
+    "Properties": {
+      "GenericStockpileComponent": {
+        "ObjectName": "GenericStockpileComponent'Default__BPFacilityFactoryAircraftDestroyed_C:GenericStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.10"
+      },
+      "CrateGenericStockpileComponent": {
+        "ObjectName": "GenericStockpileComponent'Default__BPFacilityFactoryAircraftDestroyed_C:CrateGenericStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.9"
+      },
+      "CraneSpawnLocationComponent": {
+        "ObjectName": "CraneSpawnLocationComponent'Default__BPFacilityFactoryAircraftDestroyed_C:CraneSpawnLocationComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.5"
+      },
+      "RuinedComponent": {
+        "ObjectName": "RuinedComponent'Default__BPFacilityFactoryAircraftDestroyed_C:RuinedComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.16"
+      },
+      "CodeName": "FacilityFactoryAircraftDestroyed",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3278851640AA08D32F58AF983981DDE6",
+        "SourceString": "Destroyed Ammunition Factory",
+        "LocalizedString": "Destroyed Ammunition Factory"
+      },
+      "ArmourType": "EArmourType::Tier2Structure",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityFactoryAircraftDestroyed_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPFacilityFactoryAircraftDestroyed_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.4"
+      },
+      "MaxHealth": 6000,
+      "Health": 6000,
+      "UpgradeStructureCodeName": "FacilityFactoryAircraft",
+      "StructureNetRelevancySize": "EStructureNetRelevancySize::Large",
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPFacilityFactoryAircraftDestroyed_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.29"
+      },
+      "NetCullDistanceSquared": 49000000.0,
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityFactoryAircraftDestroyed_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 525.0,
+        "Y": 1072.5,
+        "Z": 768.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityFactoryAircraftDestroyed_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -39.944687,
+        "Z": 266.89664
+      }
+    }
+  },
+  {
+    "Type": "CraneSpawnLocationComponent",
+    "Name": "CraneSpawnLocationComponent",
+    "Outer": "Default__BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'CraneSpawnLocationComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityFactoryAircraftDestroyed_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.3"
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal4_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'TownRubble01'",
+        "ObjectPath": "War/Content/Materials/Decals/TownRubble01.0"
+      },
+      "RelativeLocation": {
+        "X": 207.25537,
+        "Y": -51.491226,
+        "Z": -45.999294
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 450.0,
+        "Roll": 175.00034
+      },
+      "RelativeScale3D": {
+        "X": 0.569795,
+        "Y": 2.077622,
+        "Z": 2.077622
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal5_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'TownRubble01'",
+        "ObjectPath": "War/Content/Materials/Decals/TownRubble01.0"
+      },
+      "RelativeLocation": {
+        "X": -204.58858,
+        "Y": 5.563628,
+        "Z": -45.99926
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 450.0,
+        "Roll": 185.0003
+      },
+      "RelativeScale3D": {
+        "X": 0.569795,
+        "Y": 2.1283042,
+        "Z": 2.1283042
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal6_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MudPuddlePatch'",
+        "ObjectPath": "War/Content/Materials/Decals/MudPuddlePatch.0"
+      },
+      "RelativeLocation": {
+        "X": 6.748106,
+        "Y": 808.2606,
+        "Z": -39.999744
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 450.0,
+        "Roll": 175.00034
+      },
+      "RelativeScale3D": {
+        "X": 0.569795,
+        "Y": 1.1370711,
+        "Z": 1.1370711
+      }
+    }
+  },
+  {
+    "Type": "GenericStockpileComponent",
+    "Name": "CrateGenericStockpileComponent",
+    "Outer": "Default__BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'GenericStockpileComponent'"
+  },
+  {
+    "Type": "GenericStockpileComponent",
+    "Name": "GenericStockpileComponent",
+    "Outer": "Default__BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'GenericStockpileComponent'"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal4",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal5",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal6",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MainMesh",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "RuinedComponent",
+    "Name": "RuinedComponent",
+    "Outer": "Default__BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'RuinedComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityFactoryAircraftDestroyed_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.3"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPFacilityFactoryAircraftDestroyed_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.17"
+      },
+      "VariableGuid": "C8E47901-43ADFFB6-CB7AB9B9-FC00F898",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPFacilityFactoryAircraftDestroyed_C:Decal4_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.6"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8DC9D973-4697337C-45C0898E-00DAB291",
+      "InternalVariableName": "Decal4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPFacilityFactoryAircraftDestroyed_C:Decal5_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.7"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0804CF0E-4CFDE456-4631B393-E235145C",
+      "InternalVariableName": "Decal5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftDestroyed_C:MainMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.26"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BA65095B-4E7F1446-CD72EBA7-70E97C95",
+      "InternalVariableName": "MainMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPFacilityFactoryAircraftDestroyed_C:Decal6_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.8"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F8599974-4D96BC8C-54363F8B-97FD865B",
+      "InternalVariableName": "Decal6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftDestroyed_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.28"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "83F010DD-4E197B68-7AF4D4A9-4F3AB665",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactoryAircraftDestroyed_C:StaticMesh1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.27"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B7CB78D9-42528540-6241A39D-3D72C270",
+      "InternalVariableName": "StaticMesh1"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.24"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.24"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPFacilityFactoryAircraftDestroyed_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactoryAircraftDestroyed.18"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MainMesh_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FacilityFactoryAircraftDestroyed'",
+        "ObjectPath": "War/Content/Meshes/Structures/FacilityFactoryAircraftDestroyed.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh1_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TownRubbleFlat03'",
+        "ObjectPath": "War/Content/Meshes/Environment/Towns/Rubble/TownRubbleFlat03.2"
+      },
+      "RelativeLocation": {
+        "X": 26.969732,
+        "Y": 358.43048,
+        "Z": 2.6505868
+      },
+      "RelativeRotation": {
+        "Pitch": 3.1465595,
+        "Yaw": 69.65154,
+        "Roll": -2.7213445
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TownRubbleCornerIn03'",
+        "ObjectPath": "War/Content/Meshes/Environment/Towns/Rubble/TownRubbleCornerIn03.2"
+      },
+      "RelativeLocation": {
+        "X": 257.4801,
+        "Y": -458.32123,
+        "Z": -4.597439
+      },
+      "RelativeRotation": {
+        "Pitch": 3.847944,
+        "Yaw": 88.19723,
+        "Roll": -1.5800499
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPFacilityFactoryAircraftDestroyed_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

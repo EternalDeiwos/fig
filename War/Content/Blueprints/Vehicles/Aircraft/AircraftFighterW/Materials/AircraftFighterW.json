@@ -1,0 +1,263 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "AircraftFighterW",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'AircraftBomberCBody'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Materials/AircraftBomberCBody.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "MetallicLevels",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.2,
+          "ExpressionGUID": "04288093-41AB667F-877129B2-11DBBF52"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RoughStrength",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "4AB76B06-4E53F1BA-198D1A98-2E0B5FF6"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Tier2Levels",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 4.0,
+          "ExpressionGUID": "3BDF9C4F-40D39E27-29D1C1AD-6D5A6EB4"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Tier2Strength",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.6,
+          "ExpressionGUID": "F383443D-4C81B6ED-971A178B-4A8CBE8E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "ProtoColor 1",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.066626,
+            "G": 0.057805,
+            "B": 0.046665,
+            "A": 1.0,
+            "Hex": "49443D"
+          },
+          "ExpressionGUID": "47913CB5-47F5744A-3B72A183-6F6723A2"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "ProtoColor 2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.119538,
+            "G": 0.114435,
+            "B": 0.082283,
+            "A": 1.0,
+            "Hex": "615F51"
+          },
+          "ExpressionGUID": "E7A3F3AA-410E0383-C79563BA-6013AE6C"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Tier2 Colour 1",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.01033,
+            "G": 0.017642,
+            "B": 0.031896,
+            "A": 1.0,
+            "Hex": "1A2432"
+          },
+          "ExpressionGUID": "F17F4E40-4DD257B3-D2BD12BF-4296A8D2"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Tier2 Colour 2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.141263,
+            "G": 0.135633,
+            "B": 0.130136,
+            "A": 1.0,
+            "Hex": "696765"
+          },
+          "ExpressionGUID": "51835F18-4107E205-8893BE88-7DCD4D37"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Tier3 Colour",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.033105,
+            "G": 0.061246,
+            "B": 0.078187,
+            "A": 1.0,
+            "Hex": "33464F"
+          },
+          "ExpressionGUID": "00AF8F66-4941091D-449E1482-DBD6C064"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Tier3 Colour2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.138432,
+            "G": 0.174647,
+            "B": 0.181164,
+            "A": 1.0,
+            "Hex": "687476"
+          },
+          "ExpressionGUID": "77341163-4B82EB03-8DE01E88-AE77006E"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Albedo",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'AircraftFighterWA'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterW/Textures/AircraftFighterWA.0"
+          },
+          "ExpressionGUID": "ABE95477-4B8864CB-11A28F88-632F172E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Normal",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'AircraftFighterWN'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterW/Textures/AircraftFighterWN.0"
+          },
+          "ExpressionGUID": "F83EFF74-4439F683-11D4E2A4-95002649"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RoughnessUVTexture",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'AircraftFighterWM'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftFighterW/Textures/AircraftFighterWM.0"
+          },
+          "ExpressionGUID": "51DDC46C-41CD24CC-74A980BA-4D681329"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "BlendMode": "BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParameters": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Normal Map?",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "771E90BE-46CF097B-689B88B6-09881C2B"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Red Channel for Metalness?",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "D8211B06-4806D01D-A880C29C-47F421E5"
+          },
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Use Roughness Texture",
+              "Association": "GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "AE99BCBB-4F0DB768-77561996-33B1026E"
+          }
+        ]
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "concreteMask"
+        },
+        {
+          "SamplingScale": 2.5,
+          "UVChannelIndex": 0,
+          "TextureName": "FoundationDirt01N"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "SnowM"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "TerrainSnow4_A"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "TerrainSnow4_N"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "TilingNoises01"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]

@@ -1,0 +1,1798 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "Decal1",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.48"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'StorageFacilityBuildSite'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:Decal1'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:WoodenCrateBottom1'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:StaticMesh21'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:WoodenCrateBottom'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:ItemCrate1'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:HomeRegionTarp04'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:StaticMesh20'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.22"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:StaticMesh8'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:HomeRegionTarp03'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:ItemCrate'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.15"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:StaticMesh18'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:BasicCrates03'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.11"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:StaticMesh16'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.19"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:Barrel_11'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:StaticMesh17'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:BulwarkDressingMetalBracket'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:StaticMesh15'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.18"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPStorageFacilityBuildSite_C:StaticMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.17"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPStorageFacilityBuildSite_C'Default__BPStorageFacilityBuildSite_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.2"
+    }
+  },
+  {
+    "Type": "BPStorageFacilityBuildSite_C",
+    "Name": "Default__BPStorageFacilityBuildSite_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.BPStorageFacilityBuildSite_C'",
+    "Properties": {
+      "GenericStockpileComponent": {
+        "ObjectName": "GenericStockpileComponent'Default__BPStorageFacilityBuildSite_C:GenericStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.9"
+      },
+      "ReserveStockpileComponent": {
+        "ObjectName": "ReserveStockpileComponent'Default__BPStorageFacilityBuildSite_C:ReserveStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.27"
+      },
+      "CraneSpawnLocationComponent": {
+        "ObjectName": "CraneSpawnLocationComponent'Default__BPStorageFacilityBuildSite_C:CraneSpawnLocationComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.6"
+      },
+      "CraneSpawnLocationComponent2": {
+        "ObjectName": "CraneSpawnLocationComponent'Default__BPStorageFacilityBuildSite_C:CraneSpawnLocationComponent2'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.7"
+      },
+      "ObstructionCheckVolume": {
+        "ObjectName": "BoxComponent'Default__BPStorageFacilityBuildSite_C:ObstructionCheckVolume'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.4"
+      },
+      "CodeName": "StorageFacilityBuildSite",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPStorageFacilityBuildSite_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPStorageFacilityBuildSite_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.5"
+      },
+      "MaxHealth": 2000,
+      "Health": 2000,
+      "MapIconType": "EMapIconType::StorageFacility",
+      "StructureNetRelevancySize": "EStructureNetRelevancySize::Large",
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPStorageFacilityBuildSite_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.66"
+      },
+      "NetCullDistanceSquared": 49000000.0,
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPStorageFacilityBuildSite_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "ObstructionCheckVolume",
+    "Outer": "Default__BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPStorageFacilityBuildSite_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.3"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 840.0,
+        "Y": 1050.0,
+        "Z": 128.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPStorageFacilityBuildSite_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 128.0
+      }
+    }
+  },
+  {
+    "Type": "CraneSpawnLocationComponent",
+    "Name": "CraneSpawnLocationComponent",
+    "Outer": "Default__BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'CraneSpawnLocationComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPStorageFacilityBuildSite_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.3"
+      }
+    }
+  },
+  {
+    "Type": "CraneSpawnLocationComponent",
+    "Name": "CraneSpawnLocationComponent2",
+    "Outer": "Default__BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'CraneSpawnLocationComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPStorageFacilityBuildSite_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.3"
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal1_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'DirtPatch'",
+        "ObjectPath": "War/Content/Materials/Decals/DirtPatch.0"
+      },
+      "DecalSize": {
+        "X": 128.0,
+        "Y": 600.0,
+        "Z": 600.0
+      },
+      "RelativeLocation": {
+        "X": -1913.7798,
+        "Y": -342.3538,
+        "Z": -130.07596
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -1065.9637,
+        "Roll": 800.96375
+      },
+      "RelativeScale3D": {
+        "X": 1.248072,
+        "Y": 0.458125,
+        "Z": 0.421656
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "GenericStockpileComponent",
+    "Name": "GenericStockpileComponent",
+    "Outer": "Default__BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'GenericStockpileComponent'"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Barrel_11",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BasicCrates03",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BulwarkDressingMetalBracket",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "HomeRegionTarp03",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "HomeRegionTarp04",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ItemCrate",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ItemCrate1",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh15",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh16",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh17",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh18",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh20",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh21",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh8",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WoodenCrateBottom",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WoodenCrateBottom1",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ReserveStockpileComponent",
+    "Name": "ReserveStockpileComponent",
+    "Outer": "Default__BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'ReserveStockpileComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPStorageFacilityBuildSite_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.28"
+      },
+      "VariableGuid": "D8557464-437C669F-B8D96897-8E5E5E6E",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.63"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "70757237-4F12C12A-9AD39498-717E91B8",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:StaticMesh18_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.59"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EA9CA172-47774959-1BFE8185-E3474184",
+      "InternalVariableName": "StaticMesh18"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:ItemCrate_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.55"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "62420D91-40DA0C0F-4E6614B8-F6BF0E1F",
+      "InternalVariableName": "ItemCrate"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:HomeRegionTarp03_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.52"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B74270F6-4508E1AA-47F54793-E6796E47",
+      "InternalVariableName": "HomeRegionTarp03"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:StaticMesh8_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.62"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F87F92C9-40B1AEAA-0E00F4B8-FA54A010",
+      "InternalVariableName": "StaticMesh8"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:ItemCrate1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.54"
+      },
+      "VariableGuid": "ADCAD63F-4D88FD9D-87D7A585-A972C080",
+      "InternalVariableName": "ItemCrate1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:WoodenCrateBottom_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.65"
+      },
+      "VariableGuid": "A45E4D2B-450BEA44-761512A3-3471BDA0",
+      "InternalVariableName": "WoodenCrateBottom"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:StaticMesh21_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.61"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.38"
+        }
+      ],
+      "VariableGuid": "56898A3E-4E9697DC-7EA8E494-E2DEEC99",
+      "InternalVariableName": "StaticMesh21"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:WoodenCrateBottom1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.64"
+      },
+      "VariableGuid": "996E1067-411786A2-1056AA8C-6C19BD04",
+      "InternalVariableName": "WoodenCrateBottom1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPStorageFacilityBuildSite_C:Decal1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.8"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EDE4199A-4CE5A02A-5EECDEAE-77E40901",
+      "InternalVariableName": "Decal1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:StaticMesh15_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.56"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "78992F9C-455E1649-A633F9BC-A475081A",
+      "InternalVariableName": "StaticMesh15"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:StaticMesh20_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.60"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.36"
+        }
+      ],
+      "VariableGuid": "3F86FDF3-4421F845-AA54438E-C2AD0A83",
+      "InternalVariableName": "StaticMesh20"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:HomeRegionTarp04_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.53"
+      },
+      "VariableGuid": "6E284689-45C7FECF-222A2395-911F64FB",
+      "InternalVariableName": "HomeRegionTarp04"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:BulwarkDressingMetalBracket_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.51"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "68FEFD26-4BCB9EC1-BCD0B9B7-CE0C1176",
+      "InternalVariableName": "BulwarkDressingMetalBracket"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:StaticMesh17_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.58"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E101761C-46117101-37B76C92-7D463367",
+      "InternalVariableName": "StaticMesh17"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:Barrel_11_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.49"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9887EDDB-49F7FE66-8F18668B-C54E78BE",
+      "InternalVariableName": "Barrel_11"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:StaticMesh16_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.57"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "415DE3D4-4B5BA981-43CE0BA6-F6C68EF6",
+      "InternalVariableName": "StaticMesh16"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPStorageFacilityBuildSite_C:BasicCrates03_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.50"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D31483AB-489551AD-25667DBC-EE716146",
+      "InternalVariableName": "BasicCrates03"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.39"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.39"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPStorageFacilityBuildSite_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPStorageFacilityBuildSite.29"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Barrel_11_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Barrel_11'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/Barrel_11.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1830.8165,
+        "Y": -377.386,
+        "Z": -3.11554
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BasicCrates03_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BasicCrates03'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/BasicCrates03.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1767.7957,
+        "Y": -192.84892,
+        "Z": 124.32138
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -99.99997,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.7,
+        "Y": 0.7,
+        "Z": 0.7
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BulwarkDressingMetalBracket_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BulwarkDressingMetalBracket'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/BulwarkDressingMetalBracket.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1800.0726,
+        "Y": -103.27933,
+        "Z": -72.46422
+      },
+      "RelativeRotation": {
+        "Pitch": -89.99999,
+        "Yaw": -1440.3165,
+        "Roll": 1260.3168
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.718523,
+        "Z": 1.293041
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "HomeRegionTarp03_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'HomeRegionTarp03'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/HomeRegionTarp03.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1796.5737,
+        "Y": 225.06958,
+        "Z": 4.2631
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.8374,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.212614,
+        "Y": 0.237585,
+        "Z": 0.244606
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "HomeRegionTarp04_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'HomeRegionTarp03'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/HomeRegionTarp03.2"
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 88.0226,
+        "Y": 20.317245,
+        "Z": 4.263206
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 175.00008,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.212614,
+        "Y": 0.237585,
+        "Z": 0.244606
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ItemCrate1_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ItemCrate'",
+        "ObjectPath": "War/Content/Meshes/ItemCrate.2"
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 13.909645,
+        "Y": 82.14749,
+        "Z": -3.115539
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -4.162558,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.536716,
+        "Y": 0.7,
+        "Z": 0.7
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ItemCrate_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ItemCrate'",
+        "ObjectPath": "War/Content/Meshes/ItemCrate.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1852.8613,
+        "Y": 146.66414,
+        "Z": -3.115646
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99995,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.536716,
+        "Y": 0.7,
+        "Z": 0.7
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh15_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TransferArea'",
+        "ObjectPath": "War/Content/Meshes/Structures/TransferArea.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1374.9722,
+        "Y": -111.07385,
+        "Z": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh16_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'CrateGrey'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/CrateGrey.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1786.5747,
+        "Y": -129.62483,
+        "Z": -0.000122
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -91.35471,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh17_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BulwarkDressingMetalBracket'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/BulwarkDressingMetalBracket.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -2039.7395,
+        "Y": -103.28011,
+        "Z": -72.464096
+      },
+      "RelativeRotation": {
+        "Pitch": -89.99999,
+        "Yaw": -1079.9802,
+        "Roll": 1439.9802
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.718523,
+        "Z": 1.293041
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh18_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BasicCrates03'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/BasicCrates03.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1774.2661,
+        "Y": -69.46323,
+        "Z": 124.32138
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99997,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.7,
+        "Y": 0.7,
+        "Z": 0.7
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh20_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'WoodenCrateBottom'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/WoodenCrateBottom.2"
+      },
+      "RelativeLocation": {
+        "X": -1769.9209,
+        "Y": 138.75392,
+        "Z": -0.000107
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 94.16251,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh21_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'WoodenCrateBottom'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/WoodenCrateBottom.2"
+      },
+      "RelativeLocation": {
+        "X": -1767.5675,
+        "Y": 34.91402,
+        "Z": -0.000107
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.20689,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh8_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MachineryVarious01'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/MachineryVarious01.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1770.7457,
+        "Y": 23.741215,
+        "Z": 101.24329
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -14.999964,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.199069,
+        "Y": 0.199069,
+        "Z": 0.199069
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'StorageFacility'",
+        "ObjectPath": "War/Content/Meshes/Structures/StorageFacility.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BuildSite'",
+          "ObjectPath": "War/Content/Materials/Structures/BuildSite.0"
+        },
+        {
+          "ObjectName": "Material'BuildSite'",
+          "ObjectPath": "War/Content/Materials/Structures/BuildSite.0"
+        },
+        {
+          "ObjectName": "Material'BuildSite'",
+          "ObjectPath": "War/Content/Materials/Structures/BuildSite.0"
+        },
+        {
+          "ObjectName": "Material'BuildSite'",
+          "ObjectPath": "War/Content/Materials/Structures/BuildSite.0"
+        },
+        {
+          "ObjectName": "Material'BuildSite'",
+          "ObjectPath": "War/Content/Materials/Structures/BuildSite.0"
+        },
+        {
+          "ObjectName": "Material'BuildSite'",
+          "ObjectPath": "War/Content/Materials/Structures/BuildSite.0"
+        },
+        {
+          "ObjectName": "Material'BuildSite'",
+          "ObjectPath": "War/Content/Materials/Structures/BuildSite.0"
+        },
+        {
+          "ObjectName": "Material'BuildSite'",
+          "ObjectPath": "War/Content/Materials/Structures/BuildSite.0"
+        }
+      ],
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableSeeThroughMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "WoodenCrateBottom1_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'WoodenCrateTop'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/WoodenCrateTop.2"
+      },
+      "RelativeLocation": {
+        "X": -2.151674,
+        "Y": -1.5453,
+        "Z": 98.01769
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -3.718567,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "WoodenCrateBottom_GEN_VARIABLE",
+    "Outer": "BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'WoodenCrateTop'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/WoodenCrateTop.2"
+      },
+      "RelativeLocation": {
+        "X": -2.151674,
+        "Y": -1.5453,
+        "Z": 98.01769
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -3.718567,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary"
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPStorageFacilityBuildSite_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

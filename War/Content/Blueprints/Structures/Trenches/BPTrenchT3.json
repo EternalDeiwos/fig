@@ -1,0 +1,704 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchDirtDecals",
+    "Outer": "BPTrenchT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPTrenchT3_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPTrenchT3_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.22"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Fort'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPTrenchT3_C:TrenchDirtDecals'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchT3_C:TrenchCommonDirtT3'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchT3_C:BPTrenchRoofModSlot'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.9"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchT3_C:TrenchCommonMods'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchT3_C:TrenchCommon'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.11"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPTrenchT3_C:Floor'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.10"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPTrenchT3_C'Default__BPTrenchT3_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.2"
+    }
+  },
+  {
+    "Type": "BPTrenchT3_C",
+    "Name": "Default__BPTrenchT3_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Trenches/BPTrenchT3.BPTrenchT3_C'",
+    "Properties": {
+      "EmplacementLocation": {
+        "ObjectName": "BoxComponent'Default__BPTrenchT3_C:EmplacementLocation'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.4"
+      },
+      "Tier": "EFortTier::T3",
+      "BuildGhostClass": null,
+      "BuildSiteClass": {
+        "ObjectName": "Class'FortBuildSiteBase'",
+        "ObjectPath": "/Script/War"
+      },
+      "BaseStructureClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchDestroyedT3_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchDestroyedT3.1"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "BC51F6BD4705B2E3B4FBCEAB125A1A82",
+        "SourceString": "A dugout that's used for cover and as passageways between Bunkers. Connects to other Trenches and Bunkers.",
+        "LocalizedString": "A dugout that's used for cover and as passageways between Bunkers. Connects to other Trenches and Bunkers."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'TrenchT3Icon'",
+        "ObjectPath": "War/Content/Textures/UI/StructureIcons/TrenchT3Icon.0"
+      },
+      "BuildCategory": "EBuildCategory::Bunker",
+      "DestroyedDamageExtent": {
+        "X": 500.0,
+        "Y": 150.0,
+        "Z": 100.0
+      },
+      "bDropsLargeMaterialsWhenDestroyed": false,
+      "ValidBuildTools": 52,
+      "ConcreteSettler": {
+        "bEnabled": true
+      },
+      "CodeName": "TrenchT3",
+      "ChassisName": {
+        "TableId": "/Game/Blueprints/StringTables/STChassis.STChassis",
+        "Key": "ChassisEntrenchment",
+        "SourceString": "Entrenchment",
+        "LocalizedString": "Entrenchment"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "84A7B5704DB2E61F06E91F819C52C317",
+        "SourceString": "Trench (Tier 3)",
+        "LocalizedString": "Trench (Tier 3)"
+      },
+      "ProfileType": "EStructureProfileType::Trench",
+      "ArmourType": "EArmourType::Trench",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchT3_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPTrenchT3_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.6"
+      },
+      "KillVolume": {
+        "ObjectName": "BoxComponent'Default__BPTrenchT3_C:KillVolume'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.5"
+      },
+      "ModularMountsComponent": {
+        "ObjectName": "ModularMountsComponent'Default__BPTrenchT3_C:ModularMountsComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.8"
+      },
+      "MaxHealth": 3500,
+      "Health": 3500,
+      "ClaimStatus": {
+        "bCanBeDemolished": true,
+        "DemolishDurationHours": 672
+      },
+      "bIsBlankFortPiece": false,
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPTrenchT3_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.24"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchT3_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPTrenchT3_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "EmplacementLocation",
+    "Outer": "Default__BPTrenchT3_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchT3_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.3"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "KillVolume",
+    "Outer": "Default__BPTrenchT3_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 555.0,
+        "Y": 205.0,
+        "Z": 135.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchT3_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -20.5
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPTrenchT3_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 550.0,
+        "Y": 200.0,
+        "Z": 200.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPTrenchT3_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.3"
+      },
+      "RelativeLocation": {
+        "X": -6.1035156E-05,
+        "Y": 1.4084167,
+        "Z": -23.000153
+      }
+    }
+  },
+  {
+    "Type": "BPTrenchRoofModSlot_C",
+    "Name": "BPTrenchRoofModSlot_GEN_VARIABLE",
+    "Outer": "BPTrenchT3_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Trenches/Modifications/BPTrenchRoofModSlot.BPTrenchRoofModSlot_C'",
+    "Properties": {
+      "LinkedSocketNames": [
+        "LeftSocket",
+        "RightSocket",
+        "FrontSocket",
+        "BackSocket"
+      ],
+      "BlockedByModSlotNames": [
+        "BridgeModSlot"
+      ],
+      "Modifications": [
+        {
+          "Key": "EFortModificationType::TrenchRoof",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/Blueprints/StringTables/STStructures.STStructures",
+              "Key": "ImodTrenchRoof",
+              "SourceString": "Trench Roof",
+              "LocalizedString": "Trench Roof"
+            },
+            "Description": {
+              "TableId": "/Game/Blueprints/StringTables/STStructures.STStructures",
+              "Key": "ImodTrenchRoofDesc",
+              "SourceString": "Provides cover against enemies that have entered this Bunker",
+              "LocalizedString": "Provides cover against enemies that have entered this Bunker"
+            },
+            "Icon": {
+              "ImageSize": {
+                "X": 256.0,
+                "Y": 256.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "Texture2D'TrenchT3RoofItemIcon'",
+                "ObjectPath": "War/Content/Textures/UI/StructureIcons/TrenchT3RoofItemIcon.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "RequiredSocketConnectionMask": 0,
+            "HiddenBySocketConnectionMask": 0,
+            "bIsRemovable": false,
+            "bVehicleBlocksRemoval": true,
+            "bHiddenByDefault": false,
+            "bVisualsAreClientOnly": false,
+            "bShowInBuildSite": false,
+            "bBuildFootprintIgnoresConnectedActors": false,
+            "TechID": "ETechID::None",
+            "InfrastructureType": "EInfrastructureType::None",
+            "InfrastructureAmount": 0,
+            "BuildFootprintTemplate": null,
+            "Tiers": [
+              {
+                "Key": "EFortTier::T3",
+                "Value": {
+                  "ResourceAmounts": {
+                    "Resource": {
+                      "CodeName": "Cloth",
+                      "Quantity": 200
+                    },
+                    "OtherResources": []
+                  },
+                  "RemoveCostOverride": {
+                    "Resource": {
+                      "CodeName": "None",
+                      "Quantity": 0
+                    },
+                    "OtherResources": []
+                  },
+                  "bUseTemplateActor": true,
+                  "TemplateMesh": null,
+                  "TemplateActor": {
+                    "ObjectName": "BlueprintGeneratedClass'BPTrenchT3Roof_C'",
+                    "ObjectPath": "War/Content/Blueprints/Structures/Trenches/Modifications/BPTrenchT3Roof.1"
+                  },
+                  "bUsePreviewMesh": false,
+                  "PreviewMesh": null
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      }
+    }
+  },
+  {
+    "Type": "ModularMountsComponent",
+    "Name": "ModularMountsComponent",
+    "Outer": "Default__BPTrenchT3_C",
+    "Class": "UScriptClass'ModularMountsComponent'"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPTrenchRoofModSlot",
+    "Outer": "BPTrenchT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPTrenchRoofModSlot_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Trenches/Modifications/BPTrenchRoofModSlot.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Floor",
+    "Outer": "BPTrenchT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchCommon",
+    "Outer": "BPTrenchT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchCommonDirtT3",
+    "Outer": "BPTrenchT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrenchCommonMods",
+    "Outer": "BPTrenchT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPTrenchT3_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPTrenchT3_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.14"
+      },
+      "VariableGuid": "1144E758-45F21128-659C63A0-98B6F24C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPTrenchT3_C:TrenchCommonMods_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.27"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9A455272-468E7812-ED053D99-A84C803C",
+      "InternalVariableName": "TrenchCommonMods"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPTrenchT3_C:TrenchDirtDecals_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.28"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9AC8F218-408F7C74-8C543592-385B8F4E",
+      "InternalVariableName": "TrenchDirtDecals"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_26",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPTrenchT3_C:Floor_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.23"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4208DF2F-4D4AA04F-8267E2A3-ED99AFDC",
+      "InternalVariableName": "Floor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchRoofModSlot_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/Modifications/BPTrenchRoofModSlot.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPTrenchRoofModSlot_C'BPTrenchT3_C:BPTrenchRoofModSlot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.7"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A37EA22C-4A260F8E-F6FE929A-8C760E96",
+      "InternalVariableName": "BPTrenchRoofModSlot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_39",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPTrenchT3_C:TrenchCommon_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.25"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "538172BE-40419CF0-584B63A1-FD64C3FE",
+      "InternalVariableName": "TrenchCommon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPTrenchT3_C:TrenchCommonDirtT3_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.26"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A7500E2F-407D3351-A15103B0-EFD3708A",
+      "InternalVariableName": "TrenchCommonDirtT3"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPTrenchT3_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPTrenchT3_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchT3_C:SimpleConstructionScript_0.SCS_Node_39'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchT3_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchT3_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchT3_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchT3_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.17"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPTrenchT3_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchT3_C:SimpleConstructionScript_0.SCS_Node_39'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchT3_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchT3_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchT3_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BPTrenchT3_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.17"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPTrenchT3_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchT3.15"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Floor_GEN_VARIABLE",
+    "Outer": "BPTrenchT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrenchT3Floor01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/TrenchT3Floor01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "CastShadow": false,
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'TrenchPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/TrenchPhys.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.25,
+        "Z": 1.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "ExcludeFromBuildGhost",
+        "RandomVisualVariance"
+      ]
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPTrenchT3_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "TrenchCommon_GEN_VARIABLE",
+    "Outer": "BPTrenchT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchCommon_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchCommon.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "TrenchCommonDirtT3_GEN_VARIABLE",
+    "Outer": "BPTrenchT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchCommonDirtT3_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchCommonDirtT3.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "TrenchCommonMods_GEN_VARIABLE",
+    "Outer": "BPTrenchT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchCommonMods_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchCommonMods.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "TrenchDirtDecals_GEN_VARIABLE",
+    "Outer": "BPTrenchT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPTrenchDirtDecals_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Trenches/BPTrenchDirtDecals.1"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -35.0
+      }
+    }
+  }
+]

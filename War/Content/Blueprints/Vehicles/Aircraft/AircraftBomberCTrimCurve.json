@@ -1,0 +1,374 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "AircraftBomberCTrimCurve",
+    "Class": "UScriptClass'CurveTable'",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "Aileron": {
+        "InterpMode": "RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 10.127924,
+            "Value": 0.021413367
+          },
+          {
+            "Time": 10.865131,
+            "Value": -4.349145E-06
+          },
+          {
+            "Time": 11.602339,
+            "Value": -7.123149E-06
+          },
+          {
+            "Time": 12.339546,
+            "Value": -5.2396413E-06
+          },
+          {
+            "Time": 13.076755,
+            "Value": 5.4987286E-06
+          },
+          {
+            "Time": 13.813962,
+            "Value": 2.1915978E-06
+          },
+          {
+            "Time": 14.551169,
+            "Value": -1.169732E-05
+          },
+          {
+            "Time": 15.288378,
+            "Value": 1.2719201E-05
+          },
+          {
+            "Time": 16.025585,
+            "Value": -4.7728254E-06
+          },
+          {
+            "Time": 16.762793,
+            "Value": -1.1743028E-06
+          },
+          {
+            "Time": 17.5,
+            "Value": -1.6025867E-07
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant"
+      },
+      "Elevator": {
+        "InterpMode": "RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 10.127924,
+            "Value": -0.5890644
+          },
+          {
+            "Time": 10.865131,
+            "Value": 0.1822537
+          },
+          {
+            "Time": 11.602339,
+            "Value": 0.1583004
+          },
+          {
+            "Time": 12.339546,
+            "Value": 0.15428758
+          },
+          {
+            "Time": 13.076755,
+            "Value": 0.14067344
+          },
+          {
+            "Time": 13.813962,
+            "Value": 0.12997991
+          },
+          {
+            "Time": 14.551169,
+            "Value": 0.13343014
+          },
+          {
+            "Time": 15.288378,
+            "Value": 0.12592708
+          },
+          {
+            "Time": 16.025585,
+            "Value": 0.13091658
+          },
+          {
+            "Time": 16.762793,
+            "Value": 0.12521334
+          },
+          {
+            "Time": 17.5,
+            "Value": 0.13091941
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant"
+      },
+      "Rudder": {
+        "InterpMode": "RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 10.127924,
+            "Value": -0.01246442
+          },
+          {
+            "Time": 10.865131,
+            "Value": -3.9926135E-07
+          },
+          {
+            "Time": 11.602339,
+            "Value": 1.4549278E-06
+          },
+          {
+            "Time": 12.339546,
+            "Value": 1.9205252E-06
+          },
+          {
+            "Time": 13.076755,
+            "Value": -2.656174E-06
+          },
+          {
+            "Time": 13.813962,
+            "Value": -4.6865728E-07
+          },
+          {
+            "Time": 14.551169,
+            "Value": 4.3935866E-06
+          },
+          {
+            "Time": 15.288378,
+            "Value": -5.761584E-06
+          },
+          {
+            "Time": 16.025585,
+            "Value": 1.2113521E-06
+          },
+          {
+            "Time": 16.762793,
+            "Value": 2.5404574E-08
+          },
+          {
+            "Time": 17.5,
+            "Value": 2.2755816E-07
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant"
+      },
+      "Flaps": {
+        "InterpMode": "RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 10.127924,
+            "Value": 1.0005238
+          },
+          {
+            "Time": 10.865131,
+            "Value": 0.98618144
+          },
+          {
+            "Time": 11.602339,
+            "Value": 0.7771276
+          },
+          {
+            "Time": 12.339546,
+            "Value": 0.57075953
+          },
+          {
+            "Time": 13.076755,
+            "Value": 0.4645366
+          },
+          {
+            "Time": 13.813962,
+            "Value": 0.38052422
+          },
+          {
+            "Time": 14.551169,
+            "Value": 0.26521635
+          },
+          {
+            "Time": 15.288378,
+            "Value": 0.21055193
+          },
+          {
+            "Time": 16.025585,
+            "Value": 0.12148603
+          },
+          {
+            "Time": 16.762793,
+            "Value": 0.08337028
+          },
+          {
+            "Time": 17.5,
+            "Value": 0.010118958
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant"
+      },
+      "Throttle": {
+        "InterpMode": "RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 10.127924,
+            "Value": 0.5297023
+          },
+          {
+            "Time": 10.865131,
+            "Value": 0.57786
+          },
+          {
+            "Time": 11.602339,
+            "Value": 0.5496036
+          },
+          {
+            "Time": 12.339546,
+            "Value": 0.51337063
+          },
+          {
+            "Time": 13.076755,
+            "Value": 0.49897027
+          },
+          {
+            "Time": 13.813962,
+            "Value": 0.49048248
+          },
+          {
+            "Time": 14.551169,
+            "Value": 0.47433364
+          },
+          {
+            "Time": 15.288378,
+            "Value": 0.4771403
+          },
+          {
+            "Time": 16.025585,
+            "Value": 0.4762196
+          },
+          {
+            "Time": 16.762793,
+            "Value": 0.4901637
+          },
+          {
+            "Time": 17.5,
+            "Value": 0.50629485
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant"
+      },
+      "AoA": {
+        "InterpMode": "RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 10.127924,
+            "Value": 0.08473021
+          },
+          {
+            "Time": 10.865131,
+            "Value": 0.042901747
+          },
+          {
+            "Time": 11.602339,
+            "Value": 0.04290262
+          },
+          {
+            "Time": 12.339546,
+            "Value": 0.05243556
+          },
+          {
+            "Time": 13.076755,
+            "Value": 0.052435864
+          },
+          {
+            "Time": 13.813962,
+            "Value": 0.052435488
+          },
+          {
+            "Time": 14.551169,
+            "Value": 0.06196923
+          },
+          {
+            "Time": 15.288378,
+            "Value": 0.06196906
+          },
+          {
+            "Time": 16.025585,
+            "Value": 0.071502924
+          },
+          {
+            "Time": 16.762793,
+            "Value": 0.07150282
+          },
+          {
+            "Time": 17.5,
+            "Value": 0.08103649
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant"
+      },
+      "MaxLiftAoA": {
+        "InterpMode": "RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 10.127924,
+            "Value": 0.23357612
+          },
+          {
+            "Time": 10.865131,
+            "Value": 0.23357612
+          },
+          {
+            "Time": 11.602339,
+            "Value": 0.23357612
+          },
+          {
+            "Time": 12.339546,
+            "Value": 0.23357612
+          },
+          {
+            "Time": 13.076755,
+            "Value": 0.23357612
+          },
+          {
+            "Time": 13.813962,
+            "Value": 0.23357612
+          },
+          {
+            "Time": 14.551169,
+            "Value": 0.23357612
+          },
+          {
+            "Time": 15.288378,
+            "Value": 0.23357612
+          },
+          {
+            "Time": 16.025585,
+            "Value": 0.23357612
+          },
+          {
+            "Time": 16.762793,
+            "Value": 0.23357612
+          },
+          {
+            "Time": 17.5,
+            "Value": 0.23357612
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant"
+      }
+    }
+  }
+]

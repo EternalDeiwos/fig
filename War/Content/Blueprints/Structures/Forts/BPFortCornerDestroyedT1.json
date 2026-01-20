@@ -1,0 +1,859 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortT1AngleDestroyedFrontShortWall",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.30"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'DestroyedFort'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerDestroyedT1_C:FortT1AngleDestroyedFrontShortWall'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerDestroyedT1_C:FortT1AngleDestroyedRightShortWall'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerDestroyedT1_C:FortCornerBreachCommonSockets'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.11"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerDestroyedT1_C:FortCornerCommonDirtT1'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerDestroyedT1_C:LocationMultiplexedMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerDestroyedT1_C:FortT1AngleDestroyedBackLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerDestroyedT1_C:FortT1AngleDestroyedBack'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerDestroyedT1_C:FortT1AngleDestroyedLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.15"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerDestroyedT1_C:FortCornerBreachCommon'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFortCornerDestroyedT1_C:Floor'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.9"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPFortCornerDestroyedT1_C'Default__BPFortCornerDestroyedT1_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.2"
+    }
+  },
+  {
+    "Type": "BPFortCornerDestroyedT1_C",
+    "Name": "Default__BPFortCornerDestroyedT1_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.BPFortCornerDestroyedT1_C'",
+    "Properties": {
+      "EmplacementLocation": {
+        "ObjectName": "BoxComponent'Default__BPFortCornerDestroyedT1_C:EmplacementLocation'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.4"
+      },
+      "MinUpgradeTargetDistance": 300.0,
+      "Tier": "EFortTier::T1",
+      "bDisableModificationSlotValidation": true,
+      "bReadOnlyModifications": true,
+      "BuildGhostClass": null,
+      "Icon": {
+        "ObjectName": "Texture2D'FortT1CornerIcon'",
+        "ObjectPath": "War/Content/Textures/UI/StructureIcons/FortT1CornerIcon.0"
+      },
+      "BuildCategory": "EBuildCategory::Bunker",
+      "DestroyedDamageExtent": {
+        "X": 235.0,
+        "Y": 235.0,
+        "Z": 120.0
+      },
+      "DestroyedDamageOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30.0
+      },
+      "ValidBuildTools": 2,
+      "ConversionCodeNames": [
+        "FortCornerFill"
+      ],
+      "CodeName": "FortCornerDestroyedT1",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E06894BE4FC768070961C6BA1A7C05F1",
+        "SourceString": "Bunker Corner (Tier 1)",
+        "LocalizedString": "Bunker Corner (Tier 1)"
+      },
+      "ProfileType": "EStructureProfileType::DestroyedFort",
+      "ArmourType": "EArmourType::Trench",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPFortCornerDestroyedT1_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPFortCornerDestroyedT1_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.6"
+      },
+      "KillVolume": {
+        "ObjectName": "BoxComponent'Default__BPFortCornerDestroyedT1_C:KillVolume'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.5"
+      },
+      "DestroyedSoundCue": {
+        "ObjectName": "SoundCue'BunkerExplosion_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/BunkerExplosion_Cue.0"
+      },
+      "ModularMountsComponent": {
+        "ObjectName": "ModularMountsComponent'Default__BPFortCornerDestroyedT1_C:ModularMountsComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.8"
+      },
+      "MaxHealth": 750,
+      "Health": 750,
+      "UpgradeStructureCodeName": "FortCornerT1",
+      "ClaimStatus": {
+        "bIsEnabled": false
+      },
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPFortCornerDestroyedT1_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.37"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPFortCornerDestroyedT1_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "EmplacementLocation",
+    "Outer": "Default__BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFortCornerDestroyedT1_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.3"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "KillVolume",
+    "Outer": "Default__BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 250.0,
+        "Y": 250.0,
+        "Z": 78.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFortCornerDestroyedT1_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -88.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 300.0,
+        "Y": 300.0,
+        "Z": 100.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFortCornerDestroyedT1_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.3"
+      },
+      "RelativeLocation": {
+        "X": -6.1035156E-05,
+        "Y": 1.4084167,
+        "Z": 66.99985
+      }
+    }
+  },
+  {
+    "Type": "LocationMultiplexedMeshComponent",
+    "Name": "LocationMultiplexedMesh_GEN_VARIABLE",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'LocationMultiplexedMeshComponent'",
+    "Properties": {
+      "TargetTag": "MultiplexedFloor",
+      "MeshStops": [
+        {
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'FortT1AngleDestroyed'",
+            "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT1AngleDestroyed.2"
+          }
+        },
+        {
+          "StaticMesh": {
+            "ObjectName": "StaticMesh'FortT1AngleDestroyed01'",
+            "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT1AngleDestroyed01.2"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ModularMountsComponent",
+    "Name": "ModularMountsComponent",
+    "Outer": "Default__BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'ModularMountsComponent'"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Floor",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCornerBreachCommon",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCornerBreachCommonSockets",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCornerCommonDirtT1",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortT1AngleDestroyedBack",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortT1AngleDestroyedBackLeft",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortT1AngleDestroyedLeft",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortT1AngleDestroyedRightShortWall",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LocationMultiplexedMesh",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'LocationMultiplexedMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPFortCornerDestroyedT1_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.18"
+      },
+      "VariableGuid": "1144E758-45F21128-659C63A0-98B6F24C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortCornerDestroyedT1_C:FortT1AngleDestroyedBack_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.32"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E965D337-4D9630DC-9FF079BA-165CA1FD",
+      "InternalVariableName": "FortT1AngleDestroyedBack"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPFortCornerDestroyedT1_C:FortCornerBreachCommonSockets_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.39"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5598F048-4CA99D9E-6CAAEA86-DA434609",
+      "InternalVariableName": "FortCornerBreachCommonSockets"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_25",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortCornerDestroyedT1_C:Floor_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.31"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A6D3BCC4-4FA86390-1D7220B7-3123A75D",
+      "InternalVariableName": "Floor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortCornerDestroyedT1_C:FortT1AngleDestroyedLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.35"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D05837CD-4D585E49-D9DBFEA0-DD04FBC5",
+      "InternalVariableName": "FortT1AngleDestroyedLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortCornerDestroyedT1_C:FortT1AngleDestroyedBackLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.33"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "08F12546-4F3369EB-45BC6F92-171D1F08",
+      "InternalVariableName": "FortT1AngleDestroyedBackLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'LocationMultiplexedMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "LocationMultiplexedMeshComponent'BPFortCornerDestroyedT1_C:LocationMultiplexedMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.7"
+      },
+      "VariableGuid": "7CF3B243-48C87797-43294A84-49AC1DEF",
+      "InternalVariableName": "LocationMultiplexedMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortCornerDestroyedT1_C:FortT1AngleDestroyedRightShortWall_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.36"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "12D8AEC8-49508C47-B4E30B89-D0871A46",
+      "InternalVariableName": "FortT1AngleDestroyedRightShortWall"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFortCornerDestroyedT1_C:FortT1AngleDestroyedFrontShortWall_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.34"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "32D0C9E9-42A7F276-076A88B6-DDF91829",
+      "InternalVariableName": "FortT1AngleDestroyedFrontShortWall"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPFortCornerDestroyedT1_C:FortCornerCommonDirtT1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.40"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8CEF56B0-4F0D55F9-D0F847B0-52B33FF6",
+      "InternalVariableName": "FortCornerCommonDirtT1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPFortCornerDestroyedT1_C:FortCornerBreachCommon_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.38"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "189DBCB6-4EBA07DE-7C981190-6CB240CF",
+      "InternalVariableName": "FortCornerBreachCommon"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.27"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.27"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPFortCornerDestroyedT1_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerDestroyedT1.19"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Floor_GEN_VARIABLE",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT1AngleDestroyed'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT1AngleDestroyed.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": true,
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "WalkableSlope_Increase",
+          "WalkableSlopeAngle": 75.0
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "MultiplexedFloor",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FortT1AngleDestroyedBack_GEN_VARIABLE",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT1AngleDestroyedBack'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT1AngleDestroyedBack.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideBack",
+        "DirtBack",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FortT1AngleDestroyedBackLeft_GEN_VARIABLE",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT1AngleDestroyedBackLeft'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT1AngleDestroyedBackLeft.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideLeft",
+        "SideBack",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FortT1AngleDestroyedFrontShortWall_GEN_VARIABLE",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT1AngleDestroyed01Part02'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT1AngleDestroyed01Part02.2"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "FrontDirtAngleConnect",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FortT1AngleDestroyedLeft_GEN_VARIABLE",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT1AngleDestroyedLeft'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT1AngleDestroyedLeft.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideLeft",
+        "DirtLeft",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FortT1AngleDestroyedRightShortWall_GEN_VARIABLE",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT1AngleDestroyed01Part01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT1AngleDestroyed01Part01.2"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "RightDirtAngleConnect",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCornerBreachCommon_GEN_VARIABLE",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCornerBreachCommon_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerBreachCommon.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCornerBreachCommonSockets_GEN_VARIABLE",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCornerBreachCommonSockets_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerBreachCommonSockets.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCornerCommonDirtT1_GEN_VARIABLE",
+    "Outer": "BPFortCornerDestroyedT1_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCornerCommonDirtT1_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCornerCommonDirtT1.1"
+      }
+    }
+  }
+]

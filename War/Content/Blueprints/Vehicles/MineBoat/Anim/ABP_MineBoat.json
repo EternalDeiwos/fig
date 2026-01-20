@@ -1,0 +1,689 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "ABP_MineBoat_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "AnimBlueprintGeneratedClass",
+    "Name": "ABP_MineBoat_C",
+    "Class": "UScriptClass'AnimBlueprintGeneratedClass'",
+    "Properties": {
+      "TargetSkeleton": {
+        "ObjectName": "Skeleton'SK_MineBoat_Skeleton'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/SK_MineBoat_Skeleton.4"
+      },
+      "OrderedSavedPoseIndicesMap": [
+        {
+          "Key": "AnimGraph",
+          "Value": {
+            "OrderedSavedPoseNodeIndices": []
+          }
+        }
+      ],
+      "EvaluateGraphExposedInputs": [
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "SourcePropertyName": "bIsDestroyed",
+              "SourceSubPropertyName": "None",
+              "SourceArrayIndex": 0,
+              "bInstanceIsTarget": false,
+              "PostCopyOperation": "EPostCopyOperation::None",
+              "DestProperty": {
+                "ObjectName": "BoolProperty'AnimNode_BlendListByBool:bActiveValue'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "DestArrayIndex": 0,
+              "Size": 1,
+              "CachedSourceProperty": {
+                "ObjectName": "BoolProperty'SimVehicleAnimInstance:bIsDestroyed'",
+                "ObjectPath": "/Script/War"
+              },
+              "CachedSourceStructSubProperty": null
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_BlendListByBool_05B6E83B472DCCE801B602A8986EA3F4'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.7"
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "SourcePropertyName": "TurnAngle",
+              "SourceSubPropertyName": "None",
+              "SourceArrayIndex": 0,
+              "bInstanceIsTarget": false,
+              "PostCopyOperation": "EPostCopyOperation::None",
+              "DestProperty": {
+                "ObjectName": "FloatProperty'AnimNode_BlendSpacePlayer:X'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "DestArrayIndex": 0,
+              "Size": 4,
+              "CachedSourceProperty": {
+                "ObjectName": "FloatProperty'SimVehicleAnimInstance:TurnAngle'",
+                "ObjectPath": "/Script/War"
+              },
+              "CachedSourceStructSubProperty": null
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_BlendSpacePlayer_D0AF91324FC2DF302F633C9E092AC5C5'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.10"
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "SourcePropertyName": "GunnerPitch",
+              "SourceSubPropertyName": "None",
+              "SourceArrayIndex": 0,
+              "bInstanceIsTarget": false,
+              "PostCopyOperation": "EPostCopyOperation::None",
+              "DestProperty": {
+                "ObjectName": "FloatProperty'AnimNode_BlendSpacePlayer:X'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "DestArrayIndex": 0,
+              "Size": 4,
+              "CachedSourceProperty": {
+                "ObjectName": "FloatProperty'SimVehicleGunnerSupportAnimInstance:GunnerPitch'",
+                "ObjectPath": "/Script/War"
+              },
+              "CachedSourceStructSubProperty": null
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_BlendSpacePlayer_43694E7F41749EE96B893982CF3CB3FF'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.9"
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "SourcePropertyName": "GunnerYaw",
+              "SourceSubPropertyName": "None",
+              "SourceArrayIndex": 0,
+              "bInstanceIsTarget": false,
+              "PostCopyOperation": "EPostCopyOperation::None",
+              "DestProperty": {
+                "ObjectName": "FloatProperty'AnimNode_BlendSpacePlayer:X'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "DestArrayIndex": 0,
+              "Size": 4,
+              "CachedSourceProperty": {
+                "ObjectName": "FloatProperty'SimVehicleGunnerSupportAnimInstance:GunnerYaw'",
+                "ObjectPath": "/Script/War"
+              },
+              "CachedSourceStructSubProperty": null
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_BlendSpacePlayer_33828FD9463471E1F32FFF869B656BA1'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.8"
+          }
+        },
+        {
+          "BoundFunction": "None",
+          "CopyRecords": [
+            {
+              "SourcePropertyName": "Speed",
+              "SourceSubPropertyName": "None",
+              "SourceArrayIndex": 0,
+              "bInstanceIsTarget": false,
+              "PostCopyOperation": "EPostCopyOperation::None",
+              "DestProperty": {
+                "ObjectName": "FloatProperty'AnimNode_SequencePlayer:PlayRate'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "DestArrayIndex": 0,
+              "Size": 4,
+              "CachedSourceProperty": {
+                "ObjectName": "FloatProperty'SimVehicleAnimInstance:Speed'",
+                "ObjectPath": "/Script/War"
+              },
+              "CachedSourceStructSubProperty": null
+            }
+          ],
+          "Function": null,
+          "ValueHandlerNodeProperty": {
+            "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_SequencePlayer_89DD0C1041D9C4F73AF052A9B900D5F5'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.15"
+          }
+        }
+      ],
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'ABP_MineBoat_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'ABP_MineBoat_C:ExecuteUbergraph_ABP_MineBoat'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SimVehicleGunnerSupportAnimInstance'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'ABP_MineBoat_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.0"
+      },
+      {
+        "ObjectName": "Function'ABP_MineBoat_C:AnimGraph'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.4"
+      },
+      {
+        "ObjectName": "Function'ABP_MineBoat_C:ExecuteUbergraph_ABP_MineBoat'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.6"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_Root_435DC837490459D1D1CED8B457571E8B'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.13"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_SequencePlayer_89DD0C1041D9C4F73AF052A9B900D5F5'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.15"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_LayeredBoneBlend_AD4F903749146FAD0AA6A5AB1AE46A26'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.12"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_LayeredBoneBlend_28C4AB04419A17D41400EE9B424C1639'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.11"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_BlendSpacePlayer_33828FD9463471E1F32FFF869B656BA1'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.8"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_BlendSpacePlayer_43694E7F41749EE96B893982CF3CB3FF'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.9"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_BlendSpacePlayer_D0AF91324FC2DF302F633C9E092AC5C5'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.10"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_BlendListByBool_05B6E83B472DCCE801B602A8986EA3F4'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.7"
+      },
+      {
+        "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraphNode_SequencePlayer_7F354CAA411EAB6BFDA65DA8B548B1A6'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.14"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ABP_MineBoat": {
+        "ObjectName": "Function'ABP_MineBoat_C:ExecuteUbergraph_ABP_MineBoat'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.6"
+      },
+      "AnimGraph": {
+        "ObjectName": "Function'ABP_MineBoat_C:AnimGraph'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.4"
+      }
+    },
+    "ClassFlags": "CLASS_Transient | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'SkeletalMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ABP_MineBoat_C'Default__ABP_MineBoat_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.2"
+    }
+  },
+  {
+    "Type": "ABP_MineBoat_C",
+    "Name": "Default__ABP_MineBoat_C",
+    "Class": "AnimBlueprintGeneratedClass'War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.ABP_MineBoat_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AnimGraphNode_Root_435DC837490459D1D1CED8B457571E8B": {
+        "Result": {
+          "LinkID": 7
+        },
+        "Name": "AnimGraph",
+        "Group": "None"
+      },
+      "AnimGraphNode_SequencePlayer_89DD0C1041D9C4F73AF052A9B900D5F5": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Anim_Mineboat_Prop'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/Anim_Mineboat_Prop.0"
+        },
+        "PlayRateBasis": 1.0,
+        "PlayRate": 1.0,
+        "PlayRateScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "StartPosition": 0.0,
+        "bLoopAnimation": true,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_LayeredBoneBlend_AD4F903749146FAD0AA6A5AB1AE46A26": {
+        "BasePose": {
+          "LinkID": 1
+        },
+        "BlendPoses": [
+          {
+            "LinkID": 3
+          },
+          {
+            "LinkID": 6
+          },
+          {
+            "LinkID": -1
+          },
+          {
+            "LinkID": -1
+          }
+        ],
+        "LayerSetup": [
+          {
+            "BranchFilters": [
+              {
+                "BoneName": "BackTripodMount_Horizontal",
+                "BlendDepth": 0
+              }
+            ]
+          },
+          {
+            "BranchFilters": [
+              {
+                "BoneName": "Roder01",
+                "BlendDepth": 0
+              }
+            ]
+          },
+          {
+            "BranchFilters": []
+          },
+          {
+            "BranchFilters": []
+          }
+        ],
+        "BlendWeights": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bMeshSpaceRotationBlend": false,
+        "bMeshSpaceScaleBlend": false,
+        "CurveBlendOption": "ECurveBlendOption::MaxWeight",
+        "bBlendRootMotionBasedOnRootBone": true,
+        "LODThreshold": -1,
+        "PerBoneBlendWeights": [
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 1,
+            "BlendWeight": 1.0
+          }
+        ],
+        "SkeletonGuid": "E69D76B4-4F5C0CCB-52CA48A5-D14195E0",
+        "VirtualBoneGuid": "00000000-00000000-00000000-00000000"
+      },
+      "AnimGraphNode_LayeredBoneBlend_28C4AB04419A17D41400EE9B424C1639": {
+        "BasePose": {
+          "LinkID": 4
+        },
+        "BlendPoses": [
+          {
+            "LinkID": 5
+          }
+        ],
+        "LayerSetup": [
+          {
+            "BranchFilters": [
+              {
+                "BoneName": "Back_TripodMount_Vertical",
+                "BlendDepth": 0
+              }
+            ]
+          }
+        ],
+        "BlendWeights": [
+          1.0
+        ],
+        "bMeshSpaceRotationBlend": false,
+        "bMeshSpaceScaleBlend": false,
+        "CurveBlendOption": "ECurveBlendOption::MaxWeight",
+        "bBlendRootMotionBasedOnRootBone": true,
+        "LODThreshold": -1,
+        "PerBoneBlendWeights": [
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 1.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          }
+        ],
+        "SkeletonGuid": "E69D76B4-4F5C0CCB-52CA48A5-D14195E0",
+        "VirtualBoneGuid": "00000000-00000000-00000000-00000000"
+      },
+      "AnimGraphNode_BlendSpacePlayer_33828FD9463471E1F32FFF869B656BA1": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "PlayRate": 1.0,
+        "bLoop": true,
+        "bResetPlayTimeWhenBlendSpaceChanges": true,
+        "StartPosition": 0.0,
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_MineBoatMGL_R'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/BS_MineBoatMGL_R.0"
+        },
+        "PreviousBlendSpace": null,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_BlendSpacePlayer_43694E7F41749EE96B893982CF3CB3FF": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "PlayRate": 1.0,
+        "bLoop": true,
+        "bResetPlayTimeWhenBlendSpaceChanges": true,
+        "StartPosition": 0.0,
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_MineBoatMG_UP_Down'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/BS_MineBoatMG_UP_Down.0"
+        },
+        "PreviousBlendSpace": null,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_BlendSpacePlayer_D0AF91324FC2DF302F633C9E092AC5C5": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "PlayRate": 1.0,
+        "bLoop": true,
+        "bResetPlayTimeWhenBlendSpaceChanges": true,
+        "StartPosition": 0.0,
+        "BlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_MineBoatRoder'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/BS_MineBoatRoder.0"
+        },
+        "PreviousBlendSpace": null,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_BlendListByBool_05B6E83B472DCCE801B602A8986EA3F4": {
+        "bActiveValue": false,
+        "BlendPose": [
+          {
+            "LinkID": 8
+          },
+          {
+            "LinkID": 2
+          }
+        ],
+        "BlendTime": [
+          0.1,
+          0.1
+        ],
+        "TransitionType": "EBlendListTransitionType::StandardBlend",
+        "BlendType": "EAlphaBlendOption::Linear",
+        "bResetChildOnActivation": false,
+        "CustomBlendCurve": null,
+        "BlendProfile": null
+      },
+      "AnimGraphNode_SequencePlayer_7F354CAA411EAB6BFDA65DA8B548B1A6": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'Anim_MineBoat_Death'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/Anim_MineBoat_Death.0"
+        },
+        "PlayRateBasis": 1.0,
+        "PlayRate": 1.0,
+        "PlayRateScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "StartPosition": 0.0,
+        "bLoopAnimation": false,
+        "GroupIndex": -1,
+        "GroupRole": "EAnimGroupRole::CanBeLeader",
+        "bIgnoreForRelevancyTest": false,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraph",
+    "Outer": "AnimGraph",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Parm | OutParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PoseLink'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AnimGraph",
+    "Outer": "ABP_MineBoat_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "StructProperty'ABP_MineBoat_C:AnimGraph.AnimGraph'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.3"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_ABP_MineBoat",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ABP_MineBoat",
+    "Outer": "ABP_MineBoat_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'ABP_MineBoat_C:ExecuteUbergraph_ABP_MineBoat.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/MineBoat/Anim/ABP_MineBoat.5"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_BlendListByBool_05B6E83B472DCCE801B602A8986EA3F4",
+    "Outer": "ABP_MineBoat_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_BlendListByBool'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_BlendSpacePlayer_33828FD9463471E1F32FFF869B656BA1",
+    "Outer": "ABP_MineBoat_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_BlendSpacePlayer'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_BlendSpacePlayer_43694E7F41749EE96B893982CF3CB3FF",
+    "Outer": "ABP_MineBoat_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_BlendSpacePlayer'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_BlendSpacePlayer_D0AF91324FC2DF302F633C9E092AC5C5",
+    "Outer": "ABP_MineBoat_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_BlendSpacePlayer'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_LayeredBoneBlend_28C4AB04419A17D41400EE9B424C1639",
+    "Outer": "ABP_MineBoat_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_LayeredBoneBlend'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_LayeredBoneBlend_AD4F903749146FAD0AA6A5AB1AE46A26",
+    "Outer": "ABP_MineBoat_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_LayeredBoneBlend'",
+      "ObjectPath": "/Script/AnimGraphRuntime"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_Root_435DC837490459D1D1CED8B457571E8B",
+    "Outer": "ABP_MineBoat_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_Root'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_SequencePlayer_7F354CAA411EAB6BFDA65DA8B548B1A6",
+    "Outer": "ABP_MineBoat_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_SequencePlayer'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AnimGraphNode_SequencePlayer_89DD0C1041D9C4F73AF052A9B900D5F5",
+    "Outer": "ABP_MineBoat_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AnimNode_SequencePlayer'",
+      "ObjectPath": "/Script/Engine"
+    }
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAntiTankKineticDamageType_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SimDamageType'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_Const | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAntiTankKineticDamageType_C'Default__BPAntiTankKineticDamageType_C'",
+      "ObjectPath": "War/Content/Blueprints/DamageTypes/BPAntiTankKineticDamageType.1"
+    }
+  },
+  {
+    "Type": "BPAntiTankKineticDamageType_C",
+    "Name": "Default__BPAntiTankKineticDamageType_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/DamageTypes/BPAntiTankKineticDamageType.BPAntiTankKineticDamageType_C'",
+    "Properties": {
+      "Type": "EDamageType::AntiTankKinetic",
+      "bApplyDamageFalloff": true,
+      "bCanPenetrateArmour": false,
+      "bCanDisableSubsystems": false,
+      "bSuppressionAffectsVehicles": true,
+      "TankArmourEffectType": "ETankArmourEffectType::Small",
+      "VehicleSubsystemDisableMultipliers": 0.0,
+      "VehicleSubsystemDisableMultipliers[1]": 0.0,
+      "VehicleSubsystemDisableMultipliers[2]": 0.0,
+      "VehicleSubsystemDisableMultipliers[3]": 0.0,
+      "VehicleSubsystemDisableMultipliers[4]": 0.0,
+      "VehicleSubsystemDisableMultipliers[5]": 0.0,
+      "VehicleSubsystemDisableMultipliers[6]": 0.0,
+      "bCanWoundCharacter": true,
+      "bApplyTankArmourMechanics": true,
+      "bApplyTankArmourAngleRangeBonuses": false,
+      "bExposeInUI": true,
+      "Icon": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SubtypeAntiTank'",
+          "ObjectPath": "War/Content/Textures/UI/ItemIcons/SubtypeAntiTank.0"
+        }
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E7733BFE47422A5611A7F1969000571C",
+        "SourceString": "Anti-Tank Kinetic",
+        "LocalizedString": "Anti-Tank Kinetic"
+      },
+      "DescriptionDetails": [
+        {
+          "TooltipDetailType": "ETooltipDetailType::MediumVisibility",
+          "Text": {
+            "Namespace": "",
+            "Key": "925C5D6C49E62D09957BA488EDA21D50",
+            "SourceString": "Suppresses enemy vehicles",
+            "LocalizedString": "Suppresses enemy vehicles"
+          }
+        }
+      ]
+    }
+  }
+]

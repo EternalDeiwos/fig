@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPMediumBoatCSternGunner_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'TankGunnerMountComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPMediumBoatCSternGunner_C'Default__BPMediumBoatCSternGunner_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatC/BPMediumBoatCSternGunner.1"
+    }
+  },
+  {
+    "Type": "BPMediumBoatCSternGunner_C",
+    "Name": "Default__BPMediumBoatCSternGunner_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatC/BPMediumBoatCSternGunner.BPMediumBoatCSternGunner_C'",
+    "Properties": {
+      "ShotSoundCue": {
+        "ObjectName": "SoundCue'ISGShot01_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Weapons/ISG/ISGShot01_Cue.0"
+      },
+      "MuzzleFlashPS": {
+        "ObjectName": "ParticleSystem'ISGMF'",
+        "ObjectPath": "War/Content/FX/ISGMF.61"
+      },
+      "MultiAmmo": {
+        "CompatibleAmmoNames": [
+          "MiniTankAmmo"
+        ],
+        "AmmoSlotFilterAmounts": [
+          60
+        ]
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "EA213F6946AE2C440B40EE9C31E2AA55",
+        "SourceString": "Cannoneer",
+        "LocalizedString": "Cannoneer"
+      },
+      "ReloadSoundCue": {
+        "ObjectName": "SoundCue'FieldGunReload_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Vehicles/FieldGun/FieldGunReload_Cue.0"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'MiniTankAmmoItemIcon'",
+        "ObjectPath": "War/Content/Textures/UI/ItemIcons/MiniTankAmmoItemIcon.0"
+      },
+      "EquippedGripType": "EEquippedWeaponGripType::VehicleStaticRotationGunner",
+      "ActivityStateInfos[3]": {
+        "Duration": 1.5
+      },
+      "ActivityStateInfos[4]": {
+        "Duration": 2.5
+      },
+      "LinkedVehicleSubsystem": "EVehicleSubsystem::None"
+    }
+  }
+]

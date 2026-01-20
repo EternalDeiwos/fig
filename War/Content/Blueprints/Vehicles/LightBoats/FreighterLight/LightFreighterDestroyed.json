@@ -1,0 +1,264 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "LightFreighterDestroyed",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "82DBB6D2490987074FD129A289E8281F",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 477450,
+        "SizeOnDisk": 477450,
+        "OffsetInFile": "0x334AF4"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_3",
+    "Outer": "LightFreighterDestroyed",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x3A9446"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "LightFreighterDestroyed",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'LightFreighterBodyDamaged'",
+            "ObjectPath": "War/Content/Materials/Vehicles/LightFreighterBodyDamaged.0"
+          },
+          "MaterialSlotName": "LightFreighterBody",
+          "ImportedMaterialSlotName": "LightFreighterBody",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1212.6897,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'LightFreighterPropsDamaged'",
+            "ObjectPath": "War/Content/Materials/Vehicles/LightFreighterPropsDamaged.0"
+          },
+          "MaterialSlotName": "LightFreighterProps",
+          "ImportedMaterialSlotName": "LightFreighterProps",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1215.1876,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'Palette'",
+            "ObjectPath": "War/Content/Materials/Environment/Props/Palette.0"
+          },
+          "MaterialSlotName": "Palette",
+          "ImportedMaterialSlotName": "Palette",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 503.02707,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 1129.9293,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 135.70148,
+          "Y": 0.3488922,
+          "Z": 136.15892
+        },
+        "BoxExtent": {
+          "X": 1099.622,
+          "Y": 243.56775,
+          "Z": 386.5792
+        },
+        "SphereRadius": 1155.7406
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'LightFreighterDestroyed:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/FreighterLight/LightFreighterDestroyed.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'LightFreighterDestroyed:NavCollision_3'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LightBoats/FreighterLight/LightFreighterDestroyed.1"
+    },
+    "LightingGuid": "1F49A206-4F989585-72C0CCBE-6AF73AD8",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 2318,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 4814,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 6954,
+              "NumTriangles": 13005,
+              "MinVertexIndex": 4815,
+              "MaxVertexIndex": 36877,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 45969,
+              "NumTriangles": 1400,
+              "MinVertexIndex": 36878,
+              "MaxVertexIndex": 39332,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 39333
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 39333,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 39333
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 1687,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 3942,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 5061,
+              "NumTriangles": 5445,
+              "MinVertexIndex": 3943,
+              "MaxVertexIndex": 18079,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 21396,
+              "NumTriangles": 1228,
+              "MinVertexIndex": 18080,
+              "MaxVertexIndex": 20374,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 95.98386,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 20375
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 20375,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 20375
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 135.70148,
+          "Y": 0.3488922,
+          "Z": 136.15892
+        },
+        "BoxExtent": {
+          "X": 1099.622,
+          "Y": 243.56775,
+          "Z": 386.5792
+        },
+        "SphereRadius": 1155.7406
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.28150874,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

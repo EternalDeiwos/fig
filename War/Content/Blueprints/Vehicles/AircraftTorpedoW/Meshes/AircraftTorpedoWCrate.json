@@ -1,0 +1,979 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "AircraftTorpedoWCrate",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 14.359416,
+                "Y": 51.645653,
+                "Z": 75.2071
+              },
+              {
+                "X": -239.18794,
+                "Y": -282.8807,
+                "Z": 86.59243
+              },
+              {
+                "X": -233.4317,
+                "Y": -307.73303,
+                "Z": 80.54739
+              },
+              {
+                "X": -93.892746,
+                "Y": 378.63098,
+                "Z": 17.21775
+              },
+              {
+                "X": -156.76701,
+                "Y": 378.63098,
+                "Z": 174.52939
+              },
+              {
+                "X": 6.8279114,
+                "Y": -225.38918,
+                "Z": 174.51276
+              },
+              {
+                "X": -150.49017,
+                "Y": -282.05698,
+                "Z": 10.948563
+              },
+              {
+                "X": -196.69965,
+                "Y": -390.43973,
+                "Z": 158.70522
+              },
+              {
+                "X": 25.711372,
+                "Y": 378.554,
+                "Z": 67.57078
+              },
+              {
+                "X": -225.18788,
+                "Y": 89.037056,
+                "Z": 51.04999
+              },
+              {
+                "X": 26.978136,
+                "Y": -81.25778,
+                "Z": 175.30798
+              },
+              {
+                "X": -230.33185,
+                "Y": -17.612026,
+                "Z": 145.54019
+              },
+              {
+                "X": -32.97008,
+                "Y": 192.47641,
+                "Z": 18.62795
+              },
+              {
+                "X": -156.69904,
+                "Y": 228.05356,
+                "Z": 187.41817
+              },
+              {
+                "X": -194.13036,
+                "Y": -35.075737,
+                "Z": 10.819714
+              },
+              {
+                "X": -167.37329,
+                "Y": -395.12433,
+                "Z": 92.596054
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -239.18794,
+                "Y": -395.12433,
+                "Z": 10.819714
+              },
+              "Max": {
+                "X": 26.978136,
+                "Y": 378.63098,
+                "Z": 187.41817
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "VertexData": [
+              {
+                "X": 27.40288,
+                "Y": 129.5195,
+                "Z": 79.082954
+              },
+              {
+                "X": 55.978134,
+                "Y": -45.83492,
+                "Z": 279.18427
+              },
+              {
+                "X": 50.879272,
+                "Y": -49.1776,
+                "Z": 287.796
+              },
+              {
+                "X": 50.879272,
+                "Y": -389.06482,
+                "Z": 61.284966
+              },
+              {
+                "X": 25.71138,
+                "Y": -389.06482,
+                "Z": 224.82082
+              },
+              {
+                "X": 57.174324,
+                "Y": 378.63092,
+                "Z": 149.3615
+              },
+              {
+                "X": 26.269693,
+                "Y": 365.00806,
+                "Z": 271.62848
+              },
+              {
+                "X": 56.52893,
+                "Y": -373.31723,
+                "Z": 271.0713
+              },
+              {
+                "X": 32.00643,
+                "Y": 378.5558,
+                "Z": 61.284966
+              },
+              {
+                "X": 25.71138,
+                "Y": -389.06482,
+                "Z": 124.1936
+              },
+              {
+                "X": 56.5702,
+                "Y": -374.32425,
+                "Z": 65.63422
+              },
+              {
+                "X": 50.879272,
+                "Y": 378.63092,
+                "Z": 231.11833
+              },
+              {
+                "X": 44.5873,
+                "Y": -389.06482,
+                "Z": 275.20096
+              },
+              {
+                "X": 26.257124,
+                "Y": 365.24225,
+                "Z": 65.21393
+              },
+              {
+                "X": 55.71934,
+                "Y": -50.84023,
+                "Z": 71.7598
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": 25.71138,
+                "Y": -389.06482,
+                "Z": 61.284966
+              },
+              "Max": {
+                "X": 57.174324,
+                "Y": 378.63092,
+                "Z": 287.796
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "VertexData": [
+              {
+                "X": 69.77552,
+                "Y": -389.06488,
+                "Z": 36.094906
+              },
+              {
+                "X": 94.94095,
+                "Y": 391.21613,
+                "Z": 143.06645
+              },
+              {
+                "X": 88.98665,
+                "Y": 382.84818,
+                "Z": 141.58182
+              },
+              {
+                "X": 126.37926,
+                "Y": 303.07553,
+                "Z": 36.094906
+              },
+              {
+                "X": 151.55392,
+                "Y": -389.06488,
+                "Z": 17.218372
+              },
+              {
+                "X": 151.55392,
+                "Y": 391.21613,
+                "Z": 99.01218
+              },
+              {
+                "X": 58.054966,
+                "Y": 157.8535,
+                "Z": 152.25925
+              },
+              {
+                "X": 66.759674,
+                "Y": -33.921246,
+                "Z": 58.805706
+              },
+              {
+                "X": 63.484165,
+                "Y": -389.06488,
+                "Z": 67.57387
+              },
+              {
+                "X": 88.6496,
+                "Y": 384.87674,
+                "Z": 105.299835
+              },
+              {
+                "X": 140.31642,
+                "Y": -59.70104,
+                "Z": 12.986835
+              },
+              {
+                "X": 107.50519,
+                "Y": -389.06488,
+                "Z": 10.93071
+              },
+              {
+                "X": 145.98033,
+                "Y": 267.40625,
+                "Z": 40.55393
+              },
+              {
+                "X": 86.7473,
+                "Y": -54.260357,
+                "Z": 33.557545
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": 58.054966,
+                "Y": -389.06488,
+                "Z": 10.93071
+              },
+              "Max": {
+                "X": 151.55392,
+                "Y": 391.21613,
+                "Z": 152.25925
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "VertexData": [
+              {
+                "X": 187.5804,
+                "Y": 326.1356,
+                "Z": 134.17831
+              },
+              {
+                "X": 132.04575,
+                "Y": 95.03102,
+                "Z": 368.10922
+              },
+              {
+                "X": 138.97362,
+                "Y": 303.07553,
+                "Z": 275.1819
+              },
+              {
+                "X": 57.17433,
+                "Y": -389.06488,
+                "Z": 275.1819
+              },
+              {
+                "X": 189.31561,
+                "Y": -389.06488,
+                "Z": 275.20468
+              },
+              {
+                "X": 49.87737,
+                "Y": 91.911095,
+                "Z": 144.20583
+              },
+              {
+                "X": 69.772766,
+                "Y": 63.93499,
+                "Z": 325.5257
+              },
+              {
+                "X": 114.30068,
+                "Y": -351.0254,
+                "Z": 369.88077
+              },
+              {
+                "X": 82.35826,
+                "Y": 384.87674,
+                "Z": 149.3794
+              },
+              {
+                "X": 170.4309,
+                "Y": 63.93499,
+                "Z": 338.10593
+              },
+              {
+                "X": 178.8366,
+                "Y": -45.666874,
+                "Z": 186.35034
+              },
+              {
+                "X": 164.14462,
+                "Y": -363.86005,
+                "Z": 350.6862
+              },
+              {
+                "X": 47.91713,
+                "Y": 158.86414,
+                "Z": 205.69518
+              },
+              {
+                "X": 183.01639,
+                "Y": 378.6137,
+                "Z": 161.95966
+              },
+              {
+                "X": 84.986824,
+                "Y": -346.2591,
+                "Z": 362.47906
+              },
+              {
+                "X": 86.73413,
+                "Y": 74.12211,
+                "Z": 357.7744
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": 47.91713,
+                "Y": -389.06488,
+                "Z": 134.17831
+              },
+              "Max": {
+                "X": 189.31561,
+                "Y": 384.87674,
+                "Z": 369.88077
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "VertexData": [
+              {
+                "X": -115.87344,
+                "Y": -193.68712,
+                "Z": 180.84367
+              },
+              {
+                "X": -22.70243,
+                "Y": 382.65054,
+                "Z": 367.16223
+              },
+              {
+                "X": -156.75317,
+                "Y": 378.55273,
+                "Z": 174.54907
+              },
+              {
+                "X": 27.135538,
+                "Y": -140.76884,
+                "Z": 173.0303
+              },
+              {
+                "X": -100.13835,
+                "Y": -225.45755,
+                "Z": 281.47852
+              },
+              {
+                "X": 25.71138,
+                "Y": 378.55273,
+                "Z": 268.96466
+              },
+              {
+                "X": -87.53674,
+                "Y": 410.0939,
+                "Z": 375.85468
+              },
+              {
+                "X": -5.7556686,
+                "Y": -225.45755,
+                "Z": 281.47852
+              },
+              {
+                "X": -147.9464,
+                "Y": 140.35866,
+                "Z": 229.91174
+              },
+              {
+                "X": -10.042462,
+                "Y": 247.62671,
+                "Z": 199.01833
+              },
+              {
+                "X": -30.940395,
+                "Y": 108.057655,
+                "Z": 350.66928
+              },
+              {
+                "X": 19.410583,
+                "Y": -17.795967,
+                "Z": 281.47852
+              },
+              {
+                "X": 0.5266571,
+                "Y": -225.45755,
+                "Z": 174.54907
+              },
+              {
+                "X": -93.83755,
+                "Y": 265.2658,
+                "Z": 363.26196
+              },
+              {
+                "X": 0.5266571,
+                "Y": 410.0939,
+                "Z": 281.4982
+              },
+              {
+                "X": 31.484766,
+                "Y": -151.35002,
+                "Z": 221.82317
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -156.75317,
+                "Y": -225.45755,
+                "Z": 173.0303
+              },
+              "Max": {
+                "X": 31.484766,
+                "Y": 410.0939,
+                "Z": 375.85468
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "VertexData": [
+              {
+                "X": 222.18039,
+                "Y": -46.68367,
+                "Z": 86.5507
+              },
+              {
+                "X": 189.64705,
+                "Y": -58.529163,
+                "Z": 292.8727
+              },
+              {
+                "X": 151.57178,
+                "Y": 391.21613,
+                "Z": 105.32561
+              },
+              {
+                "X": 151.57178,
+                "Y": -389.06488,
+                "Z": 17.24022
+              },
+              {
+                "X": 239.65077,
+                "Y": -388.98853,
+                "Z": 205.9906
+              },
+              {
+                "X": 189.32115,
+                "Y": -388.98853,
+                "Z": 281.46808
+              },
+              {
+                "X": 227.5382,
+                "Y": 22.26566,
+                "Z": 214.16559
+              },
+              {
+                "X": 164.16064,
+                "Y": 290.4731,
+                "Z": 42.399376
+              },
+              {
+                "X": 227.05327,
+                "Y": -351.25763,
+                "Z": 67.58687
+              },
+              {
+                "X": 189.3384,
+                "Y": 366.0113,
+                "Z": 143.09268
+              },
+              {
+                "X": 184.2068,
+                "Y": -55.900078,
+                "Z": 30.042261
+              },
+              {
+                "X": 232.08998,
+                "Y": -56.167328,
+                "Z": 119.18219
+              },
+              {
+                "X": 220.76746,
+                "Y": -388.98853,
+                "Z": 262.5987
+              },
+              {
+                "X": 239.6594,
+                "Y": -389.06488,
+                "Z": 111.6154
+              },
+              {
+                "X": 153.83727,
+                "Y": -40.58292,
+                "Z": 18.366186
+              },
+              {
+                "X": 206.81232,
+                "Y": 23.357338,
+                "Z": 261.95963
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": 151.57178,
+                "Y": -389.06488,
+                "Z": 17.24022
+              },
+              "Max": {
+                "X": 239.6594,
+                "Y": 391.21613,
+                "Z": 292.8727
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "AD4D094B4E5D3409FE02F18EBBB18853",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 325722,
+        "SizeOnDisk": 325722,
+        "OffsetInFile": "0x1E7B72"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Outer": "AircraftTorpedoWCrate",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 7605,
+        "SizeOnDisk": 7605,
+        "OffsetInFile": "0x237414"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "AircraftTorpedoWCrate",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftTorpedoWEngine02'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/Materials/AircraftTorpedoWEngine02.0"
+          },
+          "MaterialSlotName": "AircraftTorpedoWEngine",
+          "ImportedMaterialSlotName": "AircraftTorpedoWEngine",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 950.3989,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftTorpedoWHull02'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/Materials/AircraftTorpedoWHull02.0"
+          },
+          "MaterialSlotName": "AircraftTorpedoWHull",
+          "ImportedMaterialSlotName": "AircraftTorpedoWHull",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1023.41315,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftTorpedoWCockpit'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/Materials/AircraftTorpedoWCockpit.0"
+          },
+          "MaterialSlotName": "AircraftTorpedoWCockpit",
+          "ImportedMaterialSlotName": "AircraftTorpedoWCockpit",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 459.26727,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 940.1709,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -2.2930298,
+          "Y": 1.0756226,
+          "Z": 190.18779
+        },
+        "BoxExtent": {
+          "X": 239.4306,
+          "Y": 405.87195,
+          "Z": 182.41199
+        },
+        "SphereRadius": 461.72913
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'AircraftTorpedoWCrate:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/Meshes/AircraftTorpedoWCrate.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'AircraftTorpedoWCrate:NavCollision_2'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/Meshes/AircraftTorpedoWCrate.1"
+    },
+    "LightingGuid": "6232062D-45F6BBD0-AF75B5A5-14A2583F",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 4356,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 9071,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 13068,
+              "NumTriangles": 4919,
+              "MinVertexIndex": 9072,
+              "MaxVertexIndex": 19768,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 27825,
+              "NumTriangles": 1606,
+              "MinVertexIndex": 19769,
+              "MaxVertexIndex": 22828,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 22829
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 22829,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 2501,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 6093,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 7503,
+              "NumTriangles": 2538,
+              "MinVertexIndex": 6094,
+              "MaxVertexIndex": 12333,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 15117,
+              "NumTriangles": 401,
+              "MinVertexIndex": 12334,
+              "MaxVertexIndex": 13148,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 43.13018,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 13149
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 13149,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": -2.2930298,
+          "Y": 1.0756226,
+          "Z": 190.18779
+        },
+        "BoxExtent": {
+          "X": 239.4306,
+          "Y": 405.87195,
+          "Z": 182.41199
+        },
+        "SphereRadius": 461.72913
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.2547599,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

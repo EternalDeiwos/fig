@@ -1,0 +1,322 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "DiveBomberAmmoExplosion_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DiveBomberAmmoExplosion_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'DiveBomberAmmoExplosion_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.12"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'DiveBomberAmmoExplosion_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'DiveBomberAmmoExplosion_C:ExecuteUbergraph_DiveBomberAmmoExplosion'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'WarExplosionEffect'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'DiveBomberAmmoExplosion_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.0"
+      },
+      {
+        "ObjectName": "Function'DiveBomberAmmoExplosion_C:ReceiveBeginPlay'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.6"
+      },
+      {
+        "ObjectName": "Function'DiveBomberAmmoExplosion_C:ExecuteUbergraph_DiveBomberAmmoExplosion'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'DiveBomberAmmoExplosion_C:RadialForce'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.3"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_DiveBomberAmmoExplosion": {
+        "ObjectName": "Function'DiveBomberAmmoExplosion_C:ExecuteUbergraph_DiveBomberAmmoExplosion'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.5"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'DiveBomberAmmoExplosion_C:ReceiveBeginPlay'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.6"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DiveBomberAmmoExplosion_C'Default__DiveBomberAmmoExplosion_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.2"
+    }
+  },
+  {
+    "Type": "DiveBomberAmmoExplosion_C",
+    "Name": "Default__DiveBomberAmmoExplosion_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/DiveBomberAmmoExplosion.DiveBomberAmmoExplosion_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ParticleSystemOverrides": [
+        {
+          "PhysicalSurface": "SurfaceType_Default",
+          "ExplosionFX": {
+            "ObjectName": "ParticleSystem'HowitzerImpact'",
+            "ObjectPath": "War/Content/FX/HowitzerImpact.189"
+          },
+          "ExplosionSFX": null,
+          "Decal": {
+            "DecalMaterial": null,
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          }
+        },
+        {
+          "PhysicalSurface": "SurfaceType2",
+          "ExplosionFX": {
+            "ObjectName": "ParticleSystem'ArtilleryImpactSplash'",
+            "ObjectPath": "War/Content/FX/ArtilleryImpactSplash.98"
+          },
+          "ExplosionSFX": {
+            "ObjectName": "SoundCue'ArtilleryHeavyExplosionWater_Cue'",
+            "ObjectPath": "War/Content/Audio/SFX/Weapons/StaticArtillery/ArtilleryHeavyExplosionWater_Cue.0"
+          },
+          "Decal": {
+            "DecalMaterial": null,
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          }
+        },
+        {
+          "PhysicalSurface": "SurfaceType8",
+          "ExplosionFX": {
+            "ObjectName": "ParticleSystem'HowitzerMetalImpact'",
+            "ObjectPath": "War/Content/FX/HowitzerMetalImpact.189"
+          },
+          "ExplosionSFX": null,
+          "Decal": {
+            "DecalMaterial": null,
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          }
+        },
+        {
+          "PhysicalSurface": "SurfaceType1",
+          "ExplosionFX": {
+            "ObjectName": "ParticleSystem'HowitzerImpact'",
+            "ObjectPath": "War/Content/FX/HowitzerImpact.189"
+          },
+          "ExplosionSFX": null,
+          "Decal": {
+            "DecalMaterial": null,
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          }
+        },
+        {
+          "PhysicalSurface": "SurfaceType4",
+          "ExplosionFX": {
+            "ObjectName": "ParticleSystem'HowitzerImpact'",
+            "ObjectPath": "War/Content/FX/HowitzerImpact.189"
+          },
+          "ExplosionSFX": null,
+          "Decal": {
+            "DecalMaterial": null,
+            "DecalSize": {
+              "X": 32.0,
+              "Y": 32.0,
+              "Z": 32.0
+            },
+            "LifeSpan": 10.0,
+            "FadeScreenSize": 0.01
+          }
+        }
+      ],
+      "ExplosionLightFadeOut": 0.15,
+      "ExplosionSound": {
+        "ObjectName": "SoundCue'ArtilleryLightExplosion_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Weapons/StaticArtillery/ArtilleryLightExplosion_Cue.0"
+      },
+      "ExplosionLight": {
+        "ObjectName": "PointLightComponent'Default__DiveBomberAmmoExplosion_C:ExplosionLight'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.7"
+      },
+      "RootComponent": {
+        "ObjectName": "PointLightComponent'Default__DiveBomberAmmoExplosion_C:ExplosionLight'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.7"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RadialForce",
+    "Outer": "DiveBomberAmmoExplosion_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'RadialForceComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_DiveBomberAmmoExplosion",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_DiveBomberAmmoExplosion",
+    "Outer": "DiveBomberAmmoExplosion_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'DiveBomberAmmoExplosion_C:ExecuteUbergraph_DiveBomberAmmoExplosion.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.4"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "DiveBomberAmmoExplosion_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "ExplosionLight",
+    "Outer": "Default__DiveBomberAmmoExplosion_C",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "AttenuationRadius": 2000.0,
+      "Intensity": 0.0
+    }
+  },
+  {
+    "Type": "RadialForceComponent",
+    "Name": "RadialForce_GEN_VARIABLE",
+    "Outer": "DiveBomberAmmoExplosion_C",
+    "Class": "UScriptClass'RadialForceComponent'",
+    "Properties": {
+      "Radius": 500.0,
+      "ImpulseStrength": 100000.0,
+      "DestructibleDamage": 100.0
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "DiveBomberAmmoExplosion_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'DiveBomberAmmoExplosion_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.9"
+      },
+      "VariableGuid": "35C045D8-452EB1F5-54BD16A3-BDF4E627",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'RadialForceComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "RadialForceComponent'DiveBomberAmmoExplosion_C:RadialForce_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.8"
+      },
+      "ParentComponentOrVariableName": "ExplosionLight",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "721E6FE1-44385984-B4DA6DA5-D771A7CE",
+      "InternalVariableName": "RadialForce"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "DiveBomberAmmoExplosion_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'DiveBomberAmmoExplosion_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.11"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'DiveBomberAmmoExplosion_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.11"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'DiveBomberAmmoExplosion_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/DiveBomberAmmoExplosion.10"
+      }
+    }
+  }
+]

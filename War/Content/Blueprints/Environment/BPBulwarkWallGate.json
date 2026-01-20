@@ -1,0 +1,341 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh",
+    "Outer": "BPBulwarkWallGate_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPBulwarkWallGate_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPBulwarkWallGate_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.13"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPBulwarkWallGate_C:StaticMesh'",
+        "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPBulwarkWallGate_C:BulwarkKeepInteriorDoor'",
+        "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPBulwarkWallGate_C:BulwarkWallGateDoor'",
+        "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPBulwarkWallGate_C:BulwarkWallGate'",
+        "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPBulwarkWallGate_C:DefaultSceneRoot'",
+        "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.6"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPBulwarkWallGate_C'Default__BPBulwarkWallGate_C'",
+      "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.2"
+    }
+  },
+  {
+    "Type": "BPBulwarkWallGate_C",
+    "Name": "Default__BPBulwarkWallGate_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Environment/BPBulwarkWallGate.BPBulwarkWallGate_C'"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BulwarkKeepInteriorDoor",
+    "Outer": "BPBulwarkWallGate_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BulwarkWallGate",
+    "Outer": "BPBulwarkWallGate_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BulwarkWallGateDoor",
+    "Outer": "BPBulwarkWallGate_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BPBulwarkWallGate_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPBulwarkWallGate_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPBulwarkWallGate_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.7"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPBulwarkWallGate_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BPBulwarkWallGate_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BPBulwarkWallGate_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BPBulwarkWallGate_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.12"
+        }
+      ],
+      "VariableGuid": "B354AC4C-46494D0C-31EB3E99-4915FA74",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPBulwarkWallGate_C:BulwarkWallGate_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.15"
+      },
+      "VariableGuid": "BF09C666-45CC7E9B-5818F28F-363BFC81",
+      "InternalVariableName": "BulwarkWallGate"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPBulwarkWallGate_C:BulwarkWallGateDoor_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.16"
+      },
+      "VariableGuid": "8C477166-41DCA6DA-EA70DEBF-F345A828",
+      "InternalVariableName": "BulwarkWallGateDoor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPBulwarkWallGate_C:BulwarkKeepInteriorDoor_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.14"
+      },
+      "VariableGuid": "BEDCF7CA-456AD81E-B2AD3AB9-C005741E",
+      "InternalVariableName": "BulwarkKeepInteriorDoor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPBulwarkWallGate_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.17"
+      },
+      "VariableGuid": "C78D5BA3-41AF475D-2714F883-A2C378A6",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPBulwarkWallGate_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPBulwarkWallGate_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.8"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPBulwarkWallGate_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.8"
+        },
+        {
+          "ObjectName": "SCS_Node'BPBulwarkWallGate_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BPBulwarkWallGate_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BPBulwarkWallGate_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BPBulwarkWallGate_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.12"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPBulwarkWallGate_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Environment/BPBulwarkWallGate.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BulwarkKeepInteriorDoor_GEN_VARIABLE",
+    "Outer": "BPBulwarkWallGate_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BulwarkKeepInteriorDoor'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/BulwarkKeepInteriorDoor.2"
+      },
+      "RelativeLocation": {
+        "X": -10.000122,
+        "Y": -9.998192,
+        "Z": 475.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -450.0007,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BulwarkWallGate_GEN_VARIABLE",
+    "Outer": "BPBulwarkWallGate_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BulwarkWallGate'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/BulwarkWallGate.2"
+      },
+      "ComponentTags": [
+        "CraneArmBlocker"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BulwarkWallGateDoor_GEN_VARIABLE",
+    "Outer": "BPBulwarkWallGate_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BulwarkWallGateDoor'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/BulwarkWallGateDoor.2"
+      },
+      "bReceivesDecals": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 547.08704
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BPBulwarkWallGate_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BulwarkKeepInteriorDoor'",
+        "ObjectPath": "War/Content/Meshes/Environment/Props/BulwarkKeepInteriorDoor.2"
+      },
+      "RelativeLocation": {
+        "X": -3560.0,
+        "Y": -9.931417,
+        "Z": 475.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -630.00104,
+        "Roll": 0.0
+      }
+    }
+  }
+]

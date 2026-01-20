@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftBomberCBomberMountComponent_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'AirBomberMountComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftBomberCBomberMountComponent_C'Default__BPAircraftBomberCBomberMountComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/BPAircraftBomberCBomberMountComponent.1"
+    }
+  },
+  {
+    "Type": "BPAircraftBomberCBomberMountComponent_C",
+    "Name": "Default__BPAircraftBomberCBomberMountComponent_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Aircraft/BPAircraftBomberCBomberMountComponent.BPAircraftBomberCBomberMountComponent_C'",
+    "Properties": {
+      "ProjectileClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPBomberProjectile_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPBomberProjectile.1"
+      },
+      "bIsAutomaticFire": true,
+      "DisplayName": {
+        "TableId": "/Game/Blueprints/StringTables/STMounts.STMounts",
+        "Key": "MountBombardier",
+        "SourceString": "Bombardier",
+        "LocalizedString": "Bombardier"
+      },
+      "AmmoName": "BomberAmmo",
+      "Icon": {
+        "ObjectName": "Texture2D'PlaceholderIcon'",
+        "ObjectPath": "/Game/Blueprints/Prototypes/PlaceholderIcon"
+      },
+      "ActivityStateInfos[3]": {
+        "IsLooping": true,
+        "Duration": 0.25
+      }
+    }
+  }
+]

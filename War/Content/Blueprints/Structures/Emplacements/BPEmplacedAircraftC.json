@@ -1,0 +1,722 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "RotatorTrigger",
+    "Outer": "BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPEmplacedAircraftC_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.19"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'EmplacedArtillery'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPEmplacedAircraftC_C:RotatorTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPEmplacedAircraftC_C:RotatorSeat1'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.9"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPEmplacedAircraftC_C:GunnerTrigger'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPEmplacedAircraftC_C:GunnerSeat0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPEmplacedAircraftC_C:MultiplexedSkeletalMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.8"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPEmplacedAircraftC_C'Default__BPEmplacedAircraftC_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.2"
+    }
+  },
+  {
+    "Type": "BPEmplacedAircraftC_C",
+    "Name": "Default__BPEmplacedAircraftC_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.BPEmplacedAircraftC_C'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BPEmplacedAircraftC_C:SkeletalMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.21"
+      },
+      "FoundationMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BPEmplacedAircraftC_C:FoundationMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.20"
+      },
+      "MuzzleInfo": [
+        {
+          "GunnerIndex": 0,
+          "MuzzleIndex": 0,
+          "SocketName": "S_Muzzle"
+        }
+      ],
+      "bIsInAntiAircraftMode": true,
+      "BuildGhostClass": null,
+      "BuildSiteClass": {
+        "ObjectName": "Class'StructureBuildSite'",
+        "ObjectPath": "/Script/War"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3DBF01604A65817FC6EC43AC88EDCB4F",
+        "SourceString": "A sturdy, stationary cannon for bombarding low-flying enemy aircraft with explosive shells. The DAE 5b anti-aircraft emplacement has become infamous for walls of black smoke its payload leaves behind.",
+        "LocalizedString": "A sturdy, stationary cannon for bombarding low-flying enemy aircraft with explosive shells. The DAE 5b anti-aircraft emplacement has become infamous for walls of black smoke its payload leaves behind."
+      },
+      "ShippableInfo": {
+        "Type": "EShippableType::Normal"
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'EmplacedAircraftCIcon'",
+        "ObjectPath": "War/Content/Textures/UI/VehicleIcons/EmplacedAircraftCIcon.0"
+      },
+      "BuildCategory": "EBuildCategory::Shippables",
+      "BuildLocationType": "EBuildLocationType::Facility",
+      "ValidBuildTools": 49,
+      "FactionVariant": "EFactionId::Colonials",
+      "PackagedMesh": {
+        "ObjectName": "StaticMesh'EmplacedAircraftCPacked'",
+        "ObjectPath": "War/Content/Meshes/Structures/EmplacedAircraftCPacked.2"
+      },
+      "CodeName": "EmplacedAircraftC",
+      "ChassisName": {
+        "Namespace": "",
+        "Key": "B5132B9447EFD98F59819B856CC8E968",
+        "SourceString": "Emplaced Anti-Air Cannon",
+        "LocalizedString": "Emplaced Anti-Air Cannon"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "3B03526848A7FE14C7114E88221457A8",
+        "SourceString": "DAE 5b “Zeal”",
+        "LocalizedString": "DAE 5b “Zeal”"
+      },
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPEmplacedAircraftC_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPEmplacedAircraftC_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.4"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'GrenadeBlast'",
+        "ObjectPath": "War/Content/FX/GrenadeBlast.151"
+      },
+      "TechID": "ETechID::UnlockEmplacedAircraft",
+      "MaxHealth": 1250,
+      "Health": 1250,
+      "IsVaultable": false,
+      "MapIntelligenceType": "EMapIntelligenceType::Howitzer",
+      "bIsStockpilable": true,
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPEmplacedAircraftC_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.22"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPEmplacedAircraftC_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 240.0,
+        "Y": 240.0,
+        "Z": 150.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPEmplacedAircraftC_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 152.0
+      }
+    }
+  },
+  {
+    "Type": "MultiplexedSkeletalMeshComponent",
+    "Name": "MultiplexedSkeletalMesh_GEN_VARIABLE",
+    "Outer": "BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'MultiplexedSkeletalMeshComponent'",
+    "Properties": {
+      "TargetTag": "Multiplexed",
+      "MeshStops": [
+        {
+          "Threshold": 0,
+          "SkeletalMesh": {
+            "ObjectName": "SkeletalMesh'SK_EmplacedAircraftCCritical'",
+            "ObjectPath": "War/Content/Meshes/Structures/SK_EmplacedAircraftCCritical.0"
+          }
+        },
+        {
+          "Threshold": 33,
+          "SkeletalMesh": {
+            "ObjectName": "SkeletalMesh'SK_EmplacedAircraftCDamage'",
+            "ObjectPath": "War/Content/Meshes/Structures/SK_EmplacedAircraftCDamage.0"
+          }
+        },
+        {
+          "Threshold": 66,
+          "SkeletalMesh": {
+            "ObjectName": "SkeletalMesh'SK_EmplacedAircraftC'",
+            "ObjectPath": "War/Content/Meshes/Structures/SK_EmplacedAircraftC.0"
+          }
+        }
+      ],
+      "InputValue": 100,
+      "SelectedMeshIndex": 2
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "GunnerSeat0",
+    "Outer": "BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StructureSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "GunnerTrigger",
+    "Outer": "BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SeatTriggerComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MultiplexedSkeletalMesh",
+    "Outer": "BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'MultiplexedSkeletalMeshComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RotatorSeat1",
+    "Outer": "BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StructureSeatComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPEmplacedAircraftC_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.10"
+      },
+      "VariableGuid": "6F9A620C-4B15380B-2CC77895-979D14F2",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MultiplexedSkeletalMeshComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MultiplexedSkeletalMeshComponent'BPEmplacedAircraftC_C:MultiplexedSkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.5"
+      },
+      "VariableGuid": "7E269B41-44D05ECF-650A2F99-93625811",
+      "InternalVariableName": "MultiplexedSkeletalMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StructureSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StructureSeatComponent'BPEmplacedAircraftC_C:GunnerSeat0_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.23"
+      },
+      "AttachToName": "horizontal_pivot",
+      "ParentComponentOrVariableName": "SkeletalMesh",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPEmplacedAircraftC_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.14"
+        }
+      ],
+      "VariableGuid": "BEC951A4-41E7BCEF-3435D6AE-FFBD4C0E",
+      "InternalVariableName": "GunnerSeat0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPEmplacedAircraftC_C:GunnerTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.17"
+      },
+      "VariableGuid": "F13533E1-4211C81A-75ACEBAC-EFC2EAD6",
+      "InternalVariableName": "GunnerTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StructureSeatComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StructureSeatComponent'BPEmplacedAircraftC_C:RotatorSeat1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.24"
+      },
+      "AttachToName": "horizontal_pivot",
+      "ParentComponentOrVariableName": "SkeletalMesh",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPEmplacedAircraftC_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.16"
+        }
+      ],
+      "VariableGuid": "323D86A9-49B28F90-3D7124A0-DA2C4F67",
+      "InternalVariableName": "RotatorSeat1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SeatTriggerComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SeatTriggerComponent'BPEmplacedAircraftC_C:RotatorTrigger_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.18"
+      },
+      "VariableGuid": "5F839353-40293413-017D3FAD-A67DDBE2",
+      "InternalVariableName": "RotatorTrigger"
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "GunnerTrigger_GEN_VARIABLE",
+    "Outer": "BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -28.13779,
+        "Y": 60.942566,
+        "Z": -85.819664
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 5.4210083E-20,
+        "Roll": 8.1422163E-13
+      }
+    }
+  },
+  {
+    "Type": "SeatTriggerComponent",
+    "Name": "RotatorTrigger_GEN_VARIABLE",
+    "Outer": "BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'SeatTriggerComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -63.747375,
+        "Y": -49.999992,
+        "Z": -85.26251
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 5.4210083E-20,
+        "Roll": 8.1422163E-13
+      }
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPEmplacedAircraftC_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BPEmplacedAircraftC_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BPEmplacedAircraftC_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.15"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPEmplacedAircraftC_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BPEmplacedAircraftC_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BPEmplacedAircraftC_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BPEmplacedAircraftC_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BPEmplacedAircraftC_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.16"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPEmplacedAircraftC_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.11"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "FoundationMesh",
+    "Outer": "Default__BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_HeavyArtilleryFoundationC'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/SK_HeavyArtilleryFoundationC.0"
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPEmplacedAircraftC_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 15.0
+      },
+      "ComponentTags": [
+        "IncludeInBuildSite"
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMesh",
+    "Outer": "Default__BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABPEmplaceAircraftC_C'",
+        "ObjectPath": "War/Content/Animation/Field_vehicles/EmplacedAircraftC/ABPEmplaceAircraftC.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_EmplacedAircraftC'",
+        "ObjectPath": "War/Content/Meshes/Structures/SK_EmplacedAircraftC.0"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPEmplacedAircraftC_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftC.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 53.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "Multiplexed",
+        "IncludeInBuildSite",
+        "IncludeInBuildGhost"
+      ]
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "StructureSeatComponent",
+    "Name": "GunnerSeat0_GEN_VARIABLE",
+    "Outer": "BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'StructureSeatComponent'",
+    "Properties": {
+      "SafeSpawnOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 260.0
+      },
+      "bProvidesFullCover": false,
+      "bTeleportBack": false,
+      "bCanOccupantSeeThroughEverything": true,
+      "bCheckForPlayersOnOccupy": true,
+      "bOccupantCrouches": false,
+      "TriggerName": "GunnerTrigger",
+      "MountCodeName": "EmplacedAircraftCGunner",
+      "bIsExposed": true,
+      "MountComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BPEmplacedAircraftGunner_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftGunner.0"
+      },
+      "RelativeLocation": {
+        "X": -102.99857,
+        "Y": -38.749325,
+        "Z": 107.449295
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99999,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StructureSeatComponent",
+    "Name": "RotatorSeat1_GEN_VARIABLE",
+    "Outer": "BPEmplacedAircraftC_C",
+    "Class": "UScriptClass'StructureSeatComponent'",
+    "Properties": {
+      "bProvidesFullCover": false,
+      "bTeleportBack": false,
+      "bCheckForPlayersOnOccupy": true,
+      "bOccupantCrouches": false,
+      "Index": 1,
+      "TriggerName": "RotatorTrigger",
+      "MountCodeName": "EmplacedAircraftCRotator",
+      "bIsExposed": true,
+      "MountComponent": {
+        "ObjectName": "BlueprintGeneratedClass'BPEmplacedAircraftCRotator_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Emplacements/BPEmplacedAircraftCRotator.0"
+      },
+      "RelativeLocation": {
+        "X": 102.04478,
+        "Y": 0.40073517,
+        "Z": 107.48421
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99999,
+        "Roll": 0.0
+      }
+    }
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "CollisionPlaceholder_Cue",
+    "Class": "UScriptClass'SoundCue'",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeWavePlayer'CollisionPlaceholder_Cue:SoundNodeWavePlayer_0'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/CollisionPlaceholder_Cue.1"
+      },
+      "VolumeMultiplier": 1.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Foley'",
+        "ObjectPath": "War/Content/Audio/SoundClasses/Foley.0"
+      },
+      "Duration": 0.7662585,
+      "MaxDistance": 2097152.0
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Outer": "CollisionPlaceholder_Cue",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Blueprints/Vehicles/Aircraft/CollisionPlaceholder.CollisionPlaceholder",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'CollisionPlaceholder'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/CollisionPlaceholder.0"
+    }
+  }
+]

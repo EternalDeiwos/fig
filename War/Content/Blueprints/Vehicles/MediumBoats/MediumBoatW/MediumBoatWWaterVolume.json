@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "MediumBoatWWaterVolume",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "44272BF2473926B824A720988944502A",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 4841,
+        "SizeOnDisk": 4841,
+        "OffsetInFile": "0x6B55"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "MediumBoatWWaterVolume",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x7E86"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "MediumBoatWWaterVolume",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "ImportedMaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": -363.9984,
+          "Z": 0.56247175
+        },
+        "BoxExtent": {
+          "X": 260.9514,
+          "Y": 932.4171,
+          "Z": 0.578369
+        },
+        "SphereRadius": 941.08374
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'MediumBoatWWaterVolume:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatW/MediumBoatWWaterVolume.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'MediumBoatWWaterVolume:NavCollision_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/MediumBoats/MediumBoatW/MediumBoatWWaterVolume.1"
+    },
+    "LightingGuid": "7804C3FA-4107B80C-F6D8C2B5-7120B59A",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 180,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 269,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 270
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 270,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": -363.9984,
+          "Z": 0.56247175
+        },
+        "BoxExtent": {
+          "X": 260.9514,
+          "Y": 932.4171,
+          "Z": 0.578369
+        },
+        "SphereRadius": 941.08374
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

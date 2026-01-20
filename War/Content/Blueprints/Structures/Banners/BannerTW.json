@@ -1,0 +1,302 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BannerTW",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "453C783244853D0F96654D9B2204FAE7",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 45569,
+        "SizeOnDisk": 45569,
+        "OffsetInFile": "0x37FFB"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_1",
+    "Outer": "BannerTW",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x43244"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "BannerTW",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'Windsock'",
+            "ObjectPath": "War/Content/Materials/Weapons/Windsock.0"
+          },
+          "MaterialSlotName": "windsock",
+          "ImportedMaterialSlotName": "windsock",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 262.84375,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'TripodBanner'",
+            "ObjectPath": "War/Content/Blueprints/Structures/Banners/TripodBanner.0"
+          },
+          "MaterialSlotName": "TripodBanner",
+          "ImportedMaterialSlotName": "TripodBanner",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 407.55048,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'TripodBannerClothW'",
+            "ObjectPath": "War/Content/Blueprints/Structures/Banners/TripodBannerClothW.0"
+          },
+          "MaterialSlotName": "TripodBannerColor",
+          "ImportedMaterialSlotName": "TripodBannerColor",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 421.3234,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'TripodBanner_cloth1'",
+            "ObjectPath": "War/Content/Blueprints/Structures/Banners/TripodBanner_cloth1.0"
+          },
+          "MaterialSlotName": "TripodBannerColor01",
+          "ImportedMaterialSlotName": "TripodBannerColor01",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 396.34375,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 379.8952,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 1.9096012,
+          "Z": 277.34598
+        },
+        "BoxExtent": {
+          "X": 101.44232,
+          "Y": 22.779613,
+          "Z": 283.02216
+        },
+        "SphereRadius": 284.11368
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'BannerTW:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Banners/BannerTW.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'BannerTW:NavCollision_1'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Banners/BannerTW.1"
+    },
+    "LightingGuid": "85F9D5A4-4ADC8534-E6037789-79BE893E",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 0,
+              "NumTriangles": 176,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 107,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 528,
+              "NumTriangles": 256,
+              "MinVertexIndex": 108,
+              "MaxVertexIndex": 461,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 1296,
+              "NumTriangles": 628,
+              "MinVertexIndex": 462,
+              "MaxVertexIndex": 1083,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 3180,
+              "NumTriangles": 500,
+              "MinVertexIndex": 1084,
+              "MaxVertexIndex": 1375,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 1376
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 1376,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 0,
+              "NumTriangles": 4,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 5,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 12,
+              "NumTriangles": 210,
+              "MinVertexIndex": 6,
+              "MaxVertexIndex": 313,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 642,
+              "NumTriangles": 427,
+              "MinVertexIndex": 314,
+              "MaxVertexIndex": 760,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 1923,
+              "NumTriangles": 139,
+              "MinVertexIndex": 761,
+              "MaxVertexIndex": 859,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 2.1532896,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 860
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 860,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 1.9096012,
+          "Z": 277.34598
+        },
+        "BoxExtent": {
+          "X": 101.44232,
+          "Y": 22.779613,
+          "Z": 283.02216
+        },
+        "SphereRadius": 284.11368
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

@@ -1,0 +1,185 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPWeatherManager_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'WeatherManager'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPWeatherManager_C'Default__BPWeatherManager_C'",
+      "ObjectPath": "War/Content/Blueprints/Weather/BPWeatherManager.1"
+    }
+  },
+  {
+    "Type": "BPWeatherManager_C",
+    "Name": "Default__BPWeatherManager_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Weather/BPWeatherManager.BPWeatherManager_C'",
+    "Properties": {
+      "DataClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPWeatherData_C'",
+        "ObjectPath": "/Game/Blueprints/Weather/BPWeatherData"
+      },
+      "WeatherEffects": [
+        {
+          "Key": "EWeatherType::RainStorm",
+          "Value": {
+            "EffectsActors": [
+              {
+                "ActorClass": {
+                  "ObjectName": "BlueprintGeneratedClass'BPRainStormMinor_C'",
+                  "ObjectPath": "War/Content/Blueprints/Weather/Effects/BPRainStormMinor.1"
+                },
+                "IntensityThreshold": 0.0
+              },
+              {
+                "ActorClass": {
+                  "ObjectName": "BlueprintGeneratedClass'BPRainStormModerate_C'",
+                  "ObjectPath": "War/Content/Blueprints/Weather/Effects/BPRainStormModerate.1"
+                },
+                "IntensityThreshold": 0.33
+              },
+              {
+                "ActorClass": {
+                  "ObjectName": "BlueprintGeneratedClass'BPRainStormMajor_C'",
+                  "ObjectPath": "War/Content/Blueprints/Weather/Effects/BPRainStormMajor.1"
+                },
+                "IntensityThreshold": 0.66
+              }
+            ],
+            "MaterialParameter": {
+              "Name": "RainRoughness",
+              "Start": 1.0,
+              "End": 0.1
+            },
+            "OffroadPenalty": 0.0,
+            "MinVisibility": 0.0,
+            "MaxVisibility": 0.0
+          }
+        },
+        {
+          "Key": "EWeatherType::SnowStorm",
+          "Value": {
+            "EffectsActors": [
+              {
+                "ActorClass": {
+                  "ObjectName": "BlueprintGeneratedClass'BPSnowStormMinor_C'",
+                  "ObjectPath": "War/Content/Blueprints/Weather/Effects/BPSnowStormMinor.1"
+                },
+                "IntensityThreshold": 0.0
+              },
+              {
+                "ActorClass": {
+                  "ObjectName": "BlueprintGeneratedClass'BPSnowStormModerate_C'",
+                  "ObjectPath": "War/Content/Blueprints/Weather/Effects/BPSnowStormModerate.1"
+                },
+                "IntensityThreshold": 0.33
+              },
+              {
+                "ActorClass": {
+                  "ObjectName": "BlueprintGeneratedClass'BPSnowStormMajor_C'",
+                  "ObjectPath": "War/Content/Blueprints/Weather/Effects/BPSnowStormMajor.1"
+                },
+                "IntensityThreshold": 0.66
+              }
+            ],
+            "MaterialParameter": {
+              "Name": "WeatherSnowControl",
+              "Start": 0.0,
+              "End": 1.0
+            },
+            "OffroadPenalty": 0.4,
+            "MinVisibility": 2500.0,
+            "MaxVisibility": 5000.0
+          }
+        },
+        {
+          "Key": "EWeatherType::Cloudy",
+          "Value": {
+            "EffectsActors": [],
+            "MaterialParameter": {
+              "Name": "None",
+              "Start": 0.0,
+              "End": 0.0
+            },
+            "OffroadPenalty": 0.0,
+            "MinVisibility": 0.0,
+            "MaxVisibility": 0.0
+          }
+        }
+      ],
+      "WeatherControl": {
+        "ObjectName": "MaterialParameterCollection'WeatherControl'",
+        "ObjectPath": "War/Content/Materials/Collections/WeatherControl.0"
+      },
+      "WeatherIceControl": {
+        "ObjectName": "MaterialParameterCollection'WeatherIceControl'",
+        "ObjectPath": "War/Content/Materials/Collections/WeatherIceControl.0"
+      },
+      "IntensityCurves": [
+        {
+          "ObjectName": "CurveFloat'WeatherIntensityCurveMildShort'",
+          "ObjectPath": "War/Content/Blueprints/Weather/WeatherIntensityCurveMildShort.0"
+        },
+        {
+          "ObjectName": "CurveFloat'WeatherIntensityCurveMildLong'",
+          "ObjectPath": "War/Content/Blueprints/Weather/WeatherIntensityCurveMildLong.0"
+        },
+        {
+          "ObjectName": "CurveFloat'WeatherIntensityCurveStrongShort'",
+          "ObjectPath": "War/Content/Blueprints/Weather/WeatherIntensityCurveStrongShort.0"
+        },
+        {
+          "ObjectName": "CurveFloat'WeatherIntensityCurveStrongLong'",
+          "ObjectPath": "War/Content/Blueprints/Weather/WeatherIntensityCurveStrongLong.0"
+        },
+        {
+          "ObjectName": "CurveFloat'WeatherIntensityCurveStrongLongMixed'",
+          "ObjectPath": "War/Content/Blueprints/Weather/WeatherIntensityCurveStrongLongMixed.0"
+        }
+      ],
+      "VisualsIntensityCurve": {
+        "ObjectName": "CurveFloat'VisualsIntensityCurve'",
+        "ObjectPath": "War/Content/Blueprints/Weather/VisualsIntensityCurve.0"
+      },
+      "FogVisibilityMultiplier": 1.25,
+      "FogMaterial": {
+        "ObjectName": "Material'WeatherFog'",
+        "ObjectPath": "War/Content/Materials/PostProcess/WeatherFog.0"
+      },
+      "FogBlendCurve": {
+        "ObjectName": "CurveFloat'FogBlendCurve'",
+        "ObjectPath": "War/Content/Blueprints/Weather/FogBlendCurve.0"
+      },
+      "CloudParameter": {
+        "Name": "Clouds",
+        "Start": 1.0,
+        "End": 1.0
+      },
+      "WindParameter": {
+        "Name": "FoliageWeatherSpeed",
+        "End": 0.5
+      },
+      "EffectsOffset": {
+        "X": 1200.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "EffectsLookAheadScale": 1.5,
+      "SnowyPhysicalMaterials": [
+        {
+          "ObjectName": "PhysicalMaterial'SnowPhys'",
+          "ObjectPath": "War/Content/PhysicalMaterials/SnowPhys.0"
+        }
+      ]
+    }
+  }
+]

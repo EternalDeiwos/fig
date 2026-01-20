@@ -1,0 +1,217 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "ItemMeshSK",
+    "Outer": "BPAAAmmoPickup_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SkeletalMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAAAmmoPickup_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPAAAmmoPickup_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAAAmmoPickup.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ExplosiveAmmoPickup'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPAAAmmoPickup_C:ItemMeshSK'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAAAmmoPickup.0"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAAAmmoPickup_C'Default__BPAAAmmoPickup_C'",
+      "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAAAmmoPickup.2"
+    }
+  },
+  {
+    "Type": "BPAAAmmoPickup_C",
+    "Name": "Default__BPAAAmmoPickup_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/ItemPickups/BPAAAmmoPickup.BPAAAmmoPickup_C'",
+    "Properties": {
+      "DirectFireExplosionClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPAntiAircraftExplosion_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAntiAircraftExplosion.1"
+      },
+      "ShotSoundCue": {
+        "ObjectName": "SoundCue'AAShot01_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Structure/Aircraft/AAShot01_Cue.0"
+      },
+      "bSupportsDirectFireMode": true,
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPAAAmmoPickup_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAAAmmoPickup.10"
+      },
+      "ItemComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPAAAmmoComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPAAAmmoComponent.0"
+      },
+      "Encumbrance": 300,
+      "CodeName": "AAAmmo",
+      "ChassisName": {
+        "Namespace": "",
+        "Key": "EE599B0345818A5D73D7E18C94261446",
+        "SourceString": "Anti-Aircraft Ammo",
+        "LocalizedString": "Anti-Aircraft Ammo"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A1A3491A474EA31AD574DEAC4A71DC1D",
+        "SourceString": "950-70b Anti-Aircraft Shell",
+        "LocalizedString": "950-70b Anti-Aircraft Shell"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6931589F467C402250FDBE92D894BBDC",
+        "SourceString": "Specially designed rounds for use with anti-aircraft batteries.",
+        "LocalizedString": "Specially designed rounds for use with anti-aircraft batteries."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'AAAmmoIcon'",
+        "ObjectPath": "War/Content/Textures/UI/VehicleIcons/AAAmmoIcon.0"
+      },
+      "EquipmentSlot": "EEquipmentSlot::Large",
+      "ItemCategory": "EItemCategory::HeavyAmmo",
+      "ItemFlagsMask": 17,
+      "ItemProfileType": "EItemProfileType::HeavyAmmo",
+      "bIsLarge": true,
+      "ItemMesh": null,
+      "ItemBox": {
+        "ObjectName": "BoxComponent'Default__BPAAAmmoPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAAAmmoPickup.3"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Default__BPAAAmmoPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAAAmmoPickup.3"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "ItemBox",
+    "Outer": "Default__BPAAAmmoPickup_C",
+    "Class": "UScriptClass'BoxComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPAAAmmoPickup_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPAAAmmoPickup_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAAAmmoPickup.4"
+      },
+      "VariableGuid": "25E2F609-4EFE723F-7D3AF29B-4E876B09",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'BPAAAmmoPickup_C:ItemMeshSK_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAAAmmoPickup.8"
+      },
+      "ParentComponentOrVariableName": "ItemBox",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "77231694-4D403C5A-880C4D96-90A0B4F6",
+      "InternalVariableName": "ItemMeshSK"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPAAAmmoPickup_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAAAmmoPickup_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAAAmmoPickup.6"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPAAAmmoPickup_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAAAmmoPickup.6"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPAAAmmoPickup_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAAAmmoPickup.5"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "ItemMeshSK_GEN_VARIABLE",
+    "Outer": "BPAAAmmoPickup_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "bEnablePhysicsOnDedicatedServer": false,
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_AAAmmo'",
+        "ObjectPath": "War/Content/Meshes/Weapons/SK_AAAmmo.0"
+      },
+      "bReceivesDecals": false
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ItemMesh",
+    "Outer": "Default__BPAAAmmoPickup_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BoxComponent'Default__BPAAAmmoPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/BPAAAmmoPickup.3"
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPAAAmmoPickup_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPExplosiveTripodComponent_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'DeployableItemComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPExplosiveTripodComponent_C'Default__BPExplosiveTripodComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/BPExplosiveTripodComponent.1"
+    }
+  },
+  {
+    "Type": "BPExplosiveTripodComponent_C",
+    "Name": "Default__BPExplosiveTripodComponent_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/BPExplosiveTripodComponent.BPExplosiveTripodComponent_C'",
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "SkeletalMesh'SK_ExplosiveTripod'",
+        "ObjectPath": "War/Content/Meshes/Resources/SK_ExplosiveTripod.0"
+      },
+      "EquippedGripType": "EEquippedWeaponGripType::LargeDeployableItem",
+      "ActivityStateInfos[1]": {
+        "ActivityMontage": {
+          "ObjectName": "AnimMontage'NWP_HeavyMetalEquipping'",
+          "ObjectPath": "War/Content/Animation/Character/NWP_NoWeapon/NWP_HeavyMetalEquipping.0"
+        },
+        "Duration": 0.5
+      },
+      "DeployCodeName": "DeployedExplosiveTripod",
+      "MeshOffset": {
+        "X": 0.0,
+        "Y": -10.0,
+        "Z": 0.0
+      },
+      "MeshRotation": {
+        "Pitch": 175.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      }
+    }
+  }
+]

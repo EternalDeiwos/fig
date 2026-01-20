@@ -1,0 +1,115 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPWrenchUseComponent_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'WrenchUseComponent'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPWrenchUseComponent_C'Default__BPWrenchUseComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPWrenchUseComponent.1"
+    }
+  },
+  {
+    "Type": "BPWrenchUseComponent_C",
+    "Name": "Default__BPWrenchUseComponent_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Vehicles/Aircraft/AircraftTorpedoW/BPWrenchUseComponent.BPWrenchUseComponent_C'",
+    "Properties": {
+      "HintText": {
+        "Namespace": "",
+        "Key": "5FBDF7C041BB31E4D42FD68D672680E1",
+        "SourceString": "Transfer Torpedo",
+        "LocalizedString": "Transfer Torpedo"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "615E434A4D97F259F90807AF7948350D",
+        "SourceString": "Transfer Torpedo",
+        "LocalizedString": "Transfer Torpedo"
+      },
+      "Icon": {
+        "ImageSize": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'WorkWrench'",
+          "ObjectPath": "War/Content/Textures/UI/ItemIcons/WorkWrench.0"
+        }
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionProfileName": "BlockWorkOverlapPawn",
+        "CollisionResponses": {
+          "ResponseToChannels": {
+            "WorldStatic": "ECR_Ignore",
+            "WorldDynamic": "ECR_Ignore",
+            "Visibility": "ECR_Ignore",
+            "Camera": "ECR_Ignore",
+            "PhysicsBody": "ECR_Ignore",
+            "Vehicle": "ECR_Ignore",
+            "Destructible": "ECR_Ignore",
+            "GameTraceChannel2": "ECR_Ignore",
+            "GameTraceChannel3": "ECR_Ignore",
+            "GameTraceChannel4": "ECR_Block"
+          },
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

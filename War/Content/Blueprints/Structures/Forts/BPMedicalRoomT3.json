@@ -1,0 +1,1889 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "BuildSiteLadderBlockVolume",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BoxComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "AmmoCount",
+    "Outer": "UpdateAmmoInstanceMesh",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateAmmoInstanceMesh",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BPMedicalRoomT3_C:UpdateAmmoInstanceMesh.AmmoCount'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.1"
+      },
+      {
+        "ObjectName": "IntProperty'BPMedicalRoomT3_C:UpdateAmmoInstanceMesh.AmmoCountClamped'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.11"
+      },
+      {
+        "ObjectName": "IntProperty'BPMedicalRoomT3_C:UpdateAmmoInstanceMesh.AmmoRowCount'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.12"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPMedicalRoomT3_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.56"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Hospital'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BPMedicalRoomT3_C:UpdateAmmoInstanceMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.2"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:BuildSiteLadderBlockVolume'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:FortCommonThreeWallsMods'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:FortCommonT3BreachedWalls'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:FortCommonDirtT3'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:Blanket'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:MedicalRoomSpawnPoints'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:FortLadderComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:FortCommonT2T3ModsMinimal'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.22"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:FortCommonDefenseMods'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:FortCommon'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.19"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:MedicalRoomMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:ParticleSystem'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:Light'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:Roof'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.30"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:CornerFrontRight'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:CornerFrontLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:CornerBackLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:Floor'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.18"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:SideLeft'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPMedicalRoomT3_C:CornerBackRight'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.15"
+      }
+    ],
+    "FuncMap": {
+      "UpdateAmmoInstanceMesh": {
+        "ObjectName": "Function'BPMedicalRoomT3_C:UpdateAmmoInstanceMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.2"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPMedicalRoomT3_C'Default__BPMedicalRoomT3_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.4"
+    }
+  },
+  {
+    "Type": "BPMedicalRoomT3_C",
+    "Name": "Default__BPMedicalRoomT3_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.BPMedicalRoomT3_C'",
+    "Properties": {
+      "HospitalComponent": {
+        "ObjectName": "HospitalComponent'Default__BPMedicalRoomT3_C:HospitalComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.10"
+      },
+      "GenericStockpileComponent": {
+        "ObjectName": "GenericStockpileComponent'Default__BPMedicalRoomT3_C:GenericStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.9"
+      },
+      "SpawnPoints": {
+        "Type": "ESpawnPointType::MedicalBase",
+        "Category": "ESpawnPointCategory::MedicalBase"
+      },
+      "bCanBeFlaggedForDisruptivePlacement": true,
+      "Tier": "EFortTier::T3",
+      "BuildGhostClass": null,
+      "BuildSiteClass": {
+        "ObjectName": "Class'HospitalBuildSite'",
+        "ObjectPath": "/Script/War"
+      },
+      "BaseStructureClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortDestroyedT3_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortDestroyedT3.1"
+      },
+      "BreachedStructureClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortDestroyedT3_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortDestroyedT3.1"
+      },
+      "bClearModificationsOnDowngrade": true,
+      "Description": {
+        "Namespace": "",
+        "Key": "9F05AAD54ADB63D64CA29EA1EF2C5E54",
+        "SourceString": "A medical bunker used to treat critically wounded soldiers at the front line.",
+        "LocalizedString": "A medical bunker used to treat critically wounded soldiers at the front line."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'FrotModMedicalRoomIcon'",
+        "ObjectPath": "War/Content/Textures/UI/StructureIcons/FrotModMedicalRoomIcon.0"
+      },
+      "BuildCategory": "EBuildCategory::Bunker",
+      "DestroyedDamageExtent": {
+        "X": 235.0,
+        "Y": 235.0,
+        "Z": 120.0
+      },
+      "DestroyedDamageOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30.0
+      },
+      "bDropsLargeMaterialsWhenDestroyed": false,
+      "ValidBuildTools": 52,
+      "ConcreteSettler": {
+        "bEnabled": true
+      },
+      "CodeName": "MedicalRoomT3",
+      "ChassisName": {
+        "TableId": "/Game/Blueprints/StringTables/STChassis.STChassis",
+        "Key": "ChassisEntrenchment",
+        "SourceString": "Entrenchment",
+        "LocalizedString": "Entrenchment"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "9CACCF434C602968AF451B80FE65F866",
+        "SourceString": "Medical Room (Tier 3)",
+        "LocalizedString": "Medical Room (Tier 3)"
+      },
+      "ProfileType": "EStructureProfileType::Fort",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPMedicalRoomT3_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.5"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPMedicalRoomT3_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.8"
+      },
+      "KillVolume": {
+        "ObjectName": "BoxComponent'Default__BPMedicalRoomT3_C:KillVolume'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.7"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'GrenadeBlast'",
+        "ObjectPath": "War/Content/FX/GrenadeBlast.151"
+      },
+      "TechComponentIDs": [
+        "ETechComponentID::T3SupportBunkers"
+      ],
+      "MaxHealth": 3750,
+      "Health": 3750,
+      "bIsBuildSiteMapIconVisible": false,
+      "bIsTrackedClimbable": true,
+      "ScreenToUse": "ESimScreen::Hospital",
+      "MapIntelligenceType": "EMapIntelligenceType::FieldHospital",
+      "bProvidesBasedShelter": true,
+      "ClaimStatus": {
+        "bIsEnabled": true,
+        "bCanBeDemolished": true,
+        "DemolishDurationHours": 672
+      },
+      "bHasMeshVisibilityComponent": true,
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPMedicalRoomT3_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.66"
+      },
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPMedicalRoomT3_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.5"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "BuildSiteLadderBlockVolume_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 65.0,
+        "Y": 65.0,
+        "Z": 10.0
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 135.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "IncludeInBuildSite"
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "KillVolume",
+    "Outer": "Default__BPMedicalRoomT3_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 250.0,
+        "Y": 250.0,
+        "Z": 174.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPMedicalRoomT3_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.5"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 18.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPMedicalRoomT3_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 200.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPMedicalRoomT3_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.5"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -5.0,
+        "Z": -43.0
+      }
+    }
+  },
+  {
+    "Type": "GenericStockpileComponent",
+    "Name": "GenericStockpileComponent",
+    "Outer": "Default__BPMedicalRoomT3_C",
+    "Class": "UScriptClass'GenericStockpileComponent'",
+    "Properties": {
+      "Configs": [
+        {
+          "Type": "EStockpileEntryType::Items",
+          "QuantityLimit": 1000,
+          "TotalQuantityLimit": 0,
+          "ItemCategoryFilter": 0,
+          "QuantityOverrides": [],
+          "TotalQuantityOverrides": [],
+          "ValidEntriesOverride": [
+            "PistolC",
+            "PistolW",
+            "PistolAmmo",
+            "WorkHammer",
+            "Bandages",
+            "FirstAidKit",
+            "TraumaKit",
+            "BloodPlasma",
+            "MedicUniformC",
+            "MedicUniformW"
+          ],
+          "PreStockedEntries": [],
+          "RetrieveDurationModifiers": []
+        }
+      ],
+      "bReplicates": true
+    }
+  },
+  {
+    "Type": "HospitalComponent",
+    "Name": "HospitalComponent",
+    "Outer": "Default__BPMedicalRoomT3_C",
+    "Class": "UScriptClass'HospitalComponent'",
+    "Properties": {
+      "NumBeds": 4,
+      "SpawnChargesPerPatient": 4
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "AmmoCountClamped",
+    "Outer": "UpdateAmmoInstanceMesh",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "AmmoRowCount",
+    "Outer": "UpdateAmmoInstanceMesh",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Blanket",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CornerBackLeft",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CornerBackRight",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CornerFrontLeft",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CornerFrontRight",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Floor",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommon",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonDefenseMods",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonDirtT3",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonT2T3ModsMinimal",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonT3BreachedWalls",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortCommonThreeWallsMods",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortLadderComponent",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Light",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MedicalRoomMesh",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MedicalRoomSpawnPoints",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TemplateComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ParticleSystem",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Roof",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SideLeft",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "Light_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'StaticLight'",
+        "ObjectPath": "War/Content/FX/StaticLight.9"
+      },
+      "RelativeLocation": {
+        "X": 43.0,
+        "Y": -77.0,
+        "Z": 107.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ParticleSystem_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'StaticLight'",
+        "ObjectPath": "War/Content/FX/StaticLight.9"
+      },
+      "RelativeLocation": {
+        "X": 43.0,
+        "Y": 78.0,
+        "Z": 107.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPMedicalRoomT3_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.34"
+      },
+      "VariableGuid": "1144E758-45F21128-659C63A0-98B6F24C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPMedicalRoomT3_C:MedicalRoomMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.63"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.51"
+        }
+      ],
+      "VariableGuid": "020B359E-41212338-367DC2B1-7743B7D3",
+      "InternalVariableName": "MedicalRoomMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPMedicalRoomT3_C:Light_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.32"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C044A9A4-4B76A28F-E096039F-D9BA0544",
+      "InternalVariableName": "Light"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPMedicalRoomT3_C:ParticleSystem_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.33"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "74E83BDE-47807DB1-D6EC5DAC-4DF9FE3B",
+      "InternalVariableName": "ParticleSystem"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPMedicalRoomT3_C:FortCommon_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.67"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3C1B226E-417B2D7E-40CF32A0-57625051",
+      "InternalVariableName": "FortCommon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPMedicalRoomT3_C:FortCommonDefenseMods_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.68"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "62EDD111-4865A81F-B1497DA4-728BA55C",
+      "InternalVariableName": "FortCommonDefenseMods"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPMedicalRoomT3_C:FortCommonT2T3ModsMinimal_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.70"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8BA8CAEA-4DE66A9B-AB52CAAD-6301EDED",
+      "InternalVariableName": "FortCommonT2T3ModsMinimal"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_37",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPMedicalRoomT3_C:MedicalRoomSpawnPoints_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.74"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "12E6CF8D-41D93367-122AF9AE-FC486724",
+      "InternalVariableName": "MedicalRoomSpawnPoints"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_39",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPMedicalRoomT3_C:SideLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.65"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8CFF19AD-49DD864C-09935F88-C4F1922C",
+      "InternalVariableName": "SideLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPMedicalRoomT3_C:FortCommonDirtT3_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.69"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7EA288FE-4D83B8A2-6D8D719E-192A5CBD",
+      "InternalVariableName": "FortCommonDirtT3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_40",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPMedicalRoomT3_C:Floor_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.62"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7CE8D49D-45908314-055555B1-647CFA24",
+      "InternalVariableName": "Floor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_42",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPMedicalRoomT3_C:CornerBackRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.59"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "49BC660B-490CD0BF-6A042180-9F2C3D8F",
+      "InternalVariableName": "CornerBackRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_43",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPMedicalRoomT3_C:CornerBackLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.58"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6C831C81-4CC825CC-626A13B1-C41875CC",
+      "InternalVariableName": "CornerBackLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_44",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPMedicalRoomT3_C:CornerFrontLeft_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.60"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4D611137-44C649D2-2800D3BB-B8981E45",
+      "InternalVariableName": "CornerFrontLeft"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_45",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPMedicalRoomT3_C:CornerFrontRight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.61"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "80215150-4CAD7194-442FDA9C-3C435C40",
+      "InternalVariableName": "CornerFrontRight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_46",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPMedicalRoomT3_C:Roof_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.64"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0AA9A297-436E3BC3-8E707BB8-0F3818C4",
+      "InternalVariableName": "Roof"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPMedicalRoomT3_C:Blanket_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.57"
+      },
+      "VariableGuid": "8EC85EEE-45A8578A-7CCA9DBD-6615266F",
+      "InternalVariableName": "Blanket"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPMedicalRoomT3_C:FortLadderComponent_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.73"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "72B5C724-471B44C4-A4E92EAB-3F701910",
+      "InternalVariableName": "FortLadderComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPMedicalRoomT3_C:FortCommonT3BreachedWalls_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.71"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F245BF62-403085E1-E18A1189-96F2DE75",
+      "InternalVariableName": "FortCommonT3BreachedWalls"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TemplateComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TemplateComponent'BPMedicalRoomT3_C:FortCommonThreeWallsMods_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.72"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "62C82D4C-46ADB1A9-BED1939C-5EB18862",
+      "InternalVariableName": "FortCommonThreeWallsMods"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BPMedicalRoomT3_C:BuildSiteLadderBlockVolume_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.6"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "61BB3CAF-4BBB18C7-AEFFD49E-B6ECC081",
+      "InternalVariableName": "BuildSiteLadderBlockVolume"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_42'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_39'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_40'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_43'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_44'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_45'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_46'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_37'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.55"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_42'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_39'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_40'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_43'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_44'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_45'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_46'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_37'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.55"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPMedicalRoomT3_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPMedicalRoomT3.35"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Blanket_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MedicalRoomT3Roof'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/MedicalRoomT3Roof.2"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "RoofVisibility",
+        "ExcludeFromBuildGhost"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "CornerBackLeft_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -250.0,
+        "Y": -250.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.9999,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideLeft",
+        "SideBack",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "CornerBackRight_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -250.0,
+        "Y": 250.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00005,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideBack",
+        "SideRight",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "CornerFrontLeft_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 250.0,
+        "Y": -250.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99975,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideFront",
+        "SideLeft",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "CornerFrontRight_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Corner01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Corner01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 250.0,
+        "Y": 250.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideFront",
+        "SideRight",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Floor_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Floor01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Floor01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "FloorVisibility"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MedicalRoomMesh_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MedicalRoomModification'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/MedicalRoomModification.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -161.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "NoConcrete",
+        "FloorVisibility"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Roof_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Roof02'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Roof02.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "bCastHiddenShadow": true,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "RoofVisibility",
+        "ExcludeFromBuildGhost"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SideLeft_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FortT3Wall01'",
+        "ObjectPath": "War/Content/Meshes/Structures/FortTrenches/FortT3Wall01.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -250.0,
+        "Z": -160.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.9995,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "SideLeft",
+        "ModLeft",
+        "ModDefault",
+        "ShowWeatherFX"
+      ]
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPMedicalRoomT3_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommon_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommon_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommon.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonDefenseMods_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonDefenseMods_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonDefenseMods.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonDirtT3_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonDirtT3_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonDirtT3.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonT2T3ModsMinimal_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonT2T3ModsMinimal_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonT2T3ModsMinimal.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonT3BreachedWalls_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonT3BreachedWalls_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/BPFortCommonT3BreachedWalls.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortCommonThreeWallsMods_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortCommonThreeWallsMods_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/BPFortCommonThreeWallsMods.1"
+      }
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "FortLadderComponent_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPFortLadderComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/Templates/BPFortLadderComponent.1"
+      },
+      "ComponentTags": [
+        "DefaultFloorVisibility"
+      ]
+    }
+  },
+  {
+    "Type": "TemplateComponent",
+    "Name": "MedicalRoomSpawnPoints_GEN_VARIABLE",
+    "Outer": "BPMedicalRoomT3_C",
+    "Class": "UScriptClass'TemplateComponent'",
+    "Properties": {
+      "TemplateActor": {
+        "ObjectName": "BlueprintGeneratedClass'BPMedicalRoomSpawnPoints_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Forts/Templates/BPMedicalRoomSpawnPoints.1"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      }
+    }
+  }
+]

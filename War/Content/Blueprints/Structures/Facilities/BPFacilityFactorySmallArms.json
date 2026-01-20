@@ -1,0 +1,3438 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPBuildFootprintBoxComponent7",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.67"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FacilityRefinery'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent7'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent6'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent5'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent2'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent4'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent3'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:PointLight3'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:BaseSmoke1'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:BaseSmoke'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:PointLight1'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.32"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent1'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.22"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:PowerLineConnector'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.34"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:ProducingSFX'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.35"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:SpotLight3'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.38"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:SpotLight2'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.37"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:SpotLight1'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.36"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:PointLight'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:FoundationDecal'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'BPFacilityFactorySmallArms_C:MainMesh'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.30"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPFacilityFactorySmallArms_C'Default__BPFacilityFactorySmallArms_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.2"
+    }
+  },
+  {
+    "Type": "BPFacilityFactorySmallArms_C",
+    "Name": "Default__BPFacilityFactorySmallArms_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.BPFacilityFactorySmallArms_C'",
+    "Properties": {
+      "GenericStockpileComponent": {
+        "ObjectName": "GenericStockpileComponent'Default__BPFacilityFactorySmallArms_C:GenericStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.18"
+      },
+      "CrateGenericStockpileComponent": {
+        "ObjectName": "GenericStockpileComponent'Default__BPFacilityFactorySmallArms_C:CrateGenericStockpileComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.17"
+      },
+      "UpgradeSlotComponent": {
+        "ObjectName": "ModificationSlotComponent'Default__BPFacilityFactorySmallArms_C:UpgradeSlotComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.19"
+      },
+      "CraneSpawnLocationComponent": {
+        "ObjectName": "CraneSpawnLocationComponent'Default__BPFacilityFactorySmallArms_C:CraneSpawnLocationComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.14"
+      },
+      "PowerSocket": {
+        "ObjectName": "BuildSocketComponent'Default__BPFacilityFactorySmallArms_C:PowerSocket'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.13"
+      },
+      "LightComponent": {
+        "ObjectName": "FacilityLightComponent'Default__BPFacilityFactorySmallArms_C:LightComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.16"
+      },
+      "TransferLocation": {
+        "ObjectName": "SceneComponent'Default__BPFacilityFactorySmallArms_C:TransferLocation'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.45"
+      },
+      "ConversionEntries": [
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 220,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "ArmourUniformC",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 220,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "ArmourUniformW",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "EngineerUniformC",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "EngineerUniformW",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "GrenadeUniformC",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "AmmoUniformW",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "MedicUniformC",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "MedicUniformW",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "OfficerUniformC",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "OfficerUniformW",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "RainUniformC",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "ScoutUniformC",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "ScoutUniformW",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "SnowUniformC",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "SnowUniformW",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "TankUniformC",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "TankUniformW",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "NavalUniformC",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        },
+        {
+          "ItemInput": [
+            {
+              "CodeName": "FacilityMaterials1",
+              "Quantity": 110,
+              "Limit": 32000
+            }
+          ],
+          "CrateInput": [],
+          "LiquidInput": [],
+          "ItemOutput": [],
+          "CrateOutput": [
+            {
+              "CodeName": "NavalUniformW",
+              "Quantity": 10,
+              "Limit": 100
+            }
+          ],
+          "LiquidOutput": [],
+          "Duration": 8100,
+          "PowerDelta": -12000,
+          "bConsumeResourceNodes": false
+        }
+      ],
+      "Modifications": [
+        {
+          "Key": "EFortModificationType::InfantryAmmo",
+          "Value": {
+            "ConversionEntries": [
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 110,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 65,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "MortarAmmoSH",
+                    "Quantity": 10,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 9000,
+                "PowerDelta": -12000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 80,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 65,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "MortarAmmoFL",
+                    "Quantity": 10,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 9000,
+                "PowerDelta": -12000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 385,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 65,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "MortarAmmo",
+                    "Quantity": 10,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 9000,
+                "PowerDelta": -12000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 385,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 95,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ATRPGLightC",
+                    "Quantity": 10,
+                    "Limit": 150
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 6900,
+                "PowerDelta": -12000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 440,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 110,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ATGrenadeW",
+                    "Quantity": 10,
+                    "Limit": 150
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 6900,
+                "PowerDelta": -12000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 550,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 55,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "Stickybomb",
+                    "Quantity": 10,
+                    "Limit": 150
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 6900,
+                "PowerDelta": -12000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 110,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ATRifleAmmo",
+                    "Quantity": 10,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 9000,
+                "PowerDelta": -12000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 135,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "SmokeGrenade",
+                    "Quantity": 10,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 6900,
+                "PowerDelta": -12000,
+                "bConsumeResourceNodes": false
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EFortModificationType::SpecialWeapons",
+          "Value": {
+            "ConversionEntries": [
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials2",
+                    "Quantity": 10,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "FacilityMaterials4",
+                    "Quantity": 5,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [
+                  {
+                    "CodeName": "SniperRifleC",
+                    "Quantity": 1,
+                    "Limit": 32000
+                  }
+                ],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ATRifleSniperC",
+                    "Quantity": 1,
+                    "Limit": 750
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 120,
+                "PowerDelta": -4000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials2",
+                    "Quantity": 3,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "FacilityMaterials5",
+                    "Quantity": 5,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [
+                  {
+                    "CodeName": "AssaultRifleHeavyC",
+                    "Quantity": 1,
+                    "Limit": 32000
+                  }
+                ],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ATRifleLightC",
+                    "Quantity": 1,
+                    "Limit": 1150
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 75,
+                "PowerDelta": -4000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials2",
+                    "Quantity": 3,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "FacilityMaterials5",
+                    "Quantity": 5,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [
+                  {
+                    "CodeName": "AssaultRifleHeavyW",
+                    "Quantity": 1,
+                    "Limit": 32000
+                  }
+                ],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ATRifleAutomaticW",
+                    "Quantity": 1,
+                    "Limit": 1150
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 75,
+                "PowerDelta": -4000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials2",
+                    "Quantity": 3,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "FacilityMaterials5",
+                    "Quantity": 5,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [
+                  {
+                    "CodeName": "ATRifleW",
+                    "Quantity": 1,
+                    "Limit": 32000
+                  }
+                ],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ATRifleAssaultW",
+                    "Quantity": 1,
+                    "Limit": 1150
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 75,
+                "PowerDelta": -4000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 5,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "FlameAmmo",
+                    "Quantity": 1,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [
+                  {
+                    "CodeName": "MortarAmmoSH",
+                    "Quantity": 1,
+                    "Limit": 32000
+                  }
+                ],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "MortarAmmoFlame",
+                    "Quantity": 1,
+                    "Limit": 1150
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 75,
+                "PowerDelta": -2000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials2",
+                    "Quantity": 10,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [
+                  {
+                    "CodeName": "ScoutUniformC",
+                    "Quantity": 1,
+                    "Limit": 32000
+                  }
+                ],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ParatrooperUniformC",
+                    "Quantity": 1,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 120,
+                "PowerDelta": -4000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials2",
+                    "Quantity": 10,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [
+                  {
+                    "CodeName": "ScoutUniformW",
+                    "Quantity": 1,
+                    "Limit": 32000
+                  }
+                ],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ParatrooperUniformW",
+                    "Quantity": 1,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 120,
+                "PowerDelta": -4000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials9",
+                    "Quantity": 1,
+                    "Limit": 1000
+                  }
+                ],
+                "CrateInput": [
+                  {
+                    "CodeName": "OfficerUniformC",
+                    "Quantity": 1,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "PilotUniformC",
+                    "Quantity": 1,
+                    "Limit": 0
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 120,
+                "PowerDelta": -4000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials9",
+                    "Quantity": 1,
+                    "Limit": 1000
+                  }
+                ],
+                "CrateInput": [
+                  {
+                    "CodeName": "OfficerUniformW",
+                    "Quantity": 1,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "PilotUniformW",
+                    "Quantity": 1,
+                    "Limit": 0
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 120,
+                "PowerDelta": -4000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 20,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ParatrooperBackpack",
+                    "Quantity": 1,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 60,
+                "PowerDelta": -2000,
+                "bConsumeResourceNodes": false
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EFortModificationType::HeavyAmmo",
+          "Value": {
+            "ConversionEntries": [
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 175,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 1320,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "lighttankammo",
+                    "Quantity": 10,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 18000,
+                "PowerDelta": -24000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 130,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 1320,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ATAmmo",
+                    "Quantity": 10,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 18000,
+                "PowerDelta": -24000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 45,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 220,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "MiniTankAmmo",
+                    "Quantity": 10,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 9000,
+                "PowerDelta": -24000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 65,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 825,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ATRPGAmmo",
+                    "Quantity": 10,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 9000,
+                "PowerDelta": -24000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 65,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 825,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ATRPGIndirectAmmo",
+                    "Quantity": 10,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 9000,
+                "PowerDelta": -24000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 65,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 495,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "RPGAmmo",
+                    "Quantity": 10,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 9000,
+                "PowerDelta": -24000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 80,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 550,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "HELaunchedGrenade",
+                    "Quantity": 10,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 7200,
+                "PowerDelta": -24000,
+                "bConsumeResourceNodes": false
+              },
+              {
+                "ItemInput": [
+                  {
+                    "CodeName": "FacilityMaterials1",
+                    "Quantity": 105,
+                    "Limit": 32000
+                  },
+                  {
+                    "CodeName": "Explosive",
+                    "Quantity": 685,
+                    "Limit": 32000
+                  }
+                ],
+                "CrateInput": [],
+                "LiquidInput": [],
+                "ItemOutput": [],
+                "CrateOutput": [
+                  {
+                    "CodeName": "ATLaunchedGrenadeW",
+                    "Quantity": 10,
+                    "Limit": 100
+                  }
+                ],
+                "LiquidOutput": [],
+                "Duration": 7200,
+                "PowerDelta": -24000,
+                "bConsumeResourceNodes": false
+              }
+            ]
+          }
+        }
+      ],
+      "PowerGridInfo": {
+        "PowerDelta": -4000,
+        "MaxConnections": 1
+      },
+      "ProceduralUseVolumeFactor": 0.0,
+      "bIsBuiltOnLandscape": false,
+      "BuildGhostClass": null,
+      "BaseStructureClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPFacilityFactorySmallArmsDestroyed_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Husks/BPFacilityFactorySmallArmsDestroyed.1"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "321CB9FD49796CE9AB81229C03CB0B01",
+        "SourceString": "A factory that specializes in manufacturing infantry uniforms. Modifications may be constructed to manufacture infantry arms and heavy ammunition.",
+        "LocalizedString": "A factory that specializes in manufacturing infantry uniforms. Modifications may be constructed to manufacture infantry arms and heavy ammunition."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'FacilitySmallArmsFactoryIcon'",
+        "ObjectPath": "War/Content/Textures/UI/StructureIcons/FacilitySmallArmsFactoryIcon.0"
+      },
+      "BuildCategory": "EBuildCategory::Facility",
+      "BuildOrder": 10,
+      "BuildLocationType": "EBuildLocationType::Anywhere",
+      "bDropsLargeMaterialsWhenDestroyed": false,
+      "ValidBuildTools": 56,
+      "CodeName": "FacilityFactorySmallArms",
+      "ChassisName": {
+        "TableId": "/Game/Blueprints/StringTables/STChassis.STChassis",
+        "Key": "ChassisFacility",
+        "SourceString": "Facility Structure",
+        "LocalizedString": "Facility Structure"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "75BC79854544E53EA78DAD9295277534",
+        "SourceString": "Infantry Kit Factory",
+        "LocalizedString": "Infantry Kit Factory"
+      },
+      "ProfileType": "EStructureProfileType::FieldLogiStructure",
+      "ArmourType": "EArmourType::Tier2Structure",
+      "ArrowComponent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityFactorySmallArms_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.3"
+      },
+      "UseAreaBox": {
+        "ObjectName": "BoxComponent'Default__BPFacilityFactorySmallArms_C:UseAreaBox'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.4"
+      },
+      "DestroyedFX": {
+        "ObjectName": "ParticleSystem'BridgeExplosion1'",
+        "ObjectPath": "War/Content/FX/BridgeExplosion1.52"
+      },
+      "MaxHealth": 3000,
+      "Health": 3000,
+      "MapIconType": "EMapIconType::FacilitySmallArmsFactory",
+      "bIsMapIconVisibleToAll": false,
+      "IsVaultable": false,
+      "ScreenToUse": "ESimScreen::Facility",
+      "MapIntelligenceType": "EMapIntelligenceType::Facility",
+      "StructureNetRelevancySize": "EStructureNetRelevancySize::Large",
+      "ClaimStatus": {
+        "bIsEnabled": true,
+        "bCanBeDemolished": true,
+        "bCanBuildSiteBeDemolished": true,
+        "DemolishDurationHours": 672
+      },
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPFacilityFactorySmallArms_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.73"
+      },
+      "NetCullDistanceSquared": 49000000.0,
+      "RootComponent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityFactorySmallArms_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.3"
+      }
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "StructureArrow",
+    "Outer": "Default__BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ArrowComponent'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "UseAreaBox",
+    "Outer": "Default__BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 675.0,
+        "Y": 765.0,
+        "Z": 345.0
+      },
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityFactorySmallArms_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 45.0,
+        "Z": 347.0
+      }
+    }
+  },
+  {
+    "Type": "BPBuildFootprintBoxComponent_C",
+    "Name": "BPBuildFootprintBoxComponent1_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.BPBuildFootprintBoxComponent_C'",
+    "Properties": {
+      "Info": {
+        "bCheckForLandscape": true
+      },
+      "BoxExtent": {
+        "X": 120.0,
+        "Y": 200.0,
+        "Z": 195.0
+      },
+      "RelativeLocation": {
+        "X": 773.7279,
+        "Y": 188.45125,
+        "Z": 197.0
+      }
+    }
+  },
+  {
+    "Type": "BPBuildFootprintBoxComponent_C",
+    "Name": "BPBuildFootprintBoxComponent2_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.BPBuildFootprintBoxComponent_C'",
+    "Properties": {
+      "Info": {
+        "bCheckForLandscape": true
+      },
+      "BoxExtent": {
+        "X": 120.0,
+        "Y": 200.0,
+        "Z": 195.0
+      },
+      "RelativeLocation": {
+        "X": -773.7279,
+        "Y": 188.45125,
+        "Z": 197.0
+      }
+    }
+  },
+  {
+    "Type": "BPBuildFootprintBoxComponent_C",
+    "Name": "BPBuildFootprintBoxComponent3_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.BPBuildFootprintBoxComponent_C'",
+    "Properties": {
+      "Info": {
+        "bCheckForLandscape": true
+      },
+      "BoxExtent": {
+        "X": 575.0,
+        "Y": 120.0,
+        "Z": 300.0
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -405.98123,
+        "Z": 302.0
+      }
+    }
+  },
+  {
+    "Type": "BPBuildFootprintBoxComponent_C",
+    "Name": "BPBuildFootprintBoxComponent4_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.BPBuildFootprintBoxComponent_C'",
+    "Properties": {
+      "Info": {
+        "bCheckForLandscape": true
+      },
+      "BoxExtent": {
+        "X": 350.0,
+        "Y": 65.0,
+        "Z": 205.0
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -590.67645,
+        "Z": 207.0
+      }
+    }
+  },
+  {
+    "Type": "BPBuildFootprintBoxComponent_C",
+    "Name": "BPBuildFootprintBoxComponent5_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.BPBuildFootprintBoxComponent_C'",
+    "Properties": {
+      "Info": {
+        "bCheckForLandscape": true
+      },
+      "BoxExtent": {
+        "X": 63.0,
+        "Y": 90.0,
+        "Z": 248.0
+      },
+      "RelativeLocation": {
+        "X": 719.5856,
+        "Y": 188.45125,
+        "Z": 643.0
+      }
+    }
+  },
+  {
+    "Type": "BPBuildFootprintBoxComponent_C",
+    "Name": "BPBuildFootprintBoxComponent6_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.BPBuildFootprintBoxComponent_C'",
+    "Properties": {
+      "Info": {
+        "bCheckForLandscape": true
+      },
+      "BoxExtent": {
+        "X": 63.0,
+        "Y": 90.0,
+        "Z": 248.0
+      },
+      "RelativeLocation": {
+        "X": -719.5856,
+        "Y": 188.45125,
+        "Z": 643.0
+      }
+    }
+  },
+  {
+    "Type": "BPBuildFootprintBoxComponent_C",
+    "Name": "BPBuildFootprintBoxComponent7_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.BPBuildFootprintBoxComponent_C'",
+    "Properties": {
+      "Info": {
+        "bCheckForLandscape": true
+      },
+      "BoxExtent": {
+        "X": 560.0,
+        "Y": 58.0,
+        "Z": 415.0
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 712.90826,
+        "Z": 417.0
+      }
+    }
+  },
+  {
+    "Type": "BPBuildFootprintBoxComponent_C",
+    "Name": "BPBuildFootprintBoxComponent_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.BPBuildFootprintBoxComponent_C'",
+    "Properties": {
+      "Info": {
+        "bCheckForLandscape": true
+      },
+      "BoxExtent": {
+        "X": 655.0,
+        "Y": 470.0,
+        "Z": 415.0
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 185.20172,
+        "Z": 417.0
+      }
+    }
+  },
+  {
+    "Type": "BuildSocketComponent",
+    "Name": "PowerSocket",
+    "Outer": "Default__BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'BuildSocketComponent'",
+    "Properties": {
+      "SocketTags": [
+        {
+          "SocketTypeMask": 131072,
+          "SocketTypeCategory": 1048576,
+          "Tag": "None",
+          "ShowsTag": "None",
+          "ShowsTagBoth": "None",
+          "ShowsTagHigher": "None",
+          "HidesTagBoth": "None",
+          "HidesTagHigher": "None",
+          "MaxZOffset": 0.0,
+          "ApplicationRule": "EBuildSocketTagRule::AffectsBoth",
+          "ConnectorAttachmentTag": "None"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityFactorySmallArms_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.3"
+      },
+      "RelativeLocation": {
+        "X": -459.18015,
+        "Y": 772.84686,
+        "Z": 485.97604
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "CraneSpawnLocationComponent",
+    "Name": "CraneSpawnLocationComponent",
+    "Outer": "Default__BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'CraneSpawnLocationComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityFactorySmallArms_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.3"
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "FoundationDecal_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'FoundationsDirtDecal'",
+        "ObjectPath": "War/Content/Materials/Decals/FoundationsDirtDecal.0"
+      },
+      "DecalSize": {
+        "X": 50.0,
+        "Y": 550.0,
+        "Z": 1000.0
+      },
+      "RelativeLocation": {
+        "X": 1.3802275E-05,
+        "Y": -106.0791,
+        "Z": -31.371181
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0700684,
+        "Z": 1.0500488
+      }
+    }
+  },
+  {
+    "Type": "FacilityLightComponent",
+    "Name": "LightComponent",
+    "Outer": "Default__BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'FacilityLightComponent'",
+    "Properties": {
+      "TargetTag": "HasEmissiveLight",
+      "Materials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'LanternOn-Off'",
+          "ObjectPath": "War/Content/Materials/Environment/LanternOn-Off.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'HeatGlowOn-Off'",
+          "ObjectPath": "War/Content/Materials/Environment/HeatGlowOn-Off.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GenericStockpileComponent",
+    "Name": "CrateGenericStockpileComponent",
+    "Outer": "Default__BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'GenericStockpileComponent'",
+    "Properties": {
+      "Configs": [
+        {
+          "Type": "EStockpileEntryType::ItemCrates",
+          "QuantityLimit": 1000,
+          "TotalQuantityLimit": 0,
+          "ItemCategoryFilter": 0,
+          "QuantityOverrides": [],
+          "TotalQuantityOverrides": [],
+          "ValidEntriesOverride": [],
+          "PreStockedEntries": [],
+          "RetrieveDurationModifiers": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GenericStockpileComponent",
+    "Name": "GenericStockpileComponent",
+    "Outer": "Default__BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'GenericStockpileComponent'",
+    "Properties": {
+      "Configs": [
+        {
+          "Type": "EStockpileEntryType::Items",
+          "QuantityLimit": 32000,
+          "TotalQuantityLimit": 0,
+          "ItemCategoryFilter": 0,
+          "QuantityOverrides": [],
+          "TotalQuantityOverrides": [],
+          "ValidEntriesOverride": [],
+          "PreStockedEntries": [],
+          "RetrieveDurationModifiers": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ModificationSlotComponent",
+    "Name": "UpgradeSlotComponent",
+    "Outer": "Default__BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ModificationSlotComponent'",
+    "Properties": {
+      "SubComponentTags": [
+        "None"
+      ],
+      "Modifications": [
+        {
+          "Key": "EFortModificationType::SpecialWeapons",
+          "Value": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "9CC9CAC645C2303647B9A49D7CC36702",
+              "SourceString": "Special-Issue Firearms Assembly",
+              "LocalizedString": "Special-Issue Firearms Assembly"
+            },
+            "Description": {
+              "Namespace": "",
+              "Key": "5613ECB84871EAF807AF3C94E7410811",
+              "SourceString": "A collection of stations to facilitate the assembly of special-issue infantry weapons and explosives.",
+              "LocalizedString": "A collection of stations to facilitate the assembly of special-issue infantry weapons and explosives."
+            },
+            "Icon": {
+              "ImageSize": {
+                "X": 256.0,
+                "Y": 256.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "Texture2D'FacilitySmallArmsFactoryAssaultWeaponsIcon'",
+                "ObjectPath": "War/Content/Textures/UI/StructureIcons/FacilitySmallArmsFactoryAssaultWeaponsIcon.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "RequiredSocketConnectionMask": 0,
+            "HiddenBySocketConnectionMask": 0,
+            "bIsRemovable": false,
+            "bVehicleBlocksRemoval": false,
+            "bHiddenByDefault": false,
+            "bVisualsAreClientOnly": false,
+            "bShowInBuildSite": true,
+            "bBuildFootprintIgnoresConnectedActors": false,
+            "TechID": "ETechID::UnlockFacilityTier2",
+            "InfrastructureType": "EInfrastructureType::None",
+            "InfrastructureAmount": 0,
+            "BuildFootprintTemplate": null,
+            "Tiers": [
+              {
+                "Key": "EFortTier::T1",
+                "Value": {
+                  "ResourceAmounts": {
+                    "Resource": {
+                      "CodeName": "FacilityMaterials2",
+                      "Quantity": 35
+                    },
+                    "OtherResources": []
+                  },
+                  "RemoveCostOverride": {
+                    "Resource": {
+                      "CodeName": "None",
+                      "Quantity": 0
+                    },
+                    "OtherResources": []
+                  },
+                  "bUseTemplateActor": true,
+                  "TemplateMesh": null,
+                  "TemplateActor": {
+                    "ObjectName": "BlueprintGeneratedClass'BPFacilityFactorySmallArmsAssault_C'",
+                    "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactorySmallArmsAssault.1"
+                  },
+                  "bUsePreviewMesh": false,
+                  "PreviewMesh": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EFortModificationType::InfantryAmmo",
+          "Value": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "A72B74744C2626A4D64CD7A7477004CB",
+              "SourceString": "Small Arms Workshop",
+              "LocalizedString": "Small Arms Workshop"
+            },
+            "Description": {
+              "Namespace": "",
+              "Key": "FA8728E842024F1437E355AA07BCE19D",
+              "SourceString": "This workshop addition allows for manufacturing infantry carried explosives and various small arms ammo classes.",
+              "LocalizedString": "This workshop addition allows for manufacturing infantry carried explosives and various small arms ammo classes."
+            },
+            "Icon": {
+              "ImageSize": {
+                "X": 256.0,
+                "Y": 256.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "Texture2D'FacilitySmallArmsFactoryAmmunitionIcon'",
+                "ObjectPath": "War/Content/Textures/UI/StructureIcons/FacilitySmallArmsFactoryAmmunitionIcon.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "RequiredSocketConnectionMask": 0,
+            "HiddenBySocketConnectionMask": 0,
+            "bIsRemovable": false,
+            "bVehicleBlocksRemoval": false,
+            "bHiddenByDefault": false,
+            "bVisualsAreClientOnly": false,
+            "bShowInBuildSite": true,
+            "bBuildFootprintIgnoresConnectedActors": false,
+            "TechID": "ETechID::UnlockFacilityTier2",
+            "InfrastructureType": "EInfrastructureType::None",
+            "InfrastructureAmount": 0,
+            "BuildFootprintTemplate": null,
+            "Tiers": [
+              {
+                "Key": "EFortTier::T1",
+                "Value": {
+                  "ResourceAmounts": {
+                    "Resource": {
+                      "CodeName": "FacilityMaterials2",
+                      "Quantity": 175
+                    },
+                    "OtherResources": []
+                  },
+                  "RemoveCostOverride": {
+                    "Resource": {
+                      "CodeName": "None",
+                      "Quantity": 0
+                    },
+                    "OtherResources": []
+                  },
+                  "bUseTemplateActor": true,
+                  "TemplateMesh": null,
+                  "TemplateActor": {
+                    "ObjectName": "BlueprintGeneratedClass'BPFacilityFactorySmallArmsAmmunition_C'",
+                    "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactorySmallArmsAmmunition.1"
+                  },
+                  "bUsePreviewMesh": false,
+                  "PreviewMesh": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EFortModificationType::HeavyAmmo",
+          "Value": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "AC28ADCD458ECD65CBE718957B59CE2E",
+              "SourceString": "Heavy Munitions Foundry",
+              "LocalizedString": "Heavy Munitions Foundry"
+            },
+            "Description": {
+              "Namespace": "",
+              "Key": "66CC30DF45FBD48814720C8A697FCD15",
+              "SourceString": "A foundry wing that facilitates the manufacturing and assembly of heavy ammo classes employed by tanks and heavier infantry weapons.",
+              "LocalizedString": "A foundry wing that facilitates the manufacturing and assembly of heavy ammo classes employed by tanks and heavier infantry weapons."
+            },
+            "Icon": {
+              "ImageSize": {
+                "X": 256.0,
+                "Y": 256.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "Texture2D'FacilitySmallArmsFactoryHeavyAmmoIcon'",
+                "ObjectPath": "War/Content/Textures/UI/StructureIcons/FacilitySmallArmsFactoryHeavyAmmoIcon.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "RequiredSocketConnectionMask": 0,
+            "HiddenBySocketConnectionMask": 0,
+            "bIsRemovable": false,
+            "bVehicleBlocksRemoval": false,
+            "bHiddenByDefault": false,
+            "bVisualsAreClientOnly": false,
+            "bShowInBuildSite": true,
+            "bBuildFootprintIgnoresConnectedActors": false,
+            "TechID": "ETechID::UnlockFacilityTier2",
+            "InfrastructureType": "EInfrastructureType::None",
+            "InfrastructureAmount": 0,
+            "BuildFootprintTemplate": null,
+            "Tiers": [
+              {
+                "Key": "EFortTier::T1",
+                "Value": {
+                  "ResourceAmounts": {
+                    "Resource": {
+                      "CodeName": "FacilityMaterials2",
+                      "Quantity": 250
+                    },
+                    "OtherResources": []
+                  },
+                  "RemoveCostOverride": {
+                    "Resource": {
+                      "CodeName": "None",
+                      "Quantity": 0
+                    },
+                    "OtherResources": []
+                  },
+                  "bUseTemplateActor": true,
+                  "TemplateMesh": null,
+                  "TemplateActor": {
+                    "ObjectName": "BlueprintGeneratedClass'BPFacilityFactorySmallArmsHeavyAmmo_C'",
+                    "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactorySmallArmsHeavyAmmo.1"
+                  },
+                  "bUsePreviewMesh": false,
+                  "PreviewMesh": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "EFortModificationType::Default",
+          "Value": {
+            "DisplayName": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "Icon": {
+              "ImageSize": {
+                "X": 32.0,
+                "Y": 32.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "RequiredSocketConnectionMask": 0,
+            "HiddenBySocketConnectionMask": 0,
+            "bIsRemovable": false,
+            "bVehicleBlocksRemoval": false,
+            "bHiddenByDefault": false,
+            "bVisualsAreClientOnly": false,
+            "bShowInBuildSite": false,
+            "bBuildFootprintIgnoresConnectedActors": false,
+            "TechID": "ETechID::None",
+            "InfrastructureType": "EInfrastructureType::None",
+            "InfrastructureAmount": 0,
+            "BuildFootprintTemplate": null,
+            "Tiers": [
+              {
+                "Key": "EFortTier::T1",
+                "Value": {
+                  "ResourceAmounts": {
+                    "Resource": {
+                      "CodeName": "None",
+                      "Quantity": 0
+                    },
+                    "OtherResources": []
+                  },
+                  "RemoveCostOverride": {
+                    "Resource": {
+                      "CodeName": "None",
+                      "Quantity": 0
+                    },
+                    "OtherResources": []
+                  },
+                  "bUseTemplateActor": true,
+                  "TemplateMesh": null,
+                  "TemplateActor": {
+                    "ObjectName": "BlueprintGeneratedClass'BPFacilityFactorySmallArmsBase_C'",
+                    "ObjectPath": "War/Content/Blueprints/Structures/Facilities/Modifications/BPFacilityFactorySmallArmsBase.1"
+                  },
+                  "bUsePreviewMesh": false,
+                  "PreviewMesh": null
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityFactorySmallArms_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 185.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BaseSmoke",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BaseSmoke1",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPBuildFootprintBoxComponent",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPBuildFootprintBoxComponent1",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPBuildFootprintBoxComponent2",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPBuildFootprintBoxComponent3",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPBuildFootprintBoxComponent4",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPBuildFootprintBoxComponent5",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BPBuildFootprintBoxComponent6",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+      "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FoundationDecal",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'DecalComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MainMesh",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PointLight",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'PointLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PointLight1",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'PointLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PointLight3",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'PointLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PowerLineConnector",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ProducingSFX",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'WarAudioComponent'",
+      "ObjectPath": "/Script/War"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SpotLight1",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SpotLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SpotLight2",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SpotLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SpotLight3",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SpotLightComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "BaseSmoke1_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'FacilitySmoke1'",
+        "ObjectPath": "War/Content/FX/FacilitySmoke1.17"
+      },
+      "RelativeLocation": {
+        "X": -711.4406,
+        "Y": 188.47781,
+        "Z": 729.67053
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "BaseSmoke_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'FacilitySmoke1'",
+        "ObjectPath": "War/Content/FX/FacilitySmoke1.17"
+      },
+      "RelativeLocation": {
+        "X": 711.4406,
+        "Y": 188.47775,
+        "Z": 729.67053
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight1_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.75,
+      "SourceRadius": 8.100976,
+      "AttenuationRadius": 500.0,
+      "ShadowSharpen": 0.155963,
+      "bUseRayTracedDistanceFieldShadows": true,
+      "Intensity": 4.0,
+      "LightColor": {
+        "B": 140,
+        "G": 211,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFD38C"
+      },
+      "CastShadows": false,
+      "CastStaticShadows": false,
+      "bAffectTranslucentLighting": false,
+      "RelativeLocation": {
+        "X": 191.3752,
+        "Y": -631.5966,
+        "Z": 328.17804
+      },
+      "ComponentTags": [
+        "HasEmissiveLight"
+      ]
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight3_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.75,
+      "SourceRadius": 8.100976,
+      "AttenuationRadius": 500.0,
+      "ShadowSharpen": 0.155963,
+      "bUseRayTracedDistanceFieldShadows": true,
+      "Intensity": 4.0,
+      "LightColor": {
+        "B": 140,
+        "G": 211,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFD38C"
+      },
+      "CastShadows": false,
+      "CastStaticShadows": false,
+      "bAffectTranslucentLighting": false,
+      "RelativeLocation": {
+        "X": -191.3752,
+        "Y": -631.5966,
+        "Z": 328.17804
+      },
+      "ComponentTags": [
+        "HasEmissiveLight"
+      ]
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.75,
+      "SourceRadius": 8.100976,
+      "AttenuationRadius": 500.0,
+      "ShadowSharpen": 0.155963,
+      "bUseRayTracedDistanceFieldShadows": true,
+      "Intensity": 7.0,
+      "LightColor": {
+        "B": 140,
+        "G": 211,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFD38C"
+      },
+      "CastShadows": false,
+      "CastStaticShadows": false,
+      "bAffectTranslucentLighting": false,
+      "RelativeLocation": {
+        "X": 299.30527,
+        "Y": 766.708,
+        "Z": 365.26413
+      },
+      "ComponentTags": [
+        "HasEmissiveLight"
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransferLocation",
+    "Outer": "Default__BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "ArrowComponent'Default__BPFacilityFactorySmallArms_C:StructureArrow'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.3"
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPFacilityFactorySmallArms_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.44"
+      },
+      "VariableGuid": "E1EC2F2B-4ED95E3F-0E631E87-D60E7D9B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpotLightComponent'BPFacilityFactorySmallArms_C:SpotLight1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.68"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "60F5C92A-4ACD2C0A-E09D0A93-F8F780FF",
+      "InternalVariableName": "SpotLight1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPBuildFootprintBoxComponent_C'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.5"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5904177E-4BF6CAA3-A587D5AF-B12CECF7",
+      "InternalVariableName": "BPBuildFootprintBoxComponent1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPBuildFootprintBoxComponent_C'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent3_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.7"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8F069716-47E8821C-D6F6FF94-6428192E",
+      "InternalVariableName": "BPBuildFootprintBoxComponent3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BPFacilityFactorySmallArms_C:PointLight1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.41"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F5DBDF89-4EFBFCCC-EED859BC-61C42C70",
+      "InternalVariableName": "PointLight1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPBuildFootprintBoxComponent_C'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent4_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.8"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "09DE623F-4B6CA320-77FEB4A0-84ED8D4C",
+      "InternalVariableName": "BPBuildFootprintBoxComponent4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPFacilityFactorySmallArms_C:BaseSmoke_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.40"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2A123177-49ED44AF-D4818BAF-0FAA9AA7",
+      "InternalVariableName": "BaseSmoke"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BPFacilityFactorySmallArms_C:BaseSmoke1_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.39"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3B2AF989-4C8043FB-2FE5AB84-C915E2ED",
+      "InternalVariableName": "BaseSmoke1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BPFacilityFactorySmallArms_C:PointLight3_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.42"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D0E0AC2D-40586AB1-46525581-DFF99D33",
+      "InternalVariableName": "PointLight3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPBuildFootprintBoxComponent_C'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent2_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.6"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3A02FD36-45178CB2-236B169C-22182F6A",
+      "InternalVariableName": "BPBuildFootprintBoxComponent2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPBuildFootprintBoxComponent_C'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent5_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.9"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FB2A9F4B-4D801BBC-E91FE9AC-FF059BA1",
+      "InternalVariableName": "BPBuildFootprintBoxComponent5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPBuildFootprintBoxComponent_C'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent6_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.10"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3BF14B48-44408D57-82BB54A2-3454EDC7",
+      "InternalVariableName": "BPBuildFootprintBoxComponent6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BPFacilityFactorySmallArms_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.43"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F80D4A52-49A3376E-FDCA33BA-A94646B9",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPBuildFootprintBoxComponent_C'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent7_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.11"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "38D1F08D-45B7CAF3-C55242AE-5618694C",
+      "InternalVariableName": "BPBuildFootprintBoxComponent7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_27",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactorySmallArms_C:MainMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.71"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "AB0EF8FB-434BE973-DD84579A-D23FEC79",
+      "InternalVariableName": "MainMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPBuildFootprintBoxComponent_C'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Components/BPBuildFootprintBoxComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPBuildFootprintBoxComponent_C'BPFacilityFactorySmallArms_C:BPBuildFootprintBoxComponent_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.12"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E4D5BFBD-4CE9ACE1-43BC0DA6-C89604FE",
+      "InternalVariableName": "BPBuildFootprintBoxComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpotLightComponent'BPFacilityFactorySmallArms_C:SpotLight2_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.69"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "784B9D11-43307DDF-495ADE9C-0D5C46C1",
+      "InternalVariableName": "SpotLight2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpotLightComponent'BPFacilityFactorySmallArms_C:SpotLight3_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.70"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3D2F9089-46F8A97F-5C5A8389-14D0B10D",
+      "InternalVariableName": "SpotLight3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPFacilityFactorySmallArms_C:PowerLineConnector_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.72"
+      },
+      "ParentComponentOrVariableName": "PowerSocket",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "14287E9D-4BD739C4-80C1F6B0-9559D581",
+      "InternalVariableName": "PowerLineConnector"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'WarAudioComponent'",
+        "ObjectPath": "/Script/War"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "WarAudioComponent'BPFacilityFactorySmallArms_C:ProducingSFX_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.74"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "52F02A7C-48D4B993-C941A989-8874822E",
+      "InternalVariableName": "ProducingSFX"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BPFacilityFactorySmallArms_C:FoundationDecal_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.15"
+      },
+      "ParentComponentOrVariableName": "StructureArrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "55B8B87C-4549968B-F4DED1B9-C47769F6",
+      "InternalVariableName": "FoundationDecal"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.60"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.66"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.58"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.62"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.63"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.65"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.64"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.61"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.55"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.56"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.57"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.59"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.60"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.66"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.58"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.62"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.63"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.65"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.64"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.61"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.55"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.56"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.57"
+        },
+        {
+          "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.59"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPFacilityFactorySmallArms_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityFactorySmallArms.46"
+      }
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLight1_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "InnerConeAngle": 8.0,
+      "OuterConeAngle": 35.0,
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 4.0,
+      "SourceRadius": 2.0,
+      "SoftSourceRadius": 5.193052,
+      "AttenuationRadius": 1200.0,
+      "Intensity": 12.0,
+      "LightColor": {
+        "B": 181,
+        "G": 225,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFE1B5"
+      },
+      "CastStaticShadows": false,
+      "RelativeLocation": {
+        "X": -303.58865,
+        "Y": 808.8776,
+        "Z": 347.32004
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -0.000109,
+        "Roll": 0.000255
+      },
+      "ComponentTags": [
+        "HasEmissiveLight"
+      ]
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLight2_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "InnerConeAngle": 8.0,
+      "OuterConeAngle": 35.0,
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 4.0,
+      "SourceRadius": 2.0,
+      "SoftSourceRadius": 5.193052,
+      "AttenuationRadius": 1200.0,
+      "Intensity": 12.0,
+      "LightColor": {
+        "B": 181,
+        "G": 225,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFE1B5"
+      },
+      "CastStaticShadows": false,
+      "RelativeLocation": {
+        "X": 402.29294,
+        "Y": -120.909355,
+        "Z": 391.89557
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -0.000109,
+        "Roll": 0.000255
+      },
+      "ComponentTags": [
+        "HasEmissiveLight"
+      ]
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLight3_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Properties": {
+      "InnerConeAngle": 8.0,
+      "OuterConeAngle": 35.0,
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 4.0,
+      "SourceRadius": 2.0,
+      "SoftSourceRadius": 5.193052,
+      "AttenuationRadius": 1200.0,
+      "Intensity": 12.0,
+      "LightColor": {
+        "B": 181,
+        "G": 225,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFE1B5"
+      },
+      "CastStaticShadows": false,
+      "RelativeLocation": {
+        "X": 402.29398,
+        "Y": -542.8217,
+        "Z": 391.8957
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -0.000109,
+        "Roll": 0.000255
+      },
+      "ComponentTags": [
+        "HasEmissiveLight"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MainMesh_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FacilityFactorySmallArmsBase'",
+        "ObjectPath": "War/Content/Meshes/Structures/FacilityFactorySmallArmsBase.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'LanternOn-Off'",
+          "ObjectPath": "War/Content/Materials/Environment/LanternOn-Off.0"
+        }
+      ],
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "StructureDamageableMesh",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Work",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Excavate",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 185.0,
+        "Z": 0.0
+      },
+      "Mobility": "EComponentMobility::Stationary",
+      "ComponentTags": [
+        "HasEmissiveLight"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "PowerLineConnector_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'PowerLineAttachment'",
+        "ObjectPath": "War/Content/Meshes/Structures/PowerLineAttachment.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'Powerlines'",
+          "ObjectPath": "War/Content/Materials/Structures/Powerlines.0"
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -4.995268,
+        "Y": 4.696731E-05,
+        "Z": -45.440186
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.000046,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "IncludeInBuildGhost",
+        "IncludeInBuildSite"
+      ]
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'StealthComponent'"
+  },
+  {
+    "Type": "WarAudioComponent",
+    "Name": "ProducingSFX_GEN_VARIABLE",
+    "Outer": "BPFacilityFactorySmallArms_C",
+    "Class": "UScriptClass'WarAudioComponent'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'FacilityFactorySmallArmsActiveLoop_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Facilities/FacilityFactorySmallArmsActiveLoop_Cue.0"
+      },
+      "VolumeMultiplier": 0.25,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.001953,
+        "Z": 902.30536
+      },
+      "bAutoActivate": false
+    }
+  }
+]

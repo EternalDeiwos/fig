@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "BlendSpace1D",
+    "Name": "BS_AircraftBomberC_Guns_Vertical",
+    "Class": "UScriptClass'BlendSpace1D'",
+    "Properties": {
+      "SampleData": [
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'ANIM_AircraftBomberC_POSE_Guns_vertical_down'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Animation/ANIM_AircraftBomberC_POSE_Guns_vertical_down.0"
+          },
+          "SampleValue": {
+            "X": -30.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'ANIM_AircraftBomberC_POSE_Guns_vertical_neutral'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Animation/ANIM_AircraftBomberC_POSE_Guns_vertical_neutral.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'ANIM_AircraftBomberC_POSE_Guns_vertical_up'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/Animation/ANIM_AircraftBomberC_POSE_Guns_vertical_up.0"
+          },
+          "SampleValue": {
+            "X": 60.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        }
+      ],
+      "GridSamples": [
+        {
+          "Indices": 1,
+          "Indices[1]": 0,
+          "Indices[2]": -1,
+          "Weights": 0.0,
+          "Weights[1]": 1.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 1,
+          "Indices[1]": 0,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 2,
+          "Indices[1]": 1,
+          "Indices[2]": -1,
+          "Weights": 0.5,
+          "Weights[1]": 0.5,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 2,
+          "Indices[1]": 1,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        }
+      ],
+      "BlendParameters": {
+        "DisplayName": "Pitch",
+        "Min": -30.0,
+        "Max": 60.0,
+        "GridNum": 3
+      },
+      "Skeleton": {
+        "ObjectName": "Skeleton'SK_AircraftBomberC_Skeleton'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftBomberC/SK_AircraftBomberC_Skeleton.8"
+      }
+    },
+    "SkeletonGuid": "6D6BF9A1-4535D171-4B94929F-FDA5C883"
+  }
+]

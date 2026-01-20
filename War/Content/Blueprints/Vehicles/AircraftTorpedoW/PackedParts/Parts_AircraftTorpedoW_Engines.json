@@ -1,0 +1,188 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "Parts_AircraftTorpedoW_Engines",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "8671EFB74F2A98F43702EBBEE58CF575",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 110445,
+        "SizeOnDisk": 110445,
+        "OffsetInFile": "0x8213B"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "Parts_AircraftTorpedoW_Engines",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x9D0F0"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Parts_AircraftTorpedoW_Engines",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'AircraftTorpedoWEngine'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/Materials/AircraftTorpedoWEngine.0"
+          },
+          "MaterialSlotName": "Engine",
+          "ImportedMaterialSlotName": "Engine",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1309.0724,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 1309.0724,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -4.964554,
+          "Y": -2.3553772,
+          "Z": 81.261925
+        },
+        "BoxExtent": {
+          "X": 101.07887,
+          "Y": 151.99142,
+          "Z": 81.4368
+        },
+        "SphereRadius": 188.40977
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Parts_AircraftTorpedoW_Engines:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/PackedParts/Parts_AircraftTorpedoW_Engines.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Parts_AircraftTorpedoW_Engines:NavCollision_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/AircraftTorpedoW/PackedParts/Parts_AircraftTorpedoW_Engines.1"
+    },
+    "LightingGuid": "38527D40-430962C0-555A1995-9EBCD7E0",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 3972,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 3378,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 3379
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 3379,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 1986,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 2018,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 5.3134675,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 2019
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 2019,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": -4.964554,
+          "Y": -2.3553772,
+          "Z": 81.261925
+        },
+        "BoxExtent": {
+          "X": 101.07887,
+          "Y": 151.99142,
+          "Z": 81.4368
+        },
+        "SphereRadius": 188.40977
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.63381016,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

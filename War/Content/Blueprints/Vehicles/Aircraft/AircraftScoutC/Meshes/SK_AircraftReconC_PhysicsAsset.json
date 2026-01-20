@@ -1,0 +1,284 @@
+[
+  {
+    "Type": "PhysicsAsset",
+    "Name": "SK_AircraftReconC_PhysicsAsset",
+    "Class": "UScriptClass'PhysicsAsset'",
+    "Properties": {
+      "BoundsBodies": [
+        0
+      ],
+      "SkeletalBodySetups": [
+        {
+          "ObjectName": "SkeletalBodySetup'SK_AircraftReconC_PhysicsAsset:SkeletalBodySetup_17'",
+          "ObjectPath": "War/Content/Blueprints/Vehicles/Aircraft/AircraftScoutC/Meshes/SK_AircraftReconC_PhysicsAsset.1"
+        }
+      ],
+      "ThumbnailInfo": null
+    }
+  },
+  {
+    "Type": "SkeletalBodySetup",
+    "Name": "SkeletalBodySetup_17",
+    "Outer": "SK_AircraftReconC_PhysicsAsset",
+    "Class": "UScriptClass'SkeletalBodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "BoxElems": [
+          {
+            "Center": {
+              "X": -3.5736168E-15,
+              "Y": -86.93114,
+              "Z": 148.13397
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 74.46303,
+            "Y": 119.362976,
+            "Z": 57.099854,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": -1.6497211,
+              "Y": -27.941557,
+              "Z": -4.399174
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 270.34253,
+            "Y": 221.49933,
+            "Z": 40.359863,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": -336.3547,
+              "Y": -24.277426,
+              "Z": -3.499221
+            },
+            "Rotation": {
+              "Pitch": -3.3734782,
+              "Yaw": -2.2419186E-21,
+              "Roll": -7.8279475E-23
+            },
+            "X": 401.55728,
+            "Y": 159.38013,
+            "Z": 17.868605,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": 336.3547,
+              "Y": -24.277426,
+              "Z": -3.499221
+            },
+            "Rotation": {
+              "Pitch": 3.373478,
+              "Yaw": -0.0,
+              "Roll": -0.0
+            },
+            "X": 401.55728,
+            "Y": 159.38013,
+            "Z": 17.868605,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": 0.0,
+              "Y": -585.1777,
+              "Z": 96.973404
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 28.700073,
+            "Y": 201.56018,
+            "Z": 90.75995,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": 0.0,
+              "Y": -619.7554,
+              "Z": 176.19522
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 18.740356,
+            "Y": 133.02026,
+            "Z": 171.23999,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": -94.19375,
+              "Y": -552.3647,
+              "Z": 111.41936
+            },
+            "Rotation": {
+              "Pitch": 10.284461,
+              "Yaw": 1.1666844E-20,
+              "Roll": -2.3697297E-21
+            },
+            "X": 164.33997,
+            "Y": 133.0,
+            "Z": 12.080017,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": 94.19375,
+              "Y": -552.3647,
+              "Z": 111.41936
+            },
+            "Rotation": {
+              "Pitch": -10.284461,
+              "Yaw": 0.0,
+              "Roll": -0.0
+            },
+            "X": 164.33997,
+            "Y": 133.0,
+            "Z": 12.080017,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": -165.21606,
+              "Y": -377.97372,
+              "Z": -83.12238
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 78.80017,
+            "Y": 263.02002,
+            "Z": 48.019897,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": 165.21606,
+              "Y": -377.97372,
+              "Z": -83.12238
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "X": 78.80017,
+            "Y": 263.02002,
+            "Z": 48.019897,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ],
+        "SphylElems": [
+          {
+            "Center": {
+              "X": 1.7285567E-21,
+              "Y": 1.5425075,
+              "Z": 58.546772
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 89.999954
+            },
+            "Radius": 84.19092,
+            "Length": 448.71503,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": 9.155282E-05,
+              "Y": -362.182,
+              "Z": 73.944984
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 89.999954
+            },
+            "Radius": 68.47757,
+            "Length": 278.54297,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": -163.40637,
+              "Y": 34.30642,
+              "Z": -92.871735
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 89.999954
+            },
+            "Radius": 51.140076,
+            "Length": 487.04993,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          },
+          {
+            "Center": {
+              "X": 163.40637,
+              "Y": 34.30642,
+              "Z": -92.871735
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 89.999954
+            },
+            "Radius": 51.140076,
+            "Length": 487.04993,
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true
+          }
+        ]
+      },
+      "BoneName": "AircraftReconC_Offset",
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "C9D3861749C5AD5ABE9064A51DF8F84A"
+  }
+]

@@ -1,0 +1,516 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'StructProperty'",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Fir01SnowyReplacement1_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.27"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'Fir01SnowyReplacement1_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'Fir01SnowyReplacement1_C:ExecuteUbergraph_Fir01SnowyReplacement1'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ClientFoliageReplacement'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'Fir01SnowyReplacement1_C:UberGraphFrame'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.0"
+      },
+      {
+        "ObjectName": "Function'Fir01SnowyReplacement1_C:OnStateChanged'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.12"
+      },
+      {
+        "ObjectName": "Function'Fir01SnowyReplacement1_C:ExecuteUbergraph_Fir01SnowyReplacement1'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'Fir01SnowyReplacement1_C:Fire'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'Fir01SnowyReplacement1_C:NoMansLandTreeFire'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'Fir01SnowyReplacement1_C:NoMansLandSplinter'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'Fir01SnowyReplacement1_C:Splinter'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.18"
+      },
+      {
+        "ObjectName": "EnumProperty'Fir01SnowyReplacement1_C:NewVar_0'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.15"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Fir01SnowyReplacement1": {
+        "ObjectName": "Function'Fir01SnowyReplacement1_C:ExecuteUbergraph_Fir01SnowyReplacement1'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.7"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'Fir01SnowyReplacement1_C:OnStateChanged'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.12"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Fir01SnowyReplacement1_C'Default__Fir01SnowyReplacement1_C'",
+      "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.2"
+    }
+  },
+  {
+    "Type": "Fir01SnowyReplacement1_C",
+    "Name": "Default__Fir01SnowyReplacement1_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.Fir01SnowyReplacement1_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "DestroyedMesh": {
+        "ObjectName": "StaticMesh'FirSnow01Ruined'",
+        "ObjectPath": "War/Content/Meshes/Environment/Foliage/FirSnow01Ruined.2"
+      },
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__Fir01SnowyReplacement1_C:Mesh'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.28"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Fir01SnowyReplacement1_C:Mesh'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.28"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "Fire_GEN_VARIABLE",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'TreeReplacementFire'",
+        "ObjectPath": "War/Content/Audio/Ambient/TreeReplacementFire.0"
+      },
+      "RelativeLocation": {
+        "X": 0.4485855,
+        "Y": -43.17045,
+        "Z": 980.63763
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "Splinter_GEN_VARIABLE",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'TreeReplacementSplinter'",
+        "ObjectPath": "War/Content/Audio/Ambient/TreeReplacementSplinter.0"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 983.05786
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Fire",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_Fir01SnowyReplacement1",
+    "Class": "UScriptClass'IntProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Fir01SnowyReplacement1",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'Function'",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'Fir01SnowyReplacement1_C:ExecuteUbergraph_Fir01SnowyReplacement1.EntryPoint'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.6"
+      },
+      {
+        "ObjectName": "EnumProperty'Fir01SnowyReplacement1_C:ExecuteUbergraph_Fir01SnowyReplacement1.K2Node_Event_State'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.14"
+      },
+      {
+        "ObjectName": "BoolProperty'Fir01SnowyReplacement1_C:ExecuteUbergraph_Fir01SnowyReplacement1.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.8"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Outer": "ExecuteUbergraph_Fir01SnowyReplacement1",
+    "Class": "UScriptClass'BoolProperty'",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_Event_State",
+    "Class": "UScriptClass'ByteProperty'",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "NewVar_0",
+    "Class": "UScriptClass'ByteProperty'",
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "State",
+    "Outer": "OnStateChanged",
+    "Class": "UScriptClass'EnumProperty'",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'EClientFoliageReplacementState'",
+      "ObjectPath": "/Script/War"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'Fir01SnowyReplacement1_C:OnStateChanged.State.UnderlyingType'",
+      "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.13"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'ClientFoliageReplacement:OnStateChanged'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'Fir01SnowyReplacement1_C:OnStateChanged.State'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.11"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "State",
+    "Class": "UScriptClass'ByteProperty'",
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Event_State",
+    "Outer": "ExecuteUbergraph_Fir01SnowyReplacement1",
+    "Class": "UScriptClass'EnumProperty'",
+    "Enum": {
+      "ObjectName": "Enum'EClientFoliageReplacementState'",
+      "ObjectPath": "/Script/War"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'Fir01SnowyReplacement1_C:ExecuteUbergraph_Fir01SnowyReplacement1.K2Node_Event_State.UnderlyingType'",
+      "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.9"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "NewVar_0",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'EnumProperty'",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Enum": {
+      "ObjectName": "Enum'EClientFoliageReplacementState'",
+      "ObjectPath": "/Script/War"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'Fir01SnowyReplacement1_C:NewVar_0.UnderlyingType'",
+      "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.10"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "NoMansLandSplinter",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "NoMansLandTreeFire",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Splinter",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "NoMansLandSplinter_GEN_VARIABLE",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'NoMansLandSplintersBirch'",
+        "ObjectPath": "War/Content/FX/NoMansLandSplintersBirch.52"
+      },
+      "RelativeLocation": {
+        "X": -5.5433216,
+        "Y": -44.7679,
+        "Z": 894.91797
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "NoMansLandTreeFire_GEN_VARIABLE",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'TreeFire01'",
+        "ObjectPath": "War/Content/FX/TreeFire01.51"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 846.46497
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Fir01SnowyReplacement1_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.21"
+      },
+      "VariableGuid": "5F64A74C-4BADC529-F4218B84-0B23E5EA",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'Fir01SnowyReplacement1_C:Splinter_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.4"
+      },
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1CDF8439-4E9D4D26-25B006AB-3439E78C",
+      "InternalVariableName": "Splinter"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'Fir01SnowyReplacement1_C:Fire_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.3"
+      },
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C0E92C13-4B84D6FE-2788FEB1-270A1069",
+      "InternalVariableName": "Fire"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'Fir01SnowyReplacement1_C:NoMansLandSplinter_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.19"
+      },
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "737B058A-46DAD277-0534A1AB-03717CA9",
+      "InternalVariableName": "NoMansLandSplinter"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'Fir01SnowyReplacement1_C:NoMansLandTreeFire_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.20"
+      },
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "75B53EDD-4B530FF7-5A61F6A2-4867E8FA",
+      "InternalVariableName": "NoMansLandTreeFire"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'Fir01SnowyReplacement1_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.23"
+        },
+        {
+          "ObjectName": "SCS_Node'Fir01SnowyReplacement1_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.25"
+        },
+        {
+          "ObjectName": "SCS_Node'Fir01SnowyReplacement1_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.26"
+        },
+        {
+          "ObjectName": "SCS_Node'Fir01SnowyReplacement1_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.24"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'Fir01SnowyReplacement1_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.23"
+        },
+        {
+          "ObjectName": "SCS_Node'Fir01SnowyReplacement1_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.25"
+        },
+        {
+          "ObjectName": "SCS_Node'Fir01SnowyReplacement1_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.26"
+        },
+        {
+          "ObjectName": "SCS_Node'Fir01SnowyReplacement1_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.24"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Fir01SnowyReplacement1_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Environment/FoliageReplacement/Fir01SnowyReplacement1.22"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Outer": "Default__Fir01SnowyReplacement1_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FirSnow01Damaged'",
+        "ObjectPath": "War/Content/Meshes/Environment/Foliage/FirSnow01Damaged.2"
+      },
+      "CachedMaxDrawDistance": 10000.0
+    }
+  }
+]

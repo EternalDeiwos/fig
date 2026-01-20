@@ -1,0 +1,250 @@
+[
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_11",
+    "Outer": "WorldPannerCustom",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'CheapContrast'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.1"
+      },
+      "Function": {
+        "ObjectName": "MaterialFunction'WorldPannerCustom'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.6"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_12",
+    "Outer": "WorldPannerCustom",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'CheapContrast'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.1"
+      },
+      "Function": {
+        "ObjectName": "MaterialFunction'WorldPannerCustom'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.6"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureObject",
+    "Name": "MaterialExpressionTextureObject_0",
+    "Outer": "WorldPannerCustom",
+    "Class": "UScriptClass'MaterialExpressionTextureObject'",
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'TilingNoise03'",
+        "ObjectPath": "War/Content/Blueprints/FogSheet/Textures/Noise/TilingNoise03.0"
+      },
+      "SamplerType": "SAMPLERTYPE_LinearColor",
+      "Function": {
+        "ObjectName": "MaterialFunction'WorldPannerCustom'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.6"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_0",
+    "Outer": "WorldPannerCustom",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionAppendVector_1"
+      },
+      "TextureObject": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionFunctionInput_4"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'TilingNoise03'",
+        "ObjectPath": "War/Content/Blueprints/FogSheet/Textures/Noise/TilingNoise03.0"
+      },
+      "SamplerType": "SAMPLERTYPE_LinearColor",
+      "Function": {
+        "ObjectName": "MaterialFunction'WorldPannerCustom'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.6"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_1",
+    "Outer": "WorldPannerCustom",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionAppendVector_2"
+      },
+      "TextureObject": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionFunctionInput_4"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'TilingNoise03'",
+        "ObjectPath": "War/Content/Blueprints/FogSheet/Textures/Noise/TilingNoise03.0"
+      },
+      "SamplerType": "SAMPLERTYPE_LinearColor",
+      "Function": {
+        "ObjectName": "MaterialFunction'WorldPannerCustom'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.6"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_2",
+    "Outer": "WorldPannerCustom",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionAppendVector_3"
+      },
+      "TextureObject": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "None",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 0,
+        "ExpressionName": "MaterialExpressionFunctionInput_4"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'TilingNoise03'",
+        "ObjectPath": "War/Content/Blueprints/FogSheet/Textures/Noise/TilingNoise03.0"
+      },
+      "SamplerType": "SAMPLERTYPE_LinearColor",
+      "Function": {
+        "ObjectName": "MaterialFunction'WorldPannerCustom'",
+        "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.6"
+      }
+    }
+  },
+  {
+    "Type": "MaterialFunction",
+    "Name": "WorldPannerCustom",
+    "Class": "UScriptClass'MaterialFunction'",
+    "Properties": {
+      "FunctionExpressions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'WorldPannerCustom:MaterialExpressionMaterialFunctionCall_11'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.0"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'WorldPannerCustom:MaterialExpressionMaterialFunctionCall_12'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.1"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureObject'WorldPannerCustom:MaterialExpressionTextureObject_0'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.2"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'WorldPannerCustom:MaterialExpressionTextureSample_0'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.3"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'WorldPannerCustom:MaterialExpressionTextureSample_1'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.4"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'WorldPannerCustom:MaterialExpressionTextureSample_2'",
+          "ObjectPath": "War/Content/Blueprints/Weather/Clouds/WorldPannerCustom.5"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "StateId": "A1337409-4518B73A-A3F1D595-ABEABD0F"
+    }
+  }
+]

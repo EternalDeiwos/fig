@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPAircraftPartSmallEngineWreckedCPickup_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPAircraftPartSmallEngineWreckedCPickup_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/AircraftParts/BPAircraftPartSmallEngineWreckedCPickup.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ItemPickup'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPAircraftPartSmallEngineWreckedCPickup_C'Default__BPAircraftPartSmallEngineWreckedCPickup_C'",
+      "ObjectPath": "War/Content/Blueprints/ItemPickups/AircraftParts/BPAircraftPartSmallEngineWreckedCPickup.1"
+    }
+  },
+  {
+    "Type": "BPAircraftPartSmallEngineWreckedCPickup_C",
+    "Name": "Default__BPAircraftPartSmallEngineWreckedCPickup_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/ItemPickups/AircraftParts/BPAircraftPartSmallEngineWreckedCPickup.BPAircraftPartSmallEngineWreckedCPickup_C'",
+    "Properties": {
+      "StealthComponent": {
+        "ObjectName": "StealthComponent'Default__BPAircraftPartSmallEngineWreckedCPickup_C:StealthComponent'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/AircraftParts/BPAircraftPartSmallEngineWreckedCPickup.7"
+      },
+      "Encumbrance": 10,
+      "CodeName": "AircraftPartSmallEngineWreckedC",
+      "ChassisName": {
+        "TableId": "/Game/Blueprints/StringTables/STChassis.STChassis",
+        "Key": "ChassisAircraftPartDamaged",
+        "SourceString": "Damaged Aircraft Part",
+        "LocalizedString": "Damaged Aircraft Part"
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C5FB22D1445FB552992461A0404F05A1",
+        "SourceString": "Damaged Colonial Aircraft Engine (Small)",
+        "LocalizedString": "Damaged Colonial Aircraft Engine (Small)"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "78E379434CFF213150B8A1966470040F",
+        "SourceString": "A damaged aircraft engine from a small Colonial aircraft that can be repaired at aircraft facilities.",
+        "LocalizedString": "A damaged aircraft engine from a small Colonial aircraft that can be repaired at aircraft facilities."
+      },
+      "Icon": {
+        "ObjectName": "Texture2D'AircraftPartSmallEngineCIcon'",
+        "ObjectPath": "War/Content/Textures/UI/ItemIcons/AircraftPartSmallEngineCIcon.0"
+      },
+      "SubTypeIcon": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SubtypeWreckedIcon'",
+          "ObjectPath": "War/Content/Textures/UI/ItemIcons/SubtypeWreckedIcon.0"
+        }
+      },
+      "ItemCategory": "EItemCategory::Parts",
+      "ItemFlagsMask": 33,
+      "ItemProfileType": "EItemProfileType::TorpedoAmmo",
+      "FactionVariant": "EFactionId::Colonials",
+      "bIsHeavy": true,
+      "ItemMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BPAircraftPartSmallEngineWreckedCPickup_C:ItemMesh'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/AircraftParts/BPAircraftPartSmallEngineWreckedCPickup.6"
+      },
+      "ItemBox": {
+        "ObjectName": "BoxComponent'Default__BPAircraftPartSmallEngineWreckedCPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/AircraftParts/BPAircraftPartSmallEngineWreckedCPickup.2"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Default__BPAircraftPartSmallEngineWreckedCPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/AircraftParts/BPAircraftPartSmallEngineWreckedCPickup.2"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "ItemBox",
+    "Outer": "Default__BPAircraftPartSmallEngineWreckedCPickup_C",
+    "Class": "UScriptClass'BoxComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPAircraftPartSmallEngineWreckedCPickup_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPAircraftPartSmallEngineWreckedCPickup_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/AircraftParts/BPAircraftPartSmallEngineWreckedCPickup.3"
+      },
+      "VariableGuid": "11BA9CD8-44442584-5D09BD9B-D852646E",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPAircraftPartSmallEngineWreckedCPickup_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPAircraftPartSmallEngineWreckedCPickup_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/AircraftParts/BPAircraftPartSmallEngineWreckedCPickup.4"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ItemMesh",
+    "Outer": "Default__BPAircraftPartSmallEngineWreckedCPickup_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BoxComponent'Default__BPAircraftPartSmallEngineWreckedCPickup_C:ItemBox'",
+        "ObjectPath": "War/Content/Blueprints/ItemPickups/AircraftParts/BPAircraftPartSmallEngineWreckedCPickup.2"
+      }
+    }
+  },
+  {
+    "Type": "StealthComponent",
+    "Name": "StealthComponent",
+    "Outer": "Default__BPAircraftPartSmallEngineWreckedCPickup_C",
+    "Class": "UScriptClass'StealthComponent'"
+  }
+]

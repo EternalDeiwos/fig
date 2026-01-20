@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "CurveFloat",
+    "Name": "AircraftScoutWRollingResistanceCurve",
+    "Class": "UScriptClass'CurveFloat'",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": -200.0,
+            "Value": 0.40000007,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": -150.0,
+            "Value": 0.24999997,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": -29.6,
+            "Value": 0.24999997,
+            "ArriveTangent": -0.00026357346,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -0.00026357346,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.34999996,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.3333335,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.3333335
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 30.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.33333334,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.33333334
+          }
+        ]
+      }
+    }
+  }
+]

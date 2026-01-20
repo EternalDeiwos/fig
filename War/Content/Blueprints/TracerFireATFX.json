@@ -1,0 +1,359 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "ParticleSystem",
+    "Outer": "TracerFireATFX_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TracerFireATFX_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'TracerFireATFX_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/TracerFireATFX.10"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'WeaponFireFX'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'TracerFireATFX_C:ParticleSystem'",
+        "ObjectPath": "War/Content/Blueprints/TracerFireATFX.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'TracerFireATFX_C:StaticMesh'",
+        "ObjectPath": "War/Content/Blueprints/TracerFireATFX.3"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TracerFireATFX_C'Default__TracerFireATFX_C'",
+      "ObjectPath": "War/Content/Blueprints/TracerFireATFX.2"
+    }
+  },
+  {
+    "Type": "TracerFireATFX_C",
+    "Name": "Default__TracerFireATFX_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/TracerFireATFX.TracerFireATFX_C'",
+    "Properties": {
+      "MovementComp": {
+        "ObjectName": "ProjectileMovementComponent'Default__TracerFireATFX_C:ProjectileComp'",
+        "ObjectPath": "War/Content/Blueprints/TracerFireATFX.5"
+      },
+      "CollisionComp": {
+        "ObjectName": "SphereComponent'Default__TracerFireATFX_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/TracerFireATFX.11"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__TracerFireATFX_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/TracerFireATFX.11"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh",
+    "Outer": "TracerFireATFX_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ParticleSystem_GEN_VARIABLE",
+    "Outer": "TracerFireATFX_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'WaterProjectileTrail'",
+        "ObjectPath": "War/Content/FX/WaterProjectileTrail.13"
+      },
+      "RelativeLocation": {
+        "X": -31.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "bVisible": false,
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "ProjectileMovementComponent",
+    "Name": "ProjectileComp",
+    "Outer": "Default__TracerFireATFX_C",
+    "Class": "UScriptClass'ProjectileMovementComponent'",
+    "Properties": {
+      "InitialSpeed": 10000.0
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "TracerFireATFX_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'TracerFireATFX_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/TracerFireATFX.6"
+      },
+      "VariableGuid": "80D70E92-4980AF29-7903AC84-0DEE5D6F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'TracerFireATFX_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/TracerFireATFX.12"
+      },
+      "ParentComponentOrVariableName": "SphereComp",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1CC32C2E-4CF94781-EB9729B6-384BD7AA",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'TracerFireATFX_C:ParticleSystem_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/TracerFireATFX.4"
+      },
+      "ParentComponentOrVariableName": "SphereComp",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E608D3BB-43A38429-5517CB8F-5FE22684",
+      "InternalVariableName": "ParticleSystem"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "TracerFireATFX_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'TracerFireATFX_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/TracerFireATFX.8"
+        },
+        {
+          "ObjectName": "SCS_Node'TracerFireATFX_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/TracerFireATFX.9"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'TracerFireATFX_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "War/Content/Blueprints/TracerFireATFX.8"
+        },
+        {
+          "ObjectName": "SCS_Node'TracerFireATFX_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "War/Content/Blueprints/TracerFireATFX.9"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'TracerFireATFX_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/TracerFireATFX.7"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "SphereComp",
+    "Outer": "Default__TracerFireATFX_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "TracerFireATFX_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TracerAT'",
+        "ObjectPath": "War/Content/FX/Mesh/TracerAT.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'TracerFire2FX'",
+          "ObjectPath": "War/Content/Materials/TracerFire2FX.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'TracerFireMechFX'",
+          "ObjectPath": "War/Content/Materials/TracerFireMechFX.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'TracerFireMechFX'",
+          "ObjectPath": "War/Content/Materials/TracerFireMechFX.0"
+        }
+      ],
+      "bGenerateOverlapEvents": false,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "bCastDynamicShadow": false,
+      "bCastStaticShadow": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "MassInKgOverride": 0.0
+      },
+      "RelativeLocation": {
+        "X": -19.999998,
+        "Y": 8.34465E-05,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00023,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.6,
+        "Y": 1.6375608,
+        "Z": 0.71297723
+      },
+      "bCanEverAffectNavigation": false
+    }
+  }
+]

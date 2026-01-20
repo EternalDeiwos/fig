@@ -1,0 +1,143 @@
+[
+  {
+    "Type": "BlendSpace1D",
+    "Name": "BS_GunBoatCHull_MainGun_V",
+    "Class": "UScriptClass'BlendSpace1D'",
+    "Properties": {
+      "SampleData": [
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Pose_GunboatCHullMainGun_H_00'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatCRemodel/Anim/MainGun/Pose_GunboatCHullMainGun_H_00.0"
+          },
+          "SampleValue": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Pose_GunboatCHullMainGun_V_10'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatCRemodel/Anim/MainGun/Pose_GunboatCHullMainGun_V_10.0"
+          },
+          "SampleValue": {
+            "X": 10.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Pose_GunboatCHullMainGun_V_20'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatCRemodel/Anim/MainGun/Pose_GunboatCHullMainGun_V_20.0"
+          },
+          "SampleValue": {
+            "X": 20.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Pose_GunboatCHullMainGun_V_30'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatCRemodel/Anim/MainGun/Pose_GunboatCHullMainGun_V_30.0"
+          },
+          "SampleValue": {
+            "X": 30.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Pose_GunboatCHullMainGun_V_40'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatCRemodel/Anim/MainGun/Pose_GunboatCHullMainGun_V_40.0"
+          },
+          "SampleValue": {
+            "X": 40.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'Pose_GunboatCHullMainGun_V_50'",
+            "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatCRemodel/Anim/MainGun/Pose_GunboatCHullMainGun_V_50.0"
+          },
+          "SampleValue": {
+            "X": 50.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        }
+      ],
+      "GridSamples": [
+        {
+          "Indices": 1,
+          "Indices[1]": 0,
+          "Indices[2]": -1,
+          "Weights": 0.0,
+          "Weights[1]": 1.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 1,
+          "Indices[1]": 0,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 2,
+          "Indices[1]": 1,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 3,
+          "Indices[1]": 2,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 4,
+          "Indices[1]": 3,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 5,
+          "Indices[1]": 4,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        }
+      ],
+      "BlendParameters": {
+        "DisplayName": "Pitch",
+        "Max": 50.0,
+        "GridNum": 5
+      },
+      "Skeleton": {
+        "ObjectName": "Skeleton'SK_GunBoatCHull_Skeleton'",
+        "ObjectPath": "War/Content/Blueprints/Vehicles/Gunboats/GunboatCRemodel/SK_GunBoatCHull_Skeleton.3"
+      }
+    },
+    "SkeletonGuid": "7FF7FD23-456CAA1A-1EE609B3-97487AF0"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPDemolitionBreachingFalloffDamageType_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SimDamageType'",
+      "ObjectPath": "/Script/War"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_Const | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPDemolitionBreachingFalloffDamageType_C'Default__BPDemolitionBreachingFalloffDamageType_C'",
+      "ObjectPath": "War/Content/Blueprints/DamageTypes/BPDemolitionBreachingFalloffDamageType.1"
+    }
+  },
+  {
+    "Type": "BPDemolitionBreachingFalloffDamageType_C",
+    "Name": "Default__BPDemolitionBreachingFalloffDamageType_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/DamageTypes/BPDemolitionBreachingFalloffDamageType.BPDemolitionBreachingFalloffDamageType_C'",
+    "Properties": {
+      "Type": "EDamageType::Demolition",
+      "bCanRuinStructures": true,
+      "bApplyDamageFalloff": true,
+      "bNeverAppliesBleeding": true,
+      "VehicleSubsystemDisableMultipliers": 0.0,
+      "VehicleSubsystemDisableMultipliers[1]": 0.0,
+      "VehicleSubsystemDisableMultipliers[2]": 0.0,
+      "VehicleSubsystemDisableMultipliers[3]": 0.0,
+      "VehicleSubsystemDisableMultipliers[4]": 0.0,
+      "VehicleSubsystemDisableMultipliers[5]": 0.0,
+      "VehicleSubsystemDisableMultipliers[6]": 0.0,
+      "bCanWoundCharacter": true,
+      "bApplyTankArmourAngleRangeBonuses": false,
+      "bExposeInUI": true,
+      "bBreachesBunkers": true,
+      "bIgnoreBreachesBunkersThreshold": true,
+      "Icon": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'SubtypeLRAIcon'",
+          "ObjectPath": "War/Content/Textures/UI/ItemIcons/SubtypeLRAIcon.0"
+        }
+      },
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "658602564B92D6B3F6F28EB71D1F113D",
+        "SourceString": "Demolition",
+        "LocalizedString": "Demolition"
+      },
+      "DescriptionDetails": [
+        {
+          "TooltipDetailType": "ETooltipDetailType::HighestVisibility",
+          "Text": {
+            "Namespace": "",
+            "Key": "1685A3AE449CD183D22747B8DD802943",
+            "SourceString": "Always has a chance to breach bunkers",
+            "LocalizedString": "Always has a chance to breach bunkers"
+          }
+        }
+      ]
+    }
+  }
+]

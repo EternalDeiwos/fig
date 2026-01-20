@@ -1,0 +1,188 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "LargarShipAircraftCarrierC",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "F50136B245B358BC0E5C349C19971AEA",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1869,
+        "SizeOnDisk": 1869,
+        "OffsetInFile": "0x3AF5"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_1",
+    "Outer": "LargarShipAircraftCarrierC",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x428A"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "LargarShipAircraftCarrierC",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'Grass'",
+            "ObjectPath": "War/Content/Materials/Environment/Grass.0"
+          },
+          "MaterialSlotName": "Material #506",
+          "ImportedMaterialSlotName": "Material #506",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 175.17188,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 175.17188,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -21.419296,
+          "Y": 19.33078,
+          "Z": 60.041622
+        },
+        "BoxExtent": {
+          "X": 142.55876,
+          "Y": 151.26053,
+          "Z": 62.041103
+        },
+        "SphereRadius": 166.93565
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'LargarShipAircraftCarrierC:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LargarShipAircraftCarrierC.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'LargarShipAircraftCarrierC:NavCollision_1'",
+      "ObjectPath": "War/Content/Blueprints/Vehicles/LargarShipAircraftCarrierC.1"
+    },
+    "LightingGuid": "D022DC72-4383EFC2-1FC789A0-87593057",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 38,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 79,
+              "bEnableCollision": true,
+              "bCastShadow": false,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 80
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 80,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 80
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 19,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 56,
+              "bEnableCollision": true,
+              "bCastShadow": false,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 859.8146,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 57
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 57,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 4,
+            "NumVertices": 57
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": -21.419296,
+          "Y": 19.33078,
+          "Z": 60.041622
+        },
+        "BoxExtent": {
+          "X": 142.55876,
+          "Y": 151.26053,
+          "Z": 62.041103
+        },
+        "SphereRadius": 166.93565
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.0053768298,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

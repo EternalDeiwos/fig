@@ -1,0 +1,296 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "StaticMesh",
+    "Outer": "BPDemolitionRocketProjectileNoSpool_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPDemolitionRocketProjectileNoSpool_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BPDemolitionRocketProjectileNoSpool_C:SimpleConstructionScript_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.10"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SpoolProjectile'",
+      "ObjectPath": "/Script/War"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BPDemolitionRocketProjectileNoSpool_C:StaticMesh'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.0"
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPDemolitionRocketProjectileNoSpool_C'Default__BPDemolitionRocketProjectileNoSpool_C'",
+      "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.2"
+    }
+  },
+  {
+    "Type": "BPDemolitionRocketProjectileNoSpool_C",
+    "Name": "Default__BPDemolitionRocketProjectileNoSpool_C",
+    "Class": "BlueprintGeneratedClass'War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.BPDemolitionRocketProjectileNoSpool_C'",
+    "Properties": {
+      "FiringAudioComponent": {
+        "ObjectName": "AudioComponent'Default__BPDemolitionRocketProjectileNoSpool_C:FiringAudioComponent'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.3"
+      },
+      "SpoolDuration": 0.1,
+      "MovementComp": {
+        "ObjectName": "ProjectileMovementComponent'Default__BPDemolitionRocketProjectileNoSpool_C:ProjectileComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.6"
+      },
+      "CollisionComp": {
+        "ObjectName": "SphereComponent'Default__BPDemolitionRocketProjectileNoSpool_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.11"
+      },
+      "ParticleComp": {
+        "ObjectName": "ParticleSystemComponent'Default__BPDemolitionRocketProjectileNoSpool_C:ParticleComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.5"
+      },
+      "LoopingAudio": {
+        "ObjectName": "AudioComponent'Default__BPDemolitionRocketProjectileNoSpool_C:LoopingAudio'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.4"
+      },
+      "ExplosionTemplate": {
+        "ObjectName": "BlueprintGeneratedClass'DemolitionRocketAmmoExplosion_C'",
+        "ObjectPath": "War/Content/Blueprints/Items/DemolitionRocketAmmoExplosion.1"
+      },
+      "ExplosiveCodeName": "DemolitionRocketAmmo",
+      "AutoDetonateTime": 5.0,
+      "ProjectileDeathDelay": 8.0,
+      "bImpactsWater": true,
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BPDemolitionRocketProjectileNoSpool_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.11"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "FiringAudioComponent",
+    "Outer": "Default__BPDemolitionRocketProjectileNoSpool_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "SoundCue'DemolitionRocketLaunch_Cue'",
+        "ObjectPath": "War/Content/Audio/SFX/Weapons/Rockets/DemolitionRocketLaunch_Cue.0"
+      },
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BPDemolitionRocketProjectileNoSpool_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.11"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "LoopingAudio",
+    "Outer": "Default__BPDemolitionRocketProjectileNoSpool_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BPDemolitionRocketProjectileNoSpool_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.11"
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ParticleComp",
+    "Outer": "Default__BPDemolitionRocketProjectileNoSpool_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'RocketMultiProjectile'",
+        "ObjectPath": "War/Content/FX/RocketMultiProjectile.40"
+      },
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BPDemolitionRocketProjectileNoSpool_C:SphereComp'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.11"
+      },
+      "RelativeLocation": {
+        "X": -75.0,
+        "Y": 1.0,
+        "Z": 4.470349E-06
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "ProjectileMovementComponent",
+    "Name": "ProjectileComp",
+    "Outer": "Default__BPDemolitionRocketProjectileNoSpool_C",
+    "Class": "UScriptClass'ProjectileMovementComponent'",
+    "Properties": {
+      "ProjectileGravityScale": 4.13
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BPDemolitionRocketProjectileNoSpool_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BPDemolitionRocketProjectileNoSpool_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.7"
+      },
+      "VariableGuid": "74BF4467-4EA8C57D-77ACC998-A2AD2114",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BPDemolitionRocketProjectileNoSpool_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.12"
+      },
+      "ParentComponentOrVariableName": "SphereComp",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8F308AE9-496BB423-36E5C0B3-EFBC7568",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BPDemolitionRocketProjectileNoSpool_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BPDemolitionRocketProjectileNoSpool_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.9"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BPDemolitionRocketProjectileNoSpool_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.9"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BPDemolitionRocketProjectileNoSpool_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "War/Content/Blueprints/Items/BPDemolitionRocketProjectileNoSpool.8"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "SphereComp",
+    "Outer": "Default__BPDemolitionRocketProjectileNoSpool_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Properties": {
+      "SphereRadius": 17.0
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BPDemolitionRocketProjectileNoSpool_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'DemolitionRocketAmmo_RootOffset'",
+        "ObjectPath": "War/Content/Meshes/Weapons/DemolitionRocketAmmo_RootOffset.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel8",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "OverlapDowncast",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -1.1921011E-07,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.999985,
+        "Roll": 0.0
+      }
+    }
+  }
+]

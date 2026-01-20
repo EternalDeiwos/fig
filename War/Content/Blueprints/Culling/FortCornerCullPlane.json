@@ -1,0 +1,180 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "FortCornerCullPlane",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Damage",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "BuildSurface",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "CCA46D2146D64C079D938890B333BC1E"
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Outer": "FortCornerCullPlane",
+    "Class": "UScriptClass'NavCollision'",
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x1B62"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "FortCornerCullPlane",
+    "Class": "UScriptClass'StaticMesh'",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "ImportedMaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 97.41823,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 97.41823,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.20000076,
+          "Y": 2.1999931,
+          "Z": 0.0
+        },
+        "BoxExtent": {
+          "X": 50.000015,
+          "Y": 50.000008,
+          "Z": 0.0
+        },
+        "SphereRadius": 70.710686
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'FortCornerCullPlane:BodySetup_0'",
+      "ObjectPath": "War/Content/Blueprints/Culling/FortCornerCullPlane.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'FortCornerCullPlane:NavCollision_2'",
+      "ObjectPath": "War/Content/Blueprints/Culling/FortCornerCullPlane.1"
+    },
+    "LightingGuid": "3745857A-413018B5-29C919B7-2357D0D9",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 3,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 4,
+              "bEnableCollision": false,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 5
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 5,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 2,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 3,
+              "bEnableCollision": false,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 402.80447,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 4
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 1,
+            "NumVertices": 4,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "Bounds": {
+        "Origin": {
+          "X": -0.20000076,
+          "Y": 2.1999931,
+          "Z": 0.0
+        },
+        "BoxExtent": {
+          "X": 50.000015,
+          "Y": 50.000008,
+          "Z": 0.0
+        },
+        "SphereRadius": 70.710686
+      },
+      "bLODsShareStaticLighting": true,
+      "ScreenSize": [
+        1.0,
+        0.004862937,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]
